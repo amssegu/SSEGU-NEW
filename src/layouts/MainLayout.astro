@@ -39,40 +39,31 @@ const currentPath = Astro.url.pathname;
     <div class="shell masthead">
       <a class="brand" href="/" aria-label="SSEGU home">
         <span class="brand-line">
-          <i aria-hidden="true"></i>
           <b>SSEGU</b>
         </span>
-        <small>Inform. Educate. Empower.</small>
       </a>
-      <div class="masthead-banner" aria-label="SSEGU: A more informed Uganda, a brighter future">
-        <span>
-          A more informed Uganda
-          <br />
-          <em>A brighter future</em>
-        </span>
-      </div>
-    </div>
-    <div class="nav-wrap">
-      <div class="shell nav-inner">
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
-          Menu <span aria-hidden="true">☰</span>
-        </button>
-        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
-          {nav.map((item) => (
-            <a class:list:active={currentPath === item.href} href={item.href}>
-              {item.label}
-              {item.menu && (
-                <span class="nav-caret" aria-hidden="true">
-                  ⌄
-                </span>
-              )}
-            </a>
-          ))}
-          <a href="/category/travel/">More</a>
-        </nav>
-      </div>
     </div>
   </header>
+  <div class="nav-wrap">
+    <div class="shell nav-inner">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        Menu <span aria-hidden="true">☰</span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        {nav.map((item) => (
+          <a class:list:active={currentPath === item.href} href={item.href}>
+            {item.label}
+            {item.menu && (
+              <span class="nav-caret" aria-hidden="true">
+                ⌄
+              </span>
+            )}
+          </a>
+        ))}
+        <a href="/category/travel/">More</a>
+      </nav>
+    </div>
+  </div>
   <main id="main-content" class="site-main">
     <slot />
   </main>

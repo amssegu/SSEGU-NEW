@@ -1,6 +1,20 @@
-<div class="breaking shell">
+---
+import { getArticles } from '../../lib/articles';
+const latest = getArticles().slice(0, 5);
+---
+
+<div class="breaking shell" aria-label="Latest news">
   <strong>⚡ BREAKING NEWS</strong>
-  <a href="/government-unveils-new-ict-strategy-for-a-digital-uganda/">
-    Uganda to boost digital skills in new national ICT strategy <span aria-hidden="true">→</span>
-  </a>
+  <div class="breaking-window">
+    <div class="breaking-track">
+      {latest.map((article) => (
+        <a href={`/${article.slug}/`}>{article.title} <span aria-hidden="true">→</span></a>
+      ))}
+      {latest.map((article) => (
+        <a href={`/${article.slug}/`} aria-hidden="true" tabindex="-1">
+          {article.title} <span aria-hidden="true">→</span>
+        </a>
+      ))}
+    </div>
+  </div>
 </div>

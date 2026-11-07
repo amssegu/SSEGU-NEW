@@ -9,6 +9,7 @@ import { getArticles, label } from '../lib/articles';
 const stories = getArticles();
 const lead = stories[0];
 const supporting = stories.slice(1, 5);
+const belowLead = stories.slice(5, 7);
 ---
 
 <MainLayout
@@ -18,21 +19,28 @@ const supporting = stories.slice(1, 5);
   <BreakingNews />
   <div class="shell home-grid">
     <section class="lead-area" aria-labelledby="lead-title">
-      <article class="lead-story">
-        <a href={`/${lead.slug}/`}>
-          <img src={lead.image} alt={`Illustration for ${lead.title}`} width="1200" height="675" />
-        </a>
-        <div class="lead-overlay">
-          <p class:list={['category-label', `category-${lead.category}`]}>{label(lead.category)}</p>
-          <h1 id="lead-title">
-            <a href={`/${lead.slug}/`}>{lead.title}</a>
-          </h1>
-          <p>{lead.description}</p>
-          <a class="read-more" href={`/${lead.slug}/`}>
-            Read more →
+      <div class="lead-primary">
+        <article class="lead-story">
+          <a href={`/${lead.slug}/`}>
+            <img src={lead.image} alt={`Illustration for ${lead.title}`} width="1200" height="675" />
           </a>
+          <div class="lead-overlay">
+            <p class:list={['category-label', `category-${lead.category}`]}>{label(lead.category)}</p>
+            <h1 id="lead-title">
+              <a href={`/${lead.slug}/`}>{lead.title}</a>
+            </h1>
+            <p>{lead.description}</p>
+            <a class="read-more" href={`/${lead.slug}/`}>
+              Read more →
+            </a>
+          </div>
+        </article>
+        <div class="below-lead-stories" aria-label="More featured stories">
+          {belowLead.map((article) => (
+            <StoryCard article={article} />
+          ))}
         </div>
-      </article>
+      </div>
       <div class="supporting-stories">
         {supporting.map((article) => (
           <StoryCard article={article} compact />
@@ -51,7 +59,7 @@ const supporting = stories.slice(1, 5);
         <a href="/news/">View all news →</a>
       </div>
       <div class="card-grid">
-        {stories.slice(4, 8).map((article) => (
+        {stories.slice(4, 7).map((article) => (
           <StoryCard article={article} />
         ))}
       </div>
