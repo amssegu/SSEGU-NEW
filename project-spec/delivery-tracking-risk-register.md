@@ -50,6 +50,8 @@ Migration-dependent phases/tasks are blocked by missing supplied data, not treat
 | Confirm Cloudflare project and environment ownership | Deployment administrator | Phase 2 | Preview/deploy cannot be evidenced | No deployment claim | Open |
 | Confirm provider limits/pricing | Operations owner | Phase 2/7 | Cost/reliability uncertainty | Stay static and portable | Open |
 | Client handover and custom-domain association | Andronicus Enoch M. + future client administrator | Phase 8 | Ownership/deployment continuity may fail | Keep current Pages project as operational source until handover checklist passes | Open |
+| Synthetic fixture content reaches handoff | Andronicus Enoch M. | Before Phase 6/8 handoff | Placeholder copy/routes/media could be published as real content | Keep fixture-only labels and block handoff until replacement/re-audit is signed off | Open |
+| Fixture data delays development | Andronicus Enoch M. | Phase 2 | Missing migration data could stop time-sensitive foundation work | Use the approved synthetic fixture set for development; retain migration/launch gate before handoff | Accepted temporary exception |
 
 ## 4. Phase-gate evidence standard
 
