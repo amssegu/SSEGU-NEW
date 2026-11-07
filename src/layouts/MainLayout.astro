@@ -1,0 +1,22 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<BaseLayout title={title} description={description}>
+  <header class="site-header">
+    <p class="site-label">SSEGU main publication · fixture foundation</p>
+  </header>
+  <main id="main-content" class="site-main">
+    <slot />
+  </main>
+  <footer class="site-footer">
+    <small>Fixture content only. Replace with the authoritative dataset before handoff.</small>
+  </footer>
+</BaseLayout>

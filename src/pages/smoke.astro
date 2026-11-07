@@ -1,0 +1,13 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="SSEGU smoke test" description="Astro foundation smoke-test page.">
+  <section class="foundation-card" aria-labelledby="smoke-title">
+    <p class="eyebrow">Toolchain check</p>
+    <h1 id="smoke-title">Smoke test passed</h1>
+    <p data-smoke-status="ok">
+      Static Astro routing, TypeScript templates and shared layouts are available.
+    </p>
+  </section>
+</MainLayout>

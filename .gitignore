@@ -7,6 +7,8 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+node_modules/
+.astro/
 .Python
 build/
 develop-eggs/
@@ -15,6 +17,8 @@ downloads/
 eggs/
 .eggs/
 lib/
+!src/lib/
+!src/lib/.gitkeep
 lib64/
 parts/
 sdist/
