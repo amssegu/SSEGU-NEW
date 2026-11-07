@@ -37,7 +37,7 @@
 | Static-first Astro configuration | PASS | `astro.config.mjs` uses `output: 'static'` |
 | CI workflow defined | PASS | `.github/workflows/ci.yml`; external run still needs evidence |
 | Branch governance documented | PASS | Phase 0 governance and CI required check documented |
-| Cloudflare Pages build settings documented | PASS | `docs/deployment.md`, `wrangler.toml` |
+| Cloudflare Pages build settings documented | PASS | `docs/deployment.md`, `wrangler.toml`; dashboard Build command still needs to be set |
 | Reviewable Cloudflare preview works | BLOCK | No preview environment is provisioned under the current production-only decision |
 | Production/preview secret separation | DEFERRED | Production secrets are in Cloudflare; no preview environment exists to verify |
 | Security headers and safe robots/admin placeholders | PASS | `public/_headers`, `robots.txt`, admin noindex placeholder |
