@@ -1,0 +1,18 @@
+---
+import type { Article } from '../../lib/articles';
+interface Props {
+  articles: Article[];
+}
+const { articles } = Astro.props;
+---
+
+<section class="top-stories" aria-labelledby="top-stories-title">
+  <h2 id="top-stories-title">Top Stories</h2>
+  <ol>
+    {articles.slice(0, 5).map((article) => (
+      <li>
+        <a href={`/${article.slug}/`}>{article.title}</a>
+      </li>
+    ))}
+  </ol>
+</section>

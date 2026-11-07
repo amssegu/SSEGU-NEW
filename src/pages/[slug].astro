@@ -1,0 +1,52 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { articles, formatDate, label } from '../lib/articles';
+export function getStaticPaths() {
+  return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+}
+const { article } = Astro.props;
+const related = articles
+  .filter((item) => item.slug !== article.slug && item.category === article.category)
+  .slice(0, 3);
+---
+
+<MainLayout title={`${article.title} | SSEGU`} description={article.description}>
+  <article class="shell article-page">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span>/</span>
+      <a href={`/category/${article.category}/`}>{label(article.category)}</a>
+      <span>/</span>
+      <span aria-current="page">Article</span>
+    </nav>
+    <p class="eyebrow">{label(article.category)}</p>
+    <h1>{article.title}</h1>
+    <p class="article-dek">{article.description}</p>
+    <p class="article-meta">
+      By {article.author} ·{' '}
+      <time datetime={article.publishedAt}>{formatDate(article.publishedAt)}</time>
+    </p>
+    <img
+      class="article-cover"
+      src={article.image}
+      alt={`Illustration for ${article.title}`}
+      width="1200"
+      height="675"
+    />
+    <div class="article-body">
+      {article.body.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+    </div>
+    {related.length > 0 && (
+      <section class="related" aria-labelledby="related-title">
+        <h2 id="related-title">Related stories</h2>
+        <div class="related-links">
+          {related.map((item) => (
+            <a href={`/${item.slug}/`}>{item.title}</a>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+</MainLayout>

@@ -1,0 +1,18 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import StoryCard from '../../components/main/StoryCard.astro';
+import { getArticles } from '../../lib/articles';
+const stories = getArticles();
+---
+
+<MainLayout title="Latest News | SSEGU" description="The latest fixture stories from SSEGU.">
+  <div class="shell page-wrap">
+    <p class="eyebrow">Latest</p>
+    <h1>Latest news</h1>
+    <div class="listing-grid">
+      {stories.map((article) => (
+        <StoryCard article={article} />
+      ))}
+    </div>
+  </div>
+</MainLayout>

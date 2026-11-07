@@ -4,18 +4,27 @@ import '../styles/global.css';
 interface Props {
   title?: string;
   description?: string;
+  canonical?: string;
+  noindex?: boolean;
 }
 
-const { title = 'SSEGU', description = 'SSEGU main publication fixture foundation.' } = Astro.props;
+const {
+  title = 'SSEGU | Inform. Educate. Empower.',
+  description = 'SSEGU brings useful, timely stories from Uganda and beyond.',
+  canonical,
+  noindex = false,
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <meta name="theme-color" content="#2b0b57" />
     <title>{title}</title>
   </head>
   <body>
@@ -23,5 +32,14 @@ const { title = 'SSEGU', description = 'SSEGU main publication fixture foundatio
       Skip to content
     </a>
     <slot />
+    <script is:inline>
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          document
+            .querySelectorAll('[data-menu][open]')
+            .forEach((menu) => menu.removeAttribute('open'));
+        }
+      });
+    </script>
   </body>
 </html>

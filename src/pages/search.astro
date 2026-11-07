@@ -1,0 +1,33 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { articles } from '../lib/articles';
+const index = articles.map(({ slug, title, description, category }) => ({
+  slug,
+  title,
+  description,
+  category,
+}));
+---
+
+<MainLayout title="Search | SSEGU" description="Search SSEGU stories.">
+  <div class="shell page-wrap search-page">
+    <p class="eyebrow">Find a story</p>
+    <h1>Search</h1>
+    <form id="search-form" class="search-form">
+      <label for="search-query">Search stories</label>
+      <div>
+        <input id="search-query" name="q" type="search" autocomplete="off" />
+        <button type="submit">Search</button>
+      </div>
+    </form>
+    <p id="search-status" role="status">
+      Enter a term to search the fixture index.
+    </p>
+    <div id="search-results" class="listing-grid"></div>
+  </div>
+  <script define:vars={{ index }} is:inline>
+    {
+      `const form = document.querySelector('#search-form'); const input = document.querySelector('#search-query'); const results = document.querySelector('#search-results'); const status = document.querySelector('#search-status'); form?.addEventListener('submit', (event) => { event.preventDefault(); const query = input.value.trim().toLowerCase(); const matches = ${JSON.stringify(index)}.filter((item) => [item.title, item.description, item.category].join(' ').toLowerCase().includes(query)); status.textContent = query ? \`\${matches.length} results found.\` : 'Enter a term to search the fixture index.'; results.innerHTML = matches.map((item) => \`<article class="search-result"><p class="category-label">\${item.category}</p><h2><a href="/\${item.slug}/">\${item.title}</a></h2><p>\${item.description}</p></article>\`).join(''); });`;
+    }
+  </script>
+</MainLayout>

@@ -1,20 +1,63 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
+import BreakingNews from '../components/main/BreakingNews.astro';
+import StoryCard from '../components/main/StoryCard.astro';
+import TopStories from '../components/main/TopStories.astro';
+import NewsletterModule from '../components/main/NewsletterModule.astro';
+import SectionLinks from '../components/main/SectionLinks.astro';
+import { getArticles, label } from '../lib/articles';
+const stories = getArticles();
+const lead = stories[0];
+const supporting = stories.slice(1, 5);
 ---
 
 <MainLayout
-  title="SSEGU main site foundation"
-  description="The static Astro foundation for the SSEGU main publication."
+  title="SSEGU | Inform. Educate. Empower."
+  description="The latest news, analysis and useful stories from SSEGU."
 >
-  <section class="foundation-card" aria-labelledby="page-title">
-    <p class="eyebrow">Phase 2 foundation</p>
-    <h1 id="page-title">SSEGU main publication</h1>
-    <p>
-      The toolchain is ready for fixture-based frontend work. The current article set and image are
-      temporary fixtures and are not final migration data.
-    </p>
-    <a class="button" href="/smoke/">
-      Open smoke test
-    </a>
-  </section>
+  <BreakingNews />
+  <div class="shell home-grid">
+    <section class="lead-area" aria-labelledby="lead-title">
+      <article class="lead-story">
+        <a href={`/${lead.slug}/`}>
+          <img src={lead.image} alt={`Illustration for ${lead.title}`} width="1200" height="675" />
+        </a>
+        <div class="lead-overlay">
+          <p class="category-label">{label(lead.category)}</p>
+          <h1 id="lead-title">
+            <a href={`/${lead.slug}/`}>{lead.title}</a>
+          </h1>
+          <p>{lead.description}</p>
+          <a class="read-more" href={`/${lead.slug}/`}>
+            Read more →
+          </a>
+        </div>
+      </article>
+      <div class="supporting-stories">
+        {supporting.map((article) => (
+          <StoryCard article={article} compact />
+        ))}
+      </div>
+    </section>
+    <aside class="home-sidebar">
+      <TopStories articles={stories} />
+      <NewsletterModule />
+    </aside>
+  </div>
+  <div class="shell lower-grid">
+    <section>
+      <div class="section-heading">
+        <h2>More News</h2>
+        <a href="/news/">View all news →</a>
+      </div>
+      <div class="card-grid">
+        {stories.slice(4, 8).map((article) => (
+          <StoryCard article={article} />
+        ))}
+      </div>
+    </section>
+    <aside>
+      <SectionLinks />
+    </aside>
+  </div>
 </MainLayout>

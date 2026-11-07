@@ -1,0 +1,31 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import StoryCard from '../../components/main/StoryCard.astro';
+import { categories, getArticles, label } from '../../lib/articles';
+export function getStaticPaths() {
+  return categories
+    .filter((category) => category !== 'news')
+    .map((slug) => ({ params: { slug }, props: { slug } }));
+}
+const { slug } = Astro.props;
+const stories = getArticles(slug);
+---
+
+<MainLayout
+  title={`${label(slug)} | SSEGU`}
+  description={`Fixture ${label(slug)} stories from SSEGU.`}
+>
+  <div class="shell page-wrap">
+    <p class="eyebrow">Section</p>
+    <h1>{label(slug)}</h1>
+    {stories.length ? (
+      <div class="listing-grid">
+        {stories.map((article) => (
+          <StoryCard article={article} />
+        ))}
+      </div>
+    ) : (
+      <p class="empty-state">No stories are available in this section yet.</p>
+    )}
+  </div>
+</MainLayout>

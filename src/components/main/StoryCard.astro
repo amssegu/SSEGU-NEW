@@ -1,0 +1,28 @@
+---
+import type { Article } from '../../lib/articles';
+import { formatDate, label } from '../../lib/articles';
+interface Props {
+  article: Article;
+  compact?: boolean;
+}
+const { article, compact = false } = Astro.props;
+---
+
+<article class:list={['story-card', { compact }]}>
+  <a href={`/${article.slug}/`} class="story-image">
+    <img
+      src={article.image}
+      alt={`Illustration for ${article.title}`}
+      width="640"
+      height="360"
+      loading="lazy"
+    />
+  </a>
+  <div class="story-card-copy">
+    <p class="category-label">{label(article.category)}</p>
+    <h3>
+      <a href={`/${article.slug}/`}>{article.title}</a>
+    </h3>
+    <time datetime={article.publishedAt}>{formatDate(article.publishedAt)}</time>
+  </div>
+</article>
