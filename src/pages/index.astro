@@ -23,7 +23,7 @@ const supporting = stories.slice(1, 5);
           <img src={lead.image} alt={`Illustration for ${lead.title}`} width="1200" height="675" />
         </a>
         <div class="lead-overlay">
-          <p class="category-label">{label(lead.category)}</p>
+          <p class:list={['category-label', `category-${lead.category}`]}>{label(lead.category)}</p>
           <h1 id="lead-title">
             <a href={`/${lead.slug}/`}>{lead.title}</a>
           </h1>

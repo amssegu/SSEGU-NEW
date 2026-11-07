@@ -10,12 +10,12 @@ interface Props {
 const { title, description, noindex = false } = Astro.props;
 const nav = [
   { label: 'Home', href: '/' },
-  { label: 'News', href: '/news/' },
-  { label: 'Business', href: '/category/business/' },
-  { label: 'Politics', href: '/category/politics/' },
-  { label: 'Technology', href: '/category/technology/' },
-  { label: 'Education', href: '/category/education/' },
-  { label: 'Lifestyle', href: '/category/lifestyle/' },
+  { label: 'News', href: '/news/', menu: true },
+  { label: 'Business', href: '/category/business/', menu: true },
+  { label: 'Politics', href: '/category/politics/', menu: true },
+  { label: 'Technology', href: '/category/technology/', menu: true },
+  { label: 'Education', href: '/category/education/', menu: true },
+  { label: 'Lifestyle', href: '/category/lifestyle/', menu: true },
 ];
 const currentPath = Astro.url.pathname;
 ---
@@ -61,6 +61,11 @@ const currentPath = Astro.url.pathname;
           {nav.map((item) => (
             <a class:list:active={currentPath === item.href} href={item.href}>
               {item.label}
+              {item.menu && (
+                <span class="nav-caret" aria-hidden="true">
+                  ⌄
+                </span>
+              )}
             </a>
           ))}
           <a href="/category/travel/">More</a>
