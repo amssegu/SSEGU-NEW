@@ -1252,31 +1252,50 @@ input:focus-visible {
     margin-left: 0;
   }
   .masthead {
-    align-items: flex-start;
+    height: 64px;
+    align-items: center;
+  }
+  .brand-line b {
+    font-size: 2.45rem;
+    line-height: 0.85;
   }
   .masthead-banner {
     display: none;
   }
+  .nav-wrap {
+    height: auto;
+  }
   .menu-toggle {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    width: 3.25rem;
+    min-height: 49px;
+    margin-left: auto;
+    padding: 0;
     color: var(--indigo);
+    font-size: 1.35rem;
+    line-height: 1;
+  }
+  .menu-toggle span {
+    display: block;
   }
   .primary-nav {
     display: none;
     flex-direction: column;
     width: 100%;
+    background: #fff;
+    border-top: 1px solid var(--line);
   }
   .primary-nav.is-open {
     display: flex;
   }
-  .primary-nav a {
-    padding: 0.9rem 1rem;
-  }
   .nav-inner {
-    display: block;
+    height: auto;
+  }
+  .primary-nav a {
+    min-height: 44px;
+    padding: 0.9rem 1rem;
   }
   .home-sidebar,
   .lead-area {
@@ -1306,7 +1325,8 @@ input:focus-visible {
     grid-template-columns: 1fr;
   }
   .lead-story {
-    min-height: 24rem;
+    min-height: 0;
+    aspect-ratio: 4 / 3;
   }
   .live-tv-feature {
     grid-template-columns: 1fr;
