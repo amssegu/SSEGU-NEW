@@ -22,6 +22,6 @@ assert.match(
   /action="\/api\/job-submissions"/,
 );
 assert.match(readFileSync('functions/api/job-submissions.ts', 'utf8'), /TURNSTILE_SECRET_KEY/);
-assert.match(readFileSync('functions/api/job-submissions.ts', 'utf8'), /RATE_LIMITER/);
+assert.match(readFileSync('functions/api/job-submissions.ts', 'utf8'), /RATE_LIMIT_KV/);
 assert.match(readFileSync('functions/api/job-submissions.ts', 'utf8'), /JOB_SUBMISSIONS_DB/);
 console.log('unit checks passed');

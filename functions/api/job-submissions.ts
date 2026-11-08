@@ -7,13 +7,14 @@ interface D1Database {
   prepare(query: string): D1PreparedStatement;
 }
 
-interface RateLimiter {
-  limit(options: { key: string }): Promise<{ success: boolean }>;
+interface KVNamespace {
+  get(key: string): Promise<string | null>;
+  put(key: string, value: string, options?: { expirationTtl?: number }): Promise<void>;
 }
 
 interface Env {
   JOB_SUBMISSIONS_DB?: D1Database;
-  RATE_LIMITER?: RateLimiter;
+  RATE_LIMIT_KV?: KVNamespace;
   TURNSTILE_SECRET_KEY?: string;
   TURNSTILE_EXPECTED_HOSTNAME?: string;
 }
@@ -59,6 +60,8 @@ interface SubmissionInput {
 
 export const MAX_BODY_BYTES = 64 * 1024;
 export const RETENTION_DAYS = 90;
+export const RATE_LIMIT_MAX_REQUESTS = 5;
+export const RATE_LIMIT_WINDOW_SECONDS = 60;
 const TURNSTILE_ENDPOINT = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
 const EMPLOYMENT_TYPES = new Set([
   'full-time',
@@ -304,6 +307,32 @@ function addDays(date: Date, days: number) {
   return result.toISOString();
 }
 
+async function rateLimitKey(clientKey: string, now = Date.now()) {
+  const digest = await crypto.subtle.digest(
+    'SHA-256',
+    new TextEncoder().encode(clientKey),
+  );
+  const clientHash = Array.from(new Uint8Array(digest), (byte) =>
+    byte.toString(16).padStart(2, '0'),
+  ).join('');
+  const window = Math.floor(now / (RATE_LIMIT_WINDOW_SECONDS * 1000));
+  return `job-submission:${clientHash}:${window}`;
+}
+
+async function checkRateLimit(namespace: KVNamespace, clientKey: string) {
+  const key = await rateLimitKey(clientKey);
+  const currentValue = await namespace.get(key);
+  const current = currentValue === null ? 0 : Number(currentValue);
+  if (!Number.isSafeInteger(current) || current < 0)
+    throw new Error('invalid-rate-limit-state');
+  if (current >= RATE_LIMIT_MAX_REQUESTS) return false;
+
+  await namespace.put(key, String(current + 1), {
+    expirationTtl: RATE_LIMIT_WINDOW_SECONDS + 5,
+  });
+  return true;
+}
+
 export async function onRequest(context: PagesFunctionContext) {
   const { request, env } = context;
   if (request.method !== 'POST') {
@@ -314,14 +343,14 @@ export async function onRequest(context: PagesFunctionContext) {
   if (origin && origin !== new URL(request.url).origin) {
     return jsonResponse({ message: 'This request could not be accepted.' }, 403);
   }
-  if (!env.RATE_LIMITER || !env.JOB_SUBMISSIONS_DB) {
+  if (!env.RATE_LIMIT_KV || !env.JOB_SUBMISSIONS_DB) {
     return jsonResponse({ message: 'Submission service is temporarily unavailable.' }, 503);
   }
 
   const clientKey = request.headers.get('CF-Connecting-IP') || 'unknown-client';
   try {
-    const rateLimit = await env.RATE_LIMITER.limit({ key: `job-submission:${clientKey}` });
-    if (!rateLimit.success)
+    const allowed = await checkRateLimit(env.RATE_LIMIT_KV, clientKey);
+    if (!allowed)
       return jsonResponse({ message: 'Please wait before trying again.' }, 429);
   } catch {
     return jsonResponse({ message: 'Submission service is temporarily unavailable.' }, 503);

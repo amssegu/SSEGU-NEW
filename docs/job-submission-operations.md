@@ -10,9 +10,9 @@ Before enabling the form in production, the Cloudflare Pages project owner must:
 
 1. Create a dedicated D1 database for the submission queue and apply
    `migrations/d1/0001_create_job_submissions.sql`.
-2. Bind the database as `JOB_SUBMISSIONS_DB` in both preview and production.
-3. Add a Cloudflare Rate Limiting binding named `RATE_LIMITER` with a documented
-   per-client policy suitable for the project plan.
+2. Bind the database as `JOB_SUBMISSIONS_DB` in production.
+3. Bind the production KV namespace as `RATE_LIMIT_KV`, configured for
+   approximately five requests per client per 60-second window.
 4. Create a Turnstile widget restricted to the production hostname, expose its
    public site key as `PUBLIC_TURNSTILE_SITE_KEY`, and store its secret as the
    Cloudflare secret `TURNSTILE_SECRET_KEY`.
@@ -22,6 +22,17 @@ Before enabling the form in production, the Cloudflare Pages project owner must:
 The Function fails closed when the database, rate limiter or Turnstile secret is
 missing. No secret belongs in this repository, a browser response or an
 application log.
+
+## Rate-limit policy
+
+Production uses the `RATE_LIMIT_KV` binding with an approximate limit of five
+calls per 60 seconds for each client. The Function hashes the
+`CF-Connecting-IP` value before using it in a windowed KV key. The check runs
+before payload parsing, server validation, Turnstile verification and D1
+insertion, so rejected or invalid attempts consume the allowance. Requests
+from clients sharing an IP address share an allowance. KV is eventually
+consistent, so concurrent requests can exceed the threshold; a KV failure
+returns HTTP 503 rather than allowing an unprotected submission.
 
 ## Review workflow
 

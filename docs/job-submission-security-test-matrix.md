@@ -11,7 +11,7 @@
 | Request over 64 KiB              | HTTP 413; no D1 write                                                       | `MAX_BODY_BYTES`                                          | Code review passed                        |
 | Missing Turnstile token          | HTTP 400; no D1 write                                                       | `verifyTurnstile`, field error                            | Blocked: live widget not provisioned      |
 | Invalid/replayed Turnstile token | HTTP 400; no D1 write                                                       | Siteverify call and failure path                          | Blocked: live widget not provisioned      |
-| Rate limit exceeded              | HTTP 429; no D1 write                                                       | `RATE_LIMITER` binding                                    | Blocked: binding not provisioned          |
+| Rate limit exceeded              | HTTP 429; no D1 write                                                       | `RATE_LIMIT_KV` binding and fixed-window check             | Blocked: live KV binding not verified     |
 | Storage failure                  | HTTP 503 without database detail                                            | D1 insert catch path                                      | Blocked: live D1 not provisioned          |
 | Honeypot request                 | Generic 202; no stored content                                              | `fax` handling                                            | Code review passed                        |
 | Output escaping                  | Submitted text is never rendered by the public site                         | No pending-content route; static content collections only | Code review passed                        |

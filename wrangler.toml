@@ -7,3 +7,7 @@ binding = "JOB_SUBMISSIONS_DB"
 database_name = "ssegu-job-submissions-production"
 database_id = "87fe7aaa-a7b0-4c60-a10a-dc88f0b63004"
 migrations_dir = "migrations/d1"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = "073f7618c2fe43678738b787460bfd4c"
