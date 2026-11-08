@@ -1,10 +1,12 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
+
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
 ---
 
 <WorkLayout
   title="Submit a Job | SSEGU Work"
-  description="Learn about the future SSEGU Work employer submission process."
+  description="Submit an employer vacancy to the SSEGU Work editorial review team."
   noindex
 >
   <div class="work-page-shell work-detail-shell">
@@ -12,22 +14,301 @@ import WorkLayout from '../../../layouts/WorkLayout.astro';
       <p class="work-eyebrow">Employer information</p>
       <h1>Submit a Job</h1>
       <p class="work-lede">
-        The employer submission workflow is planned for a later approved phase.
+        Share a vacancy for private editorial review. A submission is not a published job listing
+        and is never published automatically.
       </p>
-      <div class="work-detail-body">
-        <h2>What happens next</h2>
+      <div class="work-submission-notice" role="note">
+        <strong>Privacy and retention</strong>
         <p>
-          Phase 4 provides the fixture frontend only. No external form, account, database, file
-          upload or automatic publication is connected here.
-        </p>
-        <p>
-          When the submission workflow is approved, vacancies will enter a private review queue and
-          will be manually verified before publication.
+          We collect the details below only to review this vacancy. Accepted submissions are kept in
+          a private review queue for up to 90 days after review; rejected or withdrawn records are
+          deleted within 30 days. We do not sell this information or use it for applicant
+          recruitment.
         </p>
       </div>
-      <a class="work-button work-button-secondary" href="/work/employers/">
-        Back to employers
-      </a>
+      <form
+        id="job-submission-form"
+        class="work-submission-form"
+        action="/api/job-submissions"
+        method="post"
+      >
+        <div class="work-form-section">
+          <h2>Organisation and contact</h2>
+          <div class="work-form-grid">
+            <div class="work-form-field">
+              <label for="organisation">
+                Organisation name <span aria-hidden="true">*</span>
+              </label>
+              <input
+                id="organisation"
+                name="organisation"
+                type="text"
+                required
+                maxlength="160"
+                autocomplete="organization"
+              />
+              <small id="organisation-help">Use the name candidates should see.</small>
+              <p class="work-field-error" data-error-for="organisation"></p>
+            </div>
+            <div class="work-form-field">
+              <label for="contactName">
+                Contact person <span aria-hidden="true">*</span>
+              </label>
+              <input
+                id="contactName"
+                name="contactName"
+                type="text"
+                required
+                maxlength="120"
+                autocomplete="name"
+              />
+              <small>We may use this only for editorial follow-up.</small>
+              <p class="work-field-error" data-error-for="contactName"></p>
+            </div>
+            <div class="work-form-field">
+              <label for="contactEmail">
+                Contact email <span aria-hidden="true">*</span>
+              </label>
+              <input
+                id="contactEmail"
+                name="contactEmail"
+                type="email"
+                required
+                maxlength="254"
+                autocomplete="email"
+              />
+              <small>Use an inbox monitored by the submitting organisation.</small>
+              <p class="work-field-error" data-error-for="contactEmail"></p>
+            </div>
+            <div class="work-form-field">
+              <label for="website">
+                Organisation website <span>(optional)</span>
+              </label>
+              <input
+                id="website"
+                name="website"
+                type="url"
+                maxlength="2048"
+                placeholder="https://example.org"
+                autocomplete="url"
+              />
+              <small>A link helps editors verify the organisation; it is not an endorsement.</small>
+              <p class="work-field-error" data-error-for="website"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-form-section">
+          <h2>Vacancy details</h2>
+          <div class="work-form-grid">
+            <div class="work-form-field">
+              <label for="jobTitle">
+                Job title <span aria-hidden="true">*</span>
+              </label>
+              <input id="jobTitle" name="jobTitle" type="text" required maxlength="160" />
+              <p class="work-field-error" data-error-for="jobTitle"></p>
+            </div>
+            <div class="work-form-field">
+              <label for="location">
+                Location <span aria-hidden="true">*</span>
+              </label>
+              <input
+                id="location"
+                name="location"
+                type="text"
+                required
+                maxlength="160"
+                placeholder="Kampala or Remote"
+              />
+              <p class="work-field-error" data-error-for="location"></p>
+            </div>
+            <div class="work-form-field">
+              <label for="employmentType">
+                Employment type <span aria-hidden="true">*</span>
+              </label>
+              <select id="employmentType" name="employmentType" required>
+                <option value="">Select a type</option>
+                <option value="full-time">Full-time</option>
+                <option value="part-time">Part-time</option>
+                <option value="contract">Contract</option>
+                <option value="temporary">Temporary</option>
+                <option value="internship">Internship</option>
+                <option value="volunteer">Volunteer</option>
+              </select>
+              <p class="work-field-error" data-error-for="employmentType"></p>
+            </div>
+            <div class="work-form-field">
+              <label for="deadline">
+                Application deadline <span aria-hidden="true">*</span>
+              </label>
+              <input id="deadline" name="deadline" type="date" required />
+              <small>Use the final date candidates may apply.</small>
+              <p class="work-field-error" data-error-for="deadline"></p>
+            </div>
+            <div class="work-form-field work-form-field-wide">
+              <label for="description">
+                Job description <span aria-hidden="true">*</span>
+              </label>
+              <textarea
+                id="description"
+                name="description"
+                required
+                maxlength="10000"
+                rows="8"
+              ></textarea>
+              <small>
+                Include the main responsibilities and requirements. Maximum 10,000 characters.
+              </small>
+              <p class="work-field-error" data-error-for="description"></p>
+            </div>
+            <div class="work-form-field work-form-field-wide">
+              <label for="applicationDetails">
+                Application details <span aria-hidden="true">*</span>
+              </label>
+              <textarea
+                id="applicationDetails"
+                name="applicationDetails"
+                required
+                maxlength="4000"
+                rows="5"
+              ></textarea>
+              <small>Give clear application instructions or a complete application URL.</small>
+              <p class="work-field-error" data-error-for="applicationDetails"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-form-section">
+          <h2>Optional information</h2>
+          <div class="work-form-grid">
+            <div class="work-form-field">
+              <label for="salary">
+                Salary or benefits <span>(optional)</span>
+              </label>
+              <input id="salary" name="salary" type="text" maxlength="160" />
+              <small>Only provide information the organisation is prepared to verify.</small>
+              <p class="work-field-error" data-error-for="salary"></p>
+            </div>
+            <div class="work-form-field">
+              <label for="logo">
+                Logo URL <span>(optional)</span>
+              </label>
+              <input
+                id="logo"
+                name="logo"
+                type="url"
+                maxlength="2048"
+                placeholder="https://example.org/logo.png"
+              />
+              <small>This is a link for review, not a file upload or verification.</small>
+              <p class="work-field-error" data-error-for="logo"></p>
+            </div>
+            <div class="work-form-field work-form-field-wide">
+              <label for="supportingInformation">
+                Supporting information <span>(optional)</span>
+              </label>
+              <textarea
+                id="supportingInformation"
+                name="supportingInformation"
+                maxlength="4000"
+                rows="4"
+              ></textarea>
+              <small>Share context editors may need. Do not include applicant data.</small>
+              <p class="work-field-error" data-error-for="supportingInformation"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-form-anti-abuse">
+          <div class="work-form-field work-honeypot" aria-hidden="true">
+            <label for="fax">Fax</label>
+            <input id="fax" name="fax" type="text" tabindex="-1" autocomplete="off" />
+          </div>
+          {turnstileSiteKey ? (
+            <div
+              class="cf-turnstile"
+              data-sitekey={turnstileSiteKey}
+              data-action="job_submission"
+            ></div>
+          ) : (
+            <p class="work-form-unavailable">
+              Submission verification is not configured in this environment. The form will remain
+              unavailable until the site key and server secret are provisioned.
+            </p>
+          )}
+          <p class="work-field-error" data-error-for="turnstile"></p>
+        </div>
+
+        <div class="work-form-actions">
+          <button class="work-button" type="submit">
+            Send for private review
+          </button>
+          <a class="work-button work-button-secondary" href="/work/employers/">
+            Back to employers
+          </a>
+        </div>
+        <p class="work-form-status" id="job-submission-status" role="status" aria-live="polite"></p>
+        <p class="work-form-footnote">
+          Fields marked with * are required. This form does not publish a job or create an account.
+        </p>
+      </form>
     </div>
   </div>
 </WorkLayout>
+
+{turnstileSiteKey && (
+  <script
+    is:inline
+    src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+    async
+    defer
+  ></script>
+)}
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('#job-submission-form');
+  const status = document.querySelector<HTMLElement>('#job-submission-status');
+  const errorFields = form?.querySelectorAll<HTMLElement>('[data-error-for]') ?? [];
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    errorFields.forEach((field) => {
+      field.textContent = '';
+    });
+    if (status) status.textContent = 'Sending your vacancy for private review…';
+
+    const submitButton = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+    if (submitButton) submitButton.disabled = true;
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { Accept: 'application/json' },
+      });
+      const result = await response.json();
+
+      if (!response.ok) {
+        Object.entries(result.errors ?? {}).forEach(([field, message]) => {
+          const error = form.querySelector<HTMLElement>(`[data-error-for="${field}"]`);
+          if (error) error.textContent = String(message);
+        });
+        if (status) status.textContent = result.message ?? 'Please check the form and try again.';
+        return;
+      }
+
+      form.reset();
+      if (status)
+        status.textContent = result.message ?? 'Your vacancy was sent for private review.';
+    } catch {
+      if (status) status.textContent = 'We could not send the vacancy. Please try again later.';
+    } finally {
+      if (submitButton) submitButton.disabled = false;
+    }
+  });
+</script>

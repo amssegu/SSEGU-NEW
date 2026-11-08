@@ -8,7 +8,9 @@ const latest = getArticles().slice(0, 5);
   <div class="breaking-window">
     <div class="breaking-track">
       {latest.map((article) => (
-        <a href={`/${article.slug}/`}>{article.title} <span aria-hidden="true">→</span></a>
+        <a href={`/${article.slug}/`}>
+          {article.title} <span aria-hidden="true">→</span>
+        </a>
       ))}
       {latest.map((article) => (
         <a href={`/${article.slug}/`} aria-hidden="true" tabindex="-1">
