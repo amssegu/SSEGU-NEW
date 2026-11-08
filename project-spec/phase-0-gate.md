@@ -15,7 +15,7 @@
 - Phase 0 task specifications
 - Repository state: remote `https://github.com/c4rrotJuice/ssegu`, branch `main`, specification-only working tree
 - Project-owner confirmation: Andronicus Enoch M. owns and controls the project, authoritative repository and current Cloudflare project
-- Cloudflare Pages project: `https://ssegu.pages.dev/`
+- Cloudflare Pages project: `https://ssegu-new.pages.dev/`
 - Environment decision: production-only implementation; no separate local or preview environment currently exists
 - Project-owner confirmation: `main` branch protection is configured
 - Project-owner confirmation: production secrets are configured in the Cloudflare Dashboard; `.env.local` is ignored by Git

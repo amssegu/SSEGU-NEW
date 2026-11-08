@@ -5,7 +5,7 @@
 **Observed repository:** `https://github.com/c4rrotJuice/ssegu`  
 **Observed local branch:** `main`  
 **Project owner/final authority:** Andronicus Enoch M.  
-**Cloudflare Pages project:** `https://ssegu.pages.dev/`
+**Cloudflare Pages project:** `https://ssegu-new.pages.dev/`
 
 ## 1. Source-control model
 
@@ -40,7 +40,7 @@ Shared administrator accounts are prohibited. Access must be reviewed at onboard
 |---|---|---|---|
 | Local | Not currently provisioned; work is being performed against the production project workflow | Not applicable currently | No local secret arrangement has been claimed |
 | Preview | Not currently provisioned | Not applicable currently | No preview access or secrets are claimed |
-| Production | Current implementation/deployment environment at `ssegu.pages.dev/` | Public site configuration only | Cloudflare/Decap/OAuth secrets must remain in the production secret store only |
+| Production | Current implementation/deployment environment at `ssegu-new.pages.dev/` | Public site configuration only | Cloudflare/Decap/OAuth secrets must remain in the production secret store only |
 
 Never commit OAuth client secrets, Cloudflare tokens, private service tokens or email keys. Client bundles may contain only intentionally public configuration.
 
@@ -51,7 +51,7 @@ Never commit OAuth client secrets, Cloudflare tokens, private service tokens or 
 | GitHub repository ownership and collaborators | Andronicus Enoch M. | Confirmed by project owner; remote is authoritative |
 | `main` protection and required checks | Andronicus Enoch M. | Confirmed configured by project owner |
 | GitHub OAuth application/callback | Andronicus Enoch M. | Must be selected and tested during Phase 4; no credentials requested or recorded |
-| Cloudflare Pages project and GitHub connection | Andronicus Enoch M. | Project reported created and linked at `https://ssegu.pages.dev/`; deployment evidence should be retained |
+| Cloudflare Pages project and GitHub connection | Andronicus Enoch M. | Project reported created and linked at `https://ssegu-new.pages.dev/`; deployment evidence should be retained |
 | Local/preview/production environment settings | Andronicus Enoch M. | Local and preview intentionally not provisioned; production-only workflow confirmed |
 | Production secrets | Andronicus Enoch M. | Confirmed configured in the Cloudflare Dashboard secret store; local `.env.local` is ignored and contains no production secrets |
 | DNS/TLS changes | Project owner + deployment administrator | Not in Phase 0; no changes authorised |

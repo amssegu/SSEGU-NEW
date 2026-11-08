@@ -55,7 +55,7 @@ draft branch, an editor reviews the preview, and the approved change is merged
 before deployment. This keeps drafts private and creates a reviewable Git
 history. Direct publishing is not enabled in this phase.
 
-The GitHub repository is `c4rrotJuice/ssegu`. GitHub OAuth application setup,
+The GitHub repository is `amssegu/SSEGU-NEW`. GitHub OAuth application setup,
 the callback/proxy URL, Cloudflare secret storage and a real editor login have
 not been verified in this local workspace. Phase 5.3 and 5.4 therefore remain
 environment-dependent acceptance work; no authentication or publishing PASS is

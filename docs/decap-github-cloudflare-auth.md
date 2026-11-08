@@ -36,11 +36,11 @@ There are five independent configuration surfaces:
 
 | Surface | Example | Owner | Contains secrets? |
 | --- | --- | --- | --- |
-| Site repository | `c4rrotJuice/ssegu` | GitHub account or client organisation | No |
+| Site repository | `amssegu/SSEGU-NEW` | GitHub account or client organisation | No |
 | Decap config | `public/admin/config.yml` | This repository | No |
 | GitHub OAuth App | `SSEGU Editorial CMS` | GitHub account or organisation | Client secret exists |
 | OAuth proxy | `https://cms-auth.example.com` | Cloudflare account | OAuth client ID/secret |
-| Astro site | `https://ssegu.pages.dev` or production domain | Cloudflare Pages account | Runtime/build secrets as applicable |
+| Astro site | `https://ssegu-new.pages.dev` or production domain | Cloudflare Pages account | Runtime/build secrets as applicable |
 
 Do not put the GitHub client secret, Cloudflare API token, or an access token in
 `config.yml`, an Astro public variable, `public/`, a committed `.env` file or a
@@ -54,7 +54,7 @@ details; do not store secrets in this repository.
 
 | Variable | Current project value or placeholder |
 | --- | --- |
-| `SITE_REPO` | `c4rrotJuice/ssegu` |
+| `SITE_REPO` | `amssegu/SSEGU-NEW` |
 | `SITE_BRANCH` | `main` |
 | `SITE_ADMIN_URL` | `https://<production-domain>/admin/` |
 | `SITE_PREVIEW_ADMIN_URL` | `https://<preview-domain>/admin/` |
@@ -70,7 +70,7 @@ subdomain is preferable for production continuity.
 ## 3. Confirm the repository is ready
 
 1. Confirm the repository exists at the exact `owner/name` used in Decap. The
-   current configuration points to `c4rrotJuice/ssegu`.
+   current configuration points to `amssegu/SSEGU-NEW`.
 2. Confirm the publishing branch is `main`.
 3. Confirm the repository contains:
    - `public/admin/index.html`;
@@ -231,7 +231,7 @@ Edit the backend block in
 ```yaml
 backend:
   name: github
-  repo: c4rrotJuice/ssegu
+  repo: amssegu/SSEGU-NEW
   branch: main
   base_url: https://cms-auth.example.com
   auth_endpoint: /auth

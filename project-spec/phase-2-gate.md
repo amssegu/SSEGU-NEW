@@ -13,7 +13,7 @@
 - `.github/workflows/ci.yml`, `docs/ci.md`, `docs/deployment.md`, `docs/environment.md` and `docs/future-template-notes.md`.
 - `wrangler.toml`, `public/_headers`, `public/robots.txt`, `public/admin/index.html` and the shared placeholder image.
 - Local command evidence from 7 November 2026.
-- Project-owner confirmation: Cloudflare Pages deployment succeeded at `https://ssegu.pages.dev/` after configuring `npm run build` and `dist`.
+- Project-owner confirmation: Cloudflare Pages deployment succeeded at `https://ssegu-new.pages.dev/` after configuring `npm run build` and `dist`.
 
 ## Local validation evidence
 

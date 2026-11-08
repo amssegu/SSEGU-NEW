@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: c4rrotJuice/ssegu
+  repo: amssegu/SSEGU-NEW
   branch: main
-  base_url: https://ssegu-decap-auth.enoch-freelance.workers.dev
+  base_url: https://ssegu-decap-auth.africa-is-so-rich.workers.dev
   auth_endpoint: /auth
 
 publish_mode: editorial_workflow

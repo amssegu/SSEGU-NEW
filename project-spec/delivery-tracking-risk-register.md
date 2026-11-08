@@ -57,5 +57,5 @@ Migration-dependent phases/tasks are blocked by missing supplied data, not treat
 
 Each gate record must identify the reviewer, date, decision, artefacts and checklist result. Acceptable evidence includes repository files/commits, command output, test reports, screenshots, deployment records, review sign-offs, immutable checksums and explicit external-setting confirmation. A plan or intended configuration is not evidence of an external setting. Missing evidence is recorded as a blocker with an owner and remediation action.
 
-The current implementation uses one production environment (`https://ssegu.pages.dev/`) and does not currently provision separate local or preview environments. This is an explicit project decision, not evidence that those environments exist. Client transfer, Cloudflare reassociation and custom-domain linking are handover activities and require their own evidence.
+The current implementation uses one production environment (`https://ssegu-new.pages.dev/`) and does not currently provision separate local or preview environments. This is an explicit project decision, not evidence that those environments exist. Client transfer, Cloudflare reassociation and custom-domain linking are handover activities and require their own evidence.
 

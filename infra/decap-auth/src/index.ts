@@ -23,7 +23,7 @@ function originFromRequest(request: Request, env: Env): string {
     return requestOrigin;
   }
 
-  return configuredOrigins[0] ?? 'https://ssegu.pages.dev';
+  return configuredOrigins[0] ?? 'https://ssegu-new.pages.dev';
 }
 
 function bytesToBase64Url(bytes: Uint8Array): string {

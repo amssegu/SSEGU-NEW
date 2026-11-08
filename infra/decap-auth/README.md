@@ -39,7 +39,7 @@ Authorization callback URL: https://ssegu-decap-auth.<your-account-subdomain>.wo
 ```
 
 The homepage and callback belong to the OAuth proxy, not `/admin/` on the Pages
-site. The Worker uses `https://ssegu.pages.dev` as the allowed Decap origin by
+site. The Worker uses `https://ssegu-new.pages.dev` as the allowed Decap origin by
 default.
 
 ## 3. Store secrets in Cloudflare
@@ -51,7 +51,7 @@ npx wrangler secret put GITHUB_OAUTH_ID
 npx wrangler secret put GITHUB_OAUTH_SECRET
 ```
 
-`c4rrotJuice/ssegu` is private, so `GITHUB_REPO_PRIVATE` is set to `1` in
+`amssegu/SSEGU-NEW` is private, so `GITHUB_REPO_PRIVATE` is set to `1` in
 `wrangler.toml`. This makes the Worker request the `repo` OAuth scope required
 for Decap to read and write the repository.
 
@@ -68,13 +68,13 @@ origin, without `/callback`:
 ```yaml
 backend:
   name: github
-  repo: c4rrotJuice/ssegu
+  repo: amssegu/SSEGU-NEW
   branch: main
   base_url: https://ssegu-decap-auth.<your-account-subdomain>.workers.dev
   auth_endpoint: /auth
 ```
 
-Then deploy the Pages site and test `https://ssegu.pages.dev/admin/` in a private
+Then deploy the Pages site and test `https://ssegu-new.pages.dev/admin/` in a private
 browser window.
 
 ## Local testing
