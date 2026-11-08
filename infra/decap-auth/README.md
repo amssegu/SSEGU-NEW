@@ -51,9 +51,9 @@ npx wrangler secret put GITHUB_OAUTH_ID
 npx wrangler secret put GITHUB_OAUTH_SECRET
 ```
 
-The private repository setting is currently disabled because
-`c4rrotJuice/ssegu` is configured as a public repository. If that changes, set
-`GITHUB_REPO_PRIVATE` to `1` in `wrangler.toml` before deployment.
+`c4rrotJuice/ssegu` is private, so `GITHUB_REPO_PRIVATE` is set to `1` in
+`wrangler.toml`. This makes the Worker request the `repo` OAuth scope required
+for Decap to read and write the repository.
 
 ## 4. Deploy and connect Decap
 
