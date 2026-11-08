@@ -24,8 +24,12 @@ const currentPath = Astro.url.pathname;
   <header class="site-header">
     <div class="utility-bar">
       <div class="shell utility-inner">
-        <time id="current-date" datetime={new Date().toISOString()}>▣ Loading date…</time>
-        <span id="kampala-weather" aria-live="polite">☁ Kampala · Loading weather…</span>
+        <time id="current-date" datetime={new Date().toISOString()}>
+          ▣ Loading date…
+        </time>
+        <span id="kampala-weather" aria-live="polite">
+          ☁ Kampala · Loading weather…
+        </span>
         <nav aria-label="Utility navigation">
           <a href="/about/">About</a>
           <a href="/contact/">Contact</a>
@@ -64,13 +68,17 @@ const currentPath = Astro.url.pathname;
       <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
         {nav.map((item) => (
           <a
-            class:list:active={currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href))}
+            class:list:active={
+              currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href))
+            }
             href={item.href}
           >
             {item.label}
           </a>
         ))}
-        <button class="nav-placeholder" type="button" aria-label="Live TV coming soon">Live TV</button>
+        <a class="nav-live-tv" href="/tv/">
+          <span aria-hidden="true">●</span> Live TV
+        </a>
       </nav>
     </div>
   </div>

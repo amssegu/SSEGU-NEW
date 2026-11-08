@@ -1,0 +1,33 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+
+const embedUrl = import.meta.env.PUBLIC_LIVE_TV_URL || 'https://www.ssegu.com/tv/';
+---
+
+<MainLayout
+  title="Live TV | SSEGU"
+  description="Watch M2A Live TV channels inside the SSEGU news experience."
+>
+  <div class="live-tv-page shell">
+    <div class="live-tv-embed-shell">
+      <iframe
+        src={embedUrl}
+        title="M2A Live TV"
+        loading="eager"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </div>
+
+    <div class="live-tv-embed-help">
+      <p>
+        The M2A channel catalogue is embedded here for a seamless SSEGU experience. If your browser
+        blocks the embedded player, open it directly instead.
+      </p>
+      <a class="button" href={embedUrl} target="_blank" rel="noopener">
+        Open M2A Live TV ↗
+      </a>
+    </div>
+  </div>
+</MainLayout>

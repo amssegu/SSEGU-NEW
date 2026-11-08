@@ -5,6 +5,7 @@ import StoryCard from '../components/main/StoryCard.astro';
 import TopStories from '../components/main/TopStories.astro';
 import NewsletterModule from '../components/main/NewsletterModule.astro';
 import SectionLinks from '../components/main/SectionLinks.astro';
+import LiveTvModule from '../components/main/LiveTvModule.astro';
 import { getArticles, label } from '../lib/articles';
 const stories = getArticles();
 const lead = stories[0];
@@ -80,4 +81,5 @@ const moreNews = stories.slice(5);
       <SectionLinks />
     </aside>
   </div>
+  <LiveTvModule />
 </MainLayout>

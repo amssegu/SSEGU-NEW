@@ -1,0 +1,69 @@
+---
+const liveTvUrl = '/tv/';
+const channels = [
+  { name: 'Citizen TV', category: 'News', color: '#e11d48', mark: 'C' },
+  { name: 'NTV Uganda', category: 'News', color: '#2563eb', mark: 'N' },
+  { name: 'Bukedde 1 TV', category: 'News', color: '#16a34a', mark: 'B1' },
+  { name: 'Salt TV', category: 'Entertainment', color: '#d97706', mark: 'S' },
+  { name: 'Spark TV', category: 'Entertainment', color: '#7c3aed', mark: 'S' },
+  { name: 'Galaxy TV', category: 'Entertainment', color: '#db2777', mark: 'G' },
+];
+---
+
+<section class="live-tv-module shell" aria-labelledby="live-tv-title">
+  <div class="live-tv-intro">
+    <div>
+      <p class="live-tv-kicker">
+        <span aria-hidden="true"></span> SSEGU Live
+      </p>
+      <h2 id="live-tv-title">Watch live TV</h2>
+      <p class="live-tv-dek">
+        Stay close to the stories, voices and channels shaping Uganda right now.
+      </p>
+    </div>
+    <a class="live-tv-link" href={liveTvUrl}>
+      Open Live TV <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+
+  <div class="live-tv-body">
+    <a class="live-tv-feature" href={liveTvUrl}>
+      <div class="live-tv-screen" aria-hidden="true">
+        <span class="live-tv-screen-grid"></span>
+        <span class="live-tv-play">▶</span>
+        <span class="live-tv-live-badge">
+          <i></i> Live now
+        </span>
+        <span class="live-tv-watermark">SSEGU</span>
+      </div>
+      <div class="live-tv-feature-copy">
+        <span class="live-tv-overline">M2A Live TV</span>
+        <h3>Your window to live channels</h3>
+        <p>News, entertainment, sports and more — all in one place.</p>
+      </div>
+    </a>
+
+    <div class="live-tv-channels" aria-label="Featured live channels">
+      <div class="live-tv-channels-heading">
+        <h3>Featured channels</h3>
+        <span>{channels.length} available</span>
+      </div>
+      <div class="live-tv-channel-grid">
+        {channels.map((channel) => (
+          <a class="live-tv-channel" href={liveTvUrl} style={`--channel-color: ${channel.color}`}>
+            <span class="live-tv-channel-mark" aria-hidden="true">
+              {channel.mark}
+            </span>
+            <span class="live-tv-channel-copy">
+              <strong>{channel.name}</strong>
+              <small>{channel.category}</small>
+            </span>
+            <span class="live-tv-channel-arrow" aria-hidden="true">
+              ↗
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
