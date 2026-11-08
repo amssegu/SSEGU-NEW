@@ -164,6 +164,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+infra/decap-auth/.dev.vars
 
 # Spyder project settings
 .spyderproject

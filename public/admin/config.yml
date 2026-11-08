@@ -2,9 +2,12 @@ backend:
   name: github
   repo: c4rrotJuice/ssegu
   branch: main
+  base_url: https://ssegu-decap-auth.enoch-freelance.workers.dev
+  auth_endpoint: /auth
 
 publish_mode: editorial_workflow
-local_backend: true
+# Set to true only when running a local decap-server. Keep false for deployed CMS.
+local_backend: false
 media_folder: public/uploads
 public_folder: /uploads
 

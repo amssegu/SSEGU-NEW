@@ -41,6 +41,9 @@ under [`project-spec/content-fixtures/invalid/`](../project-spec/content-fixture
 ## Decap CMS
 
 The editor is served at `/admin/` using [`public/admin/config.yml`](../public/admin/config.yml).
+The detailed GitHub OAuth, Cloudflare Worker, editor acceptance and client
+handoff procedure is documented in the [Decap GitHub and Cloudflare
+authentication runbook](decap-github-cloudflare-auth.md).
 The configuration mirrors the Astro field names and uses `public/uploads/` for
 repository media. Editors should supply descriptive filenames, approved image
 formats, dimensions appropriate to the placement, alt text, caption and credit.
