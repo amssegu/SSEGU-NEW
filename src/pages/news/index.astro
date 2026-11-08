@@ -2,6 +2,7 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 import StoryCard from '../../components/main/StoryCard.astro';
 import { getArticles } from '../../lib/articles';
+import AdSlot from '../../components/main/AdSlot.astro';
 const stories = getArticles();
 ---
 
@@ -9,6 +10,7 @@ const stories = getArticles();
   <div class="shell page-wrap">
     <p class="eyebrow">Latest</p>
     <h1>Latest news</h1>
+    <AdSlot placement="top" format="horizontal" />
     <div class="listing-grid">
       {stories.map((article) => (
         <StoryCard article={article} />

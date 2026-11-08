@@ -1,6 +1,7 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import { articles, formatDate, label } from '../lib/articles';
+import AdSlot from '../components/main/AdSlot.astro';
 export function getStaticPaths() {
   return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
 }
@@ -37,6 +38,7 @@ const related = articles
         height="675"
       />
     </picture>
+    <AdSlot placement="article" />
     <div class="article-body">
       {article.body.map((paragraph) => (
         <p>{paragraph}</p>

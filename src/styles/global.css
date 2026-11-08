@@ -298,6 +298,53 @@ input:focus-visible {
 .breaking a {
   text-decoration: none;
 }
+.ad-unit {
+  width: min(100%, 970px);
+  margin: 1.1rem auto 0.75rem;
+  text-align: center;
+}
+.ad-unit .ad-label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--muted);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.ad-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+.ad-slot .adsbygoogle {
+  display: block;
+  width: 100%;
+  min-width: 250px;
+}
+.ad-unit ins.adsbygoogle[data-ad-status='unfilled'] {
+  visibility: hidden;
+}
+.ad-sidebar {
+  width: 100%;
+  margin: 0;
+  padding: 0.25rem 0 0.5rem;
+}
+.ad-section {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding-block: 0.75rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.ad-article {
+  margin-block: 1.5rem;
+  padding-block: 0.75rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
 .home-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 321px);

@@ -1,0 +1,31 @@
+---
+interface Props {
+  placement?: 'top' | 'sidebar' | 'section' | 'article';
+  format?: 'auto' | 'horizontal' | 'rectangle';
+  minHeight?: number;
+}
+
+const client = import.meta.env.PUBLIC_ADSENSE_CLIENT || 'ca-pub-7777536386845474';
+const slot = import.meta.env.PUBLIC_ADSENSE_SLOT || '9970802556';
+const {
+  placement = 'section',
+  format = 'auto',
+  minHeight = placement === 'sidebar' ? 250 : 90,
+} = Astro.props;
+---
+
+<aside class:list={['ad-unit', `ad-${placement}`]} aria-label="Advertisement">
+  <span class="ad-label">Advertisement</span>
+  <div class="ad-slot" style={`min-height: ${minHeight}px`}>
+    <ins
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client={client}
+      data-ad-slot={slot}
+      data-ad-format={
+        format === 'rectangle' ? 'rectangle' : format === 'horizontal' ? 'horizontal' : 'auto'
+      }
+      data-full-width-responsive="true"
+    ></ins>
+  </div>
+</aside>

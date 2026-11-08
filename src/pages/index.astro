@@ -6,6 +6,7 @@ import TopStories from '../components/main/TopStories.astro';
 import NewsletterModule from '../components/main/NewsletterModule.astro';
 import SectionLinks from '../components/main/SectionLinks.astro';
 import LiveTvModule from '../components/main/LiveTvModule.astro';
+import AdSlot from '../components/main/AdSlot.astro';
 import { getArticles, label } from '../lib/articles';
 const stories = getArticles();
 const lead = stories[0];
@@ -19,6 +20,7 @@ const moreNews = stories.slice(5);
   description="The latest news, analysis and useful stories from SSEGU."
 >
   <BreakingNews />
+  <AdSlot placement="top" format="horizontal" />
   <div class="shell home-grid">
     <section class="lead-area" aria-labelledby="lead-title">
       <div class="lead-primary">
@@ -65,6 +67,7 @@ const moreNews = stories.slice(5);
       <NewsletterModule />
     </aside>
   </div>
+  <AdSlot placement="section" format="horizontal" />
   <div class="shell lower-grid">
     <section>
       <div class="section-heading">
@@ -81,5 +84,7 @@ const moreNews = stories.slice(5);
       <SectionLinks />
     </aside>
   </div>
+  <AdSlot placement="section" format="horizontal" />
   <LiveTvModule />
+  <AdSlot placement="section" format="horizontal" />
 </MainLayout>

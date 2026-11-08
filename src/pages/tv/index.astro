@@ -1,5 +1,6 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
+import AdSlot from '../../components/main/AdSlot.astro';
 
 const embedUrl = import.meta.env.PUBLIC_LIVE_TV_URL || 'https://www.ssegu.com/tv/';
 ---
@@ -9,6 +10,7 @@ const embedUrl = import.meta.env.PUBLIC_LIVE_TV_URL || 'https://www.ssegu.com/tv
   description="Watch M2A Live TV channels inside the SSEGU news experience."
 >
   <div class="live-tv-page shell">
+    <AdSlot placement="top" format="horizontal" />
     <div class="live-tv-embed-shell">
       <iframe
         src={embedUrl}
