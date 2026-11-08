@@ -26,13 +26,17 @@ const related = articles
       By {article.author} ·{' '}
       <time datetime={article.publishedAt}>{formatDate(article.publishedAt)}</time>
     </p>
-    <img
-      class="article-cover"
-      src={article.image}
-      alt={`Illustration for ${article.title}`}
-      width="1200"
-      height="675"
-    />
+    <picture>
+      <source srcset={article.imageAvif} type="image/avif" />
+      <source srcset={article.image} type="image/webp" />
+      <img
+        class="article-cover"
+        src={article.image}
+        alt={`Illustration for ${article.title}`}
+        width="1200"
+        height="675"
+      />
+    </picture>
     <div class="article-body">
       {article.body.map((paragraph) => (
         <p>{paragraph}</p>

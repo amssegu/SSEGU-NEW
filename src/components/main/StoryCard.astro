@@ -10,13 +10,17 @@ const { article, compact = false } = Astro.props;
 
 <article class:list={['story-card', { compact }]}>
   <a href={`/${article.slug}/`} class="story-image">
-    <img
-      src={article.image}
-      alt={`Illustration for ${article.title}`}
-      width="640"
-      height={compact ? 480 : 360}
-      loading="lazy"
-    />
+    <picture>
+      <source srcset={article.imageAvif} type="image/avif" />
+      <source srcset={article.image} type="image/webp" />
+      <img
+        src={article.image}
+        alt={`Illustration for ${article.title}`}
+        width="640"
+        height={compact ? 480 : 360}
+        loading="lazy"
+      />
+    </picture>
   </a>
   <div class="story-card-copy">
     <p class:list={['category-label', `category-${article.category}`]}>{label(article.category)}</p>

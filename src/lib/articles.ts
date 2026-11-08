@@ -6,11 +6,45 @@ export interface Article {
   author: string;
   publishedAt: string;
   image: string;
+  imageAvif: string;
   body: string[];
   featured?: boolean;
 }
 
-const fixtureImage = '/uploads/article-placeholder.svg';
+const interimImages: Record<string, { webp: string; avif: string }> = {
+  'government-unveils-new-ict-strategy-for-a-digital-uganda': {
+    webp: '/uploads/article-ict.webp',
+    avif: '/uploads/article-ict.avif',
+  },
+  'uce-results-pass-rate-recorded': {
+    webp: '/uploads/article-education.webp',
+    avif: '/uploads/article-education.avif',
+  },
+  'shilling-shows-renewed-stability': {
+    webp: '/uploads/article-business.webp',
+    avif: '/uploads/article-business.avif',
+  },
+  'ugandas-tech-startup-scene-grows': {
+    webp: '/uploads/article-technology.webp',
+    avif: '/uploads/article-technology.avif',
+  },
+  'cranes-edge-past-south-sudan': {
+    webp: '/uploads/article-sports.webp',
+    avif: '/uploads/article-sports.avif',
+  },
+  'exploring-the-hidden-gems-of-jinjas-tourism': {
+    webp: '/uploads/article-travel.webp',
+    avif: '/uploads/article-travel.avif',
+  },
+  'kampalas-top-5-nightlife-hotspots': {
+    webp: '/uploads/article-lifestyle.webp',
+    avif: '/uploads/article-lifestyle.avif',
+  },
+  'how-blockchain-is-shaping-ugandas-future-economy': {
+    webp: '/uploads/article-blockchain.webp',
+    avif: '/uploads/article-blockchain.avif',
+  },
+};
 const seed: Array<Omit<Article, 'image' | 'body'> & { body?: string[] }> = [
   [
     'government-unveils-new-ict-strategy-for-a-digital-uganda',
@@ -84,7 +118,8 @@ const seed: Array<Omit<Article, 'image' | 'body'> & { body?: string[] }> = [
 
 export const articles: Article[] = seed.map((article) => ({
   ...article,
-  image: fixtureImage,
+  image: interimImages[article.slug].webp,
+  imageAvif: interimImages[article.slug].avif,
   body: [
     `${article.description} This synthetic fixture is used to exercise the main-site presentation while authoritative editorial content remains outside this phase.`,
     'The story illustrates the portable article shape used by the frontend: a title, summary, category, author, publication date, image alternative and readable body.',

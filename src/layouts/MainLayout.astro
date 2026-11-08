@@ -24,8 +24,8 @@ const currentPath = Astro.url.pathname;
   <header class="site-header">
     <div class="utility-bar">
       <div class="shell utility-inner">
-        <span>▣ {new Intl.DateTimeFormat('en-UG', { dateStyle: 'full' }).format(new Date())}</span>
-        <span>☁ Kampala 26°C</span>
+        <time id="current-date" datetime={new Date().toISOString()}>▣ Loading date…</time>
+        <span id="kampala-weather" aria-live="polite">☁ Kampala · Loading weather…</span>
         <nav aria-label="Utility navigation">
           <a href="/about/">About</a>
           <a href="/contact/">Contact</a>
@@ -42,6 +42,18 @@ const currentPath = Astro.url.pathname;
           <b>SSEGU</b>
         </span>
       </a>
+      <div class="masthead-banner">
+        <picture class="masthead-banner-image">
+          <source srcset="/uploads/article-ict.avif" type="image/avif" />
+          <source srcset="/uploads/article-ict.webp" type="image/webp" />
+          <img src="/uploads/article-ict.webp" alt="" width="1800" height="1200" />
+        </picture>
+        <span>
+          A more informed Uganda
+          <br />
+          <em>A brighter future</em>
+        </span>
+      </div>
     </div>
   </header>
   <div class="nav-wrap">
@@ -51,16 +63,14 @@ const currentPath = Astro.url.pathname;
       </button>
       <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
         {nav.map((item) => (
-          <a class:list:active={currentPath === item.href} href={item.href}>
+          <a
+            class:list:active={currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href))}
+            href={item.href}
+          >
             {item.label}
-            {item.menu && (
-              <span class="nav-caret" aria-hidden="true">
-                ⌄
-              </span>
-            )}
           </a>
         ))}
-        <a href="/category/travel/">More</a>
+        <button class="nav-placeholder" type="button" aria-label="Live TV coming soon">Live TV</button>
       </nav>
     </div>
   </div>
@@ -91,6 +101,55 @@ const currentPath = Astro.url.pathname;
     </div>
   </footer>
   <script is:inline>
+    const dateElement = document.querySelector('#current-date');
+    const weatherElement = document.querySelector('#kampala-weather');
+    const weatherLabels = {
+      0: 'Clear sky',
+      1: 'Mainly clear',
+      2: 'Partly cloudy',
+      3: 'Overcast',
+      45: 'Foggy',
+      48: 'Rime fog',
+      51: 'Light drizzle',
+      53: 'Drizzle',
+      55: 'Heavy drizzle',
+      61: 'Light rain',
+      63: 'Rain',
+      65: 'Heavy rain',
+      80: 'Rain showers',
+      81: 'Rain showers',
+      82: 'Heavy showers',
+      95: 'Thunderstorm',
+      96: 'Thunderstorm with hail',
+      99: 'Thunderstorm with hail',
+    };
+    const kampalaDate = new Intl.DateTimeFormat('en-UG', {
+      dateStyle: 'full',
+      timeZone: 'Africa/Kampala',
+    }).format(new Date());
+    if (dateElement) {
+      dateElement.textContent = `▣ ${kampalaDate}`;
+      dateElement.dateTime = new Date().toISOString();
+    }
+    fetch(
+      'https://api.open-meteo.com/v1/forecast?latitude=0.3476&longitude=32.5825&current=temperature_2m,weather_code&temperature_unit=celsius&timezone=Africa%2FKampala',
+    )
+      .then((response) => {
+        if (!response.ok) throw new Error('Weather request failed');
+        return response.json();
+      })
+      .then((data) => {
+        const temperature = Math.round(data.current.temperature_2m);
+        const condition = weatherLabels[data.current.weather_code] ?? 'Current conditions';
+        if (weatherElement) {
+          weatherElement.textContent = `☁ Kampala · ${temperature}°C · ${condition}`;
+          weatherElement.title = 'Current weather from Open-Meteo';
+        }
+      })
+      .catch(() => {
+        if (weatherElement) weatherElement.textContent = '☁ Kampala · Weather unavailable';
+      });
+
     const menuButton = document.querySelector('.menu-toggle');
     const nav = document.querySelector('#primary-nav');
     menuButton?.addEventListener('click', () => {
