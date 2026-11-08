@@ -1,0 +1,39 @@
+---
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import { formatWorkDate, internships } from '../../../lib/work';
+---
+
+<WorkLayout
+  title="Internships | SSEGU Work"
+  description="Browse fixture internships and early-career opportunities."
+>
+  <div class="work-page-shell">
+    <div class="work-page-intro">
+      <p class="work-eyebrow">Start building experience</p>
+      <h1>Internships</h1>
+      <p>Find fixture placements designed to connect learning with practical work.</p>
+    </div>
+    <div class="work-resource-grid">
+      {internships.map((internship) => (
+        <article class="work-resource-card">
+          <span class="work-resource-icon" aria-hidden="true">
+            ◆
+          </span>
+          <p class="work-card-kicker">{internship.arrangement}</p>
+          <h2>
+            <a href={`/work/internships/${internship.slug}/`}>{internship.title}</a>
+          </h2>
+          <p class="work-resource-provider">{internship.employer}</p>
+          <p>{internship.description}</p>
+          <div class="work-resource-meta">
+            <span>⌖ {internship.location}</span>
+            <span>Deadline: {formatWorkDate(internship.deadline)}</span>
+          </div>
+          <a class="work-text-link" href={`/work/internships/${internship.slug}/`}>
+            View internship →
+          </a>
+        </article>
+      ))}
+    </div>
+  </div>
+</WorkLayout>

@@ -1,0 +1,42 @@
+---
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import { workCourses } from '../../../lib/work';
+
+export function getStaticPaths() {
+  return workCourses.map((course) => ({ params: { slug: course.slug }, props: { course } }));
+}
+const { course } = Astro.props;
+---
+
+<WorkLayout title={`${course.title} | SSEGU Work`} description={course.description}>
+  <div class="work-page-shell work-detail-shell">
+    <nav class="work-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/work/">Work</a>
+      <span>/</span>
+      <a href="/work/courses/">Courses</a>
+      <span>/</span>
+      <span aria-current="page">{course.title}</span>
+    </nav>
+    <article class="work-detail-card">
+      <p class="work-eyebrow">{course.format}</p>
+      <h1>{course.title}</h1>
+      <p class="work-detail-employer">{course.provider}</p>
+      <div class="work-detail-body">
+        <h2>About this learning path</h2>
+        <p>{course.description}</p>
+        <p>
+          This fixture page describes the resource without connecting an enrolment, payment or
+          account workflow.
+        </p>
+      </div>
+      <div class="work-detail-actions">
+        <button class="work-button" type="button" disabled>
+          Course access coming later
+        </button>
+        <a class="work-button work-button-secondary" href="/work/courses/">
+          Back to courses
+        </a>
+      </div>
+    </article>
+  </div>
+</WorkLayout>

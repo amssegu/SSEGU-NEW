@@ -1,0 +1,39 @@
+---
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import { cvResources } from '../../../lib/work';
+export function getStaticPaths() {
+  return cvResources.map((resource) => ({ params: { slug: resource.slug }, props: { resource } }));
+}
+const { resource } = Astro.props;
+---
+
+<WorkLayout title={`${resource.title} | SSEGU Work`} description={resource.description}>
+  <div class="work-page-shell work-detail-shell">
+    <nav class="work-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/work/">Work</a>
+      <span>/</span>
+      <a href="/work/cv-resources/">CV Resources</a>
+      <span>/</span>
+      <span aria-current="page">{resource.title}</span>
+    </nav>
+    <article class="work-detail-card">
+      <p class="work-eyebrow">CV resource</p>
+      <h1>{resource.title}</h1>
+      <div class="work-detail-body">
+        <p>{resource.detail}</p>
+        <p>
+          This fixture resource is available for the frontend review. Downloadable files and
+          applicant accounts are deferred until separately approved.
+        </p>
+        <h2>Use it as a final check</h2>
+        <p>
+          Keep your application specific, truthful and easy to scan. Save a clean copy of your final
+          version before you share it.
+        </p>
+      </div>
+      <a class="work-button work-button-secondary" href="/work/cv-resources/">
+        Back to CV resources
+      </a>
+    </article>
+  </div>
+</WorkLayout>

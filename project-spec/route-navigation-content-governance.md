@@ -21,7 +21,12 @@ These are implementation candidates from the technical specification, not final 
 | `/admin/` | CMS / technical lead | Authenticated CMS only; absent from navigation/indexing | Provisional |
 | `/404` | Error / technical lead | Helpful non-indexable not-found response | Provisional |
 
-No Work route, job collection, internship/course collection, employer workflow or `work.ssegu.com` redirect is approved.
+The original main-site-only contract did not approve Work routes. That boundary
+is amended for Phase 4 fixture frontend work by
+[`phase-4-scope-decision.md`](phase-4-scope-decision.md); the complete Work
+route map is recorded in [`phase-4-route-map.md`](phase-4-route-map.md).
+Production Work data, employer workflow and `work.ssegu.com` redirects remain
+outside this amendment.
 
 ## Navigation and linking rules
 

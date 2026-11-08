@@ -66,3 +66,12 @@ Unresolved and therefore not silently assumed: final launch route set after URL 
 
 Before implementation proceeds, any change to scope, provider, route, content model, migration source/mapping, security boundary or release acceptance must be recorded in the decision register with date, rationale, owner, impact, affected artefacts and approval status. Until approved, the existing baseline remains controlling.
 
+## 8. Phase 4 amendment
+
+The dated [`phase-4-scope-decision.md`](phase-4-scope-decision.md) records the
+approved amendment for Phase 4 fixture frontend work. The consolidated
+`new-tech-spec.md` and `implementation-plan.md` govern the `/work/` namespace,
+independent Work shell and local fixture routes for this phase. The original
+exclusions remain in force for Work production data, DNS, redirects, CMS,
+migration, submissions, accounts and backend behavior until their later gates.
+

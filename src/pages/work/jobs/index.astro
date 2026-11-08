@@ -1,0 +1,175 @@
+---
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import WorkJobCard from '../../../components/work/WorkJobCard.astro';
+import { workJobs } from '../../../lib/work';
+---
+
+<WorkLayout
+  title="Jobs | SSEGU Work"
+  description="Browse fixture job opportunities from SSEGU Work."
+>
+  <div class="work-page-shell">
+    <div class="work-page-intro">
+      <p class="work-eyebrow">Find your next opportunity</p>
+      <h1>Jobs</h1>
+      <p>
+        Search fixture opportunities by keyword, location, employment type and work arrangement.
+      </p>
+    </div>
+    <form id="work-job-filters" class="work-filter-panel" data-testid="work-job-filters">
+      <div class="work-filter-grid">
+        <div>
+          <label for="job-keyword">Keyword</label>
+          <input
+            id="job-keyword"
+            name="q"
+            type="search"
+            placeholder="Job title, employer or skill"
+          />
+        </div>
+        <div>
+          <label for="job-location">Location</label>
+          <select id="job-location" name="location">
+            <option value="">All locations</option>
+            <option value="Kampala">Kampala</option>
+            <option value="Remote">Remote</option>
+          </select>
+        </div>
+        <div>
+          <label for="job-type">Employment type</label>
+          <select id="job-type" name="type">
+            <option value="">All types</option>
+            <option>Full-time</option>
+            <option>Part-time</option>
+            <option>Contract</option>
+            <option>Internship</option>
+          </select>
+        </div>
+        <div>
+          <label for="job-arrangement">Work arrangement</label>
+          <select id="job-arrangement" name="arrangement">
+            <option value="">All arrangements</option>
+            <option>On-site</option>
+            <option>Hybrid</option>
+            <option>Remote</option>
+          </select>
+        </div>
+        <div>
+          <label for="job-status">Listing status</label>
+          <select id="job-status" name="status">
+            <option value="active">Active opportunities</option>
+            <option value="all">All listings</option>
+            <option value="expired">Expired opportunities</option>
+          </select>
+        </div>
+      </div>
+      <div class="work-filter-actions">
+        <button class="work-button" type="submit">
+          Apply filters
+        </button>
+        <button class="work-button work-button-secondary" id="clear-job-filters" type="button">
+          Clear
+        </button>
+      </div>
+    </form>
+    <p id="job-filter-status" class="work-results-status" role="status" aria-live="polite"></p>
+    <div id="job-results" class="work-job-results" data-testid="work-job-results">
+      {workJobs.map((job) => (
+        <WorkJobCard job={job} />
+      ))}
+    </div>
+    <p id="job-empty-state" class="work-empty-state" hidden>
+      No opportunities match those filters. Try a wider search or browse all listings.
+    </p>
+  </div>
+  <script define:vars={{ jobs: workJobs }} is:inline>
+    const form = document.querySelector('#work-job-filters');
+    const results = document.querySelector('#job-results');
+    const status = document.querySelector('#job-filter-status');
+    const emptyState = document.querySelector('#job-empty-state');
+    const keyword = document.querySelector('#job-keyword');
+    const location = document.querySelector('#job-location');
+    const type = document.querySelector('#job-type');
+    const arrangement = document.querySelector('#job-arrangement');
+    const listingStatus = document.querySelector('#job-status');
+    const clearButton = document.querySelector('#clear-job-filters');
+    const dateFormatter = new Intl.DateTimeFormat('en-UG', { dateStyle: 'medium' });
+    const params = new URLSearchParams(window.location.search);
+    keyword.value = params.get('q') || '';
+    location.value = params.get('location') || '';
+    type.value = params.get('type') || '';
+    arrangement.value = params.get('arrangement') || '';
+    listingStatus.value = params.get('status') || 'active';
+
+    const escapeHtml = (value) =>
+      String(value).replace(
+        /[&<>'"]/g,
+        (character) =>
+          ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            "'": '&#39;',
+            '"': '&quot;',
+          })[character],
+      );
+    const renderJob = (job) => `
+      <article class="work-job-card${job.status === 'expired' ? ' is-expired' : ''}">
+        <div class="work-job-icon" aria-hidden="true">▣</div>
+        <div class="work-job-content">
+          <div class="work-job-heading"><div>
+            <p class="work-card-kicker">${escapeHtml(job.category)}</p>
+            <h3><a href="/work/jobs/${escapeHtml(job.slug)}/">${escapeHtml(job.title)}</a></h3>
+            <p class="work-job-employer">${escapeHtml(job.employer)}</p>
+          </div><span class="work-status-badge${job.status === 'expired' ? ' is-expired' : ''}">${job.status === 'active' ? 'Active' : 'Expired'}</span></div>
+          <p class="work-job-description">${escapeHtml(job.description)}</p>
+          <div class="work-job-meta"><span>⌖ ${escapeHtml(job.location)}</span><span>▣ ${escapeHtml(job.arrangement)}</span><span>Deadline: ${dateFormatter.format(new Date(`${job.deadline}T12:00:00Z`))}</span></div>
+        </div>
+        <a class="work-job-arrow" href="/work/jobs/${escapeHtml(job.slug)}/" aria-label="View ${escapeHtml(job.title)}"><span aria-hidden="true">→</span></a>
+      </article>`;
+    const applyFilters = (updateUrl = true) => {
+      const query = keyword.value.trim().toLowerCase();
+      const selectedStatus = listingStatus.value;
+      const matches = jobs.filter((job) => {
+        const haystack = [job.title, job.employer, job.category, job.description]
+          .join(' ')
+          .toLowerCase();
+        return (
+          (!query || haystack.includes(query)) &&
+          (!location.value || job.location === location.value) &&
+          (!type.value || job.employmentType === type.value) &&
+          (!arrangement.value || job.arrangement === arrangement.value) &&
+          (selectedStatus === 'all' || job.status === selectedStatus)
+        );
+      });
+      results.innerHTML = matches.map(renderJob).join('');
+      emptyState.hidden = matches.length !== 0;
+      status.textContent = `${matches.length} ${matches.length === 1 ? 'opportunity' : 'opportunities'} shown.`;
+      if (updateUrl) {
+        const next = new URLSearchParams();
+        if (keyword.value.trim()) next.set('q', keyword.value.trim());
+        if (location.value) next.set('location', location.value);
+        if (type.value) next.set('type', type.value);
+        if (arrangement.value) next.set('arrangement', arrangement.value);
+        if (listingStatus.value !== 'active') next.set('status', listingStatus.value);
+        const queryString = next.toString();
+        history.replaceState(
+          null,
+          '',
+          `${window.location.pathname}${queryString ? `?${queryString}` : ''}`,
+        );
+      }
+    };
+    form?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      applyFilters();
+    });
+    clearButton?.addEventListener('click', () => {
+      form.reset();
+      listingStatus.value = 'active';
+      applyFilters();
+      keyword.focus();
+    });
+    applyFilters(false);
+  </script>
+</WorkLayout>

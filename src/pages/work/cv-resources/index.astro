@@ -1,0 +1,35 @@
+---
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import { cvResources } from '../../../lib/work';
+---
+
+<WorkLayout
+  title="CV Resources | SSEGU Work"
+  description="Practical fixture CV and application resources from SSEGU Work."
+>
+  <div class="work-page-shell">
+    <div class="work-page-intro">
+      <p class="work-eyebrow">Present your strengths</p>
+      <h1>CV Resources</h1>
+      <p>
+        Use these fixture resources to make your application clearer and more useful to employers.
+      </p>
+    </div>
+    <div class="work-resource-grid">
+      {cvResources.map((resource) => (
+        <article class="work-resource-card">
+          <span class="work-resource-icon" aria-hidden="true">
+            {resource.title.slice(0, 1)}
+          </span>
+          <h2>
+            <a href={`/work/cv-resources/${resource.slug}/`}>{resource.title}</a>
+          </h2>
+          <p>{resource.description}</p>
+          <a class="work-text-link" href={`/work/cv-resources/${resource.slug}/`}>
+            Open resource →
+          </a>
+        </article>
+      ))}
+    </div>
+  </div>
+</WorkLayout>

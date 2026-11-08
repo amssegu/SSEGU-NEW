@@ -1,0 +1,163 @@
+---
+import WorkLayout from '../../layouts/WorkLayout.astro';
+import WorkJobCard from '../../components/work/WorkJobCard.astro';
+import WorkQuickLinks from '../../components/work/WorkQuickLinks.astro';
+import { formatWorkDate, workArticles, workJobs } from '../../lib/work';
+
+const latestJobs = workJobs.filter((job) => job.status === 'active').slice(0, 3);
+const featuredArticle = workArticles[0];
+---
+
+<WorkLayout
+  title="SSEGU Work | Jobs, Careers, Skills and Opportunities"
+  description="Find job opportunities, career advice, skills resources and internships with SSEGU Work."
+>
+  <section class="work-hero" aria-labelledby="work-hero-title">
+    <div class="work-hero-copy">
+      <p class="work-hero-title" id="work-hero-title">
+        Your Career.
+        <br />
+        <strong>Our Priority.</strong>
+      </p>
+      <p class="work-hero-description">
+        Discover job opportunities, explore career resources and build the skills you need for a
+        brighter future.
+      </p>
+      <form class="work-hero-search" action="/work/jobs/" method="get">
+        <label class="sr-only" for="hero-keyword">
+          Search opportunities
+        </label>
+        <input
+          id="hero-keyword"
+          name="q"
+          type="search"
+          placeholder="Search jobs or career advice…"
+        />
+        <label class="sr-only" for="hero-location">
+          Location
+        </label>
+        <select id="hero-location" name="location">
+          <option value="">All Locations</option>
+          <option value="Kampala">Kampala</option>
+          <option value="Remote">Remote</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+      <div class="work-popular" aria-label="Popular Work topics">
+        <strong>Popular:</strong>
+        <a href="/work/jobs/?q=jobs">Jobs</a>
+        <a href="/work/internships/">Internships</a>
+        <a href="/work/jobs/?q=ICT">ICT</a>
+        <a href="/work/jobs/?q=Business">Business</a>
+        <a href="/work/jobs/?q=Education">Education</a>
+      </div>
+    </div>
+    <div class="work-hero-image">
+      <img
+        src="/uploads/article-technology.webp"
+        alt="Young professionals learning and working together"
+        width="1200"
+        height="675"
+      />
+      <p>
+        Learn. Prepare.
+        <br />
+        <strong>Get Hired.</strong>
+      </p>
+    </div>
+  </section>
+
+  <div class="work-home-grid">
+    <section class="work-panel work-latest-panel" aria-labelledby="latest-jobs-title">
+      <div class="work-panel-heading">
+        <span class="work-heading-icon" aria-hidden="true">
+          ▣
+        </span>
+        <h2 id="latest-jobs-title">Latest Job Opportunities</h2>
+        <a href="/work/jobs/">
+          View all jobs <span aria-hidden="true">→</span>
+        </a>
+      </div>
+      <div class="work-job-list">
+        {latestJobs.map((job) => (
+          <WorkJobCard job={job} compact />
+        ))}
+      </div>
+    </section>
+
+    <article class="work-feature-card">
+      <a href={`/work/career-advice/${featuredArticle.slug}/`}>
+        <img
+          src={featuredArticle.image}
+          alt="CV and career planning materials on a desk"
+          width="1200"
+          height="675"
+        />
+        <div class="work-feature-overlay">
+          <span class="work-feature-label">{featuredArticle.category}</span>
+          <h2>{featuredArticle.title}</h2>
+          <p>{featuredArticle.description}</p>
+          <span class="work-feature-cta">
+            Read More <span aria-hidden="true">→</span>
+          </span>
+          <small>
+            ♙ By {featuredArticle.author} &nbsp;|&nbsp;{' '}
+            {formatWorkDate(featuredArticle.publishedAt)}
+          </small>
+        </div>
+      </a>
+    </article>
+
+    <aside class="work-home-aside">
+      <WorkQuickLinks />
+      <section class="work-updates" aria-labelledby="updates-title">
+        <span class="work-updates-icon" aria-hidden="true">
+          ➤
+        </span>
+        <div>
+          <h2 id="updates-title">Get Career Updates</h2>
+          <p>Receive new job alerts and career tips.</p>
+        </div>
+        <form class="work-updates-form" action="/work/" method="get">
+          <label class="sr-only" for="updates-email">
+            Your email address
+          </label>
+          <input
+            id="updates-email"
+            name="email"
+            type="email"
+            placeholder="Your email address"
+            autocomplete="email"
+          />
+          <button type="submit">Subscribe</button>
+        </form>
+        <small>Fixture presentation; newsletter delivery is not connected in Phase 4.</small>
+      </section>
+    </aside>
+  </div>
+
+  <section class="work-trust-strip" aria-label="Why SSEGU Work">
+    <div>
+      <span aria-hidden="true">♟</span>
+      <strong>
+        Trusted Opportunities<small>from Top Employers</small>
+      </strong>
+    </div>
+    <div>
+      <span aria-hidden="true">▤</span>
+      <strong>
+        Expert Career Advice<small>and Resources</small>
+      </strong>
+    </div>
+    <div>
+      <span aria-hidden="true">▥</span>
+      <strong>Skills for a Better Future</strong>
+    </div>
+    <div>
+      <span aria-hidden="true">♢</span>
+      <strong>
+        A Stronger Workforce<small>for a Greater Uganda</small>
+      </strong>
+    </div>
+  </section>
+</WorkLayout>

@@ -1,0 +1,25 @@
+---
+const links = [
+  { label: 'Browse Jobs', href: '/work/jobs/', icon: '▣' },
+  { label: 'Explore Courses', href: '/work/courses/', icon: '◆' },
+  { label: 'Career Tips', href: '/work/career-advice/', icon: '▤' },
+  { label: 'CV Resources', href: '/work/cv-resources/', icon: '▥' },
+];
+---
+
+<section class="work-panel work-quick-links" aria-labelledby="quick-links-title">
+  <div class="work-panel-heading">
+    <span class="work-heading-icon" aria-hidden="true">
+      ▦
+    </span>
+    <h2 id="quick-links-title">Quick Links</h2>
+  </div>
+  <div class="work-quick-grid">
+    {links.map((link) => (
+      <a href={link.href}>
+        <span aria-hidden="true">{link.icon}</span>
+        <strong>{link.label}</strong>
+      </a>
+    ))}
+  </div>
+</section>

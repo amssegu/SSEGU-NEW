@@ -1,0 +1,42 @@
+---
+import type { WorkJob } from '../../lib/work';
+import { formatWorkDate } from '../../lib/work';
+
+interface Props {
+  job: WorkJob;
+  compact?: boolean;
+}
+
+const { job, compact = false } = Astro.props;
+---
+
+<article
+  class:list={['work-job-card', compact && 'is-compact', job.status === 'expired' && 'is-expired']}
+>
+  <div class="work-job-icon" aria-hidden="true">
+    ▣
+  </div>
+  <div class="work-job-content">
+    <div class="work-job-heading">
+      <div>
+        <p class="work-card-kicker">{job.category}</p>
+        <h3>
+          <a href={`/work/jobs/${job.slug}/`}>{job.title}</a>
+        </h3>
+        <p class="work-job-employer">{job.employer}</p>
+      </div>
+      <span class:list={['work-status-badge', job.status === 'expired' && 'is-expired']}>
+        {job.status === 'active' ? 'Active' : 'Expired'}
+      </span>
+    </div>
+    {!compact && <p class="work-job-description">{job.description}</p>}
+    <div class="work-job-meta">
+      <span>⌖ {job.location}</span>
+      <span>▣ {job.arrangement}</span>
+      <span>Deadline: {formatWorkDate(job.deadline)}</span>
+    </div>
+  </div>
+  <a class="work-job-arrow" href={`/work/jobs/${job.slug}/`} aria-label={`View ${job.title}`}>
+    <span aria-hidden="true">→</span>
+  </a>
+</article>

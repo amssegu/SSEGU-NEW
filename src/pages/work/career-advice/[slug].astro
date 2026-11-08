@@ -1,0 +1,56 @@
+---
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import { formatWorkDate, workArticles } from '../../../lib/work';
+
+export function getStaticPaths() {
+  return workArticles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+}
+const { article } = Astro.props;
+const relatedArticles = workArticles.filter((item) => item.slug !== article.slug).slice(0, 2);
+---
+
+<WorkLayout title={`${article.title} | SSEGU Work`} description={article.description}>
+  <div class="work-page-shell work-detail-shell">
+    <nav class="work-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/work/">Work</a>
+      <span>/</span>
+      <a href="/work/career-advice/">Career Advice</a>
+      <span>/</span>
+      <span aria-current="page">Article</span>
+    </nav>
+    <article class="work-article-detail">
+      <p class="work-eyebrow">{article.category}</p>
+      <h1>{article.title}</h1>
+      <p class="work-article-meta">
+        By {article.author} · {formatWorkDate(article.publishedAt)}
+      </p>
+      <img src={article.image} alt="" width="1200" height="675" />
+      <div class="work-detail-body">
+        <p>{article.description}</p>
+        <p>
+          This fixture article is part of the Phase 4 frontend review. It demonstrates the Work
+          editorial reading experience while authoritative content and CMS workflows remain
+          deferred.
+        </p>
+        <h2>Make your next step clearer</h2>
+        <p>
+          Review the opportunity, identify the evidence that supports your strengths and prepare
+          questions that show how you would contribute. Small, specific improvements make a strong
+          application easier to understand.
+        </p>
+      </div>
+    </article>
+    {relatedArticles.length > 0 && (
+      <section class="work-related" aria-labelledby="related-advice-title">
+        <h2 id="related-advice-title">More career advice</h2>
+        <div class="work-article-grid">
+          {relatedArticles.map((item) => (
+            <a class="work-related-link" href={`/work/career-advice/${item.slug}/`}>
+              {item.title}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</WorkLayout>

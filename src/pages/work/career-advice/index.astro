@@ -1,0 +1,34 @@
+---
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import { formatWorkDate, workArticles } from '../../../lib/work';
+---
+
+<WorkLayout
+  title="Career Advice | SSEGU Work"
+  description="Fixture career advice and practical resources from SSEGU Work."
+>
+  <div class="work-page-shell">
+    <div class="work-page-intro">
+      <p class="work-eyebrow">Learn and prepare</p>
+      <h1>Career Advice</h1>
+      <p>Practical fixture guidance for your next application, interview and career move.</p>
+    </div>
+    <div class="work-article-grid">
+      {workArticles.map((article) => (
+        <article class="work-advice-card">
+          <a href={`/work/career-advice/${article.slug}/`}>
+            <img src={article.image} alt="" width="1200" height="675" />
+            <div>
+              <p class="work-card-kicker">{article.category}</p>
+              <h2>{article.title}</h2>
+              <p>{article.description}</p>
+              <small>
+                By {article.author} · {formatWorkDate(article.publishedAt)}
+              </small>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </div>
+</WorkLayout>

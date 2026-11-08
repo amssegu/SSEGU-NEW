@@ -6,6 +6,10 @@
 **Version:** 2.0  
 **Date:** 7 November 2026
 
+> Historical main-site baseline. For the approved consolidated Phase 4 onward
+> scope, use `new-tech-spec.md`, `implementation phases/implementation-plan.md`
+> and `phase-4-scope-decision.md`.
+
 ---
 
 ## 1. Project overview

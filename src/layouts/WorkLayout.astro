@@ -1,0 +1,137 @@
+---
+import '../styles/global.css';
+import '../styles/work.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+}
+
+const {
+  title = 'SSEGU Work | Jobs · Careers · Skills · Opportunities',
+  description = 'Jobs, career advice, skills and opportunities from SSEGU Work.',
+  noindex = false,
+} = Astro.props;
+const currentPath = Astro.url.pathname;
+const nav = [
+  { label: 'Home', href: '/work/' },
+  { label: 'Jobs', href: '/work/jobs/' },
+  { label: 'Internships', href: '/work/internships/' },
+  { label: 'Career Advice', href: '/work/career-advice/' },
+  { label: 'Courses', href: '/work/courses/' },
+  { label: 'CV Resources', href: '/work/cv-resources/' },
+  { label: 'Employers', href: '/work/employers/' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+    <meta name="theme-color" content="#082f78" />
+    <link rel="canonical" href={Astro.url.href} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="work-site">
+      <a class="skip-link work-skip-link" href="#work-main-content">
+        Skip to content
+      </a>
+      <header class="work-header">
+        <div class="work-header-inner">
+          <a class="work-brand" href="/work/" aria-label="SSEGU Work home">
+            <span class="work-brand-name">
+              SSEGU <b>Work</b>
+            </span>
+            <span class="work-brand-subtitle">Jobs · Careers · Skills · Opportunities</span>
+          </a>
+          <button
+            class="work-menu-toggle"
+            type="button"
+            aria-label="Toggle Work navigation"
+            aria-expanded="false"
+            aria-controls="work-primary-nav"
+          >
+            <span aria-hidden="true">☰</span>
+          </button>
+          <nav id="work-primary-nav" class="work-primary-nav" aria-label="Work navigation">
+            {nav.map((item) => {
+              const active =
+                item.href === '/work/'
+                  ? currentPath === item.href
+                  : currentPath === item.href || currentPath.startsWith(`${item.href}`);
+              return (
+                <a
+                  class="work-nav-link"
+                  class:list:active={active}
+                  href={item.href}
+                  aria-current={active ? 'page' : undefined}
+                >
+                  {item.label}
+                </a>
+              );
+            })}
+          </nav>
+          <a class="work-news-link" href="/">
+            Explore News <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </header>
+      <main id="work-main-content" class="work-main">
+        <slot />
+      </main>
+      <footer class="work-footer">
+        <div class="work-footer-inner">
+          <div>
+            <a class="work-footer-brand" href="/work/">
+              SSEGU Work
+            </a>
+            <p>Helping people learn, prepare and get hired.</p>
+            <small>
+              Fixture content only. Editorial job publishing follows a later approved workflow.
+            </small>
+          </div>
+          <div>
+            <h2>Explore Work</h2>
+            <a href="/work/jobs/">Jobs</a>
+            <a href="/work/internships/">Internships</a>
+            <a href="/work/career-advice/">Career advice</a>
+          </div>
+          <div>
+            <h2>For employers</h2>
+            <a href="/work/employers/">Why work with us</a>
+            <a href="/work/submit-job/">Submit a job</a>
+            <a href="/">Visit SSEGU News</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script is:inline>
+      const workMenuButton = document.querySelector('.work-menu-toggle');
+      const workNav = document.querySelector('#work-primary-nav');
+      const closeWorkMenu = () => {
+        workNav?.classList.remove('is-open');
+        workMenuButton?.setAttribute('aria-expanded', 'false');
+      };
+      workMenuButton?.addEventListener('click', () => {
+        const open = workMenuButton.getAttribute('aria-expanded') === 'true';
+        workMenuButton.setAttribute('aria-expanded', String(!open));
+        workNav?.classList.toggle('is-open', !open);
+        if (!open) workNav?.querySelector('a')?.focus();
+      });
+      workNav?.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          closeWorkMenu();
+          workMenuButton?.focus();
+        }
+      });
+      workNav
+        ?.querySelectorAll('a')
+        .forEach((link) => link.addEventListener('click', closeWorkMenu));
+    </script>
+  </body>
+</html>
