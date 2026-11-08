@@ -1139,7 +1139,16 @@ input:focus-visible {
     flex-direction: column;
   }
 }
+@media (min-width: 641px) and (max-width: 760px) {
+  .lead-area {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 640px) {
+  :root {
+    --page-gutter: 16px;
+    --content-gap: 16px;
+  }
   .utility-bar,
   .utility-inner {
     height: auto;
@@ -1164,6 +1173,17 @@ input:focus-visible {
     min-height: 0;
     aspect-ratio: 16 / 9;
   }
+  .lead-overlay {
+    padding: 1rem;
+  }
+  .lead-overlay h1 {
+    font-size: clamp(1.75rem, 8vw, 2.625rem);
+  }
+  .section-heading {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+  }
   .live-tv-module {
     padding: 1.1rem;
   }
@@ -1180,6 +1200,19 @@ input:focus-visible {
   }
   .live-tv-body {
     grid-template-columns: 1fr;
+  }
+  .live-tv-page-heading,
+  .live-tv-embed-help {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .live-tv-page-status {
+    align-self: stretch;
+    justify-content: center;
+  }
+  .live-tv-embed-shell,
+  .live-tv-embed-shell iframe {
+    min-height: 62svh;
   }
   .breaking {
     height: auto;
@@ -1207,6 +1240,12 @@ input:focus-visible {
   .utility-inner {
     flex-wrap: wrap;
     padding-block: 0.5rem;
+  }
+  .utility-inner time {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .utility-inner nav {
     width: 100%;
