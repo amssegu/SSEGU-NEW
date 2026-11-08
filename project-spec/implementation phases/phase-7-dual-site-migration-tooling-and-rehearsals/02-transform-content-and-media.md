@@ -6,7 +6,13 @@ You are the content-conversion and media-reconciliation implementer.
 
 ## Required work
 
-Convert supplied News and Work exports into approved portable content. Map Work records to jobs, internships, Work articles, courses or CV resources. Flag unsupported markup, scripts, tables, embeds, captions, malformed HTML, missing media and rights concerns. Reconcile only approved supplied media, preserve source references and validate output through the real schemas/build path.
+Convert the pinned Work `posts/` dataset from `amssegu/ssegu` into approved
+portable Work content. Keep current News placeholder/fixture content in its
+own non-authoritative output path. Map Work records to Work articles, jobs,
+internships, courses or CV resources only after inspection. Flag unsupported
+markup, scripts, tables, embeds, captions, malformed HTML, missing media and
+rights concerns. Reconcile only approved supplied media, preserve source
+references and validate each dataset through its own real schema/build path.
 
 ## Safety
 
@@ -14,5 +20,6 @@ Never modify originals, silently discard content, invent vacancy facts or overwr
 
 ## Deliverables
 
-Transformation utilities, media manifest, converted pilot records and exception report.
+Transformation utilities, separate News/Work media manifests, converted Work
+pilot records and separate exception reports.
 

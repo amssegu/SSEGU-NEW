@@ -15,6 +15,10 @@ Phase 4 must PASS. Read `new-tech-spec.md` sections 5–6 and the approved Phase
 3. Define draft/published/expired states and Work-specific SEO/structured-data fields.
 4. Use portable Markdown and stable media references; keep validation outside presentation components.
 5. Add valid/invalid fixtures, unique-slug checks, relation checks and deterministic validation errors.
+6. Enforce production separation: News and Work must have distinct collections,
+   manifests, route namespaces and validation paths. A Work record must fail
+   News collection validation, and a News placeholder must not satisfy a Work
+   record schema.
 
 ## Deliverables and validation
 

@@ -1,7 +1,7 @@
 # SSEGU Consolidated Implementation Plan — Phase 4 Onward
 
 **Status:** Proposed consolidated plan after main-site Phase 3
-**Source of truth:** [`new-tech-spec.md`](../new-tech-spec.md)
+**Source of truth:** [`new-tech-spec.md`](../new-tech-spec.md), with the Phase 7 source split below
 **Design authorities:** [`frontend.png`](../frontend.png) for News and [`sseguwork.png`](../sseguwork.png) for Work
 **Prepared:** 8 November 2026
 
@@ -48,6 +48,20 @@ made.
 - Cloudflare Turnstile and rate limiting protect the public submission form.
 - Repository media is the initial storage strategy; R2 requires a measured
   approval.
+
+### Dataset separation
+
+- **News:** the current repository News data is placeholder/fixture content, as
+  documented in the existing content audit. It must remain separate from the
+  Work dataset and must not be represented as the authoritative News migration
+  archive.
+- **Work:** the authoritative Work article dataset for migration is the pinned
+  `posts/` directory in [`amssegu/ssegu`](https://github.com/amssegu/ssegu/tree/main/posts).
+  Phase 7 must record the repository URL, commit/ref, retrieval date, file
+  count, checksums and any media/source limitations before transforming it.
+- The two datasets must use separate content collections, migration manifests,
+  route namespaces and review reports in production. No Work post may enter the
+  News collection, and placeholder News fixtures must not enter Work.
 
 ## 3. Work design acceptance basis
 
@@ -264,14 +278,20 @@ accounts or automatic publication.
 
 ### Phase 7 — Dual-site migration tooling and rehearsal
 
-**Purpose:** Make migration from both Blogger sites repeatable, reviewable and
-reversible before importing the full archive.
+**Purpose:** Make the separate News and Work migrations repeatable, reviewable
+and reversible before importing authoritative content.
 
 **Tasks**
 
-- Receive and checksum read-only exports from both Blogger sites.
-- Inventory News and Work posts, pages, labels, dates, authors, media, embeds,
-  canonical metadata and Search Console/URL data.
+- Record the current News placeholder/fixture dataset as non-authoritative
+  implementation input; do not treat it as the final News migration archive.
+- Retrieve the authoritative Work dataset only from
+  `https://github.com/amssegu/ssegu/tree/main/posts`, pin its commit/ref, record
+  retrieval metadata and checksum the read-only files.
+- Inventory Work posts, labels, dates, authors, media, embeds, canonical
+  metadata and source URLs from that pinned dataset.
+- Keep News and Work manifests, output directories, counts and review reports
+  separate.
 - Map Work content into jobs, internships, Work articles, courses, CV resources
   or explicit manual-review records.
 - Preserve source IDs and original URLs.
@@ -287,7 +307,9 @@ reversible before importing the full archive.
 
 **Phase 7 exit gate**
 
-- Both exports are provenance-recorded and reproducible.
+- The Work GitHub dataset is provenance-recorded, pinned and reproducible.
+- News placeholder data is explicitly marked non-authoritative and is not
+  mixed with Work output.
 - Important News and Work URLs have dispositions.
 - Pilot output does not duplicate content or overwrite reviewed corrections.
 - No critical content-loss, URL-loss, rights or security issue remains.
@@ -470,7 +492,9 @@ prerequisites for DNS/production cutover.
 
 ### Migration and SEO
 
-- [ ] Both Blogger exports are archived with provenance and checksums.
+- [ ] The Work GitHub `posts/` source is archived with provenance and checksums,
+  while News placeholder data remains explicitly non-authoritative until its
+  approved source is supplied.
 - [ ] Important News and Work URLs have verified dispositions.
 - [ ] `work.ssegu.com` redirects to relevant `/work/` routes.
 - [ ] No redirect loops, chains or irrelevant homepage redirects exist.

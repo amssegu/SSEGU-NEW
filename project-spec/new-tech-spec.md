@@ -71,7 +71,9 @@ resulting from changed provider policies are outside this guarantee.
   Media                               Repository assets initially;
                                       evaluate R2 when appropriate
 
-  Migration source                    Both existing Blogger sites
+  Migration source                    Section-specific: current News
+                                      fixtures plus pinned Work GitHub
+                                      `posts/` dataset
   -----------------------------------------------------------------------
 
 ### 1.2 Project goals
@@ -910,7 +912,20 @@ SEO preservation is a critical project requirement.
 
 ### 11.1 Pre-migration audit
 
-For both Blogger sites, inventory:
+The migration inputs are intentionally split by section. The current News
+implementation uses placeholder/fixture content and must remain separate from
+the authoritative Work dataset. Work article migration must use the pinned
+`posts/` directory from the `amssegu/ssegu` GitHub repository:
+
+`https://github.com/amssegu/ssegu/tree/main/posts`
+
+Phase 7 must pin the commit/ref, record retrieval date and file count, preserve
+the original files read-only, calculate checksums where practical and document
+media/source limitations. The Work dataset must populate Work collections only;
+it must never be merged into News or used to replace the News placeholder
+fixtures before an approved News dataset is supplied.
+
+For each approved source, inventory:
 
 -   Published posts and pages.
 -   Original URLs.
@@ -925,9 +940,15 @@ For both Blogger sites, inventory:
 -   Search Console clicks, impressions and indexed URLs.
 -   Existing redirects.
 
-Export both Blogger sites. Blogger XML exports should be supplemented
-with a media audit; an export does not guarantee that all original image
-files are locally available.
+The generic Blogger inventory requirements apply to any future approved News
+export and to the historical Work source only where the corresponding field is
+present. They do not authorize replacing the current News placeholder dataset
+with the Work GitHub records.
+
+Export or otherwise preserve each approved section source. The Work GitHub
+`posts/` tree is the current authoritative Work source; any future approved
+News export must be supplemented with a media audit because an export does not
+guarantee that all original image files are locally available.
 
 ### 11.2 Migration utility
 
@@ -1171,7 +1192,7 @@ Do not optimise solely for a desktop development machine.
 
 Deliverables:
 
--   Export both Blogger sites.
+-   Provenance-recorded News source decision and pinned Work GitHub `posts/` source.
 -   Content and media inventory.
 -   URL and redirect spreadsheet.
 -   Search Console baseline.

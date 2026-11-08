@@ -4,19 +4,25 @@
 **Prepared:** 7 November 2026  
 **Input reviewed:** [`phase-1-input-manifest.md`](phase-1-input-manifest.md)
 
-## Rejected GitHub package findings
+## Work GitHub source findings
 
-The pinned `posts/` tree contains **84 HTML files**. All 84 are classified as out of scope because their subjects are jobs, visa sponsorship, employment, career/CV advice, freelancing or online courses/skills. They are not imported into the main SSEGU publication build.
+The pinned `posts/` tree contains **84 HTML files**. The records are Work
+content—jobs, employment, career/CV advice, freelancing and online courses or
+skills—and are not part of the News dataset. Under the consolidated plan they
+are the candidate authoritative Work article source and must be migrated only
+into Work collections after Phase 7 records the exact GitHub commit/ref,
+retrieval date, checksums and rights/media review.
 
-The files are useful only as a provenance record and as evidence that this package cannot serve as the main-publication migration input. No content counts, titles, dates, canonical URLs or media references from this package are approved for migration.
+They must never be imported into the main News publication. The current News
+dataset remains the separate synthetic placeholder set documented below.
 
 | Audit area | Result | Disposition |
 |---|---|---|
-| Posts/pages | 84 HTML posts; all out-of-scope subject matter | Exclude all; do not import |
-| IDs/authors/categories | No approved structured export supplied | Blocked; request main-site package |
-| Original URLs/slugs | Canonicals exist in HTML but are not approved inputs | Do not map or redirect |
+| Posts/pages | 84 HTML Work posts | Candidate Work input; verify at Phase 7 |
+| IDs/authors/categories | Present in source HTML but not yet normalized | Map to Work schemas; manual review where absent |
+| Original URLs/slugs | Canonicals exist in HTML | Preserve/map only after pinned-source audit |
 | Titles/descriptions/dates | Present in source HTML | Do not import |
-| Media | 84 cover images and repeated image markup; external URLs | Do not download/reconcile without approved main-site package and rights |
+| Media | 84 cover images and repeated image markup; external URLs | Reconcile only after Work rights/source review |
 | Embeds/scripts/ads | Inline styles/scripts and third-party references observed | Exclude from application |
 | Search Console baseline | Not supplied | Blocked/unavailable |
 
@@ -44,7 +50,7 @@ No legacy URL receives `preserve`, `map`, `redirect`, `404/410` or `manual-revie
 
 ## Exception register
 
-- Scope contamination in the GitHub package: all 84 records are Work-adjacent/job/career/course material — **critical, exclude**.
+- Dataset separation: all 84 GitHub records are Work content and must not enter News — **critical, enforce separate collections/manifests**.
 - Sample metadata gap: 35 local articles have no frontmatter — **high, add schema metadata before publication**.
 - Sample media gap: no local article image references — **medium, use one shared placeholder for fixtures and require real media before launch**.
 - Media provenance: external Blogger-hosted image URLs are present — **blocked, do not fetch**.
