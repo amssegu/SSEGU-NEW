@@ -1,0 +1,7 @@
+{
+  "collection": "articles",
+  "slug": "invalid-image-metadata",
+  "image": "/uploads/example.jpg",
+  "imageAlt": "",
+  "status": "draft"
+}

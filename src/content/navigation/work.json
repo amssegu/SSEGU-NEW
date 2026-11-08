@@ -1,0 +1,8 @@
+{
+  "section": "work",
+  "items": [
+    { "label": "Home", "href": "/work/", "order": 1, "visible": true },
+    { "label": "Jobs", "href": "/work/jobs/", "order": 2, "visible": true },
+    { "label": "Career Advice", "href": "/work/career-advice/", "order": 3, "visible": true }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "collection": "articles",
+  "section": "work",
+  "slug": "invalid-work-record",
+  "author": "missing-author",
+  "categories": ["missing-category"],
+  "status": "draft"
+}

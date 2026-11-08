@@ -1,0 +1,9 @@
+{
+  "name": "SSEGU Phase 5 Fixture Employer",
+  "slug": "fixture-employer",
+  "website": "https://example.com/ssegu-employer-fixture",
+  "description": "Synthetic employer record used only for schema and CMS round-trip validation.",
+  "location": "Kampala, Uganda",
+  "verificationNote": "Synthetic fixture; not an approved production employer.",
+  "status": "draft"
+}

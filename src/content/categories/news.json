@@ -1,0 +1,7 @@
+{
+  "name": "News",
+  "slug": "news",
+  "description": "General SSEGU news and reporting.",
+  "navigationVisible": true,
+  "displayOrder": 1
+}

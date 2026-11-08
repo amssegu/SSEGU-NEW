@@ -1,0 +1,300 @@
+backend:
+  name: github
+  repo: c4rrotJuice/ssegu
+  branch: main
+
+publish_mode: editorial_workflow
+local_backend: true
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: articles
+    label: News articles
+    label_singular: News article
+    folder: src/content/articles
+    create: true
+    extension: md
+    format: frontmatter
+    identifier_field: slug
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string, hint: Lowercase URL-safe value; must be unique. }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: Body, name: body, widget: markdown }
+      - { label: Author, name: author, widget: relation, collection: authors, value_field: slug, search_fields: [name, slug] }
+      - label: Categories
+        name: categories
+        widget: list
+        min: 1
+        field: { label: Category, name: category, widget: relation, collection: categories, value_field: slug, search_fields: [name, slug] }
+      - { label: Tags, name: tags, widget: list, required: false, field: { label: Tag, name: tag, widget: string } }
+      - { label: Published date, name: publishedAt, widget: datetime, format: YYYY-MM-DD }
+      - { label: Updated date, name: updatedAt, widget: datetime, format: YYYY-MM-DD, required: false }
+      - { label: Status, name: status, widget: select, options: [draft, published, expired], default: draft }
+      - { label: Featured, name: featured, widget: boolean, default: false, required: false }
+      - { label: Featured image, name: image, widget: image, required: false, hint: Use approved media only. }
+      - { label: Image alt text, name: imageAlt, widget: string, required: false }
+      - { label: Image caption, name: imageCaption, widget: string, required: false }
+      - { label: Image credit, name: imageCredit, widget: string, required: false }
+      - { label: SEO title, name: seoTitle, widget: string, required: false }
+      - { label: Meta description, name: metaDescription, widget: text, required: false }
+      - { label: Canonical URL, name: canonicalUrl, widget: string, required: false }
+
+  - name: categories
+    label: News categories
+    folder: src/content/categories
+    create: true
+    extension: json
+    format: json
+    identifier_field: slug
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Show in navigation, name: navigationVisible, widget: boolean, default: true }
+      - { label: Display order, name: displayOrder, widget: number, value_type: int, min: 0, default: 0 }
+
+  - name: work_categories
+    label: Work categories
+    folder: src/content/work-categories
+    create: true
+    extension: json
+    format: json
+    identifier_field: slug
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Show in navigation, name: navigationVisible, widget: boolean, default: true }
+      - { label: Display order, name: displayOrder, widget: number, value_type: int, min: 0, default: 0 }
+
+  - name: authors
+    label: Authors
+    folder: src/content/authors
+    create: true
+    extension: json
+    format: json
+    identifier_field: slug
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Biography, name: biography, widget: text }
+      - { label: Portrait, name: portrait, widget: image, required: false }
+      - { label: Website, name: website, widget: string, required: false }
+      - { label: X/Twitter profile, name: twitter, widget: string, required: false }
+      - { label: LinkedIn profile, name: linkedin, widget: string, required: false }
+
+  - name: pages
+    label: News pages
+    folder: src/content/pages
+    create: true
+    extension: md
+    format: frontmatter
+    identifier_field: slug
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Body, name: body, widget: markdown }
+      - { label: Status, name: status, widget: select, options: [draft, published, expired], default: draft }
+      - { label: SEO title, name: seoTitle, widget: string, required: false }
+      - { label: Meta description, name: metaDescription, widget: text, required: false }
+      - { label: Canonical URL, name: canonicalUrl, widget: string, required: false }
+
+  - name: jobs
+    label: Work jobs
+    label_singular: Work job
+    folder: src/content/jobs
+    create: true
+    extension: md
+    format: frontmatter
+    identifier_field: slug
+    fields:
+      - { label: Job title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string, hint: Lowercase URL-safe value; must be unique within Work. }
+      - { label: Employer, name: employer, widget: relation, collection: employers, value_field: slug, search_fields: [name, slug] }
+      - { label: Location, name: location, widget: string }
+      - { label: Work arrangement, name: arrangement, widget: select, options: [on-site, hybrid, remote] }
+      - { label: Employment type, name: employmentType, widget: select, options: [full-time, part-time, contract, temporary, internship, volunteer] }
+      - { label: Salary, name: salary, widget: string, required: false, hint: Enter only verified information; never estimate. }
+      - { label: Requirements, name: requirements, widget: list, required: false, field: { label: Requirement, name: requirement, widget: string } }
+      - { label: Qualifications, name: qualifications, widget: list, required: false, field: { label: Qualification, name: qualification, widget: string } }
+      - { label: Description, name: body, widget: markdown }
+      - { label: Application method, name: applicationMethod, widget: select, options: [external-url, email, instructions] }
+      - { label: Application URL, name: applicationUrl, widget: string, required: false }
+      - { label: Application email, name: applicationEmail, widget: string, required: false }
+      - { label: Application instructions, name: applicationInstructions, widget: text, required: false }
+      - { label: Deadline, name: deadline, widget: datetime, format: YYYY-MM-DD, required: false }
+      - { label: Source URL, name: sourceUrl, widget: string, hint: Required for editorial verification. }
+      - { label: Verification note, name: verificationNote, widget: text, hint: Internal note confirming source/application review. }
+      - { label: Published date, name: publishedAt, widget: datetime, format: YYYY-MM-DD }
+      - { label: Status, name: status, widget: select, options: [draft, published, expired], default: draft }
+      - { label: Featured, name: featured, widget: boolean, default: false, required: false }
+      - { label: SEO title, name: seoTitle, widget: string, required: false }
+      - { label: Meta description, name: metaDescription, widget: text, required: false }
+      - { label: Canonical URL, name: canonicalUrl, widget: string, required: false }
+
+  - name: internships
+    label: Work internships
+    folder: src/content/internships
+    create: true
+    extension: md
+    format: frontmatter
+    identifier_field: slug
+    fields:
+      - { label: Internship title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Employer, name: employer, widget: relation, collection: employers, value_field: slug, search_fields: [name, slug] }
+      - { label: Location, name: location, widget: string }
+      - { label: Work arrangement, name: arrangement, widget: select, options: [on-site, hybrid, remote] }
+      - { label: Employment type, name: employmentType, widget: select, options: [full-time, part-time, contract, temporary, internship, volunteer], default: internship }
+      - { label: Requirements, name: requirements, widget: list, required: false, field: { label: Requirement, name: requirement, widget: string } }
+      - { label: Qualifications, name: qualifications, widget: list, required: false, field: { label: Qualification, name: qualification, widget: string } }
+      - { label: Eligibility, name: eligibility, widget: list, required: false, field: { label: Eligibility, name: eligibilityItem, widget: string } }
+      - { label: Description, name: body, widget: markdown }
+      - { label: Application method, name: applicationMethod, widget: select, options: [external-url, email, instructions] }
+      - { label: Application URL, name: applicationUrl, widget: string, required: false }
+      - { label: Application email, name: applicationEmail, widget: string, required: false }
+      - { label: Application instructions, name: applicationInstructions, widget: text, required: false }
+      - { label: Deadline, name: deadline, widget: datetime, format: YYYY-MM-DD, required: false }
+      - { label: Source URL, name: sourceUrl, widget: string }
+      - { label: Verification note, name: verificationNote, widget: text }
+      - { label: Published date, name: publishedAt, widget: datetime }
+      - { label: Status, name: status, widget: select, options: [draft, published, expired], default: draft }
+      - { label: Featured, name: featured, widget: boolean, default: false, required: false }
+
+  - name: work_articles
+    label: Work articles
+    label_singular: Work article
+    folder: src/content/work-articles
+    create: true
+    extension: md
+    format: frontmatter
+    identifier_field: slug
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: Body, name: body, widget: markdown }
+      - { label: Author, name: author, widget: relation, collection: authors, value_field: slug, search_fields: [name, slug] }
+      - label: Work categories
+        name: categories
+        widget: list
+        min: 1
+        field: { label: Category, name: category, widget: relation, collection: work_categories, value_field: slug, search_fields: [name, slug] }
+      - { label: Tags, name: tags, widget: list, required: false, field: { label: Tag, name: tag, widget: string } }
+      - { label: Published date, name: publishedAt, widget: datetime, format: YYYY-MM-DD }
+      - { label: Updated date, name: updatedAt, widget: datetime, format: YYYY-MM-DD, required: false }
+      - { label: Status, name: status, widget: select, options: [draft, published, expired], default: draft }
+      - { label: Featured, name: featured, widget: boolean, default: false, required: false }
+      - { label: Featured image, name: image, widget: image, required: false }
+      - { label: Image alt text, name: imageAlt, widget: string, required: false }
+      - { label: Image caption, name: imageCaption, widget: string, required: false }
+      - { label: Image credit, name: imageCredit, widget: string, required: false }
+      - { label: SEO title, name: seoTitle, widget: string, required: false }
+      - { label: Meta description, name: metaDescription, widget: text, required: false }
+      - { label: Canonical URL, name: canonicalUrl, widget: string, required: false }
+
+  - name: courses
+    label: Work courses
+    folder: src/content/courses
+    create: true
+    extension: md
+    format: frontmatter
+    identifier_field: slug
+    fields:
+      - { label: Course name, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Provider, name: provider, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Body, name: body, widget: markdown }
+      - { label: Delivery mode, name: deliveryMode, widget: select, options: [in-person, online, hybrid, self-paced] }
+      - { label: Duration, name: duration, widget: string, required: false }
+      - { label: Eligibility, name: eligibility, widget: list, required: false, field: { label: Eligibility, name: eligibilityItem, widget: string } }
+      - { label: Cost, name: cost, widget: string, required: false, hint: Enter only verified information. }
+      - { label: Enrolment URL, name: enrolmentUrl, widget: string, required: false }
+      - { label: Application deadline, name: applicationDeadline, widget: datetime, format: YYYY-MM-DD, required: false }
+      - { label: Source URL, name: sourceUrl, widget: string }
+      - { label: Published date, name: publishedAt, widget: datetime }
+      - { label: Updated date, name: updatedAt, widget: datetime, format: YYYY-MM-DD, required: false }
+      - { label: Status, name: status, widget: select, options: [draft, published, expired], default: draft }
+      - { label: SEO title, name: seoTitle, widget: string, required: false }
+      - { label: Meta description, name: metaDescription, widget: text, required: false }
+      - { label: Canonical URL, name: canonicalUrl, widget: string, required: false }
+
+  - name: employers
+    label: Employers
+    folder: src/content/employers
+    create: true
+    extension: json
+    format: json
+    identifier_field: slug
+    fields:
+      - { label: Organisation name, name: name, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Logo, name: logo, widget: image, required: false }
+      - { label: Website, name: website, widget: string, required: false }
+      - { label: Description, name: description, widget: text }
+      - { label: Location, name: location, widget: string }
+      - { label: Verification note, name: verificationNote, widget: text }
+      - { label: Status, name: status, widget: select, options: [draft, verified], default: draft }
+
+  - name: navigation
+    label: Navigation settings
+    files:
+      - name: news
+        label: News navigation
+        file: src/content/navigation/news.json
+        fields:
+          - { label: Section, name: section, widget: hidden, default: news }
+          - label: Items
+            name: items
+            widget: list
+            min: 1
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: URL, name: href, widget: string }
+              - { label: Order, name: order, widget: number, value_type: int, min: 0 }
+              - { label: Visible, name: visible, widget: boolean, default: true }
+      - name: work
+        label: Work navigation
+        file: src/content/navigation/work.json
+        fields:
+          - { label: Section, name: section, widget: hidden, default: work }
+          - label: Items
+            name: items
+            widget: list
+            min: 1
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: URL, name: href, widget: string }
+              - { label: Order, name: order, widget: number, value_type: int, min: 0 }
+              - { label: Visible, name: visible, widget: boolean, default: true }
+
+  - name: site_settings
+    label: Site settings
+    files:
+      - name: default
+        label: Default site settings
+        file: src/content/site-settings/default.json
+        fields:
+          - { label: Site name, name: siteName, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: Default description, name: defaultDescription, widget: text }
+          - { label: Default image, name: defaultImage, widget: image, required: false }
+          - { label: Contact email, name: contactEmail, widget: string }
+
+  - name: redirects
+    label: Redirects
+    folder: src/content/redirects
+    create: true
+    extension: json
+    format: json
+    identifier_field: oldUrl
+    fields:
+      - { label: Old URL, name: oldUrl, widget: string }
+      - { label: New URL, name: newUrl, widget: string }
+      - { label: Redirect type, name: redirectType, widget: select, options: ['301', '302', '410'] }
+      - { label: Verified, name: verified, widget: boolean, default: false }

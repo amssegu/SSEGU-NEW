@@ -33,7 +33,7 @@ jobs:
       - name: Unit checks
         run: npm test
 
-      - name: Validate fixture content
+      - name: Validate content collections and fixtures
         run: npm run validate:content
 
       - name: Build static site

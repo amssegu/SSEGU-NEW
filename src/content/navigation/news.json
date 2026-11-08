@@ -1,0 +1,8 @@
+{
+  "section": "news",
+  "items": [
+    { "label": "Home", "href": "/", "order": 1, "visible": true },
+    { "label": "News", "href": "/news/", "order": 2, "visible": true },
+    { "label": "Technology", "href": "/category/technology/", "order": 3, "visible": true }
+  ]
+}

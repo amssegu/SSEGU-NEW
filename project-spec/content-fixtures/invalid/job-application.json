@@ -1,0 +1,7 @@
+{
+  "collection": "jobs",
+  "slug": "invalid-job-application",
+  "applicationMethod": "external-url",
+  "sourceUrl": "https://example.com/source",
+  "verificationNote": "Fixture for a deterministic validation failure."
+}
