@@ -5,4 +5,4 @@ compatibility_date = "2026-11-07"
 [[d1_databases]]
 binding = "JOB_SUBMISSIONS_DB"
 database_name = "ssegu-job-submissions-production"
-database_id = "33b52bf5-f951-45fe-ad81-0da333200ed6"
+database_id = "87fe7aaa-a7b0-4c60-a10a-dc88f0b63004"
