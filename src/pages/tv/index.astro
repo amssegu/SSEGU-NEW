@@ -1,46 +1,304 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
 import AdSlot from '../../components/main/AdSlot.astro';
-
-const directUrl = import.meta.env.PUBLIC_LIVE_TV_URL || 'https://www.ssegu.com/tv/';
-const embedUrl = import.meta.env.PUBLIC_LIVE_TV_EMBED_URL;
 ---
 
 <MainLayout
   title="Live TV | SSEGU"
-  description="Watch M2A Live TV channels inside the SSEGU news experience."
+  description="Watch live TV channels from Uganda, Africa and beyond inside the SSEGU news experience."
 >
   <div class="live-tv-page shell">
     <AdSlot placement="top" format="horizontal" />
-    {embedUrl ? (
-      <div class="live-tv-embed-shell">
-        <iframe
-          src={embedUrl}
-          title="M2A Live TV"
-          loading="eager"
-          allow="autoplay; fullscreen; picture-in-picture"
-          referrerpolicy="strict-origin-when-cross-origin"
-        ></iframe>
-      </div>
-    ) : (
-      <div class="live-tv-embed-help">
-        <p>
-          The live player is hosted separately and cannot be embedded by this site. Open M2A Live TV
-          directly to watch the available channels.
-        </p>
-        <a class="button" href={directUrl} target="_blank" rel="noopener">
-          Open M2A Live TV ↗
-        </a>
-      </div>
-    )}
 
-    {embedUrl && (
-      <div class="live-tv-embed-help">
-        <p>If your browser blocks the embedded player, open it directly instead.</p>
-        <a class="button" href={directUrl} target="_blank" rel="noopener">
-          Open M2A Live TV ↗
-        </a>
+    <section class="live-tv-player" aria-labelledby="live-tv-player-title">
+      <div class="live-tv-player-heading">
+        <div>
+          <p class="live-tv-kicker">
+            <span></span> M2A Live TV
+          </p>
+          <h1 id="live-tv-player-title">Live TV Channels</h1>
+          <p>Select a channel below to start its live stream.</p>
+        </div>
+        <span class="live-tv-channel-count" id="live-tv-count"></span>
       </div>
-    )}
+
+      <div class="live-tv-video-shell">
+        <video id="live-tv-video" controls playsinline preload="metadata"></video>
+        <div class="live-tv-video-message" id="live-tv-message">
+          <strong>Choose a channel</strong>
+          <span>The player will appear here.</span>
+        </div>
+      </div>
+
+      <div class="live-tv-controls">
+        <label class="live-tv-search">
+          <span class="sr-only">Search channels</span>
+          <input
+            id="live-tv-search"
+            type="search"
+            placeholder="Search channels…"
+            autocomplete="off"
+          />
+        </label>
+        <div class="live-tv-filters" id="live-tv-filters" aria-label="Filter channels"></div>
+      </div>
+
+      <div class="live-tv-catalog" id="live-tv-catalog"></div>
+    </section>
   </div>
 </MainLayout>
+
+<script is:inline>
+  (() => {
+    const channels = [
+      [
+        'citizentv',
+        'Citizen TV',
+        'News',
+        'https://live-onesignal.royalmedia.co.ke/live/jgB35emfPsiW5aFjKJjbjg.m3u8',
+      ],
+      ['salttv', 'Salt TV', 'Entertainment', 'https://live.salttelevision.com/hls/3/stream.m3u8'],
+      [
+        'sparktv',
+        'Spark TV',
+        'Entertainment',
+        'https://ams-2629.antmedia.cloud/LiveApp/streams/spark2026.m3u8',
+      ],
+      [
+        'bukedde1',
+        'Bukedde 1 TV',
+        'News',
+        'https://stream.hydeinnovations.com/bukedde1flussonic/tracks-v1a1/index.m3u8',
+      ],
+      [
+        'ntv',
+        'NTV Uganda',
+        'News',
+        'https://ams-2629.antmedia.cloud/LiveApp/streams/abul2026.m3u8',
+      ],
+      [
+        'galaxytv',
+        'Galaxy TV',
+        'Entertainment',
+        'https://livestream.galaxytv.ug/jikonkone/playlist.m3u8',
+      ],
+      [
+        'bukedde2',
+        'Bukedde 2 TV',
+        'Entertainment',
+        'https://stream.hydeinnovations.com/bukedde2flussonic/tracks-v1a1/mono.m3u8',
+      ],
+      [
+        'sabcnews',
+        'SABC News',
+        'News',
+        'https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8',
+      ],
+      [
+        'capetowntv',
+        'Cape Town TV',
+        'Community',
+        'https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8',
+      ],
+      [
+        'tshwanetv',
+        'Tshwane TV',
+        'Community',
+        'https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8',
+      ],
+      [
+        'sowetotv',
+        'Soweto TV',
+        'Community',
+        'https://cdn.freevisiontv.co.za/sttv/smil:soweto.stream.smil/playlist.m3u8',
+      ],
+      [
+        'nrgradio',
+        'NRG Radio UG',
+        'Entertainment',
+        'https://live2.tensila.com/nrg-radio-v-1.nrgug/hls/live/mystream.m3u8',
+      ],
+      ['babatv', 'Baba TV', 'Entertainment', 'https://babatv.co.ug/live/ch04/index.m3u8'],
+      [
+        'sudantv',
+        'Sudan TV',
+        'News',
+        'https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8',
+      ],
+      [
+        'france24',
+        'France 24',
+        'News',
+        'https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8',
+      ],
+      [
+        'fifaplus',
+        'FIFA+',
+        'Sports',
+        'https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8',
+      ],
+      [
+        'dw',
+        'DW',
+        'News',
+        'https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream04/streamPlaylist.m3u8',
+      ],
+      [
+        'ewtn',
+        'EWTN',
+        'Faith',
+        'https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8',
+      ],
+      ['ebstv', 'EBS TV Ethiopia', 'News', 'https://rpn.bozztv.com/ebstv/ebstv/index.m3u8'],
+      [
+        'eternallife',
+        'Eternal Life TV Uganda',
+        'Faith',
+        'https://live-tv.mfc-streaming-service.online/hls/orion_west.m3u8',
+      ],
+      [
+        'ramogitv',
+        'Ramogi TV',
+        'Entertainment',
+        'https://live-onesignal.royalmedia.co.ke/live/-gEXRHc6nSl5aFegh5MrOg.m3u8',
+      ],
+      ['rtnews', 'RT News', 'News', 'https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8'],
+      ['kbstv', 'KBS TV Uganda', 'Entertainment', 'https://www.kbstv.co.ug/live/abr/master.m3u8'],
+      ['lbfdrtv', 'LBFD RTV', 'Community', 'https://tnt-television.com/LBFD_RTV/index.m3u8'],
+      ['cgtn', 'CGTN English', 'News', 'https://english-livebkali.cgtn.com/live/encgtn.m3u8'],
+      [
+        'ebscinema',
+        'EBS Cinema',
+        'Entertainment',
+        'https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8',
+      ],
+      [
+        'gcmxtv',
+        'GCMX TV',
+        'Entertainment',
+        'https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_018/Stream/playlist.m3u8',
+      ],
+    ].map(([id, name, category, url]) => ({ id, name, category, url }));
+
+    const video = document.querySelector('#live-tv-video');
+    const message = document.querySelector('#live-tv-message');
+    const catalog = document.querySelector('#live-tv-catalog');
+    const search = document.querySelector('#live-tv-search');
+    const filters = document.querySelector('#live-tv-filters');
+    const count = document.querySelector('#live-tv-count');
+    let activeFilter = 'All';
+    let hls = null;
+
+    const categories = ['All', ...new Set(channels.map((channel) => channel.category))];
+    filters.innerHTML = categories
+      .map(
+        (category) =>
+          `<button type="button" class="live-tv-filter${category === 'All' ? ' is-active' : ''}" data-filter="${category}">${category}</button>`,
+      )
+      .join('');
+
+    function stopPlayer() {
+      if (hls) {
+        hls.destroy();
+        hls = null;
+      }
+      video.pause();
+      video.removeAttribute('src');
+      video.load();
+    }
+
+    function loadHls() {
+      if (window.Hls) return Promise.resolve(window.Hls);
+      return new Promise((resolve) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/hls.js@1.5.7/dist/hls.min.js';
+        script.onload = () => resolve(window.Hls);
+        script.onerror = () => resolve(null);
+        document.head.appendChild(script);
+      });
+    }
+
+    async function playChannel(channel) {
+      stopPlayer();
+      message.innerHTML = `<strong>Connecting to ${channel.name}</strong><span>Loading live stream…</span>`;
+      message.classList.add('is-loading');
+      document
+        .querySelectorAll('.live-tv-card')
+        .forEach((card) => card.classList.toggle('is-active', card.dataset.channel === channel.id));
+      history.replaceState(
+        null,
+        '',
+        `${window.location.pathname}?ch=${encodeURIComponent(channel.id)}`,
+      );
+
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = channel.url;
+        video.addEventListener('loadedmetadata', () => video.play().catch(() => {}), {
+          once: true,
+        });
+      } else {
+        const Hls = await loadHls();
+        if (!Hls || !Hls.isSupported()) {
+          message.innerHTML =
+            '<strong>HLS is not supported</strong><span>Try Safari or another modern browser.</span>';
+          message.classList.remove('is-loading');
+          return;
+        }
+        hls = new Hls({ enableWorker: true, lowLatencyMode: true, backBufferLength: 60 });
+        hls.loadSource(channel.url);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
+        hls.on(Hls.Events.ERROR, (_event, data) => {
+          if (data.fatal) {
+            message.innerHTML = `<strong>${channel.name} is unavailable</strong><span>The stream may be offline or blocking this browser.</span>`;
+            message.classList.remove('is-loading');
+          }
+        });
+      }
+      video.onplaying = () => {
+        message.classList.remove('is-loading');
+        message.classList.add('is-hidden');
+      };
+    }
+
+    function renderChannels() {
+      const query = search.value.trim().toLowerCase();
+      const visible = channels.filter((channel) => {
+        const matchesCategory = activeFilter === 'All' || channel.category === activeFilter;
+        const matchesQuery =
+          !query || `${channel.name} ${channel.category}`.toLowerCase().includes(query);
+        return matchesCategory && matchesQuery;
+      });
+      count.textContent = `${visible.length} channels`;
+      catalog.innerHTML = visible
+        .map(
+          (channel) =>
+            `<button class="live-tv-card" type="button" data-channel="${channel.id}"><span class="live-tv-card-mark">▶</span><span><strong>${channel.name}</strong><small>${channel.category}</small></span></button>`,
+        )
+        .join('');
+      catalog.querySelectorAll('.live-tv-card').forEach((card) => {
+        card.addEventListener('click', () =>
+          playChannel(channels.find((channel) => channel.id === card.dataset.channel)),
+        );
+      });
+    }
+
+    filters.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-filter]');
+      if (!button) return;
+      activeFilter = button.dataset.filter;
+      filters
+        .querySelectorAll('.live-tv-filter')
+        .forEach((filter) => filter.classList.toggle('is-active', filter === button));
+      renderChannels();
+    });
+    search.addEventListener('input', renderChannels);
+    renderChannels();
+
+    const requestedChannel = new URLSearchParams(window.location.search).get('ch');
+    if (requestedChannel) {
+      const channel = channels.find((item) => item.id === requestedChannel);
+      if (channel) playChannel(channel);
+    }
+  })();
+</script>
