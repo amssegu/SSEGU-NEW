@@ -136,6 +136,36 @@ const featuredArticle = workArticles[0];
     </aside>
   </div>
 
+  <section class="work-articles-section">
+    <div class="work-articles-heading">
+      <a class="work-text-link" href="/work/career-advice/">
+        View all advice <span aria-hidden="true">→</span>
+      </a>
+    </div>
+    <div class="work-home-article-grid">
+      {workArticles.map((article) => (
+        <article class="work-home-article-card">
+          <a href={`/work/career-advice/${article.slug}/`}>
+            <div class="work-home-article-image">
+              <img src={article.image} alt="" width="1200" height="675" loading="lazy" />
+              <span>{article.category}</span>
+            </div>
+            <div class="work-home-article-content">
+              <h3>{article.title}</h3>
+              <p>{article.description}</p>
+              <div class="work-home-article-meta">
+                <small>{formatWorkDate(article.publishedAt)}</small>
+                <strong>
+                  Read article <span aria-hidden="true">↗</span>
+                </strong>
+              </div>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </section>
+
   <section class="work-trust-strip" aria-label="Why SSEGU Work">
     <div>
       <span aria-hidden="true">♟</span>

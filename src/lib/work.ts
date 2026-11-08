@@ -124,6 +124,15 @@ export const workArticles: WorkArticle[] = [
     publishedAt: '2026-10-22',
     image: '/uploads/article-technology.webp',
   },
+  {
+    slug: 'build-a-career-plan-that-works-for-you',
+    title: 'Build a Career Plan That Works for You',
+    description: 'Turn your goals into a practical plan with small steps you can take this month.',
+    category: 'Career Growth',
+    author: 'SSEGU Work Team',
+    publishedAt: '2026-10-15',
+    image: '/uploads/article-business.webp',
+  },
 ];
 
 export const workCourses: WorkCourse[] = [
