@@ -5,8 +5,9 @@ interface Props {
   minHeight?: number;
 }
 
-const client = import.meta.env.PUBLIC_ADSENSE_CLIENT || 'ca-pub-7777536386845474';
-const slot = import.meta.env.PUBLIC_ADSENSE_SLOT || '9970802556';
+const adsenseEnabled = import.meta.env.PUBLIC_ADSENSE_ENABLED === 'true';
+const client = adsenseEnabled ? import.meta.env.PUBLIC_ADSENSE_CLIENT : undefined;
+const slot = adsenseEnabled ? import.meta.env.PUBLIC_ADSENSE_SLOT : undefined;
 const {
   placement = 'section',
   format = 'auto',
@@ -17,15 +18,21 @@ const {
 <aside class:list={['ad-unit', `ad-${placement}`]} aria-label="Advertisement">
   <span class="ad-label">Advertisement</span>
   <div class="ad-slot" style={`min-height: ${minHeight}px`}>
-    <ins
-      class="adsbygoogle"
-      style="display:block"
-      data-ad-client={client}
-      data-ad-slot={slot}
-      data-ad-format={
-        format === 'rectangle' ? 'rectangle' : format === 'horizontal' ? 'horizontal' : 'auto'
-      }
-      data-full-width-responsive="true"
-    ></ins>
+    {client && slot ? (
+      <ins
+        class="adsbygoogle"
+        style="display:block"
+        data-ad-client={client}
+        data-ad-slot={slot}
+        data-ad-format={
+          format === 'rectangle' ? 'rectangle' : format === 'horizontal' ? 'horizontal' : 'auto'
+        }
+        data-full-width-responsive="true"
+      ></ins>
+    ) : (
+      <div class="ad-slot-placeholder" aria-hidden="true">
+        Ad space
+      </div>
+    )}
   </div>
 </aside>
