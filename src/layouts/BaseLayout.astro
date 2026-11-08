@@ -27,6 +27,9 @@ const adsenseClient = adsenseEnabled ? import.meta.env.PUBLIC_ADSENSE_CLIENT : u
     <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
     {canonical && <link rel="canonical" href={canonical} />}
     <meta name="theme-color" content="#2b0b57" />
+    {Astro.url.pathname.startsWith('/tv') && (
+      <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
+    )}
     {adsenseClient && (
       <>
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
@@ -54,18 +57,16 @@ const adsenseClient = adsenseEnabled ? import.meta.env.PUBLIC_ADSENSE_CLIENT : u
         }
       });
     </script>
-    {adsenseClient && (
-      <script is:inline>
-        document.querySelectorAll('.adsbygoogle:not([data-ad-requested])').forEach((ad) => {
-          ad.setAttribute('data-ad-requested', '1');
-          try {
-            (window.adsbygoogle = window.adsbygoogle || []).push({});
-          } catch (error) {
-            ad.removeAttribute('data-ad-requested');
-            console.warn('AdSense could not load this ad slot.', error);
-          }
-        });
-      </script>
-    )}
+    {adsenseClient && <script is:inline>
+      document.querySelectorAll('.adsbygoogle:not([data-ad-requested])').forEach((ad) => {
+        ad.setAttribute('data-ad-requested', '1');
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (error) {
+          ad.removeAttribute('data-ad-requested');
+          console.warn('AdSense could not load this ad slot.', error);
+        }
+      });
+    </script>}
   </body>
 </html>

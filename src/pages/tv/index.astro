@@ -23,7 +23,7 @@ import AdSlot from '../../components/main/AdSlot.astro';
       </div>
 
       <div class="live-tv-video-shell">
-        <video id="live-tv-video" controls playsinline preload="metadata"></video>
+        <video id="live-tv-video" controls playsinline preload="none"></video>
         <div class="live-tv-video-message" id="live-tv-message">
           <strong>Choose a channel</strong>
           <span>The player will appear here.</span>
@@ -211,9 +211,22 @@ import AdSlot from '../../components/main/AdSlot.astro';
       if (window.Hls) return Promise.resolve(window.Hls);
       return new Promise((resolve) => {
         const script = document.createElement('script');
-        script.src = 'https://cdn.jsdelivr.net/npm/hls.js@1.5.7/dist/hls.min.js';
-        script.onload = () => resolve(window.Hls);
-        script.onerror = () => resolve(null);
+        let settled = false;
+        const finish = (value) => {
+          if (settled) return;
+          settled = true;
+          resolve(value);
+        };
+        const timeout = window.setTimeout(() => finish(null), 8000);
+        script.src = 'https://cdn.jsdelivr.net/npm/hls.js@1.5.7/dist/hls.light.min.js';
+        script.onload = () => {
+          window.clearTimeout(timeout);
+          finish(window.Hls);
+        };
+        script.onerror = () => {
+          window.clearTimeout(timeout);
+          finish(null);
+        };
         document.head.appendChild(script);
       });
     }
@@ -221,6 +234,7 @@ import AdSlot from '../../components/main/AdSlot.astro';
     async function playChannel(channel) {
       stopPlayer();
       message.innerHTML = `<strong>Connecting to ${channel.name}</strong><span>Loading live stream…</span>`;
+      message.classList.remove('is-hidden');
       message.classList.add('is-loading');
       document
         .querySelectorAll('.live-tv-card')
@@ -230,6 +244,14 @@ import AdSlot from '../../components/main/AdSlot.astro';
         '',
         `${window.location.pathname}?ch=${encodeURIComponent(channel.id)}`,
       );
+      video.onplaying = () => {
+        message.classList.remove('is-loading');
+        message.classList.add('is-hidden');
+      };
+      video.onerror = () => {
+        message.innerHTML = `<strong>${channel.name} is unavailable</strong><span>The stream may be offline or blocking this browser.</span>`;
+        message.classList.remove('is-loading', 'is-hidden');
+      };
 
       if (video.canPlayType('application/vnd.apple.mpegurl')) {
         video.src = channel.url;
@@ -244,7 +266,16 @@ import AdSlot from '../../components/main/AdSlot.astro';
           message.classList.remove('is-loading');
           return;
         }
-        hls = new Hls({ enableWorker: true, lowLatencyMode: true, backBufferLength: 60 });
+        hls = new Hls({
+          enableWorker: true,
+          lowLatencyMode: true,
+          startLevel: 0,
+          capLevelToPlayerSize: true,
+          maxBufferLength: 10,
+          liveSyncDurationCount: 2,
+          manifestLoadingTimeOut: 8000,
+          fragLoadingTimeOut: 10000,
+        });
         hls.loadSource(channel.url);
         hls.attachMedia(video);
         hls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
@@ -255,10 +286,6 @@ import AdSlot from '../../components/main/AdSlot.astro';
           }
         });
       }
-      video.onplaying = () => {
-        message.classList.remove('is-loading');
-        message.classList.add('is-hidden');
-      };
     }
 
     function renderChannels() {
