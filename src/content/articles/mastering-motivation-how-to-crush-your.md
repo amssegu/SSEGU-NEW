@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCmtbpDlUtH3W6psW0q-0vCkJb2s8Sr83L5G6nnmzhNK9vsg_JTPlzA9Ce16JFS3fs4eW342ju0QjRUGn_V6zjbNYvgdCbEjVUkb7klFSlBtQCCTp_8xEoVrJCOI6uN6MtmFHYn6mShQfGhSFDkoCW3OF8oqQza6LEK2kS3wrHYDUv3w0OwlEKa9OWONY/s1280/dont-give-up-3403779_1280.jpg'
+imageAlt: "Illustration for Mastering Motivation: How to Crush Your Goals Even When You Don't Feel Like It | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-motivation-how-to-crush-your.html'
 ---

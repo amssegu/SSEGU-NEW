@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3d_zvoBP5tthslMHZTT3gjoL2EWdT9R5Q-AJOTiTFNJtwRi86HwSTw7-FfKnWcZ5Rsl_FwikKu2UPKdX4pRFiBJPRbHqT5KqiwA89lCirblyYbErFlqFJwBrL6QvSkFkHgMRkOdxQn7B3T6FfSEh3RD3q0UDGqBsSyFgZ0c4-cK8315QRCM2IPqb0T-o/s512/computer-2937207_1280%20(1).jpg'
+imageAlt: "Illustration for Gen Z's Journey with Overcoming Social Anxiety and Thriving | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/gen-zs-journey-with-overcoming-social.html'
 ---

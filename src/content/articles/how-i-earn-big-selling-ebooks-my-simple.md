@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPaahBuJ3S5D_mV20ZXi-BLCdODgU9pLz5dsTYpKn8xGcuPMiLdJHO7mkkWyPE4pg5k077l7bPHefrUE-D22GdulhPuV7pkqQj-mjczmhtsJRpbu3ka1Nb9t7m4gb0j49jOQX3fENRMUTKeP87HLS3fz9SxdfM9Lw7AsIJwjTXbMZgegP-ImxfUjTRiJo/s1280/kobo-3544072_1280.jpg'
+imageAlt: 'Illustration for How I Earn Big Selling eBooks | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/how-i-earn-big-selling-ebooks-my-simple.html'
 ---

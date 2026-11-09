@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMsmhmFkUNeCaxM2P44nb2NjLPK2T4JROtiHZXgC0enLlOkQaaF6nGfajsk9_Ghd2kWhMYwphueXtLogOzAjrgAVg52UkQW2b1HlAUoYqYurVGTLinBNsSH9pmaH2ko_zAdjgEwB0rTtgvhHPfEWJZa9bWvBjUS3ESzzrrMpbPvXmsr91JdPRlg2XkrZI/s1024/download%20(2).png'
+imageAlt: 'Illustration for Explore the fascinating journey of the cent as a pivotal currency unit in global finance | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/explore-fascinating-journey-of-cent-as.html'
 ---

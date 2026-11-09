@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYpLIlWssbnLJI5n9NC8yYmxIUxZSihb3Ep_2iuBGxnynlDup_AOa3Oy0T13zUJtRLhOdreB5VigdebhTVnvsaceVftdjbgShmbwhNWodZpJytWDYD6D3RkF2j2xW38pM9nxyjixBNuB_pI99ENyxalS-yMtlhxYovuWNd33XVXoo1SH_Z3c1JHekVK0Q/s555/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The Furious - Kali Mu: VJ ICE P | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-furious-kali-mu-vj-ice-p-ssegu.html'
 ---

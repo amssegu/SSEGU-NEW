@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE6NAPBxUyMqQEWzN50IrOTKTz2WRSkdZ591_Iz1IQsJgeHNmAGyApwkzs5N6gqVUvo2eCkgO1W_N4sXvrgC3-YL1gD0AJRU0JP8qKj0yvz7bWYlsa39fJgxBFcOuJBE_NoCgYhGrJEgW-KabydSj_EGQoYknCByynnHTPRDoXHGV7EtpCCrabxOtRii4/s1664/dance.gif'
+imageAlt: 'Illustration for How AI is Revolutionizing Online Banking | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/how-ai-is-revolutionizing-online-banking.html'
 ---

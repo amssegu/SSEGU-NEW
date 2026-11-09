@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVtFyv-NgpzE3BtXDeZy92wW-wmv-xxDwq81MqXEc38fCngEa7epJihOUTjU0QRuovePCWL63GcsExwMyc81ShwXm0LAzIbnVhhSoSJ4Sk9MMqgPyJlsY8bQUUVhdE9-hMP794XH7a6BjlQ6wQ7kj4sOCmMG3Cb8d28KiTADMXnE2LiIooON0tumHnofA/s1280/diet-695723_1280.jpg'
+imageAlt: 'Illustration for Discover the Incredible Benefits of Joining a Weight Loss Challenge | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/transform-your-life-discover-incredible.html'
 ---

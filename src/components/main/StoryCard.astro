@@ -11,8 +11,8 @@ const { article, compact = false } = Astro.props;
 <article class:list={['story-card', { compact }]}>
   <a href={`/${article.slug}/`} class="story-image">
     <picture>
-      <source srcset={article.imageAvif} type="image/avif" />
-      <source srcset={article.image} type="image/webp" />
+      {!article.image.startsWith('http') && <source srcset={article.imageAvif} type="image/avif" />}
+      {!article.image.startsWith('http') && <source srcset={article.image} type="image/webp" />}
       <img
         src={article.image}
         alt={`Illustration for ${article.title}`}

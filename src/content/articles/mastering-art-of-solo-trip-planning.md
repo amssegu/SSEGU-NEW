@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4uIYJfgfQHoyf_luemDWQ9nW3YZ_d3Ny5Qo2QXcWLNdbnKVedBs4K1RhxL_uj1D9t7XfxM7Xzu1SLEMyCosa_BkeLLoqxkchAGsHWdM6zIDwzrqQqEhrDJXfw27c6NTsHD3Zr1M906Cy-FYvTXxrLFib-DQR2akOp66NsP55_N8_G4VxnmX8eMXaOzASG/s1024/Logo.png'
+imageAlt: 'Illustration for Mastering the Art of Solo Trip Planning | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-art-of-solo-trip-planning.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRvb6EIsvETr7J8kArD7XnQL-qaxew1DzMDw4_Wqf158TfNBeCoTPX1iQI6ezXq0e4P1HuJsLuXUJv-ohb5TVyJv6_NmeDslsgISUtkFFI1VEHM9VfxRs7eF5QCMtxkAioxXgXOlxVeiH09eR1TJlK7i1HGO58SbGyoMbiWCoA5XluJ9xFdpZSOj_o3JZP/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Silk Road Blueprint For Starting a Local Import Business | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/the-silk-road-blueprint-for-starting.html'
 ---

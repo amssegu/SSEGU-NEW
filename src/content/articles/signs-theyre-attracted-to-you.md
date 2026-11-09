@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDAWr6iOHerGzMbkIb1pSUwD8Xsr8Jbv2RYD9ynNK2jyWCM0qk_VtkdurT4aW1JvWZDcEL68Qb7zDBl7U9tpDgLum2XEkUY3dDy4rhQPOLMz73VQd0NpJNrWgDgHgZU2h7y4CZICvQZjbokQZh0UtBSUpwwgk2wYfO9I7xA_GL_0-RnulsyLObLEHYMKo/s1280/close-up-1869305_1280.jpg'
+imageAlt: 'Illustration for Signs They’re Attracted to You | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/signs-theyre-attracted-to-you.html'
 ---

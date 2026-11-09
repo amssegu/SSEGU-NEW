@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4_yf4CWvUv-lWOn8UTXjTQGkQaelUjbA_tGeHCdglrlvGbesFvHfViYs1EPwL-I3l8O-DeV_g_np6hm5WBS1dbZOT-7qQnMu0dGAdst_fa7ab29gG4bN0xWjMW5oiKVf1cuQRBWHy5fyDmqwof4yerhEaqHENweZAIFdIDHOdg5hzr0JlAMMJpa5j-0U/s1120/Screenshot%20(8).png'
+imageAlt: 'Illustration for How to Write a Winning CV: Your Ultimate Guide to Landing Your Dream Job | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/how-to-write-winning-cv-your-ultimate.html'
 ---

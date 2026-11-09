@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20selection%20of%20discounted%20items%20from%20Amazon%20Warehouse%20Deals%2c%20including%20electronics%2c%20home%20goods%2c%20and%20books.jpeg?t=1716176406057&amp;width=860'
+imageAlt: 'Illustration for Amazon Warehouse Deals - Tips for finding and purchasing discounted items from Amazon Warehouse. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-warehouse-deals-tips-for-finding.html'
 ---

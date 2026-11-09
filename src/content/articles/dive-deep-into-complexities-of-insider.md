@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFyvw84JraaU5GQVBjF19y60yE2lET15BgJQi0TBDdril82gVyFm8FYrg7G0Tp8Pnef0-rt6pXh5K_mAT3pNlLUIKf3ItRgel3B3L92dVpjGfL8dIlbBUT6QsaJcW12JUau260fWHVUllOqALRANNX9D_UdFlGbjQrRUx5x4drBI7yP9DqvAyRjEAB0Mo/s1024/download%20(2).png'
+imageAlt: "Illustration for Dive deep into the complexities of insider trading, its implications, and why it's a critical concept in the finance world. | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/dive-deep-into-complexities-of-insider.html'
 ---

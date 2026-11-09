@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIGnH0El9T8FVRYdwkqepbwAnya87aBPzvK41dNxR86-OMh2R7y3H992qc5OSXs4wbqvRLZVdvZtzrRJZNl3Hu03lmL1L_kSQUamAmHqWYsJvn0V38LjtT_gGV-DjKxXfe88aCnmsLaxOCN8MHpkoDwUtDKsUnuSp56EIez35NxvEpa2EuRZ4qC5tRyhM/s1280/tyre-push-2141096_1280.jpg'
+imageAlt: 'Illustration for Break Through the Push-Up Plateau | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/break-through-push-up-plateau-why-you_30.html'
 ---

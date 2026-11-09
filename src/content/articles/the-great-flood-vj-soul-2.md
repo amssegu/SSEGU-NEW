@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-15
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh14hPsR-_sotwwTzIgoReZLGlt9F_mdfafWIvy921WAtEKEy2JTLd_IHnMFaceEAZF2mje8y3UKP9rppuiyzuR0xgv03kI0e7SSnWTjkgTqQW6pg6Lr2vXXs0wpAwcwX-ubeiXr9o4FBDPVD4ihznBYU-1VnGamlw8Ree7qpP3JLr8YbLzjiMPWGBRKGM/s1200/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The Great Flood - VJ Soul | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-great-flood-vj-soul.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMV5NFwtLknVD86jMN_0NCNLQITBkAo_Yqr_1CRyPv1q6K9-aCwQGF2cZdzWn3lt5yXWwC-LOiu7sNVUyrkqgH7FaqOLB4t-2N5Gv8Zl0zMwKMavIoqKXnIXoG0t2aiYmPJtyf0_XYOcRR0wsvCunlQWjExolktn4MkUKlkz4eZOVcuM1otxf6JJJvbL0e/s1024/Logo.png'
+imageAlt: 'Illustration for Are you ready to kickstart your career as a PC Service Specialist? 🖥️💼 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/are-you-ready-to-kickstart-your-career.html'
 ---

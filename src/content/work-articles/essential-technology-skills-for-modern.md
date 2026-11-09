@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCadRb2RU6hEomHNruL6YKg2tWZ4LrXHUlkh22Hdahl7CmYav-nc8jmY765xZlS47M7FA3OKVdOtLiQmJGB25aA9zFujk5Hm1pP1nyoUpwrcZruUTSp9c0eKP7zRg2xegq2p7FXkO1Y5BvabLFpx3vnAHVPVnegviyrG3hpu8Y9QWN8DlCbA9hH90D3cTa/s1284/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Essential Technology Skills for the Modern World: A Complete Guide to Staying Competitive in the Digital Age | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/essential-technology-skills-for-modern.html'
 ---

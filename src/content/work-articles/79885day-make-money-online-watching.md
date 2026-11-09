@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2023-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzLE-_U3hI812IIxPO5jq59aN9WRJKHaNfQONHRgGsOmSpS1brX6l3uCg9KFB-KqJ2IYynINejvceJ0uFYp8XOkIvQdNPhb4umZAYEgpLSUZJgSj1Vmz9bJ0y-e_k6NRiPo7zU5dN0x0wy5GMLrhrxVHuaByfBihRXx1pPlzSk8HbllOBuAYtCLx_1CXM/s1120/Leonardo_Phoenix_A_modern_and_sleek_digital_illustration_of_a_2.jpg'
+imageAlt: 'Illustration for $798.85/Day: How to Make Money Online WATCHING YouTube Videos (No Website or Affiliate Marketing Needed) | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2023/10/79885day-make-money-online-watching.html'
 ---

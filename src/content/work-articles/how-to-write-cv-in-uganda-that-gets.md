@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiop39QQ6W6AqZRuHbcznP2F5XqAdpE34hWYI6Au6QSq1GkastEyuQYiI1nwmWQArDS1PtFrD7NYx9ulHFNt_wouI9WLzTVhzhlj04JUkrIFvFEetz11k62IwVnYdo9Gb7P3jOgl0h5KxDh5CIW9h3fY3opJ6xFpQ9DfA4qyT5M99ZY5OBfnTNFM_3mvKE/s963/cv.jpg'
+imageAlt: 'Illustration for How to Write a CV in Uganda That Gets Noticed by Employers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/how-to-write-cv-in-uganda-that-gets.html'
 ---

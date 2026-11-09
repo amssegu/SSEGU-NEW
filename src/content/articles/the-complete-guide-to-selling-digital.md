@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcIbykbzOQIULXuAJ5Pzv2GX4u_5uh1B8gATBIsLo23TI0D_faCYvURheNkzPTf5BBpnHLt4snQ0yPYTqRTK6zZj3ePfUqIoQT1IzQQsYM5XoVWgLW9suVDn8_GbdTqf2u2FJxM_Wtez_2JqV4qhwzhYWyKHLZv2k8_eN3uH0TSkL1GO91p3eJmLp6Oiok/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Complete Guide To Selling Digital Products on Etsy in 2027 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/the-complete-guide-to-selling-digital.html'
 ---

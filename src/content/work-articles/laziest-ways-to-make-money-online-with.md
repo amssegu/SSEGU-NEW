@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC45tlq71BRJb8g2NhV5RAHGV8zLIs6DKyVW1dKhTW9sMENa0a-0mFTiJLIHWGCAnVFOkBWGh3n_5agRsI6EZBrQd2DAU_kJOCVPqfFQOcdLHb0OZ6knLkF8PsUAODUgUL9j3_Q0_tDBy57gTzWq3iJs443uwHs-ASLnZ7mPhYGG1zTe1fBQJY2YXUkPU/s480/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Laziest Ways to Make Money Online with AI (For Beginners) | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/laziest-ways-to-make-money-online-with.html'
 ---

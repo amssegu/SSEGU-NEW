@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20vibrant%20social%20media%20post%20with%20colorful%20graphics%20and%20engaging%20content%2c%20attracting%20a%20large%20audience%20and%20driving%20business%20growth..jpeg'
+imageAlt: 'Illustration for Mastering Social Media Marketing: Strategies For Business Growth | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-social-media-marketing.html'
 ---

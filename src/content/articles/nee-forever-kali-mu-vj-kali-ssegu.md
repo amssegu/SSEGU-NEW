@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3gMcft1oYoztpuVQesrUbNFCRJmynaj2Q154IM_K1zdJz5H8bx-usNkCmfenTgUib2DURAZyb48-JwKt8MIuSVXm2OdmeI2SXP4pAV5NbKtPknJqS5ATbBWnJdcts5ghizoytCEB7ZwhdsMfycIONet9rsW4afAfrL8qtSkIdBYVomYG5nslCbc4HUS7z/s750/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Nee Forever - Kali Mu: VJ Kali | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/nee-forever-kali-mu-vj-kali-ssegu.html'
 ---

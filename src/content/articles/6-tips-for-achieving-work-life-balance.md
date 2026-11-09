@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC4vs2neVeE__i7FhcKejvm6Gz9s6yDfQCUt6P_X9vNAJ0XkPcw0sOOLDKB2Ok78sqaQ01UmxFSDjgczKGFvnl0hTvCbjnaQ9Wmoo57IiCDaF7FpyWiA41Fjl_vLmPWZ-77Zs5d5UcJCyykHctKMHNRaM9FtTSXW5GAMAyrtFQtDZEiUy2RY-U8SMN9cYY/s1024/Logo.png'
+imageAlt: 'Illustration for 6 Tips for Achieving Work-Life Balance | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/6-tips-for-achieving-work-life-balance.html'
 ---

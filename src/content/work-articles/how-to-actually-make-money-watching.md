@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2023-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7MKMhblpx3oZgZYw3UsvOfkQjC6J1MyVtvLuXCRuRhVYWE2_ivl1TOIORoCIS5FNpp3bViHsL8cDVzmRFDWWEM-IHkLrFvn9t_ysGLU-dQiQhy4UWcp9kTeqPv-86FuVWq-3XuZEfDR56R41S_krBs-XKyzJ8IniYPgk2YIo1oNp46QhF2JsVxHbTj24/s1120/_2.jpg'
+imageAlt: 'Illustration for How to Make Money Watching YouTube Videos in 2024 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2023/10/how-to-actually-make-money-watching.html'
 ---

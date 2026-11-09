@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgogfourrYOGc5gCAzzf5V6ZF3auQO0ucwo3nwXis6Ns8Bh1q7vmY6eABOYPdJ6J8Ze7uUgyJyKuw23ieEgQb5TDFHULiizQwecVsXGrBgBEWEJhvsBd7nonJA8v7Af-FALFtUoi7xHKD9fjcEfTNeak-NoWagAolReTPGQoTGcBACv4X15vsk9SiAblbbe/s1024/videoframe_0.png'
+imageAlt: "Illustration for Uncovering the Mysteries of Senet: Ancient Egypt's Favorite Game | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/uncovering-mysteries-of-senet-ancient.html'
 ---

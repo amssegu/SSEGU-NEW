@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7Y3rq2W844bGaizJ9DtxYDl7SWipSMLt-U_75sTsT6qajYlKC80k50Vac9n8VBwfr4m1zJzTJmk1B5IWxdLrUBz1-zpdKqlsfnv1iNbouCCnGJY5JKK-6OZs-Fehyg8co1OjSVPsu-rtCUWjkyK7N9KcU6HGx8p9riYrZAsgRI3WamHd_x4ht1FGFf2A/s1280/man-8293794_1280.jpg'
+imageAlt: 'Illustration for 5 Essential Tips to Learn Before Your 30s to Avoid Common Pitfalls and Achieve Success | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/5-essential-tips-to-learn-before-your.html'
 ---

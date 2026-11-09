@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia2R2DVE_F3nWP99ss9-LhJ1GwO0hIiaiuzeI4h9vFOGnGeaGhH2WhOpfxznxXNuBXRvKgct2h9gzmn0Y-BzWV1Gev5wVIFPYqwPQj3S5wGflUBF0yEb9S7x5vyqimmzicLr6VTWo4U_0E0R2sehwi33n-Q6vYu44e7aEDvrGbn-vsjnKjGcYL0pgCBnvB/s750/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Gifted Hands: The Ben Carson Story - Kali Mu: VJ Ulio | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/gifted-hands-ben-carson-story-kali-mu.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-07
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrL7w8uCjOlYqm3N8QG6977oYzil_C1yxGgLK9blVWAQY1sZ_Wn2sbJ_DkETf7Mw4zcDSUfalTwEHY7u4lGlQKlF_S5q5nQIRdTzSLsjLWEHu6UkWIBBYIZdojoBvZrIVjgQmTKSm9xwrbYNgHe_W9vmbtsQwFev61TyWtQvRIV5HhBnrAUJK7DxZHcKg/s960/mug-3403963_960_720.jpg'
+imageAlt: 'Illustration for You Become What You Focus On Harnessing the Power of Focus for Personal Growth | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/you-become-what-you-focus-on-harnessing.html'
 ---

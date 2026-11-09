@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-p5gb-sdW9DynhMPLO5nuUUwyxdUCxotSAW4y0jskGoOQOS5lLYk92nRQWQGvoHYRF86LZtvIY_U6URld9LQyqNwA9ejT58XE2_SyLBLgSrN1c0LLtPqarEzT3lldWZXzshW3Pn0ujejc7EV189FZQZTu-uO1cirLa6CrZx3ichN-1Sl5Yh-mSCEUHD8/s960/walk-7945711_960_720.jpg'
+imageAlt: 'Illustration for Why Travel Is Good for Your Mental Health | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/why-travel-is-good-for-your-mental.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM0jA2nji7VwQNDr1FGzJdtSXLX-pz8cHNW9I9KmC5KcdmNPC9CEee1mXkE3FVXtiU6yebwlLNZhhh1ikGbsMuWP-bHqG83_QSHaRfxaOuQsbfKdr87AVCRxEXDr3_nT1rOZhMltCGYSZcbzkvxFYY1IMAsmb-scKW5lYsYd_-qpuTElV2WBAsLvD9Tus/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Survive Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/survive-kali-mu-vj-emmy.html'
 ---

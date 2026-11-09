@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix_7O_JpGIuPjiFztmDH_ygvfrCXANZunwbDF5CeV8cCqEgvM3iPoFXM3hb4Gzv4SKtN6Pxuk-iIdV7MyvQYRmMPos4g-O0OUplcbQHflcpDUghFRZzd09kp5q0W3mOMejtTDO0DDkQyXxaA171MPLcahJiXBPur6M5wD54CKBYkEVUuCt1mga2WjBxr6b/s750/llll.png'
+imageAlt: 'Illustration for The Punisher - One Last Kill Kali Mu: VJ Tonny | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-punisher-one-last-kill-kali-mu-vj.html'
 ---

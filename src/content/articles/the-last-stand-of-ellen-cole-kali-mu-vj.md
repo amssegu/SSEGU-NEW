@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8DCAFQPcelGQ-uudi09F9ZlptIxKUBGU0dl8DjunDtPne35XvnJ7YQYUuU1EQVKRUvp0qgf2S_PALiFaXI7-WXgRyVeoY7o5Yqyt1qnEKm_NCqip4nEXQV4j-c3ZSH7tPyOwttmh9YFS-9vSq5cvMkFhJChBGFFvrMBmATlsYY1mAOA7bM09CzeLPWcU/s1600/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The Last Stand of Ellen Cole Kali Mu: VJ Emmy - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-last-stand-of-ellen-cole-kali-mu-vj.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb8hG4Hq4tKH3PaBUd_OiuV40zouA-bPGBw17KaOnDg0SmbD2nbHKGz1gVdPooqtLFpDJMMte2s_4A0JneSiqgyG-QRJTPNTmXqkeUNk8-6MICLpK-P-xXo9adaCU40W0HzYKuFjtg91AUrwzGYUQhubLndk5py4FiMqyYQbEdVdl8AcSdFwgEEaiw7lY/s1600/Gemini_Generated_Image_jfwd4vjfwd4vjfwd%20%281%29.jpeg'
+imageAlt: 'Illustration for Best Data Bundles in Uganda Under UGX 10,000: What MTN and Airtel Actually Offer | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/best-data-bundles-in-uganda-under-ugx.html'
 ---

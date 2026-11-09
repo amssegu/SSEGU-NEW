@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-11-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikL1FwF0JAst_WfeFYPw4pnvBLyY102I3z_iNRbo2ScTs8YW_t2dgBXt-llBg-fWPmio3o4wfvN56x7SqKyusBgsmNYxEphWFsjzbTERXsAhXcJIA33X86K9yA5Zq9pEzNGCc33bkO6PP65WtJW3eEIflhRDR76oJzDHvjTYRBDLgvVuEWib9r2hh_9cU/s2992/p3.jpg'
+imageAlt: 'Illustration for The Journey of Spiritual Growth: Unlocking Your Inner Potential | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/11/the-journey-of-spiritual-growth.html'
 ---

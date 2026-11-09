@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg74SR70KPZcyUpMFeflyRLL4WbaMA3R2PqeNhtJBhUuc9w2i8yC-ObOezIVX-FygT0yLRSUJFDG4-bbOOMT3vrVACLNpS4dB5rzCbCl5olVZKHkVk2VVBt0l72Z7ncibCAiPPQf7aSjeuUyu2aoUC3RxtJgBGN6ovrgESqjnPzaYHZctDdwMiM1e4PS2Y/s1120/Leonardo_Phoenix_A_warm_and_inviting_illustration_of_a_caregiv_1.jpg'
+imageAlt: 'Illustration for Best Qualities of a Good Caregiver | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/best-qualities-of-good-caregiver.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-08
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeRUufw5uHkYjfNNip8-vKweFjhRU6SnYlqeDyzkDEQjcFFQ45kZn9C1fwQTH7rEeWN62NxacKT7MHCmmY9gLnj24v3dJGJKXP1rEw-FvD6emSNkeZeDDm5tME83hcr2FKbFfvES_DXYMW_o6c8yG4k2Z4A-uyGelO_R12VX_aOaEe7466tHWwhfjENy4o/s512/llll.png'
+imageAlt: 'Illustration for Seven Snipers Kali Mu: VJ Emmy - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/seven-snipers-kali-mu-vj-emmy-ssegu.html'
 ---

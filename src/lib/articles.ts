@@ -31,7 +31,11 @@ function fromContentEntry(entry: CollectionEntry<'articles'>): Article {
         : referenceId(entry.data.author),
     publishedAt: date,
     image,
-    imageAvif: image.endsWith('.avif') ? image : defaultImageAvif,
+    imageAvif: image.endsWith('.avif')
+      ? image
+      : image.endsWith('.webp')
+        ? image.replace(/\.webp$/, '.avif')
+        : defaultImageAvif,
     body: [],
     featured: entry.data.featured,
   };

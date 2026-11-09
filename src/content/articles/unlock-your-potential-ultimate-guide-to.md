@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtNcxpvXkVVebQd72fTzWYzdaaEo0cqBDo6OP7Id41-TUxnXW3dr5e5GA_-JjxOss2qoPuEcia0_nEhAjF5KZNZTY7x4EkiqG0M60kNa2Pa3naKpx_qxZzvqBBlOudG0WjUOocPuXeqEVGbRzSKVIjT7-4pIXDjhC_e3T3odcMoTTvVGMAXOxpmBQnCcg/s1280/live-your-dream-2045928_1280.jpg'
+imageAlt: 'Illustration for Unlock Your Potential: The Ultimate Guide to Silencing Negative Self-Talk and Achieving Your Goals | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unlock-your-potential-ultimate-guide-to.html'
 ---

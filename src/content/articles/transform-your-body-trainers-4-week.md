@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvgpwe0luJKVV9AI44fBs3mz1Kh7zpFYNN6X_vHexAN4US7HUPwhymQ1bgGTCfe2U-abDD6dXfoG5V4yF0-O83Hu4nBVTF-sArrnlGgtywtSaLm488w1m9aY_1RS3-14tIgBCQ4eqV6Y7hvCvbEPPvLRAmU5jyiVXJ94PcXxrCM0_Zy3_1_jW46XZBa4g/s1280/weight-loss-7705107_1280%20(1).webp'
+imageAlt: 'Illustration for Transform Your Body | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/transform-your-body-trainers-4-week.html'
 ---

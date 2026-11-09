@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20scammer%20manipulating%20emotions%20to%20exploit%20victims%20for%20financial%20gain.jpeg?t=1716443634832&amp;width=860'
+imageAlt: 'Illustration for Unraveling the Psychology of Scammers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unraveling-psychology-of-scammers.html'
 ---

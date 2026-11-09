@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGVRIsmta-XZItN_HDRyWgjsTlCp34gdTUYk3GT5CrlYcnHH8SlmX0zGhwxLXdTdNoHHEoiyOw6WarKWOzOiUR5v3X252PJ9TAIFJB_TSIK8gxSqsbX822-Iy_WGEW4Oy7i6uQgXWZyiAB0eOabZH2ijLFBviogS7pZWu-5TYSQWoqX0Rj97I8HJ_aLR8/s479/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for 11 Money Lessons From The Bible That Made Me Rich | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/11-money-lessons-from-bible-that-made.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9-az2cZeUMr2wD7pFlQkMsKiU_n_C4IFazgwrQ0AJ9VzApfFg-GfGutbnhA1VpfpEFELimSZNkW4CHm131nPgEs2Q4qZ_eTnkCknkMo2LrNia7HRDD2cYgqIcu5Wz-smZra5NDTw_j2rnc8O_Byly0CHthUHRYUNHLN8lzwitmEi84jxxDWYqkj8iWjM/s251/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Mu Uganda New Hotel in - contentReference - Sparks Online Debate Amid Unverified Claims | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/mu-uganda-new-hotel-in-contentreference.html'
 ---

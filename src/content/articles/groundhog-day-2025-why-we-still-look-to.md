@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX9tLjGfqAeu42iOuL4wY0HYL8xqg-6OmIeXcOP35MYQOcoCYJ3GNRKQWfUOlnymG8DYGas14naAOEvil10Xdy_65RU5UdWTvmBEzACaJmPNkDAPpKaYaJaGrcWf21-EEh6JPFLS99SW4FWoXQCl-e76HnEAfzGf3anbKXiYDUtsiw3sB31Cp3P7g8aqI/s2048/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Why We Still Look to a Groundhog for Weather Predictions | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/groundhog-day-2025-why-we-still-look-to.html'
 ---

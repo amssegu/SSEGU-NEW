@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-13
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20futuristic%20conference%20hall%20filled%20with%20advanced%20technology%20displays%20and%20people%20interacting%20with%20cutting-edge%20AI%20innovations%20at%20Google%20IO%202024..jpeg'
+imageAlt: 'Illustration for Google I/O 2024: With Pixel 8a Already Announced, The Focus Turns To AI | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/google-io-2024-with-pixel-8a-already.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaFSTUeJS0hLSuzYDSG9Yu8kMVd-duO7-XDDBy5hASlqT0ATk3ZmeaZu66p42fWDLqtTMuezvdKG7vULvdbkZGHBtPSDvMncB7SRf7gEVzJrSL8QSIzuZU_1uz_47aoqMeMqleV8tcU0Tlol07vWNwK8h5hh705C7FDiqrWEFRuNcqJBzgC2LmwCzmXg0/s299/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for 🎶 Jireh, Refiner, Wait On You, Trust In God ✝️ | Elevation Worship & Maverick City Music 2025 🙏 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/jireh-refiner-wait-on-you-trust-in-god.html'
 ---

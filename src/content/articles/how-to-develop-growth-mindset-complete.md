@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi42isNORRBOAkTzn-IEoybMqOEXq6vnud31hTYh4totzoUxR7hb_kFwhFp3htaxOVER41mZWPB9-wZgBmnbbXaCloPtP-sKnmPC_FGDTPxhQ6TZTlhE-gOntn7CE_agYzez5Ay91rhJX4xlJXsgVaSBcn0fGODTdh7iHZnrhawfXh2Qe9LY9ZQwfUKlSrO/s1298/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Develop a Growth Mindset: A Complete Guide to Unlocking Personal and Professional Growth | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-to-develop-growth-mindset-complete.html'
 ---

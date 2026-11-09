@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizzFlTZdLOAHBOxLvomSFZyxDEgCnH5vplT99LCGrFungMGzQ_dfBddqthzUqLwyn8xsDVkeLvxvWuxJ-8jqIf2_ZHyKmtQTcuT7A-MlsBrDhJjWr5vjYSr7OJrtwhuKyuZHQKAyjY2Vm9wK_vASAcIJHABLhdVt3GuXvX4yZC9D45HNZ9_0MIgDW1OZY/s654/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Sheriff Kali Mu: VJ Soul | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/sheriff-kali-mu-vj-soul.html'
 ---

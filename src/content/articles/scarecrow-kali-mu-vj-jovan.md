@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_ltBR5OIEOfqA-qlRcKRliq8UBCC9t5G1Nc0_X49HWU88IdqMFsPcllFHFU_1QWmUsUldhdB1SlskTGdvZXFhOyeXslnuY1IWTFPIE5cJ0rQHXV_oCja2AePygIdHDfVVQaKUhn61TIIhoeOwayLJTzkiYX2wHquSd6V9F9nb6FbS21aL96kk-CuFDI8/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Scarecrow Kali Mu: VJ Jovan | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/scarecrow-kali-mu-vj-jovan.html'
 ---

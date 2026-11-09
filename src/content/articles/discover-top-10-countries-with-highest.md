@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs44M7S35MBP2-ar0r2cO-gadBMhQqBkZIOJxqxrbL8p2I4AHXz1aPC1QGERdrnUtIeltBu9MTzWkoZn7GmMmLSQoSY-TYOQMyK1VokMgMNX8tZITdevAhl5Q5uShc-hPNiJMI2k1S5GfwT5YJw0Za9hrkflP3oeB-kCgXVyyk_rYeXOWQtbApU7FefHE/s1280/europe-3483539_1280.jpg'
+imageAlt: 'Illustration for Discover the Top 10 Countries with the Highest Percentage of White Residents Outside of Europe | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/discover-top-10-countries-with-highest.html'
 ---

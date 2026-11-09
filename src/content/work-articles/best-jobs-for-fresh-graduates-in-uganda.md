@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0bZHdXCMfFHuimuUrI5i6M1F8mhp_xikFGGjBmXwSSBXNA-BWydf9Y9uq6YRVVCz7Oj__0yOtbo257NL2A7Hl_AQNK9Y6Jih8ZXsCkISpU6HvTUY7ZKa07fTSaVCG8ubJ9joFsc_q3t3bDbKxFbIEeHzA_ajOxnNy4xXvDgl9GRm81ECnIz077T848gM/s986/Gemini_Generated_Image_kgej91kgej91kgej.jpg'
+imageAlt: 'Illustration for Best Jobs for Fresh Graduates in Uganda and Where to Find Them | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/best-jobs-for-fresh-graduates-in-uganda.html'
 ---

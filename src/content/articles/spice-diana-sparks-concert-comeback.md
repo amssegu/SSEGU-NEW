@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwPjD80XJyG8zbSM_scFs98w2OPxM2jxXO2aJlyE7eRK0b0UfIAoXkRsHm-8lnSck7GQ4DLWbhgzDposCSBEnSxk4PutVbyNl8CGhNHvRTs8u6iuCDDmURLX3B8oNy95aJK1v4ZFXbtPA4sxo4k04BYN1nR4hSSZGwhT1Ew0QzkIMbIgt8a-rUM8F7d_s/s530/images%20(3).jpg'
+imageAlt: 'Illustration for Spice Diana Sparks Concert Comeback After Secret Meeting with Next Media CEO Kin Kariisa | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/spice-diana-sparks-concert-comeback.html'
 ---

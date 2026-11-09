@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHCbLU7QU4XIMWbMNhgNTN8uZ6gLSHsbAoKe5vaxOEbZaSvFs7uC7wBFonqZEoJRjhc9bQSYBWKUn0wnjCvelmtv-g1KGFPaw4mVHZ5btWOs2drHvaoe5rBrosq9ZFjPFkoSvRHZFw3AJ6JYVFa2xcrwFcniE-_CXILpzQOlB5aoVgRONoFE-JDL3ShDjE/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for What Ancient Temples Can Teach You About Customer Experience | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/what-ancient-temples-can-teach-you.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKOciBP2a9GFGpRRa-3YZEeI-b901YXcgx6s_mqQsopihC_gMJfX8c3yLDlj1TT8as4UcIkfioNA4O0mMo9-jsyxpvGDX0BRr-iqtNjv7AR6NodPhx34X_OzBgJ9cDHz-9bG__skRfzjDKbMeLt23DoD2MWFx2diS4XTSr5XHPdoADGkQ3E_eURtRYu7Y/s800/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Ugly Story 2 Kali Mu: VJ ICE P - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/ugly-story-2-kali-mu-vj-ice-p-ssegu.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK2Qd7zHAY7n0jmrZywwELJTJYXJy5V_AFDl-5kl_I4YbatO-i9p9xDFB0xfbuh-HQj9kkDTPwuuClxGqnUL0vTkiAkxHF7UQ2N7mu3_ieTCxR1mI8X1rt0TMkctx7cio-apSnSyDqvk19VONGr7VlKQVEMJzwjRWkvnDFJG4bhYbaOvBIO5kVfkYuQHxv/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Accounting Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-accounting-courses-with.html'
 ---

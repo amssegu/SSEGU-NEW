@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzug8D-lTct3Qrfn8mR64QVJr5dV_KKa33baghs13jk81GQ8gGQXdRhSLO0842kX2EQewGvs-JfE-FsnHZ4c-xKZAaDRM6sNr_58stuhDTWW4azuERIIJk4p2INGpFOOCb8jN7E6yO2HhloHAfNUoKOWH89KiYZTLw9ffLV36Rpte6AHrALxmCZYlyOzI/s960/ai-generated-8121083_960_720.jpg'
+imageAlt: 'Illustration for 10 Spiritual Signs the Universe Is Leading You to Your Soulmate | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/10-spiritual-signs-universe-is-leading.html'
 ---

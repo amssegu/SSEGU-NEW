@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfDway7bXtTsv8UB78vrVf_Mh40fF-261BEtzt7knIOi2T5BAqDraUI6lYycsQ4-TWcDIMVejtZ4gM4QNxdSXu8LFSxL5imyIkCzjUQtq4qztSJacjxJb0Yyd6wqewv3zupJPMXiN7ZImIGygPLCQgt9XHVEKC1OqGJpTmQExTt1BiEvMyEZ4c7ZvBXeuk/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for 7 Business Lessons From Zeus That Still Work Today | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/7-business-lessons-from-zeus-that-still.html'
 ---

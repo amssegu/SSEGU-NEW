@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-14
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGXlA7ZQmqCooFCp3eLrWH2phtNctQE5iqQyAloHP9TwX_yVSVtC27QdDTQzxjLPJ35N6su2c95HTC5MD3rn19iH_HV6x9CukjRR7ZLDwsl0uEFa8vRxtTHlgOy_8FzZiNa71KvV-uh3vkesbwOqeM-AsM6iuU-6c_2xSFs5-MNhSh3-5QNLwLUfkfBbA/s1536/ChatGPT%20Image%20Sep%2014,%202026,%2009_04_39%20PM.webp'
+imageAlt: 'Illustration for How to Start Freelancing in Uganda With No Experience | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/how-to-start-freelancing-in-uganda-with.html'
 ---

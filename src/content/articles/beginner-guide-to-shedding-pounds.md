@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf1BVGHOArmsv5xdY96fzXigsYeJSdtXpSolkfOZDq4onPoH0gsLSjb8DJ8MFBoYrBnagwKPrg5sDMEAceMEusgqxT7GcaEBd9ljpvV5lrGtu826ud18fCLBWuW7DxLLbe7u9EZOegg71Aqk_uFcnyQY-0HS0jfy3GEgtXXMJY_WjCbA9fFhJJmkt7nmF4/s1024/Logo.png'
+imageAlt: "Illustration for Beginner's Guide to Shedding Pounds | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/beginner-guide-to-shedding-pounds.html'
 ---

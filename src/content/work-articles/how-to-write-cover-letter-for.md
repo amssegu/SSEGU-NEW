@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5g4nrw-mn_lsrArm8PMDfYoByzVLQuEqcsmf60mKQ1LQ6-Y1BFW6MsLu5o-G5zqfPMODiaeLUWwAqeiWRia7LdXlQYQFnxRbX8VAGJQ6Oq8grxVFdp4WzgFvEt7B5xnrf5muuL3WSX6TwlqLBJGUpN8PjuokpEBKKB_yhyphenhyphenDROssVA2VUhFfluP1HS6p4/s1600/International%20Job%20Application%20Workspace%20%281%29.png'
+imageAlt: 'Illustration for How to Write a Cover Letter for an International Job | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-write-cover-letter-for.html'
 ---

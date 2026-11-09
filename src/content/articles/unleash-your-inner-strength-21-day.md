@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifX5aNgJs-Bt9qf4Anc42c3L6znloc9eTuEsHAByBUD23K4uFFU_c1fJv8AEFndJyQPN-RxWyoljivBHcpX5KczeV0Ii_9o5Mchccc2uGI6iEXCnN6w__qQsZWE8OSAzVS9xphtIq5RTbOYh1dCOTnChFUhZZbSDMTylnpnXkqihSdjRhOgzLAa_8-duo/s1280/board-2433989_1280.jpg'
+imageAlt: 'Illustration for Unleash Your Inner Strength: A 21-Day Guide to Building Unshakeable Self-Confidence | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unleash-your-inner-strength-21-day.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUjc96xJ8vkEVsr_8WoTyXpq9Ca17fS3sPhlfpDijxrVzzpvK2wNqutqPdG0fUAxUU8Ws0yMZDTOFycPcC4KLolsE185BtkPnSlUpFFH2q415x1WFKtLjnvvX6K7wwUPHFQlr1EFhhpgmTj5KspwkrfpupVOwcYQ2ZvdCQOs2HEg90PxPwk_cJgPlzPcgB/s1536/llll.png'
+imageAlt: 'Illustration for Working in Switzerland: A Practical Guide for Expats Seeking Jobs in 2026 | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/working-in-switzerland-practical-guide.html'
 ---

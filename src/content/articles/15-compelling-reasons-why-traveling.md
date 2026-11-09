@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXdNkShNXwtdC2rNp49oUvsWSotX6DS129daJoAVyFME32D9_sfU4zDOeyeSesfqHRK5Wv-dPOFRM6i7z60WQCT-k2O5KbjZD4Eud7ePSSS6BaviuhKmRAUzuqFHd487Eyv2zIp5BhS1aZwY9TIM6x5DEoqQHVlPxCkBToXT5pCjJ6IcBfw_l154x3cko/s1280/globe-trotter-1828079_1280.jpg'
+imageAlt: 'Illustration for 15 Compelling Reasons Why Traveling the World Will Transform Your Life | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/15-compelling-reasons-why-traveling.html'
 ---

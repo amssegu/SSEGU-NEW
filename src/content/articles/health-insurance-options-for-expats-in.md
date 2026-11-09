@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-11-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ9ikwnfAv4E-jsH-zozxTVoLeTZt3wIguuxEp01D_NswGJH5C7W2XCC_OzqiwLUgIrUHWAHeZKcz0PgCbdKZbbPAJa_mYF2QSlk3i2Jbf_hmb1zup1a_ksKd34tc5WKceBFFK091wT_MECrUq0ZZykcUFXEtWlzVRghnlO02qPd3SdKUfgKg2brUfxe8/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Health Insurance Options for Expats in Dubai | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/11/health-insurance-options-for-expats-in.html'
 ---

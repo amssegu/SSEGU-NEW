@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqypbusUIrX1SvzijYne0LfJXjog1Hho13GrbgpcMVkqJNoH8-mrZdzKbz42OccDNBAaTvoc-Xl5ehwkfzV2FbnQYSvzu5lzvwmptLXiBCl2BmY7KCFMSrVGXjdgnvhCYSfUP3DvCSlGQraGxSJjCnsdDRomVHQ4bN6o1qieN9o1frue6Is4HH3jBO0Qo/s1280/money-heist-6632767_1280.jpg'
+imageAlt: 'Illustration for The 10 Biggest Bank Heists in History: Tales of Grand Larceny | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/the-10-biggest-bank-heists-in-history.html'
 ---

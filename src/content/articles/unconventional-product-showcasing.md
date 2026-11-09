@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhty1pac5v3_69U51RvJZJtIDLpz7ovybykPtduthyphenhyphenat4kahW8BspFTBqzRj8D53UUMNgKObQucrb69-1hooULVTN_1GOTOL36RNOheucXc1ioipfoXri4GeTzCIdFzlfV6DtnUDKVukficC2tZ8KPoAeICarr2wIVoI1qAzxrxmz-dKJta-nGZ5AuAr28/s1024/2000_66b73fb144865.webp'
+imageAlt: 'Illustration for Unconventional Product Showcasing: Thinking Outside the Box | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/unconventional-product-showcasing.html'
 ---

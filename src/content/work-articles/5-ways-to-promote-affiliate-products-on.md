@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWXNwa38saVmP9zyJ8hJtrgoHYpMQG517UOrxxHvZ9M8yuORtfmipPDHAvKdkDXH2sB_qhkKfAWUmAuEI9zS8Sewgeg-K9jsssL5oD4ti_km_sY6y7HD48IPlJb7CWbFVIBSF2N_N0y_-hfmTFWI1mne0ad53XXopNNp-73WtAot7-plVCf5uNXSgZhKg/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for 5 Ways to Promote Affiliate Products on Social Media | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/5-ways-to-promote-affiliate-products-on.html'
 ---

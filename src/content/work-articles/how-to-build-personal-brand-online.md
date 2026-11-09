@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHj9NUMrFgskw7SgSaDqJEVqWcCYr9x24weRYuwItqNEr_W8CE2I8Snsn7YRNqyqFj6p4I-grQyrHM1EjlOo3TyxzXlJBwq9juwUe-qKcim02v1l_8pd28Bz7m0pwpi9GQa_UJjVrsetBFdQAF8uIKHDxC-mUPObEe3nMyGlflAK9RyMBFMB7xXvdczX8U/s1284/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Build a Personal Brand Online: A Complete Guide to Growing Your Reputation and Career | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/how-to-build-personal-brand-online.html'
 ---

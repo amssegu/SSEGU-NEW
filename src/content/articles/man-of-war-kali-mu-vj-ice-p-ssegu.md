@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-14
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcjeKYRNQ4v4ofsE3mpPmv4Q9_uaRIKZqR7BPjbTpfujx9f-EGXgYrniq6WCW-Amb7JFnKfSU9pR74YY0puX7PXoE7vXx40OZT7BTzCdsvbKUr1_-vgK1cs50mt_OfUGYSjxlmr6aq05KK29J9SA0pMRHcA7hpqmef66aPAhGp1_HTuy3xCZXIXGtOPxQ/s751/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Man of War - Kali Mu: VJ ICE P | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/man-of-war-kali-mu-vj-ice-p-ssegu.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJd7g1Zm0HBBVqSRB2cTqgENnBu0qQMpyypflsohAy1FrYy7RuDmrI5iGWJo9q6Jj0JF-2h80mpExPdJzlLZhpPbeuA6Ad89IROUaujJ62D3uig2z21MNwnqAdwN484MsQGj91ASD6dPpvNHCEu1PNimPopNRpZruKjKzGfTpYQpgbprQnnOkcb29G65zI/s1024/Logo.png'
+imageAlt: 'Illustration for Step-by-Step Guide To Mastering SEO | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/step-by-step-guide-to-mastering-seo.html'
 ---

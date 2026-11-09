@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbSTGdbpdu625smUOEo0lYiJqyAKzyoKL90aPpqlfoqbHaRQ2lkUwj-2cLiL_kFjK_7DPVaFgI9tYp4EBY7vcR2LyX9Ier61DugHZWz0bRYBjCPWpQPPhX4VHZEK16TI-jexTtycGdaXKBi2ekD7Cbmw1vycXbQLsa1BDhKPL1DsCyMg1RqSF9M1L7628/s1280/tools-2836960_1280.jpg'
+imageAlt: 'Illustration for Unlock the Power of Manifestation: How to Manifest Anything You Desire in Just 24 Hours | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unlock-power-of-manifestation-how-to.html'
 ---

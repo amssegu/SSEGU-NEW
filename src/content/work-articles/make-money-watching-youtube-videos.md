@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2023-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Ony2FQhb8YYDBjJ8LsmFjYmSRIK_dj1aMZFFWdnXVWv1RqIK8IFCP2gCtogehpYMD_iolQ2bq3upt4Txe6YhPXTllfk4n_0U0g117DUxYIyuEwnEo6DSLZw8OzRKckYarA05ItNc3c5lbm5NY8rx3bskUkYgHku0gkUj3rMHuGq5k03YD3CsDEw2VCY/s1120/Leonardo_Phoenix_A_mesmerizing_goldenhued_illustration_of_an_o_2.jpg'
+imageAlt: 'Illustration for Unlock the Secret: Learn How You Can Make Up to $5,000 Per Day | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2023/10/make-money-watching-youtube-videos.html'
 ---

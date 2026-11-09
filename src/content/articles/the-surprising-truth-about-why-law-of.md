@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpLPm0oSQK7t16G3FnZYoO7GfnoECwj3YYXBzYkxvWiZnqGjV95_DMW-eyhU-3RyRAGO10W6h6lgAUjSboR22KDIM3nl3G2FDR8jL7PDK7znv6EPGpokviOy8lTjlORuWvpKOxukB603ERTYzEYWpQjkuvXhTxHZZ2RHbakImcNd2VARwZ6Q6Sllw33DM/s1280/questions-4027963_1280.jpg'
+imageAlt: "Illustration for The Surprising Truth About Why the Law of Attraction Isn't Working for You (and How to Fix It) | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-surprising-truth-about-why-law-of.html'
 ---

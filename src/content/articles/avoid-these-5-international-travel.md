@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin5BeRx9eX-d3m9VCAQrO4C5TNnRzJ6f23_e04ys44T6Vb4TS7r61Htc40F6LmeNZ1DMp9dF_1YoUimib9ZoF72XVS1ofiMt_D5S-aO8JEd17xNxVuRGD2Vm9tmNYuH-oxG4NYyed0xDFgR0RTsgqPQoo5wBx890PyF6u04UQoeAf3tLRzo-B5EsISzLI/s1280/aircraft-723888_1280.jpg'
+imageAlt: 'Illustration for Avoid These 5 International Travel Mistakes to Enhance Your Experience | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/avoid-these-5-international-travel.html'
 ---

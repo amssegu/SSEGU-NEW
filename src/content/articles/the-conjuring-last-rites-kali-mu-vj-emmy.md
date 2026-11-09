@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg11bNifz0LNRg0-Z2GmonBInV05taSwZcBOL4ACahXc6vueD4Yrm5HHl1pGBqtODrZkjQCLPvivPJacDAvDuvRz2LlI5T0cc8wjsRBj469hAKxkJc57Kq0f_aY6yL5eWOw_o1-LeMxBAvShTtnf8YHiwHPP3Kj0xbpHuPSI6WnNZgXJuNTfj9uv7-4Sug/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for The Conjuring: Last Rites Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/the-conjuring-last-rites-kali-mu-vj-emmy.html'
 ---

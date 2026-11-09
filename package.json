@@ -18,7 +18,8 @@
     "migrate:phase8": "node scripts/phase8-migration.mjs",
     "promote:phase8": "node scripts/promote-phase8.mjs",
     "validate:redirects": "node scripts/validate-phase8-redirects.mjs",
-    "generate:redirects": "node scripts/generate-phase8-redirects.mjs"
+    "generate:redirects": "node scripts/generate-phase8-redirects.mjs",
+    "migrate:media": "node scripts/migrate-phase8-media.mjs"
   },
   "dependencies": {
     "@astrojs/check": "0.9.12",

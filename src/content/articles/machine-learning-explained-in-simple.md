@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKS2oTSJ8hGxh-f3fmdHp5hQOOT4fw7bnweMI9qzTerkMm3SNBYgEjNR7TssIGe6MAAK2MjJZmlliUUzOEYmA0ln4RYqhhby3e_4iK4LXG1nN-ro9QTaoWZO6QX8o_TnDaUtKP7y4FqCbxJ5cK_9Kr55XFM9_Y6cvuh-AZtjaZgU9Qmi87xsPYee2ZAFWb/s912/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: "Illustration for Machine Learning Explained in Simple Terms: A Beginner's Guide | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/machine-learning-explained-in-simple.html'
 ---

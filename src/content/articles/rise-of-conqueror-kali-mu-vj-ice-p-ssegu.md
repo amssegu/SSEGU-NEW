@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi043qHOw29RcroCd17f_sPtgUGJtcz_Zwvz867O3cmvNUOhK0w-4hpMZwFCyXXM2zThuaJUfM44UCUaa_U2YEf7kMDQ7YTHrPN16W09tkLyOVo8hIKjd1QUf94MMfEobmQYfNqJ9KP3zjLDTpRwn9U25_sJ9QOHWG1DHDIo44p_Y6Fh981qarBANsBe88/s1500/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Rise of the Conqueror Kali Mu: VJ ICE P | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/rise-of-conqueror-kali-mu-vj-ice-p-ssegu.html'
 ---

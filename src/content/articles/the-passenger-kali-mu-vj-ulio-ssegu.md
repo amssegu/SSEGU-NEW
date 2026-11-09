@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYhfdMjmPQAGQq8aRn34KtdxyjEgyt2baK0Bc7dspjRhY_GIGaiZVIpdOoI2w69uH5Bzxusxnr9jKcNh82JaGxtVUa4XtFIgjg61yUBTM85xKLPnH_JFCWtilDsR3_Z7PnnuV9U2L5y_58F_i-xsaqzvrVY4F0adXWvy4mitifZXO1-SjL5u95DL9XlR4/s512/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The Passenger Kali Mu: VJ Ulio - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-passenger-kali-mu-vj-ulio-ssegu.html'
 ---

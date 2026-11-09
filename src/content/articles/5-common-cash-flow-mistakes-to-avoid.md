@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEgGM62_WLU5ECHzFwzs86Ji3UbkJkdsmdks_VNyrfpDwPskob5uV1pM70iWJtdnmVxTSgXcl1O-ZlYLCUwHXPfkL2og_sa1k2mNiKcwaCQ3j6Ueex2D7PmcFLxVEaGGUYEivJta3roiB6uT8-GuEVa9cRLg9RL93-fIkuUvtRICGBnoqPEiq99isPCcpuIh'
+imageAlt: 'Illustration for 5 Common Cash Flow Mistakes to Avoid | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/5-common-cash-flow-mistakes-to-avoid.html'
 ---

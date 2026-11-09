@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUt3Joo0aU_OMi9lNtoXzxi8VFMdreLDhNcvHioKy6PQg21GTJAMeYijEdDnbsczYIgQf_gbM1ORRN4C_Bdau-a2SmYe_Nv2WMWFUC8GUtCC3EG6qEzWEEEXr_aT3d2xUFOOt51GkqLK2eEBdtOsId0o1xp_MYpO_Vs5j6YuJsz_XE6ZF9Fbfc7RmlsCA/s960/youtube-1158693_960_720.jpg'
+imageAlt: 'Illustration for 11 High-Paying Faceless Niches on TikTok and YouTube | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/11-high-paying-faceless-niches-on.html'
 ---

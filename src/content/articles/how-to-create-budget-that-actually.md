@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQfymwWHfQoQRxOTJax_mgRiRd6PE4kKVhDNsPR7SnRh7QW7HJXaX0a5_BZEjFIVIQcO1Ls3mFJVCWc7ceYC1pwOfV7Ns3Ik9gPF3fXCu6aNswTCGYVIFLUtfFWuXImxFwvZaebC2piqdYpxzZp7TxIezKwd5AWe6N4xGMv9x_tftPuzVWWmchS1T7Ztzs/s1302/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Create a Budget That Actually Works: A Complete Guide to Managing Your Money | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-to-create-budget-that-actually.html'
 ---

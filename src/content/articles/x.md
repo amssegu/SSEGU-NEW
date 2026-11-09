@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-02-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyQGGit1d9l0NmbNaD2FITBiZ4EGt83p2s48M-g01VpY1aFwiHE5bznehNN2-ZX1FYFkveIOg9DN61JWWnSZ4vnRXneXXn4lvUPh1qQiXueO09oGlJDlwhmQ3eJvAPNc7fGOAoUL5VaBcD42cNXiM41vRdKX5H9QL-2e6MO6UiGWF1x5SxN8YJWXRcjUw/s2500/sottohighres-49.jpg'
+imageAlt: 'Illustration for x | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/02/x.html'
 ---

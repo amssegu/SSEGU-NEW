@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0kCu8Tpvci7JPm5uimz8pNzW7RhK8MV1pYI04aTQN6roQpxoY41NzrLElVYjKRk8HhMqCyV6thjAiEbu0qsPb9zvd5SRNQ-pT6zt3BdoyBvv2CFGG-tBAJLCezIZksrKVFPKk2KfqmEditpwDb8amhUShXtn32egomq07JQoFvIjsgBnBEwjtg4YhAUfd/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Healthcare Jobs With Visa Sponsorship for International Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/healthcare-jobs-with-visa-sponsorship.html'
 ---

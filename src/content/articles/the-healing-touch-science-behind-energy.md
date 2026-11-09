@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-81YdtAaCfYBAl8OQ0b_RKyWTlFpCHJJshjH27z-A-ggympHCECSk9BEPPTSSeLDoiJ87I_vGa3MhEIJ0RSudCI-DFYlg_rq6oK7Wz89z_MEFbayqvNGPn9wMZ_pvwaPgu6_q9cTL4zKmdVDkacx-FdFltjJ2n2yMAaQ2h2r-V17BbHIDWN4LBDODMY/s2412/download%20(3).jpg'
+imageAlt: 'Illustration for The Healing Touch: The Science Behind Energy Healing | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/the-healing-touch-science-behind-energy.html'
 ---

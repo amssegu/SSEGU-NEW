@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWLRuWTc5orYa37KHxr9VP-ACRPCz6Rx7RY03Z1LanyH0_F9JtzodzuTE9t9b98uJw9iewNw_DJXAp_SNFKbAJSxiobXDfUDk322f3MxLDTILD80xshZKx7j2rGNnSUcHC0cXmWcOslpeB684qkr4Y-Oeu_IGt5MW_usgAADj9Wd-CLUOyQlqqi4XffJE/s1280/magnet-1189869_1280.jpg'
+imageAlt: 'Illustration for The Ultimate Guide to Becoming a Money Magnet: Raise Your Vibration and Attract Wealth Fast! | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-ultimate-guide-to-becoming-money.html'
 ---

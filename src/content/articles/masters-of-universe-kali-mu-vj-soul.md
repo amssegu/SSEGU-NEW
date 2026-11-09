@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0h3NaJvRwUsCpRFCJIQ3OP7LRUiO3hMOB4ik_MLWVsoCrrc5wAE54J5XmkRCQ0fOPh3CgqsQqlD91E8ZvAxE2WVLepnF0AO8P9UGNIBapIBjcOa7YoOkQ6HovHUUR4a-OClt9c0ZvK4ZOnls4plaAC23nn7kRicGlp7EkxqCSSrVX9oadfwS_x9XUudE/s750/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Masters of the Universe Kali Mu: VJ Soul | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/masters-of-universe-kali-mu-vj-soul.html'
 ---

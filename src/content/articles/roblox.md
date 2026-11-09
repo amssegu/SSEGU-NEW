@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-02-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdEX93KLJJA0R_QzQV_HJLb5GK2Yj8IQqjok6zyD_sI7iMi_klra2yZ4inhLFbD1L_yrVrIb2d9b4mqjZwrJXkTxPkHZLAMvzfCbxYmA4sBK-T400Zx6numZDGwtjui6llj7o7eC7P_6MMd6F-9CSqmaB0yLRcV-0locsxpJNffY8HdEqGKuA-kEfhhis/s2500/sottohighres-49.jpg'
+imageAlt: 'Illustration for Roblox | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/02/roblox.html'
 ---

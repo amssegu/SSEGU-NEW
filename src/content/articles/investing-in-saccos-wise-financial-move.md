@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ5i6G0_R27CrlhGwgwau6bRH8eH7Xewh-05dx6w2DagPzm7stkoyQ-LGuhPV3Opx3PgLLJ_zXq-HJXJsAz6-v7KD2EdT7MNhpE88d7_VcaYhER6TS60HIIQ1aMdC9w1H6YY-scvhnHhKefFMKBSqouwlEsxQcTvl6tSzEBs6KB4KsXDJym_Xz6IEO_YA/s1120/praying-hands-2273821_1280.jpg'
+imageAlt: 'Illustration for Investing in SACCOs: A Wise Financial Move | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/investing-in-saccos-wise-financial-move.html'
 ---

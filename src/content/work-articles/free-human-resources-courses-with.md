@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZGkDbeqt0Tx5QV8F6_8I-gGV0sdIog36j46wLh_crDHIF7SPlWnGpVjY1intl48TYlwHs4QKy7LivoR6FqbnDrPG_ZwcVJpw4leAWiI3jAHq-fdhrtDT_V4sRVB1KQ4s4TYSVZx2w-DZnnOImj87-phy-sMp5YfPacZVNOLEAv_OGVo3kjC_eFRFq7p9U/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Human Resources Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-human-resources-courses-with.html'
 ---

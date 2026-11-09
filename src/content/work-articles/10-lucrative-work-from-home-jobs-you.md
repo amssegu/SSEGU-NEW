@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyfyIFmKKKJE-L9ntaxcTKakNZiYRGlMP3tlarjQC_bdQKm-7phbS6iCc5tP_E6vNmf4qjcAxJBrOFAPBxW0rfV8BhGZ2GUOEwBdReGbdS5MMdc4N-Uf9Gvv_8Rv1zgIC8kMGBvS1WfFR29bTf4hR1dtLU63oOCBalbv2jXuPYbxBjky_uI7gXsxXNOjo/s1280/telework-6795505_1280.jpg'
+imageAlt: 'Illustration for 10 Lucrative Work-from-Home Jobs You Can Start Today | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/10-lucrative-work-from-home-jobs-you.html'
 ---

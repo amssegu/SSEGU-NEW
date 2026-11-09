@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik9ynulOq_JBugUnD4IOMBImzyZZumzJJUyR1Rcq3tVogSHyN4pjkfCdcxFcMFXNJTuQyLuKMInVO7IM64oSG94W6Jf-uT1XAnpctLOZm-n42YqGB5LjfVadSoIOx-rHC_RHRQgNJqyCG-KO-CHNm9SSDQKoR3fmE6T2FD4vkhpg2GEFZP-FziU0uHHnQ/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for 120 Bahadur Part 1 Kali Mu: VJ ICEP | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/120-bahadur-part-1-kali-mu-vj-icep.html'
 ---

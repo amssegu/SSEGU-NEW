@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibbc5iFsebAWSsa6O26iUU1ORIE7wxjYVnOnoBAr6IDXMzE3TP3Ywo-4Ss8B6zqPZLqayOIWI3rczJBsqvOJaB3sjnzG1wV_-cAtgmmIMo2PFQuHrcTQOzLodPcptj-BYYmFugaAjAk7KlxKq_w_swrPX5Emc8CnknOM9mXGGnJ2eBRa5pjZ6Y8HdFeU3Q/s1024/Logo.png'
+imageAlt: 'Illustration for Building a Web Scraper in Python: A Hands-On Tutorial | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/building-web-scraper-in-python-hands-on.html'
 ---

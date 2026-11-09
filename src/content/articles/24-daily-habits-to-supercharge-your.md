@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnnW8bTbrf_YSnKwUEbnIENQLDfGfiJZz-O4hQNaizhbTurXmaJL92eD_NHJnpH8Y6VnxpNBFlkSzs3SyP-_Ctf7Ks83zZxpAuXwjsvm6Ldo75eAmFWkYJsqW5jIjXAZe9EvgIk5tg-c9OQmmUJu9sqEE6Q-D661BjqrtFlXUoiemE_CJlt76XWbpA7yQ/s1280/flatlay-5115827_1280.jpg'
+imageAlt: 'Illustration for 24 Daily Habits to Supercharge Your Self-Development Journey | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/24-daily-habits-to-supercharge-your.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyRI8R_TWUqlwuLbHqU3MMnIVfypGLvYIbTFELaBsp_NwSYQZBacJPqel1vkOMvwpkCbMI55YpW6TMeR13dX1HTbbyroDgpGys4GYETyD2QeDABlZ8CaZbgKXAZK-GtK7fUKzXQFSf_lKDQ5XY8CuthM6TqEipQ6nTeWlillD4V_gN7f0lHZ86dLiHAlI/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Discover effective savings strategies for expats living in Dubai to build a strong financial cushion for the future. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/discover-effective-savings-strategies.html'
 ---

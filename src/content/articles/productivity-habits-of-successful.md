@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6WhZbDCsxUctr6kNU5lYi2APqqmfB116mxyV_28sLQ8tlLXPNUWU44u9PZ-YiZZEHBIC70wp1bS1qiM8VVqCT1IMjIuQkhv-kJ3HnvAbiJUZgGkIMbARVNlagdSXHCa19mHEr2yOfr7mY6oQgJZp_yr3xoZdjaXxiPeG3JtREqtzOeyk1nFVPFk1qnyha/s1266/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Productivity Habits of Successful People: How to Work Smarter and Achieve More | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/productivity-habits-of-successful.html'
 ---

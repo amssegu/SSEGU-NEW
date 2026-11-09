@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-16
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4tGBGpILrAIypchXNkReQcqJGbBOT_LO9lXLi3DmsS7A6aPkaeLErFftzhNhNjOzE55OvjZexk7-EvD_GKU7ht5xpjMIWeJOPbQESRVsCDPEvQGQ4lThwSPKYKK6G-ncLE_M3DISKUSmA_gORIWXQKej5fSop1AD096EQhe-WnHib56n2msiDiBR3tUz3/s1316/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Leadership Skills That Anyone Can Learn: A Complete Guide to Becoming an Effective Leader | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/leadership-skills-that-anyone-can-learn.html'
 ---

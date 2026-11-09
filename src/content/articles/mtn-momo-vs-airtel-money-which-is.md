@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWsPiIXoYTunTeyKBQeRdyfDyv1rhAPqvJQgsrC3q6NOWvtGEJyt4JbBSuPSwgngrGl3eGuu6Jy08Z8vGtO7_selMLwDv2MXp8h8stG0PMOqtQGpuMnD3fjpwbAA9s-7DMaFmIVLdATEUSC4lemX4nU8yCBIAGlYp5jzW3fmoXaY889QVEdGzBrG7jo3s/s1600/Gemini_Generated_Image_flnd98flnd98flnd%20%281%29.jpeg'
+imageAlt: 'Illustration for MTN MoMo vs Airtel Money: Which Is Cheaper in Uganda? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/mtn-momo-vs-airtel-money-which-is.html'
 ---

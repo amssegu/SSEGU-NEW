@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCcYdI2rJxeuX_QGedVc_Q6a1F-_5_CaJcAIsBeNzFFabpP-eeBchMnhQLoZy8jR5LJTL2xPZkJsv6mrf-H_ES0RyvzEANSq0hCsCziyLQPHeJsDcH5gJb37Drxr87UKqO1ALxVrz3DCryCQL5WuD5n1jSmwKRy_tTRoM7buh1D7eFDX-FLaiWgAl3J4Y/s2000/computer-2937207_1280.jpg'
+imageAlt: "Illustration for Breaking the Stigma: Gen Z's Mental Health Advocacy | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/breaking-stigma-gen-zs-mental-health.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyn5nqYaEJP9ZVfD_MJWeE5_6D7i31qjwUfjxgO4w01du_Q8BGR44fGq2-2QLsmV3Nfcd3NNNPIY5sRYf1A_3OoRTpIOkiOtEfqeelfD4AYgulzG0lR8KrHmSunqXgrvEc_DsP729l8Aa1v2niD5_xQCXV1hYwa4__KrfMxyu2B54FdJJN_ND-a5uCQj4F/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Data Analytics Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-data-analytics-courses-with.html'
 ---

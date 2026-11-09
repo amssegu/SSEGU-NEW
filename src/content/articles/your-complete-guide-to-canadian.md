@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW8RRkyjgufxlneUPYzHPzVL-NOzWJHHWPo5F0_VYBrbu7PawMobKxbZj9LMTU5Ji2fGh7vyEok6agW79km_gP8BJ2FZZlXmWNqhq54dXl0E-Joc3UZl1LqZjknA0PNnIHqgFN6Ft5E1Kwm9RGNUoa5Rr52VOuJ2GiBAx2zzbLuJaxL3qw9vV8R6MibhJ3/s1536/llll.png'
+imageAlt: 'Illustration for Your Complete Guide to Canadian Permanent Residence and Work Permits | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/your-complete-guide-to-canadian.html'
 ---

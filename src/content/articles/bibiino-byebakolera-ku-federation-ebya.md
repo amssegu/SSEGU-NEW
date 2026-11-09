@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkXUm0PQVo3WrPFqaF09lltJZuYU1ZhVhZHGLDjATz8MVKfgll86NM9TwM4hdmQHq1vuA1MseX9RDH4fdyt_wwUYMWeoNjrbZL6N7ey8RxXizV9IOucSNSnHjSp47EkoFD0OjpoBemDFuNh259OMEGMIhyphenhyphenrCXqYkfy1bRPsM9q5n1nkUWNDJskSZ8FPBE/s1280/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Bibiino Byebakolera ku Federation Ebya Eddy Kenzo | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/bibiino-byebakolera-ku-federation-ebya.html'
 ---

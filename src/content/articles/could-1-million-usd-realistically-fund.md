@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihsvLnimqieykztv3qU82yjohAadyPJsmdn1I3hgVlN4BXi-bqde5-5Euy8Xk7M_G0UXCWy-KX79-PnIp-tf_m3QaG0Lvqa_pO3kNULD47KPQaJ5UhY4qSsoj5NyA4QlG3tJYd-1WhnZ_QCpoDK2fJnoJfv0SidvuhBmwQkvKBSVA1qakKldzK1qJw39mg/s1320/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Could $1 Million USD Realistically Fund the Start of a New City in Africa? | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/could-1-million-usd-realistically-fund.html'
 ---

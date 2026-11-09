@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipfxD_KKOWbVPPJMMGH08z-49rckbdCKCfrW8pGTynaL4sHx2R3qXkbcqgTOrx0yKXMrZ1JfMCg5XvyCJ3zlTyHjqjfc7U8mIv4yCJTPzczZTyPNsc9BunHf7wymHeYDalmB0zPSCzsQQ5MbYOPFvS3-0PXmOz7PnKab5LULTYViHPFu3WxqbIAfvLNDA/s1280/man-6874915_1280.jpg'
+imageAlt: 'Illustration for "CEO" The Real Story Behind the Glamour and Grit of Leading a Company | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/ceo-real-story-behind-glamour-and-grit.html'
 ---

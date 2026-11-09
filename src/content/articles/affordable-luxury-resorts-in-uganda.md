@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjIq9Bjqqp1ZyKyIz44VAWoIaRUEiN6v4dZa8caKfSMnPp1gnV3KyB99n7Fnu_m_yFQ-y0VtxGH14MlcSeA8RrXKyV65HXxiQmWrZB4gV159wfWq47qjGSlUy0gGVf-NbOLy-yUZtTnC3tC80P3JT3bZKD_uFLp44Ggg1zTGuiZZGVGAPQzsG7k04aiylM'
+imageAlt: 'Illustration for Affordable Luxury Resorts in Uganda: Prices, Value & Booking Tips | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/affordable-luxury-resorts-in-uganda.html'
 ---

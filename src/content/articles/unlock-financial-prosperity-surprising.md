@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi29YTTbGgpD7rFZyKbRWHGA7HYCPltzTEsO762pA3IxFOqsjtKL2s7S2WHa55wbyN2-KTAIip5TjufDC2yk3TesdPKTaxwYdXA0YOYfYp_lFNGVEsFUvnbE68sq4BURQ2LcecRjfNdn1Epa4HQeq6ph3eRU2sTn5wCGERjhEqGH6nxaHD40uchJayBRvU/s1280/businessman-1866582_1280.jpg'
+imageAlt: 'Illustration for Unlock Financial Prosperity with the wisdom of Buddhism | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/unlock-financial-prosperity-surprising.html'
 ---

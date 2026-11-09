@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjfbp_CCMu3Zb8ZKYrqSaSLrpZzSeckxwlumc1WGaYV1nwyvs8LNa_SrxMsf7DsZabWi47xGIpdtDOb8V7AwX6VVTzabLJ1bwurREregP-jl94h94AXikKRxmftajfpS_6M8vTAYYnxwz33e7siHcmxVGt6wUjkSeKYLhYhvbC5633Qf2A4OL9V3WbWBU/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Vicious Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/vicious-kali-mu-vj-emmy.html'
 ---

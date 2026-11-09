@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20person%20engaging%20in%20active%20listening%2c%20nodding%20their%20head%20and%20maintaining%20eye%20contact%20with%20someone%20speaking.jpeg?t=1716530111987&amp;width=860'
+imageAlt: 'Illustration for Mastering the Art of Building Rapport | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-art-of-building-rapport.html'
 ---

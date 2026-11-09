@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7S5vP5TLycK9aL5A2c86nY9Gj9bk27e_fqS97RJbdT3ErWVpDTCKRfn31sbThcD5WZKTjnwUEhEA9Dr2mXKzzMXXVRWHoKSwQhH2XER8FijVqEF5IeMmwIxa1f3HbkheAAxaMqSmssrVY_QR3WvW2YhT7h4K4FxrOqRbDVtgaqIPtTQZBQ9ENqDx3Ya4/s1280/hoi-an-5494203_1280.jpg'
+imageAlt: 'Illustration for The Importance of Researching Local Customs Before Traveling | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/the-importance-of-researching-local.html'
 ---

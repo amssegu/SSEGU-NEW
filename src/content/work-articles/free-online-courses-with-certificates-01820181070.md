@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-15
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC0iSaR2_BTrjPXh8ShLlKWZKbWwpOtPrWAQ7bgon4yD6cFF0ro3LCoMY1-fd3pP7zW73nSqU0QT425cAyIPvFWWq_wULO8m4o2bK1lVVDESWYfKoMY-MSOdtYhIE-f6HFbU9bxIEb3t5KUBnO-gdI4xbdeaW4OCyFXFo3CNZyaznXqYgqm5KIGTRqOqeh/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Online Courses With Certificates Recognized by Employers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-online-courses-with-certificates_01820181070.html'
 ---

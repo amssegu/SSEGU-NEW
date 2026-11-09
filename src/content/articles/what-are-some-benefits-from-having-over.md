@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-09-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-ftSVqLZ0CgT3pmqWnkhdXX4AScALjLHqRGob88yprtZZhVR-Z6USKI8SmzDD_6RqzZM5lZ2LKYEQitnTY4881Sayj894l5PExMjr_FNXOB_UudVTKKBm-mH7t49IlA6Phap8YqK2kGaOPl-wpHtIHbWOm3NDomPIfiHKY3sx7WVb-MeEkrNZ0rkfLdw/s1120/computer-2937207_1280%20(1).jpg'
+imageAlt: 'Illustration for What are some benefits from having over 10000 connections on LinkedIn? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/09/what-are-some-benefits-from-having-over.html'
 ---

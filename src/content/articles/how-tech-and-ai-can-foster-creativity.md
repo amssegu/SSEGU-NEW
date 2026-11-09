@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhau4OFMyMs3juqqJdhoLNZpE7xi6l_SBzIZ5Ft_BHT72laVREClKXx3w76KPfPG5qgKwCN8uW4actwZgeDJZzzzMbOQbJFPADMYG9i_lE2InQcB5lldEM7tlIipUyRklmTCRj7I4VOTqDBBy2uwN8WrDOxRwNqDfiYDYW8htohJD8BHj52_br1QVBWDoI/s1280/books-5211309_1280.jpg'
+imageAlt: 'Illustration for How Tech and AI Can Foster Creativity, Collaboration, and Critical Thinking in Education | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/how-tech-and-ai-can-foster-creativity.html'
 ---

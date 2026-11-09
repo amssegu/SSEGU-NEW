@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzsZ1BJjeMm86SB0a7ofOvrJytSKnRvzlrq2M2qBNiO50URLhyo11KNjoJBSD6OIzHNzY0S4lQQVl66m_OvBOH1B2O9s3khHdl3dLyzKgb_8lfQUvUcwNMFs5x333UJ-CrG_wj7BQJ_Dlh67I7r-UGXmkXBraE2wsEaWqwW2pslkebMlN-ZmeLjh8d0FFZ/s1276/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Time Management Tips for Maximum Productivity: How to Use Your Time More Effectively | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/time-management-tips-for-maximum.html'
 ---

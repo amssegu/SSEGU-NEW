@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigPqTyTJzZR3GSMEouXUdH_BbDBLn4Dw4Y7Zyj2S2AQ5fEYOgBhwJ3ECG31vbsVnYYTRZBNZQ6ExxtbbRWqaLXb-Dl1NdaXK5ZO0YnR06txRjZJaJn_2MEjZjhNyJ1H31QduI0aYDg-3RmyYtQa2FMJP_aEF40HXi2cDbGUw6UWzxb-SLV_cK34st8KdQ/s2500/download%20(3).jpg'
+imageAlt: 'Illustration for The Legend of the Spiritual Rats | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/the-legend-of-spiritual-rats.html'
 ---

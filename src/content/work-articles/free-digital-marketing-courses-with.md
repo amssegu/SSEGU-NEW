@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwIKaClXPEveOgtXnVm3e2QgrN3TmQcflLZZZSC6AO6AvMLV4RK-3tRUzg6OmdLm8cg1vZaNG8xERhS7vdryh7-8N7PrKl0uozYpKnLuwSDSzA2RmPhkRZHMOHYnrKpV79bvg9xdSNkjJHj-zT5Xdasp0nzxGcbaKBm4-l_95E4HGsNqrT8aGlz5ksttzO/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Digital Marketing Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-digital-marketing-courses-with.html'
 ---

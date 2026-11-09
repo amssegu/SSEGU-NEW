@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20person%20working%20on%20a%20laptop%2c%20surrounded%20by%20papers%20and%20notes%20about%20different%20ways%20to%20increase%20income%20through%20side%20hustles.jpeg?t=1716530347839&amp;width=860'
+imageAlt: 'Illustration for 10 Side Hustles to Boost Your Income | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/10-side-hustles-to-boost-your-income.html'
 ---

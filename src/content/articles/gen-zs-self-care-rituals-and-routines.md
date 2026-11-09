@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-k1w44MxM6_Hc3aksGgKxAmyHfFYYsX4q_7ybZkz6qiTQHB1gBOLorow8x93hRM-slNlvz1AILQ9mZe7hq8WOPZDzQ8stAKSoHQFtC0QjRot4jauFZBG36ohPMyAYRmtuoGQRwdoR4ZAGrEimYV_UF1SnAuv-W5_hgXbAzcuq9BdNyfUboBmW0FVp9AU/s2000/computer-2937207_1280.jpg'
+imageAlt: "Illustration for Gen Z's Self-Care Rituals and Routines | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/gen-zs-self-care-rituals-and-routines.html'
 ---

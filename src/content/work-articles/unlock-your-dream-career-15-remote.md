@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6OzGj2RkSL9MR5LzpHCbUgRVD7vzl5QsRfo3Jk6-CESPBMOxOJimhYyQhb50IqJq6rRtQYRxKncHZu4PF7H3gyDNZ2Y9lo-1Z8s8NfidwMTWeAZYJBpWAHOBDWsYBt4A_QB9QljeXimuAHtilQB9jxbZCjaL4bTRoHHMG_xWHUbXqKB36DII3evTjLOk/s1280/laptop-6062423_1280.jpg'
+imageAlt: 'Illustration for Unlock Your Dream Career | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unlock-your-dream-career-15-remote.html'
 ---

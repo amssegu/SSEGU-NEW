@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqhQEWEa1VMG3E9b6vcpILg5-G46hThDuUE9wDbMiMh63W536q86sk7M2OKHPbPQfWADskKJRnM7f56M_ui4FFucuU5vyXduCJBwUuERWGk2o1oCX6Lw6KOK8GVwj5XKdEubqyqOmrT_x0XCVU64ZJYvRWGaGbTH6gLdwJppqV2wsjFD5Nj4MOE_ljrL0/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for The Ultimate Guide to Finding Cheap Flight Coupons | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-ultimate-guide-to-finding-cheap.html'
 ---

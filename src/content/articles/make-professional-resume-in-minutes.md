@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2025-01-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiwRwJTC0K0yf4P3JXzVMWN7CZPXDo3_kFufnfN10EdqrKQ6ZOGI1lxUIDKT7hP1yJC5UQDU9HasGBfqj82zK0N1FWAk2dt4A74rDxsHtT4NlMC7jhYNQ6jskcHIKc8qi9uQ55f6GlAxfX3hqVi5ZBut_RexFJHzGlA8VqWiEkXPViiV2A0cK2eS7mGq4/s606/Screenshot%20(11).png'
+imageAlt: 'Illustration for Make A Professional Resume in Minutes | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/make-professional-resume-in-minutes.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20detailed%20image%20of%20a%20woman%20applying%20various%20skincare%20products%20to%20her%20face%2c%20surrounded%20by%20healthy%20foods%2c%20exercise%20equipment%2c%20and%20supplements.jpeg?t=1716614524699&amp;width=860'
+imageAlt: 'Illustration for 10 Habits to Slow Down Aging and Look Better than 99% of People | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/10-habits-to-slow-down-aging-and-look.html'
 ---

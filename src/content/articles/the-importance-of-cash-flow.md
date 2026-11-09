@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUkSK9ZqFzfJIHtdd6UxTH-ezGGePOEJmcMoh9K8hPnhuxBp7ny4x4i8OCeDdlPgTFG-qhkAjB4bjmnUbSzXUUyxvLXys7gI81NEkW2DNmYZs5FAOIdzOmXVQEcGaObkXe0KNlqnamVzA50-jOabqm68jfMdsB7xQftnnEwv5DJ03ZcO7FnJ0CyFB2wY3-/s1024/videoframe_0.png'
+imageAlt: 'Illustration for The Importance of Cash Flow: A Comprehensive Guide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-importance-of-cash-flow.html'
 ---

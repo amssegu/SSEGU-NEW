@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM_qmo_e6EQj0m8IObgQp0xndpRqZJa4oJCg0OCi7CDIJJLKMcc6Qh7tNhA0-x3rCYl0-RSO1Z6clFCiiejqzWCuNkVjr80kZCv4b970fKFzaHwyir5Mk6JAxpXQbvW8oAwb4mi7OT0PyKMKVUcj-yDuajfWOVW1sNiwu4NcvcQWwPHw9li0KZhXXZG48/s2380/download%20(3).jpg'
+imageAlt: 'Illustration for Uncovering the History of the Original Magic Ring | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/uncovering-history-of-original-magic.html'
 ---

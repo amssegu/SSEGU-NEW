@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh36xWr9NXx_222EuIgx1xBaaJnT56vGptm8GcgNk9xSif-w8McHUVRqLliYWEdAMn2dVtqycnTcSWulYcfLBb03_YJA6UMoW-0HW0l4vx4ds620gIQYyaGwS9IMeu7__teM2icVtjeQ_AHWzznTZdH-g7EsETtZt5gd6-eXTlulk8Q-T23R6SmUpVeESTr/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Customer Service Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-customer-service-courses-with.html'
 ---

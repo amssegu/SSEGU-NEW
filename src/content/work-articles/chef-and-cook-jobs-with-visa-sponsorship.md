@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfTsx_CrKhCe3CHMlXaikoq-B5zwDJZk-FwmIGQrdq5BficEGUtdiTFN_EU2nCgovVwtekYD9gS0K6uyjbDWN2-ks_JUfrpfHqhjU7G3R8bA6tLu5URFAr1J9gRYEwIJkb67pm2uVZS2cn1WTCsCcpzrOPkRaetDjbmrLEnI72-weLX78iPUD7G1Q0EtTw/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Chef and Cook Jobs With Visa Sponsorship | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/chef-and-cook-jobs-with-visa-sponsorship.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii_xhin65S9eKUwi3mLqnMlmS5zraBxzP0K4jM9H-uHRY08E-GpgKyqp2VFYLUysz0Gd93Ys-aeOc9Vdm-y02e39JMIXnP685LuzR7w63u_MGOz-JPdebYscEXCHAw1H1nOqvDVwpVrABvjJremBNOnXPykSbnPM6qdMgt03hVX-34MuXIM_S6_vwepYA/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Ikkis Part 1 Kali Mu: VJ Shield | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/ikkis-part-1-kali-mu-vj-shield.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRqxYyAAs0WCYtaOHYu6gIMNLLtU8iwRj_7JN-xNIyBnrMzyPifVyrJSzuMfx3SdsEfGf8tu060UYLQtM3Cm1hR6Gy8y1GV9YUH2NMvDkZ-Xe6d9vT-0LaNPdvgByknexXC62CxqZgPnlC3GP5pIcat1oS0k_b_Bfka8Gstsos0LVElGCMxFB7NACyZgs/s750/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Chickenhare and the Secret of the Groundhog Kali Mu: VJ Uncle T - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/chickenhare-and-secret-of-groundhog.html'
 ---

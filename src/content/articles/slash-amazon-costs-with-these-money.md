@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-13
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20person%20holding%20a%20key%20unlocking%20a%20treasure%20chest%20full%20of%20Amazon%20shopping%20bags%20with%20dollar%20signs%20on%20them..jpeg'
+imageAlt: 'Illustration for Slash Amazon Costs With These Money-Saving Tips | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/slash-amazon-costs-with-these-money.html'
 ---

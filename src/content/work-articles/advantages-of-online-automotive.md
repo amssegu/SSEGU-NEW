@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFrxj4JlUvMT1pObhaCjlUl0FiAB06-0iUY6Vxx9n4GIx8CK684s8pPVVBieJeew9L7_YA8Kc38nHfshN5_SliEvdu4FbbS7R_cGEGGpm7ysHz3X5Wc8h4efa296SzODzkCdSb9NmnvmZ6RHmo9yOEf7r-pJnSDeBYFWSD0JFTba75i0W2ptYc569PI6OB/s1024/Logo.png'
+imageAlt: 'Illustration for Advantages of online automotive certification programs | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/advantages-of-online-automotive.html'
 ---

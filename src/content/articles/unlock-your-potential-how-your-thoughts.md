@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyALeJXtcXzthgqnLtxXABqeldICn7szXt5l5LZww4GIHWnHC6LHQxkn8uqMtT51j_sNvr1L5SloJej0uaFdMNhwEG92H4WvHBJ7PIA4boXfmBq-bcdQItA7BNOvrR3etNL_43O_mtDQxjeC3wQBLcTkptHMKaRz0SSgsYRbsQMsZaIVAZ5aDgNpGVcz8/s720/your-heart-string-881084_960_720.jpg'
+imageAlt: 'Illustration for Unlock Your Potential: How Your Thoughts Shape Your Reality (And Help You Achieve Your Goals) | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unlock-your-potential-how-your-thoughts.html'
 ---

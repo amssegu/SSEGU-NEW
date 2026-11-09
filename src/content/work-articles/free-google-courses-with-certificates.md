@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbI1HIZOc8mGykfSD2iKEoruQbrILrP6U1GDRsoAZnsoBpJj2u_puBXYV9GNq5cezv-2pZqvemVxqxv0-teu-y9nilxR2GDC5aeIlIfsFHCRrWTRCHO423Ywzl5jJIqEwzfEvasev_9bvCzgl1lIrVHIp9LWPcJnYc4_o804opXswIU4p3YxB9tFcQZXjM/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Google Courses With Certificates for Beginners | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-google-courses-with-certificates.html'
 ---

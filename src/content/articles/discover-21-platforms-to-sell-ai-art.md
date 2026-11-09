@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvnh3mNuTVQonJNAFmQaboPvrSnBcNsC7eEQjm728qo8exOKNzFJPrdWD6fjq6UOSxaFCgE7n-UwFs5r_gW-mWBuWcQmBQrX26JLOSR_rY_6VHFNcj5b_XC_3SbzBrsz_bpp7oMn9OKfQoRUCMk27eifngu3xUd58gYJF-s4qRmJ5cOubwC3fCMfYHoJE/s1280/ai-generated-8580251_1280.jpg'
+imageAlt: 'Illustration for Discover 21 Platforms to Sell AI Art and Make Passive Income | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/discover-21-platforms-to-sell-ai-art.html'
 ---

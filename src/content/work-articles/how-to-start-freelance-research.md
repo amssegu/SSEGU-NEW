@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAsFivN2VRf5X4NkIAzZTZ39b_5SNywbA001lVJPvQnKxFaQqRhWVAfiTlTUdg3n5xELK1qVaDo3PYtlLbDvzrzdHO39Zh2llKoistcQLS3J3MjobU7ssBneoRoc6Ty9YHq3FlXNQcR-GTJ-LVnNG90Ylu2k0IgSbCq0dsgog6ucv_2_Zs9wVDQGxqd3Q/s1600/Gemini_Generated_Image_iwsrxciwsrxciwsr%20%281%29.jpeg'
+imageAlt: 'Illustration for How to Start Freelance Research Transcription in Uganda | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-start-freelance-research.html'
 ---

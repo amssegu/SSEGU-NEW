@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20person%20sitting%20at%20a%20desk%20with%20multiple%20computer%20screens%20displaying%20cryptocurrency%20charts%20and%20graphs-2.jpeg?t=1716534087893&amp;width=860'
+imageAlt: 'Illustration for Mastering Financial Independence with Crypto Trading | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-financial-independence-with.html'
 ---

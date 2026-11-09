@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTWVh-It9dj9QYOO1okehnyz26hr49D5Kwz2kOIJHxa3pq4WNMxtyWeaWeAnA8pbKAZ1WR4BBE8wQy89GfWswrNmLcHzR2IthLBOkRkWDaCWA5rRbb33IK5r8cp-8gz98JLfjvvcbvkeBvWv0KUav8UOe5sd8wiOJTrQ2Q4BoiIIEd1P2EHgNA-2dPIKIL/s1274/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Smart Money Habits for Long-Term Wealth: A Complete Guide to Financial Success | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/smart-money-habits-for-long-term-wealth.html'
 ---

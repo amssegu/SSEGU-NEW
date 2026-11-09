@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCqmkyyaG1_qdn6QKARUNJfbVeUiv9iKdFgroVxw2lmvNkzP-BvKeCIZahZ_wrRqoIZ-p_oc5CmIwZHQx7_kJ1Xu_IBDKgblr1ZrdKEhxrwZuGJruZrvIIHRi2yCotR73VsW82oOQTFhT25ZZ7G4H5U61THxR1r3QiMKeiO1fjrnCY9fDQOEeJy8-bBQ4/s750/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Ip Man: Kung Fu Legend - Kali Mu: VJ ICE P | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/ip-man-kung-fu-legend-kali-mu-vj-ice-p.html'
 ---

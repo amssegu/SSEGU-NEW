@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYBb0ntDt1sKBzaLN-k2EorjBzsAn6w1D-GHedMid5tSMtVoznA97qpLRA7QR_XsnRsxUkyIBS1UJ6xkbUcpEB591KeCDPpHJBio_TSK-uDHtSTTDZRUBsz9YXMMUP2hKyMyuFuSso_0Q4xtN2XbIYw-IBRVG8DCZ8J6H-rwY_nzEUQwBCWzsr-Ld-bcM/s1280/image-portal-658240_1280.jpg'
+imageAlt: 'Illustration for How I Do Affiliate Marketing Without a Website | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/how-i-do-affiliate-marketing-without.html'
 ---

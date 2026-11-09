@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20person%20packaging%20a%20return%20item%20in%20a%20box%2c%20sealing%20it%20with%20tape%2c%20and%20affixing%20a%20return%20label%20to%20the%20outside.jpeg?t=1716175602204&amp;width=860'
+imageAlt: 'Illustration for Mastering Amazon Return Policy Details | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-amazon-return-policy-details.html'
 ---

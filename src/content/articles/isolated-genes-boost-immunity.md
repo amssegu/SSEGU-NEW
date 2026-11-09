@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20diverse%20group%20of%20people%20from%20isolated%20populations%2c%20each%20with%20distinct%20genetic%20traits%2c%20exhibiting%20strong%20and%20varied%20immune%20system%20responses..jpeg'
+imageAlt: 'Illustration for Isolated Genes Boost Immunity | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/isolated-genes-boost-immunity.html'
 ---

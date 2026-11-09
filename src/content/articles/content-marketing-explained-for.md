@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDJEdOR9lj4aqNAULWw3qQzUgdm0Z37vHVm66zl8vbbOJsErsc4JkRSPUEHHFQ6MHhTSsCsUhyphenhyphenGUAc-hsEd0Nv1GpEEkRhgmHiu-gVboZRJAgROMKH-3UmXESEh4wZE5kICXDr-41KrnheR3u3hi6fi1dbEUZSeCsJ9nTyZcAk7iyXnfM_qfj2QwDD9ojy/s1256/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Content Marketing Explained for Beginners: A Complete Guide to Building an Effective Content Strategy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/content-marketing-explained-for.html'
 ---

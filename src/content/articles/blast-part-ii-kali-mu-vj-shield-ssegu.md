@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2FgDRIrJPC2TEssHJv1EgsPta5F-c5p-Dt7wjxNj3btiTYQnZvbIFcuApRkmCsxrNgVFCSk7ethqpBu-MjGYwn5d56TYCH0F6P0ryOg9F8ARKz1zsISbcpgTc0NKm8JlBuy83GaEU6tER3hTbxJCiCwm_TYYFI7b8LXzmrXnYDq2iBY1qq7P8sOrz-KQ/s750/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Blast Part II Kali Mu: VJ Shield | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/blast-part-ii-kali-mu-vj-shield-ssegu.html'
 ---

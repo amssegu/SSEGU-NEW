@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEiE1833YOcUQcsKevKl5HDJ-D8_7nqTG8RepSTu7kk5Vn0ytPOHNNxXVpmtfVZ1W1u2WzP2GmVdmXeZMw2BaxzGK3j0kBPwn_Ic4p8Tra0YEJ14lMI4ct7ay5fVmvyfXRhCPuXG3brPCeUypfMa5ZBZikepPGtD_x6Nh9WTt1JWrH7OCn_GpI4FAzJ-No/s1416/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for The King of Pop and the Rumors of Islam: What Really Happened? | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-king-of-pop-and-rumors-of-islam.html'
 ---

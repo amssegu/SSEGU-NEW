@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA_RhYqUlfeaGPDj2HuJ7Q2DyzqewyJte4K629dlh5LBHqOAgL0WJLLy4u1Js2I4BwY3iQgV3TZiSUCTdyzM1W-oDY0cKEWIxs6NFZsY87TeszdXLxPur9Ntb-ybBNp4wXfoCbyenhyphenhyphen_YSjFjjJRG9vZS333SjSwrkcaZQjUeDw6lL083ViDzXiLaxTXs/s1120/Leonardo_Phoenix_A_dramatic_and_intense_scene_depicting_a_medi_0.jpg'
+imageAlt: 'Illustration for Why Personal Loans Are Essential for Managing Medical Emergencies in Kenya | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/why-personal-loans-are-essential-for.html'
 ---

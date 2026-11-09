@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-13
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20sleek%2c%20futuristic%20traffic%20management%20system%20with%20advanced%20technology%20and%20efficient%20design%2c%20seamlessly%20guiding%20vehicles%20through%20a%20construction%20zone..jpeg'
+imageAlt: 'Illustration for Swiss Innovation: Mobile Overpass for Road Work | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/swiss-innovation-mobile-overpass-for.html'
 ---

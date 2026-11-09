@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20map%20showing%20Russias%20military%20forces%20moving%20into%20northern%20Ukraine%2c%20with%20strategic%20implications%20highlighted..jpeg'
+imageAlt: 'Illustration for Russia Mounts Surprise Assault On Northern Ukraine In Most Serious Cross-border Offensive In Two Years | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/russia-mounts-surprise-assault-on.html'
 ---

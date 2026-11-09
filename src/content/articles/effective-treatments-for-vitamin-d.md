@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/The%20image%20shows%20a%20man%20receiving%20a%20vitamin%20D%20supplement%20from%20a%20doctor%2c%20while%20another%20man%20is%20seen%20exercising%20outdoors.jpeg?t=1716529379728&amp;width=860'
+imageAlt: 'Illustration for Effective Treatments for Vitamin D Deficiency in Men | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/effective-treatments-for-vitamin-d.html'
 ---

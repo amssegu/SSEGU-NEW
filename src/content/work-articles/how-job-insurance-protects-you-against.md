@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivN-cbqjTnTfIs6uKF4XgR7qzVQdFgbmkK2JoV0W3k_NNheYYfxyNyT8fG8QpDGWgwEyddE0yFu_d8tLmZHLk0oV3T80GiXoIPdzL13l6wUULcaCGuIaTswUoMbLzGmMt78CtzNaUHqxyN9Kmwx9PCLFBhsVyG-Dv5tTXu2xzJRO5jsxAjdsS5wcH099Q/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for How Job Insurance Protects You Against Career Uncertainties | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/how-job-insurance-protects-you-against.html'
 ---

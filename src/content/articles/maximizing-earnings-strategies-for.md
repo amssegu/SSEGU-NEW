@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5CS_2PI9E8G6HYmuRj-e-yE-otq-20ot-vmK5z_7H_IKX_3NgUNBdLPWztJne7u1ZZWBsjELvUr-xFuounDMiZsljivn624mpbDeK4QVXKfo1Uq0ik-P7COFaX6lBGbJw_-a8yd87vlMQVVe8GHL0ofPyZJed8_5-5_-gRSv3vKRftigN-j-Ve4UomoA/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Maximizing Earnings: Strategies for Building a Following on YouTube Shorts and TikTok | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/maximizing-earnings-strategies-for.html'
 ---

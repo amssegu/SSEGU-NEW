@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjfZYa3iPP0VVeQhY-g3H2tSzwtgcAhq7P9Ilzb1SO-A6qysqWAw4gWpNDk_Zfpk8uCT6uUmBXDj5MV_q-4Tv_b-RBe0W3rYt2vH7tmzxTKHsXCKKZ3H1bPgPI_naLMgSwgki3KgMUvyM9g3omAghwzY7bpxHw15U5kFqUR2Kc2iNNi5iWBBGYd0rgyPY/s512/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for The Rise of Digital Entrepreneurship Among Gen Z | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-rise-of-digital-entrepreneurship.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjiKWi-BhVw6aViz6XpeoXs8PaVNbHNthew6qdV-aGkxAOOXfpgsYdPUDjFVfIin9HQdgItfQJYFOv2LlWDO7gc-UsgJOK8DLHBu8i3f2ysN7ReJmyVGw601pX_HkG9EgBbln1ho--Tl3ksvNdMUm0N15dAzucDijJl1Ev82ChWwkobWP-WmmUyNfcMlKM'
+imageAlt: 'Illustration for How to Sell Handmade Crafts Online in Uganda: E-Commerce Guide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/how-to-sell-handmade-crafts-online-in.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtP2NZdI1azWjBTqFvWSRElrj0NhDtZLSGdOOdoByvT5XLTqlorbiCjZnd_O3zOFUhkJi5LtmmjVxAEgPphCdQ3l51MGUx5eBj_RoRG6_xIep3ASsXSDgWx_Mo2wlGNsdwbrkgqNrwnIsL35sCR1ui7JIRNV7vpDvIww_yxSXqOb6saQyzGM5y0A_bbGAA/s750/llll.png'
+imageAlt: 'Illustration for Bone Keeper - Kali Mu: VJ Ham | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/bone-keeper-kali-mu-vj-ham-ssegu.html'
 ---

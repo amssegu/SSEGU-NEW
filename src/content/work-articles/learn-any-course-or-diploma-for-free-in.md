@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-02-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_YiCy2uK6KUljFvhFAJg-tm1ARj9iPbOOvjZHtZ5A9vZsg17uzLweTsnI5yfrYePnxo1wy4wYkwtPpHhnG212xoJbj-AaP_7yLReulBuMiTiNEc14uOUCfGo1VE2DD15kXb4bkLec1nDDJXZufpyQ9uDLfa-bKWYcQpf3C6_zq_aBYUQK07xdHd5GCrQ/s640/451463499_1170654994271609_7182411338936495190_n.jpg'
+imageAlt: 'Illustration for Learn any Online Course With Certificate or Diploma for free | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/02/learn-any-course-or-diploma-for-free-in.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMWq5KLBP_tLqKUn3mjKhHVNf1NyNFeqwq07yLZR7KtQ_d0KimI3dHNiPlz40w8lZOe8ofVJ6LeFK3Jpd9B3zyjU5qnj-iITEzn9_J39Yi4ZFLoJoMM2pgmKw3Q-7maC3lnv_iBjt6KpCzXPJOZJhLgpDiNR9QZMVTynUhPqf89NPnARUEC3vydggCerF2/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Cybersecurity Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-cybersecurity-courses-with.html'
 ---

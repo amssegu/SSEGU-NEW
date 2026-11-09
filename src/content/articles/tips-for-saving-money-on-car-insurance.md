@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFQedTzAkO-3Gg899xNZ3mZ2UkFcjD339mfQ07AEaRSFiZgl0CNyAc_pm1nCGAWhtjyZppYmlXUVKIqz9oGeTYulle2b4crZB2vLRIyHGwsYYA3urA6Xkyh0l_n_X5v6GL2OvqRi0FgiYElVJsI-L1FsfRcEZbXzxpua_RGRQVXKrXew3_bjlTl5guqOc/s2500/download%20(3).jpg'
+imageAlt: 'Illustration for Tips for Saving Money on Car Insurance | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/tips-for-saving-money-on-car-insurance.html'
 ---

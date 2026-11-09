@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWNetnIxrpS6lX2sN0loP95tDr925WwhoNAKRew0A6RqMF69Z1tZYIMX8TdajR3j1SxTE1PoTrU_74d64hkjuU7-UxLGZm8gxX4FHunclvTFKbDOQbbaURShp85CV4eWh2HIEY75JCUhG2triBwXUNM5SO20ynTND5mjv2tMuJ3FvShKM9-R2LyO8Zngfw/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Social Media Marketing Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-social-media-marketing-courses.html'
 ---

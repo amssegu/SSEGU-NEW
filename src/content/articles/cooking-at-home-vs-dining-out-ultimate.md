@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-11-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKUVqj0CTeVyccmJxErKJOlU4uT-5SO8a4s9H7eXkDJ2bVXZO8YiFmuVuHkEtoyFJf57vkR-jMK4AHKgIFHBdHcQu5PtdUjQB2zgtqV8yBr6CYQadXQW3AoH38a0WRScaRDbGkhO0B03ahjF1K5eVD-Vr-vxn2DOLVAvcgaw0sN5t-9zV6IjKpFsxwgeQ/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Cooking at Home vs. Dining Out: The Ultimate Cost Comparison | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/11/cooking-at-home-vs-dining-out-ultimate.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWYyV7iQYGGiy8Zf-c0YfOcS4Ko1LeKuRXzZ-xlGH_7aE7mFis0QpQzhOmE_vujkMls9cKYxHDpgCbARQ8HplsyAwxXGSsNE8CuQHHPHl7MyxVUZ2IyTSlnXmKfI10L4sBZtaXMqHo72nR4X-85ZpFDivlrsBoP7YEWDAcIFUfSb00xoT7yawmxHjiffw/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Shorts Kali Mu: VJ Soul | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/shorts-kali-mu-vj-soul.html'
 ---

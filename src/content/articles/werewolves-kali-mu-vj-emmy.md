@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqpxaOdxLp1qyQSVSp-CLxSZ1RFtoPfyrk1w7qzF3y1bfhNZ8cRknptbgCBRCHgYD1_9LtkeR5p5K9zgvZbWSDAwOm-wf88iaTQEfUXGuZPrH6iNwXYMeJezOGWEYufHMSHhks5IJnsPnm0ekiIlFtYrwdyAk_3r9T2txvhXah9SmdZDZ2XdJDh40r9Ok/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Werewolves Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/werewolves-kali-mu-vj-emmy.html'
 ---

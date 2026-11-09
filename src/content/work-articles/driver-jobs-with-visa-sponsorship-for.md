@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-07
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDusXm4SBEuhi9ww4iMGcp-NAPcFm4v35NK8JdWscP9qVIJhzRQvywFZhtQp1ScQssTwGOQ94xIFh_4qPiLFTwH4utY2c1YSWYWeYi0br11fzBF7wRyDr1hM6aCLsuS6dNSdi5BDJenWmPP_DCG9P96XsXCTeGT67CWqwiZRScBBaBkMNrImAGqCCaWH_O/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Driver Jobs With Visa Sponsorship for International Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/driver-jobs-with-visa-sponsorship-for.html'
 ---

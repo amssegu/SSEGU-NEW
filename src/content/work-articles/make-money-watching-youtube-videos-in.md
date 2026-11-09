@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2023-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbCBAo6qukUPfc1iHXmoKjhrlNNoTcpN2_7t0VbLUaylCXxnfuiV72tib_oYPhT7IFNPbZKDhS9C_OxGpJOyYNy-6hUypBqaK5wP6VVnnbiOrgXjY_UVw9FHJwa8J39XEgWnTol8WSxXjrP2ugL4yFp2dn0t829avyDRaVtopjbeNcD69Og4VD8C_3tYc/s1120/Leonardo_Phoenix_A_colorful_modern_and_sleek_illustration_of_a_0.jpg'
+imageAlt: 'Illustration for The Ultimate Step-by-Step Guide to Monetize Your Social Media Platforms – No Experience or Investment Needed! | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2023/10/make-money-watching-youtube-videos-in.html'
 ---

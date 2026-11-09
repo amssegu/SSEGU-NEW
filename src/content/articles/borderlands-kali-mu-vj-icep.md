@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF9jMLQCGiS0FYCEkXFRYtF8tC2_YHibkKvwqslbpOVfLefqOtRVLnADR-Z0Grjgig9Oi9Gd6pS6A13gfSH9CNT0ahZfF8nq_at4RFK3g7FJ74MM-jVAxujEMLlW6znsvJLq97WyVCII9bIvZDuyY-X722AoE4neeDROVnrH7RqJKU4XU2iLUL_FDq_AMy/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Borderlands Kali Mu: VJ ICEP | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/borderlands-kali-mu-vj-icep.html'
 ---

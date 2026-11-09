@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpHCwBKNM127UE8cw4sVnuGCXjIWcrzajDHJJNbA5jgtZin-430gRqCKIavX0sXTEdYKQJDQArVezlOYGQW88QV868YvRVjREv2jDWzVCvVc0Wc94O2oRxtAJ4_z7yNpkUnbkdoncAFDj-Htxzey4o_2qu9UvnfmgS-vhHNvknLWe7AT5qUxnA54H5oGk/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Redux Redux Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/redux-redux-kali-mu-vj-emmy.html'
 ---

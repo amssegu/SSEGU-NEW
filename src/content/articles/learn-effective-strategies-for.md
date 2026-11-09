@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyk4aUse0WKGTm_iJzpZfSCeOCYiQH7mgmkfs5R2cc_D_dccv83_pF-iZDEeHXzB88h6PmHr-NXdTBJo7vLUhLEeQF5q7U3xs2eU1lazauFvgx53lktR4Ic3uUHrJfql-4bYS91ZCxhhOX-EFIgwRmuHfdAsGVZIGSS0tsKU1lxgQZGU28_Lce4bSFvq4/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Learn effective strategies for budgeting and managing expenses with a 17,000 AED salary in Dubai. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/learn-effective-strategies-for.html'
 ---

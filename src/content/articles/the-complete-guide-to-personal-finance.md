@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3STtfF9eIZNPYV_ucu4k0Vu5G2aZoG2u-wAGwFhz1XhMBY6u7mxlPtAcgCwZrApgyiEjKCQllOp4fHm1ukK_wLIYrkZkjo7-1xFk9HwPZknXT4dnyFGM3xC4LSt8nA9BPjoDghIEzkDkq45JPQ6tegVhHp7xkS2GugYli9RBUUxiYaoGrUTCQD8eIirYt/s1298/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Complete Guide to Personal Finance: Master Your Money and Build Lasting Wealth | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/the-complete-guide-to-personal-finance.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20book%20cover%20titled%20Mastering%20Cognitive%20Biases%20A%20Guide%20to%20Influencing%20Others%20by%20Ntambi%20Isaac.jpeg?t=1716443450662&amp;width=860'
+imageAlt: 'Illustration for Mastering Cognitive Biases: A Guide to Influencing Others | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-cognitive-biases-guide-to.html'
 ---

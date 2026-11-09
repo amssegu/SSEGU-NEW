@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20skincare%20routine%20with%20various%20antiaging%20products%20and%20ingredients%20mentioned%20in%20the%20text.jpeg?t=1716613628584&amp;width=860'
+imageAlt: 'Illustration for Defying Age: Anti-Aging Skincare Tips You Need | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/defying-age-anti-aging-skincare-tips.html'
 ---

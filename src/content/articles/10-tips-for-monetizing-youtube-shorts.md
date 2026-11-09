@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKwCdH2auXfEtnmo4bQMOXYLz3_dSzKw66ql13ljQ_zu1eBIENc-9JkwS_BbpkDi8hppDCZjdxV5-St7wh4Ns0sZAZPUNuptRFXJkGf-GtMzFrSNgoHWas4CuDrgJRo6t2IVtgigGPZHA1vjDgAwKPiDZk3duHryv9htWI9XwUojhmjfwBbvYJDS6aOto/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for 10 Tips for Monetizing YouTube Shorts and TikTok Videos | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/10-tips-for-monetizing-youtube-shorts.html'
 ---

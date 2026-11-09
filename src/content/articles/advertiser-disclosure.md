@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2023-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpvM2QUjF9JN-4jJZIHCVgFG6BFhiS306V_3WP3PF7ah0mVeTK0GCKddW5Dyt3vGukv1n360EnAO_Be4QWy9SukuMYO_f9N-HAeYkTTnaNlTNj-znEyZkJOSNxScDmH-iQ9dkXbHzfZnvcJ69E4URFaELfDEA6wg3rFs2V4WsmUdj3rWRCKp7xTPwGLsg/s451/download%20(4).jpg'
+imageAlt: 'Illustration for ADVERTISER DISCLOSURE | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/advertiser-disclosure.html'
 ---

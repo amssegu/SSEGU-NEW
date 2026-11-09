@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe9gE4TNiviTYym9mT8I1OCvbjTGaiJFnPdryYr8L3N-fSTDRllQUy9I2BcCg8-IlAqOxu72gBn_lgjoRWSNbVRbLCovX34Pw5lQbzgjXMF8bjsOjPvu22H8Jjh72CUr9ZLvw8jXZuTtaTnZweSYHiOum_7UA2HZDvRQWzKrSzcg2dmagSj5MPI8DVOKU/s1280/building-804526_1280.jpg'
+imageAlt: 'Illustration for 15 Jobs That Will Disappear in the Next 20 Years | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/15-jobs-that-will-disappear-in-next-20.html'
 ---

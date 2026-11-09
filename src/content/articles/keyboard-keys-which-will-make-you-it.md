@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-01-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2bBfWhiTypwKlygWbU8Yx1XhX_7JC42hTH8F7fSg6gbEICkBrXnJqLAENWsadPD1H4w5X9hSHipTQEyR57iIM9B4lNHzf16_oeYjpBfWUCdPxz545xsmHkSRGIWuHxUFflmOdGqMiYhJii3143vR3vsBDnd9FjrSBL5An7KfmNJvL2wHOezvUrSxpRw4/s598/FB_IMG_17042638870102102.jpg'
+imageAlt: 'Illustration for Keyboard keys which will make you an IT professional | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/01/keyboard-keys-which-will-make-you-it.html'
 ---

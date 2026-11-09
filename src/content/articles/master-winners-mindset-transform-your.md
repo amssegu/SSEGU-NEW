@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhIwmB2LR4kJFqKfoaRELsKLonqO4DjGI4RKsSBejYkxgiMBWdn1BXWL29Es55NOJsTAN3PiFcOANdAo3cSDVlUhL8iIqexFvffn25rK3oIEjzJhSp1bq2dzldMHWlgJczge5WBdk8Garr53vBDyOGibAvvuTlZeQC1M76BYuNcHYB8Xln712pGjruAB0/s1280/business-1839191_1280.jpg'
+imageAlt: "Illustration for Master the Winner's Mindset: Transform Your Thinking to Achieve Unstoppable Success | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/master-winners-mindset-transform-your.html'
 ---

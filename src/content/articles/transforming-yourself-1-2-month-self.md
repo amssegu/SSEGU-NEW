@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20person%20meditating%20in%20a%20peaceful%20room%2c%20surrounded%20by%20plants%20and%20natural%20light%2c%20with%20a%20bookshelf%20filled%20with%20books%20in%20the%20background.jpeg?t=1716440773743&amp;width=860'
+imageAlt: 'Illustration for Transforming Yourself: 1-2 Month Self-Improvement Guide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/transforming-yourself-1-2-month-self.html'
 ---

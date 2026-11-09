@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiZUzFNtzrl-NrJnKk3QAsUXZJJFLmsQShWst_qCwLPctMdXVN1f9aExkZO7AiAch0ZArIZmS4mdgqkQBB4AGZ5SDAQ4Vg1XEOBS7fTV9BI0MghZMhnCcLixNHdwalKNmNqdk6m6VJMFvRQBhUenn2S7Grvhv-3n2TjtnS5R7R7T7a2d8JRzK_-hm0T8g/s960/better-world-5219880_960_720.jpg'
+imageAlt: 'Illustration for 5 Habits to Have Better Finances Than 99% of People | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/5-habits-to-have-better-finances-than.html'
 ---

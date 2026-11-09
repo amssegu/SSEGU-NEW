@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhigXFNeO4Hh-7JQ6QPrE7d1uT_8YaqlK-vrkhMY2PHqiCQKtwddTgh45pNlRUZGOulS7CIWTPOAB3eOOpw9CWYVwk09ijh-h11EXlLJOmapw5FSDhDPwJk-h-zte4_bHhbTacxFDwnB-eMGWwIKAzxiyyjDKFDiRgJp_pjo9itDyKgV9mUrWIef3aL2mc/s1812/download%20(3).jpg'
+imageAlt: 'Illustration for Why Do I Need Life Insurance? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/why-do-i-need-life-insurance.html'
 ---

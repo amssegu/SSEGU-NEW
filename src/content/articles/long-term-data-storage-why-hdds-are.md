@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaU_WgcNtJE7FfhmK59SIy3pKdnG6kuQHI1l3-mE87zM0eoN8UKLNBfuwcSPkt59HoouzMN9LCNyi2WF6c9ogxBkkAR2m_mxq4WEgSqh7zvV89vckT67OrMG5YY3u_KOSc0WqUfIP9IuWha1dq-Go3R87oINIkLx6i9zZRr36MeSRNZd41folOCNXz66o/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Long-Term Data Storage: Why HDDs Are Still Relevant in a World Moving Towards SSDs | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/long-term-data-storage-why-hdds-are.html'
 ---

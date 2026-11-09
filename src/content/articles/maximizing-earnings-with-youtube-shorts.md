@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ7-uESfFEN5yd4OtvWlkpivOsRWEwF5nHlpUB6B8kXJ-YMPscWuzSKLzeS0EKCWDZwdz4lpIGnJorthdbrCf_OrRIDfqCz1Do0a3NtILMTqSsyIZDj2Ho3wRwVPhs-GcCXpX7-7szEjhSG0ICRwCnZIp8_XQONt8V9vo9OrAcsKXy-dqcbbAsz13fYwU/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Maximizing Earnings with YouTube Shorts | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/maximizing-earnings-with-youtube-shorts.html'
 ---

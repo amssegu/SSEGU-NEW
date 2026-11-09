@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcTdBEjE_4LsF55XM11adOhndpCcrzTg_ljNfyRzdNtVGHnSemoVoC9hyphenhyphenWj_6wHbthw6FgIhvZM2NbU-nhd4LF_riHe1LlP3Abn8ByZZaOy5JH3vc7v2km_9FltGLVCeaLMZVj8rUUD2ehfuFUL7tPbPLxlc_P6M99okQhyphenhyphenN0cqkbDK08xQ5SjgtWAM14/s1333/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Fury In the Shadows Kali Mu: VJ ICE P - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/fury-in-shadows-kali-mu-vj-ice-p-ssegu.html'
 ---

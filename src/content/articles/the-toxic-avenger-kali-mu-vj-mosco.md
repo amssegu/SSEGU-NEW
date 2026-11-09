@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOzwJymV5GWeDtlbEGPcgURkXepDjBOLLbEhhmckNG0V0idd-5QsYygpXVLzNPbiXVXK0TWpPp6dwMsrNe0m5tqJwEvtRXLUAFOrR-khucd-ls6zbIQnNlOu3U9vsslZIMlu5ALbD5Q8CZqD7QWMaVBijnTxQlbJ00LQmJevddiUn_ufdtHq7mDKhtRiE/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for The Toxic Avenger Kali Mu: VJ Mosco | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/the-toxic-avenger-kali-mu-vj-mosco.html'
 ---

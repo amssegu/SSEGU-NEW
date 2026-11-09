@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdCwogjI1Rnz22-DfDWeTFN6alwQ2Sc4ndtN8N55hNbIUsjJ9ljccfGPazU-fYYorpj9Z4SA0LEubQLucWBQZ0V_Es_4Nz5jzTyijOZpPzRGd8PEdiJty83GKdR008QhGuqjyGE6kKpbuZ8h8vQwytAnddrwYKpPI6ILckuXn5BaHldsnBmdvEUCV_LLPk/s750/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Swapped - Kali Mu: VJ Mosco - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/swapped-kali-mu-vj-mosco-ssegu.html'
 ---

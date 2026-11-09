@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20detailed%20infographic%20showing%20different%20categories%20of%20cancer%20cells%20based%20on%20their%20genetic%20makeup%2c%20behavior%2c%20and%20response%20to%20treatment.jpeg?t=1716445363656&amp;width=860'
+imageAlt: 'Illustration for Exploring Cancer Cell Subtypes | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/exploring-cancer-cell-subtypes.html'
 ---

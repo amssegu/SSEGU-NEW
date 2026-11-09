@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6jfFcqkTxtSRTFcSQQWoninPRAuPocKd66LUUoACjTK9CQJlvNO8JtYsYFbzi1V6Ey-y5YE5tmBCrJ-eMZnD5TTEG4Helb8gC9CADG860_bdcuUuE6uimOhEzMoeMy6UfdnIJuYVnZOdbdZMYTa0aBasln9nRrf3I3VOVW2qI5g1nFBropkKQVElpres/s720/business-4811931_960_720.png'
+imageAlt: 'Illustration for Transform Your Life with Neville Goddard''s Three Magic Words: "Isn''t It Wonderful?" | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/transform-your-life-with-neville.html'
 ---

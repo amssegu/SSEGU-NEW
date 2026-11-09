@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-01-16
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrIeLqSOCdpPOLZhHpnhTzQdCm6US8aQZ3So2XFXabBSUnOe7K0PKjVe7akKMg6sie9AUTSBuB0Y2Y8nqzpL0P6-4Tw5ENZBDU91ort0Ib-6_6eJYIbRqH8fY_j73JsPsG_MPoxWbRnf_cARuDG4NdMrbXLFdHI7_XiMEJsuXQ-LMZTSWqzCgcQhP8ndg/s2500/1000x1000px.jpg'
+imageAlt: 'Illustration for The benefits and techniques of being comfortable with solitude and nurturing a positive relationship with oneself. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/01/the-benefits-and-techniques-of-being.html'
 ---

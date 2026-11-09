@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-15
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEHvWnVU2_E7O6CKDCSpHABwSJgaJfojkT8IgUfHkdzp1LT_2rbqj_b79immSkSbJwi8khYEap-k9SxRVTs3ddFSrvghmYkOXTh0o61sw4wwCM6TD40xOsaGya6dKSBMTDIMTyjNSNHVbMZnQzEs-g1wzBRH1qAvVH4MyRr7wcAY3RWkU-EKfRGnC4u6M/s1120/praying-hands-2273821_1280.jpg'
+imageAlt: "Illustration for Safeguarding Your Health with Aires Tech's EMF Protection Solutions | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/11/safeguarding-your-health-with-aires.html'
 ---

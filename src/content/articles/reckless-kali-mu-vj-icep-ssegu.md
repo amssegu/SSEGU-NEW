@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiF6vaTiBYz7i7fnjxmjU9y-3P2xpJv7NNBdxMbtKKP6DAFuEIXM1CuQQBVR0S59OhsgIDtvpszs59G13z0ZCMrw9hkbCEVCiQozQM8REI1qMUdOhIWvE6o5CklsXfOzzZAfULbtyF3Ea8b6DLlhHLYQ1cT17j7aN9BuG27qo3VCEWPWNA75GrUtp7A206/s750/llll.png'
+imageAlt: 'Illustration for Reckless - Kali Mu: VJ ICEP | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/reckless-kali-mu-vj-icep-ssegu.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20person%20ordering%20groceries%20online%20from%20Amazon%20Fresh%20and%20receiving%20a%20delivery%20at%20their%20doorstep.jpeg?t=1716177220049&amp;width=860'
+imageAlt: 'Illustration for Amazon Fresh Grocery Delivery | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-fresh-grocery-delivery.html'
 ---

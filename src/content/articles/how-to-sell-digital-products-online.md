@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJSe6boh7ZmCVaoWx4EijkN1kESnjoHmtegbBrUZnjgBmVo7cc7CXZrzHFnQUuboUQYEZ7wn0q3WQ-2XFmRb5FQ79oCO3fcbOb6oAXPot39f6YiV9Zo2kNuo4t6AHaHjQdnIYEEJ8dyjKt7ZNAkWbHV1u0R94yFfWuEcXsHK9y1ns0v7HGVO9asZQu4eM/s1280/macbook-459196_1280.jpg'
+imageAlt: 'Illustration for How To Sell Digital Products Online With Google Drive | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/how-to-sell-digital-products-online.html'
 ---

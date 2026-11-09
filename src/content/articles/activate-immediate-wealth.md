@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYw_EHxUNiSXfsVOe4LeEyy6a2ShyphenhyphenmM5eThc9q94vWQyhhBJ0MJMT9nK5pxoI_I1AYh-8M8tNpa-AFC-5w2lCMR9c1mehDwodmNbnKVvn1luhFKSTONAmhiaZ1tmSTJoNZ0WlqOumNkAdGf8rcIZu6iYdbRfE4toeJTngiSKGmd70k7A-jYi634sKZA0U/s960/bar-code-scanner-155766_960_720.png'
+imageAlt: 'Illustration for Activate Immediate Wealth | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/activate-immediate-wealth.html'
 ---

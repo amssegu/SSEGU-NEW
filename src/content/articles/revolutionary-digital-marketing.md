@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBzh7FkmBzFwMy5Y7aybcF_S_llTa8wehhkRG5RY_i8r7eaNbrs5ulksfiSDTHtM7id0vR3M7b4jjl99tNk0ObN0zuoQXeUmFSMav0pDcgErKxyLfEK5MvmPejtDrxnjVG4n68uk3wWPoULlu6Zt_M-u-uu3vCnLXrER1BBKLWbZV010wWex2YIR500Q4/s1280/digital-marketing-1725340_1280.jpg'
+imageAlt: 'Illustration for Revolutionary Digital Marketing Strategies for 2024 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/revolutionary-digital-marketing.html'
 ---

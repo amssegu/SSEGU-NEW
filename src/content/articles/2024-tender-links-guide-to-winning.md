@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVjxEaHI31-vEKNn9gvfm5yJ7ys2WykWSf4wn3GPG7v06SUj8fU7oAZbuZkpMu20tXlJX3RaHlD1gVkEZaBa6xAxpTv45tUKxhL5kLkSMPaaUxb4HjVhE3E8gUlVeaandy7xs1syQgtacRPL0kr7AEakZH8QLt3O69he5WNlTA-BW2FXAoIFLOGDwj5GA/s1012/download.jpg'
+imageAlt: 'Illustration for 2024 tender links: Guide To Winning Tenders In South Africa | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/2024-tender-links-guide-to-winning.html'
 ---

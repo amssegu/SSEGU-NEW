@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWUWApAia7Q73nH7Bx5PuALDgAGCRAUw4Gl9xRCbbS7QFUUBci-dAdRSvVM-VpH-uH_eWVaWertfojULMPdEUUdoKSimQX1DEPvZGUIWEw84gyJdnKMMtnl9lw6uI3L34oSDxguGLAtnjfgXC9hyoB_1aKkizKafOkidctjgrPiuhpW5y940cz7GVrwpA/s2000/praying-hands-2273821_1280.jpg'
+imageAlt: 'Illustration for Navigating the Kenyan Stock Market: Tips for Beginners | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/navigating-kenyan-stock-market-tips-for.html'
 ---

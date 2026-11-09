@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkLGob-7k9k58085cxmhy8Y4uTdzTh2EtfqAY5aBBbPOocIF87Z2tXs36Ya09kFFGG1s08eFI3895jt7egG675r-HP6jy-4wTHJBkoe4mtyfIYBRo_qFItMcLDl3u8rFxmlES1B-vcE2Rr9yb1J_YaFxj4wdZU6z95x7RsMygeUKPF9DhadzvZ-WfwQcPI/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Money Mindset of Ancient Chinese Merchants on Alibaba | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/the-money-mindset-of-ancient-chinese.html'
 ---

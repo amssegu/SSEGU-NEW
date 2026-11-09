@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpT6MDy6dr9fRcmvz5FTSdiHUHAfzYSk-2kK0diAME5L57t-S7K-kjokhUJ-TFmqMbkO4ypnCsUcIbkLacDnjvacdbbu6hWhzzU2tpTopUQ0gYJyTF2tn6KKo2G_a-PIukkcB9jGc8V5YE-jXuT9M0IUQpPE4mmguusHXNV_THyZYLyyd1Bd_vL85jQBs/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Collaborating with Brands: A Step-by-Step Guide for TikTok and YouTube Shorts Creators | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/collaborating-with-brands-step-by-step.html'
 ---

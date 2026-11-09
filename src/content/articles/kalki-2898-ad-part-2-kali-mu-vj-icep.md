@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT5zCTpJ46jHIOYh7Kyih_ad_J9HWKFDmipsnrHzB_tJ-_e8Y6tJyXy2T-dOE3aLpK33JTRh4zlBuQGTHcuTu1V3dx_DDqTsUUou4nzupHz4v7BwKDSlGMK3kk6WsPVVIV1VyiOr3BOtsbxoV1O0ApC3ZL9sHcEwGj0WxgXaTt7neyFY5iP9liBrHoba6t/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Kalki 2898-AD Part 2 Kali Mu: VJ ICEP | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/kalki-2898-ad-part-2-kali-mu-vj-icep.html'
 ---

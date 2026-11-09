@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7PLcBcCHkgS9_S7ytqmbh9T9g2qalxLUGkO3p5dRKjQevPX069sl42VDa0vTjpDImfD3FUjMjlfY3WwEeRRReS7gPZrhyNh_R_ie4fMkF8fpGcLoR6sgQbRzEwZFhZ85RSEASBOlteXMgVm9Ypp2jCQIwp7jce4mOPRf44R8B4dN4UFboctWFHElwjhQ/s1280/measuring-tape-4590162_1280.jpg'
+imageAlt: 'Illustration for 6 Amazing Ways to Lower Your Body Fat Percentage | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/6-amazing-ways-to-lower-your-body-fat.html'
 ---

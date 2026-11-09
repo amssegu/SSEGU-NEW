@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgPnSpmcWsm828aa3nVwxuL-knDR7KGixYfMOK83RXN8N5upU5geWDdbQPxW2uFpmRaBCsjROR38ELG1g9MAgFxBl1HshzFFj-uT6Ea8boTI0dM9OeBM3aTToBmZ6xvudPjG01ZUuFmi5RRAlih1jVZj5gsdUquKbvvKRKujMZCoc6ysKYI1Tb_L6qod7e/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Microsoft Courses With Certificates for Job Seekers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-microsoft-courses-with.html'
 ---

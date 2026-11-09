@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBgqqVCyVKS5gK3HrvTYUx5qR-DrEy2OhpgffB_WYI5Ghd98ORAQ4cglWsS-pvl9Wz03Hy6CRXCHu6JreMmQUPs_9T3XKb_6ye0G_YtkEOQzRcWFD0mh4sjPaDsok3aHx3HVQY9jubho2FluqWDr_3-qyUWpod6UHc8coSBhMnct91DHl9HQamgJPfgZg9/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for From Myth To Money: 9 Ancient Stories That Will Change How You Earn | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/from-myth-to-money-9-ancient-stories.html'
 ---

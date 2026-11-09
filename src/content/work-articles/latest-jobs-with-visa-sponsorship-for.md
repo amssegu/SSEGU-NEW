@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsMKN7xPZMG_K6Q3IleBQeqe_ZcIkPY2hyMIWVVngHI6upGhpDXuOBAWRYNWstOpzV9rr0BW2MFpLFWGRkDO8ra-YF_smbrv59-quR0aVIWV7XPXi9w-yOqJhvOyapUA73cP0ogZrP7zsk84IH2VSHY-cnfyd4Slpj0Du5DlImRGHFlAcaUaCCb22WhuUR/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Latest Jobs With Visa Sponsorship for International Applicants in 2026 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/latest-jobs-with-visa-sponsorship-for.html'
 ---

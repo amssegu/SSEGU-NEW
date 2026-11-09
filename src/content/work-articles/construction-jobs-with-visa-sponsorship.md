@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi09dF9e0WosrXjsu0_7mNBbTpb3O2pB9tpfWm1uIEkKO4z-op6GtiHoT1ie6nfZ7yq7QRjXP0jMFVfel6zmAZqJ1tj5nCBEgi-_WkhSgkfIa8Qc0OHACCg_JrDjMnGk38pz2icy7ckm8YWnKCDsVa_QJDSoPcIIcXFTvYosZ2M7wW_f8gqu783L39DjZp5/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Construction Jobs With Visa Sponsorship for Skilled Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/construction-jobs-with-visa-sponsorship.html'
 ---

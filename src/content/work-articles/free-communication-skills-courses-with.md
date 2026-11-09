@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPedenv_I_Dk9u6qZ3aRLUH20mOEUz_TmW3brkOTO91jrS71c_-UjlapGn42PJA1YKQOsXIaaFosFlVUULen36VwmVCKAlJEOG24KEHjhzfE80U8BoZeG5BPG8Unq2H5JwJM01avt56klwjoUwuoUoAAbNXhoAB9G971mP7ffJfKZW0A7GcTPzL_toCNXm/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Communication Skills Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-communication-skills-courses-with.html'
 ---

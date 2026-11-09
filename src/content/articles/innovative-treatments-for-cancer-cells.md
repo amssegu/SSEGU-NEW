@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20presentation%20slide%20titled%20Innovative%20Treatments%20for%20Cancer%20Cells%20by%20Ntambi%20Isaac.jpeg?t=1716445202485&amp;width=860'
+imageAlt: 'Illustration for Innovative Treatments for Cancer Cells | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/innovative-treatments-for-cancer-cells.html'
 ---

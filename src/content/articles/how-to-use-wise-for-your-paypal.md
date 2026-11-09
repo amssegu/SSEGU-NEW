@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHD7eBGCjOFYBnXtRwLlYewR-5UdN6ARolZML8dmFOxnZJhC_b4Eno1svyK70XSFAqI7XLxzMr_zRkgTHiGPcrhKiCewPkoFrX1tsGUyJDYVFBylDo53xsF-oBZ64QQlTTqvOpBhkQlwu7Iv4x1r7u-kpgmuI-55iWFrUcptTZj4bGSK61KY19MebZ8TWA/s1534/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How To Use Wise for Your PayPal Withdrawal in East Africa: Complete Guide for Uganda Users | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-to-use-wise-for-your-paypal.html'
 ---

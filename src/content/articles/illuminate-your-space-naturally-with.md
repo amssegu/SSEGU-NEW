@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiK3FR9E5qsHxHF2dB5uSaDZkx5JSiunlOjeow8PnrfcWhbUcvoBcmbFEYiQr7XF9H9tdyaUtERLPC1L9reKHuZk8Ho8fkS8sPOWXWSc63NV3Z0g4Ij-fljsY5DhZu7oNK_bDhjWhYKdyycvvtq2MmR5kjQJjAhDEcvTf27SUkMusxijpYj_dZjEgY6n0/s1024/download%20(2).png'
+imageAlt: 'Illustration for Illuminate your space naturally with the unique advantages of beeswax candles | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/illuminate-your-space-naturally-with.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEg6YWEQRsJ6cCyYDHjA54HqPD9sM1cv0w2peQHmAQSD9_u5e8Yh5Xe9yV89YmnhMXOfVJYe2Nj16qruSw9zaAbYSBTy1N5sqVBMVdln9OuvBnjHDFHEvgD5yv4ge3fIjxjmdQsGebsHnHRaIKL2OUZA9RpGpdhnhB7Pw-5RYuGS0Rw0OumtbLZrhfUnLhEM'
+imageAlt: 'Illustration for DIY Craft Table Ideas: How to Create Your Own Cube Storage Craft Table | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/diy-craft-table-ideas-how-to-create.html'
 ---

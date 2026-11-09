@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-01-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw8gRLaeTGNQ9YzThSHxHGc8Zs7o8GrJCDh6uIA5riIf4sNzlSNbxcIhGvoE59UV7NUpldNDBfmCexlA8u0OajMO4uU-ZRaglngWKialmC0AG_Fyp9u_lalQmMEzDSG0HcQ-VRNiQAH2rUgH4gjWgeM5F7HQxVqA_tb5BNnBZ42I40P_16xGYuGVgwGsU/s2500/download%20(1).jpg'
+imageAlt: 'Illustration for Creating automated income streams and maximizing earnings with Telegram Bots and Bucks | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/01/creating-automated-income-streams-and.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20person%20staring%20at%20a%20computer%20screen%2c%20analyzing%20data%20on%20affiliate%20marketing%20clicks%20and%20sales.jpeg?t=1716444424179&amp;width=860'
+imageAlt: 'Illustration for I get clicks for my affiliate links but no sales. Why? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/i-get-clicks-for-my-affiliate-links-but.html'
 ---

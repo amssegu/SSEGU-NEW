@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiN646HvPdVGD-81gbjG5N7sQsRRuSH9gAGN8kbIxlQeuS2CtGFmSMkqQSEXTxG7-BvViwJF3h4QFCyknTCb-xe_Pge3mIA_MfxcXBK12JllzmtXP72hf1NnSeS6ID3QUhiqaHdZhZPPJhxzlC6mUEjB277-XnINt_9iew1K6xhhYay53xrmobWJTqHzZc/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Rajini Gaang Kali Mu: VJ Kali | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/rajini-gaang-kali-mu-vj-kali.html'
 ---

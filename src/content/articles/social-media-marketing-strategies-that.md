@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5rzXwgE9HcLNiehNLGD9tYvvsEu4DCcEuGx3Bixo0cZHItIBNDwwsEdQp2KNDaZ55XTcF_d3C18kRR6FBc4TWfbROm-WDMU_2FE5hbBbOH0dqWB9GO0rZODYGnXDbdnquwbHl9YmcE1uyzu6gO5lxSbBnTKzaHUvw2VEMxgL-BciGKXNH9WhLpMI69lBR/s1262/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Social Media Marketing Strategies That Work: A Complete Guide to Growing Your Brand Online | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/social-media-marketing-strategies-that.html'
 ---

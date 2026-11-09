@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAsSiyANgzLssmTu2T9lsgIL_aVGa8082PjkiaHnmdbXsqiOfeoXdL2FklDIzGn4jf9a3uzIP1nciAdOIfS2uPcBS3VaAausDUaRW-tZFRMRg1gbjrwBCF2O2Gskl7HQziENW7MwJqv0njIH2BsQZ_NFziDD7fgAuE6zqxucyvUkgPk1RQysI7iWErMujG/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Graphic Design Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-graphic-design-courses-with.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCfO_5hz3cqf1DxneZkUQhzkPNwo5bs_ySPHTvC5V6tw3DJFC-242Jr3F-o8h3HRTJxO03YXVMdwb3-aRBpPjbf1diTYHjdn6A0sGaACXnHpOqxmFXvJY4acllUGQsnkofdngwqrox913gVSImG6PLO0Pin1CQixEH6fSMzE9IIuvn9dW8l-W8ja07nv2t/s1024/Logo.png'
+imageAlt: 'Illustration for Stop the Drip: Fixing Your Leaky Faucet | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/stop-drip-fixing-your-leaky-faucet.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-14
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcW_QUUEERvTErfYod-VBtlQ8wGZYoemmXNrB341bUCnwXh_I1L4KjGjKCMsNzeOv2I95t3XbmLN3tTqPfKJC0P6WBcT0ZAeedOBjz74OpFOpORXijqN1ykGZ259d9mDpUFNXbPFHTGpJVczVM5OWvso3MoRI70THi75rvlphH9FAgxKpTDudXHkHGuQpd/s1310/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Overcome Procrastination: Practical Strategies to Get Things Done | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/how-to-overcome-procrastination.html'
 ---

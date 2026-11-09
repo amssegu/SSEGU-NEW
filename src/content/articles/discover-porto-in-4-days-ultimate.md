@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjte44aVeQU3AIZGsE8OChXpieeGKWq6oRzlUXoxY528iT_rMxQnBGhnYMjlpj0EbAUV699NCt5g_XNh5glagtYLZPEQ1-I6DHVvUBDH9RBP7-rj-QxQ70r4PCYo_uxaEHIbQ8iKp3t8dPCzXE_bvlmx6RKE1FAF51kRG3kkBQqPEP2shOCpf5PM4uylXE/s960/porto-4990983_960_720.jpg'
+imageAlt: 'Illustration for Discover Porto in 4 Days: The Ultimate Travel Guide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/discover-porto-in-4-days-ultimate.html'
 ---

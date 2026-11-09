@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ8QtlCaTUGy_OzDDStIfLSDiMEDhn00Djuxv_23NgyINK5n85YmB_ADSlE70kaupoxahE5hgwBu1raBpeoKvCz92_EY-wvv-n-K0b_NXcULfdDwaeqi_eS6e6XuWw-JxMdUTHM17pdgoHxgo__98B0q_Btd2LWrsjsFnHaMBRINetUTmvxF4fvjs242g/s2044/dance.gif'
+imageAlt: 'Illustration for 5 Key Caregiving Course Topics You Should Know | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/5-key-caregiving-course-topics-you.html'
 ---

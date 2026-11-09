@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiToypM1sGEa3CREbeRdEmdf3C_CGf0xtuH9ffzjrQ3lFy4O_Cwalo5uwwjh4wgkpohBdVsItq6HtB4zjbzxqNFittwHabxGwmFzwEZDHl4kOJ6xXZQwKOKJjJ7mH4GoOFsbD5RcjnfGoGo1kUdynPTRpQAvoYksISe3BzY0aGUTxYaU5qTOnkvI_vg_Ru5/s750/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Kill Code - Kali Mu: VJ Shield | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/kill-code-kali-mu-vj-shield-ssegu.html'
 ---

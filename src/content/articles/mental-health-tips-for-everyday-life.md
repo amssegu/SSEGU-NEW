@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNoGub0-5pgk7Lbi68XW39Dlvo-D6wMa8armfEpuKWFryrqkwl_C4DJo-yRJGRY1oY5OShusNldkNjcY3b9Cz5lOHlNWfxcL56FZEnpBoO4lA6UKayG7xVapFWHURBlYVMkfSuxe91Lnn_W6KxD4iaZvGJhkPS7l1U64tDFk8JSBL61D5xKgkAZkLG9Nq6/s1260/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Mental Health Tips for Everyday Life: Simple Habits for a Happier and Healthier Mind | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/mental-health-tips-for-everyday-life.html'
 ---

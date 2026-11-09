@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20roadmap%20for%20learning%20AI%20in%202024%2c%20with%20key%20skills%20needed%2c%20best%20resources%20to%20learn%2c%20practical%20applications%2c%20and%20steps%20to%20build%20a%20career%20in.jpeg?t=1716533432348&amp;width=860'
+imageAlt: 'Illustration for You Need To Learn AI in 2024! (Your Roadmap) | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/you-need-to-learn-ai-in-2024-your.html'
 ---

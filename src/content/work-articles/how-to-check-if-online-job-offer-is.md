@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzMMftAgL8kVNrXDkxo3mF5hqbrkPrxgyGUDp7Z4OW4HyOR1l0DsVIKxWTcsP71zuG2e8cvFeBAJB4pJuZnkmsw5MAqWs1QM5ZLQjaGaN2CA5sj9UDuvq-5iAa1elJHqYlnPuXEs3-VZ94OBcO1ul8AXcc7c8OK0aXRP94rr50t1qkgiVug7uvv2IbKUA/s1600/image_a52ae040%20%281%29.jpg'
+imageAlt: 'Illustration for How to Check If an Online Job Offer Is Genuine Before you Apply | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-check-if-online-job-offer-is.html'
 ---

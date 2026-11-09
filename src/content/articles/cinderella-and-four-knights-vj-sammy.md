@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-07
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2Whxh168jKVqG5W-rKDFZC18KVvazqGcSqkPh11NvST-ZTlG0redlS0pBbrh7KdYKfNNuFWBvNidkGwRE53082GRI4yCGZfM0dFSiHqahJWavUIcrzJzNMnCzKxc0JuDShKdLXvPxBmhNa9XWlf0_KJlx1sF331NzyTIJfUzqSLCNyq-DKeFvkiYJGcaz/s750/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Cinderella and Four-Knights - VJ Sammy - Seas0n1 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/cinderella-and-four-knights-vj-sammy.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-09-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrbec-YSxFBfEyFwzdbPPU9fzTTJo73zfssJGi8sllzYLMjqYPddoBzh40_ZSvDzN_BKCbUb4jmXTLvvM682szJ-efBAlIlrex-TFgCoSQKlJRZbStdxIbTY32r71N2j9xGWP64TuM3cFgozVNy108RXN52vdl5VnzNZlc_R-06zWKRLEyLYUW-aYTySY/s1120/Leonardo_Phoenix_A_futuristic_hightech_illustration_depicting_3.jpg'
+imageAlt: 'Illustration for Demystifying Cyber Security Essentials: Safeguard Your Digital World in Just 7 Minutes | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/09/demystifying-cyber-security-essentials.html'
 ---

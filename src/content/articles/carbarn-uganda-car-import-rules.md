@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii6pMp3bH2oCqBNrAL411PKch_29Pw-1UF8ikaly9Wh0Es_cLT_MBehIJg5CCwjdKcRTXiPA6jBwmMbwwcAwNrn_SLB5mOq2u7qTFgCkvRJIYoC8MqtfLemQ-wm0dTpxw0IoqS9UMtfE5w7QpaDDqxwW9RNTZ_xMQfdMf7KAQn6yDI8br8k-coglz7oVSQ/s1498/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for CarBarn Uganda: Car Import Rules & Regulations Complete Guide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/carbarn-uganda-car-import-rules.html'
 ---

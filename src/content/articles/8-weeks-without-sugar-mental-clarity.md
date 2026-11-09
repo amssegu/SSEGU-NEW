@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20person%20preparing%20a%20nutritious%2c%20sugarfree%20meal%20in%20a%20wellorganized%20kitchen.jpeg?t=1716527527641&amp;width=860'
+imageAlt: 'Illustration for 8 Weeks Without Sugar: Mental Clarity and Weight Loss Effects | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/8-weeks-without-sugar-mental-clarity.html'
 ---

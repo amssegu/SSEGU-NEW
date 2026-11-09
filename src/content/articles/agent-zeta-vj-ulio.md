@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh44-fRjUhc3HQDFwRAJV3V_fhyphenhyphenuk2oTd172I5Mb7j2PoINa6boO0SvoDhK1MrVy7DMXP6CmYtaSNSbeUN4m9f4YphAiZcjQkiN_eAx_4sehyphenhyphenZZCX9dnXIGjVM5BezZAaxFxqSsIhJRlRHoZVdEaW-Y70poMYUDFNk4x2edvXcLBH9ZxZcWjzsuMwaDOEk/s720/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Agent Zeta - VJ Ulio | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/agent-zeta-vj-ulio.html'
 ---

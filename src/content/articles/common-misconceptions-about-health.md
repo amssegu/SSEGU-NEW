@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbT-isAhWKNbs9BGfEDb1WHlkMLR_0g2fD7tw8WZ8Y2GDUoDL7y1TCa4BIv7Ev0mVBDmcA0T_r4EEplXPNh6Y9kVPACpMBTx8a_X8aVpvGsKCJKPkjeUYJaqipoiZtqx1jzUmpXbJEM-69_ojLWiBzMzKbeq5ZuuiupRucQVNdRKgwFr0fwjnO04KfKFw/s2432/download%20(3).jpg'
+imageAlt: 'Illustration for Common Misconceptions About Health Insurance Coverage | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/common-misconceptions-about-health.html'
 ---

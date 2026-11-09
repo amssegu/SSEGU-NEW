@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitbp_sOFFwWkND3of_BFPMbyhJVXDRVHQbecNN7up2Ve9MLC1P6TpvB6iJ61DOtEbSb3KgvRuJJyS6f3X_scs7badE6ETstIwIO2SHlfNhUMt6y6Sx6xIx53gd160h3bLbKnGXtjZCd_3JTAikFRikvdth348Tb9KG4UA40xLgfqdWs0mb3XpADaFWVQw/s960/man-3959784_960_720.jpg'
+imageAlt: 'Illustration for 15 Habits Keeping You Poor and How to Break Free | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/15-habits-keeping-you-poor-and-how-to.html'
 ---

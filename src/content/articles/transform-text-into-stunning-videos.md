@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-12-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDIqXQSiNxAbVazEaf5vtOjd8r3jr-J__ELf2PYhsoDtqmp1RxvNHyyzJtkx5QAPhWlOdZYhHhpzVVPL3eKrvcSSepf9XrZ9PLMV1m5eNbhro_pmc6TRrdYzB7qIC2d50mStNpjkLnPTJy-Wg5Wf8mkCXaIW-8TJZk1GGtWc4IywhGDtBOtmuhc7mnG-g/s1984/e.png'
+imageAlt: 'Illustration for Transform Text into Stunning Videos Instantly with Our AI-Powered Generator | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/12/transform-text-into-stunning-videos.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjs8JJp1-6P2DFJKQjsmpq1WreduWH36bpdc6Hl0kqqu5G5b3XuDRL0Lh197umrLDdF5ucaFi-ivOE_FFlPDkwZaeHMb1JXyuLP6FJyON-qc5hXsuN4zGbomuHZRbn5iycVEYrfBupXCz182BS42QECJp6LOM6SsL3tWoFaPcHsfjnpBDfERmFKBzvrHJcP/s1268/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: "Illustration for How to Start Freelancing and Find Clients: A Complete Beginner's Guide | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/how-to-start-freelancing-and-find.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiRp0TrJTqEcCS-XspTYIoIGRkFv1-nhJmzMEwjYhmZsm5S7OxJzYXxmYMpORuvtr8iiRgn6O9Qy8Vv1IcPdgtAB3DdBJ_FrVLky5LEzJ9gr5DBnDVMaEzaVOMKTsBVM3z_-bA7zEjA6XCU61YL4LXfxzD-A9co0LzAtSwIEkZWsSsxpklIe6D7YkIMgk/s780/dance.gif'
+imageAlt: 'Illustration for The Evolution of Banking: Online vs. Traditional Approaches | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/the-evolution-of-banking-online-vs.html'
 ---

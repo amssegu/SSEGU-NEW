@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoU4KT7fauJbbhY8mTbbqLhtuvzbq5RQV9rkj8k5pakuxbLfJZhkxBD1_fGSZFxQc8TtNX-D_nH-jpPhCMggcwbVeUkA0qVg3o7IUzYTkV0fXYgIaJtchLh-s4QXuSdQtw0dQjvixSx04_TBgppPZ8YYaBv-nSyJT5fDB8E8NpABE2v3xh1agB1tDw5ENF/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Canva Side Hustle: Sell Templates and Make $1000/Month | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/canva-side-hustle-sell-templates-and.html'
 ---

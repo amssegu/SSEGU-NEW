@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTlSxqNrPS_99H5VuxtIsgJNoUX5JEIf6F3onXZyfQV-0s5bGLmvgUQYK0n2JuSN8rUrLve10-pZh-q3shLhD3EZB18rXGTxnCl4hPDP97f9Zib68HSCOS82DjjJvyw_QTHEXIQMBc-YQr3lPa7MY13YG4jgvJPi0PvYcFXJecvIawQRUljQGhlYZY41M/s1120/85ea7757-b8bb-4209-875e-25d96cc26cbf.png'
+imageAlt: 'Illustration for The Power of Visualization for Achieving Goals | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-power-of-visualization-for.html'
 ---

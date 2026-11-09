@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20graph%20showing%20population%20decline%20in%20different%20nations%2c%20with%20accompanying%20charts%20illustrating%20the%20impact%20on%20economy%2c%20society%2c%20healthcare%2c.jpeg?t=1716614832307&amp;width=860'
+imageAlt: 'Illustration for The Demographic Challenges of Declining Nations | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-demographic-challenges-of-declining.html'
 ---

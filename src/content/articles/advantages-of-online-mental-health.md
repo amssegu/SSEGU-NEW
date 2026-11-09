@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBciD2cPHe42gZsn2QZZ2xqAjXYHAKNo0e36KcdnfbmDsGTtcfAU1fh0dHfZZuhKprFwoekIMHYQaEzfoUoOLA_h_bP_qtdgXE4Zc6iStf8R9r9fPmHQeohLp281cUXeEC-jO2vBJd0YS97peuee4OK8U6zf4KKCT_yHudaj0lGKMpX1iHs0E_7cnHyek/s2432/download%20(3).jpg'
+imageAlt: 'Illustration for Advantages of Online Mental Health Assessments | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/advantages-of-online-mental-health.html'
 ---

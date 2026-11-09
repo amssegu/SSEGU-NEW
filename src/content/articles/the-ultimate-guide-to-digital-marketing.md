@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE__cdvREcD1GRjulUM81jpNZknm8KM0PEcfuzoW9tlBxjeqMMcwBpYFAqGh1VtcT3nhl0HYx9eTtWCNeHxUfgCAWWlbRlIoMI-niAZ7L6wMehttzMX6SSILgeNsPEiAphnflRl6IJmOkpllX0OcB4sMRRbMBEaNb-9EtVW9ZbYrYSkTL7kT_nx3A4ME2Z/s1278/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Ultimate Guide to Digital Marketing for Beginners: Everything You Need to Know | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/the-ultimate-guide-to-digital-marketing.html'
 ---

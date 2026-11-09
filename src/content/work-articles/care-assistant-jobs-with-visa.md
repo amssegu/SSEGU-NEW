@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-16
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjviwAW9JgPqW4KXBryZcnYF00cmatdRMxNtClTrD7Omzmm0qDNyPrSxeh6Q0CW0oW78hXCKXrtgEiTWxIoXkhdByFVsMoeNbQlRCQvKcJt2PH9qWBBCQRzoCJGMNpRCla1HT-G-kwnbRg6aJE-BTPKROxjn7AmTvsxOw-hVBfhVddr_QezqECVJnNZ4Bh/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Care Assistant Jobs With Visa Sponsorship | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/care-assistant-jobs-with-visa.html'
 ---

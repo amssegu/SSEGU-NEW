@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFxB8qcG3PG-f-IvYQcsPiCE18ENKBYfj6n2wmYGsqqIfiRdxn50DjjzJGR9spZAoSemusuJQcNfO5EfwQWU0DZmRivl4GOLytFAroLIVq4ZtErfYIhOkmpHrTWarlfdp4TWebYIYcY29k-vQ059jDyjFS05O_vosvuScCPr53zykz0n479o2a8P2HjUI/s1280/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for NOCTARI part 2 - Scarecrow | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/noctari-2-scarecrow-ssegu.html'
 ---

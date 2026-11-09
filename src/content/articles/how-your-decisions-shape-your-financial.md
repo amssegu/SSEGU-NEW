@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXRnp206IeBDG05-ZFFLKUXXRpX3W5Ut-LS2O0Ujzdj9sWRVDAQkSE-8Gq3_3DiNBnciDvWLYS5dkl3G0sern07VC4rJGHo7TJg4knfK15A1h4qqaqEmMXhyJJvTbEf6qEGBx2qwD-s_ssFVleq0GgCYp3bfD6mkmGrgQeNaD81GO716V345fdKdtnXEM/s1280/decision-5291766_1280.jpg'
+imageAlt: 'Illustration for How Your Decisions Shape Your Financial Future | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/how-your-decisions-shape-your-financial.html'
 ---

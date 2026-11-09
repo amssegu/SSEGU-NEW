@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBz5cVgHe8c-8-B0D7-SIJh1Jhktz3Sq_gOSQXiJaSK-atpOzG7ogNGBAuyRcRiAItPZluNtcAhBwHg-MQQja60Hy9ZSIgu4hndWRTvCCkeVY2gpQ4aHNa6OB6npAZsQJgWEgQUtrULYmaYHlKTm7sK91ip7034Mcoq-Xmk1NBH3BOOaKac0WBj4NF2UM/s960/download.jpg'
+imageAlt: 'Illustration for The Influence of Advertising on Sportpesa Betting Behavior | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-influence-of-advertising-on.html'
 ---

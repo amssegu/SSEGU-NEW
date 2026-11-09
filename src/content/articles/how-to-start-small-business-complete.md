@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKxzGZHCgXHkt0VfOyTWmc8Q1lMTH9u3IjbFeevSdGkuPyUp565t2xI9IuT7KTqeErFzQnIiZn-CPHPE8ySh_ObAa3Bk2gArH-maWKl6ABgh5TKc4o9vo1-akaNSnyJE8N_iZBxrPEmivJ66SZtdNxyXAXDg4qTUOXkuwKPcUtilvDN8CTPxd0_r4jio43/s1280/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: "Illustration for How to Start a Small Business: A Complete Beginner's Guide to Building a Successful Business | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-to-start-small-business-complete.html'
 ---

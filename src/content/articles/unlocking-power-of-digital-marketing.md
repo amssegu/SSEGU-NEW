@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-09-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb6b3unvH1S6CI5mlTa3VQDGvcaOCiY6n_UeNkUYFvCuuNO64LfjMbbGZ34JTMwhQAg8jiSlrQuETJ9oMLia4kj5TaT4BOp2ublvj4xuCDC9YDqnQ4E05FcNgCDDk3lRu4QhpVODQbqG62T_q1KYrRjhl_gHdg0b6rtNdPKEffC5K9JkIsV98_6rVKYKs/s1120/Leonardo_Phoenix_A_vibrant_and_modern_illustration_depicting_a_3.jpg'
+imageAlt: "Illustration for Unlocking the Power of Digital Marketing: A Comprehensive Beginner's Guide | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/09/unlocking-power-of-digital-marketing.html'
 ---

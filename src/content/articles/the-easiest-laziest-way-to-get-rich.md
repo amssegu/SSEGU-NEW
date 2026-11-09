@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAF01icyVIMyCbo_qY15iTQBEBGubHfHJuDq2N934Q2rzANuWHxKBEjO2JT-0cBjTt6oJNug6WOCs2S1TpjxQH17vhlHz3NJm0K98Y1zgeysmCkCmxNYsNlMWdXtTtF5M6sAyh_fbKVcQG-dGbv6GRADKncVT6l8ddZ1Og_hMpCXmBV1WMEJ9y_WzGqrY/s1280/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The easiest (& laziest) way to get rich | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-easiest-laziest-way-to-get-rich.html'
 ---

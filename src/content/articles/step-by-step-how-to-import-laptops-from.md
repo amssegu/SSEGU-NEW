@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix73Q9WE3C3VLSVKq_P3JXHZ8TZJ5hAY5oBFLQSvmbaU78zYCVloRB9u6QKHEMOtMrTng3YTzEq2tgIjV_HzZfjTOyrpgpS9N_NKekvowEQGwKvaov0bJDi26_mLF8CHmtXNul1JFAnYabLW4e7c0szI9V4Hr-QV-PNB3xZky0m-MUxl-LkECBEN0PgY4/s360/8k8bvp-ezgif.com-crop.gif'
+imageAlt: 'Illustration for Step-by-Step how to: Import Laptops from Dubai to Zimbabwe | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/step-by-step-how-to-import-laptops-from.html'
 ---

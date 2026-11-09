@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0dWeSA_xq9HpILNrT0RbhmV_jfQ5uo2N2XW9XSzuFbkkDWdELzZC50NVnOPJrEPIme4QM-MebKmTkoGilygp1pUObkfPmnidHiswaESAVQy6nDjbdR1EuFt0mzuke0qsNQQpyD2UD3XLI2yJArx485B3Zo5ZBzjuD5y-KWwUYKTabuczsYw4Ni4hvndo/s1280/clocks-6664622_1280.jpg'
+imageAlt: 'Illustration for Mastering the Art of Time Management: How to Be More Efficient with Your Time | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/mastering-art-of-time-management-how-to.html'
 ---

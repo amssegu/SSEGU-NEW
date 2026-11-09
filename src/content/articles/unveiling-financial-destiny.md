@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM7kS40i_GX8uQP7RNNbNFE9_Pic2iZi05CsWfEltctgC5wutJ7JpAQOR54Iy572G6QERPSGqGtwPX0DZDP7X8D139vQ_yi6bsBOLIVhFD6ruS9O0AjfyOhyPUprVqOFIvQOI6V1Taitp9ffRKp0qNbSIyRRcJc_JEBmlMEi9-tZD5K6hFhKprerseR2g/s1280/calendar-159098_1280.webp'
+imageAlt: 'Illustration for Unveiling Financial Destiny | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/unveiling-financial-destiny.html'
 ---

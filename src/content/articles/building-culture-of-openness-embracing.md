@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjJAC3akrzhEtbgMpspjMQFAWxrFqZcoDQn7I-PPz_F3y3zVr81ktbwUmvAfBYnURRX9yJ91Tzcc79ukCz8Cwoe5k3wVz13DSYfwJnJSc7ILSXoaf6pMb2rBebRLyiPF1nLreXQVHpSCYQLKWVVSmuiG-v2kqE0G9Ch2ZzSsSD75yFETILqgZ-_nSC82iKB'
+imageAlt: 'Illustration for Building a Culture of Openness: Embracing Transparent Communication in the Workplace | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/building-culture-of-openness-embracing.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1rFcYntIGdh75_ey1XitPs9e-u3Nr3tbkSBQv8IlZUgul5A22NhyphenhyphenlFGKCGhbcz-EnEvULun9IY-Beuox-Bouylo9uIOIs_thUTyL1VCOu3U4cp4gv1gP0io03N7-7hR-kKC6w7RrpgXP81ePNvKsOvBQ1DY0KiIHxmiA9En-gzsZcPALU2W2oiNOtx7c/s667/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Assassination: 1932 Kali Mu: VJ Muba | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/assassination-1932-kali-mu-vj-muba.html'
 ---

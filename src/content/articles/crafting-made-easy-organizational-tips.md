@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiKIuIGNNDEWUOmboW9XjogOREClXug57sb_Tcg7vhy1HDxT1UT6ranrgVldoUWYqHB0H_KRRe-eSST8bmz8vnAuggHtvTqP2n5jMMxI6F3tqHCtpxWkkxmlBo8J6_4If7GZ3SUa-4VxHCdwNfUU37t1uYnwLyY0eyT3Al9wYHkEA0OgJRGz0z5hlK3Lqw/s1024/videoframe_0.png'
+imageAlt: 'Illustration for Crafting Made Easy: Organizational Tips for DIY Crafters Using Cube Storage | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/crafting-made-easy-organizational-tips.html'
 ---

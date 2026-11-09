@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiEODW6oNyn_RwuEjVywAHt7uewerJZYSc40cmpg8vhdTEdu2Y8fcY_wRwmxkQdbFnS-tB039IRguw3z-KtkW9oueeUhfKKryNFMKfALRL1BHlFW3hSkttVlE7-pi8NnNg7A9cjs4qYxHKGZvHcZa8JSm7El23jg2B9o0nIcNTOZA1x7wkeP-d3cAk6KI6/s1278/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Basics of Financial Planning: A Complete Guide to Building a Strong Financial Future | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/the-basics-of-financial-planning.html'
 ---

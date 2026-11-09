@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOH3o22BqTAkYk4VPhKkpgwLvYJ-AiHvQ1wcoN1XWuL0Fp0iWxKogc_gDptjL-JVwLUgIQRGvA0IirE4sxAdDAxT-PKPk-wDlGR-mlcSi-Hc_60DI54C_2tD7R5tSjNNUI2sQgG-xGEmIspg6QGHlbcsS11KceDLe-pkSOzfatSabiKiDaz2pjcL28230/s1280/man-2264825_1280.jpg'
+imageAlt: 'Illustration for Push-Ups vs. Bench Press: The Ultimate Showdown for Upper Body Strength | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/push-ups-vs-bench-press-ultimate.html'
 ---

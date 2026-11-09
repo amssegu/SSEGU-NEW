@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-13
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20person%20wearing%20a%20sleek%20smartwatch%20with%20a%20customizable%20face%20that%20matches%20their%20outfit%20perfectly..jpeg'
+imageAlt: 'Illustration for Your Style on Your Wrist: Smartwatches with Custom Faces | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/your-style-on-your-wrist-smartwatches.html'
 ---

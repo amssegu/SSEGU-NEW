@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYdKSzY12a_ATzkyH3luzDth3KTwFg8bjaDDkClsQuc06QvFz5TsDRodMQTRO9Hn61JB6Cv4lx03qaom-6ZxTnrv4qR11LZxBI0QdDBC-exegm651qme7YwFHyJeLUHJ-hllbC02aLVpM2SK_e-aUQperil6W0CkbSgkhi_Z8zVkbuhWxh2V8pSb66mhea/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: "Illustration for Free Online IT Courses With Certificates: A Beginner's Guide | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-online-it-courses-with.html'
 ---

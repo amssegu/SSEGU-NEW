@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20person%20engaged%20in%20physical%20exercise%2c%20solving%20a%20puzzle%2c%20reading%20a%20book%2c%20and%20eating%20fruits%20and%20vegetables.jpeg?t=1716444185314&amp;width=860'
+imageAlt: 'Illustration for Avoid These Brain-Damaging Habits | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/avoid-these-brain-damaging-habits.html'
 ---

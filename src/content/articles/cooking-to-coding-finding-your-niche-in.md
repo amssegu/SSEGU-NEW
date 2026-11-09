@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQbkYg6t5Rk-0bLQZIbqieUDRLju4PTm69tSmwh5ViTwhaGnKCvPvL5Y2R_9vUg6CFXBU2EEERcvzx-NzdEZUU77ceDEpIbJnZ-_7nKl4LmEpj7UTV43TNpHaRLTNQgSuvUbYvnnnhYgr-GyAvNVMLDKjXCjBX98VyQLCoE5cW6W72jdpvUjJ0mON4KsU/s2000/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Cooking to Coding: Finding Your Niche in Online Education | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/cooking-to-coding-finding-your-niche-in.html'
 ---

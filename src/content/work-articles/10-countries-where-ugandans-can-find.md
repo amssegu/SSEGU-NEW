@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEiv8k9wUOBgW4HTBzTJwY6k9DnKmoG-6uYPSgN4cIHX44SW2H0ATT-L5MLVaeEsb31aKndX_K-8DokJ4ncrwAst7utnyQeViM8I_oWiYnBl-F7pqcbjg1tb45q4WI3EIv_SL5c5TIU8a7gSLRJbzv2zUDoFFCtH0CKh2GECfmTAh-r6f4-66J4g-KmkmAA'
+imageAlt: 'Illustration for 10 Countries Where Ugandans Can Find Jobs Abroad in 2026 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/10-countries-where-ugandans-can-find.html'
 ---

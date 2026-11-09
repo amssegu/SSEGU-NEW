@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQWhFp9fC6O-unO_rZKOyhu648WyIsQAy5EMFee0Bz5IoujchgGxqOTfZLIU_3qCcJ_RwgBAbrOPNvRbQczNEHawSti9lVUGL2rebRcajdHh8QudYPPfh-w3iJqDf51RZqdIngAnGd_0ZyZl-rEWuDdhX-Jf_CBm4p1tVm05Hs2rumNaWx6RtSsvJTLugQ/s1286/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Build Healthy Daily Habits: A Complete Guide to Creating Lasting Positive Changes | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-to-build-healthy-daily-habits.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5jFxg1zlf7E1mQNINH30mY30ITH7Xguk7zVw6vMaUdTKr61U4rKN6phswtXe7cCSOKn1pL7fAZmWeRJ4OYdXIWsxxSG1VTXIMlQIu5QIIuS964V9gy82ZK4fXbF2q_YakK6Pa3qspptsmyHsPRK4W-15zhakVLjSpXg5gmN6Kw7dPExRijpv7WRkJIVQ/s720/money-576443_960_720.png'
+imageAlt: 'Illustration for A Powerful Two-Word Technique to Manifest Your Desires | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/a-powerful-two-word-technique-to.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitgVC7CKCC4aViE_Rl5o2oWxMzPaQt8JLmRNk-S5hefJ_aReRjtTFK3mr5zO-l3bSbc3g3DCOuzQ43pCMFYSM3d50AFHEy4FBnjGeEw4fmz38521-iHl58YaRZC3IKbPbhCi4GKlC47Yr28b2irKWcUSU0Qrg4DFr6lPCM-Ebg8J5pZKh8SsQXH1qkH3rm/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Caregiver Jobs With Visa Sponsorship for International Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/caregiver-jobs-with-visa-sponsorship.html'
 ---

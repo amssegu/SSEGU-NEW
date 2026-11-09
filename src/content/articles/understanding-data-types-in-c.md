@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh21uRypbjyMxnoSgokUn8x8S4HoOl7V1RNSKzTPO8IXCQQ0eE3U_uuqoQrnrlhcP7HwtEuMfqIlFSryxGYb5oBcXxbZMjqi6I1eaxGvFvETaAWHB8BDLZISOlbCZmrf__rcHLwQ0wItjArxC6fYbh40kyTU2o429ETeNSkiD0P8O-PlUvHdhUreHX0iyYB/s1024/Logo.png'
+imageAlt: 'Illustration for Understanding Data Types in C++ | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/understanding-data-types-in-c.html'
 ---

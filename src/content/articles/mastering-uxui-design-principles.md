@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhr_rcSXyGVSWJe1Mp_pZsXavDF74AmZDP8bOMAD6i1nOIDbIHY2XaeVkTxyiX1csrY3pGT3BdRQlpDmZk1HFKhkpVd760lrtK9OghVYroEIHB3EUClGSdtogoUCkos1mOD_PuC5qpUeUuCuURCDXo8fnoMqefbGg57qypcfcgimW9RHkVJTuTS3Hke1Uk/s1280/chalk-792182_1280.jpg'
+imageAlt: 'Illustration for Mastering UX/UI Design Principles | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/mastering-uxui-design-principles.html'
 ---

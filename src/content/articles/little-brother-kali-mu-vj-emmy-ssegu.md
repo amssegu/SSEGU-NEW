@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhayeJUrxBlOUEPz6i3udF5MofF5DrA-aegZu41ku7Lkde9JAe1EgFCQ5UxgLjh0wgU8VFnw64Mz4FdEAAFxIa5zRU6HHwjxj-jh1rCjB_h9Vh7nIKcsktVUq4Z98YSVnmdYiAYaSn_lF2VDsiHEx3zgaYE2pO57A-RBo_xPCAkQrT-MPZT32YawIgm2XM/s678/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Little Brother - Kali Mu: VJ Emmy | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/little-brother-kali-mu-vj-emmy-ssegu.html'
 ---

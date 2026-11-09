@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuJ69pqlxpPRYyn4A8Pt5TPRH2lB6XwlVDYd97PXs323P-kNJHX6-F6efh8IGyhzkXYLbGsjWdOLH56ccnVNH1FYZ-2ufidjwkOmWV1YN7pL04SVZWA_cL4PNvnu4ACTFBvPcbQ1sGXOu1NKwDLeYdl8fHnY12mwJhXKyypCSCMqc_mfr3M6UbiaW_nqw/s986/jobsites.jpg'
+imageAlt: 'Illustration for Best Job Websites in Uganda: 8 Legit Job Sites to Find Work in 2026 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/best-job-websites-in-uganda-8-legit-job.html'
 ---

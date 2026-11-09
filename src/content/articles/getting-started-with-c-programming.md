@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih6Okq7mYXD_CXCKM_So8K7I7BZiedfIPB49G6j7LoK3XMT-ZfuDHpwOJ0NAdR8a7WhD_AcaXEDtgURJXcP2tnf-iOm6YaloZaZkajDthi7XP3byj-2bG0yVH0Hi0qOOOBfPY-uUnSCsE3Ve-MGrqQQQG0PgErxtp1hyphenhyphenRg3SKcyaUy90QslBUksZEgI8nz/s1024/Logo.png'
+imageAlt: 'Illustration for Getting Started with C++ Programming | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/getting-started-with-c-programming.html'
 ---

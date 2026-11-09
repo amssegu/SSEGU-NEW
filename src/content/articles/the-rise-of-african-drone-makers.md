@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/Aerial%20view%20of%20a%20vast%20African%20landscape%20dotted%20with%20drones%20flying%20in%20the%20sky%2c%20showcasing%20the%20advancement%20of%20technology%20in%20the%20region..jpeg'
+imageAlt: 'Illustration for The Rise of African Drone Makers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-rise-of-african-drone-makers.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_ov0ukwMztPQ5Aq8_JFdamWjvNITdBSM1koTDt1k0FtYvG98dvojoatwj6rU6nWmLiwBeERFnf37NFbY_GuWqyCNHfesvAya9Cbwr7TSVSqgVNBOgpTUhJdJ2PFeA1RM-1rWgrTwXqsEiGMJiLigPFnlCLuWjQrwSwC5YFvh3WEdreHf3yn5N8n52UcQ/s1032/persoanl%20finance%20how%20to%20save.webp'
+imageAlt: 'Illustration for Personal Finance in Uganda: How to Manage Your Money, Save and Avoid Debt | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/personal-finance-in-uganda-how-to.html'
 ---

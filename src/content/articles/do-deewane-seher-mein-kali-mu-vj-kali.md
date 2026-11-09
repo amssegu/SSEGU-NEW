@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHsw_Cp67qiXpvXq4QpaaOC7xlkNwHQUf-6OshrQK3Bz6_QKHxT9LaEfMS1HNJVcLqb1_F3G1Gtgqb-C_oUwO7FIcabOwmF50FzQO5pYlcgDtaGNjBxYldLMhrIqrMVpkGEKFoyy4E42UUdf9SFC16roOfZcQO54t-Cf6UeaQrNwUcWN0C1nwgLB_EJgzy/s750/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Do Deewane Seher Mein - Kali Mu: VJ Kali | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/do-deewane-seher-mein-kali-mu-vj-kali.html'
 ---

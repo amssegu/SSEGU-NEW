@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7qFxkXXH7rQTKcgG-IWNt5RSgzkUf0XBbXt5iu93RFbSjCYaQGHH3lHKyUwUeWm29hCjEfl1w67xdBJpzd6b1Qcjdvia3sxo8eQQnrEMSfMgZzjuynhhULzpJD2XF41iesS_KO7eABC0YSFdfd9HpaBznqHcLdnMhDPXhOJQCC9VmWNkaAXJOrAYYaduy/s1512/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for MegaSpeed Cargo Blog: Mombasa vs Dar es Salaam Route Comparison for Vehicle Importers in Uganda and Zimbabwe | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/megaspeed-cargo-blog-mombasa-vs-dar-es.html'
 ---

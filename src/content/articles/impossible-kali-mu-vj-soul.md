@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbVGJFooGqP2diixDhp5t6vkaCjELoS9Ym-9C8SNxxMG5IdoOZ7mGsfAtvVO7Z8jispiTSqAeNHMnjYy5VoO_-eteRjpZ_xMlBIrqdywvFjBUpqVOSyoP8MzQq9uuKES1mSgnvi5GnaT3XjeZv_Id0a8RvqGD3pLX-knSYXqffgpzhW59ArlxVcElJA7MW/s751/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Impossible Kali Mu: VJ Soul | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/impossible-kali-mu-vj-soul.html'
 ---

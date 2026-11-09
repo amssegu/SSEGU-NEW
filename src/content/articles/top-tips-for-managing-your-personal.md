@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-14
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjauO3EuW9OLwrc7QHt4RMYGBUe5kI10xTnKRvi2oP86ktDLufzcgq9YHO7TldJ9rr8PzWvVTNLkDmFaYZy8893Rr1QD_2O5zEFe3uWPJYhgpRn8jFnaqcY7LMFV2OImuTCROLz0TalkRskLmFxEavz4vEn3JW2FGl0dwbx03Gfi2bGOn1TpvronDzS-9Q/s1024/computer-2937207_1280%20(1).jpg'
+imageAlt: 'Illustration for Top Tips for Managing Your Personal Finances Like a Pro xyz | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/top-tips-for-managing-your-personal.html'
 ---

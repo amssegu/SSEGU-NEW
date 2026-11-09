@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqrsYC_wNOUcyWh2ksa9kmxQ0dfHz8-ZzdKg4gcfgHpxN4jw3zKXHPr41pDBYhll3LKeuxR-hzsVhoQ4nHcLc9SBzhDO1IQP6zGsTvEI7qvwF3JY9auAdJ3ov_IU0YAZvCRy5xwg73I0mMq2RAuvW2bf3o8a70wIurZ5SoiMvamY8uMnJ1tUXSy7uDMfo/s1600/image_8c19e36f%20%281%29.jpg'
+imageAlt: 'Illustration for Can You Take Your Family With You on a Work Visa? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/can-you-take-your-family-with-you-on.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwZ05NLoYqP4t81Ne7a3Mvp5yNT7gS-6QwWcO9hEhnOSAyFcpZx4FWutne20XoU69jqRQr-3sdlrn4rs21Iu9hKUlrpJJFJXjqn-5rOfKTY2pquAEHQdTqzKm3ClVQ_lG8-x8vU_MM7pWxMUs15haHyQ22tXfsLdQvajEigZ-MQI4IU2x5vRkC57Kqb9k/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Compare living standards in Dubai with your home country to make informed decisions. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/compare-living-standards-in-dubai-with.html'
 ---

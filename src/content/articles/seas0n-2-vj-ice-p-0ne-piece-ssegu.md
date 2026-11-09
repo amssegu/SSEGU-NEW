@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVUAxrFfcAWKbFSby0z0NSkNRIqlYYjr2viuYmy25wkytV0mRR3uX4rB1iieWQ6gb2OrRkE618lXO_K7TthTF1SIuWv1avLV8AqXSDQEPvvNmHro14jKhbPPSG3945TKwlD9pA0Cg4VIvoIoDJmgbUGtzk6EYS4zy8FkNmzowa8fMd48MtpHcvsg1HfBo/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Seas0n 2 - Vj Ice P 0ne Piece | SSEGU | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/seas0n-2-vj-ice-p-0ne-piece-ssegu.html'
 ---

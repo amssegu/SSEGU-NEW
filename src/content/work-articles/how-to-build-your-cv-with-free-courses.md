@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-15
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTsfUFYFoscoSSnGt91vF9bF7gtKpJaRwRuaL5PMU2wJTvR09M0yzvMCIK0eMsgnFoSeZwVX1JrViXkWUWQzpfbFRawMtU3Ttj52WulVA2n-ioz5i2VJN0J7U_TydWQj-uIGGpnBek1Z2oIGq5O1VEOQAhBBNwk6U1YaqXFFrEDntbuaPkyXv51iX4RUZo/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Build Your CV With Free Courses and Find Jobs Abroad | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/how-to-build-your-cv-with-free-courses.html'
 ---

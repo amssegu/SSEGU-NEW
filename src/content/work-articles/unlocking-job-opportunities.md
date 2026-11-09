@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPwiVs-RzeaxkOuUL1QuJ_sBIM7K1GkJ29S4i6h5RDiRjXMDW89_LSNjrDbI89ERVbYV9TNQcgsArbh0p36O439Q5He7sMycFKQMSN65XOyLqTbHoFt2tISnbpw4-lDo5HvTHR6UBmiRyVAwe2yq1Eky-6ICa4z7w7eXFsusPujT106BwkuaOSQW74foY/s1120/Leonardo_Phoenix_A_modern_and_sleek_digital_illustration_depic_3.jpg'
+imageAlt: 'Illustration for Your Ultimate Guide to Landing Your Dream Job | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/unlocking-job-opportunities.html'
 ---

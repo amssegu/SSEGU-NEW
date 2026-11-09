@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-01-15
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO-CTdMZdCY62lFVpbkNXbf9ruHYo7TxllpATDggzRLawy9DlY8UnyuX_BWz-8W7zuTy-tbgq5ls6u3kQKEE4FNhaNHhzL7WVKBlbbaogtlPPOTAGQsxRFL1OmbHE9uGqq8wqycrfMZ7blxeJfRB7cg6u7NbmmQlyQkJL2AH5R6ZfHRVaUBdI6Dcb6_Hw/s2500/1000x1000px.jpg'
+imageAlt: 'Illustration for How to create compelling articles that drive sales and engagement through effective content marketing strategies. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/01/how-to-create-compelling-articles-that.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20person%20standing%20in%20front%20of%20a%20whiteboard%20filled%20with%20charts%20and%20graphs%2c%20mapping%20out%20a%20personalized%20workout%20plan..jpeg'
+imageAlt: 'Illustration for Fitness Fundamentals: Crafting Your Perfect Workout Routine | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/fitness-fundamentals-crafting-your.html'
 ---

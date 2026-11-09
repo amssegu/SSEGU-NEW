@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqZnJQfaRePiBsffwLsv3_JhCzpagxA56DZhwQVpAKM8BsOENSOhsKjSMysvwpOov8a9w4XelPPMa2LjEKp6ikLPdh7qB0kGFoH6Ly2lVza5tP_vXakPuxhXu689RqVcz0hErBikK0AYYapp6SljtlwbF1uj1wE33fe6JgaksoCJPuDkhLvD54xmvR77Y/s960/man-5723449_960_720.jpg'
+imageAlt: 'Illustration for The Future of Emotional Intelligence: Why EQ Will Matter More Than IQ | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-future-of-emotional-intelligence.html'
 ---

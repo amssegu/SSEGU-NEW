@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh56N5ScU8RHIBsyEqEc8391q5hrHtg9jIM6BusJx5cTbTZE56G8M98MVfTasTMjXwCpB_1Aeyy_J-VQ-42S0gV2eQunZu_zI6yRLNdrn43wucNX8hcOK2trHC1L3h8AQgEG7hTyaoFGIT7U-RArtTBt_0OT_6IoPW5PcajBad3sE8-bIIQXacZdndT-dY8/s1268/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Email Marketing for Beginners: A Step-by-Step Guide to Building Successful Email Campaigns | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/email-marketing-for-beginners-step-by.html'
 ---

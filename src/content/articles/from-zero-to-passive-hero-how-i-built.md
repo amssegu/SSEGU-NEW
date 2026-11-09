@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb7EF65tIyjmy-oWpkJkSRROhb61SgATNkO9EKJBYRQvZHZveypcEn3dJ25sNcxFFYihKh5N4z6NU8NHTnPKcLr_7jqT2cxrH3ChsXYWoQDWWJuMUlG9_fbKWY3lRFSxcjI29QDLkqzgT5ghqfFmyqkXS_mJS304MyGS9h1haQdaqVNePBJ_8jJsl1u5s/s1280/money-6780010_1280.png'
+imageAlt: 'Illustration for From Zero to Passive Hero: How I Built Income Streams with No Money | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/from-zero-to-passive-hero-how-i-built.html'
 ---

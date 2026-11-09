@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijqlh5j4xIRxuBRepWKkk82eSDkbvmnBnJQU4sVOnXWPxGN-oEfP5WBFblvl9yGIAVFgZBYJa1mMgzz0yAzJhsNugwrXtBxzEaZmaTXVgdOLGAlxnSZg7hw2EtJATWj4867kwrZ_6SSe0sp_DqdKCyaOL4Z8dF1_oeROslH-z5g83V4GMqdqJhTJx4F64/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for The Descent Kali Mu: VJ Soul | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/the-descent-kali-mu-vj-soul.html'
 ---

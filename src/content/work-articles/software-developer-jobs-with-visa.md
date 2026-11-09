@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIUyRdT5DMlIZHPJbtosxeEbsZclBWNqRwfJz3khbE2JTTIzq7rmyGFQeOnZmv5lQAqJt2DOcaEva6ZyxSbinMh5E-aONqM8ktF-EJynz-3PztbaWpqAnezuCS5OFAFnFDDD8DPGUiCmZgxZIHfkVcLMrsHvy7ldgyXmX2RM1rh5Nn5_Ci2JGyFP5xKdHP/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Software Developer Jobs With Visa Sponsorship | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/software-developer-jobs-with-visa.html'
 ---

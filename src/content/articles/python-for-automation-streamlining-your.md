@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrR6MXVjE9oZJAXqB6yagHrX4cFqkIeVpS5-0wWXKMRxUaWTEIlv-jqUDjLTrEBhhUVb-pdPVsZX4dkFyVCtNBPgtr6W5m6nRfOlIxWXnE9wqYvyVQfAZhuy6vpzEfz4LBexDPhJJzc9_mjvmXJEBdhUCZAYhTDtJytvvYQpu3UV9-6qUc0-dWOptFibTa/s1024/Logo.png'
+imageAlt: 'Illustration for Python for Automation: Streamlining Your Tasks with Scripts | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/python-for-automation-streamlining-your.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20detailed%20guide%20on%20how%20to%20purchase%2c%20use%2c%20and%20check%20the%20balance%20of%20Amazon%20gift%20cards.jpeg?t=1716261650973&amp;width=860'
+imageAlt: 'Illustration for Amazon Gift Cards - How to purchase, use, and check the balance of Amazon gift cards. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-gift-cards-how-to-purchase-use.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ2aqnrZhNKQselsUK4q5V7WRjxuZ1C1J_H6u7Bs0fJ69v7ZSOVad8W4Gk7ijE2mzCWPdS8iv5GSPZIwVgNY-j03ETksScC1byUJFhAdJA69ieIJW7AZ8iWVk0ULW00jEpjwr153iXrxsTx3MTrRCywI0plfSYas5QwN6RyanBM-FwTvxoXaDBMTg6K_tR/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free English Courses With Certificates Online | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-english-courses-with-certificates.html'
 ---

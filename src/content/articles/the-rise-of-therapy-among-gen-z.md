@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBGPh2nUDOjhp9-untnWTfElOJG42Qa8u8hNT-yXJ-5AEkJ8f8T15-5PVC0vd5Hp5mw0zCiDFGslQmJ4FYTjIbC79phyOxMUOXkinPc-G5GZUEtvvI9ho34_e8IT9vR2vxwEQOutQtICyJp4jye5t-R7I85-uSv53oiMKCboKGL1XEnZIZVxEwDplEd_0/s2000/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for The Rise of Therapy Among Gen Z | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-rise-of-therapy-among-gen-z.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixplSvtEsYrA51mUCkRq_Cbypwpv0ifIzY-vjyTbi5_ZzKcm0zAkUIFcrkb4mGtHNDas0KYaVu2ZaLFrJYGe_coZ9OrTs30khwOc3UzbNJ49dvuYAoxN0CdnsYPxWWzjfjib7ehiE5r_iVjnuVa1y2rD_1Bo27d-aHtTJsp1cZq354wSnGVoltyBGi_pQ/s1280/rain-8769547_1280.jpg'
+imageAlt: 'Illustration for Boost Your Earnings with AI Art: How to Sell AI-Generated Art for Passive Income | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/boost-your-earnings-with-ai-art-how-to.html'
 ---

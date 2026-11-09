@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-sLfs6IKVLiAHd3D_sqb_X2naR4N3LyBjYCqmUxLRBDuN5I7UjnfbMMKlfUUaj0WTNWKWpKJ0VLoQmQqocPyoaPnp-as6c5iqy2WHqh7-OlA2Wjyn4I4aG8LwvTUKPRdwChkhpAiYD7XdFCw_PfgLmW_UN2amcg4AiebUhv3HedufevXYo913sWjGJXo/s960/hmd-4140960_960_720.jpg'
+imageAlt: 'Illustration for The Future of Success: Why Emotional Intelligence is the Key to Thriving in a High-Tech World | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-future-of-success-why-emotional.html'
 ---

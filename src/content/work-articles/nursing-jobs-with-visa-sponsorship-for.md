@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYb_hRxaDWV0vOHdvPRczWgz3LorVDcTrKv6AB_uX8FobsYZiubdJfXzZ0l5zbBK8cT4xpZPsqP7En2nJS3z8R7k3bpKvm1DvUH4diWgtiZFFOqBZ-ZnuPoja5YnIhnZwyRMvvy70GSZNqSPNSL6CnbXv6fr-QAMIG8dvu-q2a32esP70w93Ykx7x2Y4_a/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Nursing Jobs With Visa Sponsorship for International Applicants | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/nursing-jobs-with-visa-sponsorship-for.html'
 ---

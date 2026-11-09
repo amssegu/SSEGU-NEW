@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXYgSFb_ruQpSfBG1UWZXOvkFb_O9l6OEdjSrlPYd40YqbEpVHFuZMLZmiIFXWbkKVoKDDlRdfzmb72Vrjf0EYVAC7_obVqffMr1oKoiv82hNOWWimmqfM1alSdWAnuX1B9WFnHzegf-wdgY6B4prVg0mLHx2-lwykA2XoFlnyhUFEh9ntTgktU_am4965/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Programming Courses With Certificates for Beginners | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-programming-courses-with.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20Bitcoin%20BTC%2c%20Ethereum%20ETH%2c%20and%20Cardano%20ADA%20logos%20displayed%20together.jpeg?t=1716614162395&amp;width=860'
+imageAlt: 'Illustration for Navigating the Crypto Landscape: Top 3 Coins to Hold Until 2025 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/navigating-crypto-landscape-top-3-coins.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzV3V-i4B_4lWUO9C1r2Qw75aDpmO4NsKDkGqWE8qVdP1Oo9Ps8oat8DsIg5ASCySH9I-5YAmGLbY4BtvuXX2yH83xJxJ69WpLke3OdKX_qmV9LYk3wBh5rm4yS19LXtqCoG36XsSzY5RFra0rBrv8bjLq69loSAYOl-tMQ7deO4tQDmK5RbV-7QWIdGE/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Frankenstein 2 Part 1 Kali Mu: VJ ICEP | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/frankenstein-2-part-1-kali-mu-vj-icep.html'
 ---

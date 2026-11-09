@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLLZpxbQ0IxKwV2VTeYbulBnk065_5jSiifC5BCkutQ1VEsvcQEBNoHZ_ksViHaY6VadG61G2WONiyuKdg28sLGwAZWjRklRwgWEHRladzbXXW6K-sauioGcWNd7drRyMDh34Qxet1rjzhN8_fZQ444a3jVHBuCxPdJnW8mxbozYRDYF6uCqSPjc6As6Y/s1280/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for If you don’t understand these money laws, you’ll never be rich | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/if-you-dont-understand-these-money-laws.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwkupY525uciyx4XkwPANavjToiLeT6IfFUDjhWTDgAsIs3wtlNlg30HTtBfs_H1qJWD3reImg1Z2szXvrS6chyphenhyphengLoHxCGsgTNJUhjbp_LZ0tpmL8dWqDCCXZbdDmGFDvKMxtTFrU3YCBwOtHqJZi_sBtJFA7rYFulMQQM56dtuY09JLX93wwNmsqNPb6k/s1272/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Job Interview Preparation Guide: How to Ace Your Next Interview | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/job-interview-preparation-guide-how-to.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsKGRGAWsAGI0JqAMWDNrTvW36IqUio8moJAfBNrVU07C895Va-YEWeoFbcgevHqikpSCyIrwrGYxgD9vE82Svs1kYt7UNrhPpBiKbGVvrw0-fcnpl3m2ttc0puxRi_r7t-xBXkXwdD4cYTHfnl7MvJ7NR1pnSsXwBgU783Q4f0cKSMGSZy2oWxrTQ-uA/s554/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for HUNGRY Kali Mu: VJ Emmy | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/hungry-kali-mu-vj-emmy-ssegu.html'
 ---

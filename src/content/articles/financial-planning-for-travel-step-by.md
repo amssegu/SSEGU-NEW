@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsGnzIOvptv3lKFFPUfDMgmlnAIEIa2naQs38rfOoSoUnqVLcw6_XW5AyGtEZVc48Tq6LTD9WvSMxo-vvWUabI1TrD_qr7PO2Yw2zhEhhyphenhyphenMRSVBeGeMmb7yb0tddHeSaETcfpkKb6SZGsz2xFO8-SCJMXkP86MstYZQ7rnm4ChRn9-cqjCpSjLeIbdpZ8U/s1024/Logo.png'
+imageAlt: 'Illustration for Financial Planning for Travel: A Step-by-Step Approach | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/financial-planning-for-travel-step-by.html'
 ---

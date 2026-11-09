@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9G9dFCXliBwPdE4xGX0mGSYQEsBqszn5wmFEbs58soDZvExRdhzoG-kjmJbwTyG4HcaZc3ElGnluri9jszS3n-PwZ1ra5BDpxbD6swOtoaD2k8ALnYFjlpH5U4aK4FErbTkbl1ZZCKhyUPpGuADnIMfv1SBhtI_WuTTQAqJiNZM8yL2ZX6YzC7u65rK3d/s1024/Logo.png'
+imageAlt: 'Illustration for Unlock the power of IT with our free online course on the ITIL framework! 🖥️ | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unlock-power-of-it-with-our-free-online.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20tree%20with%20multiple%20layers%20symbolizing%20maturity%20development%2c%20with%20roots%20representing%20biological%20factors%2c%20branches%20representing%20environmen.jpeg?t=1716444734059&amp;width=860'
+imageAlt: 'Illustration for Unveiling the Layers of Maturity Development | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unveiling-layers-of-maturity-development.html'
 ---

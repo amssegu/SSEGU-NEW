@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij746lLnc4wTnP5NaczOFK8e4QfkgBWoy1IaTTqxKJslNYK3u4BBtzapq28ewkPiBAGYsDGsAIO7Q0kwtCMhhILC5sv0aDD87SM5i3LEi0zVSnyUVCstYIbD_5i23I8nMP1Jb0xq2bQeq_dlSRzxebq_P-CPQMxSgFybAWylaDKTV7YA4MjzaaiJ8Fg_m0/s1024/Logo.png'
+imageAlt: 'Illustration for Mastering Public Speaking: A Step-by-Step Guide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-public-speaking-step-by-step.html'
 ---

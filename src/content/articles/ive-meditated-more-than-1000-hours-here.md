@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/The%20image%20shows%20a%20person%20sitting%20in%20meditation%2c%20fully%20present%20in%20the%20moment%2c%20embracing%20impermanence%2c%20and%20cultivating%20compassion.jpeg?t=1716614398805&amp;width=860'
+imageAlt: 'Illustration for I’ve Meditated More Than 1000 Hours, Here Are 3 Things I’ve Learnt | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/ive-meditated-more-than-1000-hours-here.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOVcMlEgv9tmr7Ss9qSPo3j0fIAqpj-wMamS-3aAModqy0tlDfOB4X1XbVarnNzuupjiDRceoQ7mXCwUvVRcjIVVr_UCv11tyvhzd_ltnblIGqlbs-0TV0P6ZoFI2ERScnxzVPd4VjKvGR4vnndNgfXD2ZOntGISvnXlaOHAhVB9b6XJIan4Hh7cwGGfBr/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free SEO Courses With Certificates for Beginners | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-seo-courses-with-certificates-for.html'
 ---

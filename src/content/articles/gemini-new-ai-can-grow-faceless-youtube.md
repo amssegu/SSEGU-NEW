@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilmvVH7iWKr6haqvBGZ_3vUn-bXSEqlO-Z1m_MiO-4DlF2YZosBAu471ToGnEPJnALqEB3sGM5fE03CfpnNmuNR7l5rnvgS9p0iSWkqsFKo7r4zexyEB2aDeFZYEGpKabKlnBAjrotdYShyphenhyphenR2JZrQLNSMK3Lkzfz7FB7IuA6vMHIxzCkRqRDq5ORpE4a8/s480/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Gemini NEW AI Can Grow a FACELESS Youtube Channel to 1000 Subs | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/gemini-new-ai-can-grow-faceless-youtube.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXJPg0Y7gEHbeUn2T7UVeSUPRoscNejYx7gmgp5i5F1kDF6tngFpJcY4pqKYN8lOlpvEkI8dexfReXNQVnCTVAyLPnExV9OwQmYQMVH8NUq0XhsNeYX8Hkcf99vfzf0Us5yhIpvlKAgfxOE9ggMKDcHwbAUP2ubZh0TFwas71A6jOdw4OqHrEcHBRX27TA/s750/llll.png'
+imageAlt: 'Illustration for The Whistler - Kali Mu: VJ Ricky | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-whistler-kali-mu-vj-ricky.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-16
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5Hk1dhnCX23-17HCkJNLQ42YuOkVC8qsF2S9436QCzyVhCiU7nOjxRZTY79aav1_qk164d3sI61arrS9ral9XybvgIPA242iEzo6QoW1ZzVwcYBEGRfuGbeUjjfUAmdwQp1NaU59ivGLUB_WzPW_WUctNldkr5Iu_qmcW-SKY5yN-wvYeFPtsPADvNTw/s1600/image_92b0fe6%20%281%29.jpg'
+imageAlt: 'Illustration for How to Become a UGC Creator in Uganda: Turning Simple Videos into Paid Work | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-become-ugc-creator-in-uganda.html'
 ---

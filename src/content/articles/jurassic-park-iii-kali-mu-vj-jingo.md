@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqLaIKxAQ5pUQD5c7GaV2SYtsY7IxQ5Bo03e1LkDw2ECcaNDYbRFfNZI8J53qLlFnO9Y84fSNZaMcU-mWH0LxP34e1b-mrYFIuvZxfLSN3wN-avs0FZnTimyaiExtvHep5d-q_pBkF68ZJmUoZVRDVBKo3YpDGX59Q2kt8_UBZXg_H6K32KfgDc5QuWFE/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Jurassic Park III Kali Mu: VJ Jingo | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/jurassic-park-iii-kali-mu-vj-jingo.html'
 ---

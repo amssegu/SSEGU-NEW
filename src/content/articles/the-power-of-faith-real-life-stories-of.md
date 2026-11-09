@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitiC7DN23YDMzLzsglWq9bwKyG2kQhqm5KO_z5ZxOo1cZqiEOvEO17iVLLs6mBSQkJpsa8zSPcTg67stGFcRZnaHo6FO9lEh7ZVyHbR6GXqwFHahVoUS4cYMJpQAXilRkhK82XSWWujICdJ7UAcmLZucVHVSjVrryUKbo5JuC1W8E1nD14F3fnu9HZUN0/s2500/download%20(3).jpg'
+imageAlt: 'Illustration for The Power of Faith: Real-Life Stories of Healing Miracles | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/the-power-of-faith-real-life-stories-of.html'
 ---

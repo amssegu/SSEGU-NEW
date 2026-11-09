@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLQ8e50iEHqBtfXf4CAo8OzMFVRdGvFXhL8JYbdW_JoVPpuRVAzHnnpxuzbFRHYTo0ZGrua0sVPeZeG3ffgnkvCufJ4HcS7xAOayVQpq9UgRT-MIEmDGuEMaiu_VpbmBvX0YOoTqkvaL5RbRRyLWWDPWhdCJla6yBDsWYmW8RaUczedg1cnLC3w_cGlr0/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for The Watchers Kali Mu: VJ Bonny | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/the-watchers-kali-mu-vj-bonny.html'
 ---

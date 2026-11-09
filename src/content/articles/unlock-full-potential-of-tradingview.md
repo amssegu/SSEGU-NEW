@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgULG-_CRT40GCb2-hl_TdGb7IJ8cyBImBSrq20HLiQayg603aH-zUysrMNyWaND6dwZIX-GhASdq5psA4sohKdmT2yxk3r9ZndvRtTpgn5dTz0JJJn08z1-g8355s3dtITgfdQvj_6YoigYw5CMS_H7Rb2XyiQXm6Yvhrkb3AwnYmRltXwXnqu7GNU9LU/s1024/download%20(2).png'
+imageAlt: 'Illustration for Unlock the full potential of TradingView with our comprehensive starter guide. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unlock-full-potential-of-tradingview.html'
 ---

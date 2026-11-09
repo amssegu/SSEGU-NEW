@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS-5qlWFGMjQgQPcT3dziUH0HYEWfoyML7wiE9LV2gdBiqnKQ1R5MnV256SWWrWwG3KbLPLADkanxEl2q4Qg7YlYyxZ-j1p5QZFfBb937UwdECuT6lNYlsbCqRAR7pzk05xp2YY-8bJTiZWpbM63tB95yyr2ggh9AIfVOb1GNU_rGUNUav5uhwp1mOuo9V/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Excel Courses With Certificates Online | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-excel-courses-with-certificates.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAixDe8gQoR5P-2rynXpyN8oAhDPELOr9Ve4DScxORwmqYuIiOkPRhfvNz107Cb6dyLkmtARJVsxTsl2aRXAlTxt1yA4KMx8AnWGqONFxWD4mz0QyPvHGt4f9iJ3KnnBtyPCJLmv1l8Xjo-lLOC3nlwQ9Ds0jEXNINs4HJ99x2Y7Y-NyLM1zZJJ9q1Cyc/s2500/download%20(3).jpg'
+imageAlt: 'Illustration for The Mysterious Powers of the Original Magic Ring Revealed | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/the-mysterious-powers-of-original-magic.html'
 ---

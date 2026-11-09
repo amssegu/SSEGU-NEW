@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvR1MMxgkdTc_jD9_PsW6FetHe6ryyjZS5X9Xg7NVSNZBJ3TrRoGZp4xnWTgK9uPWxjYWLWM6IttUwd_xn8dGSqoavyalZMPHbVxHf93DuP5SwmVuLOVWPckJJlCz4GocxPm7nbditIDLuBwzArXkTQ-hCb22V53Yscc8T2P1ChKP8s2Ho7WDozzewFcs/s960/entrepreneur-593360_960_720.jpg'
+imageAlt: 'Illustration for Starting a Business with No Money: Top Business Ideas for Entrepreneurs on a Budget | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/starting-business-with-no-money-top.html'
 ---

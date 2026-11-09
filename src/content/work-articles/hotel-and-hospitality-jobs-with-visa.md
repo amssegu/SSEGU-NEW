@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHx2dxNcnr0NU8rRJDaeKg68-3XKaNx9NB252orjDotbfKXc6Mzxt9NzXqPPlAHsg66FGErWcZV7zD94OXWlb62y_dMNpdhT8FBUDpEI4tNjNi1htnKiMfGWwajS00ae0TQOAq8snZcu6F7MXWE4bm3yyhLEI-KLnBSgOKqPE3pwI_d5BWetFpzpDglU7e/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Hotel and Hospitality Jobs With Visa Sponsorship | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/hotel-and-hospitality-jobs-with-visa.html'
 ---

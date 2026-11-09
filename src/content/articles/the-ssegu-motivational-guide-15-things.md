@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil7WX4XaTQWCv78xMdBOjNbGBtXme7O_7yVdDY1bROVMEjIPCRGXVSLovzOpgjK9mVbmhR-clgCzVXKRxTba3dHl7oMZjQlofp9b-Ke7M37l7ssMfE0VqVYBn9dhHcsrHVQInVST9WvcDirsm5OuBcKCInr5bVHliEAp4j7uZ_nqHgHLj1L5Rnt_hIp3s/s960/broke-4765739_960_720.jpg'
+imageAlt: 'Illustration for The Ssegu Motivational Guide: 15 Things That Keep You Poor | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-ssegu-motivational-guide-15-things.html'
 ---

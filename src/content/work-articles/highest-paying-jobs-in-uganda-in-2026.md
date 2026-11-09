@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXa5MrRHAxr5B8EZGpxutnDUM8v4fcEJ4IbNp-EolU8T21m32oXNfC8nLPEkwTJ4Fh-HT2wtD2SXwa6Vc-wKGbFctQMyNe50CSt0380hWUZFGJO1WSuFvjzxrBbc4LSwPxtrJpjIR0vtQpM16y2onVoxmJhyHEZykBR8MTnvV_r95dy1SMhveYULxBXv0/s1229/top%20paying%20jobs.jpg'
+imageAlt: 'Illustration for Highest-Paying Jobs in Uganda in 2026: Salaries & Careers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/highest-paying-jobs-in-uganda-in-2026.html'
 ---

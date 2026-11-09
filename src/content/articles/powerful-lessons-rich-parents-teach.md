@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA8-Hc2C7F4j1JhoZx_LwikfZ2MPZphZL_CVPbP9GtB5BJkrQHb1JneZB2nzUElxs-qZhdN-pwlLJnwqTqEtLPbiO5dtYsJvKlSByYg6iRMDbNQYJ9tDI50sYjVuLVTliDiFZAQQ2VrWOmdaAdRqi-cMrJmfyxYh4Chjv3McgP6LoiL-_NC1Na8szU42s/s1280/boys-286245_1280.jpg'
+imageAlt: 'Illustration for Powerful Lessons Rich Parents Teach Their Kids That the Poor Don’t | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/powerful-lessons-rich-parents-teach.html'
 ---

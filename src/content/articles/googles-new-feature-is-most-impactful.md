@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20Googles%20new%20feature%20utilizing%20Generative%20AI%20technology.jpeg?t=1716614681686&amp;width=860'
+imageAlt: 'Illustration for Google’s New Feature is the Most Impactful Use of Generative AI Ever | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/googles-new-feature-is-most-impactful.html'
 ---

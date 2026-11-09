@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjY7S7fm00xXF8R-pRapxHKX5-4KtAcxz99cPq8nRH6kiJLHovg2eOJrTgLV79BoNQHFr4I7d0K-xEYeGoUNJ5h8ErP-fs6cJ7NcomiAtceo0THYGl7HCtYtdJWPMksC8DFdT-Dl9GaER4BsXr7o1ev0zXQ5ye3uSoopabPkRaZ4nR29LuN4ZifFxEqB3g/s2392/download%20(3).jpg'
+imageAlt: 'Illustration for The Healing Power of Traditional Remedies | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/the-healing-power-of-traditional.html'
 ---

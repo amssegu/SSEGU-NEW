@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8-Ua7rNLnEqTcWxVM_A6qtp1i7Sx_zBVpkp2TW4JdU-kKCWhS0rUR1jk7nCZtMk5pYtxcYYQ56EKDJiL9LYxzExQIqnHORAdNZO_Wc-QY4pn1P5_AM_tiLvXxCpxZDD5edAQ0hArUrYLTwcggPLEY1jCUQ7sX6RFTxH2Kwbp2wBOoX6K0CwqaghP7DrY/s960/jerusalem-108851_960_720.jpg'
+imageAlt: 'Illustration for The Real History of Jewish Wealth | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/the-real-history-of-jewish-wealth.html'
 ---

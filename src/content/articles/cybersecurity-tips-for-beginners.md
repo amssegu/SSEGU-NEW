@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZWYRErTxfoz7HRRiW41cy-_rnUCixQl-1CcuvIbe6PxDHCqxHunx_FZlc5e5zo0AbK1C9ppMy_96bQ_VUUhlorwnL-slMw7VpmeqYp3FI4uqPW9iuzMvJgvA5BbhkIQZwQv4bfZ-KWRB9rn5IQBPBIxLVAtgRFRJJtS8bWo_a_VUX7zKHkS72t8QXnhkI/s1236/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Cybersecurity Tips for Beginners: A Complete Guide to Staying Safe Online | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/cybersecurity-tips-for-beginners.html'
 ---

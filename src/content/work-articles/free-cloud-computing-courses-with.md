@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8C_vyppc4Sl39b1-WSv_MB34HtXKg4KkVE-iOFjHYCCGz6KPriFtKDGm0w7P9Q70dAIwDedUjdsSnVWjCJRuhIK663KaWpdK2mVDG-33_3oeIszKIR2N4cHa17zc0Tim_hLQJPswGWhNnCvMN0vaNBNMmvTc_OoTO_8fYfGvkIMv1Nv91FDceLIhx1Y4O/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Cloud Computing Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-cloud-computing-courses-with.html'
 ---

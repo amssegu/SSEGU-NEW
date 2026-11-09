@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi77JdcvGMyOxLZHqoZCKvUBXq6yiXMnzIijMBp4VEVcEZFSesnOPNPR-uhI5EH1dl8yrEOF4gqyPNWq4t8JCF0PbVm3AxkAxcygYn4A3YQVUZ5iQsgcUiVz-A0Xf_lXjl_gFpwDT2PXCxe9SZdbIcI7Tz4Swr5oezFIptNyYO8QlnROgtuYEJSOpyYeLga/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Pharaoh’s Formula: Building a Luxury Brand In Your City | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/the-pharaohs-formula-building-luxury.html'
 ---

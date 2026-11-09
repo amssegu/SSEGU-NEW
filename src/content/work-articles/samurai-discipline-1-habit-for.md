@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXK-5jHkcm9M-Q0Uvf9eprHZSMxEsVOMKKRZ2fq5fpzo5dK6GStSuYQYfeMmkJDRAGIFHPqwtD3h8QSRbDcQ5ZvXmMQlXeXXLZD_GcHmaiY4kmsp3k_62XLySNwwK3aOpjK7hXVRvwL8WziroxkAqeZhIvaBgJ58RB18r6mrpDU4sRxp0AfUSHOM97WVLD/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Samurai Discipline: The #1 Habit For Consistent Freelance Income in 2027 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/samurai-discipline-1-habit-for.html'
 ---

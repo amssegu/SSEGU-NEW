@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaFAEMkjOydb-VIgqgHxEhebYPwYJeXTNsTOjkDyEmDb7_Kw_ox2cO0AOvc0vROm88mRiuf021SdEk8joVXvoWC6Far5ZDLepQOycPCgcaC1qDSdCxPPDOusK0VH9slcfLQq1a26xU3UQ5PAwFetOHTYcV0xwAWSUB_SIVBLfVe2LYoHVcfIySLmh3ug1i/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Online Courses With Certificates You Can Take From Home | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-online-courses-with-certificates.html'
 ---

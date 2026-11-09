@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8WybTZi5rSOLnm8DaXYcUPDHMl-zbV_1HtLT9KoQbZOy4GQzqtokt71YJKtDqGB8rOJIxfbHrrroLjijWKRvooEXBgUBUQiMHi6j6FnMC3YfySnYEY0nzgGsYQCVc3x1CRReM0N9r1i_lQClqnhtN8alYmC6NEnIHf-bHxgJH1vF2P16h3tZYXDZ67vA/s1280/work-from-home-5021316_1280.jpg'
+imageAlt: 'Illustration for How I Make $1,000 a Month in Passive Income Doing Just 2 Hours of Work Per Week | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/how-i-make-1000-month-in-passive-income.html'
 ---

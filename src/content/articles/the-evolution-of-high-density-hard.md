@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-11-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4cWnRGe9nxGT5M58N3QP_tQEGYu-tjhv30kFND-9_3aLlkVdRatBXkymUG_7FSEUT-6vxzT4cTbEBctfOI_ywbXkJ4iEIjAWokkJWggaNyPW6ZIlIvTVO55o9nrXsCh-hDwi87QcvRpTCF6OP8NlTvnn36Mi2vF8tLifu0Zt6i6WKS7AxtYxxSiDWPBw/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for The Evolution of High-Density Hard Drives: How HDMR Technology is Changing the Game | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-evolution-of-high-density-hard.html'
 ---

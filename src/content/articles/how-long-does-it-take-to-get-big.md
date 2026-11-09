@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_VGAr2df8qOj92sglWbfRbZO-5MgMPVBpoejSOeJ-ON2LkDpcxxz_GFnvGxS5ahZNe_D1Q5P6zn34sJgrjgyi6FwuOOOHuSO4Pb1FWOoRh6xyPBpdMuAIKwtU848r9E0XzbFpiR6CRrtAnyHfk0VK81Flfq_QHQ_Pd-C-ILzUJe4XKP4YggkHbWZACUU/s1280/man-2604149_1280.jpg'
+imageAlt: 'Illustration for How Long Does It Take to Get Big Shoulders? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/how-long-does-it-take-to-get-big.html'
 ---

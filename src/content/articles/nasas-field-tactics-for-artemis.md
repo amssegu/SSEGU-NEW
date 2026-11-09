@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/Astronauts%20in%20spacesuits%20conducting%20simulations%20on%20rocky%20terrain%2c%20with%20a%20backdrop%20of%20a%20lunar%20landscape%20and%20Earth%20in%20the%20sky..jpeg'
+imageAlt: "Illustration for NASA's Field Tactics for Artemis Readiness | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/nasas-field-tactics-for-artemis.html'
 ---

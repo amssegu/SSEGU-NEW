@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20sleek%20pair%20of%20Ray-Ban%20smart%20glasses%20with%20advanced%20AI%20technology%20seamlessly%20integrated%20into%20the%20design..jpeg'
+imageAlt: "Illustration for Meta Just Stuck Its AI Somewhere You Didn't Expect It — A Pair Of Ray-Ban Smart Glasses | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/meta-just-stuck-its-ai-somewhere-you.html'
 ---

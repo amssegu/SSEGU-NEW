@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqjTPxW82Y_9tFFvqC215IZAe9CJC4f-to_1hr8GBeW4QzCeiLHKBrGMprOXHAFIN3Vlvd0ck3r4SPbug1vqKw0zRDqo91-ByMjNznCQ-1uzgf_Efsb67brX0v9OMQDRliZb8h5kpBzy2vC7hn_Xeg9aRSmTM7L_7JjmH5CUSE4B821lAEUHqvWmdttO8/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Learn how to balance speed and capacity with SSDs and HDDs for optimal enterprise storage solutions. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/learn-how-to-balance-speed-and-capacity.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPEBP8lwlr1qZIj8AO-n5KPv2NCZIGZmyo8cZCgPndLLGCZguhzMRp45MMGwvaBfJ7Rs7xp3ZwV0KKQ3kFwSFbV8UxyKQxxne49yRjzLht6PJzsVzUcJY9TRQkSKIFMDPYbrON7HceX7V-o5u9yTMvmQnm4U6aWBZXJjZhaeHv86wEb7teH7E7956EXRMG/s1536/llll.png'
+imageAlt: 'Illustration for How to Start Investing in Stocks with $100: Beginner-Friendly Guide for 2026 | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/how-to-start-investing-in-stocks-with.html'
 ---

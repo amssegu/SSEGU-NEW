@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4clh2lLc-irHfxvgqZxQhzXkrOrCiC2VoaUDtZ82_rYWW9l7X4cghf9-HIHRAxnTJXtamnX3VCtiMm6eJW5iYFct86GU8547_XCULHAPq72kfCbokBYSumTBf7QyyT5lB7rHro32-DOhy8FlRMmUhihyphenhyphen-LX9zXuDRXdaxKJqmkHiuvyWZGGgsny1FIto/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Diversifying Income Streams for Online Wealth | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/diversifying-income-streams-for-online.html'
 ---

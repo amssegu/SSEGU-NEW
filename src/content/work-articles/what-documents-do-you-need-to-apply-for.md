@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig50SUYWIEQHsdBN77N1vHkeYtdHdyW89DiUILOxVKfLxZlWTFjqqO8Cir3a79zK6GNbIE3nk0evi2Eq0O9Ww3LF3H923FRKNVFs1-Kj_pjOQNLIBHKWroNprkWj8mpu1PwjFlHjlZkEn_8q2xBBlmNENxdF0CY5bnAe0HJCNyeYmJbM3ybbIc2c_j6ug/s1600/image_c2b1e3bf%20%281%29.jpg'
+imageAlt: 'Illustration for What Documents Do You Need to Apply for a Work Visa? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/what-documents-do-you-need-to-apply-for.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLcteOcilBCIH9zVz7jcOLaaUJ-uJgcyai67vPXhsz5pivWh4iEzAKmhVH2W6PALPk4zq_8Ik91rafUGw0pn9AvB_-ELiWWOjLm_dIIA4g491k1zJJu3BSqC-4rjGf1N-KPE7RM_NhTS8UrxTE60njuQWWwQNEbctmdWA0nP03d9IxgWlq2AoIB716tCg/s1280/business-1297532_1280.png'
+imageAlt: 'Illustration for The Ultimate Two-Word Technique for Manifesting Success | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-ultimate-two-word-technique-for.html'
 ---

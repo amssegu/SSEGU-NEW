@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20person%20using%20a%20smartphone%20to%20stream%20music%2c%20listen%20to%20audiobooks%2c%20and%20read%20ebooks%20through%20Amazon%20Subscription%20Services.jpeg?t=1716176774647&amp;width=860'
+imageAlt: 'Illustration for Unveiling Amazon Subscription Services | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unveiling-amazon-subscription-services.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimDPYN-54cOlRbsSi2R7ZdsWBEaCodczNyPXch_CKGF6i3g6NT29SyC81_1a1dsmJOFLxPikot6AWhPIcvCGVGtPZyfzRMn-KulxR2jRC-rK3yrf86g51B0uoUb9XTU8m3u9hT7khq_1APXUCFVzG5a11y1G60wOZBYwNGsLVdheM2P8ozwq0nwGppQ4hf/s750/llll.png'
+imageAlt: 'Illustration for Storm Rider: Legend of Hammerhead - Kali Mu: VJ Ricky | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/storm-rider-legend-of-hammerhead-kali.html'
 ---

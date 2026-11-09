@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgS_f-rjA_lD0rxD-tK_yZ4eGQgjvX0JKLmufmN2QYQv5nDZ3Ysm319fdKFrCYCz5_5zdKwF0b2kDzKfkwspmLWyeFwvCW1VYlB23kGpZJvLcLS2DsTYtWNbEL5NnCKH1Np0aeU89e_aij-N5pvzHFzneMsEYBKceMnF9-Ujh0tAkq8jqGAW_CHq3KnOEH/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Mechanical Jobs With Visa Sponsorship for Skilled Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/mechanical-jobs-with-visa-sponsorship.html'
 ---

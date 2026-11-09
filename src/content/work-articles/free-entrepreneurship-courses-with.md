@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-08
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGjnrSe11gLMx65qQhTxn7Ib7cvPxrUMcGMSTGQKYq4KfeaySNFFHBv3YbEzrpqPbPnFRWNDKbTyW4laUetnfgdGS7aafodSdhDRSIjCnvGl7fSc-9Tzqa_Z_POChsvmrK5Yq3zmw0mECGAX8_gd2vBJSmJYVz5WPUfUovU4t6qJe9-UF0tnXyYLzz1ApS/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Entrepreneurship Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-entrepreneurship-courses-with.html'
 ---

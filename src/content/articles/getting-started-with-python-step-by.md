@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh67dMLBdA-vwxcYNio-HOriC4bav9ZIaLoPyYtG1IqEMIR-Y0R0twhxLBxDqfB0CMd9_Sq4wT_Mhg-mUwNG23fvq4R59FSJrsXO6_jmjK1CvgF4koPAadKRyF4He-JD0WBvnMUndm9hs98Eq6zCpWQd8rgWNwFif8DcE_x0metnb4xScfKDLK1S25t55M2/s1024/Logo.png'
+imageAlt: 'Illustration for Getting Started with Python: A Step-by-Step Guide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/getting-started-with-python-step-by.html'
 ---

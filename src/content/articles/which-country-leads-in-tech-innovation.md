@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/The%20image%20shows%20a%20futuristic%20city%20skyline%20with%20advanced%20infrastructure%2c%20highspeed%20internet%20connectivity%2c%20and%20innovative%20technologies.jpeg?t=1716444896696&amp;width=860'
+imageAlt: 'Illustration for Which Country Leads in Tech Innovation? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/which-country-leads-in-tech-innovation.html'
 ---

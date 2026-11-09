@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDDXwFwaNWtNbs5mThhP6L0NxvYrreZVwhsvkNdIo-ypO75s-xY4p6xhVvQQMFNyc7J1IScrzWWtH7BTa1khag9jfR0-ek9nU_YeF1lw-uGI5u252tqNrdUo9jgjEbzkLdfs4kVZZNreiCDoxMAvrrrAIIMms_PF7nkMIQYmL-bHH0YfSbRJYgIWKWOqM/s1024/download%20(2).png'
+imageAlt: 'Illustration for Unlock the power of automated trading systems to capitalize on market breakouts. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unlock-power-of-automated-trading.html'
 ---

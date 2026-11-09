@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPAHZivMTrYzORCOQxfBAjHpn4AaYlQUKFtPa-ry4DmgoIcGtelPgCIPUfLtgmIpqFl6UJTFmqxgIERVrB7SYidKJ90DBXJkuyd2PQHlqnAZzPzjCX5eqisAa4BHEsqIkcMgK0QTuFXxwtrrUzQJRPkoFVsNfAe_lNyTz8iG_QJ7B5W3Cx7jRkS2GZ_WyL/s1284/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Work Remotely Successfully: A Complete Guide to Being Productive and Effective | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-to-work-remotely-successfully.html'
 ---

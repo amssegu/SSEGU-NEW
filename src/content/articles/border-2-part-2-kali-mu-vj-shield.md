@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixoVPn57iC9bHBtyET37_f1xWXexkH9Lucydysk6eeaiX7R2aZHmFDpkspI0yPnQJkkKH7BQvL_5QjmWpdQjMRpjPS0WarXS0m1WT6NMSVEmMWWZVu4pDSvBjTphxpvMGoNmI1WsvNVQ6ywgc3sW4xAP0OePP0CSDLXnpwd0bF7pB0SEDIdpwUeq_UzJU/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Border 2 Part 2 Kali Mu: VJ Shield | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/border-2-part-2-kali-mu-vj-shield.html'
 ---

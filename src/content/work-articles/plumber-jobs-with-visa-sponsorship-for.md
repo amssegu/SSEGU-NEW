@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9jfMEPgOuaH-WfjD-4YgZNaOZu_k3yU1fZaWoxhf097cRKlHj74v5HelEH_X8L21c7q7Hni9ajuTQOQVKcuEZy_0JuO0iIUVavxIF3ZY9SHV8jHb8A81jFT1Vu65YjnTXdLJEHvRObeg_2PAyJsiCMuoDbi1g1hKS49P82fg1eA_B691f0rqOtwWBdlQq/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Plumber Jobs With Visa Sponsorship for International Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/plumber-jobs-with-visa-sponsorship-for.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKiuyhatNL25XV1PI0wgNExxIgCj0B4EuTaN80KaajL-UBLdMhS0xB4vzBGfeZiL24Vph2Wjbr8-655NUajfEsyHEchF1rAxUvZ0CBKnD9Lbxo93R-_krgtOdlSb3_dLiwuESOCoP5nmSsLNO7MvGfC_rglKpjojNt7Oia17Q_UjdkIUcRMvpIO8eBCBI/s1600/Gemini_Generated_Image_l58o5yl58o5yl58o%20%281%29.jpeg'
+imageAlt: 'Illustration for How to Turn a Digital Skill Into Income: A Practical Guide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-turn-digital-skill-into-income.html'
 ---

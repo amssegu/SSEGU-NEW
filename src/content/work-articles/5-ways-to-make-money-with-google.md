@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl0uJsjroC7KX2wZsj_7pikx3P2pE49LHlSBSIBG911xICLGBj2WBZMn5pv9hoy1rT-tdOrOwLPrbozf9I45cnddzyer4lQxXCJEzYflYC2ApUZpLdECHMiVQ2_qhy7GYlXZzLjZPBERZb_Bz6yDV3X6c3lid6Gkz7W8uj0URDsCR5qAXZiShpR4tdWCbq/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for 5 Ways To Make Money With Google Skillshop Free Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/5-ways-to-make-money-with-google.html'
 ---

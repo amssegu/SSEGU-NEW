@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicvVtueIwUhZ1pFxg0pQmvt7pXmwkYqN3rd8iY1juDr5a492XZGbiq7LPJw2y6tkyvE7Cj2nG-IQrAcJoPD3efrlNe_FNbk4CjJsV5DpaRdr1MhDLklME-OC07rynsFhdD7SLLoF2xVnMzF2OGNHHOorCxThdTpwf4k4AvaRfd3xlgsITqKfoE_tTBQz8/s924/attracting-6572957_960_720.webp'
+imageAlt: "Illustration for 6 Signs You're About to Manifest Your Desires According to Bob Proctor | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/6-signs-youre-about-to-manifest-your.html'
 ---

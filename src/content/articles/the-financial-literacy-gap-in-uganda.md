@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnPFAOzx2JDhyphenhyphenIqgX5XjiP5EO8PvW7G6he5fF26YfrZemX6GBo8h5JVrT2emtURfpt9cdluCNF-KtibgfkwcMb-AoF78mF1DW7X2HMjUneGGf-dx6czjKgnR907msn581feS4fBYv6Fsn61ApW3bPnpm_N-XgmeIB8I-W_vNsvR6i9QfrTBid8Tngo5MA/s1032/financial%20literacy%20gap%20in%20uganda.webp'
+imageAlt: 'Illustration for The Financial Literacy Gap in Uganda, Who Is Really Responsible? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/the-financial-literacy-gap-in-uganda.html'
 ---

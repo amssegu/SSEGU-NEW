@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20screenshot%20of%20a%20message%20from%20the%20developers%20of%20Helldivers%202%2c%20expressing%20their%20disappointment%20over%20the%20unexpected%20delisting%20of%20the%20game%20and%20urging%20for%20global%20availability..jpeg'
+imageAlt: 'Illustration for Helldivers 2 Gets Delisted In More Countries Without PSN Access, Blindsided Devs Call For It To Be Available Worldwide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/helldivers-2-gets-delisted-in-more.html'
 ---

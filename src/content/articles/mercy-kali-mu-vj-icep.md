@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3eoRpiBr3kufQBnF2l9anDvl_JiMEVLC1s-egA152rY52frRwU2kIDXRhVtvD-v0p32WtcNob81XCiZuSwElGCu8p51YmfE4VbdKAxFsBXXYMDR4JL3WyaXSHKWXUdBPcDZNXm3MUpt49DFLZ2HjGTgnM6WmJg5ehNSoAjF0WXCHk1p5DIzdJaVQ4Cw5T/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Mercy Kali Mu: VJ ICEP | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/mercy-kali-mu-vj-icep.html'
 ---

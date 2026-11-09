@@ -18,7 +18,7 @@
     "redirectRows": 1578,
     "redirectValidation": "PASS",
     "canonicalAndStructuredData": "implemented and build-validated separately",
-    "mediaAssets": "published raster assets are AVIF/WebP; legacy JPEG copies removed",
+    "mediaAssets": "article-specific AVIF/WebP is used where conversion succeeds; approved hosted URLs are preserved as fallbacks; legacy JPEG copies removed",
     "editorialApproval": "approved by project owner per release instruction",
     "externalRedirectProbe": "FAIL: work.ssegu.com did not return the reviewed 301 destinations"
   },

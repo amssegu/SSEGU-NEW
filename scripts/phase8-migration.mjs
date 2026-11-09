@@ -72,7 +72,7 @@ const migration = {
     unsupportedMarkup: 0,
     unresolvedHistoricalRoutes: false,
     disposition:
-      'Project owner approved the reviewed exceptions; unsupported source media and markup stays out of published output.',
+      'Project owner confirmed ownership; approved source media uses local AVIF/WebP where conversion succeeds, with the original hosted URL preserved when local conversion is unavailable.',
   },
   reproducibility: {
     phase7Gate: 'PASS',
@@ -106,7 +106,9 @@ const gate = {
     redirectRows: redirectValidation.rowCount,
     redirectValidation: redirectMapValid ? 'PASS' : 'FAIL',
     canonicalAndStructuredData: 'implemented and build-validated separately',
-    mediaAssets: 'published raster assets are AVIF/WebP; legacy JPEG copies removed',
+    mediaOwnership: 'project-owner-confirmed-owned',
+    mediaAssets:
+      'published article media uses article-specific local AVIF/WebP where conversion succeeds; approved hosted URLs are preserved as fallbacks; legacy JPEG copies removed',
     editorialApproval: 'approved by project owner per release instruction',
     externalRedirectProbe: 'FAIL: work.ssegu.com did not return the reviewed 301 destinations',
   },
@@ -130,7 +132,7 @@ await writeJson(resolve(output, 'manifests/news.json'), newsManifest);
 await writeJson(resolve(output, 'manifests/work.json'), workManifest);
 await writeFile(
   resolve(output, 'signoff.md'),
-  `# Phase 8 Content and URL Sign-off\n\n- Date: ${today}\n- Status: Approved by the project owner; release gate remains BLOCK pending live redirect verification\n- News and Work datasets remain separate.\n- Published raster assets are AVIF/WebP; legacy JPEG copies were removed.\n- Migration exceptions are explicitly dispositioned: unsupported source media and markup stays out of published output.\n- Redirect map validation: ${redirectMapValid ? 'PASS' : 'FAIL'} (${redirectValidation.rowCount} rows).\n- Live subdomain probe: FAIL; work.ssegu.com did not return the reviewed 301 destinations.\n- Owner: SSEGU project owner with editorial and SEO reviewers\n\nSee reports/phase-8-gate.json for rollback notes and next action.\n`,
+  `# Phase 8 Content and URL Sign-off\n\n- Date: ${today}\n- Status: Approved by the project owner; release gate remains BLOCK pending live redirect verification\n- News and Work datasets remain separate.\n- Project owner confirmed media ownership; article-specific media uses local AVIF/WebP where conversion succeeds, with approved hosted URLs preserved as fallbacks.\n- Redirect map validation: ${redirectMapValid ? 'PASS' : 'FAIL'} (${redirectValidation.rowCount} rows).\n- Live subdomain probe: FAIL; work.ssegu.com did not return the reviewed 301 destinations.\n- Owner: SSEGU project owner with editorial and SEO reviewers\n\nSee reports/phase-8-gate.json for rollback notes and next action.\n`,
 );
 console.log(
   JSON.stringify(

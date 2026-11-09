@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbVmdKmz3v99ytvquqQ6izi8XG1SnZeXOIeSyh2GEU_zoLMve17fFJjNgIc7g36MNTSx26P5jUOC80tdjlvMg7hmEI8HqbOcFJKbKaVHDrsu90UEMnlO8MF0dlViv4-B7OoD_kbI9ooVLqVhbIScEzHE0nxsdgYUz1dJHVLUpRXyvpE8tBSkD-3gfc67w/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Explore the detailed breakdown of living costs in Dubai on a 17,000 AED monthly salary. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/explore-detailed-breakdown-of-living.html'
 ---

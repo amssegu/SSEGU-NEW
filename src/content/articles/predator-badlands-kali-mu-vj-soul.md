@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisVMhfviWzWDXOu1MKUJLzMrGpmSJJsqRrw3N-DLu4ztFfUa5bVaewCHmWhiA5h8la99-hzp-y9oT55L7DBI0B2kThjNZnDAfxp3R8XQ7HhQYZhcOwJk3qCWyu_ijf9L58Z8d3-9YQ3mO0tLiKl0Yd-0Wujr7yiOZ6NxzH8sUN5Ay9etCkaGdYIKlCKqU/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Predator: Badlands Kali Mu: VJ Soul | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/predator-badlands-kali-mu-vj-soul.html'
 ---

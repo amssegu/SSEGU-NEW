@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7sU9WKIUDnC9BqRgbqXKqryhLR93Lgy6DS1rpyL9jvuwBQbbKIl6tJLZID-R0HxcYf5vAMvHOOXsNdpklNLqGG8IDwyuY2fOo2Ldv8UpPhvfw3iwN7EzyRtNseVbAIz14J1BctXHEhbtXGIT0S31070OPszMieu0fq_7taOuodb3INE5U849-MTc8-ro/s1024/download%20(2).png'
+imageAlt: 'Illustration for Nasdaq - Financial Services CorporationBreakout | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/nasdaq-financial-services.html'
 ---

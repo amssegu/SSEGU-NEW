@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxpHhnE4tiAQzKN7-ISnkdLMP_hVddrMG-c_NSk4GEIvOrmXg8OPyx_fUrFPZ4Pu1gVllaDeQPwK2MLVhbf8mL6zqpgo9s5iuP151kTVqdE4kTqhAXHqKqPbivX1plj66utW2V1fwl1cDaajqaGSHZJZ1xG0-OabWVQLX4sOg-rIynDf_9YEPSBpxFFVw/s1280/praying-hands-2273821_1280.jpg'
+imageAlt: 'Illustration for The Top 10 Most Powerful Religions in the World | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-top-10-most-powerful-religions-in.html'
 ---

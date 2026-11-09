@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX-XZoctlHjyCkW73B4CyWrsOhwXKxYn4_FsDpsOtBs70RkI12GCuXDtbslQXvWcikMflW9jHuvXvNatdYMvsvFG3uiVmYCzpZKNAbopq1ypIkLZ_vXqmEGKnaeQFFfuvQal_N3NFAkkO6R2cCYrT0plPf2rxHNZ_ZGfUQYasmBi3sn1WivhL5OukpeKQG/s1440/llll.png'
+imageAlt: 'Illustration for U.S. Diversity Visa Lottery Freeze 2026: Important Updates for DV Applicants | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/us-diversity-visa-lottery-freeze-2026.html'
 ---

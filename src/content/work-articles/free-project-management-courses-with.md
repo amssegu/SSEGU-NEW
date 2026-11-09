@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAHNVkA31C9XC0R-aplN6eG1QXQN5RPXP8cEG7Y5jLj1hpTRo0UcUEsljJfSEq804bj0NfJKYkvhHOO-QYwd8wXm8Se-fp7IGYL7ixn4GxmpuSJuUHrR01F1AeVkYjyNdllPX3QOJvRtgwEDlWMu37hGLam8WiKmMIh85R1872WFTVZaZy8rO_7wq-07mx/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Project Management Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-project-management-courses-with.html'
 ---

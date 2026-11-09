@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20person%20sitting%20at%20a%20desk%20in%20a%20home%20office%2c%20surrounded%20by%20plants%20and%20a%20calming%20workspace%2c%20with%20a%20laptop%20open%20and%20papers%20neatly%20organized.%20The%20person%20looks%20focused%20and%20content%2c%20with%20a%20sense%20of%20balance%20between%20work%20and%20personal%20life..jpeg'
+imageAlt: 'Illustration for Navigating Remote Work: Tips For Productivity And Balance | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/navigating-remote-work-tips-for.html'
 ---

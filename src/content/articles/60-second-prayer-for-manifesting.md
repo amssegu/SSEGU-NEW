@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLa9KSuqYeotXqzfizt5wwgC_uPATUlcZiz-QANfGtRaT9pWaMhtPbntJUD8d7u_n7GmA2x_EbyTsid5nmDnhCXck8XjZGvZDgqd6uJXRLc38XhVCojO1x-UjUOL-0KmYnNpXcQZguC5M_9JXCiTc0e7iQIIe3eIGSnvbBuOkNl2slvIiW4LFLuhyHqrA/s720/praying-29965_960_720.png'
+imageAlt: 'Illustration for 60-Second Prayer for Manifesting Abundance | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/60-second-prayer-for-manifesting.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLBifGsNFcbYE8KtPyDvdMVs9qixkslIQsx6uHBKnqMCi73BxuCXhKB5V56JLQXikF-d6X6TLvd0YxwjKej6rsbDnmzqGDnEkKoluwfyEC23nzR0Yl6UILOI5kUAD0WLUJurkSrtVt7iv5aQRwYrRYYiqPchZZMsh8PZlo-qz1KahALHhyphenhyphen0WVH0cf5qFCB/s896/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Digital Skills Every Professional Should Learn to Stay Competitive | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/digital-skills-every-professional.html'
 ---

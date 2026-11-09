@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4pL1KeM9hM12xCNRh4e3MxsWGehUzjdP4sJ-kFGygaGJpvrBb-sy-YrIPVWd8SHfLAjDcqt0C6P5hzgKz582-Es7UMuucu5_xHMuQFU_pJ2gmuV5SGDOXnAbdeHkQL5OJ4KuCQTcnhLlIM89E7Oj9qtQUM_nTUVYEkZNklKGnJ6GcMC8-9e-3M6b8LxE/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for The Sadness Kali Mu: VJ Mosco | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/the-sadness-kali-mu-vj-mosco.html'
 ---

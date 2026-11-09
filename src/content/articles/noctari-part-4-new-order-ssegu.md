@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIv94DGiZwp8Zyno1A9WtYqhlwCM9VMFFNayVGX69-3rRjoih8O7omKAHzaq2UyeuqGCTE7McmVXeJYAMAM9iA3hXtSpnMD2zCn-WejJj3yTm93ksnwBaIBrGxEFZtmNNqo6aVhw-rkHlD0oDwlIpe1Y8v1n94wwaeFK3Fhm7uBb7Zz2iO-yplJaiZU5w/s1280/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for NOCTARI part 4 - THE NEW ORDER - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/noctari-part-4-new-order-ssegu.html'
 ---

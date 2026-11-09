@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixAWE2BCiFpCALe-FNeyHLqR6zQh9i7mFlIuUKqSxcqUfWiCLaIixhWvKOIKJd1doC0F7Ilka9lzU4c1xPzU61JGlH4iUq09YlqKIOL0A3uLkTK1Ue6Q3R9Y5Y4SGfDSTfOeldnf_dIKue2UbXAh_zGyH_JB4Hm_c-pwtPwZOZAjOyLHpfmMSPRMOxcNQ/s2220/download%20(3).jpg'
+imageAlt: 'Illustration for Preparing for a Nursing Course: Q&A Guide | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/preparing-for-nursing-course-q-guide.html'
 ---

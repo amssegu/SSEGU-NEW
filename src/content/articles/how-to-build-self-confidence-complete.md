@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQpBAhGRdtvCaWPLwB_jFiRGZPOi_C55UbdDpXvkSvRKGEUepqZVA_asimRztCzXv0FtZaHQbNhwR0Sp8l-zdKn59QmK6ha-Q-Dsx_cIcu2TeNaPuKhD-UZ6zuRyOZNLehb2lUETt_uMlpWfqZhyphenhyphenNYbEdK2-DKuxWq63QciAhOTR6qUuUxjQrUmIL7c8p9/s1068/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Build Self-Confidence: A Complete Guide to Believing in Yourself | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/how-to-build-self-confidence-complete.html'
 ---

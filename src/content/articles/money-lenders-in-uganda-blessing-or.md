@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIeJQNP47LjJHFW_BtWH_z2VT856z7SmuRp8-ECsEl76Jyc7pRsqndoryHlIR-T8sJ9ZJVxT8Z6nM21dsjEft6-cnWXHPxef_VKkjOe3UhjsufnLoRqgLf53JwaajfT4oNVf0h8W6vmEeVTxSDMtseh908m9w0016o2qaTCA873OC1XTN_rQdLCELTXwQ/s699/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Money Lenders in Uganda: A Blessing or a Curse? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/money-lenders-in-uganda-blessing-or.html'
 ---

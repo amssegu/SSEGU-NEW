@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYlTCtc7kqTKFNrh_90jyUsDWYt6X8uST3xPOVIit8FBgp7KlO9o_r_4vLG0_Uarp7FliWTGY2WAoqIW-xcV8j-rcEo-Oe26w7YYtfw04Hh1dYhBNqVe_-o_uCiM4pPti06owCGEhdEMfIb6IsYwWv9P6RlOdEtJyXm_v_6dVg92jg5L_D8B5b_wxRMNA/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Resurrection Road Kali Mu: VJ Jovan | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/resurrection-road-kali-mu-vj-jovan.html'
 ---

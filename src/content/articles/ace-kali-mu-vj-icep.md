@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4g_h1rCg5tzf6KiwpiMLeBXeu1FyJNYzywGbpauImtz2I1OwKVvGPtsbthe5VTWVgEED3phxc-3_12iKL34sxyHbbpaRZWLVlQYuzVAyiiWN75IqB1_6b7eS35AHkX3b5_30MGh2XOiQHjPCXRD4fUXfyyyncPSJ8eGmyYjXkkXOPGDn6rsPcvz8368I/s330/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Ace Kali Mu: VJ ICEP | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/ace-kali-mu-vj-icep.html'
 ---

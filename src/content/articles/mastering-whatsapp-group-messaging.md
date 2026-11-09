@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20group%20chat%20on%20WhatsApp%20being%20customized%20with%20a%20new%20theme%2c%20group%20photo%2c%20and%20personalized%20notifications.jpeg?t=1716531119202&amp;width=860'
+imageAlt: 'Illustration for Mastering WhatsApp Group Messaging Tricks | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-whatsapp-group-messaging.html'
 ---

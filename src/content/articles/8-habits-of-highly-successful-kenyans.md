@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-09-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9lSLEfpd6s4LZNLKn0BPnEP7XvYU6XpFWoOhYy-_0d8pIpsUffmZntKHss0QmXXYuZR9jGpKGPeUgC44vmdqc481r6x4PNgVCu2JDuJiTtXLG9BQdYlCzPeUB3iCoqwo4v_J1IeapWAB0Wk-Zi4Asy688A5TfHuBU0oxLwW2JG78e0y2wzR2TxkR5ypw/s1120/computer-2937207_1280%20(1).jpg'
+imageAlt: 'Illustration for 8 Habits of Highly Successful Kenyans | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/09/8-habits-of-highly-successful-kenyans.html'
 ---

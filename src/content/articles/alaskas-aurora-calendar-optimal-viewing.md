@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/Vibrant%20streaks%20of%20green%2c%20purple%2c%20and%20blue%20illuminate%20the%20dark%20expanse%20of%20the%20Alaskan%20night%20sky%2c%20swirling%20and%20shifting%20in%20a%20mesmerizing%20dance..jpeg'
+imageAlt: "Illustration for Alaska's Aurora Calendar: Optimal Viewing Dates | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/alaskas-aurora-calendar-optimal-viewing.html'
 ---

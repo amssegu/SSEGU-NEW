@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2023-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeSbhQBqifzfv9lVwHdvlYu51PWHsT-gRGbIxkhH26Fs93THsv9IwunlVIM7zldTzYGfkzyVc5hFZ0zbtWKxRwa9fieVvjLC78ZFNw1kJ25B2TrZ9P72V-lAcEx-RSRyv5Jo18q60bQ_794Oamm5ViPxm0IFayjEZPNe_LQcG8lMGGb0OC8BZXt9vLQ_s/s1120/Leonardo_Phoenix_A_modern_sleek_laptop_computer_with_a_large_h_3.jpg'
+imageAlt: 'Illustration for How to Make Money Online Watching YouTube Videos in 2024 (Available Worldwide) | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2023/10/make-money-online-watching-youtube.html'
 ---

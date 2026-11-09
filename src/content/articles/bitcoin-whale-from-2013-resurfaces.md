@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-13
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20massive%20whale%20swimming%20in%20a%20sea%20of%20digital%20currency%2c%20making%20a%20$61%20million%20move..jpeg'
+imageAlt: 'Illustration for Bitcoin Whale From 2013 Resurfaces, Moves Over 1,000 BTC Worth $61 Million | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/bitcoin-whale-from-2013-resurfaces.html'
 ---

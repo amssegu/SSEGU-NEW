@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGNVwVH2v3GZ3MhJYwMO8o8YS83aU2gT30moEHB2MRhkf11VwA9J08zpNNyhvqe7J2MIx18-_aRDzvnXHi8bRvU_Ex0718mVZV66r8NiBWuXm97762DkrGKUr3T9dGSdMTBpt6zR2ZGHNs4x2Z2BK3KjJS8h672vb3fPsn1NFsau10ENLu0IQ6eaxtME8/s1280/man-461195_1280.jpg'
+imageAlt: 'Illustration for 15 MIN TONED ARMS WORKOUT - No Equipment | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/15-min-toned-arms-workout-no-equipment.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20rugged%20mountain%20landscape%20with%20large%20boulders%20scattered%20on%20a%20steep%20slope%2c%20surrounded%20by%20trees%20and%20vegetation..jpeg'
+imageAlt: 'Illustration for Techniques to Prevent Landslides | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/safeguarding-slopes-techniques-to.html'
 ---

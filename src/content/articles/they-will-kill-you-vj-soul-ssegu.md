@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7Cyca0RXLLrfYKjSuQXlM-NmExoALNJkGSZdzAwD3lUXDBhT7QWQ2QeLG_OhChkLlPtcFlDBUJk7-Iyd1YwZkUUHzh4LQAhc7xYO_nXx7ZNER5qKXo9JETBLYejzGhreLsVu34b8K72MpC4ZvxdN_Qct2X2pU4eEwmZ5oy75TMzvquXm8fslAhuGgsi0/s1920/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for They Will Kill You - VJ Soul | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/05/they-will-kill-you-vj-soul-ssegu.html'
 ---

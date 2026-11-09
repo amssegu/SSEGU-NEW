@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnqfiZaXHwCFaWv2zEL3CzcllRTIkrjl0aSViEMFwuB5WLWU4IzeECCUnvOEdQ1d7QvW4gEEkrCJ6hGHBrtn_C44cF2cDdYpGIQ846dRFMcB-6vyxJTrhBp1gYCpD9QwuwY_R75wRMoI4k9c9czbqT7SafgLjHgIjU6hFT8Qo4gT0h8elXWOQbwqk0jno/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Explore the best affordable social life in Dubai with a variety of entertainment options to enjoy. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/explore-best-affordable-social-life-in.html'
 ---

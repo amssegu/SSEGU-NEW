@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg99nECZ6sbKQU5nOeqPP5OzIGuGSRJ8lvugSlt3qZx_oqS4XZaicDHQnNwThEkdHyfyw9EcHAheNGCmKDqB5MdioQGARQINlWAEgwP9uDK5RZY-OfTCUjA5u3a6V6RF3xRfM8PyEmntGT55rem7pq531VeOF7sN3_n2gsxFZuBTxT0QcBnm5dzQW2ZR80/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Misdirection Kali Mu: VJ ICEP | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/misdirection-kali-mu-vj-icep.html'
 ---

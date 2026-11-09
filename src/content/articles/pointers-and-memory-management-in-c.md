@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmiQBFoW_r5iWKePudKH_NR1Nv7G_yWY8sRvbd_fxAr8pyitiW3bFD1yuq1GqMb7XhL88k-iTBr5qyAhK9iCafc7HdEKTqJEqAhhgBanBkFcmKKk5MPtkvrDEcTBUPzp2AXNoUSs_u5OdNtkWw_HvEBP4a_KnMOExh0c2cdTFdnzKzo1XBImSSFDGoYugP/s1024/Logo.png'
+imageAlt: 'Illustration for Pointers and Memory Management in C++ | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/pointers-and-memory-management-in-c.html'
 ---

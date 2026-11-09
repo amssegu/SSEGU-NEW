@@ -83,8 +83,8 @@ const structuredData = [
       <time datetime={article.publishedAt}>{formatDate(article.publishedAt)}</time>
     </p>
     <picture>
-      <source srcset={article.imageAvif} type="image/avif" />
-      <source srcset={article.image} type="image/webp" />
+      {!article.image.startsWith('http') && <source srcset={article.imageAvif} type="image/avif" />}
+      {!article.image.startsWith('http') && <source srcset={article.image} type="image/webp" />}
       <img
         class="article-cover"
         src={article.image}

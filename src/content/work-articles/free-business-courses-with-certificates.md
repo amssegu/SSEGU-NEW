@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs6xHRjCEI24kGbKtG2XQXYKClN4N5WmWANtJt6-cXCkX-GotqDAk1-pXouhHIi5RwzeSwA5hpxdTvCygN6qEvVOpNzX8dU9CNKEQ9LYxDR2nTVDR0v43GnfaFqCywO74cWeHHWu8xsQulxv1OA370pKg0VSEkJFf3p4ztgupyiRvIwIDV2WkevW7QXEnJ/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Business Courses With Certificates for Beginners | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-business-courses-with-certificates.html'
 ---

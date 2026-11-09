@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtVBPxAA0cSM2A8-W-CgWHgOXKIv5amkcEVWytjRT7UavfQQ-e_9OGhBN2AASL-7jYIIzWFLIBJTu6A41U9CrftEobqiUxZNlXS1uqAoytaZ0aLK4mJeEQp4jghdwRjk0-h64sKBVj8vxiDbJHWQXpDJ9jgKSRUzMTlrePJ3zy-5bRmPC4bBHjAHfeJG0/s607/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Crush The Wicked - Kali Mu: VJ ICE P | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/crush-wicked-kali-mu-vj-ice-p-ssegu.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwRGze_T6BxXCKUd2Bk-IzfL-zXXsiG8p5G0fuOexq6L4_pu41pdP1uBSDiKiI17-yKnZj_7NRSNANPM_zYu7CpvNATZCBTx256hJCZVGYahj8Fhnie4aWwnxGY9nnzoiM9sAJR1JYGX3vFS5cAG2VQU0AKZICMs_FXWfI3Cvjav0s07G388R3iKU_FM4/s1280/lovely-3182936_1280.jpg'
+imageAlt: 'Illustration for The Truth About Sexual Desire and How to Enhance Your Sexual Connection | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-truth-about-sexual-desire-and-how.html'
 ---

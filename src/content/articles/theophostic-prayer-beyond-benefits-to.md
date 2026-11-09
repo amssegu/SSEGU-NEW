@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKQl7eoJ2uSfoYdNOvYeGe6gUTEoAoOoVqI7-MO4QyMtlTs1zN7iz27Od3UABMCaPZv7WaHJVT-ewkhBInEzN_W2PBWgWusJw8D7NGDrvihqrvDUIGl9AWL3Eoa5Fzh0y6meeMUD2OfPaXm_8112o5zHIZDlsiNUHKbqj7zjCWDmiUd-svNtNo-wFoy7s/s1120/male-5922911_1920.jpg'
+imageAlt: 'Illustration for Theophostic Prayer: Beyond the Benefits to Understanding the Risks | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/theophostic-prayer-beyond-benefits-to.html'
 ---

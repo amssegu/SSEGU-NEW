@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYHV1_kQO1RIV4ww0GdoflJOXJCY-RKN9Pg57Q7IV8XDHnCvHEAnckcnEExQk33BkpMkQrM9KSIeivPBZMOAtutmI9T4H7nEhyphenhyphenfPMrLv554Am_mqK8_KhArKWUKdNRaEdBlx7FO8jpEao77ruG4__kX7vZNWutGvjCsrg0JE-oO6le1T0HuZh1CjLbPzc/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Discover exciting DIY group projects for a memorable family craft night everyone can enjoy together. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/discover-exciting-diy-group-projects.html'
 ---

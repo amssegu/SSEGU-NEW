@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjqdFw6lhSsiEuH01U30Zh9ayH8WWfGEDjGUZTWBdTdN1OfBLW5QAItfh9ywbwOom05X8Hb-bWM_4QXji216Qys-Kyr6oc-fJ1ic-F_zgmKBnbGesFcg0piGPV9vqjWBI2w5wVcUdkGPU4R0c8Nzit1q2rDWUgQ4UZV-cfex8d9wMdPuOGQBPhBTqn7M6kP'
+imageAlt: 'Illustration for 10 Essential Cube Storage Accessories for Crafters | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/10-essential-cube-storage-accessories.html'
 ---

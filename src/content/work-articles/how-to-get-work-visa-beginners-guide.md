@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjk-6APQlig5Ae-g1CemfM5yt5Xqb-RDpRhtbP8IAXXwr7qTrSLbBqjxrWPx7FRGvOhULSTInMfELbG5vnekrXlEh_th_ThCmnaecvmRANMjb9BTJHIMxqFyiqIBKIyrnmsITuFvhUKJ0sXtLOOoNTU7orQ58AVMOkgQpFoX6h8Xp6JQcXdHOt1-ujbpkQ'
+imageAlt: 'Illustration for How to Get a Work Visa: A Beginner’s Guide for Ugandans | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-get-work-visa-beginners-guide.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWL2FyPA1u5fCOL0A9g1JRAtFZIT43b8h_BRJwesB1bEoHMwu9sHropWaY0iLbC_0yF1v9Gjztg1HIwbSCJYJjwvJoh4FvczSCb1komsM81Hq9ZaicG0y2Y-lh4KAf0XFqQ5wWIdN2Fw_Sr03EoEflPfJ5YEnWsVV8NigKP39LEdBydA68zAb2km5PtAY/s555/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The Last Whale Singer - Kali Mu: Uncle T | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-last-whale-singer-kali-mu-uncle-t.html'
 ---

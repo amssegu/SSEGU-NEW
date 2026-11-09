@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjF16E8wYsRzP6Raux8fOL1DoeWB6YRCdF6lvHIMlY02LJoCGaRKhJQtZIVAPFMD54BjlRG7MkM_n0raIbUDos01ge5qlLZXS3xaecAjrUYx3gvR1QPnIg_RBWIcf0DbFQuHtNIRaD8pfswKuMkZALUPoBF05HrJjBdVc6MvUYsuIQ38l8tin4JpQE01gz/s1024/Logo.png'
+imageAlt: 'Illustration for Python Basics: Understanding Data Types and Variables | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/python-basics-understanding-data-types.html'
 ---

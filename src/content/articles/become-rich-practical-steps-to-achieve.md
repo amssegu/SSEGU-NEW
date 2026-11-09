@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk7Pu36WQecIrksLul6UIKkL0cavqwyvQ14pbm7PpHaQGMIcOfq8t3gCKVSUwv3UEpcdc_bzIiav3_Z_UaN2mKJCbBNFeWRe-9y3XVD6Y38nKI5OtLJv-xQcE_6pNVPq3PvuyYCnQ5lvqpKjf9Hbqrf527DXOZT8q64i8p2bOg7hnTQYwFtA541gjHMCk/s1280/property-7046997_1280.jpg'
+imageAlt: 'Illustration for Become Rich: Practical Steps to Achieve Financial Success - The Formula Part 2 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/become-rich-practical-steps-to-achieve.html'
 ---

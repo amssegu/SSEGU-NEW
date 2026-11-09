@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1Mj__POsLqwfSP9S_WXsM9x9dAZELVq5TIuP81qiOBkbA6EI5Yb57vxSH420zRgaWznOwxo0bmERkc3v62r6dzaQe0_yhURmNqUcZDN_UqJOY68CrNaI43cSZY1DucYNZUUlLmsQz5WDmUcFXpbatM7S4PhTEHDGIkl8oZRnXTxTYElcesut_e1pJqlc/s1024/download%20(2).png'
+imageAlt: 'Illustration for Southern African Development Community - Governmental BodyBreakout | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/southern-african-development-community.html'
 ---

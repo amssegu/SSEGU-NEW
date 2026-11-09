@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjknxuuBIpqlBKafFeByTIX6lLAeekTKX_vjt01f1E-Y5_0HltK5J9VS8yecAi67oqfBehwVzDJx_SSUtGrImlB3dmHNNGahZaFrys5ZtwLsUMXu4vbHERAQ3F2N_5DWIFbvaxAbvbhmJUivWieOW8rw7fVbmRv_mJnhkUH00BXIVA1yrb-61g49VJhsXg/s1376/Gemini_Generated_Image_c3cr24c3cr24c3cr.webp'
+imageAlt: 'Illustration for How to Make Money Online in Uganda: 15 Legit Ways in 2026 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/how-to-make-money-online-in-uganda-15.html'
 ---

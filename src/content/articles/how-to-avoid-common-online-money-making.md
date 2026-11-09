@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-06
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjJJQjYS4XnB5nd24zZYoZcLy5gj12QyGy-1oNn4-M9fT3PxyGjk4g9tdDYCPzR7e9eYHft6wts5ApoaAR4LyFWH6BYG6-fIk_r0yCyRhFfXTAKK3BZr90SPxBkcEPFYJParXI8z1X5rpl92XgX0gdOtnREh-W7nXH01Zbv-u4LgsKH5OYA09M9sFxlHss'
+imageAlt: 'Illustration for The online money-making opportunities that should make you stop and think | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-avoid-common-online-money-making.html'
 ---

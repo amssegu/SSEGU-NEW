@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFTRDiMMCvpWK1NHkTQ08N8XWH3_rto16zlDe3qvPyIN4W7mALcJY2G-hqcI5DSQ-52vrfvX8jLgXxuQM94jUvad8mStxx6Bnh7NX2hALvqhTnowuLOYSXUCYvwTjnvkFOsDQMiNx2yWd_ND6dts5YD2ETKSt0F3hscmK7xS01ePxcLLey73ydcrNZhSE/s2400/dance.gif'
+imageAlt: 'Illustration for Benefits of Taking a Cyber Security Course | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/benefits-of-taking-cyber-security-course.html'
 ---

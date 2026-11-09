@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzJxVduwtH3W9K6a8jMObgkj4z1aj2X8qNJlVfdM8KnKek72Nyd9hzuFpfKpqrez3aTolv7QsDfQ_Yyi-OcoJMd0nnHoGypYlSLFn758igQwqOpqNGDxp_Xy0WLBAaqsSG0fhpidCueR9iPrC7LiDwEePwBEN6krzTnFtRE6Q7C7_jGBxhYSMCQmamIyE/s1120/85ea7757-b8bb-4209-875e-25d96cc26cbf.png'
+imageAlt: 'Illustration for The Power of Affirmations: How Positive Self-talk Can Change Your Life | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-power-of-affirmations-how-positive.html'
 ---

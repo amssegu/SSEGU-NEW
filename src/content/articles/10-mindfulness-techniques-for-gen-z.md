@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxJq6bjOIlQrdtUudvC60UaiTH_JVdVbA5oIKD8APcfO1JuKfg_l0GLBI3t101DV5FP1zKqCFTf2laWLR_xKmLoBUoppyyJryabAwcKZ9OQ8jpU58aQkBMR7AAswmMI5E14pjGQVA_q93x4fzdjj3o6SrF-v2YaaHRPOoRvOfKtfJhV1hLfdRxAsd0_pw/s2000/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for 10 Mindfulness Techniques for Gen Z | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/10-mindfulness-techniques-for-gen-z.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-08
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvcGx2SqFEbFEXw656sSq562spIjGbYvvkMc_8n8XCPjtAADCzcaS1KyCJnn7O1u9Y2NO5Pbe3f213EZ_xjqNu191nGTSlnuqQ1rpJE_6by0YR_MJc0e2k7V_7U37psuY16TzlO1AJ__fqeEPKoqCXY523XLS_UMvzKYtZUKqGT7CsPwHXPrhGonX0VVlf/s750/llll.png'
+imageAlt: 'Illustration for spider noir - vj neil | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/spider-noir-vj-neil-ssegu.html'
 ---

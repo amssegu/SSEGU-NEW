@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4kkU21ERScGiMj1GV0VDDmsK18gTV338W8Its_jNiBPlBiKU9D9XyZ-EpPVU-HJ6mqXYUXwUcM72MBPs2q1WtudsAAj86pea6ot8iJWdxo3PW0uCBkgvQQt7sqEbm52jCsda_DRz0M444-PIjcOY-ujrWpP-4LJAYu_7qZREkpBxygd4giM9unFs6PD9f/s1024/Logo.png'
+imageAlt: 'Illustration for 10 Small Changes for a Healthier Lifestyle | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/10-small-changes-for-healthier-lifestyle.html'
 ---

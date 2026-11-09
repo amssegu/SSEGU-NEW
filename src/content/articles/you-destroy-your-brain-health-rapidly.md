@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIhb3NAV4GqYiXVKx499xblfinHr_ye6hNB79yLiMMrOG6f1NE4qt8BtABvWEqBNpMjCRtepISaTmNTmPXFEhS7AcLrwi9lGQoDH2kxRIzcQJAZ7izWbcE7YMx1H5bzyMDvFDT4Py_TH8HuzrREaJkD54bhUMtWlBRYOvusIqtKpwtYLJOHuL1nKDBvIs/s960/cyber-brain-7633488_960_720.jpg'
+imageAlt: 'Illustration for You Destroy Your Brain Health Rapidly With These 4 Stupid Daily Habits | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/you-destroy-your-brain-health-rapidly.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKUVqj0CTeVyccmJxErKJOlU4uT-5SO8a4s9H7eXkDJ2bVXZO8YiFmuVuHkEtoyFJf57vkR-jMK4AHKgIFHBdHcQu5PtdUjQB2zgtqV8yBr6CYQadXQW3AoH38a0WRScaRDbGkhO0B03ahjF1K5eVD-Vr-vxn2DOLVAvcgaw0sN5t-9zV6IjKpFsxwgeQ/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Learn how much you can save on dining out vs. cooking at home. Get tips on budget-friendly meals and grocery savings. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/learn-how-much-you-can-save-on-dining.html'
 ---

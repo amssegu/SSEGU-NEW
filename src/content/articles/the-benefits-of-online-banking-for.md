@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgol8AEz7VGD44AESuXLfDkaTG4d35aiarfSUZ-3RDnbZ9B0jhdfRJW4dw9hUxWyHeAr3R2ew7CmfdiGHMGheBAzgrAgKeIKBeHHBElhufPTSvpy2-6IDHruvoLI7hYADITuEU3S2A1YqfUADr4MnWDAJGZZea7tZhuIf0NYb6ej3Uihojf5eCs-nunBGE/s1664/dance.gif'
+imageAlt: 'Illustration for The Benefits of Online Banking for Beginners | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/the-benefits-of-online-banking-for.html'
 ---

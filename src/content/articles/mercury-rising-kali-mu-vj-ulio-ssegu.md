@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge3G71fP_zIl8a3z5vaZbsC_MF_hEfdaHoXeyH4jA1uGZdeTPg3mYw8-adByyd3794bRwsRByxPEIQ0zwc5uYVgGIDeD_YZWUomCgfWUxjMv9seN4f47x6lx2FIPxbdUG8NEw-vsl_K9rCBsaVOyCDh_iUmyOlpVMs_598dlvxrA_kXGk52mmC1nJOwKZ9/s750/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Mercury Rising - Kali Mu: VJ Ulio | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/mercury-rising-kali-mu-vj-ulio-ssegu.html'
 ---

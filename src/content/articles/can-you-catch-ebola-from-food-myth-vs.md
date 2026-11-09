@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbZu_AGeeTLm5CniYoT57JHNUJyPcv5Wx3W_gz5VDcyzeWh16LW4jLBTwOCT-61QExori1RwJsm3Nk9r8DJc_UxIx4E5fUFjSWp6OYCjqs7ejpii99m3tejrkCJ6f918NBadWIMuMFonFXqUIiPxFnUPck-iS0pUQ_Vb-o17byh9SAQWvn5qz8dqtyLLS9/s1388/llll.png'
+imageAlt: 'Illustration for Can You Catch Ebola From Food? Myth vs. Fact Explained | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/can-you-catch-ebola-from-food-myth-vs.html'
 ---

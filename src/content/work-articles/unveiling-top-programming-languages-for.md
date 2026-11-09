@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-09-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9aCrDQxDmL58Zf9noTQiFCFimtr-MwL8NPUbPdDFLUNVEse1NIcMM7vXCGc0VCWyivtOo-UW1m5iCx8Fq0W8jDBmyTab6gZj2YWrC2qX_W_z9lPrbZWZ-SVY-v7fxxt9j_I44bs9w15g4XZvr5NOwr4tYC78UhqareD78rOS-m7GnOjFk3KG4FgkSWZM/s1120/Leonardo_Phoenix_As_technology_continues_to_evolve_certain_pro_2.jpg'
+imageAlt: 'Illustration for Unveiling the Top Programming Languages for High-Paying Tech Careers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/09/unveiling-top-programming-languages-for.html'
 ---

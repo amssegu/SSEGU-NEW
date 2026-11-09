@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL1fF5GMXHprQP0qMAcT06QtSgqEI-a4U7f5Lds6GMWeN8AM6CJdoWOhfzzBAUMcM0kBtx1R68yHLfHLI9a1IoE9fH90NwVyeaC0n8Z-DNehS5kjD8po_H6-_D5BCQsYERTPvSRR0i_QX5Jx0V10KoS-A8R8AzpD_RP1LZFM0q3JUhgFpPhvdT37v5Pss/s1280/port-1845350_1280.jpg'
+imageAlt: 'Illustration for How to Import a Car to Tanzania: VAT & Duties Guide (2024 Update) | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/how-to-import-car-to-tanzania-vat.html'
 ---

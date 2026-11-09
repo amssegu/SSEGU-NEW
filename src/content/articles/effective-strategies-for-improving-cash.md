@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEiVS8pj-kdmvzYD2tuC121qQx2DDKBOlNNxMAPQeNaGMksbv-7N1gRn7_wDY7TEtRySI8E0eo480lIIzOAWz2W4dsiGodUP35bKqd5CoZvQT6p_PF1XbgsJdksyPC0IFUa-vNnvfJdShfwI8R30ydVkCQGa03Zl9oR2cvDi4paUzxorsEqfYmUGlvfsJF4h'
+imageAlt: 'Illustration for Effective Strategies for Improving Cash Flow | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/effective-strategies-for-improving-cash.html'
 ---

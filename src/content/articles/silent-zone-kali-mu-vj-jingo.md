@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyYLK5cDZaB6MF3y6BTjrLiG3cLkjZhH0qr_S0WI-2V2znmAelHG4XxQjDCVksY8KM4h8ROAwhZuBYn5JwCGN-Bz7HgGE1u-TcfijdYNQX0M8Av-XkS-CiV0lr3Py8i7UgrqBa_TsXiKZB4mUQYcBWZ44KIzSy6NgXfhot9oxosEy3a310rqIyXmiy_dA/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Silent Zone Kali Mu: VJ Jingo | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/silent-zone-kali-mu-vj-jingo.html'
 ---

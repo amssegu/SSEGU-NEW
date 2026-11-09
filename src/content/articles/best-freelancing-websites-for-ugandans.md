@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4TI9pnv7LfHBCc1kmRvGK_XfBGeA0idffN8AAxBj3K3d1iMS5rHDb4y1h3m_FbIINu7AqYjtqiwSy32p7WBbDOisruG3RSEiMySNRasNoGQ8fvlpcGtLSDqZeY3zGzayzN90bXGVizFp27L5QbFGZV85JAmdCQfNP_lYYE67UP3uqtLTwt7jg4__nld4/s1376/Gemini_Generated_Image_xpfcrzxpfcrzxpfc%20(1).webp'
+imageAlt: 'Illustration for Best Freelancing Websites for Ugandans in 2026 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/best-freelancing-websites-for-ugandans.html'
 ---

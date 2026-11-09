@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVOkWk99qY-kFD3tFFMxV2G1JTpeDcU7PPnOlJsnYX_kmOP-U8j_vkdYVhK6IyQsI-39zlhlsNpVcd0bqNe3sB9Wx7PLyNmqAH2zW9y-rHw4a8aZ1oDHsdG3tMkzx-PyYA5i9m-QCNssqGGxajhB3V9K6LRvng2A4mv0fEMM-x3UF3C7ge_Q5mkWy0LPg/s707/Screenshot%20(7).png'
+imageAlt: "Illustration for Fascinating Facts About Elon Musk You Probably Didn't Know | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/fascinating-facts-about-elon-musk-you.html'
 ---

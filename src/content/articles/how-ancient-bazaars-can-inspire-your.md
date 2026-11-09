@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikC3yh2EQGBZQv1h-evyQGdoTz9bWJgu9W8opXr-W9Yv1msp7GAh-wBiHlqk6pfrc5-WjAmDGt2wM8d6ygul7givXTBUjLkt6MTEllgpLOnl9zWGafU9X8oHP3ZVrjLsW1hJn907ELJ-cOJnKJXgy_-UyeFY7XKW1Z8cPgJb2fP86I7lNCweKOJMjh7Xuz/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How Ancient Bazaars Can Inspire Your Weekend Flea Market Business | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-ancient-bazaars-can-inspire-your.html'
 ---

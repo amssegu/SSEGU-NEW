@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-14
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5nvHu6dix_rp2uZrJzFygqxMNkdtfFTiQN3ze3iu6LR2GwB36e-QGBmPJQ_Mb-oP9ff7ahHfIJ5-UOiFi2MjXS96LcjfSVnzJD3hpunSh9ACpEevhJYtP8qkf5f9g_xv10lE0WxzUJDc-eXG2xEOQadiLSU7W_bReaBMLZ1ONFCTTqhSSimRX_M6iAPVF/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Class Central + Google Skillshop: How to Find 100% Free Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/class-central-google-skillshop-how-to.html'
 ---

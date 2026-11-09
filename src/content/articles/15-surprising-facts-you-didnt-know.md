@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdZX3tR3NsZG7GsP439XUItoCgE6tSZzlBfJbPTtCNHVOBWkhik7BWyzS5598YeV0fAIKGl3a32cotrVLQzRcBBddWBjAR-rIMm2XdtJbx7vc8XeDcmsUM1pEnHrrjX0UBKQfhpxq6875UoRHz6tTXwxGBntL7jcf0pm-6538dhLEjzqoKa8OewbNy4Io/s378/Screenshot%20(6).png'
+imageAlt: 'Illustration for 15 Surprising Facts You Didn’t Know About Keanu Reeves | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/15-surprising-facts-you-didnt-know.html'
 ---

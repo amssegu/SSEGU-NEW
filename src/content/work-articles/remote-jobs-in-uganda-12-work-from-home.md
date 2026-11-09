@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyjjv_EK08R_qb25Q5TfqLhfS0dqoC0GsAvPh0LZ51LTbpyeR27tK0raW9YQyhr5NWCKDm0WqRtyHbTKYEpbPGSBH5ImUbV-CzB7amef9tAA2__MMvJMGrn19VdmPLfxDZYr_YSB2BrsLh1PgAGctIZSVxjQLLjiGdVSqZfdS-gVJb-3-wxOC92ssrjp0/s1536/ChatGPT%20Image%20Sep%2011,%202026,%2007_47_37%20AM.webp'
+imageAlt: 'Illustration for Remote Jobs in Uganda: 12 Work From Home Jobs for Ugandans in 2026 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/remote-jobs-in-uganda-12-work-from-home.html'
 ---

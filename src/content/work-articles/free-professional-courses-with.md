@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcHRdSEWQV5fj5Q5ZiIBIV8yOpUqZDN8-jqxWv81M3rQqLGsx4FNLv1N9NaGtvNeLLqPGpRmRZ4Spc6fObqMbywdDyr-Wm6xaxr7NjfYonJvTEl_lDDoxp3NSvcMaKgr4EsJBDPgSPSlnUYWWTUa2K954L0hOSbskM9Vaq_8JWWe-sR1Byn6vsQtvE2a80/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Professional Courses With Certificates to Boost Your Career | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-professional-courses-with.html'
 ---

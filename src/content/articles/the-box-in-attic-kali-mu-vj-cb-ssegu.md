@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ1r3ifTZJJD7jvyvX0KaRmd9QqHBBBvPAYvXzi78a3CATZwUqkq4zpg-whzVv59Yqu6aguYJ4OtSNExz7yDYNWVK51SOSCwYQRkSkM6apBlB15HZln3a_4R9QOtyC98mx8x9ndJgLLJ85sakL2buyipCGl2HrZ7rN-cnrlBppdvZ63mGBzUw852HYHlA/s750/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The Box in the Attic Kali Mu: VJ CB - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-box-in-attic-kali-mu-vj-cb-ssegu.html'
 ---

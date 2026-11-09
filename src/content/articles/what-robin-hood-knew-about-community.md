@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfIqOqhsRsWsZ300n2HYCAfdJ_0YdH3WYl_7lYIBWmU0RlM2gAbvXulMUN_1c76KRk1eZv8AKiFOFYI-YHRcahrhfGWNmvJdMIQ-yKj31F637Nmm6rf1apL3I7THjTrexeQbXsk_rDNKboLi49X5kd76xAtbb6Ng3sjENOJeYvywTuVYx4ctq0ZODDPU0S/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for What Robin Hood Knew About Community-Based Businesses | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/what-robin-hood-knew-about-community.html'
 ---

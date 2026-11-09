@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw749RXz9W0Y15la5kqAomv-v6qQtzEka8FZdytKi5IPWOaGjH2e_oRbn7gNip9-5W82ko1t76CXlQGvkIG7GeRja7kWaIvdi05RP4ofUdAp36FGx5WBP2KF-vTasaU5PZ1J4U5di_Ur0SpmUsUsPJ8qLwAv2hO9F2AsbvdUD6wi5_N2JFSLPQ9bfh-aU/s1600/image_14d0b7a2%20%281%29.jpg'
+imageAlt: 'Illustration for Affordable AI Tools for Small Businesses: What’s Worth Paying For? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/affordable-ai-tools-for-small.html'
 ---

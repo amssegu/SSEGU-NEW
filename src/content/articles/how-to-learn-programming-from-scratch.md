@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEits9QOdgj-desf54rNsRN2aSAcJLyjL8yh6xpBXFmffqwLvq1NOyiwgOaiGZJGnEGLh1HP2SAv8bMzgb-CuXudAalp4rgwdAs45Y1Y4wr3YpfuwG4kSy2l40PFb9Rm-IIo29KmFsg1YxLO9qMbmDM5i9eEZ-K4YYZaugaoKP1xCWDWEI-F9jhHic_Wkxhd/s1290/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: "Illustration for How to Learn Programming from Scratch: A Complete Beginner's Guide to Starting Your Coding Journey | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-to-learn-programming-from-scratch.html'
 ---

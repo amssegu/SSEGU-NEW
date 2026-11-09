@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgTa8KG6RkAGcMtIJmRWXkRlftrDZ7Ve_Oo-pnbl60vj9LW3FYckeN7pnqJFDxmqN-esCT-J7wwdC7FNeyRUZ-7Otn40L1QXdjHUdk1SKOPWNb68OjO5mIrKaHh26LiurnYGzdlUjaUwe-uj8ZHj_PoUZPlMXrgqIWHVKvQelsNbSu-NPTmh71-eI-DzZ/s1272/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for WordPress for Beginners: Everything You Need to Know | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/wordpress-for-beginners-everything-you.html'
 ---

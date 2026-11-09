@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEhe7TVPYTUh3pQsHtUXOrXONOH3XNPFSAu-osSBUZqyuhMdbIp7qErLK8iwLWZflzv-irQosEs-jssqC6cH34Ds5P3KT4ddxzDnFJ2ZyexkwbNLOF8Eptko4Gd_WIbEV5W9eFDMQs1ypzJwxZtJab9jf107aNkwstNOWJt7XqfsgKjN7gMm19PAtPZJ4wc'
+imageAlt: 'Illustration for The Hidden Costs That Can Push a Ugandan Wedding Over Budget | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/the-hidden-costs-of-wedding-in-uganda.html'
 ---

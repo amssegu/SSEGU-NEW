@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEhaXeWsugQST6sodkZsVHhIP07RbNZ4YXJeCN1lFaMXnzg8M64VPe8-aoRh7MGcAd-rEOvyw_z6RmDOtV0ZY8aQEFLUA7MNWvpeJwRC9vH68cKUlDJRQoxfmFIKE0nlganZZM_oPV4m6tMhy9u1rAop8eHWJwVvhfJi6VEcalXsUZj7zQ24J6rIZCjZP8M'
+imageAlt: 'Illustration for Beyond the Stage: 10 Ugandan Celebrities Who Turned Fame Into Business | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/top-ugandan-celebrities-turning-their.html'
 ---

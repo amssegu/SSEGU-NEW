@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirTAB8_XHb_cwMKUIxsDb9XirLrbzEULO1KJty7BnvZcFoknzrabYx-XaTzYtsWJxk_Wy9VFx0BwJReRKynjWmcFYLt-gX4dAafEizZaWnAvuz9H95TToPSpKsgtTRl9mJczR1VbmOedZO8vEhJWTe6_ltbwRRoblH9m_I9S3qTtCyL4FX7XnF7qvVFVI/s2500/download%20(3).jpg'
+imageAlt: 'Illustration for The Gift of Motherhood: A Journey Through Fertility | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/the-gift-of-motherhood-journey-through.html'
 ---

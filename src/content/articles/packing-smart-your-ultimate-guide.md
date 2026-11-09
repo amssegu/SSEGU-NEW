@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh10SIOFRtRrevnQ4myV365sPUtGvwJREAZ4z5bhUOg3XB39k9RFaOGqkMrzBy_hnxAIVCxhaSHpfVoDMzvhND6yDdm7QIJQNRg1vRlPBQIr2FNZS5paVD3TVezxo4-COneXZ1UlKBxFVWmhACc6VlmdRhYn74t7KWxkToSTqAO4yV3buoEcQk7MHHzsPEN/s1024/Logo.png'
+imageAlt: 'Illustration for Packing Smart: Your Ultimate Guide Before a Trip | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/packing-smart-your-ultimate-guide.html'
 ---

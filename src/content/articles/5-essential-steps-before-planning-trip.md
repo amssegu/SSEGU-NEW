@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5dXo_m6c50yGTznXF2UHMvpTwrAQSUnGvwrN1HWD2eJT84Sb8qEg4EkbS-dC_9vxNCKpsL_bGtF4HvUEdqFyXA6ufPgWqbERgAgs70poCWUxFU-mAJq2h-1VeW2LsZuVcn9NFMaNMhYaeF30galeRgIjoABQDu5W7ZaUMaYc4GQG-d2NTYCjGY38j7tQK/s1024/Logo.png'
+imageAlt: 'Illustration for 5 Essential Steps Before Planning a Trip | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/5-essential-steps-before-planning-trip.html'
 ---

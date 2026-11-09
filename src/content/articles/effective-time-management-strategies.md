@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20sleek%2c%20modern%20office%20desk%20with%20a%20laptop%2c%20notebook%2c%20and%20pen%20neatly%20arranged.%20A%20clock%20on%20the%20wall%20shows%20the%20time%20ticking%20away..jpeg'
+imageAlt: 'Illustration for Effective Time Management Strategies For Busy Professionals | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/effective-time-management-strategies.html'
 ---

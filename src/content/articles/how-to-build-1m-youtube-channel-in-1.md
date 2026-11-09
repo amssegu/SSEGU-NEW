@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8CVR2vuV_4XO0bOSgAinUBQxCjQ2mgtH6ZYQx5ZqyvNq4TJZxz3fWF-4R5h7vjcSBk2P2eyjhj7hz8gr0WMNyTrnYXcQDAh29mdG5bQU5z7f8xjH1eOAjrnJvqfUoutKZbTssZjvOXacT96vV4ybIYOV1rpmWY4sdE6iqyqjo8QITx9wH-6x4RTlGgk/s1278/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for How to Build a $1M YouTube Channel in 1 Hour a Day | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/how-to-build-1m-youtube-channel-in-1.html'
 ---

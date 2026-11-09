@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-14
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU8czhGd7bIoBCyvYJuVCcRn52k4FpsV-IQH79nuYPI9amcRttArrTABrn4Mn2iSkypVEl4xa3ZLep4WcAFL4eugpCnM3wGZQ1Dag_Ji6Pre2aUgwej9vlPfSqJH0v6a77OEgwuUQnnQn2SflpRhVMr2FNNak0g0Vr-_lEZdwNTzw9zRHV1jpENQcpO_c/s1600/Gemini_Generated_Image_r1qzcrr1qzcrr1qz%20%281%29.jpeg'
+imageAlt: 'Illustration for How to Sell Digital Products in Uganda Without a Website | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-sell-digital-products-in-uganda.html'
 ---

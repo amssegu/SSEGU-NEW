@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5Zg3JkqGytGGCBj8mqDgrcx15TZaVpokiL8eBouYmMCmqJrzkkti2r8HhTxtCtHpIOXxN3Vx87QCj2qaQjHxYgQkT91pLrZ4Cx-3OtrKk2HCb6SuIAayr77YLMns438VlqXLxydJW52uHPyAJVU8Mbq3Opz0V_dHGeVM2645Kc6KFI_PrtyNbg4lQkXI/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Discover how HDD innovations shape eco-friendly data storage solutions with focus on environment and energy efficiency. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/discover-how-hdd-innovations-shape-eco.html'
 ---

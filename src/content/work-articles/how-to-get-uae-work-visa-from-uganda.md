@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGrRN4nwgaGTYoN437kqCJK2EOHsJ92VvLLyC51HmvVuhvdYTuqWyrHf0J37l9SohOdTfht5aob-Hrkmk37awJYzZnY-mmwunadhTc5ZmXMpA5AAvoJk_jTG-k1r2o0ycASR9VhYznC0YUx_QaGEJK89-9sJT5IVl-Nyy1Tul6zIrI5gOWtnqCHnpfgtU/s1600/Dubai%20skyline%20for%20a%20guide%20to%20getting%20a%20UAE%20work%20visa%20from%20Uganda.jpeg'
+imageAlt: 'Illustration for How to Get a UAE Work Visa from Uganda: A Guide to Labour Export Agencies, Requirements and Costs | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-get-uae-work-visa-from-uganda.html'
 ---

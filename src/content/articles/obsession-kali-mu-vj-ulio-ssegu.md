@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi93GKd1XhB_UPkf1PgT-19AVMwUxMNjbHRQVL98Ew7IzBk5zwEko1InsyXkedTq_B25VI_Xu-yJOEtdCkDtUVD7xj2SvGdxNGosYTgkBvIjGFS1uqDonI2LKYwdkmSsWApK2L1q2mY2KRDfCK8IZALrj5DwI8KIGkD21jrUy8uWg3uHUFRX8dON16eOMk/s750/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Obsession - Kali Mu: VJ Ulio | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/obsession-kali-mu-vj-ulio-ssegu.html'
 ---

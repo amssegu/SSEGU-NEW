@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20vibrant%20display%20of%20swirling%20green%2c%20purple%2c%20and%20blue%20lights%20dancing%20across%20a%20dark%20night%20sky..jpeg'
+imageAlt: 'Illustration for The Glow of Geomagnetic Storms | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/aurora-science-glow-of-geomagnetic.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8CFXHTnVPTGuHxWJR9R2YKpYK3jUajjOzQaVcEUsC0OAO-qLEE9X0YGsmA3ASSW2wS_gn-f0HzO-MzqbHCerMWDKEWSUzVgEroE1AZaZGRTM88neN1Fq7QL4ZucULVuQhe98Xhue0d8BdmxOFzHQxcKTBt9A9lkN0g_1cEbkekkC2eB_lo8myRyfuwyV6/s1238/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Ultimate Guide to Home Workouts: How to Build Strength, Stay Fit, and Exercise Without a Gym | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/the-ultimate-guide-to-home-workouts-how.html'
 ---

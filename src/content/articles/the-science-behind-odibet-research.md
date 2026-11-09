@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbrKAMiOPHctpee15D6MJRbc7BZpz4m6PnQu4j2iKaOUeDkuzY4lHOeVTuqfyWWS683RqW9j37aqECQtxGveQRJVJ0e3YqgM6OpvDGM0THe3ps2ETyyv7F-hZUAqRxbcMNm4sX5rEwtnuOSiZE-cFv-yyBCilDLdK1ZQkiDnbx3GA5dojKnAtV5vON4ck/s960/download.jpg'
+imageAlt: 'Illustration for The Science Behind Odibet: A Research Review | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-science-behind-odibet-research.html'
 ---

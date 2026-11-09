@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrr1mh26P1GhAegoX-4FVaYUTYfoAYxBaq-iYu5qxAAsiI914sxjakZvljHpR2QXcNcudn1gWPxwwiH1BRLXYP8HMldVmC3LR6rUSA5eee95WwFoS8WhfWmC1k1KSJTxxjRt8BcfsfeO1R2CuwEeBdgbtDBjZNjrE0N7REOenloM-Y5E8sm7SH-TbUdfE/s960/download.jpg'
+imageAlt: 'Illustration for The Impact of Predictive Analytics in Sports, Explore the growing influence of predictive analytics in the world of sports and how it is revolutionizing decision-making processes. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-impact-of-predictive-analytics-in.html'
 ---

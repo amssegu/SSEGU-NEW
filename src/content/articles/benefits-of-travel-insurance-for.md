@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsXnLoJSHXykmiJSh0dHT7Jl3E26VW8fnHDELDdwvbkBFctt1wvz2tobjPiqrLA-9i3cgFK7sZ5QcBvJYYUfH8np48Dhk0BXbXJ_78xWuXo7xPhXcLbzigdHPze7enkgwv-cp-T3WMA4f87wlRl6tkpmc-PO8HKB2R6y6cOJPpHFVv8ZlLNqEtmEQ0B8g/s1584/dance.gif'
+imageAlt: 'Illustration for Benefits of Travel Insurance for International Travelers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/benefits-of-travel-insurance-for.html'
 ---

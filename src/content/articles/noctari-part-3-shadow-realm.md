@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-16
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3VQ34AU1GaoctM9dZxCXCLMJorrVWCDrTMkU5peTeSlmvKp_O9gO_GPDuWnDZyDrh2o6wl8Wlyd10_rP6ezK3IV29Q3NUI_6fi8IRLdLM7LhasN4Vox0wb81rVnE5gi-7KKuzuKbKPWFL0jLTaQYEG9gIBZ6jqfN35eVgmfJwcLD4fUYLbNeibuJG-A4/s1280/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for NOCTARI part 3 - SHADOW REALM. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/06/noctari-part-3-shadow-realm.html'
 ---

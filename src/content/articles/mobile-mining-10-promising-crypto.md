@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20smartphone%20screen%20displaying%20a%20list%20of%20the%20top%2010%20promising%20crypto%20mining%20apps%2c%20with%20brief%20descriptions%20of%20each%20apps%20features.jpeg?t=1716614993394&amp;width=860'
+imageAlt: 'Illustration for Mobile Mining: 10 Promising Crypto Mining Apps You Must Have | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mobile-mining-10-promising-crypto.html'
 ---

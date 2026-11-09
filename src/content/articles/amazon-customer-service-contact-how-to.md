@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20person%20accessing%20Amazon%20customer%20service%20through%20various%20contact%20methods%20such%20as%20phone%2c%20live%20chat%2c%20email%2c%20help%20center%2c%20and%20community%20for.jpeg?t=1716261455975&amp;width=860'
+imageAlt: 'Illustration for Amazon Customer Service Contact - How to reach Amazon customer support for various issues. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-customer-service-contact-how-to.html'
 ---

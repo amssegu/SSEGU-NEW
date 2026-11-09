@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20YouTube%20analytics%20dashboard%20displaying%20the%20correlation%20between%20the%20number%20of%20subscribers%20and%20views%20on%20a%20channel.jpeg?t=1716530928445&amp;width=860'
+imageAlt: 'Illustration for Unlocking YouTube Success: The Impact of Subscribers on Views | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unlocking-youtube-success-impact-of.html'
 ---

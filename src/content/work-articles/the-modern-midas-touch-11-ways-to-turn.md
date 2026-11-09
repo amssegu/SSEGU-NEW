@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-15
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCLl1zZwXoLUIfi617fOmsYsTy8r3pGhU6QnAE2aKHdQEuIcWhZnkUm_6AzAZJ1h2KzAFJQiRgcwqaDPQm2AcAnLKFvQnb4407Or681xoflz3qh9Ui5INlWv8_ZJuZ1ietzeXCToPPIl6Lg_bqAuSdqGGw3KeNDze2lZhdJGXIvhqrz_aae-zRV7_rv0Hx/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Modern Midas Touch: 11 Ways To Turn Skills Into Income Online and Offline | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/the-modern-midas-touch-11-ways-to-turn.html'
 ---

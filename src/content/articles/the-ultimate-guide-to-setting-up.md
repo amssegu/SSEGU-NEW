@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvJN4BpVfQy6NaMd8vMymfhMO-1z3m3hw1w25xYYxidj1EJz-7z7C3shDsAUVhdVjZ4FGyjqLsY3GQ3z8oze8pXztr9-iU62VNwBYZ1rJj_e4QLtK33JHJL1c261yMBkKuX-HuWkQR5HAVhMc9rqsDLOKJuHSl_RMZA-shfW6jAfwgrFNB3XkrnoP5cMk/s1280/facebook-1903445_1280.jpg'
+imageAlt: 'Illustration for Ultimate Guide to Setting Up a Successful Facebook Group for Your Business | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/the-ultimate-guide-to-setting-up.html'
 ---

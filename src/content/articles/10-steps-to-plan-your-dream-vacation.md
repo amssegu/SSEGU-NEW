@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl_x43rZcFh5DhlbO_z0ur0ddCl5wq7o9t_5Z0y597pxZkkzCG2-RpCggU5xOvyMv3l5f1yO0m9V8fuQcT7GFuy1Vq8Qvx6MQQGhxdPpnyClD7ceDpIhimVK5ZMm_4-sek75ozkRpbAuuluOV3J-GutnBzqudzCdDUStBVPhcGE8EPsCnTjfIyO1aCc1E8/s1018/Logo.png'
+imageAlt: 'Illustration for 10 Steps to Plan Your Dream Vacation | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/10-steps-to-plan-your-dream-vacation.html'
 ---

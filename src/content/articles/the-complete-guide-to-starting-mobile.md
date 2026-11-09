@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCJQXrunPWzopMvbxiqimxizc6BoIqRxxCX0SKzdsfIGrrS-Vi-bnsNFSwRh0gOJf4Zfs7EjvtIvhSWfj_rD_MnweCVn81hw455K8v-MubJRYe1xJj8B9LvkmT6gX4eOU6vJ8hgjzyB5CYcYDVGsfamNzGGyehusZVkcgHBRAecBwb0ANK5Pl-hxivnfH6/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Complete Guide To Starting a Mobile Car Wash Business | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/the-complete-guide-to-starting-mobile.html'
 ---

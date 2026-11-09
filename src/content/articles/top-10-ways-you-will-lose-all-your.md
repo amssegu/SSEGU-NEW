@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinnF1RDd8Ink42spfTiOxdyLh_BExOroFBKVS05XTs3hN-KcolzL4W1Mkg_B73C4F3QLQGBM6xnrHOEZ2Rfluk-p6zQZdFTdRpPXltZJLz31lSz0A1gX2QTLkjHv1sR0pEh2hOONUzQOpjm0BEJSTEaCujcUdRtDCvSUv-Ykuw3nqT8xcbrzhQ0YdDxQw/s1280/bitcoin-4481815_1280.jpg'
+imageAlt: 'Illustration for Top 10 Ways You Will Lose All Your Money in Crypto | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/top-10-ways-you-will-lose-all-your.html'
 ---

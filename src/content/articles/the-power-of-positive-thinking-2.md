@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY152QmtHk9z6Sn2uweqWo8Hx_CDw6gg_PLjQOGEx8ZfpTt2UMTP2ZpzZtJx48zxsk1SnA7eCFzr3ndsUFL90skq5tncWMZCjpw1mQ24eOxd4VfCnuuyrwSOMd9bmpMp1EWf751kxbGj2al5N0BeN78ID52NV0QG-0RMowgAabJ8W2NKSVBdN40xnjl_8/s1120/85ea7757-b8bb-4209-875e-25d96cc26cbf.png'
+imageAlt: 'Illustration for The Power of Positive Thinking | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-power-of-positive-thinking.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-3VT0SIVgiHtrpF5W9l5UAIzg1HrxkVpkshZChEvVLw0NZ-vuNiLjQPEz_Y92efjrhD4eCH5wY50t1dxpyT39rUlf7Jffiuzh6jQh3f4Em3jZU-ZMCPt-a6Os_B0ga2pcpjIRd84sPEhibxGC5RPCkR90WjYBsso3vU5M0QegYg6iWnnsRlR4tubogLk/s1280/weight-loss-5985845_1280.jpg'
+imageAlt: 'Illustration for Unlock Your Weight Loss Potential | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unlock-your-weight-loss-potential-9.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20person%20holding%20a%20camera%2c%20adjusting%20the%20settings%20and%20capturing%20a%20breathtaking%20landscape%20with%20a%20colorful%20sunset%20in%20the%20background..jpeg'
+imageAlt: 'Illustration for Photography Basics: Capturing Stunning Images With Any Camera | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/photography-basics-capturing-stunning.html'
 ---

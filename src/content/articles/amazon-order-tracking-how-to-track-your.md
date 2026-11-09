@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20person%20tracking%20their%20Amazon%20order%20on%20the%20Amazon%20website%20or%20mobile%20app%2c%20entering%20a%20tracking%20number%20to%20get%20realtime%20updates%20on%20the%20packag.jpeg?t=1716177704140&amp;width=860'
+imageAlt: 'Illustration for Amazon Order Tracking - How to track your Amazon orders and understand delivery statuses. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-order-tracking-how-to-track-your.html'
 ---

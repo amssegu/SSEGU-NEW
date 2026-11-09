@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0U4xGi4ZCLKHLQUgD3S2pe4zwcqvo8fOlhjCl-SkOhikqkJYB9GU39A8ap61zARzDOMkws1_ccUUq9Hj9dwshvivSDs7nNI868gjS6ESe0BL_1qkzYC_KNMjFfdlnPLwynybwFtLVsGTaY5TDjZByrJakBhrXHXD7yAZctXik2d8MmhkYLuDIHDDxDPSP/s1282/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How To Buy Or Order On Amazon From Uganda: Step-by-Step Guide for Beginners | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-to-buy-or-order-on-amazon-from.html'
 ---

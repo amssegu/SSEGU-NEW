@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20persons%20computer%20screen%20showing%20the%20Amazon%20Affiliate%20Program%20website%20with%20instructions%20on%20how%20to%20join%20and%20earn%20through%20affiliate%20market.jpeg?t=1716176572377&amp;width=860'
+imageAlt: 'Illustration for Amazon Affiliate Program - Information on how to join and earn through Amazon’s affiliate marketing program. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-affiliate-program-information-on.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-08
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdoTwgi-zh0aFb9kAP4U5qSqUYN0eVpWev0uyulWvhqOkeBQZqZ49TpnBhBwgBrQ7dLot1zZG2aA9h_ZWmfC34ZZhGpkB8xD0iDKPeoioCsSELYb4bC3o3OsIy5BJFCmdg3VbHUkcCCiKiEoHLWtPy6v-Vdj3NQGWwHCTuuAlzL7V8WP44F-HEQEuaybI/s737/Screenshot%20(10).png'
+imageAlt: 'Illustration for Top 10 Richest Criminal Organizations in the World | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/top-10-richest-criminal-organizations.html'
 ---

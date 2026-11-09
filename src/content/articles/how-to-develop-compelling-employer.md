@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-01-15
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3skQ_tO0TqK7O87EUf6_p6BNAmaGDCFrJspqNKh0pUC1sbu86pH1DF4_fG3s04QtrV7fAyidzO1BFkjHGpjYZwd-5_dmhO-1PIrhFrsYWC_8fm0SF31DexW8zixPBnxie3rlO01Cwt5_7Dnx3L36c1w9BX_1msnf5KBhwAxpwxGM9qOah6Pra38VyqXI/s2500/1000x1000px.jpg'
+imageAlt: 'Illustration for How to develop a compelling employer brand that attracts top talent and fosters a positive work culture. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/01/how-to-develop-compelling-employer.html'
 ---

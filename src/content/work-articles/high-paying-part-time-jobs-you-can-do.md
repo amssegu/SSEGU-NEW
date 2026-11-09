@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20person%20working%20on%20a%20laptop%20from%20a%20cozy%20home%20office%2c%20surrounded%20by%20books%20and%20a%20cup%20of%20coffee%2c%20engaging%20in%20remote%20customer%20service%20representative%20posi.jpeg?t=1716443980926&amp;width=860'
+imageAlt: 'Illustration for High-Paying Part-Time Jobs You Can Do from Anywhere | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/high-paying-part-time-jobs-you-can-do.html'
 ---

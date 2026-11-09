@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilkKgHvrVxrSeyXRuFjEI6EMWWY2qQM6k0vLxfe3Z4k6VMeQYK_uFbVf1HJ3iyveB4BfW12nztYdUUqCspM4FG_Nx-Dx-LTWWIBcV8q_rCHT4QWqpI6NWTVEhA1jzs7FVsZ8V1wz_Oqypaz7tk_mnwO_aikhgzoCsXXnMKAh3dwd3MeQce0XQq2BJO0KM1/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Security Jobs With Visa Sponsorship for International Applicants | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/security-jobs-with-visa-sponsorship-for.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXcRj7mUzey4ll7u2gw8hvhyphenhyphenk4ohCZaEKN9MnJ8ouIvDzYFJQWtu6MLRI44rMAjjvp0rSxSFy2YwaNk2VW3Ks9qB9xwWc568ZtgBauVxJlKxGHplZ5jDhYdcc-3IJ1EBHauw52ZbYdCb8TklkM5BrkEYZrPMXiYhQgqmr_k3v3SozQAj4WQSrl36k0QH0/s1280/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Discover Generosity: Top Websites Where Kind-Hearted Individuals Give Away Money | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/discover-generosity-top-websites-where.html'
 ---

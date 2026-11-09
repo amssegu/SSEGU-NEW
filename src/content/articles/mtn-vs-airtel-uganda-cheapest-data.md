@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHD6a38uMKkJlTPdWqXj8DTAKdduk7baOlqev0sds70RU27C1yyCVhGu_VvN_znW_ySgTJG3IIz4WstTmhO-cqV7Aonh-Xfyi4l0osznp2WTHKJs6CAiFDFGrgaLKjnaGPBRQ8svnE2bdFA-80LjEkBVcnxbkiF6ESGoIkeoxj4LpCMHrmjrJGT_Mn9IM/s1600/Gemini_Generated_Image_c66789c66789c667%20%281%29.jpeg'
+imageAlt: 'Illustration for MTN vs Airtel Uganda: The Cheapest Data Bundle Is Not Always the Best Deal | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/mtn-vs-airtel-uganda-cheapest-data.html'
 ---

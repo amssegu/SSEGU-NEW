@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2STvr4yuice1hkJxpbsvU9Pa4pQ6DZF6aBus1YSUj1Vk9h9w4c0Wap8BmOloi6AynczL2yhN3ub8W50ZSBz059NZt4rNipAcn2PrpxuGQwgHh_6Gmsmw06vo99xduqbpqURDStOJ0e0qTL-dzC0owgysewNH4HrzikctO7R96jM5AE8S8IXptHo2wMRyd/s1024/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Visa Sponsorship Jobs: Skilled vs. Unskilled Positions | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/visa-sponsorship-jobs-skilled-vs.html'
 ---

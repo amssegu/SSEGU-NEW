@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZGaRzHIHcICClwTJcSy-cW0y1peeVjwFBa5flvHZrLqZ3CA0fmqJLk-LB08B96j8CutSoczcF123CtC_b1_7QN37L5IGUXzoqLWWp9bFOjZqt2caBwMqjyfK7M5K0o0jfqiEoATdzAOQpkL1SVZkNr5sa17B1TlnYdNUetAihezO-tmZUFeUq_dHwfGo/s639/451385752_487226750373541_9111732654368475406_n.jpg'
+imageAlt: 'Illustration for Optimizing Freelance Projects with AI-Powered Workflows | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/optimizing-freelance-projects-with-ai.html'
 ---

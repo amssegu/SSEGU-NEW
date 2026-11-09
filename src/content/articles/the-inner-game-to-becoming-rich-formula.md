@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2tmd3BE33oUHqKUJU6e07DWpMYn-B1kwoDhSHO69PkPEVJexk-Pnn7HQ5CflEBTlIyHjoqqAEHTXNKNqHoWibhxA4jFuc88Np2X0_WTW-vhMdoV01_n2QTnNJImUbBgFNRWynQ12vi780x-fLU92FlMUVd18dEVn1PuV5lixgSd9Ux29JkdqS0MymdqU/s1280/bentley-2072145_1280.jpg'
+imageAlt: 'Illustration for The Inner Game to Becoming Rich - The Formula Part 1 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-inner-game-to-becoming-rich-formula.html'
 ---

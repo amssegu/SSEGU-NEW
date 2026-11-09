@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSmszmJ3PXIDK3iOVJ4KzaKedmudvJ_M3QRWOsOUSBKKwRyu_2QD9nNuYyXyH1Aw0BpzHuuF0Kc7KswcjMTUsKr2-JS86Qs3ycrkvjv6qurZWlnlnGsP4_Dr2I7DKZc1L5aHwbuiBz0daYmUG8KFuTvbA4I_xoDhTjb8g5Chr83jIdIr23N_VGpFm9PUU/s1600/Gemini_Generated_Image_ey4gcjey4gcjey4g%20%281%29.jpeg'
+imageAlt: 'Illustration for How to Start a Freelance Bookkeeping Business | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-start-freelance-bookkeeping.html'
 ---

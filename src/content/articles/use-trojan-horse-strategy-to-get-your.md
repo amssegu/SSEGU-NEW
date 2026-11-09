@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg37-X0wYEpnilELYf0jzkEAYPQUU95EjTua4HNd3brPsm2Wyc6Uc-1xrXwFU1nKNh6RdaSfGrLYkJPwMZFFKinfJnfK0Jr_6I35cqPFMaxg7rHNUwlhLIfy6lXUwk9Ba7JzT9Mww-U6Z2qAPPLF09oBdpayPLtBMM1_Yij7FYfTj8-CxxCRDUYFHwN-k8f/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Use The Trojan Horse Strategy To Get Your First 10 Local Clients | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/use-trojan-horse-strategy-to-get-your.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFmeRu_CnF9bJlaLdVqelf8kHEh0-EuzSF7RzE2G6iPxYuNY9GULmxBg8XNrwb4CWI2qEgiSPleeBfKhFF7CFth2_MYx7q9LWY7f0I7NDSNoGhJpLGzbsOzXEdvIvWiwgVrZkwyu2QT17HCBlz_EXJDHmV13NRNrPkpnDMO3Z5S4dz2fq4njax8fvduDg/s892/Screenshot%20(9).png'
+imageAlt: "Illustration for Surprising Facts You Didn't Know About Muhammad bin Salman | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/surprising-facts-you-didnt-know-about.html'
 ---

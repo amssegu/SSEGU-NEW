@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20computer%20screen%20displaying%20an%20article%20titled%20Top%205%20Legitimate%20Ways%20to%20Make%20Money%20Online%20with%20detailed%20information%20about%20freelancing%2c%20o.jpeg?t=1716529847892&amp;width=860'
+imageAlt: 'Illustration for Top 5 Legitimate Ways to Make Money Online | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/top-5-legitimate-ways-to-make-money.html'
 ---

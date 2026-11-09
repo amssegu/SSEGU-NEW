@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20sleek%2c%20futuristic%20spaceplane%20soaring%20through%20the%20vast%20darkness%20of%20outer%20space%2c%20surrounded%20by%20twinkling%20stars..jpeg'
+imageAlt: 'Illustration for Sierra Space Prepares To Launch The Dream Chaser Spaceplane | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/sierra-space-prepares-to-launch-dream.html'
 ---

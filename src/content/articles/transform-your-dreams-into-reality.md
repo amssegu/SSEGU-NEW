@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeWKudYy0pVhjztoTqxjwp96bbv9ThRk1Gnxvy3M-JMHmxWsEsYAItrAx8RQs727Vz-dPwSfwKvNCnwQk0pbfadEs_1sss0huEnFGiilsSf_7owmro1gJWSmRoGKinTB30GO37znhpLaWf1Q7rnjzZWAmchgn-wR7sSQtbBsIo_toQGyB663Nm-g5dTSg/s1280/arm-1284248_1280.jpg'
+imageAlt: 'Illustration for Transform Your Dreams into Reality: The Ultimate Guide to Writing for Manifestation | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/transform-your-dreams-into-reality.html'
 ---

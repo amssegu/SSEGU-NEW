@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuZqOtPCSo4mhdjHBdBnMK3gBfb5b0qmR01v8-3cflxXumhDZogy5klHkZTAVovSiwzIHtvxJpRa4U79xp8sRlRs5_CMCNulTZXI6k9LkPPSMssuGCdLT8MXLPlWAQ5_LFUwOtHy2QiR20-w57qte47MTObFg_Gbkzfo4FivtXegblVh2zSjL9bmPF1DI/s960/hotel-1831072_960_720.jpg'
+imageAlt: 'Illustration for Top 10 Best Hotels in the World 2024 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/top-10-best-hotels-in-world-2024.html'
 ---

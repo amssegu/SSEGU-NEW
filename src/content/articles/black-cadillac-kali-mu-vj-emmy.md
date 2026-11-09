@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRfjyxtZRxe8dQngBnK2WgMC2RKLo8vEEV47g3qCd3ozv5-3tPbxYSeElUwcfQQ0r8tdHskazJREVj6XdS-ugBuwCTS-HWQILngmo_tzemigU_aKcrQMWW2iWe2LZoFIgRWkw99rZN7k3ZQA4uFt3hutV372zXRRl2t9h6w1e96S1MIwTUiSIrgHBJx3A/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Black Cadillac Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/black-cadillac-kali-mu-vj-emmy.html'
 ---

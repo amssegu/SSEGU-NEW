@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-08
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikig0L3-2YMTXsiCYe4MhM0u1kq4YU46pB7b61dKU3hYgBvMtpEC5AMkxBgT-l7HvIDrB8KDL0Jle_xm9Lg6YJ3VVT04DBjQS_SJtrZN8GQz2rMqdEZr4CiKmAobIuzR5S1F4rXOUuKLa_wuECzvdB66nQucfV7aFUcq0-JT8FKBEd-VbR52VQaY1y0mQQ/s750/llll.png'
+imageAlt: 'Illustration for In the Grey Kali Mu: VJ Ulio - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/in-grey-kali-mu-vj-ulio-ssegu.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2023-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8esXR5O-_qe_4scaIc6aohQaMUj65vUIN40WcQTYLTpGG8YI4AucAsqQc4G3WQVqVOhwFYBz_Is6gsmuJF4pP1BLl8OEVlMwtEiVs0y4lHAh6k6E4oOnSZkCCoC1ih5ndPtWZZO8nxfH0LYkbVeKhZfCfGQYt8DcnVSc1DkljzX-7XMyL5JvMYiuwS2U/s1120/Leonardo_Phoenix_A_modern_sleek_desktop_with_a_large_highresol_3.jpg'
+imageAlt: 'Illustration for How to Earn Up To $300 a Day Watching Videos or Getting Others to Watch Videos with These Apps | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2023/10/earn-up-to-us300-day-watching-videos-or.html'
 ---

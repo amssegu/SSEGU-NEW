@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEeLIAigRuNIiDW3AgrB9ZKr28OhNqjBmcz7KVU0p0uT-ftrfU6KViL06r975KSHoHRZ4ihSxm2CwMe_YwuHERzsaMvZk5v1whehEV8wT7S9NK_GkxzJO1noDk0hAUGbCw1e5_GaWr6FhAJSj2ORLvGJhajsV7raGtzlxH9e_BkA-LksEu10i1Ihc7IqEP/s1024/download.jpg'
+imageAlt: 'Illustration for How Transparent Communication Fosters Trust in the Workplace | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/how-transparent-communication-fosters.html'
 ---

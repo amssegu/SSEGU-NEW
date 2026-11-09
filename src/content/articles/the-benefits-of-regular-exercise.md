@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZj45mgvniqbPl-BL3pHxpgf_y_-vDi5SGXumbF808CU1z7DJkgMLdBXWUE1Eu5NdLhN4PjIE9t78wlyrWGzZ-mNeSMPEszHE4jRg276cyk8vNJfmI4kh6fn7ngKO5o4TNi-4wn0FDNQWB9l7X3YmLXNicsiSPrdG7mG4Lxryj90FRA25Rwx7_Vhd__F1u/s855/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for The Benefits of Regular Exercise: A Complete Guide to a Healthier Life | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/the-benefits-of-regular-exercise.html'
 ---

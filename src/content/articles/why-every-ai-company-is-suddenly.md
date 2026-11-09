@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-24
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20diverse%20community%20of%20Reddit%20users%20engaging%20in%20discussions%2c%20sharing%20opinions%2c%20and%20posting%20various%20types%20of%20content%2c%20creating%20a%20datarich%20environment%20f.jpeg?t=1716533714846&amp;width=860'
+imageAlt: 'Illustration for Why Every AI Company Is Suddenly Obsessed With Reddit | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/why-every-ai-company-is-suddenly.html'
 ---

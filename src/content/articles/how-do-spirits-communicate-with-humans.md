@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20serene%20night%20sky%20with%20twinkling%20stars%2c%20a%20crescent%20moon%2c%20and%20a%20faint%20outline%20of%20ghostly%20figures%20in%20the%20background.jpeg?t=1716444579223&amp;width=860'
+imageAlt: 'Illustration for How do spirits communicate with humans? Can they touch us or only show themselves and give off energy? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/how-do-spirits-communicate-with-humans.html'
 ---

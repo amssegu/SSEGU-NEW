@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7ZVOjEIgxmW6vks1sE-cM8-q5m2nlXKPdfPTxHBUJ-1773CPMt4ZK5OAbxDSsdLbaZ1qB5qm_X8YPpgTSVNurCRAI82imYV18IsDJ-XQkUgzeabHVafx9h4ldXDYTfT835rdFWB2WHPQs3CitesOkEQq-zDRn3iREcX6tUDiXXq7otn7-xPYkEsM1OLI/s516/images%20(4).jpg'
+imageAlt: 'Illustration for VINKA FINALLY DOES IT! The Cricket Oval Is About to Catch Fire | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/vinka-finally-does-it-cricket-oval-is.html'
 ---

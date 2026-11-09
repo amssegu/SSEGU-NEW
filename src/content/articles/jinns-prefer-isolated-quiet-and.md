@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-HdUgiAIiwWXnOxf87TCRPfts5ZJkcfGKYKYGPPJ42ifhooAyznDkgamyqIYveD7WoTsCgTJ4SZ7PrKGznxK-UbxXuVHEXAuA0-3K0pbJubNRHwflxdozU0TjFh1WqUMS93Rtr7iLge6eEM8NY8U28RWWCc6g-mr9xGEXkVGl-djxiJ68rxSpWVecpPF1/s1300/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Jinns prefer isolated | quiet | and abandoned environments - Hidden from human sight But Where Do they Live? | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/jinns-prefer-isolated-quiet-and.html'
 ---

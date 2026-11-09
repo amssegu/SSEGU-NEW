@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20various%20Amazon%20Prime%20Video%20original%20series%20such%20as%20The%20Marvelous%20Mrs.jpeg?t=1716177531008&amp;width=860'
+imageAlt: 'Illustration for Amazon Prime Video Original Series - Reviews and recommendations of original shows available on Amazon Prime Video. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-prime-video-original-series.html'
 ---

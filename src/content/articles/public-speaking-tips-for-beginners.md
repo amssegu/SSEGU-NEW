@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0L1hrt61BUCv-zlYBEirAp_fxv_BAivQDLVt_z1DWUe8k1qq0Q_wqDer0TjcEuSnjfA5Hf-LmgsCg9gCvuZwSE2ezeqc6tERcWPtwuFbV-RVt_Nxw_M7jQuw9G932aMAW6UpTkuoeCqTs0aaVcArzvp6-OWqmcQyy1jhnRJofyRY2KJYvjaVTwhAQRy_m/s1262/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Public Speaking Tips for Beginners: A Complete Guide to Speaking with Confidence | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/public-speaking-tips-for-beginners.html'
 ---

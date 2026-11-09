@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzr1uBKIPugxNNVgWFYEJEpBDH0OjgkQEieSvKxsK6u0hHGtUisWOiwCRM5ET97P3tUI1P68z73y_ti9cewg28R8N25iePuhpZF0vCEucyB6OmdfHreuBGA_gXO0fcOF2Dz-NcB4fMY8oal8WW9tS-iqAD2ymmlkYbtcoM4a-3UBdR7xeJj8KMGVJlz8Q/s721/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The Main Event - VJ Ice P | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/05/the-main-event-vj-ice-p-ssegu.html'
 ---

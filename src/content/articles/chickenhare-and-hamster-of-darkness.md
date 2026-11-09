@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4_UcLgyp5ieWhfXT6vcpigEYgxaMOqJ4ZJ9VoQdUWGthQcVRzMDeLv9NGtSXjIJF86I2Qma-xrON-gYxvF_X_69D-wqBiPGRWFzMtyz4MYvwpEF6DqzjqftO5XCOqFNcv3EEDMYickdtXXeT0WSDTl_fIqjZ-Vux4_EPUk5rbmYsrJl5GVCOTT1rMLjw/s749/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Chickenhare and the Hamster of Darkness Kali Mu: VJ Uncle T - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/chickenhare-and-hamster-of-darkness.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ3QWBI4Hq40qttFWk1N4ksWmdwLhXJy1q0JV4K3x3T0fCTji5UB4hE6rk7svROOJl3f0uHzYTCaZBNnyQCCdOo681nUVNcaHVKFjAPIambTMcxQ-s_6JKd9wAwAVX-y9tpw9MHeNxEOnAVETgdA9TlysmZjUQ1omvDwoe0aK3ySvtsy28APAZx6PVTdk/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for Explore affordable transportation options for new expats in Dubai. Learn how to commute easily and save money. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/explore-affordable-transportation.html'
 ---

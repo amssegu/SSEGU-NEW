@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoNzL6PbeLf_wP0CiPkgVkpNazkIRdqUaC7Pk-jWrNiidR_6c3h2jFYre4kJvi1Cx_6Ncn8-CKHMrU2IblAWj9448zehn5XtKJM5YQjye12YghveLRNsINXCUeeq90pcIXGQAQ5v5Egs30_RHjvWod8NjuuDPcxmQpY1mOuuJ_Q7_W9dyjWBhgr60gc2M/s749/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Pressure Kali Mu: VJ Emmy - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/pressure-kali-mu-vj-emmy-ssegu.html'
 ---

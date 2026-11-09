@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-11-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjynn4qBojKRug_llLKBFRNEgJTZz0uRFw82LlqGdr40PVZ3iXdp5qG9vdWd5KrxvMw8rbcMCnvPnjzRwEvxrIF7KTI9DhB8hF64Z9CSNijnax2EVGnD1OsLtlSBWNsD3ncg9fNdYgvmE2qEWZbPWiszQhqbSFOWY7UpXwp2jbbxx85XEon5mZAfzKreJM/s1120/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for The Evolution of Data Storage Technology: Ensuring Future Compatibility | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-evolution-of-data-storage.html'
 ---

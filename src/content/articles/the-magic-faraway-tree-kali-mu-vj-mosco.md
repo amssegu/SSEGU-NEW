@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEEkAZQBrrxIamGTL4b5ybhHtezuRAKE88fCM-TlfbwyS_xD6F4gtGs54hnPjQrC82Lq-yTRhoQbr0Z9ccRPe3HFYDnPU176MDJ85MbpmULPZXrz8V4oY_Xr1PrD2xIHphH7UtlAtXbWDfh3BqElppR-Hkkd38rxVNPkyiup1layG1EaUI5ape2qglHkg/s554/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The Magic Faraway Tree Kali Mu: VJ Mosco - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-magic-faraway-tree-kali-mu-vj-mosco.html'
 ---

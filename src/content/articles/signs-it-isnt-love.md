@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsP5T5dbR2s3GvKfQxz9w23fV3Qc9jIc2UM9i3735Wrk1g4lv_5nWdJnDZklO2UDSuP8eRRcKNfYd1inmKUl9oIno_Ab3F5ZM1uk8Jueyq6dprwhF2ftd05DAN4_TU8wcf2EvJxrKg6isMezAgygJPNbzL7E9Fze7sNlqjinkin0guEdTT95f8ca8-ok8/s1280/hands-7679387_1280.jpg'
+imageAlt: 'Illustration for Signs It Isn’t Love | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/signs-it-isnt-love.html'
 ---

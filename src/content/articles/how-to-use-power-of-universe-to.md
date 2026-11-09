@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLMlaJ8oODaFN1Q6gKXlGk_3MLKIVrkmxfmOc85aAZ9PADvYzHQqIcLq2spHq9PE6TGloUfmp-k5GYE9WMhsvdzvX3Eo1xmZEN36wpY_AyS05zrjPwXuCsKgcqyacwO5V2qjPaT2Fif84g6rJ6p9dShJaqlxNvdOCAblDgJt1VsdCr7bTsfky8UxljuIA/s720/ai-generated-8654331_960_720.png'
+imageAlt: 'Illustration for How to Use the Power of the Universe to Transform Your Life | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/how-to-use-power-of-universe-to.html'
 ---

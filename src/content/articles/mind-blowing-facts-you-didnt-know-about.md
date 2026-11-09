@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZE9eD4KDHiW1usjgKRHBIEtYL_kXTEgPDeWMFJjaQbFXbUlRQCzrzfjNuhZIlRAvMJUZ0Cox3dOqYPxHamgtZcSIIRALLjA7_1Uw2hArfvydzTIWF7kOZNDZ7DnWVN0kQvfPxSBChj6JhmxTcY-a-ecCZdBRmKTBdQuWJhVlc-dqaLEodXilbB9X9S30/s1280/indian-woman-2408609_1280.jpg'
+imageAlt: "Illustration for Mind-Blowing Facts You Didn't Know About India | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/mind-blowing-facts-you-didnt-know-about.html'
 ---

@@ -8,11 +8,13 @@ categories:
 tags: []
 publishedAt: 2026-08-07
 status: published
+image: '/uploads/migrated/057fd3aa8f89f876.webp'
+imageAlt: 'Illustration for 10 Essential Habits for Building a Productive and Balanced Routine | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/10-essential-habits-for-building.html'
 ---
 
-<p> </p><div><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib_DI-PD_bTleIDETGIlTL-8u4ktaTzbQrWOFJP2S2fOXsaktvs5p5hW570TOUVTcZa_c_J0mgSsqhL_g9oCDE-wHD9vVoqxkCh8yiMyPi6irdrCHpY0tRwa3yKw9qHuWg1lSjHm3xE8s5D8tGPp5KO9oHzZ6VMyHidIhz7RniAzUZEVIRqmZT02EuR4Uf/s1286/flat-clapperboard-icon_1063-38.jpg"></a></div><br><p></p>
+<p> </p><div><img src="/uploads/migrated/057fd3aa8f89f876.webp" alt="Illustration for 10 Essential Habits for Building a Productive and Balanced Routine | SSEGU" loading="lazy" /></div><br><p></p>
 
 <article>
 

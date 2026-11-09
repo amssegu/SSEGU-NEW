@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQaSVdbWbCS7f5wXvWrmNt71E1Xsn8rSxF0EW2pe3dduwLiykVgCdb-XyHVhyphenhyphenqNyPAJ__xYj4B0vEQDSha1_Nr3u_dM6qlvEUtn1OCZogKzVC2xI90_FLXdXVp18RRntkxyEryKSCMp0ho-HNvRH0N7QxgREWEVSD00DyKOHaRBbAV0Hk19ZhTpO3bMqY/s1280/couple-1845108_1280.jpg'
+imageAlt: 'Illustration for How To Make A Relationship Last | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/how-to-make-relationship-last.html'
 ---

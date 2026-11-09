@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjAgh7OfOqTK-2wQLmFTlWDDgKO68wMf272kR8GgHC5ovZxVhOppz9zhkw-vk616O1fsZ0lxEEFmKej8c0ZBuFMYt7UGWceohy0LeeGosl8hVC7ZrVGixXwTEzDKOOyFEHkMt8_hrwLP2U1nRYN2w61XnPi1nLRwOVo1zePWLmbg08v-oGreBvglhjfgkk'
+imageAlt: 'Illustration for How to Sell Social Media Content Calendars to Small Businesses in Uganda | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-sell-social-media-content.html'
 ---

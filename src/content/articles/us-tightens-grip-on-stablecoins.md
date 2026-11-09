@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-13
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20diverse%20range%20of%20stablecoin%20logos%20scattered%20across%20a%20digital%20landscape%2c%20with%20looming%20government%20buildings%20in%20the%20background..jpeg'
+imageAlt: 'Illustration for US Tightens Grip on Stablecoins | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/us-tightens-grip-on-stablecoins.html'
 ---

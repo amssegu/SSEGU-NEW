@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-01-15
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWjwvAbPryEOkk76D4YcJRjHzrcMELEWmpRW1Ruy6amdi09fZQoqUqlUgEnbJt5qF4PE-Lz_QixIq0Gl9udkmFanW9Z66Czp1o02ssoZGvv4PGDUge_JuG-CZPUjSI-24-1aIpph_lWc2tbXGaK6_8Xyf1A15oT1Nt7SDS4hDm5odRuJSwGyFJosQSF24/s2500/1000x1000px.jpg'
+imageAlt: 'Illustration for The wise paths to success and fulfillment without any education | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/01/the-wise-paths-to-success-and.html'
 ---

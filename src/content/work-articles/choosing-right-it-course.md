@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBWctBBNkwB6YBjWvvRNrjqXAtchJLcP7fWAhTfOxcb-OE4SUy8RT2UPmf44Tmrdro0gZy5XW157aMefGUzKoSMpoq7-9e1Zdks9dhY-dKXM71H0GuLf6_gPSM5vgJAG5uDPZXLb2M9T07HNp_CBgLLkJOMygZyCEL_cKj3QQWuWyIm0vJZMZTOMLvg00/s2864/dance.gif'
+imageAlt: 'Illustration for Choosing the Right IT Course | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/choosing-right-it-course.html'
 ---

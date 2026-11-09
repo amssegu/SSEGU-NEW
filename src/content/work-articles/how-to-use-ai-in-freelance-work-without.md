@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-08
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg18ySmM2ZSspdXtA1t2rw6xaub0hBz4HNNE1zuHSlK84WH4m7g6Y3QGjnPWxvVPuYnn9HB_Xz9s4DFqUTh8oJgiZPKN57dSiYHJZkmbMjSv-WesDhB9XXcqI4AS893NWJS5Cx2I1-P7CMo42piYPk7FrN_lQUgATRNnzcmHhsp3FYXA_g8QFV1mlfjHzQ/s1600/freelance.jpeg'
+imageAlt: 'Illustration for How to Use AI in Freelance Work Without Making Costly Mistakes | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-use-ai-in-freelance-work-without.html'
 ---

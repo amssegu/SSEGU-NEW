@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcDyt_DGmZ1j3LWDfz3EJ-pYRwJ21FvqoPfTVP0_E4Wstngia6qgjdZURACcqmOiCBQZI8Jm76D7BiBYkjlwzDmJJGlQQpbrgOtPUMYkDB0fpLzcnJCUEf_EBawBhll_6xtlAQDqXhn9ESHphyBEJB9wieY0h-MH9qSobTv3OSiYVfy6dYN-kL83uBWIUp/s1278/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Credit Scores Explained: What You Need to Know | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/credit-scores-explained-what-you-need.html'
 ---

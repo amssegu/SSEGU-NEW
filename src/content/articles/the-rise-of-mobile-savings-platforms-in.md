@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWJ363fADhAo92OKa0Rj2wSUtcQfIDL7BKw7KfvsSl0eddlb2sQ0BYZV5XBCAfabCMIsJI2W1l7BLq-kliKs0vL6hyphenhyphen-eMWZ5dXbVX8xgOoCjxuhXYeJwnO2jW3ZkX1NtOYixN19ZlSfPJgsL-RxtTVetVZZmA2C4yVyd5PXXt5n5I7jj3LnWI0UAq8hkQ/s1120/praying-hands-2273821_1280.jpg'
+imageAlt: 'Illustration for The Rise of Mobile Savings Platforms in Kenya | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-rise-of-mobile-savings-platforms-in.html'
 ---

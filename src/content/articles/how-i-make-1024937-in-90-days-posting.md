@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiY9gtcA-ghe5TPvyWKgjdcXJSSmyX_RQRzqzAelYM37ts_asnh6niITUgMCvqoKg7tcmVLKmjzlSDRJqlrJab43iGeg2eNq1EtZoSnhkUgwrSAjzLb49x09X9rEiflkgZbPQOzEOqLybu7Ok7cQQdZf2ORXGwKWSktXrh6NiFFt27NPdWcRRwTWB2JKc/s480/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for How I Make $1,024,937 In 90 Days Posting Facebook Reels (Full System) | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/how-i-make-1024937-in-90-days-posting.html'
 ---

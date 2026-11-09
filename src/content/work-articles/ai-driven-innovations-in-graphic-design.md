@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3x2QfUvaq4mpBzMc0kSFWh4iXOFE9baoc-ZLtpn6E5seXa9B6uN3ZTLp_jxINRSi-cQNT0HJmI5gBDFWRrsA7JT5eSXkGOhqVZWbjPI708bO_kb3OACfOGuNboPO_elqX9FtM6j9FWQxGaQWn_HU8zfDCZq2o1CVamF76QCAjR8BW6QSrdW3_224g8ug/s2000/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for AI-Driven Innovations in Graphic Design for Freelancers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/ai-driven-innovations-in-graphic-design.html'
 ---

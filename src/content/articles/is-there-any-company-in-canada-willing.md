@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-09-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj764N4-o6IRevOMY34kTtoECrLPozHRtyJmwBu-Npn_SwUJC8q9KbV9REqfYkAqLTdr2sy951aWCbUv76WBEP6z_1RYvD_pNTHGTTk3JsBUmxYOa8IBhkKwSiPpN46GqLxUIFZp37m3SqPe5lvo6RAvQPKLUTQ1Qrbirvy4Zkg4zYlGqoMHAH-QqqR1o4/s1120/computer-2937207_1280%20(1).jpg'
+imageAlt: 'Illustration for Is there any company in Canada willing to hire people from Africa with sponsored visa? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/09/is-there-any-company-in-canada-willing.html'
 ---

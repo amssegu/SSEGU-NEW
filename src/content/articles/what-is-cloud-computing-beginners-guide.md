@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVO1JYvCR-CRRU6Hv__UkOEEEM9KvbW4owSX0tw2sjGT3lvxieEnbxKLQZYD5ZOPROcPxzLI37zIC0n4gO923J1yL-ZiaAmtTu62otSBoKjnH8cMC0_wIARj1dWl3x0lr_EL3Pxbfkze29lN9vY6HPBIX_fPUKYaSYe4ZDSxKNchw0Hj1nLfcdk18Skw39/s918/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: "Illustration for What Is Cloud Computing? A Beginner's Guide to Understanding the Cloud | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/what-is-cloud-computing-beginners-guide.html'
 ---

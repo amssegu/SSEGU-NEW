@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-29
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDeWjyhNpQCs4mN9n8CV0ey534Lk9XpiPHE5yTwFKLjeOQ05sg-l4d4EDFNxSIA_WRz_zPQogUXYm8hDAiJH58RsDUlDAwfdzF0mVZZOb3lef8gvHWDtUgkdzQNx4hRW4qRUquHRjmUCvMmuko5w3jdzPa0Quv-Ie_TLiyDC18TN8PD8ZQf3nWBsI0L9M/s1280/people-1979261_1280.jpg'
+imageAlt: 'Illustration for Transform Your Business: How to Invest Wisely and Achieve Remarkable Results | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/transform-your-business-how-to-invest.html'
 ---

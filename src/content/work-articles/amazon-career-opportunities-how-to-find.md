@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20the%20Amazon%20career%20portal%20with%20job%20listings%2c%20search%20filters%2c%20and%20application%20instructions%20displayed%20on%20the%20screen.jpeg?t=1716176953864&amp;width=860'
+imageAlt: 'Illustration for Amazon Career Opportunities - How to find and apply for jobs at Amazon. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-career-opportunities-how-to-find.html'
 ---

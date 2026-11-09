@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-23
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/A%20person%20sitting%20by%20a%20hospital%20bed%2c%20holding%20the%20hand%20of%20a%20cancer%20patient%20who%20is%20showing%20signs%20of%20severe%20fatigue%20and%20weakness%2c%20loss%20of%20appetite%2c%20and%20in.jpeg?t=1716445056559&amp;width=860'
+imageAlt: 'Illustration for Recognizing End-of-Life Signs in Cancer Patients | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/recognizing-end-of-life-signs-in-cancer.html'
 ---

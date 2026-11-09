@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj05Za-92VX_9UUSU4TYZjuNkU60MazQJl0IM0kJio9qmnQ6zqHgc-JfnMsFpaCn7hSf5uFvPtGQv3abiCT84DVGrN37CnJIhHrmlWpKMt2BfJryChuP3ksglT7iWZYzYsXx_6S9He8Qq7EJOCMapEf6U2uyeQ2fTIwagqc3ImDFJ6mb8JGqRRI5Lva-lw/s1280/woman-7953825_1280.jpg'
+imageAlt: 'Illustration for Mastering Wealth, Essential Skills You Need to Get Rich (SSEGU Motivation) | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/08/mastering-wealth-essential-skills-you.html'
 ---

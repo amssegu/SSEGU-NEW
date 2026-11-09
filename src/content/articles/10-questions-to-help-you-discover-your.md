@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5LC6XlR7n7bdNfel4zzlCusvlRmYNcPLKXJ-9OI2G2gJct-0SvZDR0dvmVSxlG7Gfk96kmcYucRFU6HrPNtHyryObactapYuEFN1wdPSrDdzjAtSTfuCLwDzYHW3gpCFsudazYxAotV3fXAf0GRD5FKSw0OkrNCGDIAIq0w4Xe2zj-TlIstpFHB2EDnE/s2500/download%20(3).jpg'
+imageAlt: 'Illustration for 10 Questions to Help You Discover Your Strengths & Weaknesses | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/10-questions-to-help-you-discover-your.html'
 ---

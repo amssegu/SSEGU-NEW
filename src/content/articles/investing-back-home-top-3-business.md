@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-09
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhke7-DEOLRzTOorFcGuAeXxoD7kn92NuO3uMyvOi9eBN_Sl4O3v5YV3QDmiiqFw-vxOzShKTldA1Lc6McmFbeeqZG_qXyZ-V84aNtLhGiVo4v8YvhH7_IRIOOalSBFDsIlXZ2KC3gbHuO5emML_Lm5cOE5PQZ2BMcvkVZxnUfiMCuwaWaM7NUIMreS7Nc/s1280/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Investing Back Home: Top Business Ideas for Ugandans Abroad | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/investing-back-home-top-3-business.html'
 ---

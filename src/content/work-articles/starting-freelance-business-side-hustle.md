@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20person%20working%20on%20a%20laptop%2c%20surrounded%20by%20notebooks%20and%20a%20cup%20of%20coffee%2c%20with%20a%20website%20and%20social%20media%20profiles%20displayed%20on%20the%20scree.jpeg?t=1716615280498&amp;width=860'
+imageAlt: 'Illustration for Starting a Freelance Business: Side Hustle Tips | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/starting-freelance-business-side-hustle.html'
 ---

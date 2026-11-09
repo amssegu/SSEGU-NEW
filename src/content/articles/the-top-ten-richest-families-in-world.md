@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMFqWxk-B6DkUetbNnxKPEQfhfoMEzoC5iMTfymn47QQOltCObPE6pGo1KMlgWyV863e7FeLIEFb9xpvKcyciuVMZEKcK4x7q92s6TJP0HC9c18NZqTyhtJfjBpkwOa6LL92gASsiBJ18Vo6nIMhZZ3uyTX6n0cFRm51pUzG24jkTE8B2rQj2pXzXs3Ys/s1280/tim-tebow-net-worth-8197788_1280.jpg'
+imageAlt: 'Illustration for The Top Ten Richest Families in the World and their NET WORTH | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-top-ten-richest-families-in-world.html'
 ---

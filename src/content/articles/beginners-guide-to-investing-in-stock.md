@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-16
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju9AeXjY9XrYZERhN-7v6lf7clbIJRSbjVteJr-uZy4h2L0fvaQcp2-Nt5NBgDEKiJBJ3m5FvQi5r4r-xJGsBgm1d4TVnPK35QGQPI2kxc4xWlLAcCJ_tCSf12Cp7nysdoyh0fxg9oeAhMM8vGMYNFUQVe6NJkuVdSzefKptrMlo46k91CVNn7bqQn2gm_/s1274/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: "Illustration for Beginner's Guide to Investing in the Stock Market: Everything You Need to Know | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/beginners-guide-to-investing-in-stock.html'
 ---

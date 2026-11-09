@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLEc7vjWQ31DtBtvYx4QlqEtBhDzSKt1aF0WylVqnHV5FbdpI8jZryAKc1m4Gg7waNSq13Lom5XUWiR6suqVTFdkCl_IGXvlpB2T0O2UPl_IlZu71Nejzp2NTba5s0586owRsrGsrfzCY6BF77Cj63n8qX1fIDM3TPyAFnp_cxUgAihwovf8lsEoYyAlON/s1672/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Why Money Beats Gold and Diamonds Day To Day | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/why-money-beats-gold-and-diamonds-day.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZvvSousnxZ222i2w2wUyjERElfCR7nOalRiyhG5AGhRcB2KGJ7sQ2aWLsELxOO-lllBohkck7DfT_6lYX6la15JVNIrCTQhuhYDtuqmhtGBJI0xTsA_It0gQLEYwUZUhoKJOU5WxBxAhWDbcYHNNE-R5CNo_gED38EcGgBh4GgBvzddoiX0z1NcgTRiuQ/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for iSmart Shankar Part 2 Kali Mu: VJ ICEP | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/ismart-shankar-part-2-kali-mu-vj-icep.html'
 ---

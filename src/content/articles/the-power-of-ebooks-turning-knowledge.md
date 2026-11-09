@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYwZWG02-f3ok5VSGZv9CfoPy4aTCVbT0M-v4PdlM9TBPpdw7W7XNT6yY5uHY43Uu-2I4QbKEKHTeW2ze_ySi__t-sTnd5OGTTh8Sxy18qQ-MrI8DPJ_CxlofLL6pAbG75zhPHk6dtPjiyz_lHleO_e9YLJU8mVgb86zb6VJZeEUHzi4BO4P61TnwTtn0/s2000/computer-2937207_1280.jpg'
+imageAlt: 'Illustration for The Power of eBooks: Turning Knowledge into Profit | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/the-power-of-ebooks-turning-knowledge.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-01-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9lHWK1uF443joVDCbieWJPRnTs16y4-Lcd94R0NbTlNbpM1GRNb6-POjHiHtjpirdgcP2qDeQffFaSY8kCqk-cz-mdpelw1VoOJth6jMVqvtCGHs327d7BXDGDNQ3Md4ZJfn2UJ-xM3-Z7TmW4_vSdUs1AtZh8kcbTEsjpPDvLMXrJeGX7XSIKpkwa2k/s2500/1000x1000px.jpg'
+imageAlt: 'Illustration for how to use AutoCAD to create house plans this is the Mastering of AutoCAD for House Plan Design | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/01/how-to-use-autocad-to-create-house.html'
 ---

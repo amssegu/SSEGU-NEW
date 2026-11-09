@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-06-16
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHAXa8khvXxeVcJ5gP6t5zJ482e1RiZW7yGrCB1VZzhuq9zFMtqlj61bAKJtFurVERvMs4YbSwWfclKLoyucStNzhatW70LlelsY24gMtBuM8N0gd4a8W133wSYGtKQy7uwtLdc08Wgfnvf9sHK9eb3JnIEGsBWJcZQduekU6jhCd1hBU4Zo3zKaYYN8A/s1500/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Killer Whale Kali Mu: VJ Emmy - ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/killer-whale-kali-mu-vj-emmy-ssegu.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmM1d_PISyrdDFnYz1oHXxDBuJzPSfGzar_h0udzwHQdl8AW-oNQhdBJefltbwwREj3yIwunv9v7FgmRw4KKmoRQMAGXELIzN1fIyDcgT8Bm5fLGoZXNmakH-T2_RaBawAc7A80FpXi4SL5lnHAklKaA5hy8OjmP6x5F1MxlyQeMa4SZvPQIhWOYhBphk/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for My Weird School Kali Mu: VJ Mosco | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/my-weird-school-kali-mu-vj-mosco.html'
 ---

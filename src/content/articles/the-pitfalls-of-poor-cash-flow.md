@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjdOCTtsUoJjbX41YDsoYR-Nga86NzINm_TCYLabqmUK1iYXV2O9nkuInNMj3UaOvRu7UmPzT2-DikXnHoeYak5zySetOhSwrPA3Yvl3_th77I55NjuR3TimxtT9MelBUz09mOZ9DE60b7Bl95cW4AHUytklOsicneN3x6Q3p_-wQSCjKsrx4gD1PUsPJ1d'
+imageAlt: 'Illustration for The Pitfalls of Poor Cash Flow Management | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-pitfalls-of-poor-cash-flow.html'
 ---

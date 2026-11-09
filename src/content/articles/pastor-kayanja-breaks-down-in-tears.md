@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgASo4N84GXjtqcXcJuifiEVrPbebap0odnIKQcvUycWA6a91ESVP9Dvt7NhM9Pjf4zoHfmb2hSn3j9ER43UtPUl422vnG-v5njqpWzwlm4OTktoZO4bH_jK6vQkca1FXEpCTQ8G1fr5182DWVL22D-b9hDYop7A7rgFToG8sdZvG7ztzJy5LTRYoQZ0qE/s808/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Pastor Kayanja Breaks Down in Tears After Public Apology in Wine Saga Redemption Moment | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/pastor-kayanja-breaks-down-in-tears.html'
 ---

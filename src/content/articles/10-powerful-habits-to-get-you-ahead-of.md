@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsBSXhWbiBnwOwG6-WX_rl80K0JDSHThtB9UjSe57R5Cm501YboNOpvDNX7tdYS5IG4AnFz_4Rl-qUzskHWEnjKv7BaPmQPboNRV1excN6ymQDWfOVn_5S8H8NIJ5xY3wn3hdy39-CsICTqS4scrkcgiyALeKYPJbLD3vOZjjzErxB3mwoud7GjWRHXUE/s1280/business-idea-3683781_1280.jpg'
+imageAlt: 'Illustration for 10 Powerful Habits to Get You Ahead of 99% of People | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/10-powerful-habits-to-get-you-ahead-of.html'
 ---

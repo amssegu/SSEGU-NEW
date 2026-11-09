@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZDAovlTkmBdiPNZV_4DgLatYMXxuUE0uMvUgdsfKvK7mlXLfuENgw2BflIbYWOUECHHRZ_U_adt-CbHGoaqm87fmaAMevYuUxfEqHA1VLCT1o3MPLGl327bxGnYt3A4Q_pfeITXwA7RRrIYRYbgZP0DQ9f69yS8IkAKru16MGcWtitNGTEe6hRt14TLc/s960/download.jpg'
+imageAlt: 'Illustration for The Impact of Betika on Sports Betting Trends in East Africa | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-impact-of-betika-on-sports-betting.html'
 ---

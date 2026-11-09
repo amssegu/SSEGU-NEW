@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVJL7Eg7oL7l3UeXD0UPX7JouCYs4iFAI8eqG8O4EyTliQ5oO6Q7izxoapJhnwC0as0257GoJiuI2JGNXg2TCK-Bf6d9r5NDj2lkoPUjJfwBCri-OtmIN6Rnu0TJtYfg0q5CJ5Q-9KO0dwxm9sEAPBRvO9ip8-GnWyrrsZkkyJ8FN3khMlyz-It8bCaoc/s1024/download%20(2).png'
+imageAlt: 'Illustration for Unravel the complexities of Forex trading and its stark differences from gambling. | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/unravel-complexities-of-forex-trading.html'
 ---

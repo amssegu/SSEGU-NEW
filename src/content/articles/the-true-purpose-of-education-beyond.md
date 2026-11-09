@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ4e_f_Qcm0z7BtMA91ET6U-2PEldKRJAGsePJCVhcjE0Emfo_68-6Vf4DraiyceHLX1JF0o7MYx9gsryMtIwWKW6OHzQJ5lRJlUeSkK0m3qZnoaMoE97QB6BAI8m0qJ6nfBll05OAmBD0CA-zDeTSJbPQ8gsOvP4_00JFm1zJCsNOBGfYp_2GLp3B7ds/s960/happy-children-876541_960_720.jpg'
+imageAlt: 'Illustration for The True Purpose of Education: Beyond the Classroom | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/the-true-purpose-of-education-beyond.html'
 ---

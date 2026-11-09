@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-03
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEiJeuD9a5gchXpuS_PB_UAijR68rhCY9UAHUGeMCtyjZvOorZjMVsgtg6BVM70P7yfkGceN2Sfh2PKS5B9zctRU2ymx8NVSVa-JXYCQUmtfPIdureFrY1Fi-aSavdTdUCSpAvQuLjMCVO1YrsJHbvH10R68MzHS9oAOX7cD7YI11YFsz7hbYhqRrUXmaEA'
+imageAlt: 'Illustration for How to Use WhatsApp Business to Find Customers in Uganda | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-use-whatsapp-business-to-find.html'
 ---

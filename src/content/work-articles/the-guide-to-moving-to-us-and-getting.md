@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7o3E6X8G2c7QmrePJdNnaZ5WPr6Fn7DYTawMVdIo534J_nlC43MsIlUm_rVebxjLWXPy_3p0J051C9W0VAzbL9Wvu2I0B5hfW2Cl-Zf1zwRrxIzd7VkA6VJZOQLbGaIla8ZZYUIlj7n8vnHGvc2I-_Ejd4aBwAEO_HJnPPiUZnb_HdjnFqz3Q0Im8r1k/s1280/dream-job-2904780_1280.jpg'
+imageAlt: 'Illustration for The Guide to Moving to the US and Getting Your Dream Job in Tech | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/the-guide-to-moving-to-us-and-getting.html'
 ---

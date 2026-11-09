@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvqpHe6drK7vCEJDV0VqL0iLPsPiJIEwGA3TXjak5JmMJYRMbiI5i8NYXngrZp48KeuXWWK8OGhI96SK_La_EIozk_TTK4CUda0_peBekUX-Bc6_sHgPnG6eVxX9jEyqSrQ5qStkG2s-VAFBe1VGU5y_t3zZdY2Z8l5xTNqDroEi7ngQ2QD5WKJ3u5gIMU/s1038/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Resume Writing Tips That Get Interviews: A Complete Guide to Creating a Winning Resume | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/resume-writing-tips-that-get-interviews.html'
 ---

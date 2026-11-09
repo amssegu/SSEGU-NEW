@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyEp_KwQweKaShbambj6zFavzGXY43fbiPcvT1sY67mD9mREWDsGG_aW3LBMcxzrjgy1zFiwy9fGxgbz6aouj5FIrh50Y_7KUT3PFTHa-tVAsg6ezIzQoUg25PpX_dPg6mkljzh-69HcNhMoK2HWxp6FdpLB_hBByIw-5jB2glZGS1i6yDzFq04r2RG1s/s721/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for AD VITAM - VJ ULIO | SSEGU | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/ad-vitam-vj-ulio-ssegu.html'
 ---

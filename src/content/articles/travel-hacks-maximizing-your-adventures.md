@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20passport%20resting%20on%20top%20of%20a%20world%20map%20with%20various%20currency%20notes%20scattered%20around..jpeg'
+imageAlt: 'Illustration for Travel Hacks: Maximizing Your Adventures On A Budget | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/travel-hacks-maximizing-your-adventures.html'
 ---

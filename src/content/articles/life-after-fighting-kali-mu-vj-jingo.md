@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-13
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUv_pCslLKsAlftpvsJOmDnjsVCBcX4XWUTeiLqslHcIFI4nIXxbh-BbZW6Kl4qqYPOvzcsP0920sm3iBnjaWxSbpPnPgsd8pDqBYBqEFxLHMQdmgR8YsA1RJqWINVtRAZcFkfaG7Q6mVkrIfSuxOAdjWEODOzP2rSkV0aZf7AA22fk-cIE4P8lHUVQdoy/s750/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Life After Fighting - Kali Mu: VJ Jingo | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/life-after-fighting-kali-mu-vj-jingo.html'
 ---

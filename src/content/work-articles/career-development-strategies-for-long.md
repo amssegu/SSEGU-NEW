@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAUrsClSVoLMMdBB5DqeLKSfof9WjD-MurY6lO7f9R6ot_VGw2xNLVLY-d5W_ZUfXp37Huxq5RJnxZjaKdzsHzovHO9phjznV1tTw0OirgRox8w39stUBTXWtY5jSpP3ubvQTR9Hzk_wfcYsupyeyapbF4_KiUHXX1CIbXAuEfDS1GaPEgOqKuYNVabZSs/s1298/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Career Development Strategies for Long-Term Success: A Complete Guide to Building a Rewarding Career | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/career-development-strategies-for-long.html'
 ---

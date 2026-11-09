@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbXz60zubQkQzk8eKgnTgP-9xZgqUQPVn8KElR70xJB8sG7iH-x15zWxqg6EfSHnmTcmpzWTNVIk9PJRwJjQ1T6K1VTEAHE7L_dGAPWj0kpirLVhyphenhyphenLBMMcxk76p_tifZSo5RX0HVHbfNQ_ysDQEP0wG-m2InQXPBMezSvVuYfaZernu-oawmYuLrRplz4/s554/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Your Fault: London - Kali Mu: VJ Ulio | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/your-fault-london-kali-mu-vj-ulio-ssegu.html'
 ---

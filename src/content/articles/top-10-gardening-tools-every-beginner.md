@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9f9WeVZogPSY7py75xNVPytoEQN9OR9OR5BjUvBOMzOEKnUKd9TL5-jTg5tEBSo3itkFKMQHWRJROib8yxs6KSDyRJPp-hX6fOfZOMyE9fawI6MQD3a363gvDEqgheyMxaqdYc3069qHpj0ea9A-FnO5_OnfGpGvC-UQDpSFJqMJJEYx1XO8_zQtga_iP/s1024/Logo.png'
+imageAlt: 'Illustration for Top 10 Gardening Tools Every Beginner Needs | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/top-10-gardening-tools-every-beginner.html'
 ---

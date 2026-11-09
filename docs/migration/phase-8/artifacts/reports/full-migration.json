@@ -30,7 +30,7 @@
     "mediaConversionRequired": 0,
     "unsupportedMarkup": 0,
     "unresolvedHistoricalRoutes": false,
-    "disposition": "Project owner approved the reviewed exceptions; unsupported source media and markup stays out of published output."
+    "disposition": "Project owner confirmed media ownership; local AVIF/WebP is used where conversion succeeds and the approved hosted URL is preserved when local conversion is unavailable."
   },
   "reproducibility": {
     "phase7Gate": "PASS",

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlHlqbl-lNvwc21lL_O0MoN5Zw4WkDRKIWIdrrt-kRLyqX0nFpSw2b-KT3K7XxsCXa_zz5_1yUvL1JZic4CEdRBbI5rsfl4uj5oPNW5-vuUj48i9hyphenhyphenaBHy3VGbnGzJvEw46_7rC4vLJApdtOltjRMMpxeDSnl8CTce3mW1OJPPm1Kv7fK2OYS5Umj2NToM/s1024/videoframe_0.png'
+imageAlt: 'Illustration for Transparency as a Catalyst for Organizational Success | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/transparency-as-catalyst-for.html'
 ---

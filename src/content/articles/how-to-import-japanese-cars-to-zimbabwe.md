@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrmy0hB2hraE-Zbia0TE3_yI3qWFXWMJMXV2lmIvQZoCChG0w_0N0gMo73TBNtxRkCVtp3XxCMZgaU-oS-YPC4nO-ae4i54B8b55Z_7d_fmNSi4FuRzi5IEh101Wf2s9FqWi_XJcwZacpENHO-qJrC3en_75oiKZ2WB8fzp8DTUyRpj3MVQ6SBbWlsxmA/s582/8k8f26-ezgif.com-rotate.gif'
+imageAlt: 'Illustration for How to import japanese cars to Zimbabwe | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/how-to-import-japanese-cars-to-zimbabwe.html'
 ---

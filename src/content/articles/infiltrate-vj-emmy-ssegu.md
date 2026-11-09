@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEVJcBAA6f5Fw5MpkS9tlXGvkWagAALZPEfoTSxOVeH8ScixxGpwocNvWaWqlnWb_z6qjQiZ7RKiSpEdzDuxF3iJ0Es9amAlZ2GZnNqy_DnMHxxDSTLir4-6d7KonbV3T5q4eUZiCfpOM_sTssU4CjGnOvFquxROXNkZ1gfksdJ3hegvbRPRAoUEd1WiM/s262/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Infiltrate - VJ Emmy | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/infiltrate-vj-emmy-ssegu.html'
 ---

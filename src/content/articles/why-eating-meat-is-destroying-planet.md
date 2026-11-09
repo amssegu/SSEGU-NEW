@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaeJ24HCZALc1hjy3K5nndi7MS1i9fegsZ9rv8gu7Vs0O3TE7eTD7etgA4uMoqyTC4CFvYifHzrga8fJqydjiBo4hzxNZeLo2wTke_u-6pNQKKT0LumForgRHV5kpBt7W1-yQdNcNS-ErOSfm0WgXkvwNa1D6efic_auhOxfdTPhV8Bmj1I8SpSIzxXgg/s960/meat-1154302_960_720.webp'
+imageAlt: 'Illustration for Why Eating Meat is Destroying the Planet: The Environmental Impact of Livestock Farming | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/why-eating-meat-is-destroying-planet.html'
 ---

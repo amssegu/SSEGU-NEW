@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEbtnUpb2KVJVAXjINtp1g3EUSHAfc-E9k-mpEphcim8HQe7a7SYi8KsAdqT_TNziHvmw-Oi4dLerjeQO6mFSxiwsxgL9M4dR2WJX_ekFyOGrUHsrcerCM1PuJO7pZM-NQJ9OGe3LuK8ieY3nxvGu5gfC4YlIcwNSpeNmFUxMJpQFMhrZZBv9RGg8feVDR/s1298/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Simple Ways to Improve Your Overall Health: A Complete Guide to Living a Healthier Life | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/simple-ways-to-improve-your-overall.html'
 ---

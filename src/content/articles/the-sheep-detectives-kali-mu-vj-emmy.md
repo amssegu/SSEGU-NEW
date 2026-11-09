@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiep84ELB5nzw5Yd069IPKUIaux-6cSipK0hEJ0pRRaVcqSgHwPYl3yEgsWnHeFRzBYNtvXesXL0s4BHe2KrrzpaDfuWcmSQJmLYQcE6tlAb5lzmA-yAVuoLQahxGbDU1ejWHBmOBlXaj3RNmFshyQ2RW3acQ3Adqj1gWIhCtrFyiNgMTpnCNkZ04ESGNY/s751/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for The Sheep Detectives Kali Mu: VJ Emmy | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/the-sheep-detectives-kali-mu-vj-emmy.html'
 ---

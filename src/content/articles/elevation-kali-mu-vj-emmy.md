@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizq26iGJWmzAbAxTyI3RZQC-1I_JEdtjsm2rRhFcgPyD6s5M4mAfacsiK15_VUlxLoKGXPDW2xiROUw27g0mZj7I60BfGQHcriD6u-05r7x11U6hwpGdEwsG9lD-fSC0IybYtUGI9pxyXqfsKUV121mkXPgtuOZ8xkqjO_EWSmt4upfqldTanSxrPSRxQ/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Elevation Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/elevation-kali-mu-vj-emmy.html'
 ---

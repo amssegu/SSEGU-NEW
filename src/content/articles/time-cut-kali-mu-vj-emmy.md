@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOsVCliZshCLkBmTGP6VkCbAdrT-Bs-urCDR4D8dyCaKmabraLN_DLJgj4Eq6kCFQ4HZmXJ9DryW7p9IUJ0Zi10H8YlXpvIfg7JGDsBcLtvn0QnzPWqOBfAAXWZLhIOQ0YyvhMkT8OMNFva63P4Pm1sU32kj1c9K7nbYHjfQtNmMtC390wbqs6uVyp2Ys/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Time Cut Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/time-cut-kali-mu-vj-emmy.html'
 ---

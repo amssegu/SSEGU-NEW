@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfvfiHtSkc0ibFO0K08dGSA7RRPQQqPWDaUrXnYX4K-2PD_5seoj3tg3XEPT3DWHEKn_neCtdleSLzVUeId3IFRG6a4EjwNekgBugkp8t64FUxRMygwHGHTFvvkC-e7Nk0PQOMXQBvjIYrtRnJQQMkJ29-Uu1kUtHS6daI_H0YsYFHWrFM-uDmIzcinNI_/s750/WhatsApp%20Image%202026-02-18%20at%201.08.32%20AM.jpeg'
+imageAlt: 'Illustration for Whistle - Kali Mu: VJ Jingo | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/whistle-kali-mu-vj-jingo-ssegu.html'
 ---

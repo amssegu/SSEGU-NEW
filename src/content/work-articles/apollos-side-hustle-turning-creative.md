@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjApCv7f9wzaWzs4q2k1qveWwUaTuJvl2NWw5hU-lwUouOURwWlIuclLSNc-GuKt6F2iexzP8R4p8CkENTFGqTuNvx87lhXUju0xAgoI78ojRdUgTLVyEA2VxjXN-gh9pTSzhGRyXSvc9GzvLUCGgpZ9xnkYkIHL0su4G-to7N68bpA6k0FOztz9jGplsQw/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Apollo’s Side Hustle: Turning Creative Skills Into Online Income in 2027 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/apollos-side-hustle-turning-creative.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh89n916aUN1F7OHSb0XhAhbj778VHxf57rZhfOOcG7_JjckhLDWPp3zSOOu_AquhJDn7M__dR_AH8VB-eIasvI1sVpwWCGh2orf3E5Z2Iromhx-0T5NRXcYcd4E_8B_y1xtmXjTsTCHgm9gbyElJ75tsLuUdnbwcKE7_CSZxQPiSnGZtpu4XKM5NVyCWdE/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for What Egyptian Pharaohs Can Teach You About Building Digital Assets | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/what-egyptian-pharaohs-can-teach-you.html'
 ---

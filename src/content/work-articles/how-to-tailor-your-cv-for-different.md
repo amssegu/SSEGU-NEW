@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU0R-M4f4cqOM1qvWv64t6WlQu2wKz-dnSRP8dpq1XHWssfOG5j-GEn_Bu4SH3PqJADjqjDYFNFTFx1fSMylmJZe1tDj8_DNOT2-IV3ECROmXiYORwMf_vRJsySJzTIenHxgpBvbfmX121V_EqQ643Y3Y2sTVGhlJ2F7KKmnU_XVWK6EXu38RCiNHCY_E/s1600/Gemini_Generated_Image_dh8rd6dh8rd6dh8r%20%281%29.jpeg'
+imageAlt: 'Illustration for How to Tailor Your CV for Different Jobs (With Examples) | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-tailor-your-cv-for-different.html'
 ---

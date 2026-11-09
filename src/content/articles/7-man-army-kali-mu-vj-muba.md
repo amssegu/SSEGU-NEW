@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk2pBohlGXCeABpKphtx-S1B3SzdDmcYp3N0bIs37xyCl4iFM9z_Y97DLFbcfYLGeXjsLmApKArYO878nUJEL7L3wH-IbkyuFTb0hW24z6KkLe3MUB71fJSC8np5tWXAw13Zdxw4BE7BA9Oky-ozxeh5gz1rwEi5s9KYS3QREmUw8f7ovtouWKkjJrAuQ/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for 7-Man Army Kali Mu: VJ Muba | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/7-man-army-kali-mu-vj-muba.html'
 ---

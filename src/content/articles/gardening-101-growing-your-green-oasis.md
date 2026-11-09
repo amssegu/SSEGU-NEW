@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20backyard%20filled%20with%20colorful%20flowers%2c%20lush%20green%20plants%2c%20and%20a%20variety%20of%20gardening%20tools%20scattered%20around.%20The%20sun%20is%20shining%2c%20casting%20a%20warm%20glow%20over%20the%20oasis..jpeg'
+imageAlt: 'Illustration for Gardening 101: Growing Your Green Oasis | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/gardening-101-growing-your-green-oasis.html'
 ---

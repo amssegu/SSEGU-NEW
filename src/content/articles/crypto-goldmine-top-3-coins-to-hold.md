@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirw3MRHlNDjU_g-qqaDU0zCZQiR4nxJm6-6On0g7dW4P1AbNTHWxay3FvxZ4KQk9Ha0SMhGI8x1fKhnp3cnp_k5XIgvbZk61qgcZgZ5b1zvXLn5GWXcb2PYogO4jAyzBkUzG-6DCUcqGWk0grYjo-ZOevCTjJqEIyWi3d981VsbAEWim-EwGnh0qWxfPA/s1280/cryptocurrency-3085139_1280.jpg'
+imageAlt: 'Illustration for Crypto Goldmine: Top 3 Coins to Hold Until 2025 for Massive Gains | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/crypto-goldmine-top-3-coins-to-hold.html'
 ---

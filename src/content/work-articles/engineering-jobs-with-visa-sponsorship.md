@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKoNwEP0t73GbDfLwTMys-RxmanRfqisURQfmq1aojDpSZ0iTbeksRLHKnxWazBXUAZfa3Azdv-1T90bPjUlrbFhP83vkpf8hsxzJ1Bnr7-7H3jGXR9ruiKRgXM-9T0lSqywSkcOP4irKIgHdAx_CMx4cfS1r2xI7D9G64-cgfIi7ojO7NaLMMNantjkAQ/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Engineering Jobs With Visa Sponsorship for International Applicants | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/engineering-jobs-with-visa-sponsorship.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDfpQsB1rm_l9bOaZspEWxYHwp8LYDnXAUtfL8qfVfeVu-mjZTIil84gMkrKSVqY15P701SiskoLJYyGqSPjWyQHRHgMWwjp-kaArDWRCrhJLsfHI7hGh7ZrEf979KkvunqLupNrYxg25DEao_DHoAc5BfEGwJVhww4_W7k3OCf8jTePimw-24DrxV9nRo/s1506/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for RidePlug Uganda: The Complete Guide to Importing Cars into Uganda | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/rideplug-uganda-complete-guide-to.html'
 ---

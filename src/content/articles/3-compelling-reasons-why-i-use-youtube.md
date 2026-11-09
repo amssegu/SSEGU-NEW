@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcsCo5SPJC8VbBE-PnRaUKCK6p_OGi7y99lamqvDhZ_4nkbuesTOzSiRcuQejFbO2c5Wuvszwc2ofnva4rCtdiGNkp1gDqmYbRCJvgJcl3_-1edpLD-QWTM7w4blkDORTRIGYg6-_G5h4EuZ5yjsriMXsQskdiMRxti2bGY1GRipKovGq3OQqb38T4DLk/s1280/youtube-shorts-7740696_1280.jpg'
+imageAlt: 'Illustration for 3 Compelling Reasons Why I Use YouTube Shorts in My Digital Marketing Strategy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/3-compelling-reasons-why-i-use-youtube.html'
 ---

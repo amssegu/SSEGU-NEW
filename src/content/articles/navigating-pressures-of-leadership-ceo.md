@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-11-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipfxD_KKOWbVPPJMMGH08z-49rckbdCKCfrW8pGTynaL4sHx2R3qXkbcqgTOrx0yKXMrZ1JfMCg5XvyCJ3zlTyHjqjfc7U8mIv4yCJTPzczZTyPNsc9BunHf7wymHeYDalmB0zPSCzsQQ5MbYOPFvS3-0PXmOz7PnKab5LULTYViHPFu3WxqbIAfvLNDA/s1280/man-6874915_1280.jpg'
+imageAlt: "Illustration for Navigating the Pressures of Leadership: A CEO's Perspective | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/navigating-pressures-of-leadership-ceo.html'
 ---

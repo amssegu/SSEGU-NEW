@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaSn0sUgJuCyL8FUDGEfmHf93Krbf6zGjW6CZWg9PlOs3etV2XsmaXmXe6H6y3yED9kqlAfMI8JlovnrczrlSiv1i3k8L5ZEG_Aqz__KU5ADq5qfdhQNO31J0XgvRmpR0aIbY0WmZ3IYEc2DFj8e31OkqzmUGVNVbKoO0CVQExeHv8nc0SVjzgrBJtqHFZ/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Remote Jobs With Visa Sponsorship for Foreign Workers in 2026 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/remote-jobs-with-visa-sponsorship-for.html'
 ---

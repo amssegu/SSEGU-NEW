@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1omgSTEJxVVdnf5YsQmxxOSW4G-GijIZ5j9Wo6BFokdgIIZe2-zwQ72KB0hU5bmeawRIKXAU0GDmsrvSnu5a-qfkQNUl8zY76XJ82zgIf1DX9hjmlllTwiRwfKae2zaFriKrRhAbSo1s5XslLc-XdJ8wWgmZiZDQfqdcwqe6AWcWeA-HSAFppRM_mI-g/s960/girl-5235602_960_720.jpg'
+imageAlt: 'Illustration for 7 Uncomfortable Truths About Life You Need to Accept | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/7-uncomfortable-truths-about-life-you.html'
 ---

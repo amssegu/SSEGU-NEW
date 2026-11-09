@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNKBGGLjEVe9TcAQq__O4FpUmLtxqO5ElBv09GoCJxVxBVQ4w7wYnowb6Ejdtuu_nUiUZb1fMLYQT2Uz3S_KrSofYYf_xLixk4rofwPr_cMZ1AoV7zNU7HhI3znBiUUscZXINEDN2z5yU08zCUwept1Xj_panHLrxT90YkAwQEZCaLwi9hF608Nwp4KQc/s1576/dance.gif'
+imageAlt: 'Illustration for FAQ: How to Determine Your Coverage Needs? | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/faq-how-to-determine-your-coverage-needs.html'
 ---

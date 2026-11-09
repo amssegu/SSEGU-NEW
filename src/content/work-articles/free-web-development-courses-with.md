@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsWajFjCPWRBV1PDZ3LQUyh-FAykxuyglecvoM5hsX79f1Sy8MlYl2UxD99LN0aaA7QsGB2VCDrWcvMNsnv0kLJ2BqdcQvW8mjNq8MASC4Lu37_3twcTPC_hi6EVxCE3NKgacZYMFXPmrqzAgnsFq3wS8dT_VnKwdKH-0zfZBf0hFeRcbTQLJPDb4Iggq9/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Web Development Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-web-development-courses-with.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2023-10-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiN0bZeHmOUVU4tF2Hcb59FjuuhIBeqtcF-mPs4nkHGFcskcBiIWmfkASoYUgM0f5WPePmux5qwCd39Gxy7dmZofAkYhdc-GhngadH-COmk97uJ7HK63knKxGV0zqrvb1WOQ5PI-G6T7liMIlocE8aTT9-gvGIloL9Mvbdc6RlGKZlLEDPqQCySM50_e4c/s1120/Leonardo_Phoenix_A_colorful_and_modern_illustration_depicting_2.jpg'
+imageAlt: 'Illustration for How to Get Paid $2.49 Every Minute Watching Google Ads in 2024 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2023/10/get-paid-249-every-min-watching-google.html'
 ---

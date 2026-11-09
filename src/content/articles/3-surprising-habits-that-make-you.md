@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcK-LqgmTiacbLW9eo5vXReNT3-7HXwvzl51FEAlpQXJz2CD21aQ9gYv4s6TDhVfadSHhEDquUqCqCi4SUy0ZZ68MoG6GSSJGHQnH3WzYaxRvJjabOKTyVp_LafmmKrBiuBN55TUOlcRC_U4Pe-gGs3k9chRqKnZCDWVUDrYa8H9TOAs70P13OlfOBIis/s1280/book-841171_1280.jpg'
+imageAlt: 'Illustration for 3 Surprising Habits That Make You Smarter | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/3-surprising-habits-that-make-you.html'
 ---

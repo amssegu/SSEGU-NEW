@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20person%20sitting%20cross-legged%20in%20a%20serene%20environment%2c%20eyes%20closed%2c%20surrounded%20by%20a%20peaceful%20aura..jpeg'
+imageAlt: 'Illustration for Getting Started With Meditation: Techniques For Inner Peace | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/getting-started-with-meditation.html'
 ---

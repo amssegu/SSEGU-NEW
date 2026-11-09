@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-12
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUIlyVT5hcNNXGzYv08_h76jdZa2TV7AQ5kq8NI3BD18DQUnYEBhFaBgTtJX42GGv8vPkEyB76Hmjnxub-heXj-63S447Z_tSW7PVae-TECzfO0JjwsPlr-1GuVU00Xc63ymwY1Hk7sYlc-vvNkcrqcFahKy8Z6JOyvFSmFCG2FBwSV5k6wsF-PmaoANZg/s902/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Stay Safe Online: Essential Cybersecurity Tips for Everyone | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/how-to-stay-safe-online-essential.html'
 ---

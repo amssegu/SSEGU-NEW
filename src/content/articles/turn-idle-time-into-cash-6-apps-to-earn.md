@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5q19itc5akii_ar-sDVQp7UDujD_yBgG73UOERUcFnoJurH1biOuDaeB1XCuzh2yDXmApSU8uutivBEUp8i_GuIPe44wObENDcvx1Qvi_7pIvyLLLv0qEri4unDU5xXGZErJ0NFHDiKjXTBKYXswGELjUYwYxpVI_5__-g4qtzj8qAqMOkQLX2q_kamM/s1280/coding-1853305_1280.jpg'
+imageAlt: 'Illustration for Turn Idle Time into Cash: 6 Apps to Earn Passive Income by Keeping Your Computer On | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/turn-idle-time-into-cash-6-apps-to-earn.html'
 ---

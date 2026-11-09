@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7QgozHINopuBS7ayiFLD9ynCNe9VRb7tx2lsTf-Q4QGiqDQ5hc_-oEA8BIJuJnjzkQ4HgIM7HJd-KFGzm540yPjjRBv4kGL6nMePHsb5IAaISgdWBlaZbm8cLDDDLsLjBJ8EkMOedqxog1NRbRAKbfR3oMHPJ9pbn6Kj1UnrMSZseA5IyWuFSWeySQXI/s2408/dance.gif'
+imageAlt: 'Illustration for The Importance of Multi-Factor Authentication in Online Banking Security | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/the-importance-of-multi-factor.html'
 ---

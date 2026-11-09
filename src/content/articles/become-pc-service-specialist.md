@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj16CO1bt_9O6nT_GC-N9-p2Wb-_VsGAxnXh1zP0sXwC1AJNJw58zweQCXMs8oZw3ME70vXdqdKHXdX459VDm5BStnwLAHbzbpQ9InIbU82GKFtuHctIoO7RBdXlvHwyrnl6fNj2uq2DYOHh4tJBQ7JwExBhAT01_HzHfMpk_VuFQEMSONZYDlHK8TcxmF0/s1024/Logo.png'
+imageAlt: 'Illustration for Become a PC Service Specialist! 💻🔧 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/become-pc-service-specialist.html'
 ---

@@ -8,11 +8,13 @@ categories:
 tags: []
 publishedAt: 2026-08-22
 status: published
+image: '/uploads/migrated/deda653ab0afd186.webp'
+imageAlt: 'Illustration for Thor’s Hammer Method: Breaking Through Creator Block and Making Money in 2027 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/thors-hammer-method-breaking-through.html'
 ---
 
-<p> </p><div><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6iNG89R4ZttAkVpdG2LFA9YJDruL-jVnhn5lQgPLPvy2NPmtQesJ8VLdt9YpZWwjPAkgz1yvjOmWa4Y6olSMVJI4_9ujkVdwVuaUf_UODql1ErJQTmCktg_ENzynU6_Im2Y1AWAixLiRU5MWr0Jow9pVZoqPPcL-fKOqngTtVVNNIfZB-UqnjIgWqmoOX/s1536/flat-clapperboard-icon_1063-38.jpg"></a></div>
+<p> </p><div><img src="/uploads/migrated/deda653ab0afd186.webp" alt="Illustration for Thor’s Hammer Method: Breaking Through Creator Block and Making Money in 2027 | SSEGU" loading="lazy" /></div>
 <p>Thor’s hammer, Mjolnir, had one rule: only the worthy could lift it.</p>
 <p>Creator block feels the same way. The ideas, the motivation, the money... it all feels too heavy to lift.</p>
 <p>You sit down to post, write, or launch. Nothing comes. Days turn into weeks. And your income stalls.</p>

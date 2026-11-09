@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjE5pt7x9ldAMpRdVJBJDzM6V1ryBJ9KOkupsUxZLV8KC9CKhl7VqTT4EvtzhPGfubmjINN2EgDEe7OFyaPRn0CN0AySMm5aV3CtVknWB0ddeG8AgERylMO8cbnJ_fD57fWbLLEDhR9_-RNEQmR8zp-RsSM7QInyT6FuHF8IIfIyxgg7K1BjLqv4eUbNzW/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Truck Driver Jobs With Visa Sponsorship for Foreign Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/truck-driver-jobs-with-visa-sponsorship.html'
 ---

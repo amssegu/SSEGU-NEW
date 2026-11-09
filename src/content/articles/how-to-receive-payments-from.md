@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTJuL9GXRVf_FCKZAKlefqYcY3DCcawcznXWnWVEyPqfnIyn0xj9GBDqjq6QyV06t-VV_FkOKSJ_vyo11pbuP36hz0UU1gQX6u2QWvDtzEmPMgMpEphH2aUSBnjQ6qGzxGskWrWrAMjJOTUT3QMf1uw6Ty40chTe6yFb4MK3KaeLIhDmRD7bJOQ_B0eTY/s1600/Gemini_Generated_Image_dhvkvfdhvkvfdhvk%20%281%29.jpeg'
+imageAlt: 'Illustration for How to Receive Payments from International Clients in Uganda | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/how-to-receive-payments-from.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxpckb0gDC5Jkp7vJxlOid3newKAfr18TI96WztgNrI-xrjT3N52CRzXICMNiRz5HtaJU_aWFu41z3bCfqbU9A2pYTQZKT_VCuyObCYNaPp0Ah3bvboI-A5owkWsISpiD274Udb_KnPkJdgIGvkOzpDI5bTUSnYGoInHy3nekmuuWXkdgU2IGapIz7gBc/s2216/download%20(3).jpg'
+imageAlt: 'Illustration for 10 Daily Habits to Improve Your Mental Wellbeing | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/10-daily-habits-to-improve-your-mental.html'
 ---

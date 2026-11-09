@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYSDn1Ua0kPSMsjjbNCMMqy83EAye2ezNaIvjfWq4iuNe8D4_zaZyakyvn6n6nFByrDEVo7Pyfmc0u3xlrygutNbNOXtxAND3znGU-RDpymrPRQNbqyO0LGD4tAKPZUMuE1wd5rw7tzior0eA1vrTgk98aU4rVnOLVaQSb085fLlJXO36_8EFeWJWVVMs/s1600/Gemini_Generated_Image_dh8rd6dh8rd6dh8r%20%282%29%20%281%29.jpeg'
+imageAlt: 'Illustration for 12 Common CV Mistakes That Could Cost You an Interview | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/12-common-cv-mistakes-that-could-cost.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb9JPmAv7WMoIP5Wvl_W1ntYSy26VG_YZ5IyAhR4YlmMJ4u4Ee5qT4Xgq9VDpRALGEAB0275m870QCYJVwGLptNuUohqbrwSdklS7WNI8qO2fTRPZdGFeQ-5GUJzCW_baiGILaFeyrJOMDCrb0EEoR9yfhrMl1yq0Xl5f2qOlR-hsF0AIy22vo4Be-HAU/s1280/man-5574872_1280.jpg'
+imageAlt: 'Illustration for The Passive Income Powerhouse: How I Make Money Selling Digital Products on Gumroad | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-passive-income-powerhouse-how-i.html'
 ---

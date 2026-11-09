@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH3mwsZ4-AuRZu6qmXzNfi6Ic-SfGjUlybdO3OxIJzz4ZBuQRwVQXQTH4VOssIpNM21bsMfZq_lm-sdaMoNw2YFPjCIbyQZTdr6FtSeIgJ7CpsCTB8OnYwBm_2l-1ZEkt6MeZ0YMBynt9oDQs01kT9k7CsdjVG8bZ2I9fTJw6JlRBnL0gWCtMFkFzX2Rg/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Beast of War Kali Mu: VJ Jingo | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/beast-of-war-kali-mu-vj-jingo.html'
 ---

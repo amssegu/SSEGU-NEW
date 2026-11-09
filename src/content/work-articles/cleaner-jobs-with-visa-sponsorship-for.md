@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-08
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGbfgSWdNTpFRrn1r2x21lV5g8DFB2r0465JmL3g7KqVgbEUI6CRO5v97T2jg97NSNUWY0OzE4bTd0VmbqHi-IxFsAA5WJmfi1_V5sMbwY_W5fLsq5I_RxMvwTmKwqsYkNuqoLWdVgcZF_cV7NpsipagrhIXqsmRi4erxjTN-p0QuS7rO71XYxUGX18xa9/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Cleaner Jobs With Visa Sponsorship for Foreign Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/cleaner-jobs-with-visa-sponsorship-for.html'
 ---

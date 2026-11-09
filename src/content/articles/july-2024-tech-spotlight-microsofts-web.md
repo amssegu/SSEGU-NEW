@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20futuristic%20digital%20marketplace%20with%20sleek%20design%20and%20advanced%20technology%20features..jpeg'
+imageAlt: "Illustration for Unveiling Microsoft's Web Store | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/july-2024-tech-spotlight-microsofts-web.html'
 ---

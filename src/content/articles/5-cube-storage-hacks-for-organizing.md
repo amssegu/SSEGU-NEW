@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-11
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3J-ervcr1F676iVo06rFzy80vcqRpjc_aSWP3YpOH6FpHcegKrNdZ_3fAFiroPj2ql7-uj2Ezp6Vt-8HfVndknEoPfosLrSUU33itsBSeAR_c2K73FTYPI23UD4PyHcyT_d4WGrhJScCMHxP7eM6PdAhKfgFcAByDYIpsYd_TkNK-UmBhhmXDuqPDiAQX/s1024/videoframe_0.png'
+imageAlt: 'Illustration for 5 Cube Storage Hacks for Organizing Your Craft Supplies | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/5-cube-storage-hacks-for-organizing.html'
 ---

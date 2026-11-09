@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20colorful%20puzzle%20with%20interconnected%20pieces%2c%20some%20locked%20and%20some%20unlocked%2c%20symbolizing%20the%20secrets%20of%20lasting%20connections%20in%20relationships..jpeg'
+imageAlt: 'Illustration for How To Build And Maintain Healthy Relationships: Communication Tips | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/how-to-build-and-maintain-healthy.html'
 ---

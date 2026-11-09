@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-30
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghGzTJgkPAC7rCl8w54BwDAGcxLCa0-M77pAkM8DYqiL4k3zXvyvFKYpY9Q3-Hjr_PHWqZZvuzwl5c9rKIqXRoYa0cppPaFS7-sCvkMQ0zDYCukEBXBeteS1xhXDuVT3GdXfoG-DHZu4ysFOeNNYoBmVGEInzitTNe4Z4Y9E0KPmwFjLyrmLoco_tFxNk/s1280/meditate-1851165_1280.jpg'
+imageAlt: 'Illustration for The Ultimate Guide to Meditation: 24 Powerful Tips for Inner Peace and Clarity | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/the-ultimate-guide-to-meditation-24.html'
 ---

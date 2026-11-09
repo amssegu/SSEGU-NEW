@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxr27v5OzzDPzxkgS7wHZi83XOeT9k_pBBuaKf5e0afgIjDsfmMiObJBNhOuVU6cJarLA6mnEvtUKSOyIMWPBwbaLsUmjDZ91roChJjtiahwTwrOpbpPRdVFagsdxncXZ-DT1hJAGXIdtHdtv1AdB4WZXRu2IcSJy1tjHi0_xqCbdW5WFXpLYIF6GMfffI/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How Spartan Training Can Help You Launch a Local Fitness Business | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-spartan-training-can-help-you.html'
 ---

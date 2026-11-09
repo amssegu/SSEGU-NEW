@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUCHob05Tr5ow92Yjvp35mCvaNdvbWiFJcCesx8QDwyXveU0khZpBeq1tBmUnfhcb36gkjGtuUuLca7Imdj43Q0jaJaxUNGPOJKA2H30aCnnOxAiqlSucu4Y8NU35R2PuSpEpdi85lo5nW4B5BPSlPSQOoJUz8Pgp1x6wZ4eEVMDuRT_cZd61WvyMhvaU/s2000/praying-hands-2273821_1280.jpg'
+imageAlt: 'Illustration for Real Estate Investment Opportunities in Kenya | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/real-estate-investment-opportunities-in.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM5AM0TtPMrjQD-FDLiG2oNuSKiMff04VA89abqmjUSa9vT9YEBWMeZTUr2CcwyLwnB6rwBWEg563ooca-z-HWfjtzK9_iZIuIeAHDQtyidpiNfaHCZeu1BVjT-D-uRsSYa3-eRzXAT2QrB38UV9mll2-5yCIY9sLvzpj2vHhS_ax2Akhih2mgMjFVtjoE/s640/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Learn Graphic Design Online: Top Courses for Every Skill Level | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/learn-graphic-design-online-top-courses.html'
 ---

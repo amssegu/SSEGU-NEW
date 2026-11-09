@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil0hNHJkOOPYik3fs2xu3Qd2X8ELNRBsDRDvLMrh7V3j4OomeDmy-lHeZiBRWit4XTC6XpnVUIUc3uPLL2nsY0psTa3jhxCFuwYgW1zZKW48o0PySthGFQ5EFcOlzDHDrqtO8-mx81qzzjbSKnrsqeamkfy0m9PwnXPeAtZntvKPFsvEpY3p4zhYgxe9U/s2436/download%20(3).jpg'
+imageAlt: 'Illustration for Choosing the Right Workplace Personality Assessment Tool | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/choosing-right-workplace-personality.html'
 ---

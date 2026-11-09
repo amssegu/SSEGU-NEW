@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikRZCdph9QJksPMx7M5Aj4mzAlcTiudryHUWkqjTwyEyYTmJktv7ZPh1dxY57lpRFdUbKy4qhpfpQDfjysi9A0fG7wqQhQbSJWoCUbY9yCSOMPLuREUpeZi6Im76XKqofAxkk99r6jdcfAELk0XssM-33EOZSZQzCivpxdx8ejPgiPiXuLOllGERYOzvV5/s1280/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: "Illustration for What Is Artificial Intelligence? A Complete Beginner's Guide | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/what-is-artificial-intelligence.html'
 ---

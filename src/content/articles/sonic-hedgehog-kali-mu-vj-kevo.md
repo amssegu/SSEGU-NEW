@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1n2f7DB5e9vCnBpvQm71HltYq4wr2zb_cwb2E2P_m7bdtvnwTxHYsldQyPNk6sv-9F77KiMV85OJILYQ06XnIZn0U__P4J6MI63Al8h4VgTgnwa_xC3Lltp4B9U5dOsyJ1FP9khNEGjWI9AGTzcHd-zxkoYzbbsbpJp3My0UdZmiPByA67DI7S6hRnRM/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Sonic the Hedgehog Kali Mu: VJ Kevo | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/sonic-hedgehog-kali-mu-vj-kevo.html'
 ---

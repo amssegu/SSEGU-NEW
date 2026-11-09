@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOByVymSZVf6JMY9wVaV_ZMBvdQoQ3is1oh3bYVJoxv5E_WAL-FMBFtnZ749fBKIy2wtdQM2n55z6txgGn-1gYJZFCQ6mpclDBF87k7C0RUg9jZb94NU_a2xFJRDRxmGkMxXJvcLxpGO3JKxkVpLDRHqYT8J3oKOE6MDZzuhVplpWJ29kSznvCYfvqPbX/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Electrician Jobs With Visa Sponsorship for Skilled Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/electrician-jobs-with-visa-sponsorship.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMIXoFuOmzPqoG_J1VYhIPEKGRKLnTtuOzTixndkNJj5Csby6UH2EEZpkHeNbaZdtuG7Q4Fs9F7AFH2Zbx4-jE7DjaWQKB73MRcoxXzV3VkE5-M3qmvxHCeb9iLzjGeY3X-UKUPWihocRPOfuAnVxgrpklC2gDulZXQB4LJCL2jIHTS6vkAXh3kHNyPmsF/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Online Courses to Improve Your CV and Get Hired | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-online-courses-to-improve-your-cv.html'
 ---

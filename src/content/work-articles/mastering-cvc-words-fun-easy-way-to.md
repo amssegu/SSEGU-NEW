@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-07
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSA7oFdxvBPGQPCQQEFbybBsIAPWDKy-eozcbxPu150V4Fv17BX-BHOWuK8i2LLJztDE_Cye_SBfY3vsrj-rXcspf1AAlFbqhuqPtbi5syYYpivOGH7btP4bwJsCxcA0cskQAWxyC9sPZtoxqYHuFrAMgIlSAxbls6R66L4gtmYPi2gNqUO7oKV9ClSGjw/s1274/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Mastering CVC Words: The Fun & Easy Way to Teach Early Reading | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/mastering-cvc-words-fun-easy-way-to.html'
 ---

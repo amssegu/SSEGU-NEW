@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizIhghHwDI2tTD9L3boLnV2zCAHR4pbeSnHaNN2_Gpc1OJytm1Y1B5IzYzsOG4rLOPNOOCfFy5R-RFJqvx03xjoQ4Sguk1KYNUF2EEq7Y6YP28Y64kqFQuDxnEx-W5Y1Csof9OA4NnBlD93jPnxygcmGHZeXQ2bca7GJvZiEI0t5vc8yNK76yDZfhf8bBt/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Factory Jobs With Visa Sponsorship for Foreign Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/factory-jobs-with-visa-sponsorship-for.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-08-01
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfO_975mDHSV3iFS3nxxJtWI9Nk-h8nwxIaYyofKu7dUyC_xJMuCD8QAEyztof9iBhyUOl27q-ynLlTNE7n3thGD9dJ9o2-3glSkwfPugAzlRuD4NYzV3yN1iAr_mSVi7jYgeT3_mwraslM6Kf61ppEqQWZ3MSwMYL7MnsP88MKcavL9eM5uEfTgq__jk/s1280/reading-925589_1280.jpg'
+imageAlt: 'Illustration for Business Books, Essential Reads for Future Entrepreneurs | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/business-books-essential-reads-for.html'
 ---

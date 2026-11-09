@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq9McI54qtw63rVkoBvkbXlpZZiM-VhvHWmekrEQt4WoVPkHhOrhKA6oYvwPFJl2zpmwXelLXNUro3ujvGE62xqTqJLLsPRS2A9JeMB0pooXHCioNJ6vX1xww15M2ycJ2FiBpumCrnolEHVe1SJ-W3eA3tR3m-KrpaqQUeR6f42hB1GJQpIK25BhvbGjQ/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Barbarian Kali Mu: VJ Bonny | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/barbarian-kali-mu-vj-bonny.html'
 ---

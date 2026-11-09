@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQaePzuWHqWDt3ByqM10hQydW1J72RLWmJX31-dD33RI3TSMvIiYJY_5s8ZjBWJaVe9CV1dw84xKRBF2FfYzolqrjlu3LoU6FmRueIoWb7prTJR_G0Wgw3D1ZNyo81SU3iMrmcCfgBQl5qhTThg6-Lu2kylD94YYlucIrwWXJHfybEuQ6fTlMsDORfRX8/s1280/milan-7340984_1280.jpg'
+imageAlt: 'Illustration for Discover the Magic of Europe! A Perfect 10-Day Itinerary for Every Traveler | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/discover-magic-of-europe-perfect-10-day.html'
 ---

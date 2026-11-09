@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-22
 status: published
+image: 'https://blogger.googleusercontent.com/img/a/AVvXsEhPJ_C_1pMbGHCv6roCU4zPrz41tcNg25giYkHUg4RS2twAoddtdyFed60y7Ys14cvwc7D_fvkr_cLO7zSUA-64n8XkNkKQjiof-UZiXfQsqG6CqF0lMtI_UyWeG56fr4PmuzGjzOd21CAWQwLjYeogrFOwUiJWBuXvQ44a0PGB7byWvjv43ujRP8eT0Oc'
+imageAlt: 'Illustration for Kampala’s Night-Time Economy: Businesses, Jobs & Opportunities | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/kampalas-night-time-economy-businesses.html'
 ---

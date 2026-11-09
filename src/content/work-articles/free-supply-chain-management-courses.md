@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-07
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix6XoNTJ4N0HiLj_6d3iCne0Q0VLGM9tS-RUQphHv6x4TVQIfYPdugd0OHr1weKHVJTIZ9wOIS77vUFcEfwPY1lf4onQ-LapxBaV8F81RTGKJRCUiwFy0CybZky8GM3walvg3irn4C3VoBAi_ohAl4yvoSpy-tsu2zGGe2756WutmVykEtul41oR1hZwIa/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Supply Chain Management Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/free-supply-chain-management-courses.html'
 ---

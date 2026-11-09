@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-04
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMI9sQ4-BnYdLoW4hRwi68dm1gtMGPQt6zSrkDFEZmm2-s9EPwzypPpVAEW067vTLQsIa3f18qn4J2vJ1l5dGM0MLuTouXgZI8BQ2msU2rkQQ5futgmhP2Od5e-eU2v6slHFTvzNGI_1CV_DxSpo4fye94Xw3gW3YmnTnma5JPSjiOXoEyqbKKVMETdKU/s1280/travel-tips-4232587_1280.jpg'
+imageAlt: 'Illustration for Ultimate Travel Tips | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/ultimate-travel-tips-comprehensive-q.html'
 ---

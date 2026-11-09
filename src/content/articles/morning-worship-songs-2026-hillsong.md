@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-17
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdXZLiR84HG8b9XhyphenhyphenjBTMEGDzugA6b3Si81epVP6Z8KQsUqluWQHHgMtXSHQCGeU2bZlT2DeyK4csnj8fcqDPxo0SbMrib9vpPff9ykqfazH7hy9DdrYITfYyUEhdBvCz-uKZiPUD2QpYmRwJpfOE8T2clT2X9xRU788tu0o39ipXUEPmxDGMAF707MYk/s300/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Morning Worship Songs 2026 | Hillsong Praise with Lyrics | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/morning-worship-songs-2026-hillsong.html'
 ---

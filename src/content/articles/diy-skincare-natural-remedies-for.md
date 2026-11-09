@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20woman%20with%20glowing%2c%20radiant%20skin%2c%20surrounded%20by%20various%20natural%20ingredients%20like%20honey%2c%20avocado%2c%20and%20coconut%20oil.%20She%20is%20smiling%20and%20looking%20confident..jpeg'
+imageAlt: 'Illustration for DIY Skincare: Natural Remedies For Glowing Skin | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/diy-skincare-natural-remedies-for.html'
 ---

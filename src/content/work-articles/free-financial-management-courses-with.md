@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-16
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOTUkU1vVcFjs1GVVdQ4c4PCldCqX2eFGxePp54gs1bAN1YmarESNmp1LxwdN_biJRi_IgaPeAy9bM_0R0IKqnjalvxDuE91_aje1uQH7SwhCk-mFu2WDLe8zyRWqzm74rQTWFqVeprf997b5ZmlBqtycs_JGzCl8cbC2cWEhxv8ltjpAPgsnNkJwd-2kb/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Free Financial Management Courses With Certificates | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/free-financial-management-courses-with.html'
 ---

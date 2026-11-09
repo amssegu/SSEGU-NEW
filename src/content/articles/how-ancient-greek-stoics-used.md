@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-23
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPhTJRWmOUVn_5MgJ4BwXhKNhJeR4MPt1RcL4meJK0mV8Kja7imvUJt8qeQiorl4UvqUQhS3OwJcqceNpEdq06q4mK13ocflSVnpgmupVOMUSDnvc0vSJh21MPLX_1esgVU7pM_20gMd0tgRBYaNiCWZJYenrpM2WEut1g_4Zk8Emm1pXzpTbhVxJVGfYo/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How Ancient Greek Stoics Used Minimalism To Build Wealth | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/how-ancient-greek-stoics-used.html'
 ---

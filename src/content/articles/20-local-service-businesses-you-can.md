@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-27
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHGU9qaBgKdOKei7xd3KvX0YfmT8o1j-NfFR50Tbnk5awzeYNfj-sKyGGqJzAlnXIHMDSXqyjGzDSpJjILT4Fmj1p_s0zZPS2hQeUcVO_EaMAMcTeFg0HPeVfwmkW0F55mX-93T-F5bH3aCpHVmFA75tG08j-ZxjaLOyRp-MUYqQHqIIR5s4nmGYQP4xmY/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for 20 Local Service Businesses You Can Start With $100 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/20-local-service-businesses-you-can.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20electronic%20gadgets%2c%20fashion%20items%2c%20home%20and%20kitchen%20products%2c%20beauty%20and%20personal%20care%20products%2c%20health%20and%20fitness%20items%2c%20toys%20and%20games%2c.jpeg?t=1716175161679&amp;width=860'
+imageAlt: 'Illustration for Amazon Prime Day Deals | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-prime-day-deals.html'
 ---

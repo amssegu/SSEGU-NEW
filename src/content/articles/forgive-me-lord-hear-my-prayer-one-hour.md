@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-11-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzFQrsj1gDp_Q2K8S5hBTt_-Ng76jwD0YmqJl2dVZvet0OqDzdIXsSngQ9swJNv227VQU28WpIsBSlvnXdR_UZoby2JEcOusitEM-tVkd4WHA-BQkdMecA0Fa2gm1lou4wEFwWn1EJixkNWVWHstTpXnmCHbFa7ovLnysbwAQ3G0O3HryOCXtvIaHgiaw/s2824/p3.jpg'
+imageAlt: 'Illustration for Forgive Me Lord, Hear My Prayer: A One-Hour Challenge of Forgiveness and Reflection | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/11/forgive-me-lord-hear-my-prayer-one-hour.html'
 ---

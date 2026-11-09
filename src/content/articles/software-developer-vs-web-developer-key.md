@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMdgEb8O0XKnsfC_Qkvt0bMW9DQ2VHOqEmi4sZIqghLIv5UTdVPv7DSI6EurcppVlVzzV79zW8zGNGJp-PDndUr8musVif9QjTLcyzL2iCVoOCg6CrfHOE96jZhsDoJLwdhhhHiW0oRGPr8Bp9xG3LaZ96MFusuIqXd_jfMgJTsY3G26XuIO680dw6Xz8/s1280/man-1839500_1280.jpg'
+imageAlt: 'Illustration for Software Developer vs. Web Developer | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/software-developer-vs-web-developer-key.html'
 ---

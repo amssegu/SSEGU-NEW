@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-14
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERA77rbFUNprnW3YSdoZQIT9gYhs54nnUzVqpkg6rHSn_UXhi8uYU2VZuUrnyAEZMe2hXGV3aID2hal9jNnLrckHATNpaQICRLrv0yhKIn54ANE63lY8Dx59lY-_Q6qCofKBR7LKW9T-p8iYUO4_pj-jkxYhToAECu9aF68rjJ0EPUmWPKkKYrfde2yY/s1600/resume.png'
+imageAlt: 'Illustration for 10 Things You Should Never Put on Your CV | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/10-things-you-should-never-put-on-your.html'
 ---

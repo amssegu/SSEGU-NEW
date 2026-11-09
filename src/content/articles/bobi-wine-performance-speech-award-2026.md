@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijPn8BQcksUr1Ag2ehHY1FfA9BuFAEn9b7lcl6PRBi6Xnk2vbPIka7lfT5cUgDD4z4oppk4UO5w8CM8lM5SU60onn7SOFJGTiSRZ1C0xIK9-FqoTLs9qThhVeGKNCfJsOULSg95nM7Y8R1OYsX7mRhz6zXHaM25yplBgsKsBpBhDhrUKF3JA1XBwoCf8c/s854/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for 🇺🇬 Bobi Wine Performance, Speech & Award – 2026 Democracy Gala | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/bobi-wine-performance-speech-award-2026.html'
 ---

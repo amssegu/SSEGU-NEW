@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGz2p-RG9jsh5xr2P3ZASZ6Ka0b2C_FKNlOUHw2Mr1Srl0uOVHvidZeVF9SU4-ljBgivOba8zRAYC5EwX_8L1qkEJ88_7T9ECV9RhYKy46slP5hpdlJsNJ9VhW09FReff6VuEwLs2kqmYiYULNq-JgULd6X002kIY5kfzkXI3UPfvVSMFkqN0dVxIrQh8p/s640/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Online Certifications That Prove You’re Job-Ready in 2025 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/online-certifications-that-prove-youre.html'
 ---

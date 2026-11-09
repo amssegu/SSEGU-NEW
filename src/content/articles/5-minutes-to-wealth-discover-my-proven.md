@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-28
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0R35uUVqx3c7SbAB4YafHwq6T7UcSmAe067Oh6AVOZksKRw-VL46SUD47Qm_9ks9f3DM6Fl-QZuA4fPTfLJQ_bZnAVrmF6gFZ2vjMI2lDuGn4LxUJC_w_Lcd7YhdMHjeLDOWKuSJC3SKh7uYpt2mfUNz5Q17U1Hd3TwJvxFYMAbtW3f52ZkVWCXAO9cM/s1280/man-7956041_1280.jpg'
+imageAlt: 'Illustration for 5 Minutes to Wealth: Discover My Proven Method for Manifesting Money Instantly | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/5-minutes-to-wealth-discover-my-proven.html'
 ---

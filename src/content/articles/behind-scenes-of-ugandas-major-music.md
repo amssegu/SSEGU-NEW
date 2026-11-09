@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-09-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUwKtFsvncEanKpMgf9RgpmWOMMg3cAGBnHRvsmYYG2EL7qFZL6kHOtLiZ4OebsxtwtDw0c361szYHk5WqjsR5xVXWZQ3cEuWlL6fQsmH9qI_n-3Iy1bi_2KfyYsr52UUC_Ve6MWWFi_db5bA-7CSUnMVB1hQ4qV2CTzIxaVDMWOav5XGpHw2hj0dxSQM/s1032/behind%20the%20scenes%20major%20concersts.webp'
+imageAlt: 'Illustration for Behind the Scenes of Uganda’s Major Music Festivals: What It Takes to Put on a Festival | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/behind-scenes-of-ugandas-major-music.html'
 ---

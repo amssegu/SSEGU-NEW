@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-25
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/An%20image%20of%20a%20book%20cover%20titled%20Finding%20Love%20How%20to%20Attract%20a%20Wealthy%20Partner%20with%20the%20authors%20name%2c%20Ntambi%20Isaac%2c%20and%20a%20brief%20description%20of%20the%20b.jpeg?t=1716615140486&amp;width=860'
+imageAlt: 'Illustration for Finding Love: How to Attract a Wealthy Partner | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/finding-love-how-to-attract-wealthy.html'
 ---

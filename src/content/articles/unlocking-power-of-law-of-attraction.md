@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-06-24
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGI_JpCpaKpzXSirdeEQVPNbHSs_sioZEq5Y4BmAs7n0nLeKbioCv1pwCl1ov6fQUtRTdxywmJziI-PjkcF6z3Wb3td06oqKtkMRNyL1ckoAL6c6rNUof3V-DY2xLs-YhyphenhyphenwncmCfS4imovOaLmAp3Bjad5Zissh2jtiqfqnFjAZnt45liL-rHszNyugfY/s960/superhero-534120_960_720.jpg'
+imageAlt: 'Illustration for Unlocking the Power of the Law of Attraction and Abundance | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/06/unlocking-power-of-law-of-attraction.html'
 ---

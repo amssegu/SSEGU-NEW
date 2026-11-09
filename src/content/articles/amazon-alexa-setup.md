@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-18
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hub/144589137/hubfs/AI-Generated%20Media/Images/The%20image%20shows%20a%20person%20unboxing%20and%20setting%20up%20an%20Amazon%20Alexa%20device%2c%20connecting%20it%20to%20WiFi%2c%20and%20customizing%20the%20settings.jpeg?t=1716175376601&amp;width=860'
+imageAlt: 'Illustration for Amazon Alexa Setup | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/amazon-alexa-setup.html'
 ---

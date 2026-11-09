@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-25
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbkci1OPrytr2Hb1uqwiSlM_OPvv0WBDqxeD7c8OT1mrce-yVH-DXiAsAGSPLq7ur5mEqvjMcvmA5c_G3SmfOHzzSGGvkXxYTSLWTtKwKqeNo6EbzRzzvBC5mVWp67YoqEV_qaJNXN_RiUKCLWaa6rafICfRrQqBhWOnSiriebHzBt21p2QMRPxmIFI-E/s612/458161345_122095117856516069_2347265863942902629_n.jpg'
+imageAlt: 'Illustration for Paving the Way to a Successful Future for Everyone | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/paving-way-to-successful-future-for.html'
 ---

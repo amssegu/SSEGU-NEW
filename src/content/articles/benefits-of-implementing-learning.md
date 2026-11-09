@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzlEKIAKole3ZHOGf8Fw0pUmd3dR2ZTvdPPOROUc5tod2-xjCvnMThFvzIqZ38SKqxrpSKhgtypwoBDcUUuakesEPSHc_FfSktUCsGv7MyPzlbWyqykBIv2-CNKJOmlqH5zhFYa_6hHjdHifWtNIYGyt1Ohc-hduVyObADHR47Vq8ao7QcNZEUwzoO7Xk/s2392/download%20(3).jpg'
+imageAlt: 'Illustration for Benefits of Implementing a Learning Management System in Schools | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/benefits-of-implementing-learning.html'
 ---

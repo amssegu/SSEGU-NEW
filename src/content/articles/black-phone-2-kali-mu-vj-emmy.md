@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg920WrqJC7b53Wvp-4oYIpuGrgQGYTmlHFOIBm_mP2TN8cELwP_OzsLHB86kfminVRmekDjtaHFqNudL-ydlI68WGV4xJd4eO6GMtSwMqO9ziuFHhxYysRoIO_LwdHtrJqIV4ejjqQ2nHkaSzvj-iUxtEzHywv32ZaiTjxOaDglA017N8LG826MT6GhQ/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Black Phone 2 Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/black-phone-2-kali-mu-vj-emmy.html'
 ---

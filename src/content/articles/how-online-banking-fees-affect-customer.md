@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIBH73kJfXVs9w0sgEZUL2anAcKQfjVyjXquuEf1CM3f15sUm9i1yVNZQzwTecUdEfT9c31ssJpsZX1eEhX20851xzbcCtX2IgsbGzDlk1t5oRUb4awzPwpW9CFktL4n21rLBDiHUO_bRde5kfQ4lqRNSj6qPo7vNgm_RorGY67xaxaFXkjXsExHo2BtY/s806/dance.gif'
+imageAlt: 'Illustration for How Online Banking Fees Affect Customer Behavior | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/how-online-banking-fees-affect-customer.html'
 ---

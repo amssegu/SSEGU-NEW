@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-19
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1Qres-rItcK8VQs9-2aHTsy8veMFw1bqR8YguAJIZP-YWYbMcDObz1Zm8XK4fiikRyRr-2eoM2W1UnyNtnZb1n7qI-8N0lJZ2FKQi7VjIs9HXcBA8QjAxLgyBAF4ajeXDQkw5wvW8tdOBgvpvttbaCfSiLP7ZBsm0IyVZrOWD7px4HJKavplGFOJOxSBn/s1024/Logo.png'
+imageAlt: 'Illustration for Embark on your journey to becoming a PC Service Specialist with our free CompTIA A+ 1000 course! 🖥️✨ | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/embark-on-your-journey-to-becoming-pc.html'
 ---

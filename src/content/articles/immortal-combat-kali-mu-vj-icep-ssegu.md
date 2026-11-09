@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjcVib5zWVyHkMZ_t_ArCQUNGGqL9IsDDBxcBS_YzGpnb_AyAav5_hqbfiIpdLBktOBz3Aigja6rb8MwN5_LdPjMqDrlo5-wgFSpvXdaGk3quzpkJpTWHoeyFF1rMkqTsCk0Mab2VLQH-8R0QdJrnQrPNpqmL-dvGOD8sw6YCRO8uWzotQB4zbj19m08af/s750/llll.png'
+imageAlt: 'Illustration for Immortal Combat - Kali Mu: VJ ICEP | ssegu | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/immortal-combat-kali-mu-vj-icep-ssegu.html'
 ---

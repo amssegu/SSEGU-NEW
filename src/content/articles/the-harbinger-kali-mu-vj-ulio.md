@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi63u3zK8Zw-4d7mbDKpqgcuYmfbjcsmXRuLqMRDFtF0oeXb2qpAUvrmLc4GDZNFTR0U1e2ZwpY3k4dlyaBzUUILBR4fhmXfDO_sJfGIOgbjdtL2T5pQv7b5jkPI8Cu8wBC9qZo2nXdqcQmrcfd-pGVT4XP02QDHQQvS6dwC68aNJfzzWs3pK3q1vADEPM/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for The Harbinger Kali Mu: VJ Ulio | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/the-harbinger-kali-mu-vj-ulio.html'
 ---

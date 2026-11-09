@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6tkrS_SdRc2QsLItpjOffsn9owk51oa2BrhtNDjKjS_PS6B3_SgSqUjpFSmALov_ILdnbMAFYBqrsXhJBVL0x-Esn96kj3Sk8iRECbqmj46lJqcs14RRyB-d8crLi3z2v1HtnenjHgKrZZbc1MguL03osxKSLC_r5eraLhS6k3XXvMYhF-Pq1oDk_lZo/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for The Witch Kali Mu: VJ Bonny | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/the-witch-kali-mu-vj-bonny.html'
 ---

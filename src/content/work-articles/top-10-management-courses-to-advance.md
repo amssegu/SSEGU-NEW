@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBz82zGe53qIhtwGh_IghzatEXHOu9Re6o8NTDzCKzZCdsQzgCxK944dRBUPY-tmSHYQv62ohBKYGQUdihBL0LgXg6F140j_Hl_J1B3kemHfIm89QqYXFQDymd255MeRfo5WrlqRk_2YpAfOKM0pcJgJEER05ZAenzMyx-yy4Y9ASvdkgYCKJzqAL7JG4/s1664/dance.gif'
+imageAlt: 'Illustration for Top 10 Management Courses to Advance Your Career | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/top-10-management-courses-to-advance.html'
 ---

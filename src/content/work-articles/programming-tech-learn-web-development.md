@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-14
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_8ewcBXdbWF2LfFfRgQ26-QqAFeJTFoorbJRP-lR0WRs74Enwfdb-fJ8zzDSPaHolAfjtGT5GGQ8KkCIQc5qyVTGSNwY7Ci-IRuqVE-yF2-Vam3BYv6PNmSWQv1u3DC-07OZEau_G4dD7jtIeXHo0C7JDkfd2a8l6XSHdm1X25em1BSOYCHFOHg1PIbWT/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Programming & Tech: Learn Web Development, Python, and Data Science for Free With freeCodeCamp | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/programming-tech-learn-web-development.html'
 ---

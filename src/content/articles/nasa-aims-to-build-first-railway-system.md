@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-11
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20futuristic%20railway%20system%20stretching%20across%20the%20surface%20of%20the%20Moon%2c%20with%20sleek%20silver%20trains%20gliding%20along%20the%20tracks%20under%20a%20starry%20sky..jpeg'
+imageAlt: 'Illustration for NASA Aims To Build First Railway System On Moon | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/nasa-aims-to-build-first-railway-system.html'
 ---

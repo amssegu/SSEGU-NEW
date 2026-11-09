@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-07-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfL_03suZ6u_WkFvJ1m5BGnaSCe7AH2NfWyTEq3zY95wm2rpwFDzG5ZKNXmn5GtuyhyphenhyphenEod0i6jZVAM3oWwu-8Ff1fIIsxazajnIgfztRwhlSU4Y0OFCvULyipz8ImeRe6f1tOT0-fZx9b4xV7PAISGks5NfKNSvGp24oLwCkNZFEiVeUtkOcEP-jya10g/s1280/car-1300629_1280.webp'
+imageAlt: 'Illustration for A Complete Guide to Importing Japanese Cars to Zimbabwe, Fees and Requirements | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/07/a-complete-guide-to-importing-japanese.html'
 ---

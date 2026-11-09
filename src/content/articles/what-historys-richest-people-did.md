@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-02
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2_nkK8VGMgJiGeLpbe5jx-ay4Vap_5uKHeCal2CrA1u_NikoEr4SUsRv8N-IaDETaA7IkIvYCv9qKSbn-dEGWzs_b_x6u4nRtPqgYZxLAu3c4Ly6CLS0dtMdBKyuASerVPRVqwbD-0dRGwYqyPelzuXUgPxgqf8dmE2YojPEMOhMppjQX027dD4EhgNkW/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for What History’s Richest People Did Differently And How You Can Copy It in 2027 | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/what-historys-richest-people-did.html'
 ---

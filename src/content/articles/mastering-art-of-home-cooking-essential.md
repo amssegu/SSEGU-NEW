@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-05-14
 status: published
+image: 'https://144589137.fs1.hubspotusercontent-eu1.net/hubfs/144589137/Generated%20Blog%20Post%20Images/A%20well-worn%2c%20stained%20cookbook%20open%20on%20a%20kitchen%20counter%2c%20surrounded%20by%20pots%2c%20pans%2c%20and%20various%20cooking%20utensils..jpeg'
+imageAlt: 'Illustration for Mastering The Art Of Home Cooking: Essential Recipes And Techniques | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/05/mastering-art-of-home-cooking-essential.html'
 ---

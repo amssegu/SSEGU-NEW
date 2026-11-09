@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-10-18
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbQnM6nOjN-ccKBvNvVwmNWeY5p_7wtJqE57V8O6sZrYu9vLTFuXgP8_5WSCtf17THIxdYRvCo3ryq0PQcAlfa3CXnclqILJJIgGkeaIc8UiB4cNTOabat23B1v5kH5ak9xZk2I4dKZZ67wuZIWHbAogXr35TlEUnU_OYYVqSMJKSm35Y8Hu3YESXc-qo/s1120/praying-hands-2273821_1280.jpg'
+imageAlt: 'Illustration for Digital Finance Revolution: Impact on Personal Finance in Kenya | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/10/digital-finance-revolution-impact-on.html'
 ---

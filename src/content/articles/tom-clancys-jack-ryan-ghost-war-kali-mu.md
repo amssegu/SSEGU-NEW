@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-05-26
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtul75RWMzYDHgIsdpGr84An34Hxls5CTNMo7sWb1YB8bPTcS7vudjntlgJCfWge7k9DVfMgCzZHMYGpvSAO8UcoeWCAo0wzLSqVCb2SHktATy2LBQpBUGEFAFnAebj48DIRW-o9RqL0i-I2P7qlc1li5jTLHf78gdajOgy9teDdr9jqgMCMC4Thx7h0Rw/s750/llll.png'
+imageAlt: "Illustration for Tom Clancy's Jack Ryan: Ghost War - Kali Mu: VJ ICEP | SSEGU | SSEGU"
 featured: false
 canonicalUrl: 'https://www.ssegu.com/p/tom-clancys-jack-ryan-ghost-war-kali-mu.html'
 ---

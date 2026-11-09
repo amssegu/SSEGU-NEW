@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2024-03-20
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuka0YKdVxR0HBrX3u4YK7puSy_7uCoAvX7317UygKswYWE8ShAHZfGyo-Aye6Dv5uw1QqamrZk45ZJUt_6e22ehmOlJPrg2qtgiUNS1SMFjdh4BEHaGGNiEG_ukUFsAKciHeVbV4UBmRzO8ea65ndDRfLPMxpyEZVOHUIaHdEZgsQQEQUBBs0HO9tL18/s2500/download%20(3).jpg'
+imageAlt: 'Illustration for Healing Powers of the Spiritual Rats | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2024/03/healing-powers-of-spiritual-rats.html'
 ---

@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-08-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhahop4qA4SguMC3LHx5vTAkCwy8hG9pIc1T6_lMdsEGhDfcHUrWSnCH1QbMThsQVCDiTPyS12ORnWSsCNkpoTwe2b3OmQ2EuRXlobuQev7DLYE695R5ZwPzCK1iBSBMu8lU1qgUdlgEPDlo-mqb-L4_kgvK8iYO9pIb3APLBdH_Ogg2zStS92V2uVIEvbR/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Companies Offering Visa Sponsorship Jobs for International Workers | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/08/companies-offering-visa-sponsorship.html'
 ---

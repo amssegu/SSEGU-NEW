@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-15
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYKQHTNY7oRLEqt3-3cPnvBMl5vxXpQAOtmUNx1G0OxOWsGcyV8kRd6lrgIIPSk7vwStgIE3mY1jZeP5mGnWVICOKYmkrbqzZv5eZaznfdN7JL0eVnYlyKLxb0kTpZVGL1yGjuZEZgvkhKuDe2ro_WriH3dZZXaFIWC5K49A9wrFkqrzZQd0iS3LaWA74/s990/426850548_416963874410133_5510734159911924788_n.jpg'
+imageAlt: 'Illustration for Peaky Blinders: The Immortal Man - VJ Ulio | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/peaky-blinders-immortal-man-vj-ulio.html'
 ---

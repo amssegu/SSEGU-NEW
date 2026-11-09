@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-03-31
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUg5-FAGTIeoYjQSobsf9F_V_MoDsw8JXEKVgTm8s6EtCA-jaR4r071iJ_hEfyYupTokMo73GerRfz07gaik6ngi6d6fn1qVPeHZb3Ucnf4z6k0vjydIP9kZU5vrFzdYBMHU8XFzCN0lVsF0vvC4dpAqYMk6xAWFwttpPp0n4RIJz9Y6Y7QumoY8awjvk/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for Alien Country Kali Mu: VJ Emmy | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/03/alien-country-kali-mu-vj-emmy.html'
 ---

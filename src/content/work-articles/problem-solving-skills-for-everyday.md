@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-07-21
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgew_3wawrwBb8FWTH2ridImEDf8xu3zVTyp6hCbr6tRtGfoAys0LZ9Oh5z0r692Lkb5ldjO9SRRUjdbJ6nVm6GBfzfk19JXYrYEPSAxTYtvV8DspKRKSgk4Di6086rVDzaiKp-l1kJd3L5GjrDtwgklhcRglrymrxppF0QrHzCufDq2j6R1PBe0RDSZmLa/s1262/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for Problem-Solving Skills for Everyday Life: A Complete Guide to Making Better Decisions | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/07/problem-solving-skills-for-everyday.html'
 ---

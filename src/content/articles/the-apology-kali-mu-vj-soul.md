@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-04-05
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-M6Rt-GU667hRWv4MDusMVvRfC_H7z_ORZr5ASh5wo3Tn7ULlMu2WJcDhHgNGsezdM1b-ptbLIJg_QEQpqs6rLpptUt6RcEPfu7UqA6TCORMpLgxfJXtUXtqid7TftxUf6v45W-H66c6PGE2VwX_EreTFKZxJO8Uhvll3xw-QBze94hG5bVu2_MFGeoE/s750/vj-Junior-old.html%20-%20Google%20Chrome%202_16_2026%209_22_52%20PM.png'
+imageAlt: 'Illustration for The Apology Kali Mu: VJ Soul | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/04/the-apology-kali-mu-vj-soul.html'
 ---

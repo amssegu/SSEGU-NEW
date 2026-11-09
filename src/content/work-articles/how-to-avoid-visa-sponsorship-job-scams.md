@@ -8,6 +8,8 @@ categories:
 tags: []
 publishedAt: 2026-10-10
 status: published
+image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjWa7oTS7mRG_dvyahaCyprekbZx9D3MydXaS1XLjvTF_RHwaF1CrAuTpeZOGy5nQpV7PaOtpgn_StaF5JPCiYaBVFF7LPYg6cUevMFdIYvL2Qp7LFPY16EvZkGC8qEq4Y27V9kHmlg7oMYI02M_t_4Z3Q7-7jS9lURal0xVVlgc5_C6EvpXo0qB9z4BU3/s1536/flat-clapperboard-icon_1063-38.jpg'
+imageAlt: 'Illustration for How to Avoid Visa Sponsorship Job Scams | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/09/how-to-avoid-visa-sponsorship-job-scams.html'
 ---
