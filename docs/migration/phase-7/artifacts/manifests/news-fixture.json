@@ -1,0 +1,41 @@
+{
+  "toolVersion": "phase7-migration-v1",
+  "deterministicOptions": {
+    "slugSource": "source filename stem",
+    "workTargetNamespace": "/work/career-advice/",
+    "unknownContentPolicy": "draft plus manual-review exception",
+    "mediaPolicy": "do not copy external media; record for approval"
+  },
+  "source": {
+    "repositoryPath": "src/content",
+    "authority": "fixture-only; not an authoritative News migration archive",
+    "fileCount": 5
+  },
+  "records": [
+    {
+      "path": "articles/phase-5-news-fixture.md",
+      "sha256": "46aa9eed6369187af7c793481f34e04351b9a10cbc74b3bfcad25e0f82ce6c6c",
+      "bytes": 763
+    },
+    {
+      "path": "authors/editorial-desk.json",
+      "sha256": "3ba20009f575a96be58f794585cbb628fd00f39b0a878bf3c01050f9ad45d1a2",
+      "bytes": 221
+    },
+    {
+      "path": "categories/news.json",
+      "sha256": "6594b79161470a5480150ac53771a82c928850d9168d96d7381e9ccff396a168",
+      "bytes": 143
+    },
+    {
+      "path": "categories/technology.json",
+      "sha256": "d405ab41f0221f7476941db0e96eec42958cdd4967aee6f9f99cc9f1f0c835b5",
+      "bytes": 172
+    },
+    {
+      "path": "pages/about.md",
+      "sha256": "55ed92b81c2730ecc7de93464d13a877c87447cdf2f0ab68c82a75aafb733c1e",
+      "bytes": 147
+    }
+  ]
+}

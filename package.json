@@ -13,7 +13,8 @@
     "lint": "prettier --check src scripts astro.config.mjs",
     "test": "node scripts/test.mjs",
     "test:e2e": "node scripts/smoke-test.mjs",
-    "validate:content": "node scripts/validate-content.mjs"
+    "validate:content": "node scripts/validate-content.mjs",
+    "migrate:phase7": "node scripts/phase7-migration.mjs"
   },
   "dependencies": {
     "@astrojs/check": "0.9.12",

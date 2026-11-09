@@ -11,6 +11,7 @@ assert.equal(existsSync('src/pages/work/jobs/[slug].astro'), true);
 assert.equal(existsSync('src/pages/work/submit-job/index.astro'), true);
 assert.equal(existsSync('functions/api/job-submissions.ts'), true);
 assert.equal(existsSync('migrations/d1/0001_create_job_submissions.sql'), true);
+assert.equal(existsSync('scripts/phase7-migration.mjs'), true);
 assert.equal(existsSync('src/layouts/WorkLayout.astro'), true);
 assert.equal(existsSync('src/pages/rss.xml.ts'), true);
 assert.equal(existsSync('src/pages/sitemap-index.xml.ts'), true);

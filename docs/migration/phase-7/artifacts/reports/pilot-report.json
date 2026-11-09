@@ -1,0 +1,40 @@
+{
+  "toolVersion": "phase7-migration-v1",
+  "selectedWorkSourceIds": [
+    "posts/10-countries-where-ugandans-can-find.html",
+    "posts/12-common-cv-mistakes-that-could-cost.html",
+    "posts/care-assistant-jobs-with-visa.html",
+    "posts/free-accounting-courses-with.html",
+    "posts/free-online-courses-with-certificates_01820181070.html"
+  ],
+  "selectedNewsSourceIds": [
+    "2024/05/karuma-bridge-crackdown-parliament.html",
+    "2024/05/apple-amps-up-ai-wsj-reports-on-project.html",
+    "2024/05/liverpool-vs-tottenham-hotspur-4-2.html",
+    "2024/05/nasa-aims-to-build-first-railway-system.html",
+    "2024/05/a-closer-look-at-logos-university-campus.html"
+  ],
+  "missingSourceIds": [],
+  "coverage": {
+    "dates": true,
+    "authors": true,
+    "categories": true,
+    "media": true,
+    "embeds": false,
+    "tables": false,
+    "courseLikeContent": true,
+    "jobLikeContent": true,
+    "urlEdgeCase": true
+  },
+  "outputCollections": {
+    "work": "work-articles",
+    "news": "articles"
+  },
+  "outputStatus": "draft",
+  "manualReviewRequired": true,
+  "editorialApproval": "approved",
+  "reviewedBy": "project owner",
+  "reviewedAt": "2026-11-09",
+  "rerunIdempotent": true,
+  "buildValidation": "repository build remains green; pilot output is staged outside src/content"
+}

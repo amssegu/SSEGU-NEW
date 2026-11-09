@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-09",
+  "decision": "PASS",
+  "reason": "Project owner approved the classification, pilots and source-media ownership; duplicate URLs were deduplicated and the source URL inventory was generated.",
+  "evidence": {
+    "workSource": {
+      "toolVersion": "phase7-migration-v1",
+      "repositoryUrl": "https://github.com/amssegu/ssegu/tree/main/posts",
+      "repository": "https://github.com/amssegu/ssegu",
+      "directory": "posts plus dated folders",
+      "ref": "474cea16ebf0dd6c8fc5e4ea7d7c5b45e2277fd8",
+      "retrievedAt": "2026-11-09",
+      "fileCount": 1807,
+      "acceptedFileCount": 1803,
+      "workFileCount": 440,
+      "newsFileCount": 1149,
+      "excludedFileCount": 214,
+      "deduplicatedFileCount": 4,
+      "sourceImmutable": true,
+      "originalFilesModified": false
+    },
+    "deduplicatedRecordCount": 4,
+    "workRecordCount": 440,
+    "newsRecordCount": 1149,
+    "excludedRecordCount": 214,
+    "newsFixtureRecordCount": 5,
+    "slugCollisions": 0,
+    "redirectErrors": 0,
+    "urlInventoryRows": 1589,
+    "pilotRecords": 5,
+    "exceptionRecords": 195,
+    "rerunIdempotent": true
+  },
+  "blockers": [],
+  "acceptedLimitations": [
+    "Owned source media must be converted to AVIF/WebP before final site publication.",
+    "Non-critical markup and external-link exceptions remain listed for Phase 8 content review.",
+    "Historical URLs outside the pinned repository require a separate authoritative inventory before cutover."
+  ],
+  "nextAction": "Proceed to Phase 8 using the URL inventory; convert approved media to AVIF/WebP before publication and complete the historical URL inventory before cutover."
+}
