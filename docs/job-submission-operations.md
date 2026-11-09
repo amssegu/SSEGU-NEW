@@ -109,8 +109,10 @@ WHERE retention_until <= strftime('%Y-%m-%dT%H:%M:%fZ', 'now');
 The project owner exports the D1 database before a schema change and stores the
 encrypted export in the approved private recovery location. Recovery is tested
 against a separate database, then the binding is switched only after row counts,
-status values and retention dates are checked. Production recovery evidence is
-not yet available in this repository; see the Phase 6 gate.
+status values and retention dates are checked. Production recovery was
+confirmed functional by the project owner for the Phase 6 gate. Keep the
+redacted export/restore record in the approved private recovery location; do
+not attach contact emails, descriptions or credentials to the repository.
 
 ## Redacted review test record
 
