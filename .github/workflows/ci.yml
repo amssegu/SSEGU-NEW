@@ -33,6 +33,9 @@ jobs:
       - name: Unit checks
         run: npm test
 
+      - name: Submission security checks
+        run: npm run test:security
+
       - name: Validate content collections and fixtures
         run: npm run validate:content
 

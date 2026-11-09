@@ -23,7 +23,13 @@ const { article, compact = false } = Astro.props;
     </picture>
   </a>
   <div class="story-card-copy">
-    <p class:list={['category-label', `category-${article.category}`]}>{label(article.category)}</p>
+    <div class="story-taxonomy" aria-label="Article categories">
+      {article.categories.map((category) => (
+        <a class:list={['category-label', `category-${category}`]} href={`/category/${category}/`}>
+          {label(category)}
+        </a>
+      ))}
+    </div>
     <h3>
       <a href={`/${article.slug}/`}>{article.title}</a>
     </h3>

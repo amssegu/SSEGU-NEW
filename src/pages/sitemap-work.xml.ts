@@ -6,16 +6,22 @@ import {
   getPublishedWorkArticles,
   workCourses,
   workJobs,
+  workPageCount,
 } from '../lib/work';
 import { sitemapXml } from '../lib/sitemap';
 
 export const GET: APIRoute = async () => {
   const workArticles = await getPublishedWorkArticles();
+  const articlePages = Array.from(
+    { length: workPageCount(workArticles.length) - 1 },
+    (_, index) => `/work/career-advice/page/${index + 2}/`,
+  );
   const paths = [
     '/work/',
     '/work/jobs/',
     '/work/internships/',
     '/work/career-advice/',
+    ...articlePages,
     '/work/courses/',
     '/work/cv-resources/',
     '/work/employers/',

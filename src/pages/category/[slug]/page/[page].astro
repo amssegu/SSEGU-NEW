@@ -1,0 +1,47 @@
+---
+import MainLayout from '../../../../layouts/MainLayout.astro';
+import StoryCard from '../../../../components/main/StoryCard.astro';
+import Pagination from '../../../../components/main/Pagination.astro';
+import {
+  categories,
+  getPublishedArticles,
+  label,
+  pageCount,
+  pageItems,
+} from '../../../../lib/articles';
+import AdSlot from '../../../../components/main/AdSlot.astro';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const slug of categories.filter((category) => category !== 'news')) {
+    const allStories = await getPublishedArticles(slug);
+    const totalPages = pageCount(allStories.length);
+    for (let currentPage = 2; currentPage <= totalPages; currentPage += 1) {
+      paths.push({
+        params: { slug, page: String(currentPage) },
+        props: { slug, currentPage, totalPages, stories: pageItems(allStories, currentPage) },
+      });
+    }
+  }
+  return paths;
+}
+
+const { slug, currentPage, totalPages, stories } = Astro.props;
+---
+
+<MainLayout
+  title={`${label(slug)} — Page ${currentPage} | SSEGU`}
+  description={`SSEGU ${label(slug)} stories, page ${currentPage}.`}
+>
+  <div class="shell page-wrap">
+    <p class="eyebrow">Section</p>
+    <h1>{label(slug)}</h1>
+    <AdSlot placement="top" format="horizontal" />
+    <div class="listing-grid">
+      {stories.map((article) => (
+        <StoryCard article={article} />
+      ))}
+    </div>
+    <Pagination currentPage={currentPage} totalPages={totalPages} basePath={`/category/${slug}/`} />
+  </div>
+</MainLayout>

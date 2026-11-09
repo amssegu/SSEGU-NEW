@@ -59,17 +59,60 @@ export interface WorkArticle {
   title: string;
   description: string;
   category: string;
+  tags: string[];
   author: string;
   publishedAt: string;
   image: string;
 }
 
-function fromWorkEntry(entry: CollectionEntry<'work-articles'>): WorkArticle {
+const ignoredWorkTags = new Set(['ssegu', 'bbc', 'facebook', 'twitter', 'youtube']);
+
+export function workCategoryLabel(value: string) {
+  return value.replace(/-/g, ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function cleanWorkText(value: string) {
+  return value
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function getWorkTags(entry: CollectionEntry<'work-articles'>) {
+  const block =
+    (entry.body ?? '').match(
+      /<div[^>]+aria-label=["']Article tags["'][^>]*>([\s\S]*?)<\/div>/i,
+    )?.[1] ?? '';
+  const supplied = entry.data.tags.map((tag: string) => cleanWorkText(tag));
+  const embedded = [...block.matchAll(/<span[^>]*>([\s\S]*?)<\/span>/gi)].map((match) =>
+    cleanWorkText(match[1]),
+  );
+  return [...supplied, ...embedded]
+    .filter(
+      (tag) =>
+        tag.length >= 2 &&
+        tag.length <= 64 &&
+        tag.split(/\s+/).length <= 8 &&
+        !/[.!?]/.test(tag) &&
+        !ignoredWorkTags.has(tag.toLowerCase()),
+    )
+    .filter(
+      (tag, index, tags) =>
+        tags.findIndex((candidate) => candidate.toLowerCase() === tag.toLowerCase()) === index,
+    )
+    .slice(0, 3);
+}
+
+export function fromWorkEntry(entry: CollectionEntry<'work-articles'>): WorkArticle {
   return {
     slug: entry.data.slug,
     title: entry.data.title,
     description: entry.data.metaDescription ?? entry.data.excerpt,
-    category: 'Career Advice',
+    category: workCategoryLabel(referenceId(entry.data.categories[0]) || 'career-advice'),
+    tags: getWorkTags(entry),
     author:
       referenceId(entry.data.author) === 'editorial-desk'
         ? 'SSEGU Editorial Desk'
@@ -79,12 +122,41 @@ function fromWorkEntry(entry: CollectionEntry<'work-articles'>): WorkArticle {
   };
 }
 
-export async function getPublishedWorkArticles() {
-  const entries = await getCollection('work-articles', ({ data }) => data.status === 'published');
+let cachedPublishedWorkArticles: WorkArticle[] | undefined;
+
+async function getAllPublishedWorkArticles() {
+  if (cachedPublishedWorkArticles) return cachedPublishedWorkArticles;
+  const entries = (await getCollection('work-articles')).filter(
+    ({ data }) => data.status === 'published',
+  );
   const migrated = entries.map(fromWorkEntry);
   const migratedSlugs = new Set(migrated.map((article) => article.slug));
   const fixtures = workArticles.filter((article) => !migratedSlugs.has(article.slug));
-  return [...migrated, ...fixtures].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  cachedPublishedWorkArticles = [...migrated, ...fixtures].sort((a, b) =>
+    b.publishedAt.localeCompare(a.publishedAt),
+  );
+  return cachedPublishedWorkArticles;
+}
+
+export async function getPublishedWorkArticles(category?: string) {
+  const allArticles = await getAllPublishedWorkArticles();
+  return [...allArticles]
+    .filter(
+      (article) => !category || article.category.toLowerCase().replace(/\s+/g, '-') === category,
+    )
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+}
+
+export const workCategories = ['career-advice'] as const;
+export const WORK_PAGE_SIZE = 24;
+
+export function workPageCount(total: number, pageSize = WORK_PAGE_SIZE) {
+  return Math.max(1, Math.ceil(total / pageSize));
+}
+
+export function workPageItems<T>(items: T[], page: number, pageSize = WORK_PAGE_SIZE) {
+  const start = (page - 1) * pageSize;
+  return items.slice(start, start + pageSize);
 }
 
 export interface WorkCourse {
@@ -165,6 +237,7 @@ export const workArticles: WorkArticle[] = [
     title: 'How to Write a Winning CV in Uganda',
     description: 'Tips and practical examples to help you stand out in today’s job market.',
     category: 'Career Advice',
+    tags: [],
     author: 'SSEGU Work Team',
     publishedAt: '2026-11-05',
     image: '/uploads/article-education.webp',
@@ -175,6 +248,7 @@ export const workArticles: WorkArticle[] = [
     description:
       'A practical checklist for making your experience and strengths easy to understand.',
     category: 'Career Advice',
+    tags: [],
     author: 'SSEGU Work Team',
     publishedAt: '2026-10-30',
     image: '/uploads/article-business.webp',
@@ -184,6 +258,7 @@ export const workArticles: WorkArticle[] = [
     title: 'Skills That Open Doors in ICT',
     description: 'Explore the habits and foundational skills that support a career in technology.',
     category: 'Skills',
+    tags: [],
     author: 'SSEGU Work Team',
     publishedAt: '2026-10-22',
     image: '/uploads/article-technology.webp',
@@ -193,6 +268,7 @@ export const workArticles: WorkArticle[] = [
     title: 'Build a Career Plan That Works for You',
     description: 'Turn your goals into a practical plan with small steps you can take this month.',
     category: 'Career Growth',
+    tags: [],
     author: 'SSEGU Work Team',
     publishedAt: '2026-10-15',
     image: '/uploads/article-business.webp',

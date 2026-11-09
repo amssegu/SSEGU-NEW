@@ -1,0 +1,38 @@
+---
+import MainLayout from '../../../layouts/MainLayout.astro';
+import StoryCard from '../../../components/main/StoryCard.astro';
+import Pagination from '../../../components/main/Pagination.astro';
+import { getPublishedArticles, pageCount, pageItems } from '../../../lib/articles';
+import AdSlot from '../../../components/main/AdSlot.astro';
+
+export async function getStaticPaths() {
+  const allStories = await getPublishedArticles();
+  const totalPages = pageCount(allStories.length);
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
+    const currentPage = index + 2;
+    return {
+      params: { page: String(currentPage) },
+      props: { currentPage, totalPages, stories: pageItems(allStories, currentPage) },
+    };
+  });
+}
+
+const { currentPage, totalPages, stories } = Astro.props;
+---
+
+<MainLayout
+  title={`Latest News — Page ${currentPage} | SSEGU`}
+  description={`Latest SSEGU news, page ${currentPage}.`}
+>
+  <div class="shell page-wrap">
+    <p class="eyebrow">Latest</p>
+    <h1>Latest news</h1>
+    <AdSlot placement="top" format="horizontal" />
+    <div class="listing-grid">
+      {stories.map((article) => (
+        <StoryCard article={article} />
+      ))}
+    </div>
+    <Pagination currentPage={currentPage} totalPages={totalPages} basePath="/news/" />
+  </div>
+</MainLayout>

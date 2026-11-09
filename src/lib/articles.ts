@@ -6,6 +6,8 @@ export interface Article {
   title: string;
   description: string;
   category: string;
+  categories: string[];
+  tags: string[];
   author: string;
   publishedAt: string;
   image: string;
@@ -17,14 +19,218 @@ export interface Article {
 const defaultImage = '/uploads/article-ict.webp';
 const defaultImageAvif = '/uploads/article-ict.avif';
 
-function fromContentEntry(entry: CollectionEntry<'articles'>): Article {
+export const categories = [
+  'news',
+  'business',
+  'politics',
+  'technology',
+  'education',
+  'lifestyle',
+  'travel',
+  'sports',
+] as const;
+
+const categorySignals: Record<string, string[]> = {
+  business: [
+    'business',
+    'banking',
+    'finance',
+    'market',
+    'money',
+    'investment',
+    'entrepreneur',
+    'marketing',
+    'startup',
+    'commerce',
+    'income',
+    'economy',
+    'economic',
+    'bank',
+  ],
+  education: [
+    'education',
+    'school',
+    'university',
+    'student',
+    'learning',
+    'exam',
+    'course',
+    'certificate',
+    'teacher',
+    'teaching',
+    'classroom',
+    'scholarship',
+  ],
+  lifestyle: [
+    'health',
+    'mental',
+    'wellness',
+    'relationship',
+    'recipe',
+    'cooking',
+    'food',
+    'fashion',
+    'beauty',
+    'lifestyle',
+    'music',
+    'celebrity',
+    'diy',
+    'gardening',
+  ],
+  politics: [
+    'parliament',
+    'government',
+    'president',
+    'minister',
+    'election',
+    'politic',
+    'policy',
+    'court',
+    'diplomatic',
+    'war',
+    'conflict',
+  ],
+  sports: [
+    'football',
+    'soccer',
+    'premier league',
+    'arsenal',
+    'liverpool',
+    'man city',
+    'man utd',
+    'cricket',
+    'basketball',
+    'boxing',
+    'sports',
+    'athlete',
+  ],
+  technology: [
+    'technology',
+    'tech',
+    'software',
+    'artificial intelligence',
+    ' ai ',
+    'cybersecurity',
+    'blockchain',
+    'python',
+    'coding',
+    'programming',
+    'app ',
+    'digital',
+    'google',
+    'microsoft',
+    'apple',
+    'nasa',
+    'starlink',
+    'telecom',
+    'internet',
+    'mobile',
+    'phone',
+    'gadget',
+  ],
+  travel: [
+    'travel',
+    'tourism',
+    'tourist',
+    'hotel',
+    'resort',
+    'itinerary',
+    'destination',
+    'vacation',
+    'airport',
+    'flight',
+    'national park',
+    'safari',
+    'wildlife',
+    'park',
+  ],
+};
+
+const ignoredTags = new Set(['ssegu', 'bbc', 'facebook', 'twitter', 'youtube']);
+
+function cleanText(value: string) {
+  return value
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function extractEmbeddedTags(body: string) {
+  const tagBlock =
+    body.match(/<div[^>]+aria-label=["']Article tags["'][^>]*>([\s\S]*?)<\/div>/i)?.[1] ?? '';
+  return [...tagBlock.matchAll(/<span[^>]*>([\s\S]*?)<\/span>/gi)]
+    .map((match) => cleanText(match[1]))
+    .filter(
+      (tag) =>
+        tag.length >= 2 &&
+        tag.length <= 64 &&
+        tag.split(/\s+/).length <= 8 &&
+        !/[.!?]/.test(tag) &&
+        !ignoredTags.has(tag.toLowerCase()),
+    );
+}
+
+function articleTaxonomy(
+  categoryRefs: unknown[],
+  tags: unknown[],
+  body: string,
+  title: string,
+  excerpt: string,
+) {
+  const suppliedCategory = categoryRefs
+    .map(referenceId)
+    .find((category): category is (typeof categories)[number] =>
+      categories.includes(category as (typeof categories)[number]),
+    );
+  const suppliedTags = tags
+    .map((tag) => cleanText(String(tag)))
+    .filter((tag) => tag.length >= 2 && !ignoredTags.has(tag.toLowerCase()));
+  const rawTags = [...suppliedTags, ...extractEmbeddedTags(body)];
+  const articleTags = rawTags
+    .filter(
+      (tag, index) =>
+        rawTags.findIndex((candidate) => candidate.toLowerCase() === tag.toLowerCase()) === index,
+    )
+    .slice(0, 3);
+  const titleText = cleanText(`${title} ${excerpt}`).toLowerCase();
+  const searchableText = ` ${cleanText(`${title} ${excerpt} ${articleTags.join(' ')} ${body.slice(0, 20000)}`).toLowerCase()} `;
+  const ranked = Object.entries(categorySignals)
+    .map(([category, signals]) => ({
+      category,
+      score: signals.reduce(
+        (score, signal) =>
+          score + (titleText.includes(signal) ? 3 : searchableText.includes(signal) ? 1 : 0),
+        0,
+      ),
+    }))
+    .filter((item) => item.score >= 2)
+    .sort((a, b) => b.score - a.score || a.category.localeCompare(b.category));
+  const primaryCategory = ranked[0]?.category ?? suppliedCategory ?? 'news';
+  return { categories: [primaryCategory], tags: articleTags };
+}
+
+export function fromContentEntry(entry: CollectionEntry<'articles'>): Article {
   const date = entry.data.publishedAt.toISOString().slice(0, 10);
   const image = entry.data.image ?? defaultImage;
+  const taxonomy = articleTaxonomy(
+    entry.data.categories,
+    entry.data.tags,
+    entry.body ?? '',
+    entry.data.title,
+    entry.data.excerpt,
+  );
   return {
     slug: entry.data.slug,
     title: entry.data.title,
     description: entry.data.metaDescription ?? entry.data.excerpt,
-    category: referenceId(entry.data.categories[0]) || 'news',
+    category: taxonomy.categories[0],
+    categories: taxonomy.categories,
+    tags: taxonomy.tags,
     author:
       referenceId(entry.data.author) === 'editorial-desk'
         ? 'SSEGU Editorial Desk'
@@ -41,19 +247,38 @@ function fromContentEntry(entry: CollectionEntry<'articles'>): Article {
   };
 }
 
-export async function getPublishedArticles(category?: string) {
-  const entries = await getCollection('articles', ({ data }) => {
-    return (
-      data.status === 'published' &&
-      (!category || data.categories.some((value: unknown) => referenceId(value) === category))
-    );
-  });
+let cachedPublishedArticles: Article[] | undefined;
+
+async function getAllPublishedArticles() {
+  if (cachedPublishedArticles) return cachedPublishedArticles;
+  const entries = (await getCollection('articles')).filter(
+    ({ data }) => data.status === 'published',
+  );
   const migrated = entries.map(fromContentEntry);
   const migratedSlugs = new Set(migrated.map((article) => article.slug));
-  const fixtures = articles.filter(
-    (article) => !migratedSlugs.has(article.slug) && (!category || article.category === category),
+  const fixtures = articles.filter((article) => !migratedSlugs.has(article.slug));
+  cachedPublishedArticles = [...migrated, ...fixtures].sort((a, b) =>
+    b.publishedAt.localeCompare(a.publishedAt),
   );
-  return [...migrated, ...fixtures].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  return cachedPublishedArticles;
+}
+
+export async function getPublishedArticles(category?: string) {
+  const allArticles = await getAllPublishedArticles();
+  return [...allArticles]
+    .filter((article) => !category || article.categories.includes(category))
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+}
+
+export const NEWS_PAGE_SIZE = 24;
+
+export function pageCount(total: number, pageSize = NEWS_PAGE_SIZE) {
+  return Math.max(1, Math.ceil(total / pageSize));
+}
+
+export function pageItems<T>(items: T[], page: number, pageSize = NEWS_PAGE_SIZE) {
+  const start = (page - 1) * pageSize;
+  return items.slice(start, start + pageSize);
 }
 
 const interimImages: Record<string, { webp: string; avif: string }> = {
@@ -163,6 +388,8 @@ const seed: Array<Omit<Article, 'image' | 'body'> & { body?: string[] }> = [
 
 export const articles: Article[] = seed.map((article) => ({
   ...article,
+  categories: [article.category],
+  tags: [],
   image: interimImages[article.slug].webp,
   imageAvif: interimImages[article.slug].avif,
   body: [
@@ -170,22 +397,12 @@ export const articles: Article[] = seed.map((article) => ({
     'The story illustrates the portable article shape used by the frontend: a title, summary, category, author, publication date, image alternative and readable body.',
   ],
 }));
-export const categories = [
-  'news',
-  'business',
-  'politics',
-  'technology',
-  'education',
-  'lifestyle',
-  'travel',
-  'sports',
-];
 export function getArticle(slug: string) {
   return articles.find((article) => article.slug === slug);
 }
 export function getArticles(category?: string) {
   return [...articles]
-    .filter((article) => !category || article.category === category)
+    .filter((article) => !category || article.categories.includes(category))
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }
 export function formatDate(date: string) {

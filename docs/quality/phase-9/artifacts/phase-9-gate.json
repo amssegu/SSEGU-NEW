@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-09",
+  "decision": "BLOCK",
+  "title": "PHASE 9: BLOCK — DO NOT PROCEED TO PHASE 10",
+  "owner": "SSEGU engineering, editorial, security and deployment reviewers",
+  "phase8": {
+    "decision": "BLOCK",
+    "source": "docs/migration/phase-8/artifacts/reports/phase-8-gate.json"
+  },
+  "checks": [
+    {
+      "id": "format",
+      "command": "npm run format:check",
+      "status": "pass",
+      "exitCode": 0
+    },
+    {
+      "id": "typecheck",
+      "command": "npm run check",
+      "status": "pass",
+      "exitCode": 0
+    },
+    {
+      "id": "unit",
+      "command": "npm test",
+      "status": "pass",
+      "exitCode": 0
+    },
+    {
+      "id": "submission-security",
+      "command": "npm run test:security",
+      "status": "pass",
+      "exitCode": 0
+    },
+    {
+      "id": "content",
+      "command": "npm run validate:content",
+      "status": "pass",
+      "exitCode": 0
+    },
+    {
+      "id": "redirects",
+      "command": "npm run validate:redirects",
+      "status": "pass",
+      "exitCode": 0
+    },
+    {
+      "id": "build",
+      "command": "npm run build",
+      "status": "pass",
+      "exitCode": 0
+    },
+    {
+      "id": "static-smoke",
+      "command": "npm run test:e2e",
+      "status": "pass",
+      "exitCode": 0
+    },
+    {
+      "id": "dependency-audit",
+      "command": "npm audit --omit=dev --audit-level=high --json",
+      "status": "pass",
+      "exitCode": 0
+    }
+  ],
+  "dependencyAudit": {
+    "counts": {
+      "info": 0,
+      "low": 1,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 1
+    },
+    "acceptedWarnings": [
+      {
+        "id": "dependency-audit-low",
+        "owner": "SSEGU engineering",
+        "followUpDate": "2026-11-16",
+        "detail": "1 low-severity dependency finding(s) remain; no high or critical findings are accepted."
+      }
+    ]
+  },
+  "staticSecurity": {
+    "status": "pass",
+    "findings": []
+  },
+  "externalEvidence": {
+    "lighthouse": "not-run: supply measured mobile/desktop Lighthouse reports",
+    "preview": "not-run: set PHASE9_PREVIEW_URL and run the preview probes",
+    "backupRestore": "not-run: attach a redacted D1 backup/restore record",
+    "rollback": "not-run: attach a previous-release rollback record"
+  },
+  "blockers": [
+    "Phase 8 is not PASS; resolve the reviewed Work-subdomain redirect failure before entering Phase 9.",
+    "lighthouse evidence is not-run: supply measured mobile/desktop Lighthouse reports.",
+    "preview evidence is not-run: set PHASE9_PREVIEW_URL and run the preview probes.",
+    "backupRestore evidence is not-run: attach a redacted D1 backup/restore record.",
+    "rollback evidence is not-run: attach a previous-release rollback record."
+  ],
+  "nextActions": [
+    "Resolve all blockers and rerun npm run review:phase9.",
+    "Do not mark Lighthouse, preview, backup/restore or rollback as passed from source inspection alone."
+  ]
+}

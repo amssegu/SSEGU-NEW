@@ -7,6 +7,7 @@ import { formatWorkDate, getPublishedWorkArticles, workJobs } from '../../lib/wo
 const latestJobs = workJobs.filter((job) => job.status === 'active').slice(0, 3);
 const workArticles = await getPublishedWorkArticles();
 const featuredArticle = workArticles[0];
+const latestWorkArticles = workArticles.slice(0, 6);
 ---
 
 <WorkLayout
@@ -144,7 +145,7 @@ const featuredArticle = workArticles[0];
       </a>
     </div>
     <div class="work-home-article-grid">
-      {workArticles.map((article) => (
+      {latestWorkArticles.map((article) => (
         <article class="work-home-article-card">
           <a href={`/work/career-advice/${article.slug}/`}>
             <div class="work-home-article-image">

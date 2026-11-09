@@ -1,0 +1,55 @@
+---
+import WorkLayout from '../../../../layouts/WorkLayout.astro';
+import Pagination from '../../../../components/main/Pagination.astro';
+import {
+  formatWorkDate,
+  getPublishedWorkArticles,
+  workPageCount,
+  workPageItems,
+} from '../../../../lib/work';
+
+export async function getStaticPaths() {
+  const allWorkArticles = await getPublishedWorkArticles('career-advice');
+  const totalPages = workPageCount(allWorkArticles.length);
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
+    const currentPage = index + 2;
+    return {
+      params: { page: String(currentPage) },
+      props: { currentPage, totalPages, workArticles: workPageItems(allWorkArticles, currentPage) },
+    };
+  });
+}
+
+const { currentPage, totalPages, workArticles } = Astro.props;
+---
+
+<WorkLayout
+  title={`Career Advice — Page ${currentPage} | SSEGU Work`}
+  description={`SSEGU Work career advice, page ${currentPage}.`}
+>
+  <div class="work-page-shell">
+    <div class="work-page-intro">
+      <p class="work-eyebrow">Learn and prepare</p>
+      <h1>Career Advice</h1>
+      <p>Practical guidance for your next application, interview and career move.</p>
+    </div>
+    <div class="work-article-grid">
+      {workArticles.map((article) => (
+        <article class="work-advice-card">
+          <a href={`/work/career-advice/${article.slug}/`}>
+            <img src={article.image} alt="" width="1200" height="675" />
+            <div>
+              <p class="work-card-kicker">{article.category}</p>
+              <h2>{article.title}</h2>
+              <p>{article.description}</p>
+              <small>
+                By {article.author} · {formatWorkDate(article.publishedAt)}
+              </small>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+    <Pagination currentPage={currentPage} totalPages={totalPages} basePath="/work/career-advice/" />
+  </div>
+</WorkLayout>

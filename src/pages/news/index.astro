@@ -1,9 +1,12 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
 import StoryCard from '../../components/main/StoryCard.astro';
-import { getPublishedArticles } from '../../lib/articles';
+import Pagination from '../../components/main/Pagination.astro';
+import { getPublishedArticles, pageCount, pageItems } from '../../lib/articles';
 import AdSlot from '../../components/main/AdSlot.astro';
-const stories = await getPublishedArticles();
+const allStories = await getPublishedArticles();
+const totalPages = pageCount(allStories.length);
+const stories = pageItems(allStories, 1);
 ---
 
 <MainLayout title="Latest News | SSEGU" description="The latest fixture stories from SSEGU.">
@@ -16,5 +19,6 @@ const stories = await getPublishedArticles();
         <StoryCard article={article} />
       ))}
     </div>
+    <Pagination currentPage={1} totalPages={totalPages} basePath="/news/" />
   </div>
 </MainLayout>

@@ -1,12 +1,15 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import { getPublishedArticles } from '../lib/articles';
-const index = (await getPublishedArticles()).map(({ slug, title, description, category }) => ({
-  slug,
-  title,
-  description,
-  category,
-}));
+const index = (await getPublishedArticles()).map(
+  ({ slug, title, description, category, tags }) => ({
+    slug,
+    title,
+    description,
+    category,
+    tags,
+  }),
+);
 ---
 
 <MainLayout title="Search | SSEGU" description="Search SSEGU stories." noindex>
@@ -26,8 +29,28 @@ const index = (await getPublishedArticles()).map(({ slug, title, description, ca
     <div id="search-results" class="listing-grid"></div>
   </div>
   <script define:vars={{ index }} is:inline>
-    {
-      `const form = document.querySelector('#search-form'); const input = document.querySelector('#search-query'); const results = document.querySelector('#search-results'); const status = document.querySelector('#search-status'); form?.addEventListener('submit', (event) => { event.preventDefault(); const query = input.value.trim().toLowerCase(); const matches = ${JSON.stringify(index)}.filter((item) => [item.title, item.description, item.category].join(' ').toLowerCase().includes(query)); status.textContent = query ? \`\${matches.length} results found.\` : 'Enter a term to search the fixture index.'; results.innerHTML = matches.map((item) => \`<article class="search-result"><p class="category-label">\${item.category}</p><h2><a href="/\${item.slug}/">\${item.title}</a></h2><p>\${item.description}</p></article>\`).join(''); });`;
-    }
+    const form = document.querySelector('#search-form');
+    const input = document.querySelector('#search-query');
+    const results = document.querySelector('#search-results');
+    const status = document.querySelector('#search-status');
+    form?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const query = input.value.trim().toLowerCase();
+      const matches = index.filter((item) =>
+        [item.title, item.description, item.category, ...item.tags]
+          .join(' ')
+          .toLowerCase()
+          .includes(query),
+      );
+      status.textContent = query
+        ? `${matches.length} results found.`
+        : 'Enter a term to search the article index.';
+      results.innerHTML = matches
+        .map(
+          (item) =>
+            `<article class="search-result"><p class="category-label">${item.category}</p><h2><a href="/${item.slug}/">${item.title}</a></h2><p>${item.description}</p><p class="search-tags">${item.tags.join(' · ')}</p></article>`,
+        )
+        .join('');
+    });
   </script>
 </MainLayout>

@@ -1,7 +1,15 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
-import { formatWorkDate, getPublishedWorkArticles } from '../../../lib/work';
-const workArticles = await getPublishedWorkArticles();
+import Pagination from '../../../components/main/Pagination.astro';
+import {
+  formatWorkDate,
+  getPublishedWorkArticles,
+  workPageCount,
+  workPageItems,
+} from '../../../lib/work';
+const allWorkArticles = await getPublishedWorkArticles('career-advice');
+const totalPages = workPageCount(allWorkArticles.length);
+const workArticles = workPageItems(allWorkArticles, 1);
 ---
 
 <WorkLayout
@@ -31,5 +39,6 @@ const workArticles = await getPublishedWorkArticles();
         </article>
       ))}
     </div>
+    <Pagination currentPage={1} totalPages={totalPages} basePath="/work/career-advice/" />
   </div>
 </WorkLayout>

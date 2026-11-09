@@ -1,7 +1,8 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
 import StoryCard from '../../components/main/StoryCard.astro';
-import { categories, getPublishedArticles, label } from '../../lib/articles';
+import Pagination from '../../components/main/Pagination.astro';
+import { categories, getPublishedArticles, label, pageCount, pageItems } from '../../lib/articles';
 import AdSlot from '../../components/main/AdSlot.astro';
 export function getStaticPaths() {
   return categories
@@ -9,7 +10,9 @@ export function getStaticPaths() {
     .map((slug) => ({ params: { slug }, props: { slug } }));
 }
 const { slug } = Astro.props;
-const stories = await getPublishedArticles(slug);
+const allStories = await getPublishedArticles(slug);
+const totalPages = pageCount(allStories.length);
+const stories = pageItems(allStories, 1);
 ---
 
 <MainLayout
@@ -21,11 +24,14 @@ const stories = await getPublishedArticles(slug);
     <h1>{label(slug)}</h1>
     <AdSlot placement="top" format="horizontal" />
     {stories.length ? (
-      <div class="listing-grid">
-        {stories.map((article) => (
-          <StoryCard article={article} />
-        ))}
-      </div>
+      <>
+        <div class="listing-grid">
+          {stories.map((article) => (
+            <StoryCard article={article} />
+          ))}
+        </div>
+        <Pagination currentPage={1} totalPages={totalPages} basePath={`/category/${slug}/`} />
+      </>
     ) : (
       <p class="empty-state">No stories are available in this section yet.</p>
     )}

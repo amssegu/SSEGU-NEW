@@ -1007,6 +1007,21 @@
   color: var(--work-muted);
   font-size: 0.8rem;
 }
+.work-article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0;
+  list-style: none;
+}
+.work-article-tags li {
+  padding: 0.3rem 0.55rem;
+  color: var(--work-blue);
+  background: var(--work-blue-soft);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
 
 .work-breadcrumbs {
   display: flex;

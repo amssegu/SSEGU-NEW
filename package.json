@@ -12,8 +12,10 @@
     "format:check": "prettier --check src scripts astro.config.mjs",
     "lint": "prettier --check src scripts astro.config.mjs",
     "test": "node scripts/test.mjs",
+    "test:security": "node --experimental-strip-types scripts/phase9-security-test.mjs",
     "test:e2e": "node scripts/smoke-test.mjs",
     "validate:content": "node scripts/validate-content.mjs",
+    "review:phase9": "node scripts/phase9-review.mjs",
     "migrate:phase7": "node scripts/phase7-migration.mjs",
     "migrate:phase8": "node scripts/phase8-migration.mjs",
     "promote:phase8": "node scripts/promote-phase8.mjs",
@@ -23,7 +25,7 @@
   },
   "dependencies": {
     "@astrojs/check": "0.9.12",
-    "astro": "6.4.8",
+    "astro": "7.4.1",
     "typescript": "6.0.3",
     "yaml": "2.9.1"
   },

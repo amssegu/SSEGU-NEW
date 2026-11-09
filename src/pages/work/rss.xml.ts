@@ -6,6 +6,7 @@ import { xmlEscape } from '../../lib/sitemap';
 export const GET: APIRoute = async () => {
   const workArticles = await getPublishedWorkArticles();
   const items = workArticles
+    .slice(0, 50)
     .map(
       (article) =>
         `<item><title>${xmlEscape(article.title)}</title><link>${absoluteUrl(`/work/career-advice/${article.slug}/`)}</link><description>${xmlEscape(article.description)}</description><pubDate>${new Date(`${article.publishedAt}T12:00:00Z`).toUTCString()}</pubDate></item>`,

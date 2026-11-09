@@ -6,6 +6,7 @@ export const GET: APIRoute = async ({ site }) => {
   const articles = await getPublishedArticles();
   const base = site?.toString() ?? 'https://ssegu.com/';
   const items = articles
+    .slice(0, 50)
     .map(
       (article) =>
         `<item><title>${xmlEscape(article.title)}</title><link>${absoluteUrl(`/${article.slug}/`)}</link><description>${xmlEscape(article.description)}</description><pubDate>${new Date(`${article.publishedAt}T12:00:00Z`).toUTCString()}</pubDate></item>`,
