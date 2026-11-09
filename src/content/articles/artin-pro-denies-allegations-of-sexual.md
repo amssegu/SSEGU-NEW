@@ -1,0 +1,15 @@
+---
+title: 'Artin Pro Denies Allegations of Sexual Assault Against Uncle Chumi | SSEGU'
+slug: artin-pro-denies-allegations-of-sexual
+excerpt: 'The controversy began earlier this week when Uncle Chumi, whose real name is Crek Haidare Mushabe, claimed in an interview with Shalom Kaweesi that s'
+author: editorial-desk
+categories:
+  - technology
+tags: []
+publishedAt: 2026-04-06
+status: published
+featured: false
+canonicalUrl: 'https://www.ssegu.com/p/artin-pro-denies-allegations-of-sexual.html'
+---
+
+<p> The controversy began earlier this week when Uncle Chumi, whose real name is Crek Haidare Mushabe, claimed in an interview with Shalom Kaweesi that she was sexually assaulted by Artin Pro during a studio session for her track titled “Who.”</p><p>Chumi alleges  that the producer made inappropriate physical contact with her.</p><p>Artin Pro, an established producer known for guiding the careers of many Ugandan artists, is at a difficult point as he attempts to defend his reputation from  allegations  of Uncle Chumi, who switched from being a TikTok star to a musician earlier this year.</p><p> </p><p>Chumi states  that Artin fondled her breast during a studio session, and she claims that this can be confirmed by the CCTV footage from that day. However, Artin did not address the CCTV footage in his press release.</p><p> </p><p>Artin says  that on Friday, May 2025, Uncle Chumi approached him for help with releasing her song “Who.”</p><p>He states that despite having previously declined her requests, he decided to assist her this time because she asserted she had a demo given to her by a benefactor for performance purposes.</p><p>Artin, a well-known figure recognized for creating hits for various Ugandan artists, highlighted that his partnership with Chumi was driven by the intention to support her emerging career.</p><p>Artin Pro has demanded that Uncle Chumi retract her accusations and issue a public apology, cautioning about the personal and professional impact the claims have had on him.</p><p>He also advises the public to view any defamatory or misleading information linked to his work with necessary skepticism they deserve.</p><p> </p><p>Read Also:<a href="https://info.ssegu.com/understanding-vitiligo-the-skin-condition-that-can-affect-anyone-the-causes-and-symptoms/">Understanding Vitiligo the Skin Condition That Can Affect Anyone: The Causes And Symptoms</a></p><p> </p><p> </p><blockquote><p dir="ltr" lang="en">Music Producer Artin speaks out on Uncle Chumi's SA allegations!<a href="https://twitter.com/hashtag/JikonkoneRewind?src=hash&amp;ref_src=twsrc%5Etfw">#JikonkoneRewind</a> <a href="https://t.co/GgnDy8pmFL">pic.twitter.com/GgnDy8pmFL</a></p><p>— Galaxy TV Jikonkone (@GalaxyTVUg) <a href="https://twitter.com/GalaxyTVUg/status/1938325136416874845?ref_src=twsrc%5Etfw">June 26, 2025</a></p></blockquote><p></p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

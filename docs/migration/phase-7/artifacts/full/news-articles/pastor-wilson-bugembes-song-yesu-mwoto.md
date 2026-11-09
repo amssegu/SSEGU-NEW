@@ -1,0 +1,15 @@
+---
+title: "Pastor Wilson Bugembe’s song Yesu Mwoto wins him An Award At EAGMA in Tanzania. | SSEGU"
+slug: pastor-wilson-bugembes-song-yesu-mwoto
+excerpt: "Pastor Wilson Bugembe’s song Tonsobola (Yesu Mwoto) has won him the prestigious “Best Traditional (Cultural) Song of the Year” award for the 2024-2025"
+author: editorial-desk
+categories:
+  - politics
+tags: []
+publishedAt: 2026-04-09
+status: published
+featured: false
+canonicalUrl: "https://www.ssegu.com/p/pastor-wilson-bugembes-song-yesu-mwoto.html"
+---
+
+<p> Pastor Wilson Bugembe’s song Tonsobola (Yesu Mwoto) has won him the prestigious “Best Traditional (Cultural) Song of the Year” award for the 2024-2025 season at the East Africa Gospel Music Awards (EAGMA) held in Tanzania.</p>[caption id="attachment_6687" align="aligncenter" width="225"]<em>Pastor Wilson Bugembe’s EAGMA Awarda</em>.[/caption]<p>This accolade, marked by a striking golden trophy featuring a musical note and star design, celebrates Bugembe’s 20-year journey in gospel music. The Ugandan singer and pastor, who rose from an orphaned childhood on the streets of Masaka to become a revered worship leader, expressed his gratitude in a heartfelt X post. He wrote:</p><p>“Thank you so much JESUS CHRIST 🙌FOR SUSTAINING THIS WEAK VESSEL. Thank you EAGMA awards in Tanzania 🇹🇿 🙌Thank You my family and funs for the years of LOVE "</p><blockquote><p dir="ltr" lang="en">Thank you so much JESUS CHRIST 🙌FOR SUSTAINING THIS WEAK VESSEL.</p><p>Thank you EAGMA awards in Tanzania 🇹🇿 🙌</p><p>Thank You my family and funs for the years of LOVE 💪<br>After 20 years of worship, this award encourages me a lot. Dedicated to all young musicians, never give up … 🙌 <a href="https://t.co/UqczqJxQL7">pic.twitter.com/UqczqJxQL7</a></p><p>— #WilsonBugembe (@WilsonBugembe) <a href="https://twitter.com/WilsonBugembe/status/1939658536050438396?ref_src=twsrc%5Etfw">June 30, 2025</a></p></blockquote><p></p><p>Uganda was able to win two awards in EAGMA awards that happened in Tanzania. On the other hand, Levixone won peoples choice awards.</p><p>EAGMA, held annually to honor gospel talent across East Africa, features diverse categories like “Best Gospel Legendary Male” and “People’s Choice Awards,” with Bugembe’s win highlighting his influence, from his 2016 VIGA Award for “Daala,” showing a consistent career trajectory in gospel music and success beyond awards.</p><p>This award comes as a great success to Wilson as he will be celebrating his 20 years with a Concert on 8th August.</p><p>Pastor Wilson Bugembe continues to inspire upcoming gospel artists with his music and indeed it has been 20 years of a successful gospel Career.</p><p> </p><p>Read  Also: <a href="https://info.ssegu.com/levixone-wins-peoples-choice-award-2025-in-tanzania/">Levixone Wins People’s Choice Award 2025 In Tanzania</a></p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

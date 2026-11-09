@@ -1,0 +1,15 @@
+---
+title: 'Old Mutual Investment Group Uganda Launches Private Wealth Management Product | SSEGU'
+slug: old-mutual-investment-group-uganda
+excerpt: 'Old Mutual Investment Group Uganda officially launched its Private Wealth Management Product on May 27th at Sheraton Hotel. This innovative offer'
+author: editorial-desk
+categories:
+  - politics
+tags: []
+publishedAt: 2026-04-09
+status: published
+featured: false
+canonicalUrl: 'https://www.ssegu.com/p/old-mutual-investment-group-uganda.html'
+---
+
+<p> Old Mutual  Investment Group Uganda officially launched its Private Wealth Management  Product on May 27th   at  Sheraton Hotel. This innovative offering is specifically designed for high-net-worth individuals and entities, marking a significant milestone in wealth management solutions in Uganda.</p><p>The event drew  prominent leaders, investors, and industry experts, highlighting the importance of this new Product and its potential to redefine the investment landscape in the region. The Private Wealth Management Product  provides clients with customized investment portfolios that are strategically aligned with their financial aspirations and risk tolerance.</p><p>This comprehensive investment solution is characterized by a suite of features aimed at enhancing client wealth. Among these are dedicated portfolio management services that help clients effectively diversify their investments and optimize overall returns. Clients can expect a robust framework that includes cash flow management strategies, tailored equities selection, and  portfolio construction that promotes sector diversification. Additionally, it offers  fixed income management and opportunities for hard currency investments, allowing for a broad spectrum of options to fit varying client needs.</p><p>Old Mutual Uganda  stands as one of the foremost insurance companies in the East African region, with  an assets of  UGX 1.678 trillion as of 2023. The Managing Director Old Mutual Investment Group, Zac Kisesi, emphasized that the launch of the Private Wealth Management Product demonstrates the company’s commitment to transforming Uganda’s investment landscape. With  their  asset of now    at  UGX 3.5 trillion,they aim to provide tailored  financial Solutions.</p><p>Kisesi  during the launch stated, “Wealth is not just about accumulation, it’s about preservation, growth, and legacy. Our new Private Wealth offering is designed to deliver bespoke solutions that cater specifically to the needs of our high-end clientele.”</p><p>This product is more than just a financial service, it looks towards  a vision for the future of investments in Uganda as it  promises a  significant value and a forward-thinking approach to wealth management.</p><p> </p><p>Read Also: <a href="https://info.ssegu.com/mathias-mpuuga-unveils-his-new-political-party-democratic-front/">Mathias Mpuuga Unveils His New Political Party Democratic Font</a></p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

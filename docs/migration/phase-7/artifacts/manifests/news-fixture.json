@@ -7,15 +7,15 @@
     "mediaPolicy": "do not copy external media; record for approval"
   },
   "source": {
-    "repositoryPath": "src/content",
+    "repositoryPath": "../../../../../tmp/ssegu-news-fixture/src/content",
     "authority": "fixture-only; not an authoritative News migration archive",
     "fileCount": 5
   },
   "records": [
     {
       "path": "articles/phase-5-news-fixture.md",
-      "sha256": "46aa9eed6369187af7c793481f34e04351b9a10cbc74b3bfcad25e0f82ce6c6c",
-      "bytes": 763
+      "sha256": "9158d5a285fb5b251c865a176d9666e92824470a54d2216e060838f69a676d82",
+      "bytes": 760
     },
     {
       "path": "authors/editorial-desk.json",

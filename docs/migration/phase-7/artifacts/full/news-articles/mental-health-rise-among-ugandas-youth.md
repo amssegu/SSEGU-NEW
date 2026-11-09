@@ -1,0 +1,15 @@
+---
+title: "Mental Health Rise Among Uganda’s Youth. | SSEGU"
+slug: mental-health-rise-among-ugandas-youth
+excerpt: "On June 5th, 2025, Dr. Juliet Nakku, Executive Director of Butabika National Referral Mental Hospital, addressed a press briefing at the Uganda Media"
+author: editorial-desk
+categories:
+  - politics
+tags: []
+publishedAt: 2026-04-09
+status: published
+featured: false
+canonicalUrl: "https://www.ssegu.com/p/mental-health-rise-among-ugandas-youth.html"
+---
+
+<p> On June 5th, 2025, Dr. Juliet Nakku, Executive Director of Butabika National Referral Mental Hospital, addressed a press briefing at the Uganda Media Centre, highlighting the escalating mental health crisis among Uganda's youth. According to the 2024 Uganda Bureau of Statistics (UBOS) report, approximately 5.5 million people, or 12% of Uganda's population of 45.9 million, suffer from mental health disorders. Dr. Nakku reports that Butabika Hospital admits an average of 20 patients daily, with 30% of these admissions linked to mental health disorders caused by alcohol addiction and substance abuse. She describes the crisis as an "imminent pandemic" affecting young people and placing significant strain on the hospital's resources.</p><p>Dr. Nakku notes that the issue now impacts not only adult men but also women and children as young as 11 to 17 years old, indicating a troubling shift in demographics. She states that one in three children aged 11 to 17 (approximately 30%) have experienced emotional and behavioral issues, such as depression, anxiety, and disruptive behavior. Dr. Nakku attributes the crisis to poorly planned academic programs that prioritize rigorous schedules over adequate rest, sleep, and recreational activities, essential for healthy brain development. These pressures have contributed to an increase in suicides among students.</p><p>Dr. Nakku emphasizes the urgent need to integrate mental health programs into schools, workplaces, and national health systems. She advocates for training teachers and health workers to identify early signs of mental illness and substance abuse. With the alarming cases on the rise, Dr. Nakku appeals to policymakers to take action, citing the hospital's current overcrowding and limited resources. Butabika Hospital, designed for 550 beds, is currently operating at double capacity, admitting over 10,300 patients annually. The national mental health budget, constituting only 1% of the 9.8% of GDP allocated to healthcare, limits access to care, particularly in rural areas.</p><p>Dr. Nakku urges policymakers to address the complexity effects of poverty, diseases, high cost of living, and political strains, all of which have worsened mental health outcomes and increased substance abuse among youth.</p><p>Read Also: <a href="https://info.ssegu.com/sheikh-burhan-muhsin-kiti-refuses-to-apologise-to-the-church-and-the-public/">Sheikh Burhan Muhsin Kiti Refuses TO Apologise To the church And the Public.</a></p><p> </p><p> </p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

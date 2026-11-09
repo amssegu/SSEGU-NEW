@@ -1,4 +1,6 @@
 import { absoluteUrl } from './seo';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { referenceId } from './content';
 
 export type WorkStatus = 'active' | 'expired';
 
@@ -60,6 +62,29 @@ export interface WorkArticle {
   author: string;
   publishedAt: string;
   image: string;
+}
+
+function fromWorkEntry(entry: CollectionEntry<'work-articles'>): WorkArticle {
+  return {
+    slug: entry.data.slug,
+    title: entry.data.title,
+    description: entry.data.metaDescription ?? entry.data.excerpt,
+    category: 'Career Advice',
+    author:
+      referenceId(entry.data.author) === 'editorial-desk'
+        ? 'SSEGU Editorial Desk'
+        : referenceId(entry.data.author),
+    publishedAt: entry.data.publishedAt.toISOString().slice(0, 10),
+    image: entry.data.image ?? '/uploads/article-technology.webp',
+  };
+}
+
+export async function getPublishedWorkArticles() {
+  const entries = await getCollection('work-articles', ({ data }) => data.status === 'published');
+  const migrated = entries.map(fromWorkEntry);
+  const migratedSlugs = new Set(migrated.map((article) => article.slug));
+  const fixtures = workArticles.filter((article) => !migratedSlugs.has(article.slug));
+  return [...migrated, ...fixtures].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }
 
 export interface WorkCourse {

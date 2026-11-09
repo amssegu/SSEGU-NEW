@@ -2,12 +2,37 @@
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import { formatWorkDate, workArticles } from '../../../lib/work';
 import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../../../lib/seo';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import { referenceId } from '../../../lib/content';
 
-export function getStaticPaths() {
-  return workArticles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+export async function getStaticPaths() {
+  const entries = await getCollection('work-articles', ({ data }) => data.status === 'published');
+  const contentSlugs = new Set(entries.map((entry) => entry.data.slug));
+  return [
+    ...workArticles
+      .filter((article) => !contentSlugs.has(article.slug))
+      .map((article) => ({ params: { slug: article.slug }, props: { article } })),
+    ...entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } })),
+  ];
 }
-const { article } = Astro.props;
+const { article: fixtureArticle, entry } = Astro.props as {
+  article?: (typeof workArticles)[number];
+  entry?: CollectionEntry<'work-articles'>;
+};
+const article = fixtureArticle ?? {
+  slug: entry!.data.slug,
+  title: entry!.data.title,
+  description: entry!.data.metaDescription ?? entry!.data.excerpt,
+  category: 'Career Advice',
+  author:
+    referenceId(entry!.data.author) === 'editorial-desk'
+      ? 'SSEGU Editorial Desk'
+      : referenceId(entry!.data.author),
+  publishedAt: entry!.data.publishedAt.toISOString().slice(0, 10),
+  image: entry!.data.image ?? '/uploads/article-technology.webp',
+};
 const relatedArticles = workArticles.filter((item) => item.slug !== article.slug).slice(0, 2);
+const { Content } = entry ? await render(entry) : { Content: undefined };
 const structuredData = [
   breadcrumbJsonLd([
     { name: 'Work', path: '/work/' },
@@ -53,18 +78,24 @@ const structuredData = [
       </p>
       <img src={article.image} alt="" width="1200" height="675" />
       <div class="work-detail-body">
-        <p>{article.description}</p>
-        <p>
-          This fixture article is part of the Phase 4 frontend review. It demonstrates the Work
-          editorial reading experience while authoritative content and CMS workflows remain
-          deferred.
-        </p>
-        <h2>Make your next step clearer</h2>
-        <p>
-          Review the opportunity, identify the evidence that supports your strengths and prepare
-          questions that show how you would contribute. Small, specific improvements make a strong
-          application easier to understand.
-        </p>
+        {Content ? (
+          <Content />
+        ) : (
+          <>
+            <p>{article.description}</p>
+            <p>
+              This fixture article is part of the Phase 4 frontend review. It demonstrates the Work
+              editorial reading experience while authoritative content and CMS workflows remain
+              deferred.
+            </p>
+            <h2>Make your next step clearer</h2>
+            <p>
+              Review the opportunity, identify the evidence that supports your strengths and prepare
+              questions that show how you would contribute. Small, specific improvements make a
+              strong application easier to understand.
+            </p>
+          </>
+        )}
       </div>
     </article>
     {relatedArticles.length > 0 && (

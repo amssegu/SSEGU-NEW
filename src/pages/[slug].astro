@@ -3,13 +3,40 @@ import MainLayout from '../layouts/MainLayout.astro';
 import { articles, formatDate, label } from '../lib/articles';
 import AdSlot from '../components/main/AdSlot.astro';
 import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../lib/seo';
-export function getStaticPaths() {
-  return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import { referenceId } from '../lib/content';
+export async function getStaticPaths() {
+  const entries = await getCollection('articles', ({ data }) => data.status === 'published');
+  const contentSlugs = new Set(entries.map((entry) => entry.data.slug));
+  return [
+    ...articles
+      .filter((article) => !contentSlugs.has(article.slug))
+      .map((article) => ({ params: { slug: article.slug }, props: { article } })),
+    ...entries.map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } })),
+  ];
 }
-const { article } = Astro.props;
+const { article: fixtureArticle, entry } = Astro.props as {
+  article?: (typeof articles)[number];
+  entry?: CollectionEntry<'articles'>;
+};
+const article = fixtureArticle ?? {
+  slug: entry!.data.slug,
+  title: entry!.data.title,
+  description: entry!.data.metaDescription ?? entry!.data.excerpt,
+  category: referenceId(entry!.data.categories[0]) || 'news',
+  author:
+    referenceId(entry!.data.author) === 'editorial-desk'
+      ? 'SSEGU Editorial Desk'
+      : referenceId(entry!.data.author),
+  publishedAt: entry!.data.publishedAt.toISOString().slice(0, 10),
+  image: entry!.data.image ?? '/uploads/article-ict.webp',
+  imageAvif: entry!.data.image?.endsWith('.avif') ? entry!.data.image : '/uploads/article-ict.avif',
+  body: [],
+};
 const related = articles
-  .filter((item) => item.slug !== article.slug && item.category === article.category)
+  .filter((item) => !entry && item.slug !== article.slug && item.category === article.category)
   .slice(0, 3);
+const { Content } = entry ? await render(entry) : { Content: undefined };
 const canonical = absoluteUrl(`/${article.slug}/`);
 const structuredData = [
   breadcrumbJsonLd([
@@ -68,9 +95,7 @@ const structuredData = [
     </picture>
     <AdSlot placement="article" />
     <div class="article-body">
-      {article.body.map((paragraph) => (
-        <p>{paragraph}</p>
-      ))}
+      {Content ? <Content /> : article.body.map((paragraph) => <p>{paragraph}</p>)}
     </div>
     {related.length > 0 && (
       <section class="related" aria-labelledby="related-title">

@@ -1,0 +1,15 @@
+---
+title: "Bobi Wine's Son Shadrack Visits Eddie Mutwe In Prison. | SSEGU"
+slug: bobi-wines-son-shadrack-visits-eddie
+excerpt: "On the morning of June 27, 2025, Shadrack Mbogo Ssentamu, the third child of Ugandan opposition leader Robert Kyagulanyi Ssentamu, known as Bobi Wine,"
+author: editorial-desk
+categories:
+  - lifestyle
+tags: []
+publishedAt: 2026-04-06
+status: published
+featured: false
+canonicalUrl: "https://www.ssegu.com/p/bobi-wines-son-shadrack-visits-eddie.html"
+---
+
+<p> On the morning of June 27, 2025, Shadrack Mbogo Ssentamu, the third child of Ugandan opposition leader Robert Kyagulanyi Ssentamu, known as Bobi Wine, and his wife Barbie Kyagulanyi, visited Eddie Mutwe,  Bobi Wine’s body Guard and a friend to the Ssentamu family.</p><p>Eddie, who is in prison facing charges of aggravated robbery, was abducted by unknown operatives, a situation that drew national and international attention when General Muhoozi Kainerugaba, son of President Yoweri Museveni and Uganda’s military chief, publicly confirmed that Mutwe was being held in his basement after days of uncertainty following Mutwe’s disappearance.</p><p>Accompanied by his mother, Shadrack went to check on how Eddie and others are faring. “So today we came to see Uncle Eddie’s, to see how they were, how life was for them here,” says Shadrack.</p>[caption id="attachment_6584" align="aligncenter" width="300"]<em>Shadrack Mbogo Ssentamu (Center) next to his Mother Barbie Kyagulani with other people Visiting Eddie Mutwe.</em>[/caption]<p>Shadrack Mbogo Ssentamu goes on to express positive remarks about how Eddie Mutwe and others are happy with hope for the future, despite still having bruises and wounds from what happened to them.</p><blockquote><p dir="ltr" lang="en">.<a href="https://twitter.com/HEBobiwine?ref_src=twsrc%5Etfw">@HEBobiwine</a> and Barbie Kyagulanyi 's son Shadrack explaining Eddie Mutwe's current health state. <a href="https://t.co/2FctM2BLcw">pic.twitter.com/2FctM2BLcw</a></p><p>— Exclusive.Bizz (@Exclusive_Bizz) <a href="https://twitter.com/Exclusive_Bizz/status/1938576765968093433?ref_src=twsrc%5Etfw">June 27, 2025</a></p></blockquote><p></p><p>Referring to Eddie Mutwe as Uncle Eddie, Shadrack sees a lot of motivation in him and strives to be like him. “Seeing his smile well known to everyone, it’s really inspiring because Uncle Eddie is a very strong man both spiritually, emotionally, and physically. I strive to be like him in the future,” he says.</p><p>Shadrack, the 15-year-old son of Kyagulanyi, with a passion for leadership evidenced in him taking on roles in school, dreams of joining the army rather than entering politics like his father. This aspiration was something he mentioned in 2022, when people thought him winning the head prefect position at school indicated an interest in politics.</p><p> </p><p>Read Also: <a href="https://info.ssegu.com/artin-pro-denies-allegations-of-sexual-assault-against-uncle-chumi/">Artin Pro Denies Allegations of Sexual Assault Against Uncle Chumi</a></p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

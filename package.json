@@ -16,6 +16,7 @@
     "validate:content": "node scripts/validate-content.mjs",
     "migrate:phase7": "node scripts/phase7-migration.mjs",
     "migrate:phase8": "node scripts/phase8-migration.mjs",
+    "promote:phase8": "node scripts/promote-phase8.mjs",
     "validate:redirects": "node scripts/validate-phase8-redirects.mjs",
     "generate:redirects": "node scripts/generate-phase8-redirects.mjs"
   },

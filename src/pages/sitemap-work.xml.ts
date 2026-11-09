@@ -3,13 +3,14 @@ import {
   cvResources,
   internships,
   isEligibleWorkJob,
-  workArticles,
+  getPublishedWorkArticles,
   workCourses,
   workJobs,
 } from '../lib/work';
 import { sitemapXml } from '../lib/sitemap';
 
-export const GET: APIRoute = () => {
+export const GET: APIRoute = async () => {
+  const workArticles = await getPublishedWorkArticles();
   const paths = [
     '/work/',
     '/work/jobs/',

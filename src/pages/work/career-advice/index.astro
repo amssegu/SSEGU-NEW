@@ -1,6 +1,7 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
-import { formatWorkDate, workArticles } from '../../../lib/work';
+import { formatWorkDate, getPublishedWorkArticles } from '../../../lib/work';
+const workArticles = await getPublishedWorkArticles();
 ---
 
 <WorkLayout

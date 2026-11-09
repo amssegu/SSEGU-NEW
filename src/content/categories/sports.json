@@ -1,0 +1,7 @@
+{
+  "name": "Sports",
+  "slug": "sports",
+  "description": "Sports news, results and analysis.",
+  "navigationVisible": true,
+  "displayOrder": 3
+}

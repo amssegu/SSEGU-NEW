@@ -1,0 +1,15 @@
+---
+title: 'Navio Willing To Battle GNL Zamba | SSEGU'
+slug: navio-willing-to-battle-gnl-zamba
+excerpt: 'Ugandan hip-hop legend Navio is all fired up and ready for some rap battles. He’s even open to facing off against his long-time friend and rival, GNL'
+author: editorial-desk
+categories:
+  - lifestyle
+tags: []
+publishedAt: 2026-04-09
+status: published
+featured: false
+canonicalUrl: 'https://www.ssegu.com/p/navio-willing-to-battle-gnl-zamba.html'
+---
+
+<p>Ugandan hip-hop legend Navio is all fired up and ready for some rap battles. He’s even open to facing off against his long-time friend and rival, GNL Zamba.</p><p>In a lively discussion aired on July 1, 2025, on Ntv show Vybe, the singer was contacted live on air by the host, Crysto Panda to ascertain if really it's true that Navio wants to battle with GNL Zamba.</p><blockquote><p dir="ltr" lang="en">Legend <a href="https://twitter.com/naviomusic?ref_src=twsrc%5Etfw">@naviomusic</a> says he’s ready to battle <a href="https://twitter.com/therealGnlzamba?ref_src=twsrc%5Etfw">@therealGnlzamba</a>. “ I’ll battle him for free, I don’t care”. <a href="https://t.co/uZi7B9syGG">pic.twitter.com/uZi7B9syGG</a></p><p>— NTVTheBeat (@NTVTheBeat) <a href="https://twitter.com/NTVTheBeat/status/1940018057721573691?ref_src=twsrc%5Etfw">July 1, 2025</a></p></blockquote><p></p><p>Navio showcased his competitive spirit and shared his excitement about participating in battles, reminding us that he would even do it for free if the circumstances are right.</p><p>Navio, who has been a vibrant part of the Ugandan music scene since his days with the group Klear Kut, mentioned that his recent rap battle in Gulu against Judas has only boosted his confidence.</p><p>He feels ready to take on anyone, anywhere. During the conversation, he also talked about what makes a rap battle interesting for him.</p><p>He says  the importance of having clear terms for the battle, whether it takes place in a club, a big stadium, or on the streets as long as  with details are clear, he can do it for free.</p><p>GNL Zamba kicked off his entertainment career back in 2005 with the Hip Hop Canvas, a cool project organized by Shadrak Kuteesa of Platinum Entertainment.</p><p>On the flip side, Navio’s love for music blossomed in his childhood, thanks to his older brother’s awesome collection of rap tracks. By the time he was 16, he had formed Klear Kut, which went on to win the PAM Award for Best Hip Hop Group in 2004.</p><p>What’s really inspiring is Navio’s view on rap battles. Even though there’s potential for making money, he emphasizes that his love for the art comes first, stating he’s happy to battle for free if it feels right.</p><p> </p><p>Read Also: <a href="https://info.ssegu.com/pastor-wilsons-song-yesu-mwoto-wins-him-an-award/">Pastor Wilson Bugembe’s song Yesu Mwoto wins him An Award At EAGMA in Tanzania.</a></p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

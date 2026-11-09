@@ -13,14 +13,14 @@
   "counts": {
     "source": {
       "work": 440,
-      "news": 1149,
-      "excluded": 214
+      "news": 1148,
+      "excluded": 215
     },
     "output": {
       "work": 440,
-      "news": 1149
+      "news": 1137
     },
-    "skipped": 214,
+    "skipped": 215,
     "manualReview": 440,
     "manualReviewResolved": 440,
     "manualReviewOutstanding": 0,

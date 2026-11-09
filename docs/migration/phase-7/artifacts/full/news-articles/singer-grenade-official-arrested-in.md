@@ -1,0 +1,15 @@
+---
+title: "Singer Grenade Official Arrested in China | SSEGU"
+slug: singer-grenade-official-arrested-in
+excerpt: "In a surprising turn of events, Ugandan singer Grenade Official, whose real name is Deus Nduggwa, has been arrested in Beijing, China. The arrest, whi"
+author: editorial-desk
+categories:
+  - lifestyle
+tags: []
+publishedAt: 2026-04-09
+status: published
+featured: false
+canonicalUrl: "https://www.ssegu.com/p/singer-grenade-official-arrested-in.html"
+---
+
+<p> In a surprising turn of events, Ugandan singer Grenade Official, whose real name is Deus Nduggwa, has been arrested in Beijing, China. The arrest, which took place recently, stems from Grenade performing on a tourist visa without the required work permit, highlighting the stringent enforcement of visa regulations in China.</p><p>Grenade had initially traveled to China on a tourist visa, intending to explore the country.</p><p>However, he ended up performing in Guangzhou before his arrest in Beijing. This violation of Chinese law, which mandates a work permit for any form of employment, including entertainment, led to his detention.</p><p>The news of his arrest was first shared by an admin on Grenade’s social media platform.</p><p>Joram Mukisa, Grenade’s manager, provided further details in a video released by Blizz Uganda.</p><p>Mukisa explained that despite their initial plans to visit China as tourists, Grenade was offered performance opportunity  in Guangzhou.</p><p>“We thought we could manage, but the laws here are strict,” Mukisa said, emphasizing the unforeseen circumstances that led to the arrest.</p><p>He also noted that they are actively working with Chinese authorities to resolve the issue, although they face significant challenges due to language barrier.</p><p>This incident underscores the importance of adhering to local laws and regulations when traveling internationally, especially in countries with rigorous immigration controls like China.</p><p>Performers and travelers must ensure they have the appropriate visas and permits for their activities to avoid legal consequences.</p><p>Mukisa remains optimistic, expressing confidence that Grenade will be released soon as they continue to navigate the legal process.</p><p>“We are trying to engage the authorities who can help us here, but the language barrier is an issue. God willing, we shall get to the bottom of it,” he added.</p><p dir="ltr" lang="en"><strong>Read Also:</strong> <a href="https://info.ssegu.com/reclaiming-the-weekend-creating-a-relaxation-hub/">Reclaiming the Weekend: Creating a Relaxation Hub </a></p><blockquote><p dir="ltr" lang="en">Manager Joram explains bizzare moment when and why Grenade Official was arrested in China. 😳 <a href="https://t.co/9VNlwIWQnY">pic.twitter.com/9VNlwIWQnY</a></p><p>— Blizz Uganda (@BlizzUganda) <a href="https://twitter.com/BlizzUganda/status/1934125977510301744?ref_src=twsrc%5Etfw">June 15, 2025</a></p></blockquote><p></p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

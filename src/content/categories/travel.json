@@ -1,0 +1,7 @@
+{
+  "name": "Travel",
+  "slug": "travel",
+  "description": "Travel, tourism and destinations.",
+  "navigationVisible": true,
+  "displayOrder": 6
+}

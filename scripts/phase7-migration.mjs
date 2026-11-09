@@ -228,6 +228,14 @@ function classifyRecord(record) {
   const value =
     `${record.sourcePath} ${record.fileName} ${record.title} ${record.description}`.toLowerCase();
   const path = record.sourcePath.toLowerCase();
+  if (path === '404.html' || path.endsWith('/404.html')) {
+    return {
+      dataset: 'excluded',
+      kind: 'excluded',
+      reason: 'source error page is not publishable content',
+      confidence: 'high',
+    };
+  }
   if (path.startsWith('posts/')) {
     return {
       dataset: 'work',
@@ -462,6 +470,16 @@ function promoteDatedDuplicates(records) {
   });
 }
 
+function resolveSlugCollisions(records) {
+  const counts = new Map();
+  return records.map((record) => {
+    const key = `${record.dataset}:${record.slug}`;
+    const count = (counts.get(key) ?? 0) + 1;
+    counts.set(key, count);
+    return count === 1 ? record : { ...record, slug: `${record.slug}-${count}` };
+  });
+}
+
 function frontmatter(record) {
   const quote = (value) => JSON.stringify(value);
   return [
@@ -481,6 +499,28 @@ function frontmatter(record) {
     '---',
     '',
     record.body || `<p>${record.excerpt}</p>`,
+    '',
+  ].join('\n');
+}
+
+function migratedFrontmatter(record, categories) {
+  const quote = (value) => JSON.stringify(value);
+  return [
+    '---',
+    `title: ${quote(record.title)}`,
+    `slug: ${record.slug}`,
+    `excerpt: ${quote(record.excerpt || record.title)}`,
+    'author: editorial-desk',
+    'categories:',
+    ...categories.map((category) => `  - ${category}`),
+    'tags: []',
+    `publishedAt: ${record.publishedAt}`,
+    'status: published',
+    'featured: false',
+    `canonicalUrl: ${quote(record.sourceUrl)}`,
+    '---',
+    '',
+    record.body || `<p>${record.excerpt || record.title}</p>`,
     '',
   ].join('\n');
 }
@@ -610,7 +650,7 @@ async function main() {
     parsedRecords.push(addClassification(await parseWorkPost(path, sourceRoot)));
   const classifiedRecords = promoteDatedDuplicates(parsedRecords);
   const deduplicated = deduplicateRecords(classifiedRecords);
-  const allRecords = deduplicated.keptRecords;
+  const allRecords = resolveSlugCollisions(deduplicated.keptRecords);
   const workRecords = allRecords.filter((record) => record.dataset === 'work');
   const newsRecords = allRecords.filter((record) => record.dataset === 'news');
   const excludedRecords = allRecords.filter((record) => record.dataset === 'excluded');
@@ -832,6 +872,21 @@ async function main() {
     await writeText(
       resolve(output, 'pilot/work-articles', `${record.slug}.md`),
       frontmatter(record),
+    );
+  }
+  for (const record of workRecords) {
+    await writeText(
+      resolve(output, 'full/work-articles', `${record.slug}.md`),
+      migratedFrontmatter(record, ['career-advice']),
+    );
+  }
+  for (const record of newsRecords.filter((record) => record.kind === 'article')) {
+    const category = NEWS_CATEGORIES.includes(record.suggestedNewsCategory)
+      ? record.suggestedNewsCategory
+      : 'lifestyle';
+    await writeText(
+      resolve(output, 'full/news-articles', `${record.slug}.md`),
+      migratedFrontmatter(record, [category]),
     );
   }
   for (const record of newsPilotRecords) {

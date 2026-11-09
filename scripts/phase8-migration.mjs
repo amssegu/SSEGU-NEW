@@ -3,7 +3,11 @@ import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
 const root = process.cwd();
-const phase7 = resolve(root, 'docs/migration/phase-7/artifacts');
+const phase7 = resolve(
+  root,
+  process.argv.find((argument) => argument.startsWith('--phase7-artifacts='))?.slice(19) ??
+    'docs/migration/phase-7/artifacts',
+);
 const output = resolve(
   root,
   process.argv.find((argument) => argument.startsWith('--output='))?.slice(9) ??
@@ -32,6 +36,7 @@ if (phase7Gate.decision !== 'PASS') throw new Error('Phase 7 must PASS before Ph
 const workManifest = await readJson(required('manifests/work.json'));
 const newsManifest = await readJson(required('manifests/news.json'));
 const newsFixtureManifest = await readJson(required('manifests/news-fixture.json'));
+const provenance = await readJson(required('work-provenance.json'));
 const redirectValidation = await readJson(required('reports/redirect-validation.json'));
 const redirectMap = await readFile(required('redirects/dual-site-redirects.csv'), 'utf8');
 const hasUnverifiedRedirects = redirectMap
@@ -40,11 +45,11 @@ const hasUnverifiedRedirects = redirectMap
 const redirectMapValid = redirectValidation.valid && !hasUnverifiedRedirects;
 
 const workRecords = workManifest.records ?? [];
-const newsRecords = newsManifest.records ?? [];
+const newsRecords = (newsManifest.records ?? []).filter((record) => record.kind === 'article');
 const sourceCounts = {
   work: workManifest.source?.datasetFileCount ?? workRecords.length,
   news: newsManifest.source?.fileCount ?? newsRecords.length,
-  excluded: 214,
+  excluded: provenance.excludedFileCount ?? 0,
 };
 const migration = {
   generatedAt: today,

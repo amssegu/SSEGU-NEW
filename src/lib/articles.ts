@@ -1,3 +1,6 @@
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { referenceId } from './content';
+
 export interface Article {
   slug: string;
   title: string;
@@ -9,6 +12,44 @@ export interface Article {
   imageAvif: string;
   body: string[];
   featured?: boolean;
+}
+
+const defaultImage = '/uploads/article-ict.webp';
+const defaultImageAvif = '/uploads/article-ict.avif';
+
+function fromContentEntry(entry: CollectionEntry<'articles'>): Article {
+  const date = entry.data.publishedAt.toISOString().slice(0, 10);
+  const image = entry.data.image ?? defaultImage;
+  return {
+    slug: entry.data.slug,
+    title: entry.data.title,
+    description: entry.data.metaDescription ?? entry.data.excerpt,
+    category: referenceId(entry.data.categories[0]) || 'news',
+    author:
+      referenceId(entry.data.author) === 'editorial-desk'
+        ? 'SSEGU Editorial Desk'
+        : referenceId(entry.data.author),
+    publishedAt: date,
+    image,
+    imageAvif: image.endsWith('.avif') ? image : defaultImageAvif,
+    body: [],
+    featured: entry.data.featured,
+  };
+}
+
+export async function getPublishedArticles(category?: string) {
+  const entries = await getCollection('articles', ({ data }) => {
+    return (
+      data.status === 'published' &&
+      (!category || data.categories.some((value: unknown) => referenceId(value) === category))
+    );
+  });
+  const migrated = entries.map(fromContentEntry);
+  const migratedSlugs = new Set(migrated.map((article) => article.slug));
+  const fixtures = articles.filter(
+    (article) => !migratedSlugs.has(article.slug) && (!category || article.category === category),
+  );
+  return [...migrated, ...fixtures].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }
 
 const interimImages: Record<string, { webp: string; avif: string }> = {

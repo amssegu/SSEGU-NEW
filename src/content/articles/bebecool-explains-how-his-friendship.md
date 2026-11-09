@@ -1,0 +1,15 @@
+---
+title: "Bebecool Explains How His Friendship With Bobi Wine Reached it's End. | SSEGU"
+slug: bebecool-explains-how-his-friendship
+excerpt: 'Bebe Cool when asked about his rivalry with longtime friend, Bobi Wine during the Bride and Groom Expo 2025, he explains the roots of the tension'
+author: editorial-desk
+categories:
+  - technology
+tags: []
+publishedAt: 2026-04-06
+status: published
+featured: false
+canonicalUrl: 'https://www.ssegu.com/p/bebecool-explains-how-his-friendship.html'
+---
+
+<p> Bebe Cool when  asked about his rivalry with longtime friend, Bobi Wine during the Bride and Groom Expo 2025, he  explains  the roots of the  tension with Bobi Wine  traces back to a personal  time when he and Zuena were facing some tough marital challenges.</p><p>The Bride and Groom Expo 2025 organized by the New Vision, took place from June 28 to 30 at the UMA Exhibition Hall in Kampala, invited Ugandan musician Bebe Cool and his wife, Zuena Kirema, to come share their experiences from their 20-year marriage.</p><p>Unexpected discussion came in explaining his fall out with the Kyagulanyi family. "Barbie used to kunoba and come to my home. But when Zuena left me and went back to her parents’ home, I reached out to Barbie for help. I thought, as a friend to my wife, she would speak to her and help us sort things out. But when Barbie told Bobi Wine about it, instead of helping, he turned around and started insulting me."</p><p>Unfortunately that hurt Bebe Cool who    felt that instead of  Bobi wine offering a helping hand, he  and Barbie weren’t able to assist in saving his marriage, which left him feeling quite disappointed.</p><p>“It was a tough time, and I thought they might support us, especially since we had been there for Barbie during her own challenges with Bobi,” he explained.</p><blockquote><p dir="ltr" lang="en">Bebe Cool explains the cause of his beef with Bobi Wine. <a href="https://t.co/4ddckrZ4Kh">pic.twitter.com/4ddckrZ4Kh</a></p><p>— Exclusive.Bizz (@Exclusive_Bizz) <a href="https://twitter.com/Exclusive_Bizz/status/1939395401062187083?ref_src=twsrc%5Etfw">June 29, 2025</a></p></blockquote><p></p><p>Bebe Cool says when he  approached Bobi Wine for support directly, he expressed that the response was less than friendly, which was disheartening for him.</p><p>"I was simply asking for help from a friend. The painful part is, his own wife used to run away and come to my place.</p><p>We would sit, counsel her, and then send her back to him. But when it was my turn to need support, he chose to insult me."</p><p>He concluded that this experience marked a significant shift in their relationship, noting, “That was the moment our paths really divided, and that’s why things have never quite been the same since.”</p><p>But it should be noted that  Zuena in one post  defended her daughter Beata Ssali and the Kyagulani daughter,  Shalom Namagembe when the media  online wanted to create a fued over their beauty.  Zuena went ahead and said that the two are actually friends.</p><p> </p><br><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

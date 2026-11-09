@@ -1,0 +1,15 @@
+---
+title: "13 UPDF Soldiers Arrested After Attack on Wakiso Police Station. | SSEGU"
+slug: 13-updf-soldiers-arrested-after-attack
+excerpt: "On June 2, 2025, Uganda People’s Defence Forces (UPDF), attached to the Presidential Task Force on Land Matters, attacked Wakiso Police to try to f"
+author: editorial-desk
+categories:
+  - lifestyle
+tags: []
+publishedAt: 2026-04-06
+status: published
+featured: false
+canonicalUrl: "https://www.ssegu.com/p/13-updf-soldiers-arrested-after-attack.html"
+---
+
+<p> On June 2, 2025, Uganda People’s Defence Forces (UPDF), attached to the Presidential Task Force on Land Matters,  attacked  Wakiso Police to try to force them to execute an illegal land eviction. Regarding the attack, so far Thirteen UPDF soldiers were arrested following the incident, which marks the second such attack on a police station in just over a month.</p><p>The incident at Wakiso Police Station began when the UPDF soldiers demanded that Wakiso Police assist in an eviction, which lacked legal procedure such as a court order. When the police refused to comply, the situation escalated with gun fire shots in the area.</p><p>The UPDF has not remarked on the arrest and the attack on Wakiso Police Station. However,  the Uganda Law Society (ULS) issued a statement on June 3, 2025, signed by Vice President Asiimwe Anthony, condemning the raid as unconstitutional. The ULS cited violations of Articles 208(2), 210, and 126(1) of the Ugandan Constitution, which mandate a nonpartisan military, the supremacy of civilian law enforcement, and judicial independence, respectively. The statement demanded the immediate disbandment of the Presidential Task Force on Land Matters, which has faced growing criticism for alleged overreach and unauthorized operations. The ULS also called on the UPDF to refrain from interfering in civilian affairs and emphasized that the Radical New Bar would fiercely resist any attempts to undermine the rule of law in Uganda.</p><p><br></p><p>This incident is part of a broader pattern of land-related conflicts in Uganda, where military involvement in civilian disputes has increasingly led to violence and legal repercussions. The Presidential Task Force on Land Matters, originally established to investigate fraudulent land transactions, has been accused of operating beyond its mandate, contributing to tensions between military and civilian authorities.</p><p>The ongoing clash between military and civilian authorities highlights the urgent need for reforms to ensure the military operates within constitutional bounds and respects the rule of law.</p><p>As Uganda grapples with these challenges, the Uganda Law Society’s call for accountability and the disbandment of the Presidential Task Force on Land Matters serves as a critical reminder of the importance of upholding civilian authority and judicial independence in the face of growing military interference.</p><p>  </p><p> </p><p> </p><p> </p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

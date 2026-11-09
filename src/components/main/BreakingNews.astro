@@ -1,6 +1,6 @@
 ---
-import { getArticles } from '../../lib/articles';
-const latest = getArticles().slice(0, 5);
+import { getPublishedArticles } from '../../lib/articles';
+const latest = (await getPublishedArticles()).slice(0, 5);
 ---
 
 <div class="breaking shell" aria-label="Latest news">

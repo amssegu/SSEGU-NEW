@@ -1,7 +1,7 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
 import StoryCard from '../../components/main/StoryCard.astro';
-import { categories, getArticles, label } from '../../lib/articles';
+import { categories, getPublishedArticles, label } from '../../lib/articles';
 import AdSlot from '../../components/main/AdSlot.astro';
 export function getStaticPaths() {
   return categories
@@ -9,7 +9,7 @@ export function getStaticPaths() {
     .map((slug) => ({ params: { slug }, props: { slug } }));
 }
 const { slug } = Astro.props;
-const stories = getArticles(slug);
+const stories = await getPublishedArticles(slug);
 ---
 
 <MainLayout

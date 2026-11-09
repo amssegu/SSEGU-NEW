@@ -2,9 +2,10 @@
 import WorkLayout from '../../layouts/WorkLayout.astro';
 import WorkJobCard from '../../components/work/WorkJobCard.astro';
 import WorkQuickLinks from '../../components/work/WorkQuickLinks.astro';
-import { formatWorkDate, workArticles, workJobs } from '../../lib/work';
+import { formatWorkDate, getPublishedWorkArticles, workJobs } from '../../lib/work';
 
 const latestJobs = workJobs.filter((job) => job.status === 'active').slice(0, 3);
+const workArticles = await getPublishedWorkArticles();
 const featuredArticle = workArticles[0];
 ---
 

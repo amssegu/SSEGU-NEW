@@ -1,0 +1,15 @@
+---
+title: 'Miss Uganda Natasha Nyonyozi Fight For Autism At Miss World. | SSEGU'
+slug: miss-uganda-natasha-nyonyozi-fight-for
+excerpt: 'During her presentation of “Beauty with a Purpose” at the 72nd miss world festival 2025 in India, she spoke of her plight to advocate for autistic ind'
+author: editorial-desk
+categories:
+  - politics
+tags: []
+publishedAt: 2026-04-09
+status: published
+featured: false
+canonicalUrl: 'https://www.ssegu.com/p/miss-uganda-natasha-nyonyozi-fight-for.html'
+---
+
+<p> During her presentation of “<strong><em>Beauty with a Purpose”</em> </strong>at the 72<sup>nd</sup> miss world festival 2025 in India, she spoke of her plight to advocate for autistic individuals in Uganda.</p><p>Natasha Nyonyonzi, 23 years old  is the current Miss World Uganda 2024/2025,an accountant, entrepreneur, and Autism advocate. She completed her Bachelors Degree Of Science in Accounting and Finance at Conventry University in England and she hails from Kabale district in Western Uganda.</p><p>In her presentation, she narrated how her journey to advocate for autism started when her little brother was diagnosed with the Autism and how people around them had an idea that they might have performed witch craft on him. The pain that, he is a non-verbal, cannot communicate what he is feeling inspired her to start the Nyonyozi Initiative which advocates for Autism awareness and Social Inclusion.</p><p>In a 2023 report by the Uganda Autism Society indicates that 60% of children diagnosed late due to limited access to specialized services and low awareness levels. Worse there are few advocate stories and fights to bridge the gap in the Country.  Miss Uganda Natasha Nyonyonzi through a blessing from her brother is the voice for the voiceless in the world of Autism.</p><p><a href="https://my.clevelandclinic.org/health/articles/autism">Autism</a> or autism spectrum disorder (ASD) is a lifelong neurodevelopmental condition that affects how a person communicates and interacts with the world. These Signs can be seen on how a Child socializes, they may not respond to their name, Prefers playing alone, repeats words, Gets attached to unusual objects and many more behaviours.</p><p>Miss Natasha Nyonyozi spoke of how she has been able to organize the first Autism Walk, in Uganda, collaborated with organizations and used social media to educate people about Autism. She also spoke of her book which she wrote titled “Colors of the spectrum” which has a collection of different stories of Parents journey in Autism in Uganda.</p><p>The fight by Miss Uganda, Natasha Nyonyozi is one beyond change, awareness but Living in the shoes of those families, individuals going through a rough Patch in Autism in a Country where its seen as a Witch Craft Case.</p><p><strong>Also Read</strong>: <a href="https://info.ssegu.com/are-women-empowerments-shadowing-men-down-in-uganda-or-dragging-their-downfall/">Are Women Empowerments Shadowing Men Down in Uganda Or Dragging Their DownFall</a></p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

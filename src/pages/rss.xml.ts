@@ -1,8 +1,9 @@
 import type { APIRoute } from 'astro';
-import { articles } from '../lib/articles';
+import { getPublishedArticles } from '../lib/articles';
 import { absoluteUrl } from '../lib/seo';
 import { xmlEscape } from '../lib/sitemap';
-export const GET: APIRoute = ({ site }) => {
+export const GET: APIRoute = async ({ site }) => {
+  const articles = await getPublishedArticles();
   const base = site?.toString() ?? 'https://ssegu.com/';
   const items = articles
     .map(

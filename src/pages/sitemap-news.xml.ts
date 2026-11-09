@@ -1,8 +1,9 @@
 import type { APIRoute } from 'astro';
-import { articles, categories } from '../lib/articles';
+import { categories, getPublishedArticles } from '../lib/articles';
 import { sitemapXml } from '../lib/sitemap';
 
-export const GET: APIRoute = () => {
+export const GET: APIRoute = async () => {
+  const articles = await getPublishedArticles();
   const paths = [
     '/',
     '/news/',

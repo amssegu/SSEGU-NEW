@@ -1,9 +1,10 @@
 import type { APIRoute } from 'astro';
-import { workArticles } from '../../lib/work';
+import { getPublishedWorkArticles } from '../../lib/work';
 import { absoluteUrl } from '../../lib/seo';
 import { xmlEscape } from '../../lib/sitemap';
 
-export const GET: APIRoute = () => {
+export const GET: APIRoute = async () => {
+  const workArticles = await getPublishedWorkArticles();
   const items = workArticles
     .map(
       (article) =>

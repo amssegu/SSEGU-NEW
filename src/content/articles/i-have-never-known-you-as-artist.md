@@ -1,0 +1,15 @@
+---
+title: '"I have never known you as an artist" . Biswanka tells Laika Music in The Radio 4 Rumble | SSEGU'
+slug: i-have-never-known-you-as-artist
+excerpt: '"I have never known you as an artist" . Biswanka tells Laika Music in The Radio 4 Rumble | SSEGU'
+author: editorial-desk
+categories:
+  - technology
+tags: []
+publishedAt: 2026-04-06
+status: published
+featured: false
+canonicalUrl: 'https://www.ssegu.com/p/i-have-never-known-you-as-artist.html'
+---
+
+<p>On a steamy April afternoon in 2025, Radio 4’s Pulse of the Beat in Kampala became the stage for a viral clash between rising stars Biswanka and Laika Music. Hosted by DJ Kwezi, the talk show promised a lively chat about Ugandan music’s future but erupted into a feud that lit up social media.</p><p>Biswanka, the 23-year-old Fangone Forest prodigy, strutted in with a red jacket and unshakable confidence, touting hits like Otunulemu. Laika, poised in black, spoke of her independent grind and her single Overdose. The tension sparked when DJ Kwezi asked Laika about Biswanka’s meteoric rise. —“<strong><em>I don’t know much about him</em></strong>,” she said coolly. — “<strong><em>I only follow artists who stand out</em></strong>.” The studio hushed.</p><p>Biswanka’s eyes narrowed. “I don’t know Laika either,” he retorted. —“My one song’s bigger than her whole career.” Gasps filled the room as DJ Kwezi egged them on. Laika called Biswanka arrogant, preaching humility. He fired back, boasting of packed venues and TikTok trends. “What’s she done?” he jabbed. —The hosts scrambled to cool the spat, but the damage was done.</p><blockquote><p>The clip hit Radio 4’s socials and exploded on X, YouTube, and TikTok, racking up thousands of views. Fans overwhelmingly backed Biswanka, praising his hustle. “<strong>He’s young, but Otunulemu slaps harder than Laika’s catalog!</strong>” one X user posted. “Biswanka’s building an empire!” another wrote, noting his Heaven Music ambitions. Laika’s supporters argued her selective collaborations showed maturity, but the louder crowd hailed Biswanka’s street-to-stardom story.</p></blockquote><p>The fallout grew intense. Biswanka, stung by criticism and death threats, hinted at quitting music by December, posting about the industry’s toll. Fans rallied on X: — “<strong><em>Don’t let haters like Laika stop you</em></strong>!” Laika stayed silent, focusing on her craft. The clash fueled street debates, with boda boda drivers and vendors pitting Rest of My Life against Overdose.</p><p>The Radio 4 showdown became a cultural moment, spotlighting two artists navigating Uganda’s cutthroat music scene. Biswanka’s boldness cemented his influence; —Laika’s defiance defined her resolve. As the viral clip looped online, it underscored the passion and ego driving Ugandan music, where young talents like Biswanka and Laika fight to etch their names in history.</p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

@@ -1,0 +1,15 @@
+---
+title: "Court grants Bebe Cool's forensics Team Permission to Access Muhangi’s YouTube Channel | SSEGU"
+slug: court-grants-bebe-cools-forensics-team
+excerpt: "The Ugandan court has granted Bebe Cool’s forensics team permission to examine Alex Muhangi’s YouTube channel “Comedy Store UG” – to determine the fin"
+author: editorial-desk
+categories:
+  - lifestyle
+tags: []
+publishedAt: 2026-04-06
+status: published
+featured: false
+canonicalUrl: "https://www.ssegu.com/p/court-grants-bebe-cools-forensics-team.html"
+---
+
+<p> The Ugandan court has granted Bebe Cool’s forensics team permission to examine Alex Muhangi’s YouTube channel “<strong><em>Comedy Store UG</em></strong>” – to determine the financial benefits generated from uploading Bebe Cool’s content without his permission.</p><p>These started when Bebe Cool sued Alex Muhangi for copyright infringement, claiming that Muhangi uploaded his performances on YouTube without his consent. Bebe Cool demanded UGX 579 million (<strong><em>approximately $157,000</em></strong>) in compensation for damages caused by the alleged infringement.</p><p>In response, Alex Muhangi argued that the videos were posted for promotional purposes,– not for monetary gain. He claimed that it’s a company policy to post performances of all artists at the event, and Bebe Cool was aware of this also.</p><p>The court’s decision allows Bebe Cool’s forensics team to access Alex Muhangi’s YouTube channel to analyze the financial benefits generated from the uploaded content of Bebe cool's performance. – However, there won’t be further court actions unless Bebe Cool and his lawyers decide to pursue the matter further.</p><p>If we could remember, – this isn’t the first time Bebe Cool and Alex Muhangi have clashed. The two were embroiled in a battle just a few months ago when Bebe Cool snubbed a performance at Comedy Store, allegedly due to a payment dispute. Muhangi broke down on TikTok Live – “<strong><em>Comedy Store has given Bebe Cool more than UGX 100 million. He was booked for the show, and I paid him my money. Bebe Cool is a big artist, but in this situation, I was the client, and I will not lose my position as a client.</em></strong>” – expressing his disappointment and questioning why Bebe Cool someone he has known for years he considers a friend would sabotage his business. – <a href="https://www.galaxyfm.co.ug/2025/02/25/comedy-store-has-given-bebe-cool-over-ugx-100m-disappointed-alex-muhangi-lashes-out-at-bebe-cool-after-comedy-store-snub/">Comedy Store has given Bebe Cool over UGX 100M” – Disappointed Alex Muhangi lashes out at Bebe Cool after snub</a></p><p>The outcome of this dispute remains uncertain. – Will Bebe Cool’s forensics team uncover the evidence of significant financial gains from the uploaded content? Or – Will Alex Muhangi be held accountable for copyright infringement?</p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><div>Content originally published on SSEGU. Information may change; check local requirements and source details before acting.</div>

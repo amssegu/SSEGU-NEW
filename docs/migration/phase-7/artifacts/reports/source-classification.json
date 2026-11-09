@@ -63518,13 +63518,13 @@
     "exceptions": [],
     "exceptionTypes": [],
     "imageSource": "",
-    "kind": "article",
-    "dataset": "news",
-    "classificationReason": "dated-folder article retained as News candidate",
-    "classificationConfidence": "manual-review",
+    "kind": "excluded",
+    "dataset": "excluded",
+    "classificationReason": "source error page is not publishable content",
+    "classificationConfidence": "high",
     "suggestedNewsCategory": "lifestyle",
     "deduplication": {
-      "status": "kept",
+      "status": "excluded",
       "canonicalSourcePath": "404.html"
     }
   },

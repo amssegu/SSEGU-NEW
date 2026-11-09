@@ -7,15 +7,15 @@
     "phase7": "PASS",
     "sourceCounts": {
       "work": 440,
-      "news": 1149,
-      "excluded": 214
+      "news": 1148,
+      "excluded": 215
     },
     "outputCounts": {
       "work": 440,
-      "news": 1149
+      "news": 1137
     },
     "fixtureNewsFiles": 5,
-    "redirectRows": 1579,
+    "redirectRows": 1578,
     "redirectValidation": "PASS",
     "canonicalAndStructuredData": "implemented and build-validated separately",
     "mediaAssets": "published raster assets are AVIF/WebP; legacy JPEG copies removed",

@@ -1,7 +1,7 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import { articles } from '../lib/articles';
-const index = articles.map(({ slug, title, description, category }) => ({
+import { getPublishedArticles } from '../lib/articles';
+const index = (await getPublishedArticles()).map(({ slug, title, description, category }) => ({
   slug,
   title,
   description,
