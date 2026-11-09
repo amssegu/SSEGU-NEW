@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-11-09",
+  "status": "approved-by-project-owner-pending-live-redirect-probe",
+  "source": {
+    "work": {
+      "repository": "https://github.com/amssegu/ssegu",
+      "ref": "474cea16ebf0dd6c8fc5e4ea7d7c5b45e2277fd8"
+    },
+    "news": {
+      "authority": "approved News candidate split; not repository fixtures"
+    }
+  },
+  "counts": {
+    "source": {
+      "work": 440,
+      "news": 1149,
+      "excluded": 214
+    },
+    "output": {
+      "work": 440,
+      "news": 1149
+    },
+    "skipped": 214,
+    "manualReview": 440,
+    "manualReviewResolved": 440,
+    "manualReviewOutstanding": 0,
+    "failed": 0
+  },
+  "exceptions": {
+    "mediaConversionRequired": 0,
+    "unsupportedMarkup": 0,
+    "unresolvedHistoricalRoutes": false,
+    "disposition": "Project owner approved the reviewed exceptions; unsupported source media and markup stays out of published output."
+  },
+  "reproducibility": {
+    "phase7Gate": "PASS",
+    "phase7RedirectValidation": "PASS",
+    "sourceFilesModified": false,
+    "rerunPolicy": "same pinned source/ref and options must produce identical manifests"
+  }
+}

@@ -1,7 +1,8 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import WorkJobCard from '../../../components/work/WorkJobCard.astro';
-import { formatWorkDate, workJobs } from '../../../lib/work';
+import { formatWorkDate, isEligibleWorkJob, jobPostingJsonLd, workJobs } from '../../../lib/work';
+import { absoluteUrl, breadcrumbJsonLd } from '../../../lib/seo';
 
 export function getStaticPaths() {
   return workJobs.map((job) => ({ params: { slug: job.slug }, props: { job } }));
@@ -11,9 +12,24 @@ const { job } = Astro.props;
 const relatedJobs = workJobs
   .filter((item) => item.slug !== job.slug && item.status === 'active')
   .slice(0, 2);
+const eligible = isEligibleWorkJob(job);
+const structuredData = [
+  breadcrumbJsonLd([
+    { name: 'Work', path: '/work/' },
+    { name: 'Jobs', path: '/work/jobs/' },
+    { name: job.title },
+  ]),
+  ...(eligible && jobPostingJsonLd(job) ? [jobPostingJsonLd(job)!] : []),
+];
 ---
 
-<WorkLayout title={`${job.title} | SSEGU Work`} description={`${job.title} at ${job.employer}.`}>
+<WorkLayout
+  title={`${job.title} | SSEGU Work`}
+  description={`${job.title} at ${job.employer}.`}
+  canonical={absoluteUrl(`/work/jobs/${job.slug}/`)}
+  noindex={!eligible}
+  structuredData={structuredData}
+>
   <div class="work-page-shell work-detail-shell">
     <nav class="work-breadcrumbs" aria-label="Breadcrumb">
       <a href="/work/">Work</a>

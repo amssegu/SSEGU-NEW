@@ -14,7 +14,10 @@
     "test": "node scripts/test.mjs",
     "test:e2e": "node scripts/smoke-test.mjs",
     "validate:content": "node scripts/validate-content.mjs",
-    "migrate:phase7": "node scripts/phase7-migration.mjs"
+    "migrate:phase7": "node scripts/phase7-migration.mjs",
+    "migrate:phase8": "node scripts/phase8-migration.mjs",
+    "validate:redirects": "node scripts/validate-phase8-redirects.mjs",
+    "generate:redirects": "node scripts/generate-phase8-redirects.mjs"
   },
   "dependencies": {
     "@astrojs/check": "0.9.12",

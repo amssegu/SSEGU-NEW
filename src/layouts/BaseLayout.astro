@@ -1,11 +1,20 @@
 ---
 import '../styles/global.css';
+import SeoHead from '../components/shared/SeoHead.astro';
+import type { JsonLd } from '../lib/seo';
 
 interface Props {
   title?: string;
   description?: string;
   canonical?: string;
   noindex?: boolean;
+  image?: string;
+  type?: 'website' | 'article';
+  publishedAt?: string;
+  updatedAt?: string;
+  author?: string;
+  section?: string;
+  structuredData?: JsonLd;
 }
 
 const {
@@ -13,6 +22,13 @@ const {
   description = 'SSEGU brings useful, timely stories from Uganda and beyond.',
   canonical,
   noindex = false,
+  image,
+  type = 'website',
+  publishedAt,
+  updatedAt,
+  author,
+  section,
+  structuredData,
 } = Astro.props;
 const adsenseEnabled = import.meta.env.PUBLIC_ADSENSE_ENABLED === 'true';
 const adsenseClient = adsenseEnabled ? import.meta.env.PUBLIC_ADSENSE_CLIENT : undefined;
@@ -23,13 +39,19 @@ const adsenseClient = adsenseEnabled ? import.meta.env.PUBLIC_ADSENSE_CLIENT : u
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={description} />
-    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
-    {canonical && <link rel="canonical" href={canonical} />}
-    <meta name="theme-color" content="#2b0b57" />
-    {Astro.url.pathname.startsWith('/tv') && (
-      <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
-    )}
+    <SeoHead
+      title={title}
+      description={description}
+      canonical={canonical}
+      noindex={noindex}
+      image={image}
+      type={type}
+      publishedAt={publishedAt}
+      updatedAt={updatedAt}
+      author={author}
+      section={section}
+      structuredData={structuredData}
+    />
     {adsenseClient && (
       <>
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />

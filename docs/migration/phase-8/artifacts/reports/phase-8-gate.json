@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-09",
+  "decision": "BLOCK",
+  "title": "PHASE 8: BLOCK — DO NOT PROCEED TO PHASE 9",
+  "owner": "SSEGU project owner with editorial, SEO and deployment reviewers",
+  "evidence": {
+    "phase7": "PASS",
+    "sourceCounts": {
+      "work": 440,
+      "news": 1149,
+      "excluded": 214
+    },
+    "outputCounts": {
+      "work": 440,
+      "news": 1149
+    },
+    "fixtureNewsFiles": 5,
+    "redirectRows": 1579,
+    "redirectValidation": "PASS",
+    "canonicalAndStructuredData": "implemented and build-validated separately",
+    "mediaAssets": "published raster assets are AVIF/WebP; legacy JPEG copies removed",
+    "editorialApproval": "approved by project owner per release instruction",
+    "externalRedirectProbe": "FAIL: work.ssegu.com did not return the reviewed 301 destinations"
+  },
+  "blockers": [
+    "Live work.ssegu.com probes did not return the reviewed 301 destinations; correct the subdomain redirect configuration and rerun the probes."
+  ],
+  "rollback": "Keep the current Pages deployment and primary-domain routes unchanged; remove only the Phase 8 redirect activation after failed probes.",
+  "nextAction": "Correct the live work.ssegu.com redirect configuration, run representative probes, and rerun npm run migrate:phase8."
+}

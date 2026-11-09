@@ -2,6 +2,7 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import { articles, formatDate, label } from '../lib/articles';
 import AdSlot from '../components/main/AdSlot.astro';
+import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../lib/seo';
 export function getStaticPaths() {
   return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
 }
@@ -9,9 +10,36 @@ const { article } = Astro.props;
 const related = articles
   .filter((item) => item.slug !== article.slug && item.category === article.category)
   .slice(0, 3);
+const canonical = absoluteUrl(`/${article.slug}/`);
+const structuredData = [
+  breadcrumbJsonLd([
+    { name: 'Home', path: '/' },
+    { name: label(article.category), path: `/category/${article.category}/` },
+    { name: article.title },
+  ]),
+  articleJsonLd({
+    headline: article.title,
+    description: article.description,
+    image: article.image,
+    datePublished: article.publishedAt,
+    author: article.author,
+    path: `/${article.slug}/`,
+    section: label(article.category),
+  }),
+];
 ---
 
-<MainLayout title={`${article.title} | SSEGU`} description={article.description}>
+<MainLayout
+  title={`${article.title} | SSEGU`}
+  description={article.description}
+  canonical={canonical}
+  image={article.image}
+  type="article"
+  publishedAt={article.publishedAt}
+  author={article.author}
+  section={label(article.category)}
+  structuredData={structuredData}
+>
   <article class="shell article-page">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">Home</a>

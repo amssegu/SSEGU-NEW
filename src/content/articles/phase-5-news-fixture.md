@@ -11,8 +11,8 @@ tags:
 publishedAt: 2026-11-08
 status: draft
 featured: false
-image: /uploads/article-placeholder.svg
-imageAlt: Placeholder illustration for a draft fixture article
+image: /uploads/article-education.webp
+imageAlt: Education illustration for a draft fixture article
 imageCaption: Synthetic media for validation only.
 imageCredit: SSEGU Phase 5 fixture
 seoTitle: Phase 5 News Article Fixture

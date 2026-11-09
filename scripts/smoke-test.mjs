@@ -14,6 +14,9 @@ for (const route of [
   '404.html',
   'rss.xml',
   'sitemap-index.xml',
+  'sitemap-news.xml',
+  'sitemap-work.xml',
+  'work/rss.xml',
   'work/index.html',
   'work/jobs/index.html',
   'work/jobs/customer-experience-officer-mtn-uganda/index.html',
@@ -33,10 +36,29 @@ for (const route of [
 assert.match(readFileSync('dist/smoke/index.html', 'utf8'), /Smoke test passed/);
 assert.match(readFileSync('dist/index.html', 'utf8'), /BREAKING NEWS/);
 assert.match(readFileSync('dist/rss.xml', 'utf8'), /<rss/);
-assert.match(readFileSync('dist/sitemap-index.xml', 'utf8'), /government-unveils-new-ict-strategy/);
+assert.match(readFileSync('dist/sitemap-index.xml', 'utf8'), /<sitemapindex/);
+assert.match(readFileSync('dist/sitemap-index.xml', 'utf8'), /sitemap-news\.xml/);
+assert.match(readFileSync('dist/sitemap-news.xml', 'utf8'), /government-unveils-new-ict-strategy/);
+assert.match(
+  readFileSync('dist/sitemap-work.xml', 'utf8'),
+  /customer-experience-officer-mtn-uganda/,
+);
 assert.match(readFileSync('dist/index.html', 'utf8'), /href="\/work\//i);
 assert.match(readFileSync('dist/work/index.html', 'utf8'), /Your Career/);
 assert.match(readFileSync('dist/work/jobs/index.html', 'utf8'), /Apply filters/);
 assert.match(readFileSync('dist/work/jobs/index.html', 'utf8'), /Active opportunities/);
+assert.match(
+  readFileSync('dist/work/jobs/customer-experience-officer-mtn-uganda/index.html', 'utf8'),
+  /JobPosting/,
+);
+assert.doesNotMatch(
+  readFileSync('dist/work/jobs/graduate-trainee-nile-breweries/index.html', 'utf8'),
+  /JobPosting/,
+);
+assert.match(readFileSync('dist/search/index.html', 'utf8'), /noindex, nofollow/);
+assert.match(
+  readFileSync('dist/government-unveils-new-ict-strategy-for-a-digital-uganda/index.html', 'utf8'),
+  /og:title/,
+);
 assert.doesNotMatch(readFileSync('dist/index.html', 'utf8'), /work\.ssegu\.com/i);
 console.log('static smoke checks passed');

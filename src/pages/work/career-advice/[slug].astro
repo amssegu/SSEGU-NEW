@@ -1,15 +1,42 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import { formatWorkDate, workArticles } from '../../../lib/work';
+import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../../../lib/seo';
 
 export function getStaticPaths() {
   return workArticles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
 }
 const { article } = Astro.props;
 const relatedArticles = workArticles.filter((item) => item.slug !== article.slug).slice(0, 2);
+const structuredData = [
+  breadcrumbJsonLd([
+    { name: 'Work', path: '/work/' },
+    { name: 'Career Advice', path: '/work/career-advice/' },
+    { name: article.title },
+  ]),
+  articleJsonLd({
+    headline: article.title,
+    description: article.description,
+    image: article.image,
+    datePublished: article.publishedAt,
+    author: article.author,
+    path: `/work/career-advice/${article.slug}/`,
+    section: article.category,
+  }),
+];
 ---
 
-<WorkLayout title={`${article.title} | SSEGU Work`} description={article.description}>
+<WorkLayout
+  title={`${article.title} | SSEGU Work`}
+  description={article.description}
+  canonical={absoluteUrl(`/work/career-advice/${article.slug}/`)}
+  image={article.image}
+  type="article"
+  publishedAt={article.publishedAt}
+  author={article.author}
+  section={article.category}
+  structuredData={structuredData}
+>
   <div class="work-page-shell work-detail-shell">
     <nav class="work-breadcrumbs" aria-label="Breadcrumb">
       <a href="/work/">Work</a>

@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-11-09",
+  "site": "https://ssegu.com",
+  "canonicalPolicy": "one trailing-slash URL on the primary domain; query strings excluded",
+  "sitemaps": [
+    "https://ssegu.com/sitemap-news.xml",
+    "https://ssegu.com/sitemap-work.xml"
+  ],
+  "rss": [
+    "https://ssegu.com/rss.xml",
+    "https://ssegu.com/work/rss.xml"
+  ],
+  "noindex": [
+    "/admin/",
+    "/search",
+    "/work/jobs/expired-fixture/"
+  ],
+  "structuredData": [
+    "BreadcrumbList",
+    "Article",
+    "JobPosting for current eligible jobs only"
+  ],
+  "redirectValidation": "PASS"
+}

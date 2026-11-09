@@ -1,3 +1,5 @@
+import { absoluteUrl } from './seo';
+
 export type WorkStatus = 'active' | 'expired';
 
 export interface WorkJob {
@@ -11,6 +13,43 @@ export interface WorkJob {
   status: WorkStatus;
   description: string;
   category: string;
+}
+
+export function isEligibleWorkJob(job: WorkJob, today = new Date()) {
+  if (job.status !== 'active') return false;
+  const todayValue = today.toISOString().slice(0, 10);
+  return !job.deadline || job.deadline >= todayValue;
+}
+
+export function jobPostingJsonLd(job: WorkJob) {
+  if (!isEligibleWorkJob(job)) return undefined;
+  const employmentType = job.employmentType.toUpperCase().replace('-', '_');
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'JobPosting',
+    title: job.title,
+    description: job.description,
+    datePosted: new Date().toISOString().slice(0, 10),
+    validThrough: job.deadline,
+    employmentType,
+    hiringOrganization: { '@type': 'Organization', name: job.employer },
+    ...(job.arrangement === 'Remote'
+      ? {
+          jobLocationType: 'TELECOMMUTE',
+          applicantLocationRequirements: { '@type': 'Country', name: 'Uganda' },
+        }
+      : {
+          jobLocation: {
+            '@type': 'Place',
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: job.location,
+              addressCountry: 'UG',
+            },
+          },
+        }),
+    url: absoluteUrl(`/work/jobs/${job.slug}/`),
+  };
 }
 
 export interface WorkArticle {

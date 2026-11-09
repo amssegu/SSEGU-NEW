@@ -1,17 +1,35 @@
 ---
-import '../styles/global.css';
 import '../styles/work.css';
+import '../styles/global.css';
+import SeoHead from '../components/shared/SeoHead.astro';
+import type { JsonLd } from '../lib/seo';
 
 interface Props {
   title?: string;
   description?: string;
   noindex?: boolean;
+  canonical?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  publishedAt?: string;
+  updatedAt?: string;
+  author?: string;
+  section?: string;
+  structuredData?: JsonLd;
 }
 
 const {
   title = 'SSEGU Work | Jobs · Careers · Skills · Opportunities',
   description = 'Jobs, career advice, skills and opportunities from SSEGU Work.',
   noindex = false,
+  canonical,
+  image,
+  type = 'website',
+  publishedAt,
+  updatedAt,
+  author,
+  section,
+  structuredData,
 } = Astro.props;
 const currentPath = Astro.url.pathname;
 const nav = [
@@ -30,10 +48,20 @@ const nav = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={description} />
-    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
-    <meta name="theme-color" content="#082f78" />
-    <link rel="canonical" href={Astro.url.href} />
+    <SeoHead
+      title={title}
+      description={description}
+      canonical={canonical}
+      noindex={noindex}
+      image={image}
+      type={type}
+      publishedAt={publishedAt}
+      updatedAt={updatedAt}
+      author={author}
+      section={section}
+      structuredData={structuredData}
+      themeColor="#082f78"
+    />
     <title>{title}</title>
   </head>
   <body>
