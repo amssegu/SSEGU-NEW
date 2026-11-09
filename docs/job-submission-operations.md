@@ -13,10 +13,11 @@ Before enabling the form in production, the Cloudflare Pages project owner must:
 2. Bind the database as `JOB_SUBMISSIONS_DB` in production.
 3. Bind the production KV namespace as `RATE_LIMIT_KV`, configured for
    approximately five requests per client per 60-second window.
-4. Create a Turnstile widget restricted to the production hostname, expose its
+4. Create a Turnstile widget restricted to the production hostnames, expose its
    public site key as `PUBLIC_TURNSTILE_SITE_KEY`, and store its secret as the
    Cloudflare secret `TURNSTILE_SECRET_KEY`.
-5. Set `TURNSTILE_EXPECTED_HOSTNAME` to the exact production hostname.
+5. Set `TURNSTILE_EXPECTED_HOSTNAME` to the comma-separated exact hostnames
+   `ssegu-new.pages.dev,ssegu.com`.
 6. Redeploy and run the security matrix before enabling the form for public use.
 
 The Function fails closed when the database, rate limiter or Turnstile secret is

@@ -293,7 +293,14 @@ async function verifyTurnstile(token: string, request: Request, env: Env) {
       hostname?: string;
     };
     if (!result.success || (result.action && result.action !== 'job_submission')) return false;
-    if (env.TURNSTILE_EXPECTED_HOSTNAME && result.hostname !== env.TURNSTILE_EXPECTED_HOSTNAME)
+    const expectedHostnames = (env.TURNSTILE_EXPECTED_HOSTNAME ?? '')
+      .split(',')
+      .map((hostname) => hostname.trim().toLowerCase())
+      .filter(Boolean);
+    if (
+      expectedHostnames.length > 0 &&
+      !expectedHostnames.includes(result.hostname?.toLowerCase() ?? '')
+    )
       return false;
     return true;
   } catch {
