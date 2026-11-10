@@ -1,12 +1,12 @@
 ---
 const liveTvUrl = '/tv/';
 const channels = [
-  { name: 'Citizen TV', category: 'News', color: '#e11d48', mark: 'C' },
-  { name: 'NTV Uganda', category: 'News', color: '#2563eb', mark: 'N' },
-  { name: 'Bukedde 1 TV', category: 'News', color: '#16a34a', mark: 'B1' },
-  { name: 'Salt TV', category: 'Entertainment', color: '#d97706', mark: 'S' },
-  { name: 'Spark TV', category: 'Entertainment', color: '#7c3aed', mark: 'S' },
-  { name: 'Galaxy TV', category: 'Entertainment', color: '#db2777', mark: 'G' },
+  { id: 'citizentv', name: 'Citizen TV', category: 'News', color: '#e11d48' },
+  { id: 'ntv', name: 'NTV Uganda', category: 'News', color: '#2563eb' },
+  { id: 'bukedde1', name: 'Bukedde 1 TV', category: 'News', color: '#16a34a' },
+  { id: 'salttv', name: 'Salt TV', category: 'Entertainment', color: '#d97706' },
+  { id: 'sparktv', name: 'Spark TV', category: 'Entertainment', color: '#7c3aed' },
+  { id: 'galaxytv', name: 'Galaxy TV', category: 'Entertainment', color: '#db2777' },
 ];
 ---
 
@@ -50,7 +50,11 @@ const channels = [
       </div>
       <div class="live-tv-channel-grid">
         {channels.map((channel) => (
-          <a class="live-tv-card" href={liveTvUrl} style={`--channel-color: ${channel.color}`}>
+          <a
+            class="live-tv-card"
+            href={`${liveTvUrl}?ch=${channel.id}`}
+            style={`--channel-color: ${channel.color}`}
+          >
             <span class="live-tv-card-poster" aria-hidden="true">
               <span class="live-tv-card-badge">LIVE</span>
               <span class="live-tv-card-overlay">

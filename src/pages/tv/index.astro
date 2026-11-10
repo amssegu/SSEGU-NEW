@@ -48,6 +48,14 @@ import AdSlot from '../../components/main/AdSlot.astro';
   </div>
 </MainLayout>
 
+<script>
+  import Hls from 'hls.js';
+
+  const win = window as Window & { SseguHls?: typeof Hls };
+  win.SseguHls = Hls;
+  window.dispatchEvent(new Event('ssegu:hls-ready'));
+</script>
+
 <script is:inline>
   (() => {
     const channels = [
@@ -195,6 +203,15 @@ import AdSlot from '../../components/main/AdSlot.astro';
     };
     let activeFilter = 'All';
     let hls = null;
+    let loadingTimer = null;
+    let playbackAttempt = 0;
+    const hlsReady = new Promise((resolve) => {
+      if (window.SseguHls) {
+        resolve(window.SseguHls);
+        return;
+      }
+      window.addEventListener('ssegu:hls-ready', () => resolve(window.SseguHls), { once: true });
+    });
 
     const categories = ['All', ...new Set(channels.map((channel) => channel.category))];
     filters.innerHTML = categories
@@ -205,41 +222,33 @@ import AdSlot from '../../components/main/AdSlot.astro';
       .join('');
 
     function stopPlayer() {
+      playbackAttempt += 1;
       if (hls) {
         hls.destroy();
         hls = null;
       }
+      if (loadingTimer) {
+        window.clearTimeout(loadingTimer);
+        loadingTimer = null;
+      }
+      video.onplaying = null;
+      video.onerror = null;
       video.pause();
       video.removeAttribute('src');
       video.load();
     }
 
-    function loadHls() {
-      if (window.Hls) return Promise.resolve(window.Hls);
-      return new Promise((resolve) => {
-        const script = document.createElement('script');
-        let settled = false;
-        const finish = (value) => {
-          if (settled) return;
-          settled = true;
-          resolve(value);
-        };
-        const timeout = window.setTimeout(() => finish(null), 8000);
-        script.src = 'https://cdn.jsdelivr.net/npm/hls.js@1.5.7/dist/hls.light.min.js';
-        script.onload = () => {
-          window.clearTimeout(timeout);
-          finish(window.Hls);
-        };
-        script.onerror = () => {
-          window.clearTimeout(timeout);
-          finish(null);
-        };
-        document.head.appendChild(script);
-      });
+    function showUnavailable(
+      channel,
+      detail = 'The stream may be offline or blocked by its provider.',
+    ) {
+      message.innerHTML = `<strong>${channel.name} is unavailable</strong><span>${detail}</span>`;
+      message.classList.remove('is-loading', 'is-hidden');
     }
 
     async function playChannel(channel) {
       stopPlayer();
+      const attempt = playbackAttempt;
       message.innerHTML = `<strong>Connecting to ${channel.name}</strong><span>Loading live stream…</span>`;
       message.classList.remove('is-hidden');
       message.classList.add('is-loading');
@@ -252,24 +261,43 @@ import AdSlot from '../../components/main/AdSlot.astro';
         `${window.location.pathname}?ch=${encodeURIComponent(channel.id)}`,
       );
       video.onplaying = () => {
+        if (loadingTimer) {
+          window.clearTimeout(loadingTimer);
+          loadingTimer = null;
+        }
         message.classList.remove('is-loading');
         message.classList.add('is-hidden');
       };
       video.onerror = () => {
-        message.innerHTML = `<strong>${channel.name} is unavailable</strong><span>The stream may be offline or blocking this browser.</span>`;
-        message.classList.remove('is-loading', 'is-hidden');
+        if (loadingTimer) {
+          window.clearTimeout(loadingTimer);
+          loadingTimer = null;
+        }
+        if (attempt === playbackAttempt) showUnavailable(channel);
       };
 
+      loadingTimer = window.setTimeout(() => {
+        if (attempt !== playbackAttempt) return;
+        showUnavailable(channel, 'The stream took too long to respond. Try another channel.');
+        if (hls) {
+          hls.destroy();
+          hls = null;
+        }
+        video.pause();
+      }, 12000);
+
+      const streamUrl = `/api/tv-stream?channel=${encodeURIComponent(channel.id)}`;
+
       if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = channel.url;
+        video.src = streamUrl;
         video.addEventListener('loadedmetadata', () => video.play().catch(() => {}), {
           once: true,
         });
       } else {
-        const Hls = await loadHls();
+        const Hls = await hlsReady;
         if (!Hls || !Hls.isSupported()) {
           message.innerHTML =
-            '<strong>HLS is not supported</strong><span>Try Safari or another modern browser.</span>';
+            '<strong>HLS playback is unavailable</strong><span>This browser cannot play live streams here.</span>';
           message.classList.remove('is-loading');
           return;
         }
@@ -280,18 +308,33 @@ import AdSlot from '../../components/main/AdSlot.astro';
           capLevelToPlayerSize: true,
           maxBufferLength: 10,
           liveSyncDurationCount: 2,
-          manifestLoadingTimeOut: 8000,
-          fragLoadingTimeOut: 10000,
+          manifestLoadingTimeOut: 5000,
+          manifestLoadingMaxRetry: 1,
+          manifestLoadingRetryDelay: 1000,
+          manifestLoadingMaxRetryTimeout: 5000,
+          fragLoadingTimeOut: 7000,
+          fragLoadingMaxRetry: 1,
+          fragLoadingRetryDelay: 1000,
+          fragLoadingMaxRetryTimeout: 4000,
         });
-        hls.loadSource(channel.url);
-        hls.attachMedia(video);
         hls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
         hls.on(Hls.Events.ERROR, (_event, data) => {
-          if (data.fatal) {
-            message.innerHTML = `<strong>${channel.name} is unavailable</strong><span>The stream may be offline or blocking this browser.</span>`;
-            message.classList.remove('is-loading');
+          if (data.fatal && attempt === playbackAttempt) {
+            if (loadingTimer) {
+              window.clearTimeout(loadingTimer);
+              loadingTimer = null;
+            }
+            const detail =
+              data.type === Hls.ErrorTypes.NETWORK_ERROR
+                ? 'The stream provider is offline, slow, or blocking browser playback.'
+                : 'The stream could not be decoded by this browser.';
+            showUnavailable(channel, detail);
+            hls.destroy();
+            hls = null;
           }
         });
+        hls.attachMedia(video);
+        hls.loadSource(streamUrl);
       }
     }
 
