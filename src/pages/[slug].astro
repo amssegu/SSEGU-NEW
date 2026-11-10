@@ -3,6 +3,7 @@ import MainLayout from '../layouts/MainLayout.astro';
 import { articles, formatDate, fromContentEntry, label } from '../lib/articles';
 import AdSlot from '../components/main/AdSlot.astro';
 import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../lib/seo';
+import { stripLegacyArticleLead } from '../lib/content';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 export async function getStaticPaths() {
   const entries = (await getCollection('articles')).filter(
@@ -47,6 +48,7 @@ const { article: fixtureArticle, entry } = Astro.props as {
 const article = fixtureArticle ?? fromContentEntry(entry!);
 const related = Astro.props.related ?? [];
 const { Content } = entry ? await render(entry) : { Content: undefined };
+const cleanedBody = entry ? stripLegacyArticleLead(entry.body ?? '') : undefined;
 const canonical = absoluteUrl(`/${article.slug}/`);
 const structuredData = [
   breadcrumbJsonLd([
@@ -111,6 +113,7 @@ const structuredData = [
       <img
         class="article-cover"
         src={article.image}
+        data-fallback-src={article.imageFallback}
         alt={`Illustration for ${article.title}`}
         width="1200"
         height="675"
@@ -118,7 +121,13 @@ const structuredData = [
     </picture>
     <AdSlot placement="article" />
     <div class="article-body">
-      {Content ? <Content /> : article.body.map((paragraph) => <p>{paragraph}</p>)}
+      {cleanedBody ? (
+        <div set:html={cleanedBody} />
+      ) : Content ? (
+        <Content />
+      ) : (
+        article.body.map((paragraph) => <p>{paragraph}</p>)
+      )}
     </div>
     {related.length > 0 && (
       <section class="related" aria-labelledby="related-title">
@@ -132,3 +141,14 @@ const structuredData = [
     )}
   </article>
 </MainLayout>
+
+<script is:inline>
+  document.querySelectorAll('img[data-fallback-src]').forEach((image) => {
+    image.addEventListener('error', () => {
+      const fallback = image.dataset.fallbackSrc;
+      if (fallback && image.getAttribute('src') !== fallback) {
+        image.setAttribute('src', fallback);
+      }
+    }, { once: true });
+  });
+</script>

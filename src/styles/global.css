@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 :root {
   --color-primary: #32165f;
@@ -15,8 +15,8 @@
   --color-business: #0875e8;
   --color-technology: #159447;
   --color-sports: #ef741b;
-  --font-editorial: 'Merriweather', Georgia, serif;
-  --font-interface: 'Inter', Arial, sans-serif;
+  --font-editorial: 'Lora', Georgia, serif;
+  --font-interface: 'Lora', Georgia, serif;
   --container-width: 1570px;
   --page-gutter: 24px;
   --content-gap: 24px;
@@ -1240,7 +1240,7 @@ input:focus-visible {
   font-size: 0.85rem;
 }
 .article-page h1 {
-  font-size: clamp(2.3rem, 6vw, 4.5rem);
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
   line-height: 1;
 }
 .article-dek {

@@ -10,6 +10,7 @@ const date = z.coerce.date();
 const status = z.enum(['draft', 'published', 'expired']);
 const imageFields = {
   image: z.string().trim().min(1).optional(),
+  imageFallback: z.url().optional(),
   imageAlt: z.string().trim().min(1).optional(),
   imageCaption: z.string().trim().min(1).optional(),
   imageCredit: z.string().trim().min(1).optional(),

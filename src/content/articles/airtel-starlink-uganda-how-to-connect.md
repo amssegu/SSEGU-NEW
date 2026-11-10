@@ -9,6 +9,7 @@ tags: []
 publishedAt: 2026-10-30
 status: published
 image: '/uploads/migrated/3e03f4b21dc9b6ac.webp'
+imageFallback: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSV-jRXtCnCOfAa8duAWnpNzUSeZ2ujNM2O9i_OLt1yaxClYtFumyTnU4HV2FSzjJ4dltWFLTgVLgJ7mIQAuWKh1F22MyIcMHGlGOj5ROo_ezJEtx5tKOeCQUkL8voifIUJYw7WIGECuYN39BS7usdjFl1fppqdzbn7t0Wyl3a99v5GWddHnATpXn_HFI/s1600/Gemini_Generated_Image_u7jxadu7jxadu7jx%20%281%29.jpeg'
 imageAlt: 'Illustration for Airtel Starlink Uganda: How to Connect Your Phone Beyond Mobile Network Coverage | SSEGU'
 featured: false
 canonicalUrl: 'https://www.ssegu.com/2026/10/airtel-starlink-uganda-how-to-connect.html'

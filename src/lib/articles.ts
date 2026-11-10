@@ -11,6 +11,7 @@ export interface Article {
   author: string;
   publishedAt: string;
   image: string;
+  imageFallback?: string;
   imageAvif: string;
   body: string[];
   featured?: boolean;
@@ -237,6 +238,7 @@ export function fromContentEntry(entry: CollectionEntry<'articles'>): Article {
         : referenceId(entry.data.author),
     publishedAt: date,
     image,
+    imageFallback: entry.data.imageFallback,
     imageAvif: image.endsWith('.avif')
       ? image
       : image.endsWith('.webp')
