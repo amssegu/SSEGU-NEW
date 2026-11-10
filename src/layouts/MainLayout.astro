@@ -75,7 +75,10 @@ const currentPath = Astro.url.pathname;
     <div class="shell masthead">
       <a class="brand" href="/" aria-label="SSEGU home">
         <span class="brand-line">
-          <b>SSEGU</b>
+          <picture class="brand-logo">
+            <source srcset="/uploads/logo.avif" type="image/avif" />
+            <img src="/uploads/logo.webp" alt="SSEGU" width="400" height="400" />
+          </picture>
         </span>
       </a>
       <div class="masthead-banner">

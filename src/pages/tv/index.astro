@@ -186,6 +186,13 @@ import AdSlot from '../../components/main/AdSlot.astro';
     const search = document.querySelector('#live-tv-search');
     const filters = document.querySelector('#live-tv-filters');
     const count = document.querySelector('#live-tv-count');
+    const channelColors = {
+      News: '#2563eb',
+      Entertainment: '#e11d48',
+      Community: '#8b5cf6',
+      Faith: '#f59e0b',
+      Sports: '#16a34a',
+    };
     let activeFilter = 'All';
     let hls = null;
 
@@ -300,7 +307,7 @@ import AdSlot from '../../components/main/AdSlot.astro';
       catalog.innerHTML = visible
         .map(
           (channel) =>
-            `<button class="live-tv-card" type="button" data-channel="${channel.id}"><span class="live-tv-card-mark">▶</span><span><strong>${channel.name}</strong><small>${channel.category}</small></span></button>`,
+            `<button class="live-tv-card" type="button" data-channel="${channel.id}" style="--channel-color: ${channelColors[channel.category] ?? '#e11d48'}"><span class="live-tv-card-poster"><span class="live-tv-card-badge">LIVE</span><span class="live-tv-card-overlay"><span class="live-tv-card-play">▶</span></span></span><span class="live-tv-card-info"><strong>${channel.name}</strong><small>${channel.category}</small></span></button>`,
         )
         .join('');
       catalog.querySelectorAll('.live-tv-card').forEach((card) => {
