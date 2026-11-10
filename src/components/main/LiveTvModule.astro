@@ -50,16 +50,16 @@ const channels = [
       </div>
       <div class="live-tv-channel-grid">
         {channels.map((channel) => (
-          <a class="live-tv-channel" href={liveTvUrl} style={`--channel-color: ${channel.color}`}>
-            <span class="live-tv-channel-mark" aria-hidden="true">
-              {channel.mark}
+          <a class="live-tv-card" href={liveTvUrl} style={`--channel-color: ${channel.color}`}>
+            <span class="live-tv-card-poster" aria-hidden="true">
+              <span class="live-tv-card-badge">LIVE</span>
+              <span class="live-tv-card-overlay">
+                <span class="live-tv-card-play">▶</span>
+              </span>
             </span>
-            <span class="live-tv-channel-copy">
+            <span class="live-tv-card-info">
               <strong>{channel.name}</strong>
               <small>{channel.category}</small>
-            </span>
-            <span class="live-tv-channel-arrow" aria-hidden="true">
-              ↗
             </span>
           </a>
         ))}

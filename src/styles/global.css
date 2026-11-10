@@ -1747,9 +1747,14 @@ input:focus-visible {
   gap: 0.75rem;
   padding: 1.25rem 0 0;
 }
-.live-tv-page .live-tv-card {
+.live-tv-module .live-tv-channel-grid {
+  gap: 0.75rem;
+}
+.live-tv-page .live-tv-card,
+.live-tv-module .live-tv-card {
   display: block;
   min-width: 0;
+  min-height: 0;
   padding: 0;
   overflow: hidden;
   color: inherit;
@@ -1760,7 +1765,9 @@ input:focus-visible {
 }
 .live-tv-page .live-tv-card:hover,
 .live-tv-page .live-tv-card:focus-visible,
-.live-tv-page .live-tv-card.is-active {
+.live-tv-page .live-tv-card.is-active,
+.live-tv-module .live-tv-card:hover,
+.live-tv-module .live-tv-card:focus-visible {
   transform: translateY(-3px);
   border-color: #e11d48;
   box-shadow: 0 0 0 2px rgb(225 29 72 / 30%);
