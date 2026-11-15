@@ -1,0 +1,477 @@
+from pathlib import Path
+import pypandoc
+
+doc = r"""# Source Register & Integration Checklist
+## Jobs and Courses Aggregation Website
+
+**Project:** Astro + GitHub Actions + Cloudflare D1 + Cloudflare Pages  
+**Version:** 1.0  
+**Prepared:** 15 November 2026
+
+> **Important status note:** These are the sources shortlisted during planning, not a claim that every source has already been approved or connected. Before enabling a source, complete its checks below and record the result in the project's `content_sources` table. Feed availability, API terms and licences can change.
+
+## 1. How to read this document
+
+- **Start with** means a sensible first source to implement, subject to the listed checks.
+- **Link/metadata only** means import a small amount of factual listing information and send visitors to the original provider. Do not copy course materials or full descriptions.
+- **Approval required** means do not activate automated ingestion until the source's access requirements are satisfied.
+- **Do not use for JobPosting markup** means do not add Google's `JobPosting` structured data to imported listings from that source, even if the page itself is indexed normally.
+
+The website may eventually earn advertising revenue. That makes non-commercial licences especially important: a source's permission to use material for non-commercial education does not automatically permit reuse on an ad-supported commercial website.
+
+---
+
+# Part A — Job sources
+
+## 2. JubaJobs
+
+**Role:** Regional jobs, tenders, scholarships and training opportunities.  
+**Priority:** Start here for regional coverage.
+
+- Partner/feed information: https://jubajobs.com/partners
+- Jobs feed: https://jubajobs.com/feed/jobs
+- Tenders feed: https://jubajobs.com/feed/tenders
+- Opportunities feed: https://jubajobs.com/feed/opportunities
+- Contact: info@jubajobs.com
+
+### What is available
+
+JubaJobs' partner page says other websites can display its free feeds, which update every 15 minutes, provided each listing links back to JubaJobs. The page identifies separate feeds for jobs, tenders, and scholarships/training opportunities.
+
+### What must be done
+
+1. Open the partner page and confirm the feed URLs still work.
+2. Fetch each feed manually and inspect its actual format and fields. Do not assume the feed structure.
+3. Confirm whether the feed terms allow the planned display, storage and commercial/ad-supported use. The partner page permits display on other sites with links back, but retain a copy/date of the current terms.
+4. Build a JubaJobs adapter that parses the jobs feed first. Add tenders/opportunities only if they belong in the site's content taxonomy.
+5. Preserve the original JubaJobs listing URL and link every imported item back to it.
+6. Store `JubaJobs` as the source attribution.
+7. Map title, organisation, location, publication date, deadline, source URL and application URL only where present.
+8. Test duplicate handling and updates.
+9. Schedule it within the existing jobs refresh windows; do not poll every 15 minutes. Our platform's maximum is twice daily.
+10. Test a failed/empty feed response to ensure existing records are not deleted or expired.
+
+**Initial status:** Candidate for first integration; confirm current feed and terms before production.
+
+## 3. YubHub free job feeds
+
+**Role:** Broad international and country-specific job feed, including industry, skill and graduate feeds.  
+**Priority:** High-priority job source after a sample feed is inspected.
+
+- Feed catalogue: https://yubhub.co/free-job-feeds/
+
+### What is available
+
+The current feed catalogue advertises RSS, JSON and XML formats, no sign-up, daily refreshes, and free redistribution with attribution. Its page says the attribution credit/link to YubHub must be retained. It offers country, industry, skill and graduate-role feeds.
+
+### What must be done
+
+1. Open the feed catalogue and select only relevant feeds. Start with Uganda, East Africa if available, graduate/entry-level roles, and a small number of useful industries.
+2. Copy the exact feed URLs from the live catalogue. Do not invent feed URLs from a naming pattern.
+3. Fetch one JSON feed and one RSS feed as samples. Prefer JSON if it contains the fields needed by the importer.
+4. Confirm the current redistribution terms and retain the required “Data by YubHub” credit and link.
+5. Implement a YubHub adapter. Map its source identifier, title, employer, location, dates, description (only if allowed), original URL and application URL.
+6. Keep the original listing/application destination intact.
+7. Record YubHub attribution on each listing or in a clearly visible source field.
+8. Deduplicate against JubaJobs and other feeds.
+9. Schedule no more than twice daily, even though the source itself updates daily.
+10. Monitor response size and choose a limited set of feeds to avoid importing large amounts of irrelevant data.
+
+**Initial status:** Strong candidate. Attribution is a required integration detail, not optional decoration.
+
+## 4. ReliefWeb API
+
+**Role:** Humanitarian, development and NGO-sector vacancies, training and related opportunities.  
+**Priority:** Useful specialist source; requires registration/approval before use.
+
+- API documentation: https://apidoc.reliefweb.int/
+- API explorer: https://api.reliefweb.int/v2/swagger/api
+
+### What is available
+
+ReliefWeb exposes jobs and training data as JSON over HTTPS. Its documentation requires an approved `appname` on API requests. API use is subject to ReliefWeb terms, and some material may belong to original publishers.
+
+### What must be done
+
+1. Request an approved `appname` using the process described in the API documentation.
+2. Do not make production requests using the documentation placeholder.
+3. Read the current API terms and identify which returned fields may be stored and displayed.
+4. Identify original publisher ownership and attribution requirements for each record.
+5. Build a ReliefWeb adapter using the documented jobs endpoint first; add training only if needed.
+6. Add the approved `appname` to requests.
+7. Respect rate limits and pagination; request only the fields and records needed.
+8. Preserve the original source URL and any publisher attribution.
+9. Normalise locations and deadlines carefully.
+10. Test API errors, pagination, duplicates and withdrawn/expired records.
+
+**Initial status:** Approval required. Do not activate until the approved appname and reuse rules are in place.
+
+## 5. Remote OK
+
+**Role:** Remote-work vacancies.  
+**Priority:** Add for international remote opportunities, not as a substitute for local/regional sources.
+
+- FAQ and feed guidance: https://remoteok.com/faq
+- JSON API: https://remoteok.com/api
+- RSS: https://remoteok.com/remote-jobs.rss
+
+### What is available
+
+Remote OK documents free public JSON and RSS feeds without authentication. Its guidance asks aggregators to credit Remote OK and link to each original job post so candidates can apply directly.
+
+### What must be done
+
+1. Read the current FAQ and confirm the feed terms before activation.
+2. Fetch the JSON endpoint and inspect the current response format.
+3. Implement a Remote OK adapter. Prefer JSON if it provides more reliable identifiers and fields.
+4. Preserve the original Remote OK job URL and link directly to that post.
+5. Display visible Remote OK source attribution.
+6. Map tags/categories, location restrictions, company, dates and application URL only where provided.
+7. Treat remote eligibility as structured data; do not assume every “remote” job accepts applicants from Uganda.
+8. Deduplicate against Himalayas and other remote feeds.
+9. Schedule within the existing two daily job refreshes.
+10. Check closure status/deadlines and remove expired vacancies from active listings.
+
+**Initial status:** Candidate. Confirm current terms and test the feed before enabling.
+
+## 6. Himalayas Remote Jobs API
+
+**Role:** International remote-work vacancies.  
+**Priority:** Useful source, but it has important display and SEO restrictions.
+
+- API documentation: https://himalayas.app/docs/remote-jobs-api
+- API overview: https://himalayas.app/api
+- API terms: https://himalayas.app/terms
+- Example endpoint: `https://himalayas.app/jobs/api?limit=20`
+
+### What is available
+
+The public API provides JSON job data, pagination and search. The API can be used on a job board or website operated by the integrator, subject to its terms. It is refreshed daily. The current API terms require:
+
+- Every Apply action must use the API's `applicationLink` unchanged.
+- Clearly identify Himalayas as the source, with a visible link to the job on Himalayas or to `himalayas.app`.
+- Display jobs only on sites/apps you operate; do not pass them to third-party job boards, aggregators, search engines or other feeds.
+- Do not use these listings with Google Jobs/`JobPosting` structured data.
+- Remove jobs once they expire.
+- Keep API keys private if you later use one.
+
+### What must be done
+
+1. Read the current API terms before coding. The terms are more important than the example repository's software licence.
+2. Start with the public endpoint and a small page size. The current API supports a maximum of 20 records per request and cursor-based pagination.
+3. Implement a Himalayas adapter that stores the source `guid`, `applicationLink`, job URL, company, title, location restrictions, timezone restrictions, salary fields and expiry fields where present.
+4. Use the API's `applicationLink` unchanged for the Apply action. Do not replace it with an employer ATS URL.
+5. Show visible Himalayas attribution and a link to the original Himalayas job.
+6. Keep these listings on this website only. Do not export or syndicate them into another job board/feed.
+7. **Do not add Google `JobPosting` structured data** to Himalayas-imported listings.
+8. Remove expired jobs from active listings as required by the terms. A retained reference page must not imply the vacancy is open.
+9. Read `salaryPeriod` before displaying/comparing salary. Do not assume all salary figures are annual.
+10. Respect the API's request limits. The feed is refreshed daily, so our once/twice-daily schedule is more than sufficient; avoid unnecessary pagination.
+11. Test the job-by-guid endpoint or documented search endpoint for checking whether a record remains open.
+
+**Initial status:** Candidate with special restrictions. Keep source-specific rules in the database so they cannot accidentally be treated like ordinary job-feed records.
+
+---
+
+# Part B — Course and learning sources
+
+## 7. Course-source policy
+
+For the first version, treat course providers as **catalogue/link sources**, not as content libraries to copy.
+
+Store factual discovery metadata such as:
+- Course title.
+- Provider.
+- Subject/category.
+- Level, if stated.
+- Delivery mode, if stated.
+- Duration, if stated.
+- Whether study is free, paid or free-to-audit, only when verified.
+- Whether a certificate is free, paid, unavailable or unknown.
+- Original course URL.
+- Date last checked.
+
+Do not copy course videos, notes, readings, assignments, images or full descriptions unless the specific licence permits it and the website's commercial status is compatible with that licence.
+
+## 8. MIT OpenCourseWare (MIT OCW)
+
+**Role:** University-level learning materials and self-study courses.  
+**Priority:** Link to course pages; do not republish course materials on an ad-supported site without permission.
+
+- Main site: https://ocw.mit.edu/
+- Terms: https://www.ocw.mit.edu/pages/privacy-and-terms-of-use/
+- Reuse guidance: https://mitocw.zendesk.com/hc/en-us/articles/5093047407771-Reusing-MIT-OpenCourseWare-Content
+- Course overview: https://ocw.mit.edu/pages/get-started/
+
+### Important licence point
+
+MIT OCW's materials are generally under CC BY-NC-SA 4.0 unless a page/item says otherwise. The NonCommercial restriction means those materials cannot be used commercially. Some third-party material is marked “All rights reserved” and is not covered by the general OCW licence. MIT OCW does not provide credit or certificates for completing its materials.
+
+### What must be done
+
+1. Use MIT OCW as a link-out course catalogue source initially.
+2. Identify course pages and collect only basic factual metadata needed to help users discover them.
+3. Link each record to the exact MIT course page.
+4. Label the offering accurately as self-study/open course material; do not imply it awards a certificate or academic credit.
+5. Do not download, mirror or republish notes, videos, assignments, images or course text on this website.
+6. Do not reuse CC BY-NC-SA course materials in an ad-supported/commercial context without permission.
+7. If future plans require copying any materials, review the licence on every item and obtain permission where necessary.
+8. Store a source-specific note that content reuse is restricted by the non-commercial licence.
+
+**Initial status:** Link-only catalogue candidate. Do not republish course content under the assumption that “free to access” means commercially reusable.
+
+## 9. OpenLearn — The Open University
+
+**Role:** Free courses and learning resources.  
+**Priority:** Link-out catalogue only unless the provider confirms commercial syndication rights.
+
+- OpenLearn: https://www.open.edu/openlearn/
+- FAQ/licensing: https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn
+- Copyright policy: https://about.open.ac.uk/strategy-and-policies/policies-and-statements/copyright-openlearn
+
+### Important licence point
+
+OpenLearn says much of its own course content is CC BY-NC-SA, with third-party materials and exceptions identified on individual pages. Its FAQ explains that aggregation of its content is not considered adaptation for the purpose of the non-commercial restriction. It also says that linking to OpenLearn pages is welcome, provided the site does not imply affiliation or endorsement.
+
+### What must be done
+
+1. Start by linking to OpenLearn course pages rather than copying their content.
+2. Collect only factual catalogue metadata necessary for discovery.
+3. Link directly to the provider's course page.
+4. Do not imply that this website is affiliated with or endorsed by The Open University.
+5. Do not copy course text, videos, images or other learning materials into the site.
+6. Check each course's acknowledgements and special restrictions before any reuse.
+7. Because the website may display advertising, ask OpenLearn for written clarification before using any syndicated content or metadata feed in a commercial context.
+8. Record the applicable licence/terms URL and review date.
+
+**Initial status:** Link-only candidate. Commercial reuse of content needs clarification; do not treat aggregation as adaptation.
+
+## 10. Saylor Academy
+
+**Role:** Self-paced courses across a range of subjects.  
+**Priority:** Link-out catalogue candidate; investigate its API only if access is granted.
+
+- Main site: https://www.saylor.org/
+- Licensing information: https://www.saylor.org/LicensingInformation
+- API documentation: https://saylordotorg.github.io/api-docs/
+
+### Important licence point
+
+Saylor states that its original course outlines, syllabi, framing notes and other original content are generally under a Creative Commons Attribution licence unless otherwise stated. Third-party resources inside courses have their own licences and must be checked individually. Its API documentation says authentication/token access is required and that the API is still under development.
+
+### What must be done
+
+1. Start with a link-out catalogue and inspect the current course catalogue.
+2. Ask Saylor whether a public metadata feed or approved API access is available for this project.
+3. Do not assume the API is open or usable without a token.
+4. If access is granted, store only the fields authorised by Saylor.
+5. Link to each original course page.
+6. Distinguish free course access from any paid certificate or assessment fee.
+7. Do not copy third-party resources embedded in Saylor courses unless their individual licences permit it.
+8. Record the licence for each course/resource if any content is ever reused.
+
+**Initial status:** Link-only until API access and metadata terms are confirmed.
+
+## 11. OER Commons
+
+**Role:** Searchable catalogue of open educational resources.  
+**Priority:** Possible discovery source, but resource-level licensing must be checked.
+
+- Main site: https://www.oercommons.org/
+
+### Important licence point
+
+OER Commons contains resources with differing licences. The fact that a resource appears in an open-education repository does not mean every item has the same licence or that all metadata/content can be republished commercially.
+
+### What must be done
+
+1. Investigate whether OER Commons currently provides a documented public API, export or permitted feed suitable for this project.
+2. Do not scrape search-result pages as a substitute for an API or permission.
+3. If a documented metadata interface exists, review its terms before use.
+4. Store the original resource URL and the resource's displayed licence.
+5. Only label a resource “open” when its licence is visible and verified.
+6. Link to the original resource/provider.
+7. Do not mirror files or descriptions unless the individual licence and platform terms permit it.
+8. Exclude resources with unclear or restrictive rights from any content-reuse workflow.
+
+**Initial status:** Research/verification required. Do not build an importer until a permitted access method is established.
+
+## 12. freeCodeCamp
+
+**Role:** Free technical learning curriculum and certifications.  
+**Priority:** Link-out catalogue; do not mirror the curriculum.
+
+- Learn platform: https://www.freecodecamp.org/learn/
+- Main site: https://www.freecodecamp.org/
+
+### What must be done
+
+1. Start with a manually curated set of learning-path links or a documented metadata source if one is available.
+2. Do not crawl the site aggressively or assume there is a supported public course API.
+3. Link directly to the relevant freeCodeCamp learning path.
+4. Describe the offering accurately as freeCodeCamp curriculum/certification; do not imply it is a university degree or third-party accredited qualification.
+5. Do not copy lessons, exercises, videos or curriculum text into this website without checking the applicable repository/content licence.
+6. If using GitHub-hosted curriculum files, inspect the current repository licence and confirm it covers the exact files being reused.
+7. Keep provider attribution clear.
+
+**Initial status:** Link-only candidate; manual curation is acceptable for the first release.
+
+---
+
+# Part C — What to build
+
+## 13. Shared source-ingestion work
+
+Build the ingestion system once, then add one adapter per source.
+
+### Source registry
+
+For every source, store:
+
+- `name`
+- `source_type` (`job` or `course`)
+- `base_url`
+- `feed_url` or API endpoint
+- `permission_type`
+- `terms_url`
+- `attribution_text`
+- `enabled`
+- `last_attempt_at`
+- `last_success_at`
+- `notes` for source-specific restrictions
+
+Suggested permission values:
+
+- `metadata_only`
+- `redistribute_with_attribution`
+- `open_license`
+- `link_only`
+- `permission_required`
+
+Add source-specific flags where necessary, for example:
+- `requires_appname`
+- `requires_api_key`
+- `must_use_source_application_link`
+- `prohibit_jobposting_schema`
+- `remove_when_expired`
+- `commercial_reuse_allowed`
+- `manual_review_required`
+
+Do not rely on a single generic permission flag for restrictions such as Himalayas' prohibition on third-party syndication and JobPosting structured data.
+
+## 14. Job importer tasks
+
+- [ ] Create a common job record shape.
+- [ ] Implement one adapter per approved job source.
+- [ ] Store the source's stable ID and original URL.
+- [ ] Preserve source-specific application URL rules.
+- [ ] Normalise employer, location, employment type, work mode and dates.
+- [ ] Keep salary currency and salary period explicit.
+- [ ] Deduplicate across sources without merging unrelated vacancies.
+- [ ] Preserve source attribution on every detail page.
+- [ ] Store source-specific SEO restrictions.
+- [ ] Expire jobs only with reliable evidence.
+- [ ] Remove expired jobs from active lists and active sitemap output.
+- [ ] Ensure a failed source fetch never expires all of its existing records.
+- [ ] Run jobs no more than twice daily.
+
+## 15. Course importer tasks
+
+- [ ] Start with link-only course records.
+- [ ] Create a common course record shape.
+- [ ] Store exact provider/course URL.
+- [ ] Store title, provider, subject, level and duration only when verified.
+- [ ] Separate `course_price_status` from `certificate_price_status`.
+- [ ] Store the licence/terms URL and content reuse classification.
+- [ ] Do not store course files, videos or lesson text in the first version.
+- [ ] Add an availability check only if permitted and reliable.
+- [ ] Mark stale records as `unverified`; do not silently claim a course is still available.
+- [ ] Run course refreshes no more than twice weekly.
+
+## 16. Build and deployment tasks
+
+1. Use GitHub Actions for the existing schedule:
+   - Jobs: 06:15 and 18:15 EAT (03:15 and 15:15 UTC).
+   - Courses: Tuesday and Friday at 07:00 EAT (04:00 UTC).
+2. Fetch only sources enabled in the source registry.
+3. Validate, normalise and deduplicate.
+4. Update Cloudflare D1.
+5. Export approved records to JSON before the Astro build.
+6. Generate static detail pages with Astro `getStaticPaths()`.
+7. Build the sitemap from eligible canonical pages.
+8. Deploy only when public data changed.
+9. Keep ordinary visitor requests static; do not query D1 or invoke a Worker for every page view.
+
+## 17. Recommended implementation order
+
+| Order | Source | Why |
+|---:|---|---|
+| 1 | JubaJobs jobs feed | Regional relevance and explicit partner-feed pathway |
+| 2 | YubHub selected country/graduate feeds | Broad feed formats and stated attribution-based redistribution |
+| 3 | Remote OK | Adds remote-work coverage with a simple public feed |
+| 4 | ReliefWeb | Valuable NGO/development vacancies, but requires approved appname |
+| 5 | Himalayas | Useful remote listings, but source-specific Apply, attribution, expiry and SEO restrictions |
+| 6 | Saylor Academy | Course catalogue link-out; investigate API access |
+| 7 | MIT OCW | Link-out catalogue; non-commercial restriction on course materials |
+| 8 | OpenLearn | Link-out catalogue; non-commercial and per-resource restrictions |
+| 9 | freeCodeCamp | Curated link-out learning paths |
+| 10 | OER Commons | Add only after confirming a permitted metadata access method |
+
+This order is a practical build sequence, not a legal determination that every source is already approved.
+
+## 18. Launch checklist
+
+### Before a source is enabled
+
+- [ ] Its official feed/API is confirmed working.
+- [ ] Its current terms have been read and saved.
+- [ ] Commercial/ad-supported use has been checked.
+- [ ] Attribution and original links are implemented.
+- [ ] Rate limits and required credentials are understood.
+- [ ] The adapter passes a sample-data test.
+- [ ] Duplicate handling is tested.
+- [ ] Source outage behaviour is tested.
+- [ ] Expiry/unavailability behaviour is tested.
+- [ ] Source-specific SEO restrictions are enforced.
+- [ ] The source is recorded in D1 with `enabled = true` only after approval.
+
+### First release recommendation
+
+Start with **JubaJobs + selected YubHub feeds** for regional job coverage. Add **Remote OK** for remote roles. Work on **ReliefWeb** after receiving its appname approval. Add **Himalayas** only after implementing its stricter application-link, attribution, expiry and no-JobPosting rules.
+
+For courses, begin with a small **link-only catalogue** rather than a scraper. Use Saylor, MIT OCW, OpenLearn and freeCodeCamp as provider destinations, and investigate OER Commons access separately. This avoids turning “free to learn” into an unsupported assumption that the site's commercial project can republish the course content.
+
+---
+
+## 19. Source references checked while preparing this register
+
+### Jobs
+- JubaJobs partner programme: https://jubajobs.com/partners
+- YubHub free feeds: https://yubhub.co/free-job-feeds/
+- ReliefWeb API documentation: https://apidoc.reliefweb.int/
+- Remote OK FAQ: https://remoteok.com/faq
+- Himalayas API: https://himalayas.app/api
+- Himalayas API terms: https://himalayas.app/terms
+- Himalayas API reference: https://himalayas.app/docs/remote-jobs-api
+
+### Courses
+- MIT OCW terms: https://www.ocw.mit.edu/pages/privacy-and-terms-of-use/
+- MIT OCW reuse guidance: https://mitocw.zendesk.com/hc/en-us/articles/5093047407771-Reusing-MIT-OpenCourseWare-Content
+- OpenLearn FAQ: https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn
+- Open University copyright policy: https://about.open.ac.uk/strategy-and-policies/policies-and-statements/copyright-openlearn
+- Saylor licensing: https://www.saylor.org/LicensingInformation
+- Saylor API documentation: https://saylordotorg.github.io/api-docs/
+- OER Commons: https://www.oercommons.org/
+- freeCodeCamp Learn: https://www.freecodecamp.org/learn/
+
+**Operating rule:** no source should be enabled just because its URL works. Confirm its terms, implement its attribution and restrictions, test the adapter, and only then turn on scheduled ingestion.
+"""
+
+out = Path("/mnt/data/jobs-courses-source-register.md")
+pypandoc.convert_text(doc, "md", format="md", outputfile=str(out), extra_args=["--standalone"])
+print(f"Created {out} ({out.stat().st_size:,} bytes)")
+
+
+
+
+One important finding: Himalayas has specific restrictions on Google JobPosting structured data and requires its application link to remain unchanged. MIT OCW and OpenLearn also have non-commercial restrictions on much of their course content.
