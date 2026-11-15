@@ -1,18 +1,31 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import WorkJobCard from '../../../components/work/WorkJobCard.astro';
-import { formatWorkDate, isEligibleWorkJob, jobPostingJsonLd, workJobs } from '../../../lib/work';
+import WorkJobSource from '../../../components/work/WorkJobSource.astro';
+import {
+  formatWorkDate,
+  getWorkJobStatus,
+  getPublishedWorkJobs,
+  isEligibleWorkJob,
+  jobPostingJsonLd,
+  workJobStatusLabel,
+} from '../../../lib/work';
 import { absoluteUrl, breadcrumbJsonLd } from '../../../lib/seo';
 
-export function getStaticPaths() {
-  return workJobs.map((job) => ({ params: { slug: job.slug }, props: { job } }));
+export async function getStaticPaths() {
+  return (await getPublishedWorkJobs({ status: 'all' })).map((job) => ({
+    params: { slug: job.slug },
+    props: { job },
+  }));
 }
 
 const { job } = Astro.props;
-const relatedJobs = workJobs
+const allJobs = await getPublishedWorkJobs({ status: 'all' });
+const relatedJobs = allJobs
   .filter((item) => item.slug !== job.slug && item.status === 'active')
   .slice(0, 2);
 const eligible = isEligibleWorkJob(job);
+const displayStatus = getWorkJobStatus(job);
 const structuredData = [
   breadcrumbJsonLd([
     { name: 'Work', path: '/work/' },
@@ -45,13 +58,8 @@ const structuredData = [
           <h1>{job.title}</h1>
           <p class="work-detail-employer">{job.employer}</p>
         </div>
-        <span
-          class:list={[
-            'work-status-badge work-status-large',
-            job.status === 'expired' && 'is-expired',
-          ]}
-        >
-          {job.status === 'active' ? 'Active opportunity' : 'Expired opportunity'}
+        <span class:list={['work-status-badge work-status-large', !eligible && 'is-expired']}>
+          {eligible ? 'Active opportunity' : `${workJobStatusLabel(displayStatus)} opportunity`}
         </span>
       </div>
       <div class="work-detail-meta">
@@ -81,13 +89,23 @@ const structuredData = [
         </p>
       </div>
       <div class="work-detail-actions">
-        {job.status === 'active' ? (
-          <button class="work-button" type="button" disabled>
-            Application details coming later
-          </button>
+        {eligible && job.applicationUrl ? (
+          <a
+            class="work-button"
+            href={job.applicationUrl}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Apply on source
+          </a>
         ) : (
-          <p class="work-detail-notice">This listing is no longer accepting applications.</p>
+          <p class="work-detail-notice">
+            {eligible
+              ? 'Application details are not available for this listing.'
+              : 'This listing is no longer accepting applications.'}
+          </p>
         )}
+        <WorkJobSource job={job} />
         <a class="work-button work-button-secondary" href="/work/jobs/">
           Back to jobs
         </a>

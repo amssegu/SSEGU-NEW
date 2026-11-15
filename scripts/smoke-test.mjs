@@ -20,6 +20,9 @@ for (const route of [
   'work/index.html',
   'work/jobs/index.html',
   'work/jobs/customer-experience-officer-mtn-uganda/index.html',
+  'work/jobs/communications-officer-withdrawn-fixture/index.html',
+  'work/jobs/project-assistant-unverified-fixture/index.html',
+  'work/jobs/community-liaison-missing-deadline-fixture/index.html',
   'work/internships/index.html',
   'work/internships/ict-internship-kampala/index.html',
   'work/career-advice/index.html',
@@ -54,6 +57,17 @@ assert.match(
 assert.doesNotMatch(
   readFileSync('dist/work/jobs/graduate-trainee-nile-breweries/index.html', 'utf8'),
   /JobPosting/,
+);
+for (const slug of [
+  'communications-officer-withdrawn-fixture',
+  'project-assistant-unverified-fixture',
+  'community-liaison-missing-deadline-fixture',
+]) {
+  assert.doesNotMatch(readFileSync(`dist/work/jobs/${slug}/index.html`, 'utf8'), /JobPosting/);
+}
+assert.match(
+  readFileSync('dist/work/jobs/community-liaison-missing-deadline-fixture/index.html', 'utf8'),
+  /No deadline listed/,
 );
 assert.match(readFileSync('dist/search/index.html', 'utf8'), /noindex, nofollow/);
 assert.match(

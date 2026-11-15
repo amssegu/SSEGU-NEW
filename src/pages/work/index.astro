@@ -2,9 +2,16 @@
 import WorkLayout from '../../layouts/WorkLayout.astro';
 import WorkJobCard from '../../components/work/WorkJobCard.astro';
 import WorkQuickLinks from '../../components/work/WorkQuickLinks.astro';
-import { formatWorkDate, getPublishedWorkArticles, workJobs } from '../../lib/work';
+import {
+  formatWorkDate,
+  getJobFilterOptions,
+  getPublishedWorkArticles,
+  getPublishedWorkJobs,
+} from '../../lib/work';
 
-const latestJobs = workJobs.filter((job) => job.status === 'active').slice(0, 3);
+const allJobs = await getPublishedWorkJobs({ status: 'all' });
+const latestJobs = allJobs.filter((job) => job.status === 'active').slice(0, 3);
+const jobFilters = getJobFilterOptions(allJobs);
 const workArticles = await getPublishedWorkArticles();
 const featuredArticle = workArticles[0];
 const latestWorkArticles = workArticles.slice(0, 6);
@@ -40,8 +47,9 @@ const latestWorkArticles = workArticles.slice(0, 6);
         </label>
         <select id="hero-location" name="location">
           <option value="">All Locations</option>
-          <option value="Kampala">Kampala</option>
-          <option value="Remote">Remote</option>
+          {jobFilters.locations.map((location) => (
+            <option value={location}>{location}</option>
+          ))}
         </select>
         <button type="submit">Search</button>
       </form>

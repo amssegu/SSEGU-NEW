@@ -1,0 +1,33 @@
+---
+import type { WorkJob } from '../../lib/work';
+
+interface Props {
+  job: WorkJob;
+}
+
+const { job } = Astro.props;
+const canApply = job.status === 'active' && Boolean(job.applicationUrl);
+---
+
+{(job.sourceUrl || canApply) && (
+  <div class="work-job-source" aria-label="Job source and application">
+    {job.sourceUrl && (
+      <span>
+        Source:
+        <a href={job.sourceUrl} rel="noopener noreferrer" target="_blank">
+          {job.sourceAttribution || 'Original listing'}
+        </a>
+      </span>
+    )}
+    {canApply && (
+      <a
+        class="work-button work-button-small"
+        href={job.applicationUrl}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Apply on source
+      </a>
+    )}
+  </div>
+)}

@@ -453,6 +453,27 @@
   font-size: 0.76rem;
 }
 
+.work-job-source {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 0.75rem;
+  color: var(--work-muted);
+  font-size: 0.78rem;
+}
+
+.work-job-source a:not(.work-button) {
+  margin-left: 0.25rem;
+  color: var(--work-blue);
+  font-weight: 700;
+}
+
+.work-button-small {
+  padding: 0.4rem 0.65rem;
+  font-size: 0.76rem;
+}
+
 .work-status-badge {
   align-self: start;
   padding: 0.2rem 0.45rem;

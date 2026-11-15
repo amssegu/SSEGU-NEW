@@ -1,6 +1,7 @@
 ---
 import type { WorkJob } from '../../lib/work';
-import { formatWorkDate } from '../../lib/work';
+import { formatWorkDate, getWorkJobStatus, workJobStatusLabel } from '../../lib/work';
+import WorkJobSource from './WorkJobSource.astro';
 
 interface Props {
   job: WorkJob;
@@ -8,10 +9,15 @@ interface Props {
 }
 
 const { job, compact = false } = Astro.props;
+const displayStatus = getWorkJobStatus(job);
 ---
 
 <article
-  class:list={['work-job-card', compact && 'is-compact', job.status === 'expired' && 'is-expired']}
+  class:list={[
+    'work-job-card',
+    compact && 'is-compact',
+    displayStatus !== 'active' && 'is-expired',
+  ]}
 >
   <div class="work-job-icon" aria-hidden="true">
     ▣
@@ -25,8 +31,8 @@ const { job, compact = false } = Astro.props;
         </h3>
         <p class="work-job-employer">{job.employer}</p>
       </div>
-      <span class:list={['work-status-badge', job.status === 'expired' && 'is-expired']}>
-        {job.status === 'active' ? 'Active' : 'Expired'}
+      <span class:list={['work-status-badge', displayStatus !== 'active' && 'is-expired']}>
+        {workJobStatusLabel(displayStatus)}
       </span>
     </div>
     {!compact && <p class="work-job-description">{job.description}</p>}
@@ -35,6 +41,7 @@ const { job, compact = false } = Astro.props;
       <span>▣ {job.arrangement}</span>
       <span>Deadline: {formatWorkDate(job.deadline)}</span>
     </div>
+    {!compact && <WorkJobSource job={job} />}
   </div>
   <a class="work-job-arrow" href={`/work/jobs/${job.slug}/`} aria-label={`View ${job.title}`}>
     <span aria-hidden="true">→</span>

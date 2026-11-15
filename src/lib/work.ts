@@ -4,14 +4,14 @@ import { referenceId } from './content';
 import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-export type WorkStatus = 'active' | 'expired';
+export type WorkStatus = 'active' | 'expired' | 'withdrawn' | 'unverified';
 
 export interface WorkJob {
   slug: string;
   title: string;
   employer: string;
   location: string;
-  deadline: string;
+  deadline?: string;
   employmentType: 'Full-time' | 'Part-time' | 'Contract' | 'Internship';
   arrangement: 'On-site' | 'Hybrid' | 'Remote';
   status: WorkStatus;
@@ -32,8 +32,27 @@ export function isEligibleWorkJob(job: WorkJob, today = new Date()) {
   return !job.deadline || job.deadline >= todayValue;
 }
 
+export function workJobStatusLabel(status: WorkStatus) {
+  return {
+    active: 'Active',
+    expired: 'Expired',
+    withdrawn: 'Withdrawn',
+    unverified: 'Unverified',
+  }[status];
+}
+
+export function getWorkJobStatus(job: WorkJob, today = new Date()): WorkStatus {
+  return job.status === 'active' && !isEligibleWorkJob(job, today) ? 'expired' : job.status;
+}
+
 export function jobPostingJsonLd(job: WorkJob) {
-  if (job.prohibitJobpostingSchema || !isEligibleWorkJob(job)) return undefined;
+  if (
+    job.prohibitJobpostingSchema ||
+    job.sourcePermission === 'permission_required' ||
+    !job.deadline ||
+    !isEligibleWorkJob(job)
+  )
+    return undefined;
   const employmentType = job.employmentType.toUpperCase().replace('-', '_');
   return {
     '@context': 'https://schema.org',
@@ -272,7 +291,7 @@ function fromImportedJob(record: GeneratedJobRecord): WorkJob | undefined {
   )
     return undefined;
   if (
-    !['active', 'expired'].includes(record.status ?? '') ||
+    !['active', 'expired', 'withdrawn', 'unverified'].includes(record.status ?? '') ||
     record.permissionType === 'permission_required'
   )
     return undefined;
@@ -284,7 +303,7 @@ function fromImportedJob(record: GeneratedJobRecord): WorkJob | undefined {
     deadline: record.deadlineAt?.slice(0, 10) ?? '',
     employmentType: importedEmploymentType(record.employmentType),
     arrangement: importedArrangement(record.workMode),
-    status: record.status === 'expired' ? 'expired' : 'active',
+    status: (record.status ?? 'unverified') as WorkStatus,
     description: record.permittedExcerpt ?? '',
     category: record.category ?? 'Uncategorised',
     origin: 'imported',
@@ -400,6 +419,41 @@ const fixtureWorkJobs: WorkJob[] = [
     status: 'expired',
     description: 'A fixture listing retained to demonstrate expired-vacancy filtering behavior.',
     category: 'Graduate programme',
+  },
+  {
+    slug: 'communications-officer-withdrawn-fixture',
+    title: 'Communications Officer',
+    employer: 'SSEGU Work fixture partner',
+    location: 'Jinja',
+    deadline: '2026-12-01',
+    employmentType: 'Full-time',
+    arrangement: 'Hybrid',
+    status: 'withdrawn',
+    description: 'A withdrawn fixture listing retained to verify stable detail URLs.',
+    category: 'Communications',
+  },
+  {
+    slug: 'project-assistant-unverified-fixture',
+    title: 'Project Assistant',
+    employer: 'SSEGU Work fixture partner',
+    location: 'Gulu',
+    deadline: '2026-12-03',
+    employmentType: 'Contract',
+    arrangement: 'On-site',
+    status: 'unverified',
+    description: 'An unverified fixture listing retained to verify safe presentation.',
+    category: 'Operations',
+  },
+  {
+    slug: 'community-liaison-missing-deadline-fixture',
+    title: 'Community Liaison',
+    employer: 'SSEGU Work fixture partner',
+    location: 'Mbarara',
+    employmentType: 'Part-time',
+    arrangement: 'Remote',
+    status: 'active',
+    description: 'An active fixture listing with no published deadline.',
+    category: 'Community',
   },
 ];
 
@@ -556,15 +610,19 @@ function fromEditorialCourseEntry(entry: CollectionEntry<'courses'>): WorkCourse
 let cachedPublishedWorkJobs: WorkJob[] | undefined;
 let cachedPublishedWorkCourses: WorkCourse[] | undefined;
 
-export async function getPublishedWorkJobs() {
+export async function getPublishedWorkJobs(options: { status?: WorkStatus | 'all' } = {}) {
   if (cachedPublishedWorkJobs) return cachedPublishedWorkJobs;
   const editorial = (await getCollection('jobs'))
     .filter(({ data }) => data.status === 'published' || data.status === 'expired')
     .map(fromEditorialJobEntry);
-  cachedPublishedWorkJobs = mergeBySlug(generatedWorkJobs, editorial, fixtureWorkJobs).filter(
-    (job) => isPublishableWorkJob(job),
+  cachedPublishedWorkJobs = mergeBySlug(generatedWorkJobs, editorial, fixtureWorkJobs);
+  const requestedStatus = options.status ?? 'active';
+  if (requestedStatus === 'all') return cachedPublishedWorkJobs;
+  return cachedPublishedWorkJobs.filter((job) =>
+    requestedStatus === 'expired'
+      ? job.status === 'expired' || (job.status === 'active' && !isEligibleWorkJob(job))
+      : isPublishableWorkJob(job),
   );
-  return cachedPublishedWorkJobs;
 }
 
 export async function getPublishedWorkCourses() {
@@ -581,7 +639,7 @@ export async function getPublishedWorkCourses() {
 }
 
 export async function getWorkJobBySlug(slug: string) {
-  return (await getPublishedWorkJobs()).find((job) => job.slug === slug);
+  return (await getPublishedWorkJobs({ status: 'all' })).find((job) => job.slug === slug);
 }
 
 export async function getWorkCourseBySlug(slug: string) {
@@ -596,6 +654,21 @@ export function getJobFilterOptions(jobs: WorkJob[] = workJobs) {
     arrangements: unique(jobs.map((job) => job.arrangement)),
     categories: unique(jobs.map((job) => job.category)),
     statuses: unique(jobs.map((job) => job.status)),
+  };
+}
+
+export function toWorkJobClientData(job: WorkJob) {
+  return {
+    slug: job.slug,
+    title: job.title,
+    employer: job.employer,
+    location: job.location,
+    deadline: job.deadline ?? '',
+    employmentType: job.employmentType,
+    arrangement: job.arrangement,
+    status: getWorkJobStatus(job),
+    description: job.description,
+    category: job.category,
   };
 }
 
@@ -657,7 +730,8 @@ export const internships = [
   },
 ];
 
-export function formatWorkDate(date: string) {
+export function formatWorkDate(date?: string) {
+  if (!date) return 'No deadline listed';
   return new Intl.DateTimeFormat('en-UG', { dateStyle: 'medium' }).format(
     new Date(`${date}T12:00:00Z`),
   );

@@ -1,7 +1,12 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import WorkJobCard from '../../../components/work/WorkJobCard.astro';
-import { workJobs } from '../../../lib/work';
+import { getJobFilterOptions, getPublishedWorkJobs, toWorkJobClientData } from '../../../lib/work';
+
+const allJobs = await getPublishedWorkJobs({ status: 'all' });
+const activeJobs = await getPublishedWorkJobs();
+const jobFilters = getJobFilterOptions(allJobs);
+const clientJobs = allJobs.slice(0, 100).map(toWorkJobClientData);
 ---
 
 <WorkLayout
@@ -31,27 +36,27 @@ import { workJobs } from '../../../lib/work';
           <label for="job-location">Location</label>
           <select id="job-location" name="location">
             <option value="">All locations</option>
-            <option value="Kampala">Kampala</option>
-            <option value="Remote">Remote</option>
+            {jobFilters.locations.map((option) => (
+              <option value={option}>{option}</option>
+            ))}
           </select>
         </div>
         <div>
           <label for="job-type">Employment type</label>
           <select id="job-type" name="type">
             <option value="">All types</option>
-            <option>Full-time</option>
-            <option>Part-time</option>
-            <option>Contract</option>
-            <option>Internship</option>
+            {jobFilters.employmentTypes.map((option) => (
+              <option value={option}>{option}</option>
+            ))}
           </select>
         </div>
         <div>
           <label for="job-arrangement">Work arrangement</label>
           <select id="job-arrangement" name="arrangement">
             <option value="">All arrangements</option>
-            <option>On-site</option>
-            <option>Hybrid</option>
-            <option>Remote</option>
+            {jobFilters.arrangements.map((option) => (
+              <option value={option}>{option}</option>
+            ))}
           </select>
         </div>
         <div>
@@ -74,7 +79,7 @@ import { workJobs } from '../../../lib/work';
     </form>
     <p id="job-filter-status" class="work-results-status" role="status" aria-live="polite"></p>
     <div id="job-results" class="work-job-results" data-testid="work-job-results">
-      {workJobs.map((job) => (
+      {activeJobs.map((job) => (
         <WorkJobCard job={job} />
       ))}
     </div>
@@ -82,7 +87,7 @@ import { workJobs } from '../../../lib/work';
       No opportunities match those filters. Try a wider search or browse all listings.
     </p>
   </div>
-  <script define:vars={{ jobs: workJobs }} is:inline>
+  <script define:vars={{ jobs: clientJobs }} is:inline>
     const form = document.querySelector('#work-job-filters');
     const results = document.querySelector('#job-results');
     const status = document.querySelector('#job-filter-status');
@@ -114,16 +119,16 @@ import { workJobs } from '../../../lib/work';
           })[character],
       );
     const renderJob = (job) => `
-      <article class="work-job-card${job.status === 'expired' ? ' is-expired' : ''}">
+        <article class="work-job-card${job.status !== 'active' ? ' is-expired' : ''}">
         <div class="work-job-icon" aria-hidden="true">▣</div>
         <div class="work-job-content">
           <div class="work-job-heading"><div>
             <p class="work-card-kicker">${escapeHtml(job.category)}</p>
             <h3><a href="/work/jobs/${escapeHtml(job.slug)}/">${escapeHtml(job.title)}</a></h3>
             <p class="work-job-employer">${escapeHtml(job.employer)}</p>
-          </div><span class="work-status-badge${job.status === 'expired' ? ' is-expired' : ''}">${job.status === 'active' ? 'Active' : 'Expired'}</span></div>
+          </div><span class="work-status-badge${job.status !== 'active' ? ' is-expired' : ''}">${job.status === 'active' ? 'Active' : job.status[0].toUpperCase() + job.status.slice(1)}</span></div>
           <p class="work-job-description">${escapeHtml(job.description)}</p>
-          <div class="work-job-meta"><span>⌖ ${escapeHtml(job.location)}</span><span>▣ ${escapeHtml(job.arrangement)}</span><span>Deadline: ${dateFormatter.format(new Date(`${job.deadline}T12:00:00Z`))}</span></div>
+        <div class="work-job-meta"><span>⌖ ${escapeHtml(job.location)}</span><span>▣ ${escapeHtml(job.arrangement)}</span><span>Deadline: ${job.deadline ? dateFormatter.format(new Date(`${job.deadline}T12:00:00Z`)) : 'No deadline listed'}</span></div>
         </div>
         <a class="work-job-arrow" href="/work/jobs/${escapeHtml(job.slug)}/" aria-label="View ${escapeHtml(job.title)}"><span aria-hidden="true">→</span></a>
       </article>`;
