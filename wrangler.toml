@@ -8,6 +8,11 @@ database_name = "ssegu-job-submissions-production"
 database_id = "87fe7aaa-a7b0-4c60-a10a-dc88f0b63004"
 migrations_dir = "migrations/d1"
 
+[[d1_databases]]
+binding = "WORK_AGGREGATION_DB"
+database_name = "ssegu-work-aggregation-production"
+database_id = "46a7ddbe-cd84-42fb-b4d6-bb5f5a4a137b"
+
 [[kv_namespaces]]
 binding = "RATE_LIMIT_KV"
 id = "073f7618c2fe43678738b787460bfd4c"

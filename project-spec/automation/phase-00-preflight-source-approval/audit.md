@@ -49,9 +49,11 @@ continuing project in Phase 00.
   table.
 - `functions/api/job-submissions.ts` uses `JOB_SUBMISSIONS_DB`,
   `RATE_LIMIT_KV`, and `TURNSTILE_SECRET_KEY`.
-- There is no aggregation D1 binding or aggregation migration.
-- Phase 00 therefore leaves all existing submission bindings, migrations,
-  functions, routes and data contracts untouched.
+- `WORK_AGGREGATION_DB` now points to the separately provisioned
+  `ssegu-work-aggregation-production` database. Its schema is documented in
+  the Phase 01 remote-database record.
+- Phase 00/01 leave all existing submission bindings, migrations, functions,
+  routes and data contracts untouched.
 
 ## Baseline commands
 

@@ -12,6 +12,7 @@
     "format:check": "prettier --check src scripts astro.config.mjs",
     "lint": "prettier --check src scripts astro.config.mjs",
     "test": "node scripts/test.mjs",
+    "test:migration": "bash scripts/test-work-aggregation-migration.sh",
     "test:security": "node --experimental-strip-types scripts/phase9-security-test.mjs",
     "test:e2e": "node scripts/smoke-test.mjs",
     "validate:content": "node scripts/validate-content.mjs",
