@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "id": 301,
+      "fields": {
+        "title": "Redacted Humanitarian Role",
+        "url": "https://reliefweb.int/job/301",
+        "source": { "name": "Redacted Publisher" },
+        "country": "Uganda",
+        "date": { "created": "2026-11-15T00:00:00Z" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "jobs": [
+    {
+      "guid": "him-401",
+      "url": "https://himalayas.app/jobs/401",
+      "applicationLink": "https://himalayas.app/jobs/401/apply",
+      "title": "Redacted Remote Role",
+      "companyName": "Redacted Remote Employer",
+      "location": "Worldwide",
+      "expiryDate": "2026-12-31",
+      "salary": "USD 80,000",
+      "salaryPeriod": "year"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "jobs": [
+    {
+      "id": "yub-201",
+      "url": "https://jobs.example.org/redacted-role",
+      "title": "Redacted Operations Role",
+      "company": "Redacted Employer",
+      "location": "East Africa",
+      "category": "Operations",
+      "publishedAt": "2026-11-15T00:00:00Z"
+    }
+  ]
+}

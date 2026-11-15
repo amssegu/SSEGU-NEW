@@ -39,7 +39,10 @@ async function readBoundedBody(response: Response, maxBytes: number) {
   }
 }
 
-export async function fetchBounded(url: string, options: HttpOptions = {}): Promise<HttpFetchResult> {
+export async function fetchBounded(
+  url: string,
+  options: HttpOptions = {},
+): Promise<HttpFetchResult> {
   const timeoutMs = options.timeoutMs ?? 10_000;
   const maxBytes = options.maxBytes ?? 512_000;
   const retries = Math.max(0, Math.min(options.retries ?? 2, 3));
@@ -51,12 +54,16 @@ export async function fetchBounded(url: string, options: HttpOptions = {}): Prom
     const timer = setTimeout(() => controller.abort(), timeoutMs);
     try {
       const response = await fetchImpl(url, {
-        headers: { accept: 'application/json, application/rss+xml, text/xml', 'user-agent': options.userAgent ?? 'SSEGU-Aggregation/1.0' },
+        headers: {
+          accept: 'application/json, application/rss+xml, text/xml',
+          'user-agent': options.userAgent ?? 'SSEGU-Aggregation/1.0',
+        },
         signal: controller.signal,
       });
       if (!response.ok) {
         lastReason = `HTTP ${response.status}`;
-        if (response.status < 500 && response.status !== 429) return { kind: 'failed', reason: lastReason, retryable: false };
+        if (response.status < 500 && response.status !== 429)
+          return { kind: 'failed', reason: lastReason, retryable: false };
       } else {
         const body = await readBoundedBody(response, maxBytes);
         if (body === undefined) {

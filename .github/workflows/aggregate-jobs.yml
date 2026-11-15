@@ -1,0 +1,53 @@
+name: Aggregate approved jobs
+
+on:
+  schedule:
+    - cron: '15 3 * * *'
+    - cron: '15 15 * * *'
+  workflow_dispatch:
+    inputs:
+      report_only:
+        description: 'Exceptional manual rehearsal; do not enable live writes'
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: aggregate-jobs-production
+  cancel-in-progress: false
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run report-only source pass
+        env:
+          AGGREGATION_REPORT_ONLY: 'true'
+        run: node --experimental-strip-types scripts/aggregate-jobs-report.mjs
+
+      - name: Upload per-source report
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobs-aggregation-report-${{ github.run_id }}
+          path: ${{ runner.temp }}/ssegu-jobs-aggregation-report.json
+          if-no-files-found: error
+
+      # A later approved enablement change must set the D1 binding and compare
+      # the generated manifest before allowing one batch build/deploy. This
+      # workflow intentionally performs no deployment while sources are gated.

@@ -8,7 +8,11 @@ export function deduplicateJobs(jobs: NormalizedJob[]) {
   const duplicates: NormalizedJob[] = [];
   for (const job of jobs) {
     const fingerprint = `${job.title.toLowerCase()}|${job.employer.toLowerCase()}|${job.location.toLowerCase()}|${job.deadlineAt ?? ''}`;
-    if (seenIds.has(job.id) || seenUrls.has(job.canonicalUrl) || seenFingerprints.has(fingerprint)) {
+    if (
+      seenIds.has(job.id) ||
+      seenUrls.has(job.canonicalUrl) ||
+      seenFingerprints.has(fingerprint)
+    ) {
       duplicates.push(job);
       continue;
     }

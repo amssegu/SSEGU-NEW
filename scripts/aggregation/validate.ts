@@ -6,8 +6,12 @@ export function validateJob(job: NormalizedJob, source: SourceConfig): string[] 
   if (!job.sourceRecordId) errors.push('missing source record ID');
   if (!job.canonicalUrl.startsWith('https://')) errors.push('canonical URL must be HTTPS');
   if (!job.title || !job.employer || !job.location) errors.push('missing required display field');
-  if (source.restrictions.mustUseSourceApplicationLink && !job.applicationUrl) errors.push('source application link required');
-  if (source.permissionClass === 'permission_required') errors.push('source permission is not approved');
+  if (source.restrictions.mustUseSourceApplicationLink && !job.applicationUrl)
+    errors.push('source application link required');
+  if (source.restrictions.requiresAppname && !source.appName)
+    errors.push('approved appname required');
+  if (source.permissionClass === 'permission_required')
+    errors.push('source permission is not approved');
   return errors;
 }
 
@@ -17,7 +21,12 @@ export function quarantineInvalidJobs(jobs: NormalizedJob[], source: SourceConfi
   for (const job of jobs) {
     const errors = validateJob(job, source);
     if (errors.length) {
-      quarantined.push({ sourceId: source.id, sourceRecordId: job.sourceRecordId, reason: errors.join('; '), record: job });
+      quarantined.push({
+        sourceId: source.id,
+        sourceRecordId: job.sourceRecordId,
+        reason: errors.join('; '),
+        record: job,
+      });
     } else accepted.push(job);
   }
   return { accepted, quarantined };

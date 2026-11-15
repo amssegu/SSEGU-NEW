@@ -16,7 +16,11 @@ export const JUBAJOBS_SOURCE: SourceConfig = {
 };
 
 export function parseJubaJobsPayload(payload: unknown): AdapterResult {
-  if (!payload || typeof payload !== 'object' || !Array.isArray((payload as { items?: unknown }).items)) {
+  if (
+    !payload ||
+    typeof payload !== 'object' ||
+    !Array.isArray((payload as { items?: unknown }).items)
+  ) {
     return { outcome: 'malformed', records: [], error: 'expected JSON object with items array' };
   }
   const items = (payload as { items: unknown[] }).items;
@@ -26,7 +30,13 @@ export function parseJubaJobsPayload(payload: unknown): AdapterResult {
     if (!item || typeof item !== 'object') continue;
     const row = item as Record<string, unknown>;
     if (typeof row.id !== 'number' && typeof row.id !== 'string') continue;
-    if (typeof row.url !== 'string' || typeof row.title !== 'string' || typeof row.organization !== 'string' || typeof row.location !== 'string') continue;
+    if (
+      typeof row.url !== 'string' ||
+      typeof row.title !== 'string' ||
+      typeof row.organization !== 'string' ||
+      typeof row.location !== 'string'
+    )
+      continue;
     records.push({
       sourceRecordId: row.id,
       canonicalUrl: row.url,
@@ -41,5 +51,9 @@ export function parseJubaJobsPayload(payload: unknown): AdapterResult {
   }
   return records.length === items.length
     ? { outcome: 'success', records }
-    : { outcome: 'malformed', records, error: 'one or more items failed the required JubaJobs shape' };
+    : {
+        outcome: 'malformed',
+        records,
+        error: 'one or more items failed the required JubaJobs shape',
+      };
 }

@@ -27,7 +27,12 @@ export interface WorkJob {
 }
 
 export function isEligibleWorkJob(job: WorkJob, today = new Date()) {
-  if (job.status !== 'active') return false;
+  if (
+    job.status !== 'active' ||
+    job.sourcePermission === 'permission_required' ||
+    job.prohibitJobpostingSchema
+  )
+    return false;
   const todayValue = today.toISOString().slice(0, 10);
   return !job.deadline || job.deadline >= todayValue;
 }

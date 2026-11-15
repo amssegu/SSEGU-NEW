@@ -31,6 +31,7 @@ export interface SourceConfig {
   restrictions: SourceRestrictions;
   allowedHostnames: string[];
   minimumIntervalMs: number;
+  appName?: string;
 }
 
 export interface RawJobRecord {
@@ -45,6 +46,9 @@ export interface RawJobRecord {
   permittedExcerpt?: string | null;
   publishedAt?: string | null;
   deadlineAt?: string | null;
+  salaryText?: string | null;
+  salaryCurrency?: string | null;
+  salaryPeriod?: NormalizedJob['salaryPeriod'];
 }
 
 export interface NormalizedJob {
@@ -72,6 +76,7 @@ export interface NormalizedJob {
   status: JobStatus;
   permissionType: SourcePermission;
   contentHash: string;
+  prohibitJobpostingSchema?: boolean;
 }
 
 export interface AdapterResult {
@@ -95,4 +100,9 @@ export interface RunSummary {
   rejectedCount: number;
   quarantined: QuarantineRecord[];
   errorSummary?: string;
+}
+
+export interface JobAdapter {
+  parse(payload: unknown): AdapterResult;
+  normalize(raw: RawJobRecord, source: SourceConfig, now: string): NormalizedJob;
 }

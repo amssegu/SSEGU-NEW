@@ -2,7 +2,8 @@ import type { SourceConfig } from './types.ts';
 
 export function canFetchSource(source: SourceConfig, lastRunAt?: string, now = new Date()) {
   if (!source.enabled) return { allowed: false, reason: 'source disabled' };
-  if (source.permissionClass === 'permission_required') return { allowed: false, reason: 'permission required' };
+  if (source.permissionClass === 'permission_required')
+    return { allowed: false, reason: 'permission required' };
   if (lastRunAt && now.valueOf() - new Date(lastRunAt).valueOf() < source.minimumIntervalMs) {
     return { allowed: false, reason: 'refresh interval has not elapsed' };
   }
@@ -21,7 +22,11 @@ export function canRunCoursesThisWeek(previousSuccessfulRuns: string[], now = ne
   return previousSuccessfulRuns.filter((value) => new Date(value) >= date).length < 2;
 }
 
-export function mayExpireAfterSuccessfulObservation(status: string, deadlineAt?: string, today = new Date()) {
+export function mayExpireAfterSuccessfulObservation(
+  status: string,
+  deadlineAt?: string,
+  today = new Date(),
+) {
   if (status !== 'active' || !deadlineAt) return false;
   return deadlineAt < today.toISOString().slice(0, 10);
 }
