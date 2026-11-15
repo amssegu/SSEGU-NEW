@@ -44,7 +44,10 @@ export async function runJobs({
       quarantined: [],
       errorSummary: permission.reason,
     });
-  const response = await fetchBounded(source.endpointUrl, { fetchImpl });
+  const response = await fetchBounded(source.endpointUrl, {
+    fetchImpl,
+    maxBytes: source.maxResponseBytes,
+  });
   if (response.kind === 'failed')
     return finish({
       sourceId: source.id,
@@ -59,15 +62,7 @@ export async function runJobs({
   try {
     payload = JSON.parse(response.body);
   } catch {
-    return finish({
-      sourceId: source.id,
-      outcome: 'failed',
-      fetchedCount: 0,
-      acceptedCount: 0,
-      rejectedCount: 0,
-      quarantined: [],
-      errorSummary: 'response was not valid JSON',
-    });
+    payload = response.body;
   }
   const parsed = adapter.parse(payload);
   if (parsed.outcome === 'empty')
@@ -115,10 +110,16 @@ export async function runJobs({
   };
   if (db) {
     const runId = `${source.id}:${now.toISOString()}`;
+    await recordIngestionRun(
+      db,
+      summary,
+      now.toISOString(),
+      new Date(now.valueOf() + 1).toISOString(),
+    );
     for (const job of deduped.unique) {
       await upsertJob(db, job, now.toISOString()).run();
       await recordStatusHistory(db, job, runId, 'successful observation').run();
     }
   }
-  return finish(summary);
+  return summary;
 }

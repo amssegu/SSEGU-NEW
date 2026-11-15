@@ -8,12 +8,13 @@ export const REMOTE_OK_SOURCE: SourceConfig = {
   sourceType: 'jobs_api',
   endpointUrl: 'https://remoteok.com/api',
   termsUrl: 'https://remoteok.com/faq',
-  permissionClass: 'permission_required',
+  permissionClass: 'redistribute_with_attribution',
   attributionText: 'Jobs via Remote OK. View the original listing before applying.',
-  enabled: false,
+  enabled: true,
   restrictions: { manualReviewRequired: true },
   allowedHostnames: ['remoteok.com'],
   minimumIntervalMs: 12 * 60 * 60 * 1_000,
+  maxResponseBytes: 4 * 1024 * 1024,
 };
 
 export function parseRemoteOkPayload(payload: unknown): AdapterResult {

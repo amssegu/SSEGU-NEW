@@ -25,7 +25,10 @@ not create a Pages project, change the production branch, add a Wrangler deploy
 step, or add a second deployment owner. The repository's `wrangler.toml` and
 existing CI workflow are treated as inherited project evidence; the active
 Cloudflare dashboard settings remain operational ownership outside this
-checkout and are not changed by the automation work.
+checkout and are not changed by the automation work. The project owner has
+confirmed that Cloudflare remains the sole production deployment owner;
+GitHub Actions may perform scheduled aggregation and read/write the dedicated
+aggregation D1, but must not deploy Pages.
 
 Before any future prompt adds a deployment workflow, the project owner should
 confirm the current Pages Git/Actions arrangement in the release record. That
@@ -85,6 +88,9 @@ reproduces it; it is not a current failure signal.
 ## Audit conclusion
 
 Local fixture-only development is safe and needs no production D1 credentials.
+The project owner has separately authorized the scheduled automation to read
+and write `WORK_AGGREGATION_DB`; credentials must remain in the runtime secret
+store and must never be committed or logged.
 Source permission evidence is recorded separately. Phase 00 records the
 deployment project as inherited and does not authorize scheduled ingestion or
 deployment changes.

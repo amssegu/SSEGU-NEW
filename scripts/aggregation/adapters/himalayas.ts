@@ -8,9 +8,9 @@ export const HIMALAYAS_SOURCE: SourceConfig = {
   sourceType: 'jobs_api',
   endpointUrl: 'https://himalayas.app/jobs/api?limit=20',
   termsUrl: 'https://himalayas.app/terms',
-  permissionClass: 'permission_required',
+  permissionClass: 'metadata_only',
   attributionText: 'Jobs via Himalayas. Apply through the original Himalayas application link.',
-  enabled: false,
+  enabled: true,
   restrictions: {
     mustUseSourceApplicationLink: true,
     prohibitJobpostingSchema: true,
@@ -37,23 +37,34 @@ export function parseHimalayasPayload(payload: unknown): AdapterResult {
       (typeof id !== 'string' && typeof id !== 'number') ||
       typeof row.title !== 'string' ||
       typeof row.applicationLink !== 'string' ||
-      typeof row.url !== 'string'
+      typeof row.url !== 'string' &&
+      typeof row.guid !== 'string'
     )
       continue;
     records.push({
       sourceRecordId: id,
-      canonicalUrl: row.url,
+      canonicalUrl: typeof row.url === 'string' ? row.url : row.guid,
       applicationUrl: row.applicationLink,
       title: row.title,
       employer: typeof row.companyName === 'string' ? row.companyName : 'Himalayas employer',
       location: typeof row.location === 'string' ? row.location : 'Remote',
       category: 'Remote work',
-      deadlineAt: typeof row.expiryDate === 'string' ? row.expiryDate.slice(0, 10) : null,
-      salaryText: typeof row.salary === 'string' ? row.salary : null,
+      deadlineAt:
+        typeof row.expiryDate === 'string'
+          ? row.expiryDate.slice(0, 10)
+          : typeof row.expiryDate === 'number'
+            ? new Date(row.expiryDate * 1_000).toISOString().slice(0, 10)
+            : null,
+      salaryText:
+        typeof row.minSalary === 'number' || typeof row.maxSalary === 'number'
+          ? `${row.minSalary ?? ''}-${row.maxSalary ?? ''} ${typeof row.currency === 'string' ? row.currency : ''}`.trim()
+          : typeof row.salary === 'string'
+            ? row.salary
+            : null,
       salaryPeriod:
         typeof row.salaryPeriod === 'string' &&
-        ['hour', 'day', 'week', 'month', 'year', 'one_off'].includes(row.salaryPeriod)
-          ? (row.salaryPeriod as RawJobRecord['salaryPeriod'])
+        ['hour', 'day', 'week', 'month', 'year', 'one_off', 'annual'].includes(row.salaryPeriod)
+          ? (row.salaryPeriod === 'annual' ? 'year' : row.salaryPeriod) as RawJobRecord['salaryPeriod']
           : 'unknown',
     });
   }

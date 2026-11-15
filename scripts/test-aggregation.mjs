@@ -24,7 +24,7 @@ const partial = JSON.parse(
   readFileSync('project-spec/content-fixtures/aggregation/jubajobs-jobs-partial.json', 'utf8'),
 );
 
-assert.equal(JUBAJOBS_SOURCE.enabled, false);
+assert.equal(JUBAJOBS_SOURCE.enabled, true);
 assert.equal(JUBAJOBS_SOURCE.endpointUrl, 'https://jubajobs.com/feed/jobs?format=json');
 assert.equal(parseJubaJobsPayload(valid).outcome, 'success');
 assert.equal(parseJubaJobsPayload(valid).records.length, 2);
@@ -38,18 +38,23 @@ const remoteFixture = JSON.parse(
 const yubhubFixture = JSON.parse(
   readFileSync('project-spec/content-fixtures/aggregation/yubhub-jobs-valid.json', 'utf8'),
 );
+const yubhubRssFixture = readFileSync(
+  'project-spec/content-fixtures/aggregation/yubhub-operations-valid.rss',
+  'utf8',
+);
 const reliefwebFixture = JSON.parse(
   readFileSync('project-spec/content-fixtures/aggregation/reliefweb-jobs-valid.json', 'utf8'),
 );
 const himalaysFixture = JSON.parse(
   readFileSync('project-spec/content-fixtures/aggregation/himalayas-jobs-valid.json', 'utf8'),
 );
-assert.equal(REMOTE_OK_SOURCE.enabled, false);
-assert.equal(YUBHUB_SOURCE.enabled, false);
+assert.equal(REMOTE_OK_SOURCE.enabled, true);
+assert.equal(YUBHUB_SOURCE.enabled, true);
 assert.equal(RELIEFWEB_SOURCE.enabled, false);
-assert.equal(HIMALAYAS_SOURCE.enabled, false);
+assert.equal(HIMALAYAS_SOURCE.enabled, true);
 assert.equal(REMOTE_OK_ADAPTER.parse(remoteFixture).records.length, 1);
 assert.equal(YUBHUB_ADAPTER.parse(yubhubFixture).records.length, 1);
+assert.equal(YUBHUB_ADAPTER.parse(yubhubRssFixture).records.length, 1);
 assert.equal(RELIEFWEB_ADAPTER.parse(reliefwebFixture).records.length, 1);
 const himalaysRecord = HIMALAYAS_ADAPTER.parse(himalaysFixture).records[0];
 assert.equal(himalaysRecord.applicationUrl, 'https://himalayas.app/jobs/401/apply');
@@ -82,6 +87,8 @@ assert.match(workflow, /15 3 \* \* \*/);
 assert.match(workflow, /15 15 \* \* \*/);
 assert.match(workflow, /concurrency:/);
 assert.match(workflow, /AGGREGATION_REPORT_ONLY/);
+assert.match(workflow, /CLOUDFLARE_PAGES_API_TOKEN/);
+assert.match(workflow, /pages deploy dist --project-name ssegu-new/);
 
 assert.equal(canonicalHttpsUrl('http://example.com/job'), undefined);
 assert.equal(canonicalHttpsUrl('https://example.com/job/#fragment'), 'https://example.com/job');
@@ -107,7 +114,7 @@ assert.throws(
 
 const duplicate = { ...normalized };
 assert.equal(deduplicateJobs([normalized, duplicate]).unique.length, 1);
-assert.equal(canFetchSource(JUBAJOBS_SOURCE).allowed, false);
+assert.equal(canFetchSource(JUBAJOBS_SOURCE).allowed, true);
 assert.equal(
   canRunJobsToday(
     ['2026-11-15T03:00:00Z', '2026-11-15T15:00:00Z'],
@@ -145,7 +152,7 @@ assert.equal(oversized.kind, 'failed');
 
 let fetchCount = 0;
 const disabledRun = await runJobs({
-  source: JUBAJOBS_SOURCE,
+  source: { ...JUBAJOBS_SOURCE, enabled: false },
   fetchImpl: async () => {
     fetchCount += 1;
     return new Response('{}');
@@ -173,8 +180,9 @@ const successfulRun = await runJobs({
 });
 assert.equal(successfulRun.acceptedCount, 2);
 assert.equal(dbCalls.length, 5);
-assert.match(dbCalls[0].query, /ON CONFLICT\(source_id, source_record_id\)/);
-assert.match(dbCalls[0].query, /COALESCE\(excluded\.application_url/);
+const upsertCall = dbCalls.find(({ query }) => /ON CONFLICT\(source_id, source_record_id\)/.test(query));
+assert.ok(upsertCall);
+assert.match(upsertCall.query, /COALESCE\(excluded\.application_url/);
 
 const jobWithChangedTitle = normalizeJubaJob(
   { ...parseJubaJobsPayload(valid).records[0], title: 'Country Director Updated' },

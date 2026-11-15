@@ -31,6 +31,7 @@ export interface SourceConfig {
   restrictions: SourceRestrictions;
   allowedHostnames: string[];
   minimumIntervalMs: number;
+  maxResponseBytes?: number;
   appName?: string;
 }
 

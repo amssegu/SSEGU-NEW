@@ -9,7 +9,7 @@ export const JUBAJOBS_SOURCE: SourceConfig = {
   termsUrl: 'https://jubajobs.com/partners',
   permissionClass: 'redistribute_with_attribution',
   attributionText: 'Listings gathered by JubaJobs. Link back to the listing when you reuse it.',
-  enabled: false,
+  enabled: true,
   restrictions: { removeWhenExpired: true, manualReviewRequired: true },
   allowedHostnames: ['jubajobs.com'],
   minimumIntervalMs: 12 * 60 * 60 * 1_000,

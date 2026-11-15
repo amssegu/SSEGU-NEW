@@ -16,7 +16,12 @@ export const JOB_SOURCE_REGISTRY = [
   { source: HIMALAYAS_SOURCE, adapter: HIMALAYAS_ADAPTER },
 ] as const;
 
-export const APPROVED_JOB_SOURCE_IDS = new Set(['jubajobs-jobs']);
+export const APPROVED_JOB_SOURCE_IDS = new Set([
+  'jubajobs-jobs',
+  'yubhub-jobs',
+  'remoteok-jobs',
+  'himalayas-jobs',
+]);
 
 export function getApprovedJobSources() {
   return JOB_SOURCE_REGISTRY.filter(({ source }) => APPROVED_JOB_SOURCE_IDS.has(source.id));

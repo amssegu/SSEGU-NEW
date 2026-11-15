@@ -7,7 +7,7 @@ do not import them.
 `JUBAJOBS_SOURCE` uses the observed JSON endpoint
 `https://jubajobs.com/feed/jobs?format=json`. The project owner has approved
 factual metadata redistribution with attribution, but the source remains
-`enabled: false` until the controlled Phase 05 scheduling/enablement gate. The
+`enabled: true` for the controlled Phase 05 schedule. The
 adapter handles jobs only; JubaJobs tenders,
 scholarships and training feeds are intentionally out of scope.
 
@@ -17,5 +17,7 @@ Run the deterministic suite with:
 npm run test:aggregation
 ```
 
-No live source fetch, scheduled workflow, or production ingestion run is
-enabled by Phase 2.
+The Phase 05 workflow may fetch the four approved sources and write only to the
+separate `WORK_AGGREGATION_DB` D1 binding. ReliefWeb remains disabled until its
+`appname` is approved. Cloudflare Pages remains the sole production deployment
+owner; the scheduled workflow must not add a competing Pages deployment.
