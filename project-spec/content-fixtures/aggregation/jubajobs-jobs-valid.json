@@ -1,0 +1,29 @@
+{
+  "title": "JubaJobs – new jobs in South Sudan",
+  "home_page_url": "https://jubajobs.com",
+  "attribution": "Listings gathered by JubaJobs. Link back to the listing when you reuse it.",
+  "items": [
+    {
+      "id": 366,
+      "url": "https://jubajobs.com/listings/366",
+      "title": "Country Director",
+      "organization": "Example Humanitarian Organisation",
+      "location": "Juba, South Sudan",
+      "category": "Programme Management",
+      "deadline": null,
+      "posted_at": "2026-11-14T09:05:18Z",
+      "summary": "Leads the mission and oversees programme implementation."
+    },
+    {
+      "id": 323,
+      "url": "https://jubajobs.com/listings/323",
+      "title": "Administrative and Finance Assistant",
+      "organization": "Example Network",
+      "location": "South Sudan",
+      "category": "Finance & Accounting",
+      "deadline": "2026-11-26",
+      "posted_at": "2026-11-12T00:00:00Z",
+      "summary": null
+    }
+  ]
+}

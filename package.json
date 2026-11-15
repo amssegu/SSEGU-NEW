@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "npm run export:work",
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
@@ -13,6 +14,9 @@
     "lint": "prettier --check src scripts astro.config.mjs",
     "test": "node scripts/test.mjs",
     "test:migration": "bash scripts/test-work-aggregation-migration.sh",
+    "test:aggregation": "node --experimental-strip-types scripts/test-aggregation.mjs",
+    "export:work": "node scripts/export-work-data.mjs",
+    "test:work-export": "node scripts/test-work-export.mjs",
     "test:security": "node --experimental-strip-types scripts/phase9-security-test.mjs",
     "test:e2e": "node scripts/smoke-test.mjs",
     "validate:content": "node scripts/validate-content.mjs",

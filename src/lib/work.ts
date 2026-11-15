@@ -1,6 +1,8 @@
 import { absoluteUrl } from './seo';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { referenceId } from './content';
+import { existsSync, readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 
 export type WorkStatus = 'active' | 'expired';
 
@@ -15,6 +17,13 @@ export interface WorkJob {
   status: WorkStatus;
   description: string;
   category: string;
+  origin?: 'imported' | 'editorial' | 'fixture';
+  sourceId?: string;
+  sourceUrl?: string;
+  applicationUrl?: string;
+  sourceAttribution?: string;
+  sourcePermission?: string;
+  prohibitJobpostingSchema?: boolean;
 }
 
 export function isEligibleWorkJob(job: WorkJob, today = new Date()) {
@@ -24,7 +33,7 @@ export function isEligibleWorkJob(job: WorkJob, today = new Date()) {
 }
 
 export function jobPostingJsonLd(job: WorkJob) {
-  if (!isEligibleWorkJob(job)) return undefined;
+  if (job.prohibitJobpostingSchema || !isEligibleWorkJob(job)) return undefined;
   const employmentType = job.employmentType.toUpperCase().replace('-', '_');
   return {
     '@context': 'https://schema.org',
@@ -165,9 +174,172 @@ export interface WorkCourse {
   provider: string;
   format: string;
   description: string;
+  origin?: 'imported' | 'editorial' | 'fixture';
+  sourceUrl?: string;
+  enrolmentUrl?: string;
+  subject?: string;
+  level?: string;
+  deliveryMode?: string;
+  language?: string;
+  duration?: string;
+  coursePriceStatus?: string;
+  certificatePriceStatus?: string;
+  availabilityStatus?: string;
 }
 
-export const workJobs: WorkJob[] = [
+type GeneratedJobRecord = {
+  sourceEnabled?: boolean;
+  permissionType?: string;
+  status?: string;
+  sourceId?: string;
+  canonicalUrl?: string;
+  applicationUrl?: string;
+  slug?: string;
+  title?: string;
+  employer?: string;
+  location?: string;
+  category?: string;
+  employmentType?: string;
+  workMode?: string;
+  permittedExcerpt?: string;
+  deadlineAt?: string;
+  sourceAttribution?: string;
+  prohibitJobpostingSchema?: boolean;
+};
+
+type GeneratedCourseRecord = {
+  sourceEnabled?: boolean;
+  permissionType?: string;
+  availabilityStatus?: string;
+  canonicalUrl?: string;
+  enrolmentUrl?: string;
+  slug?: string;
+  title?: string;
+  provider?: string;
+  summary?: string;
+  subject?: string;
+  level?: string;
+  deliveryMode?: string;
+  language?: string;
+  duration?: string;
+  coursePriceStatus?: string;
+  certificatePriceStatus?: string;
+};
+
+function readGeneratedData<T>(filename: string): T[] {
+  const path = resolve(process.cwd(), 'src/data/generated', filename);
+  if (!existsSync(path)) return [];
+  try {
+    const value = JSON.parse(readFileSync(path, 'utf8'));
+    return Array.isArray(value) ? value : [];
+  } catch {
+    return [];
+  }
+}
+
+function importedEmploymentType(value?: string): WorkJob['employmentType'] {
+  return (
+    (
+      {
+        full_time: 'Full-time',
+        part_time: 'Part-time',
+        contract: 'Contract',
+        internship: 'Internship',
+      } as Record<string, WorkJob['employmentType']>
+    )[value ?? ''] ?? 'Full-time'
+  );
+}
+
+function importedArrangement(value?: string): WorkJob['arrangement'] {
+  return (
+    (
+      { on_site: 'On-site', hybrid: 'Hybrid', remote: 'Remote' } as Record<
+        string,
+        WorkJob['arrangement']
+      >
+    )[value ?? ''] ?? 'On-site'
+  );
+}
+
+function fromImportedJob(record: GeneratedJobRecord): WorkJob | undefined {
+  if (
+    !record.sourceEnabled ||
+    !record.slug ||
+    !record.title ||
+    !record.employer ||
+    !record.location ||
+    !record.canonicalUrl
+  )
+    return undefined;
+  if (
+    !['active', 'expired'].includes(record.status ?? '') ||
+    record.permissionType === 'permission_required'
+  )
+    return undefined;
+  return {
+    slug: record.slug,
+    title: record.title,
+    employer: record.employer,
+    location: record.location,
+    deadline: record.deadlineAt?.slice(0, 10) ?? '',
+    employmentType: importedEmploymentType(record.employmentType),
+    arrangement: importedArrangement(record.workMode),
+    status: record.status === 'expired' ? 'expired' : 'active',
+    description: record.permittedExcerpt ?? '',
+    category: record.category ?? 'Uncategorised',
+    origin: 'imported',
+    sourceId: record.sourceId,
+    sourceUrl: record.canonicalUrl,
+    applicationUrl: record.applicationUrl,
+    sourceAttribution: record.sourceAttribution,
+    sourcePermission: record.permissionType,
+    prohibitJobpostingSchema: record.prohibitJobpostingSchema,
+  };
+}
+
+function fromImportedCourse(record: GeneratedCourseRecord): WorkCourse | undefined {
+  if (
+    !record.sourceEnabled ||
+    !record.slug ||
+    !record.title ||
+    !record.provider ||
+    !record.canonicalUrl
+  )
+    return undefined;
+  if (
+    !['available', 'unavailable', 'unverified'].includes(record.availabilityStatus ?? '') ||
+    record.permissionType === 'permission_required'
+  )
+    return undefined;
+  return {
+    slug: record.slug,
+    title: record.title,
+    provider: record.provider,
+    format: record.deliveryMode?.replace(/_/g, ' ') ?? 'Online course',
+    description: record.summary ?? '',
+    origin: 'imported',
+    sourceUrl: record.canonicalUrl,
+    enrolmentUrl: record.enrolmentUrl,
+    subject: record.subject,
+    level: record.level,
+    deliveryMode: record.deliveryMode,
+    language: record.language,
+    duration: record.duration,
+    coursePriceStatus: record.coursePriceStatus,
+    certificatePriceStatus: record.certificatePriceStatus,
+    availabilityStatus: record.availabilityStatus,
+  };
+}
+
+export function isPublishableWorkJob(job: WorkJob, today = new Date()) {
+  return isEligibleWorkJob(job, today);
+}
+
+export function isPublishableWorkCourse(course: WorkCourse) {
+  return Boolean(course.slug && course.title && course.provider);
+}
+
+const fixtureWorkJobs: WorkJob[] = [
   {
     slug: 'customer-experience-officer-mtn-uganda',
     title: 'Customer Experience Officer',
@@ -275,7 +447,7 @@ export const workArticles: WorkArticle[] = [
   },
 ];
 
-export const workCourses: WorkCourse[] = [
+const fixtureWorkCourses: WorkCourse[] = [
   {
     slug: 'digital-skills-foundation',
     title: 'Digital Skills Foundation',
@@ -299,6 +471,145 @@ export const workCourses: WorkCourse[] = [
     description: 'Learn the basic routines that help teams plan, communicate and deliver work.',
   },
 ];
+
+const generatedWorkJobs = readGeneratedData<GeneratedJobRecord>('jobs.json')
+  .map(fromImportedJob)
+  .filter((job): job is WorkJob => Boolean(job));
+const generatedWorkCourses = readGeneratedData<GeneratedCourseRecord>('courses.json')
+  .map(fromImportedCourse)
+  .filter((course): course is WorkCourse => Boolean(course));
+
+function mergeBySlug<T extends { slug: string }>(...groups: T[][]) {
+  const seen = new Set<string>();
+  return groups.flatMap((group) =>
+    group.filter((item) => {
+      if (seen.has(item.slug)) return false;
+      seen.add(item.slug);
+      return true;
+    }),
+  );
+}
+
+export const workJobs: WorkJob[] = mergeBySlug(generatedWorkJobs, fixtureWorkJobs);
+export const workCourses: WorkCourse[] = mergeBySlug(generatedWorkCourses, fixtureWorkCourses);
+
+function editorialEmploymentType(value: string): WorkJob['employmentType'] {
+  return (
+    (
+      {
+        'full-time': 'Full-time',
+        'part-time': 'Part-time',
+        contract: 'Contract',
+        internship: 'Internship',
+      } as Record<string, WorkJob['employmentType']>
+    )[value] ?? 'Full-time'
+  );
+}
+
+function editorialArrangement(value: string): WorkJob['arrangement'] {
+  return (
+    (
+      { 'on-site': 'On-site', hybrid: 'Hybrid', remote: 'Remote' } as Record<
+        string,
+        WorkJob['arrangement']
+      >
+    )[value] ?? 'On-site'
+  );
+}
+
+function fromEditorialJobEntry(entry: CollectionEntry<'jobs'>): WorkJob {
+  const data = entry.data;
+  const employer = workCategoryLabel(referenceId(data.employer) || 'editorial-employer');
+  return {
+    slug: data.slug,
+    title: data.title,
+    employer,
+    location: data.location,
+    deadline: data.deadline?.toISOString().slice(0, 10) ?? '',
+    employmentType: editorialEmploymentType(data.employmentType),
+    arrangement: editorialArrangement(data.arrangement),
+    status: data.status === 'expired' ? 'expired' : 'active',
+    description: [...data.qualifications, ...data.requirements].join(' '),
+    category: employer,
+    origin: 'editorial',
+    sourceUrl: data.sourceUrl,
+    applicationUrl: data.applicationUrl,
+  };
+}
+
+function fromEditorialCourseEntry(entry: CollectionEntry<'courses'>): WorkCourse {
+  const data = entry.data;
+  return {
+    slug: data.slug,
+    title: data.title,
+    provider: data.provider,
+    format: data.deliveryMode.replace(/-/g, ' '),
+    description: data.description,
+    origin: 'editorial',
+    sourceUrl: data.sourceUrl,
+    enrolmentUrl: data.enrolmentUrl,
+    duration: data.duration,
+    availabilityStatus: data.status === 'expired' ? 'unavailable' : 'available',
+  };
+}
+
+let cachedPublishedWorkJobs: WorkJob[] | undefined;
+let cachedPublishedWorkCourses: WorkCourse[] | undefined;
+
+export async function getPublishedWorkJobs() {
+  if (cachedPublishedWorkJobs) return cachedPublishedWorkJobs;
+  const editorial = (await getCollection('jobs'))
+    .filter(({ data }) => data.status === 'published' || data.status === 'expired')
+    .map(fromEditorialJobEntry);
+  cachedPublishedWorkJobs = mergeBySlug(generatedWorkJobs, editorial, fixtureWorkJobs).filter(
+    (job) => isPublishableWorkJob(job),
+  );
+  return cachedPublishedWorkJobs;
+}
+
+export async function getPublishedWorkCourses() {
+  if (cachedPublishedWorkCourses) return cachedPublishedWorkCourses;
+  const editorial = (await getCollection('courses'))
+    .filter(({ data }) => data.status === 'published' || data.status === 'expired')
+    .map(fromEditorialCourseEntry);
+  cachedPublishedWorkCourses = mergeBySlug(
+    generatedWorkCourses,
+    editorial,
+    fixtureWorkCourses,
+  ).filter(isPublishableWorkCourse);
+  return cachedPublishedWorkCourses;
+}
+
+export async function getWorkJobBySlug(slug: string) {
+  return (await getPublishedWorkJobs()).find((job) => job.slug === slug);
+}
+
+export async function getWorkCourseBySlug(slug: string) {
+  return (await getPublishedWorkCourses()).find((course) => course.slug === slug);
+}
+
+export function getJobFilterOptions(jobs: WorkJob[] = workJobs) {
+  const unique = (values: string[]) => [...new Set(values)].sort((a, b) => a.localeCompare(b));
+  return {
+    locations: unique(jobs.map((job) => job.location)),
+    employmentTypes: unique(jobs.map((job) => job.employmentType)),
+    arrangements: unique(jobs.map((job) => job.arrangement)),
+    categories: unique(jobs.map((job) => job.category)),
+    statuses: unique(jobs.map((job) => job.status)),
+  };
+}
+
+export function getCourseFilterOptions(courses: WorkCourse[] = workCourses) {
+  const unique = (values: string[]) =>
+    [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
+  return {
+    providers: unique(courses.map((course) => course.provider)),
+    formats: unique(courses.map((course) => course.format)),
+    subjects: unique(courses.map((course) => course.subject ?? '')),
+    levels: unique(courses.map((course) => course.level ?? '')),
+    availability: unique(courses.map((course) => course.availabilityStatus ?? '')),
+  };
+}
 
 export const cvResources = [
   {
