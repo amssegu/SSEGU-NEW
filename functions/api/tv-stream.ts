@@ -23,14 +23,6 @@ const STREAMS = {
   dw: 'https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream04/streamPlaylist.m3u8',
   ewtn: 'https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8',
   ebstv: 'https://rpn.bozztv.com/ebstv/ebstv/index.m3u8',
-  eternallife: 'https://live-tv.mfc-streaming-service.online/hls/orion_west.m3u8',
-  ramogitv: 'https://live-onesignal.royalmedia.co.ke/live/-gEXRHc6nSl5aFegh5MrOg.m3u8',
-  rtnews: 'https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8',
-  kbstv: 'https://www.kbstv.co.ug/live/abr/master.m3u8',
-  lbfdrtv: 'https://tnt-television.com/LBFD_RTV/index.m3u8',
-  cgtn: 'https://english-livebkali.cgtn.com/live/encgtn.m3u8',
-  ebscinema: 'https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8',
-  gcmxtv: 'https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_018/Stream/playlist.m3u8',
 } as const;
 
 type StreamId = keyof typeof STREAMS;

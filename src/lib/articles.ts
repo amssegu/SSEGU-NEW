@@ -161,6 +161,10 @@ function cleanText(value: string) {
     .trim();
 }
 
+function cleanArticleTitle(title: string) {
+  return title.replace(/(?:\s*\|\s*ssegu)+$/gi, '').trim();
+}
+
 function extractEmbeddedTags(body: string) {
   const tagBlock =
     body.match(/<div[^>]+aria-label=["']Article tags["'][^>]*>([\s\S]*?)<\/div>/i)?.[1] ?? '';
@@ -218,16 +222,17 @@ function articleTaxonomy(
 export function fromContentEntry(entry: CollectionEntry<'articles'>): Article {
   const date = entry.data.publishedAt.toISOString().slice(0, 10);
   const image = entry.data.image ?? defaultImage;
+  const title = cleanArticleTitle(entry.data.title);
   const taxonomy = articleTaxonomy(
     entry.data.categories,
     entry.data.tags,
     entry.body ?? '',
-    entry.data.title,
+    title,
     entry.data.excerpt,
   );
   return {
     slug: entry.data.slug,
-    title: entry.data.title,
+    title,
     description: entry.data.metaDescription ?? entry.data.excerpt,
     category: taxonomy.categories[0],
     categories: taxonomy.categories,

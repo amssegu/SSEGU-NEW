@@ -1,73 +1,147 @@
 ---
-const liveTvUrl = '/tv/';
+import Hls from 'hls.js';
+
 const channels = [
   { id: 'citizentv', name: 'Citizen TV', category: 'News', color: '#e11d48' },
-  { id: 'ntv', name: 'NTV Uganda', category: 'News', color: '#2563eb' },
-  { id: 'bukedde1', name: 'Bukedde 1 TV', category: 'News', color: '#16a34a' },
-  { id: 'salttv', name: 'Salt TV', category: 'Entertainment', color: '#d97706' },
-  { id: 'sparktv', name: 'Spark TV', category: 'Entertainment', color: '#7c3aed' },
-  { id: 'galaxytv', name: 'Galaxy TV', category: 'Entertainment', color: '#db2777' },
+  { id: 'salttv', name: 'Salt TV', category: 'Entertainment', color: '#f59e0b' },
+  { id: 'sparktv', name: 'Spark TV', category: 'Entertainment', color: '#8b5cf6' },
+  { id: 'bukedde1', name: 'Bukedde 1 TV', category: 'News', color: '#22c55e' },
+  { id: 'ntv', name: 'NTV Uganda', category: 'News', color: '#3b82f6' },
+  { id: 'galaxytv', name: 'Galaxy TV', category: 'Entertainment', color: '#ec4899' },
+  { id: 'bukedde2', name: 'Bukedde 2 TV', category: 'Entertainment', color: '#14b8a6' },
+  { id: 'sabcnews', name: 'SABC News', category: 'News', color: '#ef4444' },
+  { id: 'capetowntv', name: 'Cape Town TV', category: 'Community', color: '#f97316' },
+  { id: 'tshwanetv', name: 'Tshwane TV', category: 'Community', color: '#a855f7' },
+  { id: 'sowetotv', name: 'Soweto TV', category: 'Community', color: '#06b6d4' },
+  { id: 'nrgradio', name: 'NRG Radio UG', category: 'Entertainment', color: '#84cc16' },
+  { id: 'babatv', name: 'Baba TV', category: 'Entertainment', color: '#f43f5e' },
+  { id: 'sudantv', name: 'Sudan TV', category: 'News', color: '#eab308' },
+  { id: 'france24', name: 'France 24', category: 'News', color: '#2563eb' },
+  { id: 'fifaplus', name: 'FIFA+', category: 'Sports', color: '#16a34a' },
+  { id: 'dw', name: 'DW', category: 'News', color: '#0ea5e9' },
+  { id: 'ewtn', name: 'EWTN', category: 'Faith', color: '#7c3aed' },
+  { id: 'ebstv', name: 'EBS TV Ethiopia', category: 'News', color: '#d946ef' },
 ];
 ---
 
-<section class="live-tv-module shell" aria-labelledby="live-tv-title">
+<section id="live-tv" class="live-tv-module shell" aria-labelledby="live-tv-title">
   <div class="live-tv-intro">
     <div>
-      <p class="live-tv-kicker">
-        <span aria-hidden="true"></span> SSEGU Live
-      </p>
+      <p class="live-tv-kicker"><span aria-hidden="true"></span> SSEGU Live</p>
       <h2 id="live-tv-title">Watch live TV</h2>
-      <p class="live-tv-dek">
-        Stay close to the stories, voices and channels shaping Uganda right now.
-      </p>
+      <p class="live-tv-dek">Stay close to the stories, voices and channels shaping Uganda right now.</p>
     </div>
-    <a class="live-tv-link" href={liveTvUrl}>
-      Open Live TV <span aria-hidden="true">↗</span>
-    </a>
+    <a class="live-tv-link" href="#live-tv">Live channels <span aria-hidden="true">↗</span></a>
   </div>
 
   <div class="live-tv-body">
-    <a class="live-tv-feature" href={liveTvUrl}>
-      <div class="live-tv-screen" aria-hidden="true">
-        <span class="live-tv-screen-grid"></span>
-        <span class="live-tv-play">▶</span>
-        <span class="live-tv-live-badge">
-          <i></i> Live now
-        </span>
+    <div class="live-tv-feature" data-live-tv-feature>
+      <div class="live-tv-screen">
+        <video class="live-tv-inline-video" data-live-tv-video controls playsinline preload="none"></video>
+        <span class="live-tv-screen-grid" data-live-tv-placeholder></span>
+        <span class="live-tv-play" data-live-tv-play aria-hidden="true">▶</span>
+        <span class="live-tv-live-badge"><i></i> Live now</span>
         <span class="live-tv-watermark">SSEGU</span>
+        <span class="live-tv-video-message" data-live-tv-message>Choose a channel to start watching.</span>
       </div>
       <div class="live-tv-feature-copy">
-        <span class="live-tv-overline">M2A Live TV</span>
-        <h3>Your window to live channels</h3>
-        <p>News, entertainment, sports and more — all in one place.</p>
+        <span class="live-tv-overline" data-live-tv-name>M2A Live TV</span>
+        <h3 data-live-tv-heading>Your window to live channels</h3>
+        <p data-live-tv-status>News, entertainment, sports and more — all in one place.</p>
       </div>
-    </a>
+    </div>
 
-    <div class="live-tv-channels" aria-label="Featured live channels">
+    <div class="live-tv-channels" aria-label="Live TV channels">
       <div class="live-tv-channels-heading">
-        <h3>Featured channels</h3>
+        <h3>Live channels</h3>
         <span>{channels.length} available</span>
       </div>
       <div class="live-tv-channel-grid">
         {channels.map((channel) => (
-          <a
-            class="live-tv-card"
-            href={`${liveTvUrl}?ch=${channel.id}`}
-            style={`--channel-color: ${channel.color}`}
-          >
-            <span class="live-tv-card-poster" aria-hidden="true">
-              <span class="live-tv-card-badge">LIVE</span>
-              <span class="live-tv-card-overlay">
-                <span class="live-tv-card-play">▶</span>
-              </span>
-            </span>
-            <span class="live-tv-card-info">
-              <strong>{channel.name}</strong>
-              <small>{channel.category}</small>
-            </span>
-          </a>
+          <button class="live-tv-channel" type="button" data-live-tv-channel={channel.id} style={`--channel-color: ${channel.color}`}>
+            <span class="live-tv-channel-mark" aria-hidden="true">▶</span>
+            <span class="live-tv-channel-copy"><strong>{channel.name}</strong><small>{channel.category}</small></span>
+            <span class="live-tv-channel-arrow" aria-hidden="true">↗</span>
+          </button>
         ))}
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  const HlsPlayer = Hls;
+  const section = document.querySelector<HTMLElement>('[data-live-tv-feature]')?.closest('#live-tv');
+  const video = section?.querySelector<HTMLVideoElement>('[data-live-tv-video]');
+  const message = section?.querySelector<HTMLElement>('[data-live-tv-message]');
+  const placeholder = section?.querySelector<HTMLElement>('[data-live-tv-placeholder]');
+  const play = section?.querySelector<HTMLElement>('[data-live-tv-play]');
+  const name = section?.querySelector<HTMLElement>('[data-live-tv-name]');
+  const heading = section?.querySelector<HTMLElement>('[data-live-tv-heading]');
+  const status = section?.querySelector<HTMLElement>('[data-live-tv-status]');
+  const channels = [...section?.querySelectorAll<HTMLButtonElement>('[data-live-tv-channel]') ?? []];
+  let hls: Hls | undefined;
+  let loadingTimer: number | undefined;
+
+  const stopPlayer = () => {
+    hls?.destroy();
+    hls = undefined;
+    if (loadingTimer) window.clearTimeout(loadingTimer);
+    video?.pause();
+    if (video) { video.removeAttribute('src'); video.load(); }
+  };
+
+  const playChannel = (channel: HTMLButtonElement) => {
+    const channelId = channel.dataset.liveTvChannel;
+    const channelName = channel.querySelector('strong')?.textContent ?? 'Live TV';
+    if (!channelId || !video || !message || !name || !heading || !status) return;
+    stopPlayer();
+    channels.forEach((item) => item.classList.toggle('is-active', item === channel));
+    name.textContent = channelName;
+    heading.textContent = channelName;
+    status.textContent = 'Connecting to the live stream…';
+    message.textContent = `Connecting to ${channelName}…`;
+    message.classList.remove('is-hidden');
+    placeholder?.classList.add('is-hidden');
+    play?.classList.add('is-hidden');
+    loadingTimer = window.setTimeout(() => {
+      message.textContent = 'The stream may be offline or blocked by its provider.';
+      status.textContent = 'The stream took too long to respond. Try another channel.';
+    }, 12000);
+    const streamUrl = `/api/tv-stream?channel=${encodeURIComponent(channelId)}`;
+    video.onplaying = () => {
+      if (loadingTimer) window.clearTimeout(loadingTimer);
+      message.classList.add('is-hidden');
+      status.textContent = 'Live now';
+    };
+    video.onerror = () => {
+      message.textContent = `${channelName} is unavailable.`;
+      status.textContent = 'The stream may be offline or blocked by its provider.';
+    };
+    if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = streamUrl;
+      video.addEventListener('loadedmetadata', () => video.play().catch(() => {}), { once: true });
+    } else if (HlsPlayer.isSupported()) {
+      hls = new HlsPlayer({ enableWorker: true, lowLatencyMode: true, startLevel: 0, capLevelToPlayerSize: true });
+      hls.on(HlsPlayer.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
+      hls.on(HlsPlayer.Events.ERROR, (_event, data) => {
+        if (data.fatal) {
+          message.textContent = `${channelName} is unavailable.`;
+          status.textContent = 'The stream could not be decoded by this browser.';
+          hls?.destroy();
+          hls = undefined;
+        }
+      });
+      hls.attachMedia(video);
+      hls.loadSource(streamUrl);
+    } else {
+      message.textContent = 'HLS playback is unavailable in this browser.';
+      status.textContent = 'Try opening the page in a modern browser.';
+    }
+  };
+
+  channels.forEach((channel) => channel.addEventListener('click', () => playChannel(channel)));
+  const requestedChannel = new URLSearchParams(window.location.search).get('ch');
+  const requested = channels.find((channel) => channel.dataset.liveTvChannel === requestedChannel);
+  if (requested) playChannel(requested);
+</script>
