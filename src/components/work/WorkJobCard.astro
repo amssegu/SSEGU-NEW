@@ -35,11 +35,12 @@ const displayStatus = getWorkJobStatus(job);
         {workJobStatusLabel(displayStatus)}
       </span>
     </div>
-    {!compact && <p class="work-job-description">{job.description}</p>}
+    {!compact && job.description && <p class="work-job-description">{job.description}</p>}
     <div class="work-job-meta">
       <span>⌖ {job.location}</span>
       <span>▣ {job.arrangement}</span>
       <span>Deadline: {formatWorkDate(job.deadline)}</span>
+      {job.salaryText && <span>Salary: {job.salaryText}</span>}
     </div>
     {!compact && <WorkJobSource job={job} />}
   </div>

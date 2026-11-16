@@ -79,15 +79,25 @@ const structuredData = [
           <strong>Deadline</strong>
           {formatWorkDate(job.deadline)}
         </span>
+        {job.publishedAt && (
+          <span>
+            <strong>Published</strong>
+            {formatWorkDate(job.publishedAt)}
+          </span>
+        )}
+        {job.salaryText && (
+          <span>
+            <strong>Salary</strong>
+            {job.salaryText}
+          </span>
+        )}
       </div>
-      <div class="work-detail-body">
-        <h2>About this opportunity</h2>
-        <p>{job.description}</p>
-        <p>
-          This is fixture content for the Phase 4 frontend review. Application processing, employer
-          submissions and account features are intentionally deferred to later approved phases.
-        </p>
-      </div>
+      {job.description && (
+        <div class="work-detail-body">
+          <h2>About this opportunity</h2>
+          <p>{job.description}</p>
+        </div>
+      )}
       <div class="work-detail-actions">
         {eligible && job.applicationUrl ? (
           <a

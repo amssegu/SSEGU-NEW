@@ -11,11 +11,16 @@ export interface WorkJob {
   title: string;
   employer: string;
   location: string;
+  country?: string;
+  publishedAt?: string;
   deadline?: string;
   employmentType: 'Full-time' | 'Part-time' | 'Contract' | 'Internship';
   arrangement: 'On-site' | 'Hybrid' | 'Remote';
   status: WorkStatus;
   description: string;
+  salaryText?: string;
+  salaryCurrency?: string;
+  salaryPeriod?: string;
   category: string;
   origin?: 'imported' | 'editorial' | 'fixture';
   sourceId?: string;
@@ -222,10 +227,15 @@ type GeneratedJobRecord = {
   title?: string;
   employer?: string;
   location?: string;
+  country?: string;
   category?: string;
   employmentType?: string;
   workMode?: string;
   permittedExcerpt?: string;
+  salaryText?: string;
+  salaryCurrency?: string;
+  salaryPeriod?: string;
+  publishedAt?: string;
   deadlineAt?: string;
   sourceAttribution?: string;
   prohibitJobpostingSchema?: boolean;
@@ -305,11 +315,16 @@ function fromImportedJob(record: GeneratedJobRecord): WorkJob | undefined {
     title: record.title,
     employer: record.employer,
     location: record.location,
+    country: record.country,
+    publishedAt: record.publishedAt,
     deadline: record.deadlineAt?.slice(0, 10) ?? '',
     employmentType: importedEmploymentType(record.employmentType),
     arrangement: importedArrangement(record.workMode),
     status: (record.status ?? 'unverified') as WorkStatus,
     description: record.permittedExcerpt ?? '',
+    salaryText: record.salaryText,
+    salaryCurrency: record.salaryCurrency,
+    salaryPeriod: record.salaryPeriod,
     category: record.category ?? 'Uncategorised',
     origin: 'imported',
     sourceId: record.sourceId,
@@ -674,6 +689,10 @@ export function toWorkJobClientData(job: WorkJob) {
     status: getWorkJobStatus(job),
     description: job.description,
     category: job.category,
+    salaryText: job.salaryText ?? '',
+    sourceAttribution: job.sourceAttribution ?? '',
+    sourceUrl: job.sourceUrl ?? '',
+    applicationUrl: job.applicationUrl ?? '',
   };
 }
 
@@ -737,9 +756,8 @@ export const internships = [
 
 export function formatWorkDate(date?: string) {
   if (!date) return 'No deadline listed';
-  return new Intl.DateTimeFormat('en-UG', { dateStyle: 'medium' }).format(
-    new Date(`${date}T12:00:00Z`),
-  );
+  const value = date.includes('T') ? date : `${date}T12:00:00Z`;
+  return new Intl.DateTimeFormat('en-UG', { dateStyle: 'medium' }).format(new Date(value));
 }
 
 export function getWorkJob(slug: string) {

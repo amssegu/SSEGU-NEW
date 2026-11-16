@@ -46,6 +46,13 @@ export function parseRemoteOkPayload(payload: unknown): AdapterResult {
             .slice(0, 2)
             .join(', ')
         : 'Remote work',
+      permittedExcerpt: typeof row.description === 'string' ? row.description : null,
+      salaryText:
+        typeof row.salary === 'string'
+          ? row.salary
+          : typeof row.salary_min === 'number' || typeof row.salary_max === 'number'
+            ? `${row.salary_min ?? ''}-${row.salary_max ?? ''}`.trim()
+            : null,
       publishedAt: typeof row.date === 'string' ? row.date : null,
     });
   }
