@@ -22,6 +22,27 @@ const channels = [
   { id: 'ewtn', name: 'EWTN', category: 'Faith', color: '#7c3aed' },
   { id: 'ebstv', name: 'EBS TV Ethiopia', category: 'News', color: '#d946ef' },
 ];
+const streams = {
+  citizentv: 'https://live-onesignal.royalmedia.co.ke/live/jgB35emfPsiW5aFjKJjbjg.m3u8',
+  salttv: 'https://live.salttelevision.com/hls/3/stream.m3u8',
+  sparktv: 'https://ams-2629.antmedia.cloud/LiveApp/streams/spark2026.m3u8',
+  bukedde1: 'https://stream.hydeinnovations.com/bukedde1flussonic/tracks-v1a1/index.m3u8',
+  ntv: 'https://ams-2629.antmedia.cloud/LiveApp/streams/abul2026.m3u8',
+  galaxytv: 'https://livestream.galaxytv.ug/jikonkone/playlist.m3u8',
+  bukedde2: 'https://stream.hydeinnovations.com/bukedde2flussonic/tracks-v1a1/mono.m3u8',
+  sabcnews: 'https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8',
+  capetowntv: 'https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8',
+  tshwanetv: 'https://cdn.freevisiontv.co.za/sttv/smil:tshwane.stream.smil/playlist.m3u8',
+  sowetotv: 'https://cdn.freevisiontv.co.za/sttv/smil:soweto.stream.smil/playlist.m3u8',
+  nrgradio: 'https://live2.tensila.com/nrg-radio-v-1.nrgug/hls/live/mystream.m3u8',
+  babatv: 'https://babatv.co.ug/live/ch04/index.m3u8',
+  sudantv: 'https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8',
+  france24: 'https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8',
+  fifaplus: 'https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8',
+  dw: 'https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream04/streamPlaylist.m3u8',
+  ewtn: 'https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8',
+  ebstv: 'https://rpn.bozztv.com/ebstv/ebstv/index.m3u8',
+};
 ---
 
 <section id="live-tv" class="live-tv-module shell" aria-labelledby="live-tv-title">
@@ -58,10 +79,12 @@ const channels = [
       </div>
       <div class="live-tv-channel-grid">
         {channels.map((channel) => (
-          <button class="live-tv-channel" type="button" data-live-tv-channel={channel.id} style={`--channel-color: ${channel.color}`}>
-            <span class="live-tv-channel-mark" aria-hidden="true">▶</span>
-            <span class="live-tv-channel-copy"><strong>{channel.name}</strong><small>{channel.category}</small></span>
-            <span class="live-tv-channel-arrow" aria-hidden="true">↗</span>
+          <button class="live-tv-card" type="button" data-live-tv-channel={channel.id} data-live-tv-stream={streams[channel.id as keyof typeof streams]} style={`--channel-color: ${channel.color}`}>
+            <span class="live-tv-card-poster" aria-hidden="true">
+              <span class="live-tv-card-badge">LIVE</span>
+              <span class="live-tv-card-overlay"><span class="live-tv-card-play">▶</span></span>
+            </span>
+            <span class="live-tv-card-info"><strong>{channel.name}</strong><small>{channel.category}</small></span>
           </button>
         ))}
       </div>
@@ -79,7 +102,7 @@ const channels = [
   const name = section?.querySelector<HTMLElement>('[data-live-tv-name]');
   const heading = section?.querySelector<HTMLElement>('[data-live-tv-heading]');
   const status = section?.querySelector<HTMLElement>('[data-live-tv-status]');
-  const channels = [...section?.querySelectorAll<HTMLButtonElement>('[data-live-tv-channel]') ?? []];
+  const channelCards = [...section?.querySelectorAll<HTMLButtonElement>('[data-live-tv-channel]') ?? []];
   let hls: Hls | undefined;
   let loadingTimer: number | undefined;
 
@@ -96,7 +119,7 @@ const channels = [
     const channelName = channel.querySelector('strong')?.textContent ?? 'Live TV';
     if (!channelId || !video || !message || !name || !heading || !status) return;
     stopPlayer();
-    channels.forEach((item) => item.classList.toggle('is-active', item === channel));
+    channelCards.forEach((item) => item.classList.toggle('is-active', item === channel));
     name.textContent = channelName;
     heading.textContent = channelName;
     status.textContent = 'Connecting to the live stream…';
@@ -108,7 +131,8 @@ const channels = [
       message.textContent = 'The stream may be offline or blocked by its provider.';
       status.textContent = 'The stream took too long to respond. Try another channel.';
     }, 12000);
-    const streamUrl = `/api/tv-stream?channel=${encodeURIComponent(channelId)}`;
+    const streamUrl = channel.dataset.liveTvStream;
+    if (!streamUrl) return;
     video.onplaying = () => {
       if (loadingTimer) window.clearTimeout(loadingTimer);
       message.classList.add('is-hidden');
@@ -122,7 +146,15 @@ const channels = [
       video.src = streamUrl;
       video.addEventListener('loadedmetadata', () => video.play().catch(() => {}), { once: true });
     } else if (HlsPlayer.isSupported()) {
-      hls = new HlsPlayer({ enableWorker: true, lowLatencyMode: true, startLevel: 0, capLevelToPlayerSize: true });
+      hls = new HlsPlayer({
+        enableWorker: true,
+        lowLatencyMode: true,
+        backBufferLength: 60,
+        maxBufferLength: 30,
+        manifestLoadingTimeOut: 12000,
+        levelLoadingTimeOut: 12000,
+        fragLoadingTimeOut: 15000,
+      });
       hls.on(HlsPlayer.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
       hls.on(HlsPlayer.Events.ERROR, (_event, data) => {
         if (data.fatal) {
@@ -140,8 +172,8 @@ const channels = [
     }
   };
 
-  channels.forEach((channel) => channel.addEventListener('click', () => playChannel(channel)));
+  channelCards.forEach((channel) => channel.addEventListener('click', () => playChannel(channel)));
   const requestedChannel = new URLSearchParams(window.location.search).get('ch');
-  const requested = channels.find((channel) => channel.dataset.liveTvChannel === requestedChannel);
+  const requested = channelCards.find((channel) => channel.dataset.liveTvChannel === requestedChannel);
   if (requested) playChannel(requested);
 </script>
