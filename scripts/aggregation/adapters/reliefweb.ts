@@ -24,7 +24,8 @@ export function parseReliefWebPayload(payload: unknown): AdapterResult {
   )
     return { outcome: 'malformed', records: [], error: 'expected ReliefWeb data array' };
   const records: RawJobRecord[] = [];
-  for (const item of (payload as { data: unknown[] }).data) {
+  const data = (payload as { data: unknown[] }).data;
+  for (const item of data) {
     if (!item || typeof item !== 'object') continue;
     const fields = (item as { fields?: unknown }).fields;
     if (!fields || typeof fields !== 'object') continue;
@@ -59,7 +60,7 @@ export function parseReliefWebPayload(payload: unknown): AdapterResult {
   return records.length
     ? { outcome: 'success', records }
     : {
-        outcome: payload.data && (payload.data as unknown[]).length === 0 ? 'empty' : 'malformed',
+        outcome: data.length === 0 ? 'empty' : 'malformed',
         records,
         error: 'no approved ReliefWeb records',
       };

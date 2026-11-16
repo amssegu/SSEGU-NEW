@@ -37,13 +37,12 @@ export function parseHimalayasPayload(payload: unknown): AdapterResult {
       (typeof id !== 'string' && typeof id !== 'number') ||
       typeof row.title !== 'string' ||
       typeof row.applicationLink !== 'string' ||
-      typeof row.url !== 'string' &&
-      typeof row.guid !== 'string'
+      (typeof row.url !== 'string' && typeof row.guid !== 'string')
     )
       continue;
     records.push({
       sourceRecordId: id,
-      canonicalUrl: typeof row.url === 'string' ? row.url : row.guid,
+      canonicalUrl: typeof row.url === 'string' ? row.url : (row.guid as string),
       applicationUrl: row.applicationLink,
       title: row.title,
       employer: typeof row.companyName === 'string' ? row.companyName : 'Himalayas employer',
@@ -64,7 +63,9 @@ export function parseHimalayasPayload(payload: unknown): AdapterResult {
       salaryPeriod:
         typeof row.salaryPeriod === 'string' &&
         ['hour', 'day', 'week', 'month', 'year', 'one_off', 'annual'].includes(row.salaryPeriod)
-          ? (row.salaryPeriod === 'annual' ? 'year' : row.salaryPeriod) as RawJobRecord['salaryPeriod']
+          ? ((row.salaryPeriod === 'annual'
+              ? 'year'
+              : row.salaryPeriod) as RawJobRecord['salaryPeriod'])
           : 'unknown',
     });
   }

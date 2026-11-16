@@ -4,7 +4,7 @@ import {
   internships,
   isEligibleWorkJob,
   getPublishedWorkArticles,
-  workCourses,
+  getPublishedWorkCourses,
   getPublishedWorkJobs,
   workPageCount,
 } from '../lib/work';
@@ -13,6 +13,7 @@ import { sitemapXml } from '../lib/sitemap';
 export const GET: APIRoute = async () => {
   const workArticles = await getPublishedWorkArticles();
   const publishedJobs = await getPublishedWorkJobs();
+  const publishedCourses = await getPublishedWorkCourses();
   const articlePages = Array.from(
     { length: workPageCount(workArticles.length) - 1 },
     (_, index) => `/work/career-advice/page/${index + 2}/`,
@@ -31,7 +32,7 @@ export const GET: APIRoute = async () => {
       .map((job) => `/work/jobs/${job.slug}/`),
     ...internships.map((internship) => `/work/internships/${internship.slug}/`),
     ...workArticles.map((article) => `/work/career-advice/${article.slug}/`),
-    ...workCourses.map((course) => `/work/courses/${course.slug}/`),
+    ...publishedCourses.map((course) => `/work/courses/${course.slug}/`),
     ...cvResources.map((resource) => `/work/cv-resources/${resource.slug}/`),
   ];
   return new Response(sitemapXml(paths), {

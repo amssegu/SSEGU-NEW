@@ -437,6 +437,17 @@
   font-size: 0.86rem;
 }
 
+.work-resource-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.work-course-attribution {
+  font-size: 0.88rem;
+}
+
 .work-job-description {
   margin-top: 0.5rem;
   color: var(--work-muted);

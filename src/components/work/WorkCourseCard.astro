@@ -1,0 +1,51 @@
+---
+import type { WorkCourse } from '../../lib/work';
+import { courseStatusLabel, isSafeCourseUrl } from '../../lib/work';
+
+interface Props {
+  course: WorkCourse;
+}
+
+const { course } = Astro.props;
+const providerUrl = isSafeCourseUrl(course.sourceUrl) ? course.sourceUrl : undefined;
+const details = [course.subject, course.level, course.duration].filter(Boolean);
+---
+
+<article
+  class="work-resource-card"
+  data-course-card
+  data-subject={course.subject ?? ''}
+  data-provider={course.provider}
+  data-level={course.level ?? ''}
+  data-delivery={course.deliveryMode ?? ''}
+  data-price={course.coursePriceStatus ?? 'unknown'}
+  data-certificate={course.certificatePriceStatus ?? 'unknown'}
+>
+  <span class="work-resource-icon" aria-hidden="true">
+    ◆
+  </span>
+  <p class="work-card-kicker">{course.format}</p>
+  <h2>
+    <a href={`/work/courses/${course.slug}/`}>{course.title}</a>
+  </h2>
+  <p class="work-resource-provider">{course.provider}</p>
+  <p>{course.description}</p>
+  {details.length > 0 && <p class="work-resource-meta">{details.join(' · ')}</p>}
+  <p class="work-resource-meta">
+    Course: {courseStatusLabel(course.coursePriceStatus)} · Certificate:{' '}
+    {courseStatusLabel(course.certificatePriceStatus)}
+  </p>
+  {course.availabilityStatus !== 'available' && (
+    <p class="work-detail-notice">Availability: {courseStatusLabel(course.availabilityStatus)}</p>
+  )}
+  <div class="work-resource-card-actions">
+    <a class="work-text-link" href={`/work/courses/${course.slug}/`}>
+      View course →
+    </a>
+    {providerUrl && (
+      <a class="work-text-link" href={providerUrl} target="_blank" rel="noreferrer">
+        Provider ↗
+      </a>
+    )}
+  </div>
+</article>

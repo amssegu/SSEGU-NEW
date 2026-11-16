@@ -1,35 +1,162 @@
 ---
+import WorkCourseCard from '../../../components/work/WorkCourseCard.astro';
 import WorkLayout from '../../../layouts/WorkLayout.astro';
-import { workCourses } from '../../../lib/work';
+import {
+  courseStatusLabel,
+  getCourseFilterOptions,
+  getPublishedWorkCourses,
+} from '../../../lib/work';
+
+const courses = await getPublishedWorkCourses();
+const options = getCourseFilterOptions(courses);
+const filterOptions = (values: string[]) => values.filter(Boolean);
+const noindex = Astro.url.search.length > 0;
 ---
 
 <WorkLayout
   title="Courses | SSEGU Work"
-  description="Browse fixture courses and skills resources from SSEGU Work."
+  description="Browse factual, link-only course listings from selected learning providers."
+  noindex={noindex}
 >
   <div class="work-page-shell">
     <div class="work-page-intro">
       <p class="work-eyebrow">Build useful skills</p>
       <h1>Courses</h1>
-      <p>Explore fixture learning paths that support confident work and career growth.</p>
+      <p>
+        Discover learning opportunities and continue to the original provider to study. SSEGU is not
+        affiliated with the providers listed.
+      </p>
     </div>
-    <div class="work-resource-grid">
-      {workCourses.map((course) => (
-        <article class="work-resource-card">
-          <span class="work-resource-icon" aria-hidden="true">
-            ◆
-          </span>
-          <p class="work-card-kicker">{course.format}</p>
-          <h2>
-            <a href={`/work/courses/${course.slug}/`}>{course.title}</a>
-          </h2>
-          <p class="work-resource-provider">{course.provider}</p>
-          <p>{course.description}</p>
-          <a class="work-text-link" href={`/work/courses/${course.slug}/`}>
-            View course →
-          </a>
-        </article>
+    <form id="work-course-filters" class="work-filter-panel" data-testid="work-course-filters">
+      <div class="work-filter-grid">
+        <div>
+          <label for="course-search">Search</label>
+          <input
+            id="course-search"
+            name="q"
+            type="search"
+            placeholder="Title or provider"
+            autocomplete="off"
+          />
+        </div>
+        <div>
+          <label for="course-provider">Provider</label>
+          <select id="course-provider" name="provider">
+            <option value="">All providers</option>
+            {filterOptions(options.providers).map((value) => (
+              <option value={value}>{value}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label for="course-subject">Subject</label>
+          <select id="course-subject" name="subject">
+            <option value="">All subjects</option>
+            {filterOptions(options.subjects).map((value) => (
+              <option value={value}>{value}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label for="course-level">Level</label>
+          <select id="course-level" name="level">
+            <option value="">All levels</option>
+            {filterOptions(options.levels).map((value) => (
+              <option value={value}>{value}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label for="course-price">Course price</label>
+          <select id="course-price" name="price">
+            <option value="">Any course price</option>
+            {filterOptions(options.coursePrices).map((value) => (
+              <option value={value}>{courseStatusLabel(value)}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label for="certificate-price">Certificate price</label>
+          <select id="certificate-price" name="certificatePrice">
+            <option value="">Any certificate price</option>
+            {filterOptions(options.certificatePrices).map((value) => (
+              <option value={value}>{courseStatusLabel(value)}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label for="course-delivery">Delivery</label>
+          <select id="course-delivery" name="delivery">
+            <option value="">Any delivery mode</option>
+            {filterOptions(options.deliveryModes).map((value) => (
+              <option value={value}>{courseStatusLabel(value)}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+      <div class="work-filter-actions">
+        <button class="work-button" type="submit">
+          Apply filters
+        </button>
+        <button class="work-button work-button-secondary" type="reset">
+          Clear
+        </button>
+      </div>
+    </form>
+    <p id="course-results-status" class="work-results-status" role="status" aria-live="polite"></p>
+    <div class="work-resource-grid" data-course-results>
+      {courses.map((course) => (
+        <WorkCourseCard course={course} />
       ))}
     </div>
+    <p class="work-course-empty" data-course-empty hidden>
+      No courses match those filters.
+    </p>
   </div>
 </WorkLayout>
+
+<script is:inline>
+  const form = document.querySelector('#work-course-filters');
+  const cards = [...document.querySelectorAll('[data-course-card]')];
+  const status = document.querySelector('#course-results-status');
+  const empty = document.querySelector('[data-course-empty]');
+  const params = new URLSearchParams(window.location.search);
+  const fields = ['q', 'provider', 'subject', 'level', 'price', 'certificatePrice', 'delivery'];
+  fields.forEach((name) => {
+    const input = form?.elements.namedItem(name);
+    if (input && params.has(name)) input.value = params.get(name);
+  });
+  const apply = () => {
+    const data = new FormData(form);
+    const query = String(data.get('q') || '')
+      .toLowerCase()
+      .trim();
+    const matches = cards.filter((card) => {
+      const text = `${card.textContent || ''}`.toLowerCase();
+      return (
+        (!query || text.includes(query)) &&
+        (!data.get('provider') || card.dataset.provider === data.get('provider')) &&
+        (!data.get('subject') || card.dataset.subject === data.get('subject')) &&
+        (!data.get('level') || card.dataset.level === data.get('level')) &&
+        (!data.get('price') || card.dataset.price === data.get('price')) &&
+        (!data.get('certificatePrice') ||
+          card.dataset.certificate === data.get('certificatePrice')) &&
+        (!data.get('delivery') || card.dataset.delivery === data.get('delivery'))
+      );
+    });
+    cards.forEach((card) => {
+      card.hidden = !matches.includes(card);
+    });
+    if (status)
+      status.textContent = `${matches.length} course${matches.length === 1 ? '' : 's'} shown`;
+    if (empty) empty.hidden = matches.length > 0;
+  };
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    apply();
+  });
+  form?.addEventListener('reset', () => setTimeout(apply));
+  fields.forEach((name) => form?.elements.namedItem(name)?.addEventListener('change', apply));
+  form?.elements.namedItem('q')?.addEventListener('input', apply);
+  apply();
+</script>

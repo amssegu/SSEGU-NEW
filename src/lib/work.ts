@@ -214,6 +214,10 @@ export interface WorkCourse {
   coursePriceStatus?: string;
   certificatePriceStatus?: string;
   availabilityStatus?: string;
+  termsUrl?: string;
+  sourceAttribution?: string;
+  lastCheckedAt?: string;
+  sourcePermission?: string;
 }
 
 type GeneratedJobRecord = {
@@ -258,6 +262,9 @@ type GeneratedCourseRecord = {
   duration?: string;
   coursePriceStatus?: string;
   certificatePriceStatus?: string;
+  termsUrl?: string;
+  sourceAttribution?: string;
+  lastCheckedAt?: string;
 };
 
 function readGeneratedData<T>(filename: string): T[] {
@@ -367,6 +374,10 @@ function fromImportedCourse(record: GeneratedCourseRecord): WorkCourse | undefin
     coursePriceStatus: record.coursePriceStatus,
     certificatePriceStatus: record.certificatePriceStatus,
     availabilityStatus: record.availabilityStatus,
+    termsUrl: record.termsUrl,
+    sourceAttribution: record.sourceAttribution,
+    lastCheckedAt: record.lastCheckedAt,
+    sourcePermission: record.permissionType,
   };
 }
 
@@ -384,7 +395,7 @@ const fixtureWorkJobs: WorkJob[] = [
     title: 'Customer Experience Officer',
     employer: 'MTN Uganda',
     location: 'Kampala',
-    deadline: '2026-11-15',
+    deadline: '2026-12-15',
     employmentType: 'Full-time',
     arrangement: 'On-site',
     status: 'active',
@@ -521,28 +532,97 @@ export const workArticles: WorkArticle[] = [
   },
 ];
 
-const fixtureWorkCourses: WorkCourse[] = [
+const curatedWorkCourses: WorkCourse[] = [
   {
     slug: 'digital-skills-foundation',
-    title: 'Digital Skills Foundation',
-    provider: 'SSEGU Work learning guide',
-    format: 'Self-paced guide',
-    description:
-      'Build confidence with everyday digital tools, online safety and workplace communication.',
+    title: 'Responsive Web Design',
+    provider: 'freeCodeCamp',
+    format: 'Self-paced',
+    description: 'A self-paced introduction to building responsive websites with HTML and CSS.',
+    subject: 'Technology',
+    level: 'Beginner',
+    deliveryMode: 'self-paced',
+    language: 'English',
+    coursePriceStatus: 'free',
+    certificatePriceStatus: 'unknown',
+    availabilityStatus: 'available',
+    sourceUrl: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/',
+    enrolmentUrl: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/',
+    termsUrl: 'https://www.freecodecamp.org/news/terms-of-service/',
+    sourceAttribution:
+      'Course details link to freeCodeCamp. SSEGU is not affiliated with the provider.',
+    lastCheckedAt: '2026-11-16',
+    sourcePermission: 'link_only',
   },
   {
     slug: 'introduction-to-data-analysis',
-    title: 'Introduction to Data Analysis',
-    provider: 'Fixture learning partner',
-    format: 'Online course',
-    description: 'Start working with spreadsheets, questions and evidence for better decisions.',
+    title: 'Introduction to Computer Science and Programming',
+    provider: 'MIT OpenCourseWare',
+    format: 'Self-study',
+    description:
+      'Open course materials for learning foundational computer science and programming.',
+    subject: 'Computer science',
+    level: 'Introductory',
+    deliveryMode: 'self-paced',
+    language: 'English',
+    coursePriceStatus: 'free',
+    certificatePriceStatus: 'none',
+    availabilityStatus: 'available',
+    sourceUrl:
+      'https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/',
+    enrolmentUrl:
+      'https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/',
+    termsUrl: 'https://ocw.mit.edu/pages/privacy-and-terms-of-use/',
+    sourceAttribution:
+      'Course details link to MIT OpenCourseWare. MIT does not award credit or certificates for this material.',
+    lastCheckedAt: '2026-11-16',
+    sourcePermission: 'link_only',
   },
   {
     slug: 'project-management-essentials',
-    title: 'Project Management Essentials',
-    provider: 'SSEGU Work learning guide',
-    format: 'Practical series',
-    description: 'Learn the basic routines that help teams plan, communicate and deliver work.',
+    title: 'Project Management',
+    provider: 'Saylor Academy',
+    format: 'Self-paced',
+    description: 'A self-paced project management course covering planning, delivery and review.',
+    subject: 'Business',
+    level: 'Beginner',
+    deliveryMode: 'self-paced',
+    language: 'English',
+    coursePriceStatus: 'free',
+    certificatePriceStatus: 'unknown',
+    availabilityStatus: 'available',
+    sourceUrl: 'https://learn.saylor.org/course/view.php?id=358',
+    enrolmentUrl: 'https://learn.saylor.org/course/view.php?id=358',
+    termsUrl: 'https://www.saylor.org/LicensingInformation',
+    sourceAttribution:
+      'Course details link to Saylor Academy. SSEGU is not affiliated with the provider.',
+    lastCheckedAt: '2026-11-16',
+    sourcePermission: 'link_only',
+  },
+  {
+    slug: 'learning-how-to-learn-openlearn',
+    title: 'Learning How to Learn',
+    provider: 'OpenLearn',
+    format: 'Online course',
+    description:
+      'An OpenLearn course page for exploring practical approaches to learning effectively.',
+    subject: 'Education',
+    level: 'Beginner',
+    deliveryMode: 'online',
+    language: 'English',
+    coursePriceStatus: 'free',
+    certificatePriceStatus: 'unknown',
+    availabilityStatus: 'available',
+    sourceUrl:
+      'https://www.open.edu/openlearn/education-development/learning-how-learn/content-section-overview',
+    enrolmentUrl:
+      'https://www.open.edu/openlearn/education-development/learning-how-learn/content-section-overview',
+    termsUrl:
+      'https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn',
+    sourceAttribution:
+      'Course details link to OpenLearn. SSEGU is not affiliated with The Open University.',
+    lastCheckedAt: '2026-11-16',
+    sourcePermission: 'link_only',
   },
 ];
 
@@ -565,7 +645,7 @@ function mergeBySlug<T extends { slug: string }>(...groups: T[][]) {
 }
 
 export const workJobs: WorkJob[] = mergeBySlug(generatedWorkJobs, fixtureWorkJobs);
-export const workCourses: WorkCourse[] = mergeBySlug(generatedWorkCourses, fixtureWorkCourses);
+export const workCourses: WorkCourse[] = mergeBySlug(generatedWorkCourses, curatedWorkCourses);
 
 function editorialEmploymentType(value: string): WorkJob['employmentType'] {
   return (
@@ -592,7 +672,20 @@ function editorialArrangement(value: string): WorkJob['arrangement'] {
 }
 
 function fromEditorialJobEntry(entry: CollectionEntry<'jobs'>): WorkJob {
-  const data = entry.data;
+  const data = entry.data as {
+    slug: string;
+    title: string;
+    employer: string;
+    location: string;
+    deadline?: Date;
+    employmentType: string;
+    arrangement: string;
+    qualifications: string[];
+    requirements: string[];
+    sourceUrl?: string;
+    applicationUrl?: string;
+    status: string;
+  };
   const employer = workCategoryLabel(referenceId(data.employer) || 'editorial-employer');
   return {
     slug: data.slug,
@@ -622,8 +715,19 @@ function fromEditorialCourseEntry(entry: CollectionEntry<'courses'>): WorkCourse
     origin: 'editorial',
     sourceUrl: data.sourceUrl,
     enrolmentUrl: data.enrolmentUrl,
+    subject: data.subject,
+    level: data.level,
+    language: data.language,
     duration: data.duration,
+    coursePriceStatus: data.coursePriceStatus ?? data.cost,
+    certificatePriceStatus: data.certificatePriceStatus,
     availabilityStatus: data.status === 'expired' ? 'unavailable' : 'available',
+    termsUrl: data.termsUrl,
+    lastCheckedAt:
+      data.lastCheckedAt?.toISOString().slice(0, 10) ?? data.updatedAt?.toISOString().slice(0, 10),
+    sourceAttribution:
+      data.sourceAttribution ??
+      `Course details supplied by ${data.provider}. SSEGU is not affiliated with the provider.`,
   };
 }
 
@@ -653,7 +757,7 @@ export async function getPublishedWorkCourses() {
   cachedPublishedWorkCourses = mergeBySlug(
     generatedWorkCourses,
     editorial,
-    fixtureWorkCourses,
+    curatedWorkCourses,
   ).filter(isPublishableWorkCourse);
   return cachedPublishedWorkCourses;
 }
@@ -705,6 +809,40 @@ export function getCourseFilterOptions(courses: WorkCourse[] = workCourses) {
     subjects: unique(courses.map((course) => course.subject ?? '')),
     levels: unique(courses.map((course) => course.level ?? '')),
     availability: unique(courses.map((course) => course.availabilityStatus ?? '')),
+    deliveryModes: unique(courses.map((course) => course.deliveryMode ?? '')),
+    coursePrices: unique(courses.map((course) => course.coursePriceStatus ?? '')),
+    certificatePrices: unique(courses.map((course) => course.certificatePriceStatus ?? '')),
+  };
+}
+
+export function isSafeCourseUrl(value?: string) {
+  try {
+    return Boolean(value && new URL(value).protocol === 'https:');
+  } catch {
+    return false;
+  }
+}
+
+export function courseStatusLabel(value?: string) {
+  return (value ?? 'unknown').replace(/_/g, ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+export function toCourseJsonLd(course: WorkCourse) {
+  if (
+    !course.title ||
+    !course.provider ||
+    !course.description ||
+    course.availabilityStatus !== 'available'
+  )
+    return undefined;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name: course.title,
+    description: course.description,
+    provider: { '@type': 'Organization', name: course.provider },
+    ...(course.language ? { inLanguage: course.language } : {}),
+    url: absoluteUrl(`/work/courses/${course.slug}/`),
   };
 }
 
