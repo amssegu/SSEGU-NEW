@@ -865,9 +865,11 @@
 .work-article-detail h1 {
   margin: 0.15rem 0 0.65rem;
   color: var(--work-navy-deep);
+  font-family: var(--font-article-heading);
   font-size: clamp(1.9rem, 3.4vw, 3rem);
+  font-weight: 800;
   letter-spacing: -0.05em;
-  line-height: 1;
+  line-height: 1.04;
 }
 
 .work-page-intro p:last-child,
@@ -1133,20 +1135,33 @@
   margin: 0 0 1.25rem;
 }
 
+.work-detail-body p:first-of-type {
+  color: var(--work-ink);
+  font-size: 1.14em;
+  font-weight: 500;
+  line-height: 1.65;
+}
+
 .work-detail-body h2,
 .work-detail-body h3,
 .work-detail-body h4 {
-  margin: 2.3rem 0 0.7rem;
+  margin: 3rem 0 1rem;
   color: var(--work-navy-deep);
+  font-family: var(--font-article-heading);
+  font-weight: 800;
   line-height: 1.2;
 }
 
 .work-detail-body h2 {
-  font-size: clamp(1.45rem, 3vw, 2rem);
+  padding-left: 0.85rem;
+  border-left: 5px solid var(--work-blue);
+  font-size: clamp(1.75rem, 3vw, 2.2rem);
 }
 
 .work-detail-body h3 {
-  font-size: clamp(1.2rem, 2.5vw, 1.45rem);
+  margin-top: 2.2rem;
+  color: var(--work-blue);
+  font-size: clamp(1.3rem, 2.5vw, 1.55rem);
 }
 
 .work-detail-body ul,
@@ -1329,7 +1344,7 @@
 
 .work-detail-body h2 {
   color: var(--work-navy-deep);
-  font-size: 1.4rem;
+  font-size: clamp(1.75rem, 3vw, 2.2rem);
 }
 
 .work-detail-actions {
@@ -1683,7 +1698,7 @@
 
   .work-article-detail h1 {
     font-size: clamp(1.9rem, 9vw, 2.75rem);
-    line-height: 1.08;
+    line-height: 1.06;
   }
 
   .work-article-dek {
@@ -1694,6 +1709,21 @@
   .work-detail-body {
     font-size: 1rem;
     line-height: 1.7;
+  }
+
+  .work-detail-body p:first-of-type {
+    font-size: 1.08em;
+  }
+
+  .work-detail-body h2 {
+    padding-left: 0.7rem;
+    border-left-width: 4px;
+    font-size: 1.7rem;
+  }
+
+  .work-detail-body h3 {
+    margin-top: 2rem;
+    font-size: 1.35rem;
   }
 
   .work-detail-body table {
