@@ -10,7 +10,9 @@ export interface Article {
   tags: string[];
   author: string;
   publishedAt: string;
+  updatedAt?: string;
   image: string;
+  imageAlt?: string;
   imageFallback?: string;
   imageAvif: string;
   body: string[];
@@ -242,7 +244,9 @@ export function fromContentEntry(entry: CollectionEntry<'articles'>): Article {
         ? 'SSEGU Editorial Desk'
         : referenceId(entry.data.author),
     publishedAt: date,
+    updatedAt: entry.data.updatedAt?.toISOString().slice(0, 10),
     image,
+    imageAlt: entry.data.imageAlt,
     imageFallback: entry.data.imageFallback,
     imageAvif: image.endsWith('.avif')
       ? image
@@ -277,7 +281,7 @@ export async function getPublishedArticles(category?: string) {
     .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }
 
-export const NEWS_PAGE_SIZE = 24;
+export const NEWS_PAGE_SIZE = 16;
 
 export function pageCount(total: number, pageSize = NEWS_PAGE_SIZE) {
   return Math.max(1, Math.ceil(total / pageSize));

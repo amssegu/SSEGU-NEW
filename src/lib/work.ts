@@ -100,7 +100,9 @@ export interface WorkArticle {
   tags: string[];
   author: string;
   publishedAt: string;
+  updatedAt?: string;
   image: string;
+  imageAlt?: string;
 }
 
 const ignoredWorkTags = new Set(['ssegu', 'bbc', 'facebook', 'twitter', 'youtube']);
@@ -156,7 +158,9 @@ export function fromWorkEntry(entry: CollectionEntry<'work-articles'>): WorkArti
         ? 'SSEGU Editorial Desk'
         : referenceId(entry.data.author),
     publishedAt: entry.data.publishedAt.toISOString().slice(0, 10),
+    updatedAt: entry.data.updatedAt?.toISOString().slice(0, 10),
     image: entry.data.image ?? '/uploads/article-technology.webp',
+    imageAlt: entry.data.imageAlt,
   };
 }
 
@@ -186,7 +190,7 @@ export async function getPublishedWorkArticles(category?: string) {
 }
 
 export const workCategories = ['career-advice'] as const;
-export const WORK_PAGE_SIZE = 24;
+export const WORK_PAGE_SIZE = 16;
 
 export function workPageCount(total: number, pageSize = WORK_PAGE_SIZE) {
   return Math.max(1, Math.ceil(total / pageSize));

@@ -3,7 +3,7 @@ import MainLayout from '../layouts/MainLayout.astro';
 import { articles, formatDate, fromContentEntry, label } from '../lib/articles';
 import AdSlot from '../components/main/AdSlot.astro';
 import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../lib/seo';
-import { stripLegacyArticleLead } from '../lib/content';
+import { estimateReadingTime, normalizeArticleBody, stripLegacyArticleLead } from '../lib/content';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 export async function getStaticPaths() {
   const entries = (await getCollection('articles')).filter(
@@ -48,7 +48,12 @@ const { article: fixtureArticle, entry } = Astro.props as {
 const article = fixtureArticle ?? fromContentEntry(entry!);
 const related = Astro.props.related ?? [];
 const { Content } = entry ? await render(entry) : { Content: undefined };
-const cleanedBody = entry ? stripLegacyArticleLead(entry.body ?? '') : undefined;
+const rawBody = entry?.body ?? '';
+const cleanedBody = entry
+  ? normalizeArticleBody(stripLegacyArticleLead(rawBody) ?? rawBody)
+  : undefined;
+const hasNormalizedBody = Boolean(entry && cleanedBody !== rawBody);
+const readingTime = estimateReadingTime(entry?.body ?? article.body);
 const canonical = absoluteUrl(`/${article.slug}/`);
 const structuredData = [
   breadcrumbJsonLd([
@@ -75,6 +80,7 @@ const structuredData = [
   image={article.image}
   type="article"
   publishedAt={article.publishedAt}
+  updatedAt={article.updatedAt}
   author={article.author}
   section={label(article.category)}
   structuredData={structuredData}
@@ -85,7 +91,7 @@ const structuredData = [
       <span>/</span>
       <a href={`/category/${article.category}/`}>{label(article.category)}</a>
       <span>/</span>
-      <span aria-current="page">Article</span>
+      <span aria-current="page">{article.title}</span>
     </nav>
     <div class="article-taxonomy" aria-label="Article categories">
       {article.categories.map((category) => (
@@ -99,6 +105,14 @@ const structuredData = [
     <p class="article-meta">
       By {article.author} ·{' '}
       <time datetime={article.publishedAt}>{formatDate(article.publishedAt)}</time>
+      <span aria-hidden="true">·</span>
+      <span>{readingTime} min read</span>
+      {article.updatedAt && article.updatedAt !== article.publishedAt && (
+        <>
+          <span aria-hidden="true">·</span>
+          <span>Updated {formatDate(article.updatedAt)}</span>
+        </>
+      )}
     </p>
     {article.tags.length > 0 && (
       <ul class="article-tags" aria-label="Article tags">
@@ -114,14 +128,16 @@ const structuredData = [
         class="article-cover"
         src={article.image}
         data-fallback-src={article.imageFallback}
-        alt={`Illustration for ${article.title}`}
+        alt={article.imageAlt ?? `Illustration for ${article.title}`}
+        loading="eager"
+        decoding="async"
         width="1200"
         height="675"
       />
     </picture>
     <AdSlot placement="article" />
     <div class="article-body">
-      {cleanedBody ? (
+      {hasNormalizedBody ? (
         <div set:html={cleanedBody} />
       ) : Content ? (
         <Content />
@@ -134,7 +150,20 @@ const structuredData = [
         <h2 id="related-title">Related stories</h2>
         <div class="related-links">
           {related.map((item) => (
-            <a href={`/${item.slug}/`}>{item.title}</a>
+            <a class="related-card" href={`/${item.slug}/`}>
+              <img
+                src={item.image}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                width="320"
+                height="180"
+              />
+              <span class="related-card-copy">
+                <strong>{item.title}</strong>
+                <small>{item.description}</small>
+              </span>
+            </a>
           ))}
         </div>
       </section>
@@ -144,11 +173,15 @@ const structuredData = [
 
 <script is:inline>
   document.querySelectorAll('img[data-fallback-src]').forEach((image) => {
-    image.addEventListener('error', () => {
-      const fallback = image.dataset.fallbackSrc;
-      if (fallback && image.getAttribute('src') !== fallback) {
-        image.setAttribute('src', fallback);
-      }
-    }, { once: true });
+    image.addEventListener(
+      'error',
+      () => {
+        const fallback = image.dataset.fallbackSrc;
+        if (fallback && image.getAttribute('src') !== fallback) {
+          image.setAttribute('src', fallback);
+        }
+      },
+      { once: true },
+    );
   });
 </script>

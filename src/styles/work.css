@@ -964,7 +964,12 @@
 }
 
 .work-resource-grid,
-.work-article-grid,
+.work-article-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+
 .work-employer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1054,6 +1059,13 @@
   font-size: 0.8rem;
   font-weight: 700;
 }
+.work-article-dek {
+  max-width: 65ch;
+  margin: 0.8rem 0 1.2rem;
+  color: var(--work-muted);
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
 
 .work-breadcrumbs {
   display: flex;
@@ -1115,6 +1127,67 @@
   color: var(--work-muted);
   font-size: 1.05rem;
   line-height: 1.7;
+}
+
+.work-detail-body p {
+  margin: 0 0 1.25rem;
+}
+
+.work-detail-body h2,
+.work-detail-body h3,
+.work-detail-body h4 {
+  margin: 2.3rem 0 0.7rem;
+  color: var(--work-navy-deep);
+  line-height: 1.2;
+}
+
+.work-detail-body h2 {
+  font-size: clamp(1.45rem, 3vw, 2rem);
+}
+
+.work-detail-body h3 {
+  font-size: clamp(1.2rem, 2.5vw, 1.45rem);
+}
+
+.work-detail-body ul,
+.work-detail-body ol {
+  margin: 0 0 1.4rem;
+  padding-left: 1.4rem;
+}
+
+.work-detail-body li {
+  margin: 0.4rem 0;
+}
+
+.work-detail-body li p {
+  margin: 0;
+}
+
+.work-detail-body a {
+  color: var(--work-blue);
+  font-weight: 800;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
+}
+
+.work-detail-body table {
+  width: 100%;
+  margin: 1.75rem 0;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.work-detail-body th,
+.work-detail-body td {
+  padding: 0.7rem;
+  border: 1px solid var(--work-line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.work-detail-body th {
+  color: #fff;
+  background: var(--work-navy);
 }
 
 .work-submission-notice {
@@ -1282,14 +1355,34 @@
 }
 
 .work-related-link {
-  display: block;
-  padding: 1rem;
+  display: grid;
+  overflow: hidden;
   border: 1px solid var(--work-line);
   border-radius: var(--work-radius);
   color: var(--work-blue);
   background: #fff;
   font-weight: 800;
   text-decoration: none;
+}
+
+.work-related-link img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.work-related-link > span {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem;
+}
+
+.work-related-link small {
+  color: var(--work-muted);
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 1.45;
 }
 
 .work-article-detail {

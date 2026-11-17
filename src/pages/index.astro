@@ -56,10 +56,13 @@ const moreNews = stories.slice(5, 17);
           ))}
         </div>
       </div>
-      <div class="supporting-stories">
-        {supporting.map((article) => (
-          <StoryCard article={article} compact />
-        ))}
+      <div class="supporting-column">
+        <div class="supporting-stories">
+          {supporting.map((article) => (
+            <StoryCard article={article} compact />
+          ))}
+        </div>
+        <AdSlot placement="sidebar" format="rectangle" minHeight={0} />
       </div>
     </section>
     <aside class="home-sidebar">
@@ -82,6 +85,7 @@ const moreNews = stories.slice(5, 17);
     </section>
     <aside>
       <SectionLinks />
+      <AdSlot placement="sidebar" format="rectangle" minHeight={600} />
     </aside>
   </div>
   <AdSlot placement="section" format="horizontal" />
