@@ -60,7 +60,13 @@ const article = fixtureArticle ?? fromContentEntry(entry!);
 const related = Astro.props.related ?? [];
 const topStories = Astro.props.topStories ?? [];
 const topStorySlugs = new Set(topStories.map((item) => item.slug));
-const relatedStories = related.filter((item) => !topStorySlugs.has(item.slug)).slice(0, 5);
+const relatedStories = related.filter((item) => !topStorySlugs.has(item.slug)).slice(0, 4);
+const truncateRelatedTitle = (title: string, maxLength = 58) => {
+  if (title.length <= maxLength) return title;
+  const shortened = title.slice(0, maxLength).trimEnd();
+  const wordBoundary = shortened.lastIndexOf(' ');
+  return `${shortened.slice(0, wordBoundary > 40 ? wordBoundary : maxLength)}…`;
+};
 const { Content } = entry ? await render(entry) : { Content: undefined };
 const rawBody = entry?.body ?? '';
 const cleanedBody = entry
@@ -156,7 +162,7 @@ const structuredData = [
             height="675"
           />
         </picture>
-        <AdSlot placement="article" />
+        <AdSlot placement="article" format="horizontal" minHeight={60} />
         <div class="article-body">
           {hasNormalizedBody ? (
             <div set:html={cleanedBody} />
@@ -166,6 +172,9 @@ const structuredData = [
             article.body.map((paragraph) => <p>{paragraph}</p>)
           )}
         </div>
+        <template id="article-inline-ad-template">
+          <AdSlot placement="article" format="horizontal" minHeight={60} />
+        </template>
         {relatedStories.length > 0 && (
           <section class="related" aria-labelledby="related-title">
             <h2 id="related-title">Related stories</h2>
@@ -181,7 +190,7 @@ const structuredData = [
                     height="180"
                   />
                   <span class="related-card-copy">
-                    <strong>{item.title}</strong>
+                    <strong>{truncateRelatedTitle(item.title)}</strong>
                     <small>{item.description}</small>
                   </span>
                 </a>
@@ -193,6 +202,7 @@ const structuredData = [
       {topStories.length > 0 && (
         <aside class="article-top-stories" aria-label="Top Stories">
           <TopStories articles={topStories} />
+          <AdSlot placement="sidebar" format="rectangle" minHeight={120} />
         </aside>
       )}
     </div>
@@ -200,6 +210,39 @@ const structuredData = [
 </MainLayout>
 
 <script is:inline>
+  const articleBody = document.querySelector('.article-body');
+  const inlineAdTemplate = document.querySelector('#article-inline-ad-template');
+  if (articleBody && inlineAdTemplate) {
+    const paragraphs = [...articleBody.querySelectorAll('p')];
+    const adCount = Math.min(5, Math.max(2, Math.floor(paragraphs.length / 3)));
+    const insertionIndexes = new Set(
+      Array.from({ length: adCount }, (_, index) =>
+        Math.min(
+          paragraphs.length - 1,
+          Math.floor(((index + 1) * paragraphs.length) / (adCount + 1)),
+        ),
+      ),
+    );
+
+    insertionIndexes.forEach((paragraphIndex) => {
+      const ad = inlineAdTemplate.content.cloneNode(true);
+      paragraphs[paragraphIndex]?.after(ad);
+    });
+
+    if (document.querySelector('script[data-ssegu-adsense]')) {
+      document
+        .querySelectorAll('.article-body .adsbygoogle:not([data-ad-requested])')
+        .forEach((ad) => {
+          ad.setAttribute('data-ad-requested', '1');
+          try {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+          } catch (error) {
+            ad.removeAttribute('data-ad-requested');
+            console.warn('AdSense could not load this inline ad slot.', error);
+          }
+        });
+    }
+  }
   document.querySelectorAll('img[data-fallback-src]').forEach((image) => {
     image.addEventListener(
       'error',
