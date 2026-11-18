@@ -1,0 +1,113 @@
+---
+import type { LiveTvChannel } from '../../lib/live-tv';
+
+interface Props {
+  channel: LiveTvChannel;
+}
+
+const { channel } = Astro.props;
+---
+
+<section class="live-tv-page" aria-labelledby="live-tv-player-title">
+  <a class="live-tv-back" href="/tv/">
+    ← All live channels
+  </a>
+  <div class="live-tv-page-heading">
+    <div>
+      <p class="live-tv-kicker">
+        <span aria-hidden="true"></span> SSEGU Live
+      </p>
+      <h1 id="live-tv-player-title">{channel.name}</h1>
+      <p>{channel.category} · Live broadcast</p>
+    </div>
+    <span class="live-tv-page-status">
+      <i aria-hidden="true"></i> Live
+    </span>
+  </div>
+  <div class="live-tv-player" data-live-tv-player>
+    <div class="live-tv-player-heading">
+      <div>
+        <p class="live-tv-kicker">
+          <span aria-hidden="true"></span> Now watching
+        </p>
+        <h2>{channel.name}</h2>
+        <p>{channel.category} channel</p>
+      </div>
+      <span class="live-tv-channel-count">Streaming live</span>
+    </div>
+    <div class="live-tv-video-shell">
+      <video
+        class="live-tv-video"
+        data-live-tv-video
+        playsinline
+        controls
+        autoplay
+        preload="metadata"
+      ></video>
+      <div class="live-tv-video-message is-loading" data-live-tv-message>
+        <strong data-live-tv-message-title>Connecting to {channel.name}…</strong>
+        <span data-live-tv-message-detail>Live video will appear when the stream is ready.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script define:vars={{ streamUrl: channel.stream }}>
+  import Hls from 'hls.js';
+
+  const video = document.querySelector('[data-live-tv-video]');
+  const message = document.querySelector('[data-live-tv-message]');
+  const messageTitle = document.querySelector('[data-live-tv-message-title]');
+  const messageDetail = document.querySelector('[data-live-tv-message-detail]');
+  let currentHls = null;
+  let timeout;
+  let ready = false;
+
+  function showError() {
+    if (timeout) window.clearTimeout(timeout);
+    message?.classList.remove('is-loading', 'is-hidden');
+    if (messageTitle) messageTitle.textContent = 'Stream unavailable';
+    if (messageDetail)
+      messageDetail.textContent = 'This channel could not be loaded. Please try again later.';
+  }
+
+  function showReady() {
+    ready = true;
+    if (timeout) window.clearTimeout(timeout);
+    message?.classList.add('is-hidden');
+  }
+
+  function attachStream() {
+    if (!video) return;
+    timeout = window.setTimeout(() => {
+      if (!ready) showError();
+    }, 18000);
+    if (Hls.isSupported()) {
+      currentHls = new Hls({
+        enableWorker: true,
+        lowLatencyMode: true,
+        backBufferLength: 60,
+        maxBufferLength: 30,
+      });
+      currentHls.loadSource(streamUrl);
+      currentHls.attachMedia(video);
+      currentHls.on(Hls.Events.MANIFEST_PARSED, showReady);
+      currentHls.on(Hls.Events.ERROR, (_event, data) => {
+        if (!data.fatal) return;
+        if (data.type === Hls.ErrorTypes.NETWORK_ERROR) currentHls?.startLoad();
+        else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) currentHls?.recoverMediaError();
+        else showError();
+      });
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = streamUrl;
+      video.addEventListener('loadedmetadata', showReady, { once: true });
+      video.addEventListener('error', showError, { once: true });
+    } else {
+      showError();
+    }
+    video.addEventListener('error', showError, { once: true });
+  }
+
+  attachStream();
+  window.addEventListener('pagehide', () => currentHls?.destroy(), { once: true });
+</script>

@@ -7,6 +7,7 @@ import {
   normalizeArticleBody,
   stripLegacyArticleLead,
 } from '../../../lib/content';
+import { selectRecommendations } from '../../../lib/recommendations';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -20,7 +21,11 @@ export async function getStaticPaths() {
     ...workArticles.filter((article) => !contentSlugs.has(article.slug)),
   ];
   const relatedFor = (article: (typeof workArticles)[number]) =>
-    allArticles.filter((item) => item.slug !== article.slug).slice(0, 2);
+    selectRecommendations(
+      allArticles.filter((item) => item.slug !== article.slug),
+      article.slug,
+      2,
+    );
   return [
     ...workArticles
       .filter((article) => !contentSlugs.has(article.slug))

@@ -4,6 +4,7 @@ import { articles, formatDate, fromContentEntry, label } from '../lib/articles';
 import AdSlot from '../components/main/AdSlot.astro';
 import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../lib/seo';
 import { estimateReadingTime, normalizeArticleBody, stripLegacyArticleLead } from '../lib/content';
+import { selectRecommendations } from '../lib/recommendations';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 export async function getStaticPaths() {
   const entries = (await getCollection('articles')).filter(
@@ -16,13 +17,15 @@ export async function getStaticPaths() {
     ...articles.filter((article) => !contentSlugs.has(article.slug)),
   ];
   const relatedFor = (article: (typeof articles)[number]) =>
-    allArticles
-      .filter(
+    selectRecommendations(
+      allArticles.filter(
         (item) =>
           item.slug !== article.slug &&
           item.categories.some((category) => article.categories.includes(category)),
-      )
-      .slice(0, 5);
+      ),
+      article.slug,
+      10,
+    );
   return [
     ...articles
       .filter((article) => !contentSlugs.has(article.slug))
@@ -47,6 +50,8 @@ const { article: fixtureArticle, entry } = Astro.props as {
 };
 const article = fixtureArticle ?? fromContentEntry(entry!);
 const related = Astro.props.related ?? [];
+const relatedAside = related.slice(0, 5);
+const relatedStories = related.slice(5);
 const { Content } = entry ? await render(entry) : { Content: undefined };
 const rawBody = entry?.body ?? '';
 const cleanedBody = entry
@@ -148,11 +153,11 @@ const structuredData = [
           )}
         </div>
       </div>
-      {related.length > 0 && (
+      {relatedAside.length > 0 && (
         <aside class="related-aside" aria-labelledby="related-aside-title">
           <h2 id="related-aside-title">More to read</h2>
           <div class="related-aside-list">
-            {related.slice(0, 5).map((item) => (
+            {relatedAside.map((item) => (
               <a class="related-aside-card" href={`/${item.slug}/`}>
                 <img
                   src={item.image}
@@ -169,11 +174,11 @@ const structuredData = [
         </aside>
       )}
     </div>
-    {related.length > 0 && (
+    {relatedStories.length > 0 && (
       <section class="related" aria-labelledby="related-title">
         <h2 id="related-title">Related stories</h2>
         <div class="related-links">
-          {related.map((item) => (
+          {relatedStories.map((item) => (
             <a class="related-card" href={`/${item.slug}/`}>
               <img
                 src={item.image}
