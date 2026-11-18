@@ -1,13 +1,12 @@
 ---
+import { adsenseClient, adsenseSlot } from '../../lib/adsense';
+
 interface Props {
   placement?: 'top' | 'sidebar' | 'section' | 'article';
   format?: 'auto' | 'horizontal' | 'rectangle';
   minHeight?: number;
 }
 
-const adsenseEnabled = import.meta.env.PUBLIC_ADSENSE_ENABLED === 'true';
-const client = adsenseEnabled ? import.meta.env.PUBLIC_ADSENSE_CLIENT : undefined;
-const slot = adsenseEnabled ? import.meta.env.PUBLIC_ADSENSE_SLOT : undefined;
 const {
   placement = 'section',
   format = 'auto',
@@ -18,12 +17,12 @@ const {
 <aside class:list={['ad-unit', `ad-${placement}`]} aria-label="Advertisement">
   <span class="ad-label">Advertisement</span>
   <div class="ad-slot" style={`min-height: ${minHeight}px`}>
-    {client && slot ? (
+    {adsenseClient && adsenseSlot ? (
       <ins
         class="adsbygoogle"
         style="display:block"
-        data-ad-client={client}
-        data-ad-slot={slot}
+        data-ad-client={adsenseClient}
+        data-ad-slot={adsenseSlot}
         data-ad-format={
           format === 'rectangle' ? 'rectangle' : format === 'horizontal' ? 'horizontal' : 'auto'
         }

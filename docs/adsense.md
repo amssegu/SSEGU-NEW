@@ -1,14 +1,14 @@
-# AdSense pause
+# AdSense
 
-AdSense is intentionally disabled while the site and traffic are being reviewed. The publisher
-client and slot IDs remain commented in `.env.example` for reference and have not been removed.
+AdSense is enabled for production builds using the configured publisher client and ad slot.
+The publisher client and slot IDs are public values and are documented in `.env.example`.
 
-Ad placement containers remain visible as labelled `Ad space` placeholders so layout and placement
-can be reviewed without creating an AdSense request.
+Local development remains placeholder-only unless `PUBLIC_ADSENSE_ENABLED=true` is explicitly set.
+Production builds enable the integration by default; set `PUBLIC_ADSENSE_ENABLED=false` to disable it.
 
-The integration is fail-closed: ads only render when `PUBLIC_ADSENSE_ENABLED=true` and both
-`PUBLIC_ADSENSE_CLIENT` and `PUBLIC_ADSENSE_SLOT` are configured. Until that review is complete,
-do not set the enable flag in Cloudflare Pages or local production environments.
+The integration is consent-gated. The AdSense script and ad requests are only loaded after the
+visitor accepts the site's advertising cookie notice. Visitors who decline continue to see the
+reserved ad placement without an AdSense request.
 
-When re-enabling, confirm the live domain, consent/privacy requirements, ad placements, and traffic
-quality first. Then configure the three variables in the deployment environment and redeploy.
+To override the default public IDs in a deployment, configure `PUBLIC_ADSENSE_CLIENT` and
+`PUBLIC_ADSENSE_SLOT` in the build environment, then redeploy.

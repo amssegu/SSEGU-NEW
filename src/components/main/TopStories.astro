@@ -11,7 +11,25 @@ const { articles } = Astro.props;
   <ol>
     {articles.slice(0, 6).map((article) => (
       <li>
-        <a href={`/${article.slug}/`}>{article.title}</a>
+        <a class="top-story-card" href={`/${article.slug}/`}>
+          <picture>
+            {!article.image.startsWith('http') && (
+              <source srcset={article.imageAvif} type="image/avif" />
+            )}
+            {!article.image.startsWith('http') && (
+              <source srcset={article.image} type="image/webp" />
+            )}
+            <img
+              src={article.image}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="160"
+              height="90"
+            />
+          </picture>
+          <strong>{article.title}</strong>
+        </a>
       </li>
     ))}
   </ol>

@@ -3,6 +3,7 @@ import '../styles/global.css';
 import SeoHead from '../components/shared/SeoHead.astro';
 import CookieConsent from '../components/shared/CookieConsent.astro';
 import type { JsonLd } from '../lib/seo';
+import { adsenseClient } from '../lib/adsense';
 
 interface Props {
   title?: string;
@@ -31,8 +32,6 @@ const {
   section,
   structuredData,
 } = Astro.props;
-const adsenseEnabled = import.meta.env.PUBLIC_ADSENSE_ENABLED === 'true';
-const adsenseClient = adsenseEnabled ? import.meta.env.PUBLIC_ADSENSE_CLIENT : undefined;
 ---
 
 <!doctype html>
