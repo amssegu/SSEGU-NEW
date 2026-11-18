@@ -107,51 +107,56 @@ const structuredData = [
       <span>/</span>
       <span aria-current="page">{article.title}</span>
     </nav>
-    <div class="article-taxonomy" aria-label="Article categories">
-      {article.categories.map((category) => (
-        <a class:list={['category-label', `category-${category}`]} href={`/category/${category}/`}>
-          {label(category)}
-        </a>
-      ))}
-    </div>
-    <h1>{article.title}</h1>
-    <p class="article-dek">{article.description}</p>
-    <p class="article-meta">
-      By {article.author} ·{' '}
-      <time datetime={article.publishedAt}>{formatDate(article.publishedAt)}</time>
-      <span aria-hidden="true">·</span>
-      <span>{readingTime} min read</span>
-      {article.updatedAt && article.updatedAt !== article.publishedAt && (
-        <>
-          <span aria-hidden="true">·</span>
-          <span>Updated {formatDate(article.updatedAt)}</span>
-        </>
-      )}
-    </p>
-    {article.tags.length > 0 && (
-      <ul class="article-tags" aria-label="Article tags">
-        {article.tags.map((tag) => (
-          <li>{tag}</li>
-        ))}
-      </ul>
-    )}
-    <picture>
-      {!article.image.startsWith('http') && <source srcset={article.imageAvif} type="image/avif" />}
-      {!article.image.startsWith('http') && <source srcset={article.image} type="image/webp" />}
-      <img
-        class="article-cover"
-        src={article.image}
-        data-fallback-src={article.imageFallback}
-        alt={article.imageAlt ?? `Illustration for ${article.title}`}
-        loading="eager"
-        decoding="async"
-        width="1200"
-        height="675"
-      />
-    </picture>
-    <AdSlot placement="article" />
     <div class="article-reading-layout">
-      <div>
+      <div class="article-main-column">
+        <div class="article-taxonomy" aria-label="Article categories">
+          {article.categories.map((category) => (
+            <a
+              class:list={['category-label', `category-${category}`]}
+              href={`/category/${category}/`}
+            >
+              {label(category)}
+            </a>
+          ))}
+        </div>
+        <h1>{article.title}</h1>
+        <p class="article-dek">{article.description}</p>
+        <p class="article-meta">
+          By {article.author} ·{' '}
+          <time datetime={article.publishedAt}>{formatDate(article.publishedAt)}</time>
+          <span aria-hidden="true">·</span>
+          <span>{readingTime} min read</span>
+          {article.updatedAt && article.updatedAt !== article.publishedAt && (
+            <>
+              <span aria-hidden="true">·</span>
+              <span>Updated {formatDate(article.updatedAt)}</span>
+            </>
+          )}
+        </p>
+        {article.tags.length > 0 && (
+          <ul class="article-tags" aria-label="Article tags">
+            {article.tags.map((tag) => (
+              <li>{tag}</li>
+            ))}
+          </ul>
+        )}
+        <picture>
+          {!article.image.startsWith('http') && (
+            <source srcset={article.imageAvif} type="image/avif" />
+          )}
+          {!article.image.startsWith('http') && <source srcset={article.image} type="image/webp" />}
+          <img
+            class="article-cover"
+            src={article.image}
+            data-fallback-src={article.imageFallback}
+            alt={article.imageAlt ?? `Illustration for ${article.title}`}
+            loading="eager"
+            decoding="async"
+            width="1200"
+            height="675"
+          />
+        </picture>
+        <AdSlot placement="article" />
         <div class="article-body">
           {hasNormalizedBody ? (
             <div set:html={cleanedBody} />
@@ -161,6 +166,29 @@ const structuredData = [
             article.body.map((paragraph) => <p>{paragraph}</p>)
           )}
         </div>
+        {relatedStories.length > 0 && (
+          <section class="related" aria-labelledby="related-title">
+            <h2 id="related-title">Related stories</h2>
+            <div class="related-links">
+              {relatedStories.map((item) => (
+                <a class="related-card" href={`/${item.slug}/`}>
+                  <img
+                    src={item.image}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                    width="320"
+                    height="180"
+                  />
+                  <span class="related-card-copy">
+                    <strong>{item.title}</strong>
+                    <small>{item.description}</small>
+                  </span>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
       {topStories.length > 0 && (
         <aside class="article-top-stories" aria-label="Top Stories">
@@ -168,29 +196,6 @@ const structuredData = [
         </aside>
       )}
     </div>
-    {relatedStories.length > 0 && (
-      <section class="related" aria-labelledby="related-title">
-        <h2 id="related-title">Related stories</h2>
-        <div class="related-links">
-          {relatedStories.map((item) => (
-            <a class="related-card" href={`/${item.slug}/`}>
-              <img
-                src={item.image}
-                alt=""
-                loading="lazy"
-                decoding="async"
-                width="320"
-                height="180"
-              />
-              <span class="related-card-copy">
-                <strong>{item.title}</strong>
-                <small>{item.description}</small>
-              </span>
-            </a>
-          ))}
-        </div>
-      </section>
-    )}
   </article>
 </MainLayout>
 
