@@ -1428,6 +1428,9 @@ input:focus-visible {
   justify-content: center;
   gap: 3rem;
 }
+.article-reading-layout > div {
+  min-width: 0;
+}
 .related-aside {
   max-height: calc(100vh - 2rem);
   overflow-y: auto;
@@ -1849,12 +1852,19 @@ input:focus-visible {
   }
   .article-reading-layout {
     grid-template-columns: 1fr;
-    gap: 2.5rem;
+    gap: 2rem;
   }
   .related-aside {
     max-height: none;
     overflow: visible;
     position: static;
+  }
+  .related-aside-card {
+    grid-template-columns: 110px minmax(0, 1fr);
+    align-items: center;
+  }
+  .related-aside-card img {
+    aspect-ratio: 16 / 9;
   }
   .article-body {
     font-size: 1rem;
