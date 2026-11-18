@@ -1,6 +1,13 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import { articles, formatDate, fromContentEntry, label } from '../lib/articles';
+import TopStories from '../components/main/TopStories.astro';
+import {
+  articles,
+  formatDate,
+  fromContentEntry,
+  getPublishedArticles,
+  label,
+} from '../lib/articles';
 import AdSlot from '../components/main/AdSlot.astro';
 import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../lib/seo';
 import { estimateReadingTime, normalizeArticleBody, stripLegacyArticleLead } from '../lib/content';
@@ -11,11 +18,7 @@ export async function getStaticPaths() {
     ({ data }) => data.status === 'published',
   );
   const contentSlugs = new Set(entries.map((entry) => entry.data.slug));
-  const contentArticles = entries.map(fromContentEntry);
-  const allArticles = [
-    ...contentArticles,
-    ...articles.filter((article) => !contentSlugs.has(article.slug)),
-  ];
+  const allArticles = await getPublishedArticles();
   const relatedFor = (article: (typeof articles)[number]) =>
     selectRecommendations(
       allArticles.filter(
@@ -31,27 +34,33 @@ export async function getStaticPaths() {
       .filter((article) => !contentSlugs.has(article.slug))
       .map((article) => ({
         params: { slug: article.slug },
-        props: { article, related: relatedFor(article) },
+        props: { article, related: relatedFor(article), topStories: allArticles.slice(0, 6) },
       })),
-    ...entries.map((entry, index) => ({
-      params: { slug: entry.data.slug },
-      props: {
-        entry,
-        article: contentArticles[index],
-        related: relatedFor(contentArticles[index]),
-      },
-    })),
+    ...entries.map((entry) => {
+      const article = allArticles.find((item) => item.slug === entry.data.slug)!;
+      return {
+        params: { slug: entry.data.slug },
+        props: {
+          entry,
+          article,
+          related: relatedFor(article),
+          topStories: allArticles.slice(0, 6),
+        },
+      };
+    }),
   ];
 }
 const { article: fixtureArticle, entry } = Astro.props as {
   article?: (typeof articles)[number];
   related?: (typeof articles)[number][];
+  topStories?: (typeof articles)[number][];
   entry?: CollectionEntry<'articles'>;
 };
 const article = fixtureArticle ?? fromContentEntry(entry!);
 const related = Astro.props.related ?? [];
-const relatedAside = related.slice(0, 5);
-const relatedStories = related.slice(5);
+const topStories = Astro.props.topStories ?? [];
+const topStorySlugs = new Set(topStories.map((item) => item.slug));
+const relatedStories = related.filter((item) => !topStorySlugs.has(item.slug)).slice(0, 5);
 const { Content } = entry ? await render(entry) : { Content: undefined };
 const rawBody = entry?.body ?? '';
 const cleanedBody = entry
@@ -153,24 +162,9 @@ const structuredData = [
           )}
         </div>
       </div>
-      {relatedAside.length > 0 && (
-        <aside class="related-aside" aria-labelledby="related-aside-title">
-          <h2 id="related-aside-title">More to read</h2>
-          <div class="related-aside-list">
-            {relatedAside.map((item) => (
-              <a class="related-aside-card" href={`/${item.slug}/`}>
-                <img
-                  src={item.image}
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  width="320"
-                  height="180"
-                />
-                <strong>{item.title}</strong>
-              </a>
-            ))}
-          </div>
+      {topStories.length > 0 && (
+        <aside class="article-top-stories" aria-label="Top Stories">
+          <TopStories articles={topStories} />
         </aside>
       )}
     </div>

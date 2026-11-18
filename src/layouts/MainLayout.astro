@@ -32,7 +32,6 @@ const nav = [
   { label: 'Home', href: '/' },
   { label: 'News', href: '/news/', menu: true },
   { label: 'Business', href: '/category/business/', menu: true },
-  { label: 'Politics', href: '/category/politics/', menu: true },
   { label: 'Technology', href: '/category/technology/', menu: true },
   { label: 'Education', href: '/category/education/', menu: true },
   { label: 'Lifestyle', href: '/category/lifestyle/', menu: true },
@@ -116,9 +115,11 @@ const currentPath = Astro.url.pathname;
             {item.label}
           </a>
         ))}
+        <a href="/reviews/">Reviews</a>
         <a class="nav-work" href="/work/">
-          SSEGU Work
+          Jobs
         </a>
+        <a href="/firimu/">Firimu</a>
         <a class="nav-live-tv" href="/tv/">
           <span aria-hidden="true">●</span> Live TV
         </a>

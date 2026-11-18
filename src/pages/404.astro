@@ -7,12 +7,34 @@ import MainLayout from '../layouts/MainLayout.astro';
   description="The requested SSEGU page could not be found."
   noindex
 >
-  <div class="shell prose-page not-found">
-    <p class="eyebrow">404</p>
-    <h1>That page is not here</h1>
-    <p>The link may be out of date, or the story has not been published in this fixture build.</p>
-    <a class="button" href="/">
-      Return to SSEGU home
-    </a>
+  <div class="shell not-found">
+    <div class="not-found-card">
+      <picture class="not-found-logo">
+        <source srcset="/uploads/logo.avif" type="image/avif" />
+        <img src="/uploads/logo.webp" alt="SSEGU" width="400" height="400" />
+      </picture>
+      <div class="not-found-copy">
+        <p class="eyebrow">Error 404</p>
+        <h1>Oops, we might have lost this page!</h1>
+        <p>
+          The link may be out of date, or the story may have moved. Let’s get you back to the news,
+          ideas and opportunities that matter.
+        </p>
+        <div class="not-found-actions">
+          <a class="button" href="/">
+            Return home
+          </a>
+          <a class="not-found-secondary" href="/search/">
+            Search SSEGU
+          </a>
+        </div>
+      </div>
+    </div>
+    <nav class="not-found-links" aria-label="Helpful links">
+      <span>Try one of these:</span>
+      <a href="/news/">Latest news</a>
+      <a href="/tv/">Live TV</a>
+      <a href="/work/">SSEGU Work</a>
+    </nav>
   </div>
 </MainLayout>
