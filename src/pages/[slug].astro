@@ -22,7 +22,7 @@ export async function getStaticPaths() {
           item.slug !== article.slug &&
           item.categories.some((category) => article.categories.includes(category)),
       )
-      .slice(0, 3);
+      .slice(0, 5);
   return [
     ...articles
       .filter((article) => !contentSlugs.has(article.slug))
@@ -136,13 +136,37 @@ const structuredData = [
       />
     </picture>
     <AdSlot placement="article" />
-    <div class="article-body">
-      {hasNormalizedBody ? (
-        <div set:html={cleanedBody} />
-      ) : Content ? (
-        <Content />
-      ) : (
-        article.body.map((paragraph) => <p>{paragraph}</p>)
+    <div class="article-reading-layout">
+      <div>
+        <div class="article-body">
+          {hasNormalizedBody ? (
+            <div set:html={cleanedBody} />
+          ) : Content ? (
+            <Content />
+          ) : (
+            article.body.map((paragraph) => <p>{paragraph}</p>)
+          )}
+        </div>
+      </div>
+      {related.length > 0 && (
+        <aside class="related-aside" aria-labelledby="related-aside-title">
+          <h2 id="related-aside-title">More to read</h2>
+          <div class="related-aside-list">
+            {related.slice(0, 5).map((item) => (
+              <a class="related-aside-card" href={`/${item.slug}/`}>
+                <img
+                  src={item.image}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  width="320"
+                  height="180"
+                />
+                <strong>{item.title}</strong>
+              </a>
+            ))}
+          </div>
+        </aside>
       )}
     </div>
     {related.length > 0 && (
