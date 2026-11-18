@@ -643,7 +643,8 @@ input:focus-visible {
 }
 .home-sidebar {
   display: grid;
-  align-content: space-between;
+  align-self: start;
+  align-content: start;
   gap: 1rem;
 }
 .top-stories,
