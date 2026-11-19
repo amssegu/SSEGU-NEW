@@ -178,7 +178,7 @@ const nav = [
         .forEach((link) => link.addEventListener('click', closeWorkMenu));
     </script>
     <script is:inline>
-      const cookieConsentKey = 'ssegu-ad-consent';
+      const cookieConsentKey = 'ssegu-cookie-notice';
       const cookieConsentDuration = 7 * 24 * 60 * 60 * 1000;
       const cookieConsent = document.querySelector('[data-cookie-consent]');
       const adsenseClient = cookieConsent?.dataset.adsenseClient;
@@ -206,9 +206,9 @@ const nav = [
           return null;
         }
       };
-      const saveConsent = (allowed) => {
+      const saveConsent = () => {
         const value = encodeURIComponent(
-          JSON.stringify({ allowed, expires: Date.now() + cookieConsentDuration }),
+          JSON.stringify({ dismissed: true, expires: Date.now() + cookieConsentDuration }),
         );
         document.cookie = `${cookieConsentKey}=${value}; max-age=${cookieConsentDuration / 1000}; path=/; samesite=lax`;
       };
@@ -238,15 +238,14 @@ const nav = [
         document.head.appendChild(script);
       };
       const consent = readConsent();
-      if (adsAllowedHost && consent?.allowed) requestAds();
+      if (adsAllowedHost) requestAds();
       if (adsAllowedHost && !consent && cookieConsent) cookieConsent.hidden = false;
       cookieConsent?.querySelector('[data-cookie-accept]')?.addEventListener('click', () => {
-        saveConsent(true);
+        saveConsent();
         cookieConsent.hidden = true;
-        requestAds();
       });
       cookieConsent?.querySelector('[data-cookie-decline]')?.addEventListener('click', () => {
-        saveConsent(false);
+        saveConsent();
         cookieConsent.hidden = true;
       });
     </script>
