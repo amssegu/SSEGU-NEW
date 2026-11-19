@@ -79,7 +79,13 @@ const {
       const adsAllowedHost = ['ssegu.com', 'www.ssegu.com'].includes(window.location.hostname);
       if (!adsAllowedHost) {
         cookieConsent?.setAttribute('hidden', '');
-        document.querySelectorAll('.ad-unit').forEach((ad) => ad.setAttribute('hidden', ''));
+        document.querySelectorAll('.ad-unit').forEach((ad) => {
+          ad.querySelectorAll('.adsbygoogle').forEach((slot) => slot.remove());
+          const slot = ad.querySelector('.ad-slot');
+          if (slot && !slot.querySelector('.ad-slot-placeholder')) {
+            slot.innerHTML = '<div class="ad-slot-placeholder" aria-hidden="true">Ad space</div>';
+          }
+        });
       }
       const readConsent = () => {
         const value = document.cookie
