@@ -30,7 +30,7 @@ assert.match(readFileSync('functions/api/job-submissions.ts', 'utf8'), /TURNSTIL
 assert.match(readFileSync('functions/api/job-submissions.ts', 'utf8'), /RATE_LIMIT_KV/);
 assert.match(readFileSync('functions/api/job-submissions.ts', 'utf8'), /JOB_SUBMISSIONS_DB/);
 assert.match(readFileSync('src/lib/articles.ts', 'utf8'), /slice\(0, 3\)/);
-assert.match(readFileSync('src/pages/index.astro', 'utf8'), /stories\.slice\(5, 17\)/);
+assert.match(readFileSync('src/pages/index.astro', 'utf8'), /stories\.slice\(5, 14\)/);
 assert.match(readFileSync('src/pages/work/index.astro', 'utf8'), /workArticles\.slice\(0, 6\)/);
 assert.match(readFileSync('src/lib/work.ts', 'utf8'), /slice\(0, 3\)/);
 assert.match(readFileSync('src/lib/work-automation-mode.ts', 'utf8'), /'disabled'/);

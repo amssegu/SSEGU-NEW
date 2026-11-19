@@ -180,7 +180,9 @@ const successfulRun = await runJobs({
 });
 assert.equal(successfulRun.acceptedCount, 2);
 assert.equal(dbCalls.length, 5);
-const upsertCall = dbCalls.find(({ query }) => /ON CONFLICT\(source_id, source_record_id\)/.test(query));
+const upsertCall = dbCalls.find(({ query }) =>
+  /ON CONFLICT\(source_id, source_record_id\)/.test(query),
+);
 assert.ok(upsertCall);
 assert.match(upsertCall.query, /COALESCE\(excluded\.application_url/);
 

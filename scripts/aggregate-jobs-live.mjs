@@ -83,10 +83,7 @@ const report = {
   publicDataChanged: results.some((result) => result.acceptedCount > 0),
 };
 
-await writeFile(
-  sqlPath,
-  `${database.statements.join('\n')}\n`,
-);
+await writeFile(sqlPath, `${database.statements.join('\n')}\n`);
 await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`);
 console.log(`live aggregation plan written: ${sqlPath}`);
 console.log(`aggregation report written: ${reportPath}`);
