@@ -107,38 +107,43 @@ const filters = ['all', 'News', 'Entertainment', 'Sports', 'Community', 'Faith']
   .tv-catalog {
     width: 100%;
     margin: 0 auto;
-    padding: 16px 14px 40px;
+    max-width: 1440px;
+    padding: 30px 24px 56px;
     color: #e8e8ed;
     background: #0b0b0f;
   }
   .tv-brand {
-    text-align: center;
-    padding: 8px 0 16px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 10px 0 20px;
+    text-align: left;
   }
   .tv-brand h1 {
     margin: 0;
     color: #fff;
-    font-size: clamp(26px, 4.5vw, 40px);
+    font-size: clamp(30px, 4.5vw, 52px);
     font-weight: 900;
     letter-spacing: -0.5px;
   }
   .tv-brand h1 span {
-    color: #e11d48;
+    color: #d95c4b;
   }
   .tv-brand p {
-    margin: 6px 0 0;
+    margin: 0 0 5px;
     color: #8a8a96;
     font-size: 13px;
   }
   .tv-search-wrap {
-    max-width: 640px;
-    margin: 0 auto 14px;
+    max-width: 520px;
+    margin: 0 0 14px auto;
   }
   .tv-search-wrap input {
     width: 100%;
     height: 46px;
     border: 1px solid rgb(255 255 255 / 12%);
-    border-radius: 14px;
+    border-radius: 8px;
     background: #16161d;
     color: #fff;
     outline: none;
@@ -146,7 +151,7 @@ const filters = ['all', 'News', 'Entertainment', 'Sports', 'Community', 'Faith']
     font-size: 16px;
   }
   .tv-search-wrap input:focus {
-    border-color: #e11d48;
+    border-color: #d95c4b;
     box-shadow: 0 0 0 3px rgb(225 29 72 / 18%);
   }
   .tv-tabs {
@@ -161,7 +166,7 @@ const filters = ['all', 'News', 'Entertainment', 'Sports', 'Community', 'Faith']
     border: 1px solid rgb(255 255 255 / 12%);
     background: #16161d;
     color: #bbb;
-    border-radius: 999px;
+    border-radius: 5px;
     padding: 8px 14px;
     cursor: pointer;
     font-weight: 800;
@@ -170,8 +175,8 @@ const filters = ['all', 'News', 'Entertainment', 'Sports', 'Community', 'Faith']
   }
   .tv-tab:hover,
   .tv-tab.active {
-    background: #e11d48;
-    border-color: #e11d48;
+    background: #d95c4b;
+    border-color: #d95c4b;
     color: #fff;
   }
   .tv-heading {
@@ -196,11 +201,11 @@ const filters = ['all', 'News', 'Entertainment', 'Sports', 'Community', 'Faith']
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 12px;
+    gap: 16px;
   }
   .tv-card {
     background: #14141a;
-    border-radius: 14px;
+    border-radius: 8px;
     border: 2px solid rgb(255 255 255 / 6%);
     overflow: hidden;
     text-decoration: none;
@@ -213,7 +218,7 @@ const filters = ['all', 'News', 'Entertainment', 'Sports', 'Community', 'Faith']
   .tv-card:hover,
   .tv-card:focus-visible {
     transform: translateY(-3px);
-    border-color: #e11d48;
+    border-color: #d95c4b;
   }
   .tv-poster {
     position: relative;
@@ -231,7 +236,7 @@ const filters = ['all', 'News', 'Entertainment', 'Sports', 'Community', 'Faith']
     position: absolute;
     left: 7px;
     top: 7px;
-    background: #e11d48;
+    background: #d95c4b;
     color: #fff;
     font-size: 9px;
     font-weight: 900;
@@ -256,7 +261,7 @@ const filters = ['all', 'News', 'Entertainment', 'Sports', 'Community', 'Faith']
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background: #e11d48;
+    background: #d95c4b;
     color: #fff;
     display: flex;
     align-items: center;
@@ -304,8 +309,11 @@ const filters = ['all', 'News', 'Entertainment', 'Sports', 'Community', 'Faith']
     }
   }
   @media (max-width: 600px) {
+    .tv-brand {
+      display: block;
+    }
     .tv-catalog {
-      padding-inline: 10px;
+      padding-inline: 14px;
     }
     .tv-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
