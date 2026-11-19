@@ -2,7 +2,14 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 import StoryCard from '../../components/main/StoryCard.astro';
 import Pagination from '../../components/main/Pagination.astro';
-import { categories, getPublishedArticles, label, pageCount, pageItems } from '../../lib/articles';
+import {
+  categories,
+  CATEGORY_PAGE_SIZE,
+  getPublishedArticles,
+  label,
+  pageCount,
+  pageItems,
+} from '../../lib/articles';
 import AdSlot from '../../components/main/AdSlot.astro';
 export function getStaticPaths() {
   return categories
@@ -11,8 +18,8 @@ export function getStaticPaths() {
 }
 const { slug } = Astro.props;
 const allStories = await getPublishedArticles(slug);
-const totalPages = pageCount(allStories.length);
-const stories = pageItems(allStories, 1);
+const totalPages = pageCount(allStories.length, CATEGORY_PAGE_SIZE);
+const stories = pageItems(allStories, 1, CATEGORY_PAGE_SIZE);
 ---
 
 <MainLayout
@@ -25,10 +32,18 @@ const stories = pageItems(allStories, 1);
     <AdSlot placement="top" format="horizontal" />
     {stories.length ? (
       <>
-        <div class="listing-grid">
-          {stories.map((article) => (
-            <StoryCard article={article} />
-          ))}
+        <div class="category-content">
+          <section class="category-main" aria-label={`${label(slug)} stories`}>
+            <div class="listing-grid">
+              {stories.map((article) => (
+                <StoryCard article={article} />
+              ))}
+            </div>
+          </section>
+          <aside class="category-sidebar" aria-label="Advertisement">
+            <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
+            <AdSlot placement="section" format="rectangle" minHeight={600} />
+          </aside>
         </div>
         <Pagination currentPage={1} totalPages={totalPages} basePath={`/category/${slug}/`} />
       </>

@@ -3,6 +3,7 @@ import MainLayout from '../../../../layouts/MainLayout.astro';
 import StoryCard from '../../../../components/main/StoryCard.astro';
 import Pagination from '../../../../components/main/Pagination.astro';
 import {
+  CATEGORY_PAGE_SIZE,
   categories,
   getPublishedArticles,
   label,
@@ -15,11 +16,16 @@ export async function getStaticPaths() {
   const paths = [];
   for (const slug of categories.filter((category) => category !== 'news')) {
     const allStories = await getPublishedArticles(slug);
-    const totalPages = pageCount(allStories.length);
+    const totalPages = pageCount(allStories.length, CATEGORY_PAGE_SIZE);
     for (let currentPage = 2; currentPage <= totalPages; currentPage += 1) {
       paths.push({
         params: { slug, page: String(currentPage) },
-        props: { slug, currentPage, totalPages, stories: pageItems(allStories, currentPage) },
+        props: {
+          slug,
+          currentPage,
+          totalPages,
+          stories: pageItems(allStories, currentPage, CATEGORY_PAGE_SIZE),
+        },
       });
     }
   }
@@ -37,10 +43,18 @@ const { slug, currentPage, totalPages, stories } = Astro.props;
     <p class="eyebrow">Section</p>
     <h1>{label(slug)}</h1>
     <AdSlot placement="top" format="horizontal" />
-    <div class="listing-grid">
-      {stories.map((article) => (
-        <StoryCard article={article} />
-      ))}
+    <div class="category-content">
+      <section class="category-main" aria-label={`${label(slug)} stories`}>
+        <div class="listing-grid">
+          {stories.map((article) => (
+            <StoryCard article={article} />
+          ))}
+        </div>
+      </section>
+      <aside class="category-sidebar" aria-label="Advertisement">
+        <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
+        <AdSlot placement="section" format="rectangle" minHeight={600} />
+      </aside>
     </div>
     <Pagination currentPage={currentPage} totalPages={totalPages} basePath={`/category/${slug}/`} />
   </div>

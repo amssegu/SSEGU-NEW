@@ -1,57 +1,104 @@
 ---
-import type { TvChannel } from './tv';
+import AdSlot from '../main/AdSlot.astro';
+import { tvChannels, type TvChannel } from './tv';
 
 interface Props {
   channel: TvChannel;
 }
 const { channel } = Astro.props;
+const relatedChannels = tvChannels.filter((candidate) => candidate.id !== channel.id).slice(0, 6);
 ---
 
 <section class="tv-player-page" aria-labelledby="tv-player-title">
   <div class="tv-player-brand">
-    <h1>
-      SSEGU <span>📺</span> Live TV
-    </h1>
-    <p>Watch free live TV channels</p>
-  </div>
-  <div class="tv-back-row">
-    <a class="tv-back-link" href="/tv/">
-      ← Back to Channels
+    <div>
+      <p class="tv-player-eyebrow">SSEGU Live TV · Watch mode</p>
+      <h1>
+        SSEGU <span>📺</span> Live TV
+      </h1>
+    </div>
+    <a class="tv-all-channels-link" href="/tv/">
+      Browse all channels →
     </a>
-    <div class="tv-channel-title" id="tv-player-title">
-      {channel.name}
-    </div>
   </div>
-  <div class="tv-player-wrap">
-    <video id="tv-video" playsinline controls preload="metadata"></video>
-    <div class="tv-player-overlay" id="tv-play-overlay">
-      <button
-        class="tv-play-button"
-        id="tv-play-button"
-        type="button"
-        aria-label={`Play ${channel.name}`}
-      >
-        ▶
-      </button>
-      <div class="tv-hint">Tap to play {channel.name}</div>
-    </div>
-    <div class="tv-player-overlay is-hidden" id="tv-load-overlay">
-      <div class="tv-load-text" id="tv-load-text">
-        Connecting…
+  <div class="tv-player-ad">
+    <AdSlot placement="top" format="horizontal" />
+  </div>
+  <div class="tv-watch-layout">
+    <div class="tv-watch-main">
+      <div class="tv-back-row">
+        <a class="tv-back-link" href="/tv/">
+          ← Back to Channels
+        </a>
+        <span class="tv-channel-title" id="tv-player-title">
+          {channel.name}
+        </span>
+      </div>
+      <div class="tv-player-wrap">
+        <video id="tv-video" playsinline controls preload="metadata"></video>
+        <div class="tv-player-overlay" id="tv-play-overlay">
+          <button
+            class="tv-play-button"
+            id="tv-play-button"
+            type="button"
+            aria-label={`Play ${channel.name}`}
+          >
+            ▶
+          </button>
+          <div class="tv-hint">Tap to play {channel.name}</div>
+        </div>
+        <div class="tv-player-overlay is-hidden" id="tv-load-overlay">
+          <div class="tv-load-text" id="tv-load-text">
+            Connecting…
+          </div>
+        </div>
+        <div class="tv-player-overlay is-hidden" id="tv-error-overlay">
+          <div class="tv-error-box">
+            <p>Unable to load stream. Please try again.</p>
+            <button class="tv-retry-button" id="tv-retry-button" type="button">
+              Retry
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="tv-now-playing">
+        <div>
+          <span class="tv-player-eyebrow">Now playing</span>
+          <h2>{channel.name}</h2>
+          <p>{channel.category} channel · Live broadcast</p>
+        </div>
+        <span class="tv-live-badge">● LIVE</span>
       </div>
     </div>
-    <div class="tv-player-overlay is-hidden" id="tv-error-overlay">
-      <div class="tv-error-box">
-        <p>Unable to load stream. Please try again.</p>
-        <button class="tv-retry-button" id="tv-retry-button" type="button">
-          Retry
-        </button>
+    <aside class="tv-up-next" aria-labelledby="tv-up-next-title">
+      <div class="tv-up-next-heading">
+        <div>
+          <span class="tv-player-eyebrow">Keep watching</span>
+          <h2 id="tv-up-next-title">More live channels</h2>
+        </div>
+        <a href="/tv/" aria-label="View all live channels">
+          →
+        </a>
       </div>
-    </div>
-  </div>
-  <div class="tv-meta-bar">
-    <span class="tv-live-badge">● LIVE</span>
-    <span class="tv-category">{channel.category}</span>
+      <div class="tv-up-next-list">
+        {relatedChannels.map((candidate) => (
+          <a class="tv-up-next-card" href={`/tv/${candidate.id}/`}>
+            <span
+              class="tv-up-next-swatch"
+              style={`--tv-channel-color: ${candidate.color}`}
+              aria-hidden="true"
+            >
+              ▶
+            </span>
+            <span>
+              <strong>{candidate.name}</strong>
+              <small>{candidate.category}</small>
+            </span>
+          </a>
+        ))}
+      </div>
+      <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
+    </aside>
   </div>
 </section>
 
@@ -136,6 +183,7 @@ const { channel } = Astro.props;
     if (event.target === playOverlay) attachStream();
   });
   retryButton?.addEventListener('click', attachStream);
+  attachStream();
   window.addEventListener('pagehide', destroyHls, { once: true });
 </script>
 
@@ -296,5 +344,204 @@ const { channel } = Astro.props;
     color: #8a8a96;
     font-size: 13px;
     font-weight: 700;
+  }
+  :global(body:has(.tv-player-page) .masthead-banner) {
+    display: none;
+  }
+  :global(body:has(.tv-player-page) .masthead) {
+    min-height: 54px;
+  }
+  .tv-player-page {
+    max-width: 1280px;
+    padding: 18px 20px 56px;
+  }
+  .tv-player-brand {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: 12px 0 20px;
+    text-align: left;
+  }
+  .tv-player-brand h1 {
+    font-size: clamp(24px, 4vw, 38px);
+  }
+  .tv-player-eyebrow {
+    margin: 0 0 5px;
+    color: #d95c4b;
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .tv-all-channels-link {
+    padding: 0.7rem 0.9rem;
+    border: 1px solid rgb(255 255 255 / 12%);
+    border-radius: 10px;
+    color: #fff;
+    background: #16161d;
+    font-size: 0.82rem;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  .tv-all-channels-link:hover,
+  .tv-up-next-heading a:hover {
+    border-color: #d95c4b;
+    color: #fff;
+  }
+  .tv-watch-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(250px, 290px);
+    gap: 1.4rem;
+    max-width: 1180px;
+    margin-inline: auto;
+    align-items: start;
+  }
+  .tv-player-ad {
+    max-width: 1180px;
+    margin: 0 auto 1rem;
+  }
+  .tv-watch-main {
+    min-width: 0;
+  }
+  .tv-back-row {
+    margin-bottom: 10px;
+  }
+  .tv-player-wrap {
+    aspect-ratio: 16 / 9;
+    max-height: none;
+    border-radius: 16px;
+    box-shadow: 0 18px 50px rgb(0 0 0 / 26%);
+  }
+  .tv-now-playing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 14px;
+    padding: 1rem 1.1rem;
+    border: 1px solid rgb(255 255 255 / 9%);
+    border-radius: 13px;
+    background: #14141a;
+  }
+  .tv-now-playing h2,
+  .tv-up-next h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.05rem;
+  }
+  .tv-now-playing p {
+    margin: 0.25rem 0 0;
+    color: #8a8a96;
+    font-size: 0.78rem;
+  }
+  .tv-up-next {
+    padding: 1rem;
+    border: 1px solid rgb(255 255 255 / 9%);
+    border-radius: 16px;
+    background: #121218;
+  }
+  .tv-up-next-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgb(255 255 255 / 8%);
+  }
+  .tv-up-next-heading a {
+    display: grid;
+    width: 32px;
+    height: 32px;
+    place-items: center;
+    border: 1px solid rgb(255 255 255 / 12%);
+    border-radius: 50%;
+    color: #c0c0d0;
+    text-decoration: none;
+  }
+  .tv-up-next-list {
+    display: grid;
+    gap: 0.55rem;
+    margin: 0.8rem 0 1rem;
+  }
+  .tv-up-next-card {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.55rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .tv-up-next-card:hover {
+    border-color: #d95c4b;
+    background: #191920;
+  }
+  .tv-up-next-swatch {
+    display: grid;
+    flex: 0 0 44px;
+    width: 44px;
+    height: 32px;
+    place-items: center;
+    border-radius: 7px;
+    color: #fff;
+    background: linear-gradient(135deg, var(--tv-channel-color), #14141a);
+    font-size: 0.7rem;
+  }
+  .tv-up-next-card strong,
+  .tv-up-next-card small {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tv-up-next-card strong {
+    font-size: 0.78rem;
+  }
+  .tv-up-next-card small {
+    margin-top: 2px;
+    color: #8a8a96;
+    font-size: 0.68rem;
+  }
+  @media (max-width: 900px) {
+    .tv-watch-layout {
+      grid-template-columns: 1fr;
+    }
+    .tv-up-next {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 1rem;
+    }
+    .tv-up-next-heading {
+      grid-column: 1 / -1;
+    }
+    .tv-up-next-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .tv-up-next .ad-unit {
+      grid-column: 1 / -1;
+    }
+  }
+  @media (max-width: 600px) {
+    .tv-player-page {
+      padding-inline: 10px;
+    }
+    .tv-player-brand {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    .tv-all-channels-link {
+      width: 100%;
+      text-align: center;
+    }
+    .tv-up-next {
+      display: block;
+    }
+    .tv-up-next-list {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

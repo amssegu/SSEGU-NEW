@@ -30,7 +30,6 @@ const {
 } = Astro.props;
 const nav = [
   { label: 'Home', href: '/' },
-  { label: 'News', href: '/news/', menu: true },
   { label: 'Business', href: '/category/business/', menu: true },
   { label: 'Technology', href: '/category/technology/', menu: true },
   { label: 'Education', href: '/category/education/', menu: true },
@@ -86,11 +85,6 @@ const currentPath = Astro.url.pathname;
           <source srcset="/uploads/article-ict.webp" type="image/webp" />
           <img src="/uploads/article-ict.webp" alt="" width="1800" height="1200" />
         </picture>
-        <span>
-          A more informed Uganda
-          <br />
-          <em>A brighter future</em>
-        </span>
       </div>
     </div>
   </header>
@@ -116,7 +110,6 @@ const currentPath = Astro.url.pathname;
             {item.label}
           </a>
         ))}
-        <a href="/reviews/">Reviews</a>
         <a class="nav-work" href="/work/">
           Jobs
         </a>

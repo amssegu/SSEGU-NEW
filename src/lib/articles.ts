@@ -282,6 +282,7 @@ export async function getPublishedArticles(category?: string) {
 }
 
 export const NEWS_PAGE_SIZE = 16;
+export const CATEGORY_PAGE_SIZE = 9;
 
 export function pageCount(total: number, pageSize = NEWS_PAGE_SIZE) {
   return Math.max(1, Math.ceil(total / pageSize));
