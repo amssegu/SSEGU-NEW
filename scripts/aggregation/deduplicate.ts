@@ -1,4 +1,5 @@
 import type { NormalizedJob } from './types.ts';
+import { slugify } from './normalise.ts';
 
 export function deduplicateJobs(jobs: NormalizedJob[]) {
   const seenIds = new Set<string>();
@@ -22,4 +23,24 @@ export function deduplicateJobs(jobs: NormalizedJob[]) {
     unique.push(job);
   }
   return { unique, duplicates };
+}
+
+/**
+ * D1 keeps job slugs globally unique, while source feeds only guarantee
+ * uniqueness within their own catalogue. Reserve slugs across the complete
+ * aggregation run and add a stable source/record suffix only on collision.
+ */
+export function reserveUniqueJobSlugs(jobs: NormalizedJob[], reserved = new Set<string>()) {
+  for (const job of jobs) {
+    const original = job.slug;
+    let candidate = original;
+    let attempt = 0;
+    while (reserved.has(candidate)) {
+      attempt += 1;
+      candidate = slugify(original, job.sourceId, job.sourceRecordId, String(attempt));
+    }
+    job.slug = candidate;
+    reserved.add(candidate);
+  }
+  return reserved;
 }

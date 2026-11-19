@@ -42,6 +42,7 @@ class SqlPlanDatabase {
 const database = new SqlPlanDatabase();
 const sources = getApprovedJobSources();
 const results = [];
+const slugRegistry = new Set();
 
 for (const { source, adapter } of sources) {
   const reviewedAt = now.toISOString();
@@ -72,7 +73,7 @@ for (const { source, adapter } of sources) {
       reviewedAt,
     ],
   );
-  results.push(await runJobs({ source, adapter, db: database, now }));
+  results.push(await runJobs({ source, adapter, db: database, now, slugRegistry }));
 }
 
 const report = {

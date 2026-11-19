@@ -1,5 +1,5 @@
 import { fetchBounded } from './http.ts';
-import { deduplicateJobs } from './deduplicate.ts';
+import { deduplicateJobs, reserveUniqueJobSlugs } from './deduplicate.ts';
 import { normalizeJubaJob } from './normalise.ts';
 import { canFetchSource } from './policy.ts';
 import { quarantineInvalidJobs } from './validate.ts';
@@ -14,6 +14,7 @@ export async function runJobs({
   lastRunAt,
   fetchImpl = fetch,
   adapter = { parse: parseJubaJobsPayload, normalize: normalizeJubaJob },
+  slugRegistry,
 }: {
   source: SourceConfig;
   db?: D1DatabaseLike;
@@ -21,6 +22,7 @@ export async function runJobs({
   lastRunAt?: string;
   fetchImpl?: typeof fetch;
   adapter?: JobAdapter;
+  slugRegistry?: Set<string>;
 }): Promise<RunSummary> {
   const permission = canFetchSource(source, lastRunAt, now);
   const finish = async (summary: RunSummary) => {
@@ -113,6 +115,7 @@ export async function runJobs({
   }
   const checked = quarantineInvalidJobs(normalized, source);
   const deduped = deduplicateJobs(checked.accepted);
+  reserveUniqueJobSlugs(deduped.unique, slugRegistry);
   const summary: RunSummary = {
     sourceId: source.id,
     outcome: deduped.unique.length ? 'success' : 'failed',

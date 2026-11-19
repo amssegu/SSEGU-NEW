@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { JUBAJOBS_SOURCE, parseJubaJobsPayload } from './aggregation/adapters/jubajobs.ts';
-import { deduplicateJobs } from './aggregation/deduplicate.ts';
+import { deduplicateJobs, reserveUniqueJobSlugs } from './aggregation/deduplicate.ts';
 import { fetchBounded } from './aggregation/http.ts';
 import { canonicalHttpsUrl, normalizeJubaJob, slugify } from './aggregation/normalise.ts';
 import {
@@ -114,6 +114,11 @@ assert.throws(
 
 const duplicate = { ...normalized };
 assert.equal(deduplicateJobs([normalized, duplicate]).unique.length, 1);
+const collisionA = { ...normalized, id: 'source-a:1', sourceId: 'source-a', sourceRecordId: '1' };
+const collisionB = { ...normalized, id: 'source-b:1', sourceId: 'source-b', sourceRecordId: '1' };
+const reservedSlugs = reserveUniqueJobSlugs([collisionA, collisionB]);
+assert.equal(reservedSlugs.size, 2);
+assert.notEqual(collisionA.slug, collisionB.slug);
 assert.equal(canFetchSource(JUBAJOBS_SOURCE).allowed, true);
 assert.equal(
   canRunJobsToday(
