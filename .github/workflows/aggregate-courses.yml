@@ -33,10 +33,11 @@ jobs:
         id: report
         env:
           COURSE_REPORT_PATH: ${{ runner.temp }}/ssegu-courses-report.json
+          COURSE_EXPORT_INPUT_PATH: ${{ runner.temp }}/ssegu-courses-export-input.json
         run: node scripts/aggregate-courses-report.mjs
       - name: Build static site when public course data changed
         if: github.event_name == 'schedule' || inputs.report_only == false
-        run: npm run build
+        run: WORK_EXPORT_MODE=input WORK_EXPORT_INPUT="$RUNNER_TEMP/ssegu-courses-export-input.json" npm run build
       - name: Deploy changed course dataset
         if: (github.event_name == 'schedule' || inputs.report_only == false) && steps.report.outputs.public_data_changed == 'true'
         env:

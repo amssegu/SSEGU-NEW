@@ -1229,6 +1229,36 @@
   line-height: 1.65;
 }
 
+.work-detail-information {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.work-detail-information section {
+  padding: 1rem;
+  border: 1px solid var(--work-line);
+  border-radius: var(--work-radius);
+  background: var(--work-surface);
+}
+
+.work-detail-information h2 {
+  margin: 0 0 0.7rem;
+  color: var(--work-navy-deep);
+  font-size: 1.15rem;
+}
+
+.work-detail-information ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--work-muted);
+}
+
+.work-detail-information li + li {
+  margin-top: 0.55rem;
+}
+
 .work-detail-body h2,
 .work-detail-body h3,
 .work-detail-body h4 {
@@ -1748,6 +1778,10 @@
     position: static;
     max-height: none;
     overflow: visible;
+  }
+
+  .work-detail-information {
+    grid-template-columns: 1fr;
   }
 
   .work-trust-strip {

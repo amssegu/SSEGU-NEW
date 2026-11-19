@@ -18,6 +18,9 @@ export interface WorkJob {
   arrangement: 'On-site' | 'Hybrid' | 'Remote';
   status: WorkStatus;
   description: string;
+  requirements?: string[];
+  qualifications?: string[];
+  applicationInstructions?: string;
   salaryText?: string;
   salaryCurrency?: string;
   salaryPeriod?: string;
@@ -246,6 +249,9 @@ type GeneratedJobRecord = {
   publishedAt?: string;
   deadlineAt?: string;
   sourceAttribution?: string;
+  requirements?: string[];
+  qualifications?: string[];
+  applicationInstructions?: string;
   prohibitJobpostingSchema?: boolean;
 };
 
@@ -333,6 +339,9 @@ function fromImportedJob(record: GeneratedJobRecord): WorkJob | undefined {
     arrangement: importedArrangement(record.workMode),
     status: (record.status ?? 'unverified') as WorkStatus,
     description: record.permittedExcerpt ?? '',
+    requirements: record.requirements ?? [],
+    qualifications: record.qualifications ?? [],
+    applicationInstructions: record.applicationInstructions,
     salaryText: record.salaryText,
     salaryCurrency: record.salaryCurrency,
     salaryPeriod: record.salaryPeriod,
@@ -404,6 +413,11 @@ const fixtureWorkJobs: WorkJob[] = [
     arrangement: 'On-site',
     status: 'active',
     description: 'Help shape thoughtful customer journeys across MTN Uganda services and channels.',
+    qualifications: ['Experience in customer service, experience design or a related field.'],
+    requirements: [
+      'Listen carefully to customer needs and turn feedback into practical improvements.',
+      'Work with internal teams to improve service journeys across channels.',
+    ],
     category: 'Customer service',
   },
   {
@@ -416,6 +430,11 @@ const fixtureWorkJobs: WorkJob[] = [
     arrangement: 'Hybrid',
     status: 'active',
     description: 'Build trusted client relationships and deliver practical financial solutions.',
+    qualifications: ['Experience in relationship management, banking or a related field.'],
+    requirements: [
+      'Manage client relationships with clear, professional communication.',
+      'Identify suitable financial solutions while following internal processes.',
+    ],
     category: 'Banking',
   },
   {
@@ -429,6 +448,11 @@ const fixtureWorkJobs: WorkJob[] = [
     status: 'active',
     description:
       'Support the next generation of computing professionals through teaching and mentorship.',
+    qualifications: ['A relevant computer science qualification and teaching experience.'],
+    requirements: [
+      'Prepare and deliver clear learning experiences for computing students.',
+      'Support student projects, assessment and academic mentorship.',
+    ],
     category: 'Education',
   },
   {
@@ -441,6 +465,13 @@ const fixtureWorkJobs: WorkJob[] = [
     arrangement: 'Remote',
     status: 'active',
     description: 'Build useful digital products with a collaborative team working across Uganda.',
+    qualifications: [
+      'Practical software development experience and a strong problem-solving mindset.',
+    ],
+    requirements: [
+      'Build, test and improve digital product features with a cross-functional team.',
+      'Communicate technical decisions clearly and contribute to code quality.',
+    ],
     category: 'ICT',
   },
   {
@@ -552,10 +583,10 @@ const curatedWorkCourses: WorkCourse[] = [
     availabilityStatus: 'available',
     sourceUrl: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/',
     enrolmentUrl: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/',
-    termsUrl: 'https://www.freecodecamp.org/news/terms-of-service/',
+    termsUrl: 'https://opensource.freecodecamp.org/terms-of-service/',
     sourceAttribution:
       'Course details link to freeCodeCamp. SSEGU is not affiliated with the provider.',
-    lastCheckedAt: '2026-11-16',
+    lastCheckedAt: '2026-11-19',
     sourcePermission: 'link_only',
   },
   {
@@ -579,28 +610,7 @@ const curatedWorkCourses: WorkCourse[] = [
     termsUrl: 'https://ocw.mit.edu/pages/privacy-and-terms-of-use/',
     sourceAttribution:
       'Course details link to MIT OpenCourseWare. MIT does not award credit or certificates for this material.',
-    lastCheckedAt: '2026-11-16',
-    sourcePermission: 'link_only',
-  },
-  {
-    slug: 'project-management-essentials',
-    title: 'Project Management',
-    provider: 'Saylor Academy',
-    format: 'Self-paced',
-    description: 'A self-paced project management course covering planning, delivery and review.',
-    subject: 'Business',
-    level: 'Beginner',
-    deliveryMode: 'self-paced',
-    language: 'English',
-    coursePriceStatus: 'free',
-    certificatePriceStatus: 'unknown',
-    availabilityStatus: 'available',
-    sourceUrl: 'https://learn.saylor.org/course/view.php?id=358',
-    enrolmentUrl: 'https://learn.saylor.org/course/view.php?id=358',
-    termsUrl: 'https://www.saylor.org/LicensingInformation',
-    sourceAttribution:
-      'Course details link to Saylor Academy. SSEGU is not affiliated with the provider.',
-    lastCheckedAt: '2026-11-16',
+    lastCheckedAt: '2026-11-19',
     sourcePermission: 'link_only',
   },
   {
@@ -625,7 +635,7 @@ const curatedWorkCourses: WorkCourse[] = [
       'https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn',
     sourceAttribution:
       'Course details link to OpenLearn. SSEGU is not affiliated with The Open University.',
-    lastCheckedAt: '2026-11-16',
+    lastCheckedAt: '2026-11-19',
     sourcePermission: 'link_only',
   },
 ];
@@ -686,6 +696,7 @@ function fromEditorialJobEntry(entry: CollectionEntry<'jobs'>): WorkJob {
     arrangement: string;
     qualifications: string[];
     requirements: string[];
+    applicationInstructions?: string;
     sourceUrl?: string;
     applicationUrl?: string;
     status: string;
@@ -701,6 +712,9 @@ function fromEditorialJobEntry(entry: CollectionEntry<'jobs'>): WorkJob {
     arrangement: editorialArrangement(data.arrangement),
     status: data.status === 'expired' ? 'expired' : 'active',
     description: [...data.qualifications, ...data.requirements].join(' '),
+    requirements: data.requirements,
+    qualifications: data.qualifications,
+    applicationInstructions: data.applicationInstructions,
     category: employer,
     origin: 'editorial',
     sourceUrl: data.sourceUrl,

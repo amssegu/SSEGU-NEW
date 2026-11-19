@@ -11,9 +11,10 @@ provider lessons, media, branding and copied course material are not rendered.
 - Shared course accessors now expose subject, level, language, delivery mode,
   duration, separate course/certificate price status, availability, terms,
   attribution and last-checked metadata.
-- Four curated records link to Saylor Academy, MIT OpenCourseWare, OpenLearn
-  and freeCodeCamp. Provider affiliation, academic credit and free
-  certificates are not implied.
+- Three curated records link to MIT OpenCourseWare, OpenLearn and freeCodeCamp.
+  Provider affiliation, academic credit and free certificates are not implied.
+- Saylor Academy remains excluded because its API access requires an
+  authentication token that is not configured.
 - Course cards and detail pages validate provider/terms links as HTTPS and show
   attribution, availability and last-checked information.
 - Filters are keyboard-accessible native form controls and query-string states

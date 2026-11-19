@@ -27,6 +27,8 @@ const relatedJobs = allJobs
   .slice(0, 2);
 const eligible = isEligibleWorkJob(job);
 const displayStatus = getWorkJobStatus(job);
+const qualifications = job.qualifications ?? [];
+const requirements = job.requirements ?? [];
 const structuredData = [
   breadcrumbJsonLd([
     { name: 'Work', path: '/work/' },
@@ -99,6 +101,36 @@ const structuredData = [
             <div class="work-detail-body">
               <h2>About this opportunity</h2>
               <p>{job.description}</p>
+            </div>
+          )}
+          {(qualifications.length > 0 || requirements.length > 0) && (
+            <div class="work-detail-information">
+              {qualifications.length > 0 && (
+                <section>
+                  <h2>Qualifications</h2>
+                  <ul>
+                    {qualifications.map((qualification) => (
+                      <li>{qualification}</li>
+                    ))}
+                  </ul>
+                </section>
+              )}
+              {requirements.length > 0 && (
+                <section>
+                  <h2>Requirements</h2>
+                  <ul>
+                    {requirements.map((requirement) => (
+                      <li>{requirement}</li>
+                    ))}
+                  </ul>
+                </section>
+              )}
+            </div>
+          )}
+          {job.applicationInstructions && (
+            <div class="work-detail-body">
+              <h2>How to apply</h2>
+              <p>{job.applicationInstructions}</p>
             </div>
           )}
           <div class="work-detail-actions">
