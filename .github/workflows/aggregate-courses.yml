@@ -8,7 +8,7 @@ on:
       report_only:
         description: 'Run checks without building or deploying'
         required: true
-        default: true
+        default: false
         type: boolean
 
 permissions:
@@ -35,11 +35,11 @@ jobs:
           COURSE_REPORT_PATH: ${{ runner.temp }}/ssegu-courses-report.json
           COURSE_EXPORT_INPUT_PATH: ${{ runner.temp }}/ssegu-courses-export-input.json
         run: node scripts/aggregate-courses-report.mjs
-      - name: Build static site when public course data changed
+      - name: Build static site
         if: github.event_name == 'schedule' || inputs.report_only == false
         run: WORK_EXPORT_MODE=input WORK_EXPORT_INPUT="$RUNNER_TEMP/ssegu-courses-export-input.json" npm run build
-      - name: Deploy changed course dataset
-        if: (github.event_name == 'schedule' || inputs.report_only == false) && steps.report.outputs.public_data_changed == 'true'
+      - name: Deploy course dataset
+        if: github.event_name == 'schedule' || inputs.report_only == false
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       report_only:
-        description: 'Exceptional manual rehearsal; do not enable live writes'
+        description: 'Run checks without live ingestion or deployment'
         required: true
-        default: true
+        default: false
         type: boolean
 
 permissions:
