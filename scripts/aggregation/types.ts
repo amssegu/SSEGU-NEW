@@ -33,6 +33,11 @@ export interface SourceConfig {
   minimumIntervalMs: number;
   maxResponseBytes?: number;
   appName?: string;
+  pagination?: {
+    kind: 'cursor';
+    parameter: string;
+    maxPages: number;
+  };
 }
 
 export interface RawJobRecord {
@@ -84,6 +89,7 @@ export interface AdapterResult {
   outcome: 'success' | 'empty' | 'malformed';
   records: RawJobRecord[];
   error?: string;
+  nextCursor?: string;
 }
 
 export interface QuarantineRecord {

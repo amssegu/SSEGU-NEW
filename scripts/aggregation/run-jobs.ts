@@ -44,49 +44,62 @@ export async function runJobs({
       quarantined: [],
       errorSummary: permission.reason,
     });
-  const response = await fetchBounded(source.endpointUrl, {
-    fetchImpl,
-    maxBytes: source.maxResponseBytes,
-  });
-  if (response.kind === 'failed')
-    return finish({
-      sourceId: source.id,
-      outcome: 'failed',
-      fetchedCount: 0,
-      acceptedCount: 0,
-      rejectedCount: 0,
-      quarantined: [],
-      errorSummary: response.reason,
+  const records = [];
+  let nextUrl = source.endpointUrl;
+  let pageCount = 0;
+  let fetchedCount = 0;
+  while (pageCount < (source.pagination?.maxPages ?? 1)) {
+    const response = await fetchBounded(nextUrl, {
+      fetchImpl,
+      maxBytes: source.maxResponseBytes,
     });
-  let payload: unknown;
-  try {
-    payload = JSON.parse(response.body);
-  } catch {
-    payload = response.body;
+    if (response.kind === 'failed')
+      return finish({
+        sourceId: source.id,
+        outcome: 'failed',
+        fetchedCount,
+        acceptedCount: 0,
+        rejectedCount: 0,
+        quarantined: [],
+        errorSummary: response.reason,
+      });
+    let payload: unknown;
+    try {
+      payload = JSON.parse(response.body);
+    } catch {
+      payload = response.body;
+    }
+    const parsed = adapter.parse(payload);
+    fetchedCount += parsed.records.length;
+    pageCount += 1;
+    if (parsed.outcome === 'malformed')
+      return finish({
+        sourceId: source.id,
+        outcome: 'failed',
+        fetchedCount,
+        acceptedCount: 0,
+        rejectedCount: parsed.records.length,
+        quarantined: [],
+        errorSummary: parsed.error,
+      });
+    records.push(...parsed.records);
+    if (parsed.outcome === 'empty' || !source.pagination?.parameter || !parsed.nextCursor) break;
+    const url = new URL(nextUrl);
+    url.searchParams.set(source.pagination.parameter, parsed.nextCursor);
+    nextUrl = url.toString();
   }
-  const parsed = adapter.parse(payload);
-  if (parsed.outcome === 'empty')
+  if (records.length === 0)
     return finish({
       sourceId: source.id,
       outcome: 'empty',
-      fetchedCount: 0,
+      fetchedCount,
       acceptedCount: 0,
       rejectedCount: 0,
       quarantined: [],
     });
-  if (parsed.outcome === 'malformed')
-    return finish({
-      sourceId: source.id,
-      outcome: 'failed',
-      fetchedCount: parsed.records.length,
-      acceptedCount: 0,
-      rejectedCount: parsed.records.length,
-      quarantined: [],
-      errorSummary: parsed.error,
-    });
   const normalized = [];
   const quarantined = [];
-  for (const raw of parsed.records) {
+  for (const raw of records) {
     try {
       normalized.push(adapter.normalize(raw, source, now.toISOString()));
     } catch (error) {
@@ -103,7 +116,7 @@ export async function runJobs({
   const summary: RunSummary = {
     sourceId: source.id,
     outcome: deduped.unique.length ? 'success' : 'failed',
-    fetchedCount: parsed.records.length,
+    fetchedCount,
     acceptedCount: deduped.unique.length,
     rejectedCount: checked.quarantined.length + deduped.duplicates.length + quarantined.length,
     quarantined: [...quarantined, ...checked.quarantined],

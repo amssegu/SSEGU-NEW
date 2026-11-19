@@ -7,7 +7,7 @@ import { getJobFilterOptions, getPublishedWorkJobs, toWorkJobClientData } from '
 const allJobs = await getPublishedWorkJobs({ status: 'all' });
 const activeJobs = await getPublishedWorkJobs();
 const jobFilters = getJobFilterOptions(allJobs);
-const clientJobs = allJobs.slice(0, 100).map(toWorkJobClientData);
+const clientJobs = allJobs.map(toWorkJobClientData);
 ---
 
 <WorkLayout
@@ -78,7 +78,11 @@ const clientJobs = allJobs.slice(0, 100).map(toWorkJobClientData);
         </button>
       </div>
     </form>
-    <p id="job-filter-status" class="work-results-status" role="status" aria-live="polite"></p>
+    <p id="job-filter-status" class="work-results-status" role="status" aria-live="polite">
+      Showing {activeJobs.length} active {activeJobs.length === 1 ? 'opportunity' : 'opportunities'}
+      . All currently loaded active listings are shown; use Listing status to view expired and other
+      retained listings.
+    </p>
     <div id="job-results" class="work-job-results" data-testid="work-job-results">
       {activeJobs.map((job) => (
         <WorkJobCard job={job} />

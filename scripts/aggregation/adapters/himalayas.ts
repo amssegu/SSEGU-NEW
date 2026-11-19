@@ -19,6 +19,7 @@ export const HIMALAYAS_SOURCE: SourceConfig = {
   },
   allowedHostnames: ['himalayas.app'],
   minimumIntervalMs: 12 * 60 * 60 * 1_000,
+  pagination: { kind: 'cursor', parameter: 'cursor', maxPages: 10 },
 };
 
 export function parseHimalayasPayload(payload: unknown): AdapterResult {
@@ -69,8 +70,14 @@ export function parseHimalayasPayload(payload: unknown): AdapterResult {
           : 'unknown',
     });
   }
+  const nextCursor =
+    payload &&
+    typeof payload === 'object' &&
+    typeof (payload as { nextCursor?: unknown }).nextCursor === 'string'
+      ? (payload as { nextCursor: string }).nextCursor
+      : undefined;
   return records.length
-    ? { outcome: 'success', records }
+    ? { outcome: 'success', records, nextCursor }
     : {
         outcome: items.length === 0 ? 'empty' : 'malformed',
         records,

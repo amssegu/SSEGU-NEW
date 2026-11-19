@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { buildWorkExport } from './work-export.mjs';
 
 const outputDirectory = join(process.cwd(), 'src/data/generated');
-const mode = process.env.WORK_EXPORT_MODE ?? 'empty';
+const mode = process.env.WORK_EXPORT_MODE ?? 'curated';
 const timestamp = process.env.WORK_EXPORT_TIMESTAMP ?? null;
 
 const fixture = {
@@ -32,15 +32,22 @@ const fixture = {
   courses: [],
 };
 
+const curated = {
+  mode: 'curated',
+  jobs: [],
+  courses: JSON.parse(await readFile('src/data/curated/courses.json', 'utf8')),
+};
+
 let input = { mode, jobs: [], courses: [] };
 if (mode === 'fixture') input = fixture;
+if (mode === 'curated') input = curated;
 if (mode === 'input') {
   if (!process.env.WORK_EXPORT_INPUT)
     throw new Error('WORK_EXPORT_INPUT is required when WORK_EXPORT_MODE=input');
   input = { ...JSON.parse(await readFile(process.env.WORK_EXPORT_INPUT, 'utf8')), mode };
 }
-if (!['empty', 'fixture', 'input'].includes(mode)) {
-  throw new Error(`Unsupported WORK_EXPORT_MODE: ${mode}. Use empty, fixture, or input.`);
+if (!['empty', 'fixture', 'curated', 'input'].includes(mode)) {
+  throw new Error(`Unsupported WORK_EXPORT_MODE: ${mode}. Use empty, fixture, curated, or input.`);
 }
 
 const result = buildWorkExport(input, { generatedAt: timestamp });

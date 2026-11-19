@@ -104,7 +104,10 @@ const noindex = Astro.url.search.length > 0;
         </button>
       </div>
     </form>
-    <p id="course-results-status" class="work-results-status" role="status" aria-live="polite"></p>
+    <p id="course-results-status" class="work-results-status" role="status" aria-live="polite">
+      Showing {courses.length} approved course {courses.length === 1 ? 'link' : 'links'}. All
+      currently approved course records are shown.
+    </p>
     <div class="work-resource-grid" data-course-results>
       {courses.map((course) => (
         <WorkCourseCard course={course} />

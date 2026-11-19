@@ -567,79 +567,6 @@ export const workArticles: WorkArticle[] = [
   },
 ];
 
-const curatedWorkCourses: WorkCourse[] = [
-  {
-    slug: 'digital-skills-foundation',
-    title: 'Responsive Web Design',
-    provider: 'freeCodeCamp',
-    format: 'Self-paced',
-    description: 'A self-paced introduction to building responsive websites with HTML and CSS.',
-    subject: 'Technology',
-    level: 'Beginner',
-    deliveryMode: 'self-paced',
-    language: 'English',
-    coursePriceStatus: 'free',
-    certificatePriceStatus: 'unknown',
-    availabilityStatus: 'available',
-    sourceUrl: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/',
-    enrolmentUrl: 'https://www.freecodecamp.org/learn/2022/responsive-web-design/',
-    termsUrl: 'https://opensource.freecodecamp.org/terms-of-service/',
-    sourceAttribution:
-      'Course details link to freeCodeCamp. SSEGU is not affiliated with the provider.',
-    lastCheckedAt: '2026-11-19',
-    sourcePermission: 'link_only',
-  },
-  {
-    slug: 'introduction-to-data-analysis',
-    title: 'Introduction to Computer Science and Programming',
-    provider: 'MIT OpenCourseWare',
-    format: 'Self-study',
-    description:
-      'Open course materials for learning foundational computer science and programming.',
-    subject: 'Computer science',
-    level: 'Introductory',
-    deliveryMode: 'self-paced',
-    language: 'English',
-    coursePriceStatus: 'free',
-    certificatePriceStatus: 'none',
-    availabilityStatus: 'available',
-    sourceUrl:
-      'https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/',
-    enrolmentUrl:
-      'https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/',
-    termsUrl: 'https://ocw.mit.edu/pages/privacy-and-terms-of-use/',
-    sourceAttribution:
-      'Course details link to MIT OpenCourseWare. MIT does not award credit or certificates for this material.',
-    lastCheckedAt: '2026-11-19',
-    sourcePermission: 'link_only',
-  },
-  {
-    slug: 'learning-how-to-learn-openlearn',
-    title: 'Learning How to Learn',
-    provider: 'OpenLearn',
-    format: 'Online course',
-    description:
-      'An OpenLearn course page for exploring practical approaches to learning effectively.',
-    subject: 'Education',
-    level: 'Beginner',
-    deliveryMode: 'online',
-    language: 'English',
-    coursePriceStatus: 'free',
-    certificatePriceStatus: 'unknown',
-    availabilityStatus: 'available',
-    sourceUrl:
-      'https://www.open.edu/openlearn/education-development/learning-how-learn/content-section-overview',
-    enrolmentUrl:
-      'https://www.open.edu/openlearn/education-development/learning-how-learn/content-section-overview',
-    termsUrl:
-      'https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn',
-    sourceAttribution:
-      'Course details link to OpenLearn. SSEGU is not affiliated with The Open University.',
-    lastCheckedAt: '2026-11-19',
-    sourcePermission: 'link_only',
-  },
-];
-
 const generatedWorkJobs = readGeneratedData<GeneratedJobRecord>('jobs.json')
   .map(fromImportedJob)
   .filter((job): job is WorkJob => Boolean(job));
@@ -659,7 +586,7 @@ function mergeBySlug<T extends { slug: string }>(...groups: T[][]) {
 }
 
 export const workJobs: WorkJob[] = mergeBySlug(generatedWorkJobs, fixtureWorkJobs);
-export const workCourses: WorkCourse[] = mergeBySlug(generatedWorkCourses, curatedWorkCourses);
+export const workCourses: WorkCourse[] = generatedWorkCourses;
 
 function editorialEmploymentType(value: string): WorkJob['employmentType'] {
   return (
@@ -772,11 +699,9 @@ export async function getPublishedWorkCourses() {
   const editorial = (await getCollection('courses'))
     .filter(({ data }) => data.status === 'published' || data.status === 'expired')
     .map(fromEditorialCourseEntry);
-  cachedPublishedWorkCourses = mergeBySlug(
-    generatedWorkCourses,
-    editorial,
-    curatedWorkCourses,
-  ).filter(isPublishableWorkCourse);
+  cachedPublishedWorkCourses = mergeBySlug(generatedWorkCourses, editorial).filter(
+    isPublishableWorkCourse,
+  );
   return cachedPublishedWorkCourses;
 }
 
