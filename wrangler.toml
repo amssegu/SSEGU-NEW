@@ -2,6 +2,11 @@ name = "ssegu-new"
 pages_build_output_dir = "./dist"
 compatibility_date = "2026-11-07"
 
+[vars]
+PUBLIC_ADSENSE_ENABLED = "true"
+PUBLIC_ADSENSE_CLIENT = "ca-pub-7777536386845474"
+PUBLIC_ADSENSE_SLOT = "9970802556"
+
 [[d1_databases]]
 binding = "JOB_SUBMISSIONS_DB"
 database_name = "ssegu-job-submissions-production"
