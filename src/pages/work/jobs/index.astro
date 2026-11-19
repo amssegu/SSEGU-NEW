@@ -1,6 +1,7 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import WorkJobCard from '../../../components/work/WorkJobCard.astro';
+import AdSlot from '../../../components/main/AdSlot.astro';
 import { getJobFilterOptions, getPublishedWorkJobs, toWorkJobClientData } from '../../../lib/work';
 
 const allJobs = await getPublishedWorkJobs({ status: 'all' });
@@ -86,6 +87,7 @@ const clientJobs = allJobs.slice(0, 100).map(toWorkJobClientData);
     <p id="job-empty-state" class="work-empty-state" hidden>
       No opportunities match those filters. Try a wider search or browse all listings.
     </p>
+    <AdSlot placement="section" format="horizontal" />
   </div>
   <script define:vars={{ jobs: clientJobs }} is:inline>
     const form = document.querySelector('#work-job-filters');

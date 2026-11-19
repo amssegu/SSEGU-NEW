@@ -1,5 +1,6 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
+import WorkAside from '../../../components/work/WorkAside.astro';
 import { breadcrumbJsonLd } from '../../../lib/seo';
 import {
   courseStatusLabel,
@@ -38,75 +39,80 @@ const structuredData = [
       <span>/</span>
       <span aria-current="page">{course.title}</span>
     </nav>
-    <article class="work-detail-card">
-      <div class="work-detail-heading">
-        <div>
-          <p class="work-eyebrow">{course.format}</p>
-          <h1>{course.title}</h1>
-          <p class="work-detail-employer">{course.provider}</p>
-        </div>
-        <p class="work-status-large">{courseStatusLabel(course.availabilityStatus)}</p>
+    <div class="work-detail-layout">
+      <div class="work-detail-main">
+        <article class="work-detail-card">
+          <div class="work-detail-heading">
+            <div>
+              <p class="work-eyebrow">{course.format}</p>
+              <h1>{course.title}</h1>
+              <p class="work-detail-employer">{course.provider}</p>
+            </div>
+            <p class="work-status-large">{courseStatusLabel(course.availabilityStatus)}</p>
+          </div>
+          <div class="work-detail-meta">
+            <span>
+              <strong>Subject</strong>
+              {course.subject ?? 'Unknown'}
+            </span>
+            <span>
+              <strong>Level</strong>
+              {course.level ?? 'Unknown'}
+            </span>
+            <span>
+              <strong>Course access</strong>
+              {courseStatusLabel(course.coursePriceStatus)}
+            </span>
+            <span>
+              <strong>Certificate</strong>
+              {courseStatusLabel(course.certificatePriceStatus)}
+            </span>
+          </div>
+          <div class="work-detail-body">
+            <h2>About this course</h2>
+            <p>{course.description}</p>
+            <p>
+              {course.deliveryMode
+                ? `Delivery: ${courseStatusLabel(course.deliveryMode)}.`
+                : 'Delivery: Unknown.'}{' '}
+              {course.language ? `Language: ${course.language}.` : 'Language: Unknown.'}{' '}
+              {course.duration ? `Duration: ${course.duration}.` : ''}
+            </p>
+            <p class="work-course-attribution">
+              {course.sourceAttribution ??
+                `Course details supplied by ${course.provider}. SSEGU is not affiliated with the provider.`}
+            </p>
+            {course.lastCheckedAt && (
+              <p class="work-course-attribution">Last checked: {course.lastCheckedAt}.</p>
+            )}
+            <p class="work-course-attribution">
+              Course access and certificate pricing are separate. Check the provider page for
+              current terms and availability.
+            </p>
+          </div>
+          <div class="work-detail-actions">
+            {providerUrl && (
+              <a class="work-button" href={providerUrl} target="_blank" rel="noreferrer">
+                Visit provider ↗
+              </a>
+            )}
+            {course.termsUrl && isSafeCourseUrl(course.termsUrl) && (
+              <a
+                class="work-button work-button-secondary"
+                href={course.termsUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Provider terms ↗
+              </a>
+            )}
+            <a class="work-button work-button-secondary" href="/work/courses/">
+              Back to courses
+            </a>
+          </div>
+        </article>
       </div>
-      <div class="work-detail-meta">
-        <span>
-          <strong>Subject</strong>
-          {course.subject ?? 'Unknown'}
-        </span>
-        <span>
-          <strong>Level</strong>
-          {course.level ?? 'Unknown'}
-        </span>
-        <span>
-          <strong>Course access</strong>
-          {courseStatusLabel(course.coursePriceStatus)}
-        </span>
-        <span>
-          <strong>Certificate</strong>
-          {courseStatusLabel(course.certificatePriceStatus)}
-        </span>
-      </div>
-      <div class="work-detail-body">
-        <h2>About this course</h2>
-        <p>{course.description}</p>
-        <p>
-          {course.deliveryMode
-            ? `Delivery: ${courseStatusLabel(course.deliveryMode)}.`
-            : 'Delivery: Unknown.'}{' '}
-          {course.language ? `Language: ${course.language}.` : 'Language: Unknown.'}{' '}
-          {course.duration ? `Duration: ${course.duration}.` : ''}
-        </p>
-        <p class="work-course-attribution">
-          {course.sourceAttribution ??
-            `Course details supplied by ${course.provider}. SSEGU is not affiliated with the provider.`}
-        </p>
-        {course.lastCheckedAt && (
-          <p class="work-course-attribution">Last checked: {course.lastCheckedAt}.</p>
-        )}
-        <p class="work-course-attribution">
-          Course access and certificate pricing are separate. Check the provider page for current
-          terms and availability.
-        </p>
-      </div>
-      <div class="work-detail-actions">
-        {providerUrl && (
-          <a class="work-button" href={providerUrl} target="_blank" rel="noreferrer">
-            Visit provider ↗
-          </a>
-        )}
-        {course.termsUrl && isSafeCourseUrl(course.termsUrl) && (
-          <a
-            class="work-button work-button-secondary"
-            href={course.termsUrl}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Provider terms ↗
-          </a>
-        )}
-        <a class="work-button work-button-secondary" href="/work/courses/">
-          Back to courses
-        </a>
-      </div>
-    </article>
+      <WorkAside />
+    </div>
   </div>
 </WorkLayout>

@@ -76,6 +76,11 @@ const {
       const cookieConsentDuration = 7 * 24 * 60 * 60 * 1000;
       const cookieConsent = document.querySelector('[data-cookie-consent]');
       const adsenseClient = cookieConsent?.dataset.adsenseClient;
+      const adsAllowedHost = ['ssegu.com', 'www.ssegu.com'].includes(window.location.hostname);
+      if (!adsAllowedHost) {
+        cookieConsent?.setAttribute('hidden', '');
+        document.querySelectorAll('.ad-unit').forEach((ad) => ad.setAttribute('hidden', ''));
+      }
       const readConsent = () => {
         const value = document.cookie
           .split('; ')
@@ -96,7 +101,12 @@ const {
         document.cookie = `${cookieConsentKey}=${value}; max-age=${cookieConsentDuration / 1000}; path=/; samesite=lax`;
       };
       const requestAds = () => {
-        if (!adsenseClient || document.querySelector('script[data-ssegu-adsense]')) return;
+        if (
+          !adsAllowedHost ||
+          !adsenseClient ||
+          document.querySelector('script[data-ssegu-adsense]')
+        )
+          return;
         const script = document.createElement('script');
         script.async = true;
         script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`;
@@ -116,8 +126,8 @@ const {
         document.head.appendChild(script);
       };
       const consent = readConsent();
-      if (consent?.allowed) requestAds();
-      if (!consent && cookieConsent) cookieConsent.hidden = false;
+      if (adsAllowedHost && consent?.allowed) requestAds();
+      if (adsAllowedHost && !consent && cookieConsent) cookieConsent.hidden = false;
       cookieConsent?.querySelector('[data-cookie-accept]')?.addEventListener('click', () => {
         saveConsent(true);
         cookieConsent.hidden = true;

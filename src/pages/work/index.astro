@@ -2,6 +2,7 @@
 import WorkLayout from '../../layouts/WorkLayout.astro';
 import WorkJobCard from '../../components/work/WorkJobCard.astro';
 import WorkQuickLinks from '../../components/work/WorkQuickLinks.astro';
+import AdSlot from '../../components/main/AdSlot.astro';
 import {
   formatWorkDate,
   getJobFilterOptions,
@@ -143,8 +144,11 @@ const latestWorkArticles = workArticles.slice(0, 6);
         </form>
         <small>Fixture presentation; newsletter delivery is not connected in Phase 4.</small>
       </section>
+      <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
     </aside>
   </div>
+
+  <AdSlot placement="section" format="horizontal" />
 
   <section class="work-articles-section">
     <div class="work-articles-heading">

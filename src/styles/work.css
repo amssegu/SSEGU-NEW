@@ -170,6 +170,10 @@
   min-height: 65vh;
 }
 
+.work-main > .ad-unit {
+  width: min(970px, calc(100% - 2rem));
+}
+
 .work-hero {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.2fr);
@@ -710,6 +714,12 @@
   gap: 1rem;
 }
 
+.work-home-aside > .ad-sidebar {
+  width: 100%;
+  margin: 0;
+  padding: 0.25rem 0;
+}
+
 .work-quick-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1079,7 +1089,84 @@
 }
 
 .work-detail-shell {
-  max-width: 960px;
+  max-width: 1280px;
+}
+
+.work-detail-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 300px);
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.work-detail-main {
+  min-width: 0;
+}
+
+.work-detail-aside {
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100svh - 2rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.work-aside-panel {
+  padding: 1.1rem;
+  border: 1px solid var(--work-line);
+  border-radius: var(--work-radius);
+  background: var(--work-surface);
+}
+
+.work-aside-panel h2 {
+  margin: 0.2rem 0 0.9rem;
+  color: var(--work-navy-deep);
+  font-family: var(--font-article-heading);
+  font-size: 1.45rem;
+}
+
+.work-aside-panel nav {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.work-aside-panel nav a,
+.work-aside-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.65rem 0.7rem;
+  border: 1px solid var(--work-line);
+  border-radius: 5px;
+  color: var(--work-navy);
+  background: #fff;
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.work-aside-panel nav a:hover,
+.work-aside-panel nav a:focus-visible,
+.work-aside-cta:hover,
+.work-aside-cta:focus-visible {
+  color: #fff;
+  border-color: var(--work-blue);
+  background: var(--work-blue);
+}
+
+.work-aside-cta {
+  justify-content: center;
+  margin-top: 0.8rem;
+  color: #fff;
+  border-color: var(--work-purple);
+  background: var(--work-purple);
+}
+
+.work-detail-aside > .ad-sidebar {
+  width: 100%;
+  margin: 1rem 0 0;
+  padding: 0;
 }
 
 .work-detail-heading {
@@ -1497,6 +1584,10 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .work-home-aside > .ad-sidebar {
+    grid-column: 1 / -1;
+  }
+
   .work-filter-grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1633,6 +1724,7 @@
 
   .work-home-grid,
   .work-home-aside,
+  .work-detail-layout,
   .work-trust-strip,
   .work-home-article-grid,
   .work-resource-grid,
@@ -1650,6 +1742,12 @@
 
   .work-home-aside {
     grid-column: auto;
+  }
+
+  .work-detail-aside {
+    position: static;
+    max-height: none;
+    overflow: visible;
   }
 
   .work-trust-strip {

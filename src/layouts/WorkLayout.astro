@@ -1,7 +1,10 @@
 ---
 import '../styles/work.css';
 import '../styles/global.css';
+import AdSlot from '../components/main/AdSlot.astro';
+import CookieConsent from '../components/shared/CookieConsent.astro';
 import SeoHead from '../components/shared/SeoHead.astro';
+import { adsenseClient } from '../lib/adsense';
 import type { JsonLd } from '../lib/seo';
 
 interface Props {
@@ -62,9 +65,12 @@ const nav = [
       structuredData={structuredData}
       themeColor="#082f78"
     />
+    {adsenseClient && <link rel="preconnect" href="https://pagead2.googlesyndication.com" />}
+    {adsenseClient && <link rel="preconnect" href="https://googleads.g.doubleclick.net" />}
     <title>{title}</title>
   </head>
   <body>
+    <CookieConsent adsenseClient={adsenseClient} />
     <div class="work-site">
       <a class="skip-link work-skip-link" href="#work-main-content">
         Skip to content
@@ -110,7 +116,9 @@ const nav = [
         </div>
       </header>
       <main id="work-main-content" class="work-main">
+        <AdSlot placement="top" format="horizontal" />
         <slot />
+        <AdSlot placement="section" format="horizontal" />
       </main>
       <footer class="work-footer">
         <div class="work-footer-inner">
@@ -168,6 +176,73 @@ const nav = [
       workNav
         ?.querySelectorAll('a')
         .forEach((link) => link.addEventListener('click', closeWorkMenu));
+    </script>
+    <script is:inline>
+      const cookieConsentKey = 'ssegu-ad-consent';
+      const cookieConsentDuration = 7 * 24 * 60 * 60 * 1000;
+      const cookieConsent = document.querySelector('[data-cookie-consent]');
+      const adsenseClient = cookieConsent?.dataset.adsenseClient;
+      const adsAllowedHost = ['ssegu.com', 'www.ssegu.com'].includes(window.location.hostname);
+      if (!adsAllowedHost) {
+        cookieConsent?.setAttribute('hidden', '');
+        document.querySelectorAll('.ad-unit').forEach((ad) => ad.setAttribute('hidden', ''));
+      }
+      const readConsent = () => {
+        const value = document.cookie
+          .split('; ')
+          .find((entry) => entry.startsWith(`${cookieConsentKey}=`))
+          ?.split('=')[1];
+        if (!value) return null;
+        try {
+          const consent = JSON.parse(decodeURIComponent(value));
+          return consent.expires > Date.now() ? consent : null;
+        } catch {
+          return null;
+        }
+      };
+      const saveConsent = (allowed) => {
+        const value = encodeURIComponent(
+          JSON.stringify({ allowed, expires: Date.now() + cookieConsentDuration }),
+        );
+        document.cookie = `${cookieConsentKey}=${value}; max-age=${cookieConsentDuration / 1000}; path=/; samesite=lax`;
+      };
+      const requestAds = () => {
+        if (
+          !adsAllowedHost ||
+          !adsenseClient ||
+          document.querySelector('script[data-ssegu-adsense]')
+        )
+          return;
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`;
+        script.crossOrigin = 'anonymous';
+        script.dataset.sseguAdsense = 'true';
+        script.onload = () => {
+          document.querySelectorAll('.adsbygoogle:not([data-ad-requested])').forEach((ad) => {
+            ad.setAttribute('data-ad-requested', '1');
+            try {
+              (window.adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (error) {
+              ad.removeAttribute('data-ad-requested');
+              console.warn('AdSense could not load this ad slot.', error);
+            }
+          });
+        };
+        document.head.appendChild(script);
+      };
+      const consent = readConsent();
+      if (adsAllowedHost && consent?.allowed) requestAds();
+      if (adsAllowedHost && !consent && cookieConsent) cookieConsent.hidden = false;
+      cookieConsent?.querySelector('[data-cookie-accept]')?.addEventListener('click', () => {
+        saveConsent(true);
+        cookieConsent.hidden = true;
+        requestAds();
+      });
+      cookieConsent?.querySelector('[data-cookie-decline]')?.addEventListener('click', () => {
+        saveConsent(false);
+        cookieConsent.hidden = true;
+      });
     </script>
   </body>
 </html>

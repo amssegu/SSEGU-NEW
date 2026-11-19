@@ -1,0 +1,30 @@
+---
+import AdSlot from '../main/AdSlot.astro';
+
+const links = [
+  { label: 'Latest jobs', href: '/work/jobs/' },
+  { label: 'Internships', href: '/work/internships/' },
+  { label: 'Career advice', href: '/work/career-advice/' },
+  { label: 'Courses', href: '/work/courses/' },
+  { label: 'CV resources', href: '/work/cv-resources/' },
+];
+---
+
+<aside class="work-detail-aside" aria-label="Work resources">
+  <section class="work-aside-panel">
+    <p class="work-eyebrow">Keep moving forward</p>
+    <h2>Explore Work</h2>
+    <nav aria-label="Work resources">
+      {links.map((link) => (
+        <a href={link.href}>
+          {link.label}
+          <span aria-hidden="true">→</span>
+        </a>
+      ))}
+    </nav>
+    <a class="work-aside-cta" href="/work/">
+      Return to Work home
+    </a>
+  </section>
+  <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
+</aside>

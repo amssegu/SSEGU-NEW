@@ -1,6 +1,7 @@
 ---
 import WorkCourseCard from '../../../components/work/WorkCourseCard.astro';
 import WorkLayout from '../../../layouts/WorkLayout.astro';
+import AdSlot from '../../../components/main/AdSlot.astro';
 import {
   courseStatusLabel,
   getCourseFilterOptions,
@@ -112,6 +113,7 @@ const noindex = Astro.url.search.length > 0;
     <p class="work-course-empty" data-course-empty hidden>
       No courses match those filters.
     </p>
+    <AdSlot placement="section" format="horizontal" />
   </div>
 </WorkLayout>
 
