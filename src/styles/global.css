@@ -2244,6 +2244,132 @@ input:focus-visible {
   }
 }
 
+/* Responsive shell refinements for tablet and compact phone widths. */
+@media (min-width: 641px) and (max-width: 850px) {
+  :root {
+    --page-gutter: 20px;
+    --content-gap: 20px;
+  }
+
+  .utility-inner {
+    gap: 0.85rem;
+    font-size: 0.75rem;
+  }
+
+  .masthead {
+    min-height: 64px;
+    gap: 1rem;
+  }
+
+  .brand-logo {
+    width: 94px;
+    height: 60px;
+  }
+
+  .masthead-banner {
+    width: min(54%, 560px);
+    height: 58px;
+    padding-inline: 1.2rem;
+    font-size: 1rem;
+  }
+
+  .nav-wrap {
+    height: auto;
+  }
+
+  .nav-inner {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    min-height: 46px;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+    min-width: 3rem;
+    min-height: 46px;
+    margin-left: auto;
+    padding-inline: 0.8rem;
+    color: var(--indigo);
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .primary-nav {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid var(--line);
+  }
+
+  .primary-nav.is-open {
+    display: flex;
+  }
+
+  .primary-nav a {
+    min-height: 46px;
+    padding: 0.8rem 1rem;
+  }
+
+  .home-grid,
+  .lower-grid {
+    gap: 1.25rem;
+  }
+
+  .card-grid,
+  .listing-grid {
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .shell {
+    width: min(calc(100% - 2rem), var(--container-width));
+  }
+
+  .site-main {
+    overflow-x: clip;
+  }
+
+  .utility-inner {
+    padding-block: 0.45rem;
+  }
+
+  .masthead {
+    gap: 0.75rem;
+  }
+
+  .primary-nav a,
+  .nav-live-tv {
+    min-height: 48px;
+  }
+
+  .nav-inner {
+    flex-wrap: wrap;
+  }
+
+  .primary-nav {
+    flex-basis: 100%;
+  }
+
+  .section-heading h2 {
+    max-width: 100%;
+  }
+
+  .article-body img,
+  .article-body video,
+  .article-body iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .article-body pre,
+  .article-body code {
+    overflow-wrap: anywhere;
+  }
+}
+
 /* Live TV display styling follows the production channel/player experience. */
 .live-tv-module {
   padding: 1.25rem;
