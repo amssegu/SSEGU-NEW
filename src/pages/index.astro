@@ -5,7 +5,7 @@ import StoryCard from '../components/main/StoryCard.astro';
 import TopStories from '../components/main/TopStories.astro';
 import NewsletterModule from '../components/main/NewsletterModule.astro';
 import SectionLinks from '../components/main/SectionLinks.astro';
-import LiveTvModule from '../components/main/LiveTvModule.astro';
+import TVModule from '../components/TV/TVModule.astro';
 import AdSlot from '../components/main/AdSlot.astro';
 import { getPublishedArticles, label } from '../lib/articles';
 const stories = await getPublishedArticles();
@@ -89,6 +89,6 @@ const moreNews = stories.slice(5, 14);
     </aside>
   </div>
   <AdSlot placement="section" format="horizontal" />
-  <LiveTvModule />
+  <TVModule />
   <AdSlot placement="section" format="horizontal" />
 </MainLayout>

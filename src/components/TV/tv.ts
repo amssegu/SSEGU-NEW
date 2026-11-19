@@ -1,4 +1,4 @@
-export interface LiveTvChannel {
+export interface TvChannel {
   id: string;
   name: string;
   category: string;
@@ -6,7 +6,7 @@ export interface LiveTvChannel {
   stream: string;
 }
 
-export const liveTvChannels: LiveTvChannel[] = [
+export const tvChannels: TvChannel[] = [
   {
     id: 'citizentv',
     name: 'Citizen TV',
@@ -141,5 +141,105 @@ export const liveTvChannels: LiveTvChannel[] = [
     category: 'News',
     color: '#d946ef',
     stream: 'https://rpn.bozztv.com/ebstv/ebstv/index.m3u8',
+  },
+  {
+    id: 'yadah-tv',
+    name: 'Yadah TV',
+    category: 'Faith',
+    color: '#d8a31a',
+    stream: 'https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_018/Stream/playlist.m3u8',
+  },
+  {
+    id: 'wildearth',
+    name: 'WildEarth',
+    category: 'Entertainment',
+    color: '#16a34a',
+    stream: 'https://wildearth-ono.amagi.tv/playlist/amg01290-wildearth-oando/playlist.m3u8',
+  },
+  {
+    id: 'boktv',
+    name: 'BOKTV',
+    category: 'Entertainment',
+    color: '#0ea5e9',
+    stream: 'https://livestream2.bokradio.co.za/hls/Bok5c.m3u8',
+  },
+  {
+    id: 'sabc2',
+    name: 'SABC 2',
+    category: 'Entertainment',
+    color: '#f59e0b',
+    stream: 'https://sabctwota.cdn.mangomolo.com/sabc2/smil:sabc2.stream.smil/master.m3u8',
+  },
+  {
+    id: 'sabc1',
+    name: 'SABC 1',
+    category: 'Entertainment',
+    color: '#2563eb',
+    stream: 'https://sabconeta.cdn.mangomolo.com/sabc1/smil:sabc1.stream.smil/master.m3u8',
+  },
+  {
+    id: 'redemption-tv-ministry',
+    name: 'Redemption Television Ministry',
+    category: 'Faith',
+    color: '#7c3aed',
+    stream: 'https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_018/Stream/playlist.m3u8',
+  },
+  {
+    id: 'faith-africa',
+    name: 'Faith Africa',
+    category: 'Faith',
+    color: '#a855f7',
+    stream:
+      'https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithAfrica.smil/playlist.m3u8',
+  },
+  {
+    id: 'sportscast-africa',
+    name: 'SportsCast Africa',
+    category: 'Sports',
+    color: '#16a34a',
+    stream: 'https://delivery.broadsmart-streaming.co.za/sportscast/index.m3u8',
+  },
+  {
+    id: 'k24tv',
+    name: 'K24TV',
+    category: 'News',
+    color: '#dc7c22',
+    stream: 'https://livecdn.premiumfree.tv/afxpstr/K24Backup/index.m3u8',
+  },
+  {
+    id: 'inooro-tv',
+    name: 'Inooro TV',
+    category: 'Entertainment',
+    color: '#e11d48',
+    stream: 'https://live-onesignal.royalmedia.co.ke/live/T-MxRsFebq6zx7k2QFMbLw.m3u8',
+  },
+  {
+    id: 'morning-cloud-tv',
+    name: 'Morning Cloud TV',
+    category: 'Faith',
+    color: '#38bdf8',
+    stream: 'https://livecdn.live247stream.com/mc/tv/playlist.m3u8',
+  },
+  {
+    id: 'bbs-tv',
+    name: 'BBS TV',
+    category: 'News',
+    color: '#f97316',
+    stream: 'https://live.esteem.africa/live/masaza-cup-live-feb0cd.m3u8',
+  },
+  {
+    id: 'cinewestern',
+    name: 'CineWestern',
+    category: 'Entertainment',
+    color: '#b45309',
+    stream:
+      'https://b46a9ff4.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pdF9XUC0xX0hMUw/a31090ce-ae22-4a1c-82b6-b3a10c4e053d/1.m3u8',
+  },
+  {
+    id: 'goldmines-movies',
+    name: 'Goldmines Movies',
+    category: 'Entertainment',
+    color: '#ca8a04',
+    stream: 'https://mumt04.tangotv.in/m18aqlK4GOLDMINEMOVIES/index.m3u8',
   },
 ];

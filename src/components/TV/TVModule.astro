@@ -1,0 +1,147 @@
+---
+import { tvChannels } from './tv';
+---
+
+<section class="tv-module" aria-labelledby="tv-module-title">
+  <div class="tv-module-heading">
+    <div>
+      <p class="tv-module-kicker">● SSEGU Live</p>
+      <h2 id="tv-module-title">Watch live TV</h2>
+      <p>Stay close to the stories, voices and channels shaping Uganda right now.</p>
+    </div>
+    <a href="/tv/">
+      Live channels <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+  <div class="tv-module-grid">
+    {tvChannels.slice(0, 6).map((channel) => (
+      <a class="tv-module-card" href={`/tv/${channel.id}/`} style={`--tv-color: ${channel.color}`}>
+        <span>
+          <b>LIVE</b>
+          <i>▶</i>
+        </span>
+        <strong>{channel.name}</strong>
+        <small>{channel.category}</small>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .tv-module {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 28px 20px;
+    background: #0b0b0f;
+    color: #e8e8ed;
+  }
+  .tv-module-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .tv-module-kicker {
+    margin: 0 0 5px;
+    color: #e11d48;
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .tv-module h2 {
+    margin: 0;
+    color: #fff;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+  }
+  .tv-module-heading p:last-child {
+    margin: 0.35rem 0 0;
+    color: #8a8a96;
+  }
+  .tv-module-heading > a {
+    color: #fff;
+    background: #e11d48;
+    border-radius: 10px;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+  .tv-module-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .tv-module-card {
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid rgb(255 255 255 / 10%);
+    border-radius: 12px;
+    background: #14141a;
+    color: #fff;
+    text-decoration: none;
+  }
+  .tv-module-card > span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin: -12px -12px 10px;
+    padding: 10px;
+    background: linear-gradient(135deg, var(--tv-color), #14141a);
+  }
+  .tv-module-card b {
+    align-self: start;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background: #e11d48;
+    font-size: 0.62rem;
+  }
+  .tv-module-card i {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgb(0 0 0 / 35%);
+    font-style: normal;
+  }
+  .tv-module-card strong,
+  .tv-module-card small {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .tv-module-card strong {
+    font-size: 0.88rem;
+  }
+  .tv-module-card small {
+    margin-top: 4px;
+    color: #8a8a96;
+    font-size: 0.72rem;
+  }
+  .tv-module-card:hover {
+    border-color: #e11d48;
+    transform: translateY(-2px);
+  }
+  @media (max-width: 900px) {
+    .tv-module-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 600px) {
+    .tv-module-heading {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    .tv-module-heading > a {
+      width: 100%;
+      text-align: center;
+    }
+    .tv-module-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

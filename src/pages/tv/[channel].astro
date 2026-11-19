@@ -1,11 +1,11 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
-import LiveTvPlayer from '../../components/main/LiveTvPlayer.astro';
-import { liveTvChannels } from '../../lib/live-tv';
+import TVPlayer from '../../components/TV/TVPlayer.astro';
+import { tvChannels } from '../../components/TV/tv';
 import { absoluteUrl } from '../../lib/seo';
 
 export function getStaticPaths() {
-  return liveTvChannels.map((channel) => ({
+  return tvChannels.map((channel) => ({
     params: { channel: channel.id },
     props: { channel },
   }));
@@ -19,5 +19,5 @@ const { channel } = Astro.props;
   description={`Watch ${channel.name}, a live ${channel.category.toLowerCase()} channel on SSEGU.`}
   canonical={absoluteUrl(`/tv/${channel.id}/`)}
 >
-  <LiveTvPlayer channel={channel} />
+  <TVPlayer channel={channel} />
 </MainLayout>
