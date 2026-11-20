@@ -30,7 +30,9 @@ assert.equal(parseJubaJobsPayload(valid).outcome, 'success');
 assert.equal(parseJubaJobsPayload(valid).records.length, 2);
 assert.equal(parseJubaJobsPayload({ items: [] }).outcome, 'empty');
 assert.equal(parseJubaJobsPayload({ items: {} }).outcome, 'malformed');
-assert.equal(parseJubaJobsPayload(partial).outcome, 'malformed');
+assert.equal(parseJubaJobsPayload(partial).outcome, 'success');
+assert.equal(parseJubaJobsPayload(partial).records.length, 1);
+assert.equal(parseJubaJobsPayload(partial).records[0].employer, 'Example Organisation');
 
 const remoteFixture = JSON.parse(
   readFileSync('project-spec/content-fixtures/aggregation/remoteok-jobs-valid.json', 'utf8'),
@@ -189,7 +191,9 @@ const upsertCall = dbCalls.find(({ query }) =>
   /ON CONFLICT\(source_id, source_record_id\)/.test(query),
 );
 assert.ok(upsertCall);
-assert.match(upsertCall.query, /COALESCE\(excluded\.application_url/);
+assert.match(upsertCall.query, /application_url = excluded\.application_url/);
+assert.match(upsertCall.query, /employment_type = excluded\.employment_type/);
+assert.match(upsertCall.query, /salary_text = excluded\.salary_text/);
 
 const jobWithChangedTitle = normalizeJubaJob(
   { ...parseJubaJobsPayload(valid).records[0], title: 'Country Director Updated' },

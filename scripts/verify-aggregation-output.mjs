@@ -2,7 +2,9 @@ import { readFile } from 'node:fs/promises';
 
 const [reportPath, runsPath, jobsPath, coursesPath] = process.argv.slice(2);
 if (!reportPath || !runsPath) {
-  throw new Error('usage: verify-aggregation-output.mjs REPORT_JSON RUNS_JSON [JOBS_JSON] [COURSES_JSON]');
+  throw new Error(
+    'usage: verify-aggregation-output.mjs REPORT_JSON RUNS_JSON [JOBS_JSON] [COURSES_JSON]',
+  );
 }
 
 const readJson = async (path) => JSON.parse(await readFile(path, 'utf8'));
@@ -19,19 +21,23 @@ if (!report.generatedAt || !Array.isArray(report.sourceResults)) {
 for (const source of report.sourceResults) {
   const run = runs.find(
     (candidate) =>
-      candidate.source_id === source.sourceId &&
-      candidate.started_at === report.generatedAt,
+      candidate.source_id === source.sourceId && candidate.started_at === report.generatedAt,
   );
   if (!run) throw new Error(`missing D1 ingestion run for ${source.sourceId}`);
   if (run.result !== source.outcome) {
-    throw new Error(`D1 result mismatch for ${source.sourceId}: report=${source.outcome} d1=${run.result}`);
+    throw new Error(
+      `D1 result mismatch for ${source.sourceId}: report=${source.outcome} d1=${run.result}`,
+    );
   }
   if (source.acceptedCount !== undefined && run.accepted_count !== source.acceptedCount) {
     throw new Error(`accepted count mismatch for ${source.sourceId}`);
   }
 }
 
-for (const [label, path] of [['jobs', jobsPath], ['courses', coursesPath]]) {
+for (const [label, path] of [
+  ['jobs', jobsPath],
+  ['courses', coursesPath],
+]) {
   if (!path) continue;
   const payload = await readJson(path);
   if (!Array.isArray(payload) || payload.some((item) => !Array.isArray(item?.results))) {

@@ -118,7 +118,12 @@ export async function runJobs({
   reserveUniqueJobSlugs(deduped.unique, slugRegistry);
   const summary: RunSummary = {
     sourceId: source.id,
-    outcome: deduped.unique.length ? 'success' : 'failed',
+    outcome:
+      deduped.unique.length === 0
+        ? 'failed'
+        : checked.quarantined.length + deduped.duplicates.length + quarantined.length > 0
+          ? 'partial'
+          : 'success',
     fetchedCount,
     acceptedCount: deduped.unique.length,
     rejectedCount: checked.quarantined.length + deduped.duplicates.length + quarantined.length,
@@ -126,6 +131,9 @@ export async function runJobs({
   };
   if (db) {
     const runId = `${source.id}:${now.toISOString()}`;
+    for (const job of deduped.unique) {
+      await upsertJob(db, job, now.toISOString()).run();
+    }
     await recordIngestionRun(
       db,
       summary,
@@ -133,7 +141,6 @@ export async function runJobs({
       new Date(now.valueOf() + 1).toISOString(),
     );
     for (const job of deduped.unique) {
-      await upsertJob(db, job, now.toISOString()).run();
       await recordStatusHistory(db, job, runId, 'successful observation').run();
     }
   }

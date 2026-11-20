@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: aggregate-jobs-production
+  group: aggregate-work-production
   cancel-in-progress: false
 
 jobs:

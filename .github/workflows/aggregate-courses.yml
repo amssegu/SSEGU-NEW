@@ -15,7 +15,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: aggregate-courses-production
+  group: aggregate-work-production
   cancel-in-progress: false
 
 jobs:
@@ -32,14 +32,7 @@ jobs:
       - name: Capture current production manifest
         if: github.event_name == 'schedule' || inputs.report_only == false
         run: curl --fail --location --silent --show-error --max-time 20 https://ssegu.com/work-data-manifest.json -o "$RUNNER_TEMP/previous-work-manifest.json" || echo '{}' > "$RUNNER_TEMP/previous-work-manifest.json"
-      - name: Produce source-level course report
-        id: report
-        env:
-          COURSE_REPORT_PATH: ${{ runner.temp }}/ssegu-courses-report.json
-          COURSE_EXPORT_INPUT_PATH: ${{ runner.temp }}/ssegu-courses-export-input.json
-        run: node scripts/aggregate-courses-report.mjs
       - name: Plan course catalogue database upsert
-        if: github.event_name == 'schedule' || inputs.report_only == false
         env:
           COURSE_LIVE_REPORT_PATH: ${{ runner.temp }}/ssegu-courses-live-report.json
         run: node scripts/aggregate-courses-live.mjs
@@ -119,7 +112,7 @@ jobs:
         with:
           name: courses-aggregation-report-${{ github.run_id }}
           retention-days: 30
-          path: ${{ runner.temp }}/ssegu-courses-report.json
+          path: ${{ runner.temp }}/ssegu-courses-live-report.json
           if-no-files-found: error
 
       - name: Upload live aggregation evidence
@@ -129,7 +122,6 @@ jobs:
           name: courses-aggregation-report-${{ github.run_id }}
           retention-days: 30
           path: |
-            ${{ runner.temp }}/ssegu-courses-report.json
             ${{ runner.temp }}/ssegu-courses-live-report.json
             ${{ runner.temp }}/work-manifest-comparison.json
             ${{ runner.temp }}/previous-work-manifest.json

@@ -33,7 +33,6 @@ export function parseJubaJobsPayload(payload: unknown): AdapterResult {
     if (
       typeof row.url !== 'string' ||
       typeof row.title !== 'string' ||
-      typeof row.organization !== 'string' ||
       typeof row.location !== 'string'
     )
       continue;
@@ -41,7 +40,10 @@ export function parseJubaJobsPayload(payload: unknown): AdapterResult {
       sourceRecordId: row.id,
       canonicalUrl: row.url,
       title: row.title,
-      employer: row.organization,
+      employer:
+        typeof row.organization === 'string' && row.organization.trim()
+          ? row.organization.trim()
+          : 'Employer not listed',
       location: row.location,
       category: typeof row.category === 'string' ? row.category : null,
       deadlineAt: typeof row.deadline === 'string' ? row.deadline : null,
@@ -49,11 +51,11 @@ export function parseJubaJobsPayload(payload: unknown): AdapterResult {
       permittedExcerpt: typeof row.summary === 'string' ? row.summary : null,
     });
   }
-  return records.length === items.length
+  return records.length
     ? { outcome: 'success', records }
     : {
         outcome: 'malformed',
         records,
-        error: 'one or more items failed the required JubaJobs shape',
+        error: 'no JubaJobs items matched the required listing shape',
       };
 }
