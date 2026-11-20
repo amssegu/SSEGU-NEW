@@ -24,8 +24,8 @@ const noindex = Astro.url.search.length > 0;
       <p class="work-eyebrow">Build useful skills</p>
       <h1>Courses</h1>
       <p>
-        Discover learning opportunities and continue to the original provider to study. SSEGU is not
-        affiliated with the providers listed.
+        Compare practical learning options, then continue to the original provider to study. SSEGU
+        does not host the courses or claim affiliation with the providers listed.
       </p>
     </div>
     <form id="work-course-filters" class="work-filter-panel" data-testid="work-course-filters">
@@ -105,8 +105,8 @@ const noindex = Astro.url.search.length > 0;
       </div>
     </form>
     <p id="course-results-status" class="work-results-status" role="status" aria-live="polite">
-      Showing {courses.length} approved course {courses.length === 1 ? 'link' : 'links'}. All
-      currently approved course records are shown.
+      Showing {courses.length} course {courses.length === 1 ? 'link' : 'links'} from the current
+      catalogue.
     </p>
     <div class="work-resource-grid" data-course-results>
       {courses.map((course) => (

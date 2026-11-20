@@ -30,8 +30,8 @@ const latestWorkArticles = workArticles.slice(0, 6);
         <strong>Our Priority.</strong>
       </p>
       <p class="work-hero-description">
-        Discover job opportunities, explore career resources and build the skills you need for a
-        brighter future.
+        Find your next opportunity, build useful skills and get practical help for the move you want
+        to make.
       </p>
       <form class="work-hero-search" action="/work/jobs/" method="get">
         <label class="sr-only" for="hero-keyword">
@@ -41,7 +41,7 @@ const latestWorkArticles = workArticles.slice(0, 6);
           id="hero-keyword"
           name="q"
           type="search"
-          placeholder="Search jobs or career advice…"
+          placeholder="Search job title, employer or skill…"
         />
         <label class="sr-only" for="hero-location">
           Location
@@ -54,8 +54,22 @@ const latestWorkArticles = workArticles.slice(0, 6);
         </select>
         <button type="submit">Search</button>
       </form>
+      <div class="work-hero-paths" aria-label="Choose a Work path">
+        <a class="work-hero-path" href="/work/jobs/">
+          <strong>Find a job</strong>
+          <span>Browse current openings</span>
+        </a>
+        <a class="work-hero-path" href="/work/courses/">
+          <strong>Build a skill</strong>
+          <span>Explore provider courses</span>
+        </a>
+        <a class="work-hero-path" href="/work/career-advice/">
+          <strong>Prepare well</strong>
+          <span>Read practical career advice</span>
+        </a>
+      </div>
       <div class="work-popular" aria-label="Popular Work topics">
-        <strong>Popular:</strong>
+        <strong>Popular searches:</strong>
         <a href="/work/jobs/?q=jobs">Jobs</a>
         <a href="/work/internships/">Internships</a>
         <a href="/work/jobs/?q=ICT">ICT</a>
@@ -126,23 +140,12 @@ const latestWorkArticles = workArticles.slice(0, 6);
           ➤
         </span>
         <div>
-          <h2 id="updates-title">Get Career Updates</h2>
-          <p>Receive new job alerts and career tips.</p>
+          <h2 id="updates-title">Keep moving forward</h2>
+          <p>Read practical career advice, CV guidance and skill-building ideas.</p>
         </div>
-        <form class="work-updates-form" action="/work/" method="get">
-          <label class="sr-only" for="updates-email">
-            Your email address
-          </label>
-          <input
-            id="updates-email"
-            name="email"
-            type="email"
-            placeholder="Your email address"
-            autocomplete="email"
-          />
-          <button type="submit">Subscribe</button>
-        </form>
-        <small>Fixture presentation; newsletter delivery is not connected in Phase 4.</small>
+        <a class="work-button work-button-small" href="/work/career-advice/">
+          Read career advice
+        </a>
       </section>
       <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
     </aside>

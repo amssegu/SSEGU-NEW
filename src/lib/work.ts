@@ -483,42 +483,42 @@ const fixtureWorkJobs: WorkJob[] = [
     employmentType: 'Full-time',
     arrangement: 'Hybrid',
     status: 'expired',
-    description: 'A fixture listing retained to demonstrate expired-vacancy filtering behavior.',
+    description: 'This listing is no longer accepting applications.',
     category: 'Graduate programme',
   },
   {
     slug: 'communications-officer-withdrawn-fixture',
     title: 'Communications Officer',
-    employer: 'SSEGU Work fixture partner',
+    employer: 'SSEGU Work partner',
     location: 'Jinja',
     deadline: '2026-12-01',
     employmentType: 'Full-time',
     arrangement: 'Hybrid',
     status: 'withdrawn',
-    description: 'A withdrawn fixture listing retained to verify stable detail URLs.',
+    description: 'This listing has been withdrawn by the source.',
     category: 'Communications',
   },
   {
     slug: 'project-assistant-unverified-fixture',
     title: 'Project Assistant',
-    employer: 'SSEGU Work fixture partner',
+    employer: 'SSEGU Work partner',
     location: 'Gulu',
     deadline: '2026-12-03',
     employmentType: 'Contract',
     arrangement: 'On-site',
     status: 'unverified',
-    description: 'An unverified fixture listing retained to verify safe presentation.',
+    description: 'The source has not yet confirmed this listing.',
     category: 'Operations',
   },
   {
     slug: 'community-liaison-missing-deadline-fixture',
     title: 'Community Liaison',
-    employer: 'SSEGU Work fixture partner',
+    employer: 'SSEGU Work partner',
     location: 'Mbarara',
     employmentType: 'Part-time',
     arrangement: 'Remote',
     status: 'active',
-    description: 'An active fixture listing with no published deadline.',
+    description: 'An active opportunity with no published deadline.',
     category: 'Community',
   },
 ];
@@ -684,7 +684,8 @@ export async function getPublishedWorkJobs(options: { status?: WorkStatus | 'all
   const editorial = (await getCollection('jobs'))
     .filter(({ data }) => data.status === 'published' || data.status === 'expired')
     .map(fromEditorialJobEntry);
-  cachedPublishedWorkJobs = mergeBySlug(generatedWorkJobs, editorial, fixtureWorkJobs);
+  const fallbackFixtures = generatedWorkJobs.length === 0 ? fixtureWorkJobs : [];
+  cachedPublishedWorkJobs = mergeBySlug(generatedWorkJobs, editorial, fallbackFixtures);
   const requestedStatus = options.status ?? 'active';
   if (requestedStatus === 'all') return cachedPublishedWorkJobs;
   return cachedPublishedWorkJobs.filter((job) =>
@@ -730,6 +731,7 @@ export function toWorkJobClientData(job: WorkJob) {
     title: job.title,
     employer: job.employer,
     location: job.location,
+    publishedAt: job.publishedAt ?? '',
     deadline: job.deadline ?? '',
     employmentType: job.employmentType,
     arrangement: job.arrangement,

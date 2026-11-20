@@ -12,16 +12,23 @@ const clientJobs = allJobs.map(toWorkJobClientData);
 
 <WorkLayout
   title="Jobs | SSEGU Work"
-  description="Browse fixture job opportunities from SSEGU Work."
+  description="Browse current job opportunities from SSEGU Work and follow the original source to apply."
 >
   <div class="work-page-shell">
     <div class="work-page-intro">
       <p class="work-eyebrow">Find your next opportunity</p>
       <h1>Jobs</h1>
       <p>
-        Search fixture opportunities by keyword, location, employment type and work arrangement.
+        Search current opportunities by keyword, location, employment type and work arrangement.
+        Listings link to the original employer or job source.
       </p>
     </div>
+    <nav class="work-filter-presets" aria-label="Popular job searches">
+      <span>Start with:</span>
+      <a href="/work/jobs/?location=Uganda">Uganda</a>
+      <a href="/work/jobs/?arrangement=Remote">Remote</a>
+      <a href="/work/jobs/?q=intern">Internships</a>
+    </nav>
     <form id="work-job-filters" class="work-filter-panel" data-testid="work-job-filters">
       <div class="work-filter-grid">
         <div>
@@ -76,6 +83,14 @@ const clientJobs = allJobs.map(toWorkJobClientData);
         <button class="work-button work-button-secondary" id="clear-job-filters" type="button">
           Clear
         </button>
+        <label class="work-sort-control" for="job-sort">
+          <span>Sort</span>
+          <select id="job-sort" name="sort">
+            <option value="relevance">Relevance</option>
+            <option value="newest">Newest</option>
+            <option value="deadline">Deadline soonest</option>
+          </select>
+        </label>
       </div>
     </form>
     <p id="job-filter-status" class="work-results-status" role="status" aria-live="polite">
@@ -103,6 +118,7 @@ const clientJobs = allJobs.map(toWorkJobClientData);
     const type = document.querySelector('#job-type');
     const arrangement = document.querySelector('#job-arrangement');
     const listingStatus = document.querySelector('#job-status');
+    const sort = document.querySelector('#job-sort');
     const clearButton = document.querySelector('#clear-job-filters');
     const dateFormatter = new Intl.DateTimeFormat('en-UG', { dateStyle: 'medium' });
     const params = new URLSearchParams(window.location.search);
@@ -111,6 +127,7 @@ const clientJobs = allJobs.map(toWorkJobClientData);
     type.value = params.get('type') || '';
     arrangement.value = params.get('arrangement') || '';
     listingStatus.value = params.get('status') || 'active';
+    sort.value = params.get('sort') || 'relevance';
 
     const escapeHtml = (value) =>
       String(value).replace(
@@ -153,6 +170,15 @@ const clientJobs = allJobs.map(toWorkJobClientData);
           (selectedStatus === 'all' || job.status === selectedStatus)
         );
       });
+      if (sort.value === 'newest') {
+        matches.sort((a, b) => (b.publishedAt || '').localeCompare(a.publishedAt || ''));
+      } else if (sort.value === 'deadline') {
+        matches.sort((a, b) => {
+          if (!a.deadline) return 1;
+          if (!b.deadline) return -1;
+          return a.deadline.localeCompare(b.deadline);
+        });
+      }
       results.innerHTML = matches.map(renderJob).join('');
       emptyState.hidden = matches.length !== 0;
       status.textContent = `${matches.length} ${matches.length === 1 ? 'opportunity' : 'opportunities'} shown.`;
@@ -163,6 +189,7 @@ const clientJobs = allJobs.map(toWorkJobClientData);
         if (type.value) next.set('type', type.value);
         if (arrangement.value) next.set('arrangement', arrangement.value);
         if (listingStatus.value !== 'active') next.set('status', listingStatus.value);
+        if (sort.value !== 'relevance') next.set('sort', sort.value);
         const queryString = next.toString();
         history.replaceState(
           null,
@@ -181,6 +208,7 @@ const clientJobs = allJobs.map(toWorkJobClientData);
       applyFilters();
       keyword.focus();
     });
+    sort?.addEventListener('change', () => applyFilters());
     applyFilters(false);
   </script>
 </WorkLayout>

@@ -37,8 +37,8 @@ const displayStatus = getWorkJobStatus(job);
     </div>
     {!compact && job.description && <p class="work-job-description">{job.description}</p>}
     <div class="work-job-meta">
-      <span>⌖ {job.location}</span>
-      <span>▣ {job.arrangement}</span>
+      <span>Location: {job.location}</span>
+      <span>Work mode: {job.arrangement}</span>
       <span>Deadline: {formatWorkDate(job.deadline)}</span>
       {job.salaryText && <span>Salary: {job.salaryText}</span>}
     </div>
