@@ -1,0 +1,35 @@
+---
+interface Props {
+  genres: string[];
+}
+
+const { genres } = Astro.props;
+---
+
+<section class="firimu-filters" id="firimu-search" aria-labelledby="firimu-search-title">
+  <div>
+    <span class="firimu-section-label">Find your next watch</span>
+    <h2 id="firimu-search-title">Browse the catalogue</h2>
+  </div>
+  <label class="firimu-search-box">
+    <span class="sr-only">Search Firimu</span>
+    <input
+      id="firimu-query"
+      type="search"
+      placeholder="Search films, VJs or genres"
+      autocomplete="off"
+    />
+    <span aria-hidden="true">⌕</span>
+  </label>
+  <div class="firimu-filter-row" aria-label="Filter by genre">
+    <button type="button" class="is-active" data-firimu-filter="all">
+      All films
+    </button>
+    {genres.map((genre) => (
+      <button type="button" data-firimu-filter={genre.toLowerCase()}>
+        {genre}
+      </button>
+    ))}
+  </div>
+  <p class="firimu-results" id="firimu-results" aria-live="polite"></p>
+</section>

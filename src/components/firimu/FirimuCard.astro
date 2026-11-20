@@ -1,0 +1,42 @@
+---
+import type { FirimuItem } from '../../lib/firimu';
+
+interface Props {
+  item: FirimuItem;
+  featured?: boolean;
+}
+
+const { item, featured = false } = Astro.props;
+const { article } = item;
+const searchText = `${article.title} ${item.vj} ${item.genre}`.toLowerCase();
+---
+
+<article
+  class:list={['firimu-card', { 'firimu-card-featured': featured }]}
+  data-firimu-card
+  data-search={searchText}
+  data-genre={item.genre.toLowerCase()}
+>
+  <a class="firimu-card-link" href={`/firimu/${article.slug}/`}>
+    <span class="firimu-poster">
+      <img
+        src={item.poster}
+        alt={article.imageAlt ?? article.title}
+        width="640"
+        height="900"
+        loading={featured ? 'eager' : 'lazy'}
+        decoding="async"
+      />
+      <span class="firimu-poster-shade" aria-hidden="true"></span>
+      <span class="firimu-card-play" aria-hidden="true">
+        Play
+      </span>
+      <span class="firimu-card-kind">{item.vj}</span>
+    </span>
+    <span class="firimu-card-copy">
+      <span class="firimu-card-genre">{item.genre}</span>
+      <strong>{article.title}</strong>
+      <small>{item.runtime ?? 'Full film'} · View details</small>
+    </span>
+  </a>
+</article>

@@ -1,0 +1,32 @@
+---
+import FirimuCard from './FirimuCard.astro';
+import type { FirimuItem } from '../../lib/firimu';
+
+interface Props {
+  title: string;
+  eyebrow?: string;
+  items: FirimuItem[];
+}
+
+const { title, eyebrow = 'Curated for you', items } = Astro.props;
+---
+
+{items.length > 0 && (
+  <section class="firimu-rail" aria-labelledby={`rail-${title.toLowerCase().replaceAll(' ', '-')}`}>
+    <div class="firimu-section-heading">
+      <div>
+        <span>{eyebrow}</span>
+        <h2 id={`rail-${title.toLowerCase().replaceAll(' ', '-')}`}>{title}</h2>
+      </div>
+      <div class="firimu-rail-controls" aria-hidden="true">
+        <span>Swipe to explore</span>
+        <b>→</b>
+      </div>
+    </div>
+    <div class="firimu-rail-track">
+      {items.map((item) => (
+        <FirimuCard item={item} />
+      ))}
+    </div>
+  </section>
+)}

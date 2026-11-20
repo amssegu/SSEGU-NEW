@@ -1,0 +1,54 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import '../styles/firimu.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  canonical?: string;
+}
+
+const { title, description, image, canonical } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} image={image} canonical={canonical}>
+  <div class="firimu-app">
+    <header class="firimu-header">
+      <div class="firimu-header-inner">
+        <a class="firimu-brand" href="/firimu/" aria-label="SSEGU Firimu home">
+          <span class="firimu-brand-mark">S</span>
+          <span>
+            <strong>SSEGU</strong>
+            <small>FIRIMU</small>
+          </span>
+        </a>
+        <nav class="firimu-nav" aria-label="Firimu navigation">
+          <a href="/firimu/" class="is-active">
+            Browse
+          </a>
+          <a href="/firimu/#firimu-catalogue">Catalogue</a>
+          <a href="/tv/">Live TV</a>
+        </nav>
+        <a class="firimu-search-link" href="/firimu/#firimu-search">
+          Search <span aria-hidden="true">⌕</span>
+        </a>
+      </div>
+    </header>
+    <main class="firimu-main">
+      <slot />
+    </main>
+    <footer class="firimu-footer">
+      <div>
+        <strong>SSEGU FIRIMU</strong>
+        <span>Stories, screens and voices from Uganda and beyond.</span>
+      </div>
+      <nav aria-label="Firimu footer navigation">
+        <a href="/">SSEGU home</a>
+        <a href="/tv/">Live TV</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+    </footer>
+  </div>
+</BaseLayout>

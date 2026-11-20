@@ -7,6 +7,7 @@
     "dev": "astro dev",
     "prebuild": "npm run export:work",
     "build": "astro build",
+    "seed:firimu-posters": "node scripts/seed-firimu-posters.mjs",
     "preview": "astro preview",
     "check": "astro check",
     "format": "prettier --write src scripts astro.config.mjs",

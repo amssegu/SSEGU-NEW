@@ -1,0 +1,118 @@
+---
+import FirimuCard from '../../components/firimu/FirimuCard.astro';
+import FirimuLayout from '../../layouts/FirimuLayout.astro';
+import { getFirimuItems, type FirimuItem } from '../../lib/firimu';
+
+export async function getStaticPaths() {
+  const items = await getFirimuItems();
+  return items.map((item) => ({ params: { slug: item.article.slug }, props: { item } }));
+}
+
+const { item } = Astro.props as { item: FirimuItem };
+const genreLead = item.genre.split(',')[0]?.trim() ?? '';
+const related = (await getFirimuItems())
+  .filter((candidate) => candidate.article.slug !== item.article.slug)
+  .filter(
+    (candidate) => !genreLead || candidate.genre.toLowerCase().includes(genreLead.toLowerCase()),
+  )
+  .slice(0, 6);
+---
+
+<FirimuLayout
+  title={`${item.article.title} | Firimu | SSEGU`}
+  description={item.plot}
+  image={item.poster}
+>
+  <article class="firimu-detail">
+    <a class="firimu-back" href="/firimu/">
+      ← Back to Firimu
+    </a>
+    <div class="firimu-detail-grid">
+      <div>
+        {item.videoSources.length > 0 ? (
+          <>
+            <div class="firimu-video-shell">
+              <video controls playsinline preload="metadata" poster={item.poster}>
+                <source src={item.videoSources[0]} type="video/mp4" />
+                Your browser does not support this video.
+              </video>
+            </div>
+            <a
+              class="firimu-source-link"
+              href={item.videoSources[0]}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open source if the player does not load ↗
+            </a>
+          </>
+        ) : (
+          <div class="firimu-detail-poster">
+            <img
+              src={item.poster}
+              alt={item.article.imageAlt ?? item.article.title}
+              width="900"
+              height="600"
+            />
+          </div>
+        )}
+      </div>
+      <div class="firimu-detail-copy">
+        <span class="firimu-kicker">{item.vj}</span>
+        <h1>{item.article.title}</h1>
+        <div class="firimu-detail-meta">
+          <span>{item.genre}</span>
+          {item.runtime && <span>{item.runtime}</span>}
+          <span>{item.article.publishedAt}</span>
+        </div>
+        <p>{item.plot}</p>
+        <p class="firimu-detail-note">
+          This Firimu title was automatically grouped from the SSEGU posts catalogue because its
+          metadata contains “VJ”.
+        </p>
+      </div>
+    </div>
+    {item.videoSources.length > 1 && (
+      <section class="firimu-sources" aria-labelledby="firimu-sources-title">
+        <div class="firimu-section-heading">
+          <div>
+            <span>More ways to watch</span>
+            <h2 id="firimu-sources-title">Available parts</h2>
+          </div>
+          <span class="firimu-source-count">{item.videoSources.length} players</span>
+        </div>
+        <div class="firimu-source-grid">
+          {item.videoSources.slice(1).map((source, index) => (
+            <article class="firimu-source-card">
+              <div class="firimu-video-shell">
+                <video controls playsinline preload="metadata" poster={item.poster}>
+                  <source src={source} type="video/mp4" />
+                  Your browser does not support this video.
+                </video>
+              </div>
+              <p>Part {index + 2}</p>
+              <a class="firimu-source-link" href={source} target="_blank" rel="noopener noreferrer">
+                Open source ↗
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+    {related.length > 0 && (
+      <section class="firimu-rail" aria-labelledby="related-films-title">
+        <div class="firimu-section-heading">
+          <div>
+            <span>Keep watching</span>
+            <h2 id="related-films-title">More like this</h2>
+          </div>
+        </div>
+        <div class="firimu-rail-track">
+          {related.map((candidate) => (
+            <FirimuCard item={candidate} />
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+</FirimuLayout>
