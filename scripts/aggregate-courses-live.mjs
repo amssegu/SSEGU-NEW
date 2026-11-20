@@ -5,8 +5,12 @@ import { join } from 'node:path';
 const now = new Date().toISOString();
 const outputDirectory = process.env.RUNNER_TEMP || '/tmp';
 const sqlPath = join(outputDirectory, 'ssegu-courses-aggregation.sql');
-const reportPath = join(outputDirectory, 'ssegu-courses-live-report.json');
+const reportPath = process.env.COURSE_LIVE_REPORT_PATH ?? join(outputDirectory, 'ssegu-courses-live-report.json');
 const catalogue = JSON.parse(await readFile('src/data/curated/courses.json', 'utf8'));
+
+if (!Array.isArray(catalogue) || catalogue.length === 0) {
+  throw new Error('course catalogue is empty; refusing to reconcile production D1');
+}
 
 const sources = [
   {
@@ -79,9 +83,6 @@ function statement(sql, values) {
 
 const statements = [];
 const enabledSourceIds = sources.filter((source) => source.enabled).map((source) => source.id);
-statements.push(
-  `UPDATE courses SET availability_status = 'withdrawn', updated_at = ${sqlValue(now)} WHERE source_id IN (${enabledSourceIds.map(sqlValue).join(', ')}) AND availability_status IN ('available', 'unavailable', 'unverified');`,
-);
 for (const source of sources) {
   statements.push(
     statement(
@@ -118,6 +119,9 @@ for (const source of sources) {
   const sourceCount = catalogue.filter(
     (course) => sourceById.get(course.sourceId) === source.id,
   ).length;
+  if (source.enabled && sourceCount === 0) {
+    throw new Error(`enabled course source has no catalogue records: ${source.id}`);
+  }
   statements.push(
     statement(
       `INSERT INTO ingestion_runs (id, source_id, content_type, trigger, started_at, finished_at, result, fetched_count, accepted_count, rejected_count, error_summary)
@@ -194,13 +198,21 @@ for (const course of catalogue) {
   );
 }
 
+// Reconcile only after every catalogue record has been validated and planned.
+// If an earlier statement fails, this statement is never reached. Records not
+// observed in this complete catalogue become withdrawn, never deleted.
+statements.push(
+  `UPDATE courses SET availability_status = 'withdrawn', updated_at = ${sqlValue(now)} WHERE source_id IN (${enabledSourceIds.map(sqlValue).join(', ')}) AND availability_status IN ('available', 'unavailable', 'unverified') AND last_seen_at <> ${sqlValue(now)};`,
+);
+
 const report = {
   generatedAt: now,
   sourceResults: sources.map((source) => ({
     sourceId: source.id,
     source: source.name,
     enabled: source.enabled,
-    outcome: source.enabled ? 'curated_metadata_upsert_planned' : 'skipped_authentication_required',
+    outcome: source.enabled ? 'success' : 'empty',
+    operation: source.enabled ? 'curated_metadata_upsert_planned' : 'skipped_authentication_required',
     plannedRecords: catalogue.filter((course) => sourceById.get(course.sourceId) === source.id)
       .length,
   })),

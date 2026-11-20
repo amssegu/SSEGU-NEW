@@ -70,13 +70,15 @@ export async function recordIngestionRun(
   startedAt: string,
   finishedAt: string,
 ) {
+  const trigger = process.env.GITHUB_EVENT_NAME === 'schedule' ? 'scheduled' : 'manual';
   return db
     .prepare(
-      `INSERT INTO ingestion_runs (id, source_id, content_type, trigger, started_at, finished_at, result, fetched_count, accepted_count, rejected_count, error_summary) VALUES (?, ?, 'jobs', 'manual', ?, ?, ?, ?, ?, ?, ?)`,
+      `INSERT INTO ingestion_runs (id, source_id, content_type, trigger, started_at, finished_at, result, fetched_count, accepted_count, rejected_count, error_summary) VALUES (?, ?, 'jobs', ?, ?, ?, ?, ?, ?, ?, ?)`,
     )
     .bind(
       `${summary.sourceId}:${startedAt}`,
       summary.sourceId,
+      trigger,
       startedAt,
       finishedAt,
       summary.outcome === 'skipped' ? 'failed' : summary.outcome,
