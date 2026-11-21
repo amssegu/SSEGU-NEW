@@ -57,7 +57,7 @@ if (sitemapJob) {
 }
 assert.match(readFileSync('dist/index.html', 'utf8'), /href="\/work\//i);
 assert.match(readFileSync('dist/work/index.html', 'utf8'), /Your Career/);
-assert.match(readFileSync('dist/work/jobs/index.html', 'utf8'), /Apply filters/);
+assert.match(readFileSync('dist/work/jobs/index.html', 'utf8'), /Search jobs/);
 assert.match(readFileSync('dist/work/jobs/index.html', 'utf8'), /Active opportunities/);
 const courseIndex = readFileSync('dist/work/courses/index.html', 'utf8');
 assert.match(courseIndex, /Search this page/);
