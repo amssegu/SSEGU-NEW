@@ -14,9 +14,16 @@ database_id = "87fe7aaa-a7b0-4c60-a10a-dc88f0b63004"
 migrations_dir = "migrations/d1"
 
 [[d1_databases]]
-binding = "WORK_AGGREGATION_DB"
+binding = "JOB_AGGREGATION_DB"
 database_name = "ssegu-work-aggregation-production"
 database_id = "46a7ddbe-cd84-42fb-b4d6-bb5f5a4a137b"
+migrations_dir = "migrations/jobs"
+
+[[d1_databases]]
+binding = "COURSE_AGGREGATION_DB"
+database_name = "ssegu-course-aggregation-production"
+database_id = "eae1e123-5b60-4604-90e6-451c54b02e1e"
+migrations_dir = "migrations/courses"
 
 [[kv_namespaces]]
 binding = "RATE_LIMIT_KV"

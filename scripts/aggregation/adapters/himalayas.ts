@@ -43,6 +43,7 @@ export function parseHimalayasPayload(payload: unknown): AdapterResult {
       continue;
     records.push({
       sourceRecordId: id,
+      sourceData: row,
       canonicalUrl: typeof row.url === 'string' ? row.url : (row.guid as string),
       applicationUrl: row.applicationLink,
       title: row.title,

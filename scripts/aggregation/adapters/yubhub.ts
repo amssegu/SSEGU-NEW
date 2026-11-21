@@ -30,6 +30,7 @@ export function parseYubHubPayload(payload: unknown): AdapterResult {
       if (!url || !title) continue;
       records.push({
         sourceRecordId: value('guid') || url,
+        sourceData: { xml: item[1] },
         canonicalUrl: url,
         applicationUrl: url,
         title,
@@ -64,6 +65,7 @@ export function parseYubHubPayload(payload: unknown): AdapterResult {
       continue;
     records.push({
       sourceRecordId: row.id,
+      sourceData: row,
       canonicalUrl: row.url,
       applicationUrl: row.url,
       title: row.title,

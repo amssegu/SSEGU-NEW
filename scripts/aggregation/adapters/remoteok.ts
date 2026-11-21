@@ -35,6 +35,7 @@ export function parseRemoteOkPayload(payload: unknown): AdapterResult {
     if (!url || typeof row.position !== 'string' || typeof row.company !== 'string') continue;
     records.push({
       sourceRecordId: row.id,
+      sourceData: row,
       canonicalUrl: url,
       applicationUrl: url,
       title: row.position,

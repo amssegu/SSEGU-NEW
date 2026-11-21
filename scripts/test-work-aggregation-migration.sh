@@ -85,4 +85,21 @@ grep -qx 'jobs_location_category_mode_idx' <<<"$indexes"
 ! rg -q 'content_sources|listing_status_history' "$repo_root/functions/api/job-submissions.ts"
 ! rg -q 'contact_email|supporting_information|rejection_reason' "$repo_root/migrations/d1/0002_create_work_aggregation.sql"
 
+for domain in jobs courses; do
+  domain_database="$tmp_dir/$domain.sqlite"
+  for migration in "$repo_root/migrations/$domain"/*.sql; do
+    sqlite3 -batch -bail -cmd 'PRAGMA foreign_keys = ON;' "$domain_database" < "$migration"
+  done
+  domain_tables=$(sqlite3 -batch "$domain_database" "SELECT name FROM sqlite_master WHERE type = 'table' AND name NOT LIKE 'sqlite_%' ORDER BY name;")
+  grep -qx 'content_sources' <<<"$domain_tables"
+  grep -qx 'ingestion_runs' <<<"$domain_tables"
+  if [[ "$domain" == jobs ]]; then
+    grep -qx 'jobs' <<<"$domain_tables"
+    ! grep -qx 'courses' <<<"$domain_tables"
+  else
+    grep -qx 'courses' <<<"$domain_tables"
+    ! grep -qx 'jobs' <<<"$domain_tables"
+  fi
+done
+
 echo 'work aggregation migration checks passed'

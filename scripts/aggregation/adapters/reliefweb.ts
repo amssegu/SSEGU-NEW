@@ -39,6 +39,7 @@ export function parseReliefWebPayload(payload: unknown): AdapterResult {
       continue;
     records.push({
       sourceRecordId: id,
+      sourceData: item as Record<string, unknown>,
       canonicalUrl: row.url,
       title: row.title,
       employer:

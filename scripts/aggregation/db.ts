@@ -13,8 +13,8 @@ export function upsertJob(db: D1DatabaseLike, job: NormalizedJob, observedAt: st
   return db
     .prepare(
       `
-    INSERT INTO jobs (id, source_id, source_record_id, canonical_url, application_url, slug, title, employer, location, country, category, employment_type, work_mode, permitted_excerpt, salary_text, salary_currency, salary_period, published_at, deadline_at, first_seen_at, last_seen_at, status, permission_type, content_hash, created_at, updated_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    INSERT INTO jobs (id, source_id, source_record_id, canonical_url, application_url, slug, title, employer, location, country, category, employment_type, work_mode, permitted_excerpt, salary_text, salary_currency, salary_period, published_at, deadline_at, first_seen_at, last_seen_at, status, permission_type, content_hash, source_data_json, created_at, updated_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ON CONFLICT(source_id, source_record_id) DO UPDATE SET
       canonical_url = excluded.canonical_url,
       application_url = excluded.application_url,
@@ -35,6 +35,7 @@ export function upsertJob(db: D1DatabaseLike, job: NormalizedJob, observedAt: st
       status = excluded.status,
       permission_type = excluded.permission_type,
       content_hash = excluded.content_hash,
+      source_data_json = excluded.source_data_json,
       updated_at = excluded.updated_at
   `,
     )
@@ -63,6 +64,7 @@ export function upsertJob(db: D1DatabaseLike, job: NormalizedJob, observedAt: st
       job.status,
       job.permissionType,
       job.contentHash,
+      job.sourceDataJson,
       observedAt,
       observedAt,
     );

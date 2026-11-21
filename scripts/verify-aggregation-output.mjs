@@ -17,6 +17,9 @@ const runs = (Array.isArray(runsPayload) ? runsPayload : [runsPayload]).flatMap(
 if (!report.generatedAt || !Array.isArray(report.sourceResults)) {
   throw new Error('aggregation report is missing generatedAt or sourceResults');
 }
+if (report.sourceResults.length && report.sourceResults.every((source) => source.outcome === 'failed')) {
+  throw new Error('all configured aggregation sources failed');
+}
 
 for (const source of report.sourceResults) {
   const run = runs.find(
@@ -42,6 +45,10 @@ for (const [label, path] of [
   const payload = await readJson(path);
   if (!Array.isArray(payload) || payload.some((item) => !Array.isArray(item?.results))) {
     throw new Error(`${label} D1 verification response is malformed`);
+  }
+  const records = payload.flatMap((item) => item.results);
+  if (records.some((record) => !(Number(record.source_data_bytes) > 2))) {
+    throw new Error(`${label} D1 records are missing their captured source payload`);
   }
 }
 

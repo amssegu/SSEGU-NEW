@@ -42,6 +42,7 @@ export interface SourceConfig {
 
 export interface RawJobRecord {
   sourceRecordId: string | number;
+  sourceData?: Record<string, unknown> | string;
   canonicalUrl: string;
   applicationUrl?: string | null;
   title: string;
@@ -82,6 +83,7 @@ export interface NormalizedJob {
   status: JobStatus;
   permissionType: SourcePermission;
   contentHash: string;
+  sourceDataJson: string;
   prohibitJobpostingSchema?: boolean;
 }
 

@@ -47,6 +47,13 @@ export function slugify(...values: string[]) {
   return slug || 'listing';
 }
 
+function sourceDataJson(value: unknown) {
+  const json = JSON.stringify(value ?? {});
+  return json.length <= 10_000
+    ? json
+    : JSON.stringify({ truncated: true, originalLength: json.length, preview: json.slice(0, 9_000) });
+}
+
 export function normalizeJubaJob(
   raw: RawJobRecord,
   source: SourceConfig,
@@ -87,6 +94,7 @@ export function normalizeJubaJob(
     status: deadlineAt && deadlineAt < now.slice(0, 10) ? 'expired' : 'active',
     permissionType: source.permissionClass,
     contentHash,
+    sourceDataJson: sourceDataJson(raw.sourceData),
     prohibitJobpostingSchema: source.restrictions.prohibitJobpostingSchema,
   };
 }
@@ -131,6 +139,7 @@ export function normalizeSourceJob(
     status: deadlineAt && deadlineAt < now.slice(0, 10) ? 'expired' : 'active',
     permissionType: source.permissionClass,
     contentHash,
+    sourceDataJson: sourceDataJson(raw.sourceData),
     prohibitJobpostingSchema: source.restrictions.prohibitJobpostingSchema,
   };
 }

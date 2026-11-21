@@ -85,12 +85,16 @@ assert.match(
   /approved appname required/,
 );
 const workflow = readFileSync('.github/workflows/aggregate-jobs.yml', 'utf8');
+const courseWorkflow = readFileSync('.github/workflows/aggregate-courses.yml', 'utf8');
 assert.match(workflow, /15 3 \* \* \*/);
 assert.match(workflow, /15 15 \* \* \*/);
 assert.match(workflow, /concurrency:/);
-assert.match(workflow, /AGGREGATION_REPORT_ONLY/);
-assert.match(workflow, /CLOUDFLARE_PAGES_API_TOKEN/);
-assert.match(workflow, /pages deploy dist --project-name ssegu-new/);
+assert.match(workflow, /workflow_dispatch:/);
+assert.match(workflow, /ssegu-work-aggregation-production/);
+assert.doesNotMatch(workflow, /report_only|ssegu-course-aggregation-production|pages deploy/);
+assert.match(courseWorkflow, /workflow_dispatch:/);
+assert.match(courseWorkflow, /ssegu-course-aggregation-production/);
+assert.doesNotMatch(courseWorkflow, /report_only|ssegu-work-aggregation-production|pages deploy/);
 
 assert.equal(canonicalHttpsUrl('http://example.com/job'), undefined);
 assert.equal(canonicalHttpsUrl('https://example.com/job/#fragment'), 'https://example.com/job');
@@ -194,6 +198,7 @@ assert.ok(upsertCall);
 assert.match(upsertCall.query, /application_url = excluded\.application_url/);
 assert.match(upsertCall.query, /employment_type = excluded\.employment_type/);
 assert.match(upsertCall.query, /salary_text = excluded\.salary_text/);
+assert.match(upsertCall.query, /source_data_json = excluded\.source_data_json/);
 
 const jobWithChangedTitle = normalizeJubaJob(
   { ...parseJubaJobsPayload(valid).records[0], title: 'Country Director Updated' },

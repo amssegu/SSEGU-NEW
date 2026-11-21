@@ -38,6 +38,7 @@ export function parseJubaJobsPayload(payload: unknown): AdapterResult {
       continue;
     records.push({
       sourceRecordId: row.id,
+      sourceData: row,
       canonicalUrl: row.url,
       title: row.title,
       employer:
