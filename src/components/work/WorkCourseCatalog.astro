@@ -2,11 +2,12 @@
 import WorkCourseCard from './WorkCourseCard.astro';
 import WorkLayout from '../../layouts/WorkLayout.astro';
 import AdSlot from '../main/AdSlot.astro';
-import { courseStatusLabel } from '../../lib/work';
+import { courseStatusLabel, isSafeCourseUrl } from '../../lib/work';
 import type { WorkCourse } from '../../lib/work';
 
 interface Props {
   courses: WorkCourse[];
+  allCourses: WorkCourse[];
   options: {
     providers: string[];
     subjects: string[];
@@ -20,12 +21,16 @@ interface Props {
   total: number;
 }
 
-const { courses, options, page, pageCount, total } = Astro.props;
+const { courses, allCourses, options, page, pageCount, total } = Astro.props;
 const filterOptions = (values: string[]) => values.filter(Boolean);
 const start = total === 0 ? 0 : (page - 1) * 48 + 1;
 const end = Math.min(page * 48, total);
 const previousHref = page === 2 ? '/work/courses/' : `/work/courses/page/${page - 1}/`;
 const nextHref = `/work/courses/page/${page + 1}/`;
+const clientCourses = allCourses.map((course) => ({
+  ...course,
+  providerUrl: isSafeCourseUrl(course.sourceUrl) ? course.sourceUrl : '',
+}));
 ---
 
 <WorkLayout
@@ -45,7 +50,7 @@ const nextHref = `/work/courses/page/${page + 1}/`;
     <form id="work-course-filters" class="work-filter-panel" data-testid="work-course-filters">
       <div class="work-filter-grid">
         <div>
-          <label for="course-search">Search this page</label>
+          <label for="course-search">Search courses</label>
           <input
             id="course-search"
             name="q"
@@ -111,7 +116,7 @@ const nextHref = `/work/courses/page/${page + 1}/`;
       </div>
       <div class="work-filter-actions">
         <button class="work-button" type="submit">
-          Apply filters
+          Search courses
         </button>
         <button class="work-button work-button-secondary" type="reset">
           Clear
@@ -119,7 +124,7 @@ const nextHref = `/work/courses/page/${page + 1}/`;
       </div>
     </form>
     <p id="course-results-status" class="work-results-status" role="status" aria-live="polite">
-      Showing {start}–{end} of {total} courses. Filters apply to this page.
+      Showing {start}–{end} of {total} courses.
     </p>
     <div class="work-resource-grid" data-course-results>
       {courses.map((course) => (
@@ -129,7 +134,11 @@ const nextHref = `/work/courses/page/${page + 1}/`;
     <p class="work-course-empty" data-course-empty hidden>
       No courses match those filters.
     </p>
-    <nav class="work-filter-actions" aria-label="Course pages">
+    <nav
+      id="course-pagination"
+      class="work-filter-actions work-pagination"
+      aria-label="Course pages"
+    >
       {page > 1 && (
         <a class="work-button work-button-secondary" href={previousHref}>
           Previous page
@@ -148,46 +157,132 @@ const nextHref = `/work/courses/page/${page + 1}/`;
   </div>
 </WorkLayout>
 
-<script is:inline>
+<script is:inline define:vars={{ courses: clientCourses, initialPage: page }}>
   const form = document.querySelector('#work-course-filters');
-  const cards = [...document.querySelectorAll('[data-course-card]')];
+  const results = document.querySelector('[data-course-results]');
   const status = document.querySelector('#course-results-status');
   const empty = document.querySelector('[data-course-empty]');
+  const pagination = document.querySelector('#course-pagination');
   const params = new URLSearchParams(window.location.search);
   const fields = ['q', 'provider', 'subject', 'level', 'price', 'certificatePrice', 'delivery'];
+  const pageSize = 48;
+  let currentPage = Number(params.get('page')) || initialPage || 1;
   fields.forEach((name) => {
     const input = form?.elements.namedItem(name);
     if (input && params.has(name)) input.value = params.get(name);
   });
-  const apply = () => {
+  const escapeHtml = (value) =>
+    String(value ?? '').replace(
+      /[&<>"']/g,
+      (character) =>
+        ({
+          '&': '&amp;',
+          '<': '&lt;',
+          '>': '&gt;',
+          '"': '&quot;',
+          "'": '&#39;',
+        })[character],
+    );
+  const label = (value) =>
+    String(value || 'Unknown')
+      .replace(/_/g, ' ')
+      .replace(/\b\w/g, (letter) => letter.toUpperCase());
+  const renderCourse = (course) => {
+    const metadata = [course.subject, course.level, course.duration, course.language].filter(
+      Boolean,
+    );
+    return `<article class="work-resource-card" data-course-card>
+      <span class="work-resource-icon" aria-hidden="true">◆</span>
+      <p class="work-card-kicker">${escapeHtml(course.format)}</p>
+      <h2><a href="/work/courses/${escapeHtml(course.slug)}/">${escapeHtml(course.title)}</a></h2>
+      <p class="work-resource-provider">${escapeHtml(course.provider)}</p>
+      <p class="work-course-summary">${escapeHtml(course.description)}</p>
+      ${metadata.length ? `<p class="work-resource-meta">${metadata.map(escapeHtml).join(' · ')}</p>` : ''}
+      <div class="work-course-facts">
+        <span><strong>Course</strong>${escapeHtml(label(course.coursePriceStatus))}</span>
+        <span><strong>Certificate</strong>${escapeHtml(label(course.certificatePriceStatus))}</span>
+        ${course.deliveryMode ? `<span><strong>Delivery</strong>${escapeHtml(label(course.deliveryMode))}</span>` : ''}
+      </div>
+      <div class="work-resource-card-actions">
+        <a class="work-text-link" href="/work/courses/${escapeHtml(course.slug)}/">Course details →</a>
+        ${course.providerUrl ? `<a class="work-text-link" href="${escapeHtml(course.providerUrl)}" target="_blank" rel="noopener noreferrer">Visit provider ↗</a>` : ''}
+      </div>
+    </article>`;
+  };
+  const apply = (updateUrl = true) => {
     const data = new FormData(form);
     const query = String(data.get('q') || '')
       .toLowerCase()
       .trim();
-    const matches = cards.filter((card) => {
-      const text = `${card.textContent || ''}`.toLowerCase();
+    const matches = courses.filter((course) => {
+      const text = [
+        course.title,
+        course.provider,
+        course.description,
+        course.subject,
+        course.level,
+        course.format,
+      ]
+        .join(' ')
+        .toLowerCase();
       return (
         (!query || text.includes(query)) &&
-        (!data.get('provider') || card.dataset.provider === data.get('provider')) &&
-        (!data.get('subject') || card.dataset.subject === data.get('subject')) &&
-        (!data.get('level') || card.dataset.level === data.get('level')) &&
-        (!data.get('price') || card.dataset.price === data.get('price')) &&
+        (!data.get('provider') || course.provider === data.get('provider')) &&
+        (!data.get('subject') || course.subject === data.get('subject')) &&
+        (!data.get('level') || course.level === data.get('level')) &&
+        (!data.get('price') || course.coursePriceStatus === data.get('price')) &&
         (!data.get('certificatePrice') ||
-          card.dataset.certificate === data.get('certificatePrice')) &&
-        (!data.get('delivery') || card.dataset.delivery === data.get('delivery'))
+          course.certificatePriceStatus === data.get('certificatePrice')) &&
+        (!data.get('delivery') || course.deliveryMode === data.get('delivery'))
       );
     });
-    cards.forEach((card) => (card.hidden = !matches.includes(card)));
+    const pageCount = Math.max(1, Math.ceil(matches.length / pageSize));
+    currentPage = Math.min(currentPage, pageCount);
+    const visible = matches.slice((currentPage - 1) * pageSize, currentPage * pageSize);
+    if (results) results.innerHTML = visible.map(renderCourse).join('');
     if (status)
-      status.textContent = `${matches.length} course${matches.length === 1 ? '' : 's'} shown on this page`;
+      status.textContent = matches.length
+        ? `Showing ${(currentPage - 1) * pageSize + 1}–${Math.min(currentPage * pageSize, matches.length)} of ${matches.length} courses.`
+        : 'No courses match those filters.';
     if (empty) empty.hidden = matches.length > 0;
+    if (pagination)
+      pagination.innerHTML = `${currentPage > 1 ? `<a class="work-button work-button-secondary" href="#" data-page="${currentPage - 1}">Previous page</a>` : ''}<span>Page ${currentPage} of ${pageCount}</span>${currentPage < pageCount ? `<a class="work-button" href="#" data-page="${currentPage + 1}">Next page</a>` : ''}`;
+    if (updateUrl) {
+      const next = new URLSearchParams();
+      fields.forEach((name) => {
+        const value = String(data.get(name) || '').trim();
+        if (value) next.set(name, value);
+      });
+      if (currentPage > 1) next.set('page', String(currentPage));
+      history.replaceState(null, '', `/work/courses/${next.size ? `?${next}` : ''}`);
+    }
   };
   form?.addEventListener('submit', (event) => {
     event.preventDefault();
+    currentPage = 1;
     apply();
   });
-  form?.addEventListener('reset', () => setTimeout(apply));
-  fields.forEach((name) => form?.elements.namedItem(name)?.addEventListener('change', apply));
-  form?.elements.namedItem('q')?.addEventListener('input', apply);
-  apply();
+  form?.addEventListener('reset', () => {
+    currentPage = 1;
+    setTimeout(() => apply());
+  });
+  fields.forEach((name) =>
+    form?.elements.namedItem(name)?.addEventListener('change', () => {
+      currentPage = 1;
+      apply();
+    }),
+  );
+  form?.elements.namedItem('q')?.addEventListener('input', () => {
+    currentPage = 1;
+    apply();
+  });
+  pagination?.addEventListener('click', (event) => {
+    const link = event.target.closest('[data-page]');
+    if (!link) return;
+    event.preventDefault();
+    currentPage = Number(link.dataset.page) || 1;
+    apply();
+    results?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  apply(false);
 </script>

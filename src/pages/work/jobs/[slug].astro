@@ -103,9 +103,7 @@ const structuredData = [
                 {job.salaryCurrency && !job.salaryText.includes(job.salaryCurrency)
                   ? ` ${job.salaryCurrency}`
                   : ''}
-                {job.salaryPeriod && job.salaryPeriod !== 'unknown'
-                  ? ` / ${job.salaryPeriod}`
-                  : ''}
+                {job.salaryPeriod && job.salaryPeriod !== 'unknown' ? ` / ${job.salaryPeriod}` : ''}
               </span>
             )}
           </div>
@@ -168,6 +166,19 @@ const structuredData = [
             </a>
           </div>
         </article>
+        <section class="work-next-step" aria-labelledby="job-next-step-title">
+          <div>
+            <p class="work-eyebrow">Build your next step</p>
+            <h2 id="job-next-step-title">Looking to strengthen your skills?</h2>
+            <p>
+              Explore courses from learning providers and find a path that supports your career
+              goals.
+            </p>
+          </div>
+          <a class="work-button" href="/work/courses/">
+            Explore courses <span aria-hidden="true">→</span>
+          </a>
+        </section>
         {relatedJobs.length > 0 && (
           <section class="work-related" aria-labelledby="related-jobs-title">
             <h2 id="related-jobs-title">More opportunities</h2>

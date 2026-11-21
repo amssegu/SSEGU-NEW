@@ -461,6 +461,65 @@
   color: var(--work-blue);
 }
 
+.work-course-summary {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.work-course-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.45rem;
+}
+
+.work-course-facts span {
+  display: grid;
+  gap: 0.05rem;
+  min-width: 7rem;
+  padding: 0.45rem 0.6rem;
+  border-radius: 6px;
+  color: var(--work-navy-deep);
+  background: var(--work-blue-soft);
+  font-size: 0.82rem;
+}
+
+.work-course-facts strong {
+  color: var(--work-muted);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+}
+
+.work-next-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.25rem;
+  padding: 1.2rem 1.35rem;
+  border: 1px solid var(--work-line);
+  border-radius: var(--work-radius);
+  background: var(--work-surface);
+}
+
+.work-next-step h2 {
+  margin: 0.2rem 0;
+  color: var(--work-navy-deep);
+  font-size: 1.25rem;
+}
+
+.work-next-step p:not(.work-eyebrow) {
+  margin: 0;
+  color: var(--work-muted);
+}
+
+.work-next-step .work-button {
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
 .work-card-kicker,
 .work-eyebrow {
   color: var(--work-purple);
@@ -516,6 +575,12 @@
   margin-top: 0.55rem;
   color: var(--work-muted);
   font-size: 0.76rem;
+}
+
+.work-job-meta span {
+  padding: 0.22rem 0.45rem;
+  border-radius: 4px;
+  background: var(--work-surface);
 }
 
 .work-job-source {
@@ -1993,7 +2058,8 @@
 
   .work-filter-actions,
   .work-detail-actions,
-  .work-updates-form {
+  .work-updates-form,
+  .work-next-step {
     align-items: stretch;
     flex-direction: column;
   }

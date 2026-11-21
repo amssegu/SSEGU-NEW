@@ -78,7 +78,7 @@ const clientJobs = allJobs.map(toWorkJobClientData);
       </div>
       <div class="work-filter-actions">
         <button class="work-button" type="submit">
-          Apply filters
+          Search jobs
         </button>
         <button class="work-button work-button-secondary" id="clear-job-filters" type="button">
           Clear
@@ -152,7 +152,7 @@ const clientJobs = allJobs.map(toWorkJobClientData);
           </div><span class="work-status-badge${job.status !== 'active' ? ' is-expired' : ''}">${job.status === 'active' ? 'Active' : job.status[0].toUpperCase() + job.status.slice(1)}</span></div>
           ${job.description ? `<p class="work-job-description">${escapeHtml(job.description)}</p>` : ''}
         <div class="work-job-meta"><span>⌖ ${escapeHtml(job.location)}${job.country ? `, ${escapeHtml(job.country)}` : ''}</span><span>Employment: ${escapeHtml(job.employmentType)}</span><span>▣ ${escapeHtml(job.arrangement)}</span>${job.publishedAt ? `<span>Posted: ${dateFormatter.format(new Date(job.publishedAt))}</span>` : ''}<span>Deadline: ${job.deadline ? dateFormatter.format(new Date(`${job.deadline}T12:00:00Z`)) : 'No deadline listed'}</span>${job.salaryText ? `<span>Salary: ${escapeHtml(job.salaryText)}${job.salaryCurrency && !job.salaryText.includes(job.salaryCurrency) ? ` ${escapeHtml(job.salaryCurrency)}` : ''}${job.salaryPeriod && job.salaryPeriod !== 'unknown' ? ` / ${escapeHtml(job.salaryPeriod)}` : ''}</span>` : ''}</div>
-        ${(job.sourceUrl || (job.status === 'active' && job.applicationUrl)) ? `<div class="work-job-source">${job.sourceUrl ? `<span>Source: <a href="${escapeHtml(job.sourceUrl)}" rel="noopener noreferrer" target="_blank">${escapeHtml(job.sourceAttribution || 'Original listing')}</a></span>` : ''}${job.status === 'active' && job.applicationUrl ? `<a class="work-button work-button-small" href="${escapeHtml(job.applicationUrl)}" rel="noopener noreferrer" target="_blank">Apply on source</a>` : ''}</div>` : ''}
+        ${job.sourceUrl || (job.status === 'active' && job.applicationUrl) ? `<div class="work-job-source">${job.sourceUrl ? `<span>Source: <a href="${escapeHtml(job.sourceUrl)}" rel="noopener noreferrer" target="_blank">${escapeHtml(job.sourceAttribution || 'Original listing')}</a></span>` : ''}${job.status === 'active' && job.applicationUrl ? `<a class="work-button work-button-small" href="${escapeHtml(job.applicationUrl)}" rel="noopener noreferrer" target="_blank">Apply on source</a>` : ''}</div>` : ''}
         </div>
         <a class="work-job-arrow" href="/work/jobs/${escapeHtml(job.slug)}/" aria-label="View ${escapeHtml(job.title)}"><span aria-hidden="true">→</span></a>
       </article>`;
@@ -210,6 +210,10 @@ const clientJobs = allJobs.map(toWorkJobClientData);
       keyword.focus();
     });
     sort?.addEventListener('change', () => applyFilters());
+    [keyword].forEach((input) => input?.addEventListener('input', () => applyFilters()));
+    [location, type, arrangement, listingStatus].forEach((input) =>
+      input?.addEventListener('change', () => applyFilters()),
+    );
     applyFilters(false);
   </script>
 </WorkLayout>

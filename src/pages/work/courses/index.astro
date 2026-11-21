@@ -9,6 +9,7 @@ const pageCount = Math.max(1, Math.ceil(allCourses.length / pageSize));
 
 <WorkCourseCatalog
   courses={allCourses.slice(0, pageSize)}
+  allCourses={allCourses}
   options={getCourseFilterOptions(allCourses)}
   page={1}
   pageCount={pageCount}

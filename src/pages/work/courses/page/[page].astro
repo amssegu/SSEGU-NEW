@@ -12,6 +12,7 @@ export async function getStaticPaths() {
       params: { page: String(page) },
       props: {
         courses: allCourses.slice((page - 1) * pageSize, page * pageSize),
+        allCourses,
         options: getCourseFilterOptions(allCourses),
         page,
         pageCount,
@@ -21,11 +22,12 @@ export async function getStaticPaths() {
   });
 }
 
-const { courses, options, page, pageCount, total } = Astro.props;
+const { courses, allCourses, options, page, pageCount, total } = Astro.props;
 ---
 
 <WorkCourseCatalog
   courses={courses}
+  allCourses={allCourses}
   options={options}
   page={page}
   pageCount={pageCount}
