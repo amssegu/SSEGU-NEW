@@ -38,9 +38,19 @@ const displayStatus = getWorkJobStatus(job);
     {!compact && job.description && <p class="work-job-description">{job.description}</p>}
     <div class="work-job-meta">
       <span>Location: {job.location}</span>
+      <span>Employment: {job.employmentType}</span>
       <span>Work mode: {job.arrangement}</span>
+      {job.publishedAt && <span>Posted: {formatWorkDate(job.publishedAt)}</span>}
       <span>Deadline: {formatWorkDate(job.deadline)}</span>
-      {job.salaryText && <span>Salary: {job.salaryText}</span>}
+      {job.salaryText && (
+        <span>
+          Salary: {job.salaryText}
+          {job.salaryCurrency && !job.salaryText.includes(job.salaryCurrency)
+            ? ` ${job.salaryCurrency}`
+            : ''}
+          {job.salaryPeriod && job.salaryPeriod !== 'unknown' ? ` / ${job.salaryPeriod}` : ''}
+        </span>
+      )}
     </div>
     {!compact && <WorkJobSource job={job} />}
   </div>

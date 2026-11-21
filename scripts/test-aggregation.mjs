@@ -86,15 +86,21 @@ assert.match(
 );
 const workflow = readFileSync('.github/workflows/aggregate-jobs.yml', 'utf8');
 const courseWorkflow = readFileSync('.github/workflows/aggregate-courses.yml', 'utf8');
+const publishWorkflow = readFileSync('.github/workflows/publish-work-section.yml', 'utf8');
 assert.match(workflow, /15 3 \* \* \*/);
 assert.match(workflow, /15 15 \* \* \*/);
 assert.match(workflow, /concurrency:/);
 assert.match(workflow, /workflow_dispatch:/);
 assert.match(workflow, /ssegu-work-aggregation-production/);
 assert.doesNotMatch(workflow, /report_only|ssegu-course-aggregation-production|pages deploy/);
+assert.match(workflow, /src\/data\/snapshots\/jobs\.json/);
 assert.match(courseWorkflow, /workflow_dispatch:/);
 assert.match(courseWorkflow, /ssegu-course-aggregation-production/);
 assert.doesNotMatch(courseWorkflow, /report_only|ssegu-work-aggregation-production|pages deploy/);
+assert.match(courseWorkflow, /src\/data\/snapshots\/courses\.json/);
+assert.match(publishWorkflow, /src\/data\/snapshots\/jobs\.json/);
+assert.match(publishWorkflow, /src\/data\/snapshots\/courses\.json/);
+assert.match(publishWorkflow, /WORK_SNAPSHOT_BUILD=true npm run build/);
 
 assert.equal(canonicalHttpsUrl('http://example.com/job'), undefined);
 assert.equal(canonicalHttpsUrl('https://example.com/job/#fragment'), 'https://example.com/job');

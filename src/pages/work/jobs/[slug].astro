@@ -72,6 +72,12 @@ const structuredData = [
               <strong>Location</strong>
               {job.location}
             </span>
+            {job.country && (
+              <span>
+                <strong>Country</strong>
+                {job.country}
+              </span>
+            )}
             <span>
               <strong>Work arrangement</strong>
               {job.arrangement}
@@ -94,6 +100,12 @@ const structuredData = [
               <span>
                 <strong>Salary</strong>
                 {job.salaryText}
+                {job.salaryCurrency && !job.salaryText.includes(job.salaryCurrency)
+                  ? ` ${job.salaryCurrency}`
+                  : ''}
+                {job.salaryPeriod && job.salaryPeriod !== 'unknown'
+                  ? ` / ${job.salaryPeriod}`
+                  : ''}
               </span>
             )}
           </div>

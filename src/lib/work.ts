@@ -14,8 +14,14 @@ export interface WorkJob {
   country?: string;
   publishedAt?: string;
   deadline?: string;
-  employmentType: 'Full-time' | 'Part-time' | 'Contract' | 'Internship';
-  arrangement: 'On-site' | 'Hybrid' | 'Remote';
+  employmentType:
+    | 'Full-time'
+    | 'Part-time'
+    | 'Contract'
+    | 'Temporary'
+    | 'Internship'
+    | 'Volunteer';
+  arrangement: 'On-site' | 'Hybrid' | 'Remote' | 'Not specified';
   status: WorkStatus;
   description: string;
   requirements?: string[];
@@ -246,6 +252,7 @@ type GeneratedJobRecord = {
   salaryText?: string;
   salaryCurrency?: string;
   salaryPeriod?: string;
+  description?: string;
   publishedAt?: string;
   deadlineAt?: string;
   sourceAttribution?: string;
@@ -278,7 +285,10 @@ type GeneratedCourseRecord = {
 };
 
 function readGeneratedData<T>(filename: string): T[] {
-  const path = resolve(process.cwd(), 'src/data/generated', filename);
+  const snapshotPath = resolve(process.cwd(), 'src/data/snapshots', filename);
+  const path = existsSync(snapshotPath)
+    ? snapshotPath
+    : resolve(process.cwd(), 'src/data/generated', filename);
   if (!existsSync(path)) return [];
   try {
     const value = JSON.parse(readFileSync(path, 'utf8'));
@@ -295,7 +305,9 @@ function importedEmploymentType(value?: string): WorkJob['employmentType'] {
         full_time: 'Full-time',
         part_time: 'Part-time',
         contract: 'Contract',
+        temporary: 'Temporary',
         internship: 'Internship',
+        volunteer: 'Volunteer',
       } as Record<string, WorkJob['employmentType']>
     )[value ?? ''] ?? 'Full-time'
   );
@@ -304,11 +316,13 @@ function importedEmploymentType(value?: string): WorkJob['employmentType'] {
 function importedArrangement(value?: string): WorkJob['arrangement'] {
   return (
     (
-      { on_site: 'On-site', hybrid: 'Hybrid', remote: 'Remote' } as Record<
-        string,
-        WorkJob['arrangement']
-      >
-    )[value ?? ''] ?? 'On-site'
+      {
+        on_site: 'On-site',
+        hybrid: 'Hybrid',
+        remote: 'Remote',
+        unknown: 'Not specified',
+      } as Record<string, WorkJob['arrangement']>
+    )[value ?? ''] ?? 'Not specified'
   );
 }
 
@@ -338,7 +352,7 @@ function fromImportedJob(record: GeneratedJobRecord): WorkJob | undefined {
     employmentType: importedEmploymentType(record.employmentType),
     arrangement: importedArrangement(record.workMode),
     status: (record.status ?? 'unverified') as WorkStatus,
-    description: record.permittedExcerpt ?? '',
+    description: record.permittedExcerpt ?? record.description ?? '',
     requirements: record.requirements ?? [],
     qualifications: record.qualifications ?? [],
     applicationInstructions: record.applicationInstructions,
@@ -731,6 +745,7 @@ export function toWorkJobClientData(job: WorkJob) {
     title: job.title,
     employer: job.employer,
     location: job.location,
+    country: job.country ?? '',
     publishedAt: job.publishedAt ?? '',
     deadline: job.deadline ?? '',
     employmentType: job.employmentType,
@@ -739,9 +754,11 @@ export function toWorkJobClientData(job: WorkJob) {
     description: job.description,
     category: job.category,
     salaryText: job.salaryText ?? '',
+    salaryCurrency: job.salaryCurrency ?? '',
+    salaryPeriod: job.salaryPeriod ?? '',
     sourceAttribution: job.sourceAttribution ?? '',
-    sourceUrl: job.sourceUrl ?? '',
-    applicationUrl: job.applicationUrl ?? '',
+    sourceUrl: isSafeHttpsUrl(job.sourceUrl) ? job.sourceUrl : '',
+    applicationUrl: isSafeHttpsUrl(job.applicationUrl) ? job.applicationUrl : '',
   };
 }
 
@@ -760,13 +777,15 @@ export function getCourseFilterOptions(courses: WorkCourse[] = workCourses) {
   };
 }
 
-export function isSafeCourseUrl(value?: string) {
+function isSafeHttpsUrl(value?: string) {
   try {
     return Boolean(value && new URL(value).protocol === 'https:');
   } catch {
     return false;
   }
 }
+
+export const isSafeCourseUrl = isSafeHttpsUrl;
 
 export function courseStatusLabel(value?: string) {
   return (value ?? 'unknown').replace(/_/g, ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());

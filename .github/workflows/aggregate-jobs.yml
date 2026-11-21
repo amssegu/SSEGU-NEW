@@ -7,7 +7,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  actions: write
 
 concurrency:
   group: aggregate-jobs-production
@@ -56,7 +57,7 @@ jobs:
         run: >-
           npx --yes wrangler@4.158.0 d1 execute ssegu-work-aggregation-production
           --remote --json
-          --command "SELECT j.source_id,j.permission_type,j.status,j.canonical_url,j.application_url,j.slug,j.title,j.employer,j.location,j.category,j.employment_type,j.work_mode,j.permitted_excerpt,j.deadline_at,length(j.source_data_json) AS source_data_bytes,s.attribution_text,s.enabled AS source_enabled,CASE WHEN json_extract(s.restriction_flags_json,'$.prohibitJobpostingSchema') THEN 1 ELSE 0 END AS prohibit_jobposting_schema FROM jobs j JOIN content_sources s ON s.id=j.source_id WHERE s.enabled=1 AND j.status IN ('active','expired') ORDER BY j.slug;"
+          --command "SELECT j.source_id,j.permission_type,j.status,j.canonical_url,j.application_url,j.slug,j.title,j.employer,j.location,j.country,j.category,j.employment_type,j.work_mode,j.permitted_excerpt,j.salary_text,j.salary_currency,j.salary_period,j.published_at,j.deadline_at,j.source_data_json,s.attribution_text,s.enabled AS source_enabled,CASE WHEN json_extract(s.restriction_flags_json,'$.prohibitJobpostingSchema') THEN 1 ELSE 0 END AS prohibit_jobposting_schema FROM jobs j JOIN content_sources s ON s.id=j.source_id WHERE s.enabled=1 AND j.status IN ('active','expired') ORDER BY j.slug;"
           > "$RUNNER_TEMP/jobs-query.json"
 
       - name: Read ingestion runs from D1
@@ -73,6 +74,21 @@ jobs:
         run: |
           node scripts/verify-aggregation-output.mjs "$RUNNER_TEMP/ssegu-jobs-aggregation-report.json" "$RUNNER_TEMP/ingestion-runs.json" "$RUNNER_TEMP/jobs-query.json"
 
+      - name: Prepare jobs site snapshot
+        run: |
+          node scripts/prepare-work-export-input.mjs "$RUNNER_TEMP/jobs-query.json" "$RUNNER_TEMP/jobs-export-input.json"
+          node scripts/export-work-snapshot.mjs jobs "$RUNNER_TEMP/jobs-export-input.json"
+
+      - name: Publish jobs snapshot commit
+        id: snapshot
+        run: bash scripts/push-work-snapshot.sh src/data/snapshots/jobs.json
+
+      - name: Deploy work section snapshot
+        if: steps.snapshot.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run publish-work-section.yml --ref main
+
       - name: Upload live aggregation evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -81,4 +97,5 @@ jobs:
           retention-days: 30
           path: |
             ${{ runner.temp }}/ssegu-jobs-aggregation-report.json
+            src/data/snapshots/jobs.json
           if-no-files-found: error

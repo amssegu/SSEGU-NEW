@@ -8,7 +8,8 @@ interface Props {
 
 const { course } = Astro.props;
 const providerUrl = isSafeCourseUrl(course.sourceUrl) ? course.sourceUrl : undefined;
-const details = [course.subject, course.level, course.duration].filter(Boolean);
+const details = [course.subject, course.level, course.duration, course.language].filter(Boolean);
+const delivery = course.deliveryMode?.replace(/_/g, ' ');
 ---
 
 <article
@@ -32,12 +33,10 @@ const details = [course.subject, course.level, course.duration].filter(Boolean);
   <p>{course.description}</p>
   {details.length > 0 && <p class="work-resource-meta">{details.join(' · ')}</p>}
   <p class="work-resource-meta">
-    Course: {courseStatusLabel(course.coursePriceStatus)} · Certificate:{' '}
-    {courseStatusLabel(course.certificatePriceStatus)}
+    {delivery && `Delivery: ${delivery} · `}Course: {courseStatusLabel(course.coursePriceStatus)} ·
+    Certificate: {courseStatusLabel(course.certificatePriceStatus)}
   </p>
-  {course.availabilityStatus !== 'available' && (
-    <p class="work-detail-notice">Availability: {courseStatusLabel(course.availabilityStatus)}</p>
-  )}
+  <p class="work-resource-meta">Availability: {courseStatusLabel(course.availabilityStatus)}</p>
   <div class="work-resource-card-actions">
     <a class="work-text-link" href={`/work/courses/${course.slug}/`}>
       View course →

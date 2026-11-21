@@ -1,0 +1,33 @@
+---
+import WorkCourseCatalog from '../../../../components/work/WorkCourseCatalog.astro';
+import { getCourseFilterOptions, getPublishedWorkCourses } from '../../../../lib/work';
+
+export async function getStaticPaths() {
+  const pageSize = 48;
+  const allCourses = await getPublishedWorkCourses();
+  const pageCount = Math.ceil(allCourses.length / pageSize);
+  return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => {
+    const page = index + 2;
+    return {
+      params: { page: String(page) },
+      props: {
+        courses: allCourses.slice((page - 1) * pageSize, page * pageSize),
+        options: getCourseFilterOptions(allCourses),
+        page,
+        pageCount,
+        total: allCourses.length,
+      },
+    };
+  });
+}
+
+const { courses, options, page, pageCount, total } = Astro.props;
+---
+
+<WorkCourseCatalog
+  courses={courses}
+  options={options}
+  page={page}
+  pageCount={pageCount}
+  total={total}
+/>

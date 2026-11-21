@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  actions: write
 
 concurrency:
   group: aggregate-courses-production
@@ -59,6 +60,21 @@ jobs:
         run: |
           node scripts/verify-aggregation-output.mjs "$RUNNER_TEMP/ssegu-courses-live-report.json" "$RUNNER_TEMP/ingestion-runs.json" "$RUNNER_TEMP/courses-query.json"
 
+      - name: Prepare courses site snapshot
+        run: |
+          node scripts/prepare-course-work-export-input.mjs "$RUNNER_TEMP/courses-query.json" "$RUNNER_TEMP/courses-export-input.json"
+          node scripts/export-work-snapshot.mjs courses "$RUNNER_TEMP/courses-export-input.json"
+
+      - name: Publish courses snapshot commit
+        id: snapshot
+        run: bash scripts/push-work-snapshot.sh src/data/snapshots/courses.json
+
+      - name: Deploy work section snapshot
+        if: steps.snapshot.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run publish-work-section.yml --ref main
+
       - name: Upload live aggregation evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -67,4 +83,5 @@ jobs:
           retention-days: 30
           path: |
             ${{ runner.temp }}/ssegu-courses-live-report.json
+            src/data/snapshots/courses.json
           if-no-files-found: error

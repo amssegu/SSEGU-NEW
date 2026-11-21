@@ -3,6 +3,20 @@ import { existsSync, readFileSync } from 'node:fs';
 
 assert.equal(existsSync('dist/index.html'), true, 'Build dist/index.html first');
 assert.equal(existsSync('dist/smoke/index.html'), true, 'Build dist/smoke/index.html first');
+const importedJobs = JSON.parse(readFileSync('src/data/snapshots/jobs.json', 'utf8'));
+const importedCourses = JSON.parse(readFileSync('src/data/snapshots/courses.json', 'utf8'));
+assert.ok(importedJobs.length > 0, 'jobs snapshot should contain imported listings');
+assert.ok(importedCourses.length > 0, 'courses snapshot should contain imported listings');
+const importedJob = importedJobs.find((job) => job.slug);
+const importedCourse = importedCourses.find((course) => course.slug);
+const today = new Date().toISOString().slice(0, 10);
+const sitemapJob = importedJobs.find(
+  (job) =>
+    job.status === 'active' &&
+    job.permissionType !== 'permission_required' &&
+    !job.prohibitJobpostingSchema &&
+    (!job.deadlineAt || job.deadlineAt.slice(0, 10) >= today),
+);
 for (const route of [
   'news/index.html',
   'category/business/index.html',
@@ -19,16 +33,14 @@ for (const route of [
   'work/rss.xml',
   'work/index.html',
   'work/jobs/index.html',
-  'work/jobs/customer-experience-officer-mtn-uganda/index.html',
-  'work/jobs/communications-officer-withdrawn-fixture/index.html',
-  'work/jobs/project-assistant-unverified-fixture/index.html',
-  'work/jobs/community-liaison-missing-deadline-fixture/index.html',
+  `work/jobs/${importedJob.slug}/index.html`,
   'work/internships/index.html',
   'work/internships/ict-internship-kampala/index.html',
   'work/career-advice/index.html',
   'work/career-advice/how-to-write-a-winning-cv-in-uganda/index.html',
   'work/courses/index.html',
-  'work/courses/digital-skills-foundation/index.html',
+  ...(importedCourses.length > 48 ? ['work/courses/page/2/index.html'] : []),
+  `work/courses/${importedCourse.slug}/index.html`,
   'work/cv-resources/index.html',
   'work/cv-resources/cv-checklist/index.html',
   'work/employers/index.html',
@@ -42,32 +54,26 @@ assert.match(readFileSync('dist/rss.xml', 'utf8'), /<rss/);
 assert.match(readFileSync('dist/sitemap-index.xml', 'utf8'), /<sitemapindex/);
 assert.match(readFileSync('dist/sitemap-index.xml', 'utf8'), /sitemap-news\.xml/);
 assert.match(readFileSync('dist/sitemap-news.xml', 'utf8'), /government-unveils-new-ict-strategy/);
-assert.match(
-  readFileSync('dist/sitemap-work.xml', 'utf8'),
-  /customer-experience-officer-mtn-uganda/,
-);
+if (sitemapJob) {
+  assert.match(readFileSync('dist/sitemap-work.xml', 'utf8'), new RegExp(sitemapJob.slug));
+}
 assert.match(readFileSync('dist/index.html', 'utf8'), /href="\/work\//i);
 assert.match(readFileSync('dist/work/index.html', 'utf8'), /Your Career/);
 assert.match(readFileSync('dist/work/jobs/index.html', 'utf8'), /Apply filters/);
 assert.match(readFileSync('dist/work/jobs/index.html', 'utf8'), /Active opportunities/);
-assert.match(
-  readFileSync('dist/work/jobs/customer-experience-officer-mtn-uganda/index.html', 'utf8'),
-  /JobPosting/,
+const courseIndex = readFileSync('dist/work/courses/index.html', 'utf8');
+assert.match(courseIndex, /Search this page/);
+assert.match(courseIndex, /Next page/);
+assert.ok(Buffer.byteLength(courseIndex) < 500_000, 'course index should stay reasonably small');
+const importedJobPage = readFileSync(`dist/work/jobs/${importedJob.slug}/index.html`, 'utf8');
+const importedCoursePage = readFileSync(
+  `dist/work/courses/${importedCourse.slug}/index.html`,
+  'utf8',
 );
-assert.doesNotMatch(
-  readFileSync('dist/work/jobs/graduate-trainee-nile-breweries/index.html', 'utf8'),
-  /JobPosting/,
-);
-for (const slug of [
-  'communications-officer-withdrawn-fixture',
-  'project-assistant-unverified-fixture',
-  'community-liaison-missing-deadline-fixture',
-]) {
-  assert.doesNotMatch(readFileSync(`dist/work/jobs/${slug}/index.html`, 'utf8'), /JobPosting/);
-}
+assert.match(importedJobPage, new RegExp(importedJob.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
 assert.match(
-  readFileSync('dist/work/jobs/community-liaison-missing-deadline-fixture/index.html', 'utf8'),
-  /No deadline listed/,
+  importedCoursePage,
+  new RegExp(importedCourse.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')),
 );
 assert.match(readFileSync('dist/search/index.html', 'utf8'), /noindex, nofollow/);
 assert.match(

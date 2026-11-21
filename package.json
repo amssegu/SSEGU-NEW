@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "npm run export:work",
+    "prebuild": "node scripts/prebuild-work-data.mjs",
     "build": "astro build",
     "seed:firimu-posters": "node scripts/seed-firimu-posters.mjs",
     "preview": "astro preview",
