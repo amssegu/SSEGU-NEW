@@ -34,7 +34,6 @@ for (const route of [
   'work/jobs/index.html',
   `work/jobs/${importedJob.slug}/index.html`,
   'work/internships/index.html',
-  'work/internships/ict-internship-kampala/index.html',
   'work/career-advice/index.html',
   'work/career-advice/how-to-write-a-winning-cv-in-uganda/index.html',
   'work/courses/index.html',
