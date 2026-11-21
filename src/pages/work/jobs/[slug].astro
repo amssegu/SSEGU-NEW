@@ -56,12 +56,15 @@ const structuredData = [
     </nav>
     <div class="work-detail-layout">
       <div class="work-detail-main">
-        <article class="work-detail-card">
+        <article class="work-detail-card work-job-detail">
           <div class="work-detail-heading">
             <div>
               <p class="work-eyebrow">{job.category}</p>
               <h1>{job.title}</h1>
               <p class="work-detail-employer">{job.employer}</p>
+              {job.sourceAttribution && (
+                <p class="work-job-source-note">Listing source: {job.sourceAttribution}</p>
+              )}
             </div>
             <span class:list={['work-status-badge work-status-large', !eligible && 'is-expired']}>
               {eligible ? 'Active opportunity' : `${workJobStatusLabel(displayStatus)} opportunity`}
@@ -108,7 +111,7 @@ const structuredData = [
             )}
           </div>
           {job.description && (
-            <div class="work-detail-body">
+            <div class="work-detail-body work-job-detail-copy">
               <h2>About this opportunity</h2>
               <p>{job.description}</p>
             </div>
@@ -138,7 +141,7 @@ const structuredData = [
             </div>
           )}
           {job.applicationInstructions && (
-            <div class="work-detail-body">
+            <div class="work-detail-body work-job-detail-copy">
               <h2>How to apply</h2>
               <p>{job.applicationInstructions}</p>
             </div>

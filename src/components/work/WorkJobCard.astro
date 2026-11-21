@@ -53,6 +53,11 @@ const displayStatus = getWorkJobStatus(job);
       )}
     </div>
     {!compact && <WorkJobSource job={job} />}
+    {!compact && (
+      <a class="work-job-card-cta" href={`/work/jobs/${job.slug}/`}>
+        View full job details <span aria-hidden="true">→</span>
+      </a>
+    )}
   </div>
   <a class="work-job-arrow" href={`/work/jobs/${job.slug}/`} aria-label={`View ${job.title}`}>
     <span aria-hidden="true">→</span>

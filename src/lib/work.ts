@@ -351,7 +351,7 @@ function fromImportedJob(record: GeneratedJobRecord): WorkJob | undefined {
     employmentType: importedEmploymentType(record.employmentType),
     arrangement: importedArrangement(record.workMode),
     status: (record.status ?? 'unverified') as WorkStatus,
-    description: record.permittedExcerpt ?? record.description ?? '',
+    description: (record.description ?? record.permittedExcerpt ?? '').replace(/\\n/g, '\n'),
     requirements: record.requirements ?? [],
     qualifications: record.qualifications ?? [],
     applicationInstructions: record.applicationInstructions,

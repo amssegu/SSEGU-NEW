@@ -561,10 +561,27 @@
   margin-top: 0.5rem;
   color: var(--work-muted);
   font-size: 0.88rem;
+  line-height: 1.55;
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
+}
+
+.work-job-card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.8rem;
+  color: var(--work-blue) !important;
+  font-size: 0.88rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.work-job-card-cta:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 .work-job-meta,
@@ -1123,8 +1140,57 @@
 }
 
 .work-job-results .work-job-card {
+  align-items: start;
+  padding: 1.15rem 1.2rem;
   border: 1px solid var(--work-line);
   border-radius: var(--work-radius);
+  box-shadow: 0 3px 12px rgb(22 59 124 / 4%);
+  transition: border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+}
+
+.work-job-results .work-job-card:hover {
+  transform: translateY(-1px);
+  border-color: #a9c2eb;
+  box-shadow: 0 8px 20px rgb(22 59 124 / 9%);
+}
+
+.work-job-results .work-job-content {
+  min-width: 0;
+}
+
+.work-job-results .work-job-heading h3 {
+  margin-top: 0.12rem;
+  color: var(--work-navy-deep);
+  font-size: clamp(1.08rem, 1.55vw, 1.3rem);
+  line-height: 1.3;
+}
+
+.work-job-results .work-job-employer {
+  font-size: 0.95rem;
+}
+
+.work-job-results .work-job-meta {
+  gap: 0.45rem;
+  margin-top: 0.85rem;
+}
+
+.work-job-results .work-job-meta span {
+  padding: 0.3rem 0.55rem;
+  border: 1px solid #e7edf7;
+  border-radius: 999px;
+  background: #f8faff;
+}
+
+.work-job-results .work-job-source {
+  min-height: auto;
+  margin-top: 0.65rem;
+  padding: 0;
+  border: 0;
+  font-size: 0.82rem;
+}
+
+.work-job-results .work-job-arrow {
+  margin-top: 0.15rem;
 }
 
 .work-empty-state {
@@ -1335,6 +1401,38 @@
   align-items: start;
   justify-content: space-between;
   gap: 1rem;
+}
+
+.work-job-detail {
+  padding: clamp(1.2rem, 3vw, 2.1rem);
+}
+
+.work-job-detail .work-detail-heading h1 {
+  max-width: 24ch;
+  margin-top: 0.3rem;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.08;
+  overflow-wrap: anywhere;
+}
+
+.work-job-source-note {
+  margin: 0.65rem 0 0;
+  color: var(--work-muted);
+  font-size: 0.88rem;
+}
+
+.work-job-detail-copy {
+  max-width: 78ch;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.work-job-detail-copy p {
+  white-space: pre-line;
+}
+
+.work-job-detail-copy h2 {
+  margin-top: 1.8rem;
 }
 
 .work-detail-employer {
