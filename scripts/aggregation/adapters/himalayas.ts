@@ -6,9 +6,9 @@ export const HIMALAYAS_SOURCE: SourceConfig = {
   slug: 'himalayas-jobs',
   name: 'Himalayas remote jobs API',
   sourceType: 'jobs_api',
-  endpointUrl: 'https://himalayas.app/jobs/api?limit=20',
+  endpointUrl: 'https://himalayas.app/jobs/api/search?country=UG&worldwide=true&sort=recent&limit=20&page=1',
   termsUrl: 'https://himalayas.app/terms',
-  permissionClass: 'metadata_only',
+  permissionClass: 'redistribute_with_attribution',
   attributionText: 'Jobs via Himalayas. Apply through the original Himalayas application link.',
   enabled: true,
   restrictions: {
@@ -19,7 +19,7 @@ export const HIMALAYAS_SOURCE: SourceConfig = {
   },
   allowedHostnames: ['himalayas.app'],
   minimumIntervalMs: 12 * 60 * 60 * 1_000,
-  pagination: { kind: 'cursor', parameter: 'cursor', maxPages: 10 },
+  pagination: { kind: 'page', parameter: 'page', maxPages: 10 },
 };
 
 export function parseHimalayasPayload(payload: unknown): AdapterResult {
@@ -48,8 +48,32 @@ export function parseHimalayasPayload(payload: unknown): AdapterResult {
       applicationUrl: row.applicationLink,
       title: row.title,
       employer: typeof row.companyName === 'string' ? row.companyName : 'Himalayas employer',
-      location: typeof row.location === 'string' ? row.location : 'Remote',
-      category: 'Remote work',
+      employmentType: typeof row.employmentType === 'string' ? row.employmentType : null,
+      location:
+        typeof row.location === 'string' && row.location.trim()
+          ? row.location
+          : 'Remote · Uganda eligible',
+      country: 'UG',
+      category:
+        (Array.isArray(row.categories)
+          ? row.categories
+              .map((category) =>
+                typeof category === 'string'
+                  ? category
+                  : category && typeof category === 'object' && typeof (category as { name?: unknown }).name === 'string'
+                    ? (category as { name: string }).name
+                    : '',
+              )
+              .filter(Boolean)
+              .slice(0, 2)
+              .join(', ')
+          : '') || 'Remote work',
+      permittedExcerpt:
+        typeof row.excerpt === 'string'
+          ? row.excerpt
+          : typeof row.description === 'string'
+            ? row.description
+            : null,
       deadlineAt:
         typeof row.expiryDate === 'string'
           ? row.expiryDate.slice(0, 10)
@@ -71,14 +95,8 @@ export function parseHimalayasPayload(payload: unknown): AdapterResult {
           : 'unknown',
     });
   }
-  const nextCursor =
-    payload &&
-    typeof payload === 'object' &&
-    typeof (payload as { nextCursor?: unknown }).nextCursor === 'string'
-      ? (payload as { nextCursor: string }).nextCursor
-      : undefined;
   return records.length
-    ? { outcome: 'success', records, nextCursor }
+    ? { outcome: 'success', records }
     : {
         outcome: items.length === 0 ? 'empty' : 'malformed',
         records,

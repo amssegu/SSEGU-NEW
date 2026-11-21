@@ -114,6 +114,16 @@ export function normalizeSourceJob(
     throw new Error('source record ID, title, employer and location are required');
   const deadlineAt = raw.deadlineAt ? isoDate(raw.deadlineAt) : undefined;
   const applicationUrl = raw.applicationUrl ? canonicalHttpsUrl(raw.applicationUrl) : undefined;
+  const employmentTypes: Record<string, NormalizedJob['employmentType']> = {
+    full_time: 'full_time',
+    'full-time': 'full_time',
+    part_time: 'part_time',
+    'part-time': 'part_time',
+    contract: 'contract',
+    temporary: 'temporary',
+    internship: 'internship',
+    volunteer: 'volunteer',
+  };
   const contentHash = `source:${source.id}:${sourceRecordId}:${canonicalUrl}:${title}:${employer}:${location}:${deadlineAt ?? ''}`;
   return {
     id: `${source.id}:${sourceRecordId}`,
@@ -125,8 +135,9 @@ export function normalizeSourceJob(
     title,
     employer,
     location,
+    country: cleanText(raw.country, 2),
     category: cleanText(raw.category, 120) ?? 'Uncategorised',
-    employmentType: 'full_time',
+    employmentType: employmentTypes[raw.employmentType?.toLowerCase() ?? ''] ?? 'full_time',
     workMode: /remote/i.test(location) ? 'remote' : 'unknown',
     permittedExcerpt: cleanText(raw.permittedExcerpt, 500),
     salaryText: cleanText(raw.salaryText, 240),

@@ -103,8 +103,10 @@ const clientJobs = allJobs.map(toWorkJobClientData);
         <WorkJobCard job={job} />
       ))}
     </div>
-    <p id="job-empty-state" class="work-empty-state" hidden>
-      No opportunities match those filters. Try a wider search or browse all listings.
+    <p id="job-empty-state" class="work-empty-state" hidden={allJobs.length > 0}>
+      {allJobs.length
+        ? 'No opportunities match those filters. Try a wider search.'
+        : 'We’re connecting verified job sources. New opportunities will appear here as they are checked.'}
     </p>
     <AdSlot placement="section" format="horizontal" />
   </div>
@@ -182,6 +184,9 @@ const clientJobs = allJobs.map(toWorkJobClientData);
       }
       results.innerHTML = matches.map(renderJob).join('');
       emptyState.hidden = matches.length !== 0;
+      emptyState.textContent = jobs.length
+        ? 'No opportunities match those filters. Try a wider search.'
+        : 'We’re connecting verified job sources. New opportunities will appear here as they are checked.';
       status.textContent = `${matches.length} ${matches.length === 1 ? 'opportunity' : 'opportunities'} shown.`;
       if (updateUrl) {
         const next = new URLSearchParams();

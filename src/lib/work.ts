@@ -43,8 +43,7 @@ export interface WorkJob {
 export function isEligibleWorkJob(job: WorkJob, today = new Date()) {
   if (
     job.status !== 'active' ||
-    job.sourcePermission === 'permission_required' ||
-    job.prohibitJobpostingSchema
+    job.sourcePermission === 'permission_required'
   )
     return false;
   const todayValue = today.toISOString().slice(0, 10);
@@ -416,127 +415,6 @@ export function isPublishableWorkCourse(course: WorkCourse) {
   return Boolean(course.slug && course.title && course.provider);
 }
 
-const fixtureWorkJobs: WorkJob[] = [
-  {
-    slug: 'customer-experience-officer-mtn-uganda',
-    title: 'Customer Experience Officer',
-    employer: 'MTN Uganda',
-    location: 'Kampala',
-    deadline: '2026-12-15',
-    employmentType: 'Full-time',
-    arrangement: 'On-site',
-    status: 'active',
-    description: 'Help shape thoughtful customer journeys across MTN Uganda services and channels.',
-    qualifications: ['Experience in customer service, experience design or a related field.'],
-    requirements: [
-      'Listen carefully to customer needs and turn feedback into practical improvements.',
-      'Work with internal teams to improve service journeys across channels.',
-    ],
-    category: 'Customer service',
-  },
-  {
-    slug: 'relationship-manager-stanbic-bank-uganda',
-    title: 'Relationship Manager',
-    employer: 'Stanbic Bank Uganda',
-    location: 'Kampala',
-    deadline: '2026-11-20',
-    employmentType: 'Full-time',
-    arrangement: 'Hybrid',
-    status: 'active',
-    description: 'Build trusted client relationships and deliver practical financial solutions.',
-    qualifications: ['Experience in relationship management, banking or a related field.'],
-    requirements: [
-      'Manage client relationships with clear, professional communication.',
-      'Identify suitable financial solutions while following internal processes.',
-    ],
-    category: 'Banking',
-  },
-  {
-    slug: 'lecturer-computer-science-makerere',
-    title: 'Lecturer – Computer Science',
-    employer: 'Makerere University',
-    location: 'Kampala',
-    deadline: '2026-11-18',
-    employmentType: 'Contract',
-    arrangement: 'On-site',
-    status: 'active',
-    description:
-      'Support the next generation of computing professionals through teaching and mentorship.',
-    qualifications: ['A relevant computer science qualification and teaching experience.'],
-    requirements: [
-      'Prepare and deliver clear learning experiences for computing students.',
-      'Support student projects, assessment and academic mentorship.',
-    ],
-    category: 'Education',
-  },
-  {
-    slug: 'software-engineer-innovation-hub',
-    title: 'Software Engineer',
-    employer: 'Innovation Hub Uganda',
-    location: 'Remote',
-    deadline: '2026-12-05',
-    employmentType: 'Full-time',
-    arrangement: 'Remote',
-    status: 'active',
-    description: 'Build useful digital products with a collaborative team working across Uganda.',
-    qualifications: [
-      'Practical software development experience and a strong problem-solving mindset.',
-    ],
-    requirements: [
-      'Build, test and improve digital product features with a cross-functional team.',
-      'Communicate technical decisions clearly and contribute to code quality.',
-    ],
-    category: 'ICT',
-  },
-  {
-    slug: 'graduate-trainee-nile-breweries',
-    title: 'Graduate Trainee',
-    employer: 'Nile Breweries',
-    location: 'Kampala',
-    deadline: '2026-08-30',
-    employmentType: 'Full-time',
-    arrangement: 'Hybrid',
-    status: 'expired',
-    description: 'This listing is no longer accepting applications.',
-    category: 'Graduate programme',
-  },
-  {
-    slug: 'communications-officer-withdrawn-fixture',
-    title: 'Communications Officer',
-    employer: 'SSEGU Work partner',
-    location: 'Jinja',
-    deadline: '2026-12-01',
-    employmentType: 'Full-time',
-    arrangement: 'Hybrid',
-    status: 'withdrawn',
-    description: 'This listing has been withdrawn by the source.',
-    category: 'Communications',
-  },
-  {
-    slug: 'project-assistant-unverified-fixture',
-    title: 'Project Assistant',
-    employer: 'SSEGU Work partner',
-    location: 'Gulu',
-    deadline: '2026-12-03',
-    employmentType: 'Contract',
-    arrangement: 'On-site',
-    status: 'unverified',
-    description: 'The source has not yet confirmed this listing.',
-    category: 'Operations',
-  },
-  {
-    slug: 'community-liaison-missing-deadline-fixture',
-    title: 'Community Liaison',
-    employer: 'SSEGU Work partner',
-    location: 'Mbarara',
-    employmentType: 'Part-time',
-    arrangement: 'Remote',
-    status: 'active',
-    description: 'An active opportunity with no published deadline.',
-    category: 'Community',
-  },
-];
-
 export const workArticles: WorkArticle[] = [
   {
     slug: 'how-to-write-a-winning-cv-in-uganda',
@@ -599,7 +477,7 @@ function mergeBySlug<T extends { slug: string }>(...groups: T[][]) {
   );
 }
 
-export const workJobs: WorkJob[] = mergeBySlug(generatedWorkJobs, fixtureWorkJobs);
+export const workJobs: WorkJob[] = generatedWorkJobs;
 export const workCourses: WorkCourse[] = generatedWorkCourses;
 
 function editorialEmploymentType(value: string): WorkJob['employmentType'] {
@@ -694,12 +572,19 @@ let cachedPublishedWorkJobs: WorkJob[] | undefined;
 let cachedPublishedWorkCourses: WorkCourse[] | undefined;
 
 export async function getPublishedWorkJobs(options: { status?: WorkStatus | 'all' } = {}) {
-  if (cachedPublishedWorkJobs) return cachedPublishedWorkJobs;
+  if (cachedPublishedWorkJobs) {
+    const requestedStatus = options.status ?? 'active';
+    if (requestedStatus === 'all') return cachedPublishedWorkJobs;
+    return cachedPublishedWorkJobs.filter((job) =>
+      requestedStatus === 'expired'
+        ? job.status === 'expired' || (job.status === 'active' && !isEligibleWorkJob(job))
+        : isPublishableWorkJob(job),
+    );
+  }
   const editorial = (await getCollection('jobs'))
     .filter(({ data }) => data.status === 'published' || data.status === 'expired')
     .map(fromEditorialJobEntry);
-  const fallbackFixtures = generatedWorkJobs.length === 0 ? fixtureWorkJobs : [];
-  cachedPublishedWorkJobs = mergeBySlug(generatedWorkJobs, editorial, fallbackFixtures);
+  cachedPublishedWorkJobs = mergeBySlug(generatedWorkJobs, editorial);
   const requestedStatus = options.status ?? 'active';
   if (requestedStatus === 'all') return cachedPublishedWorkJobs;
   return cachedPublishedWorkJobs.filter((job) =>
@@ -834,27 +719,15 @@ export const cvResources = [
   },
 ];
 
-export const internships = [
-  {
-    slug: 'ict-internship-kampala',
-    title: 'ICT Internship',
-    employer: 'SSEGU Work fixture partner',
-    location: 'Kampala',
-    deadline: '2026-12-12',
-    arrangement: 'On-site',
-    description:
-      'A supervised placement for learners building practical digital and support skills.',
-  },
-  {
-    slug: 'communications-internship-hybrid',
-    title: 'Communications Internship',
-    employer: 'Community impact organisation',
-    location: 'Kampala / Hybrid',
-    deadline: '2026-12-18',
-    arrangement: 'Hybrid',
-    description: 'Practice clear storytelling, research and community-facing communications.',
-  },
-];
+export const internships: Array<{
+  slug: string;
+  title: string;
+  employer: string;
+  location: string;
+  deadline?: string;
+  arrangement: string;
+  description: string;
+}> = [];
 
 export function formatWorkDate(date?: string) {
   if (!date) return 'No deadline listed';

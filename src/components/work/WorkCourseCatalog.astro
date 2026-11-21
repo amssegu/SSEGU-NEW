@@ -131,8 +131,10 @@ const clientCourses = allCourses.map((course) => ({
         <WorkCourseCard course={course} />
       ))}
     </div>
-    <p class="work-course-empty" data-course-empty hidden>
-      No courses match those filters.
+    <p class="work-course-empty" data-course-empty hidden={allCourses.length > 0}>
+      {allCourses.length
+        ? 'No courses match those filters. Try changing your search.'
+        : 'We’re connecting direct course catalogs. Courses will appear here once source details are available.'}
     </p>
     <nav
       id="course-pagination"
@@ -243,7 +245,9 @@ const clientCourses = allCourses.map((course) => ({
     if (status)
       status.textContent = matches.length
         ? `Showing ${(currentPage - 1) * pageSize + 1}–${Math.min(currentPage * pageSize, matches.length)} of ${matches.length} courses.`
-        : 'No courses match those filters.';
+        : courses.length
+          ? 'No courses match those filters. Try changing your search.'
+          : 'We’re connecting direct course catalogs. Courses will appear here once source details are available.';
     if (empty) empty.hidden = matches.length > 0;
     if (pagination)
       pagination.innerHTML = `${currentPage > 1 ? `<a class="work-button work-button-secondary" href="#" data-page="${currentPage - 1}">Previous page</a>` : ''}<span>Page ${currentPage} of ${pageCount}</span>${currentPage < pageCount ? `<a class="work-button" href="#" data-page="${currentPage + 1}">Next page</a>` : ''}`;

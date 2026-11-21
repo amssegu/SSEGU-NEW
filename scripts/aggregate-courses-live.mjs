@@ -9,30 +9,20 @@ const reportPath =
   process.env.COURSE_LIVE_REPORT_PATH ?? join(out, 'ssegu-courses-live-report.json');
 const sources = [
   {
-    id: 'mit-ocw-courses',
-    slug: 'mit-ocw-courses',
-    name: 'MIT OpenCourseWare',
-    endpoint: 'https://ocw.mit.edu/sitemap.xml',
-    terms: 'https://www.ocw.mit.edu/pages/privacy-and-terms-of-use/',
-    attribution:
-      'Course details link to MIT OpenCourseWare. MIT does not award credit or certificates for this material.',
-  },
-  {
-    id: 'openlearn-courses',
-    slug: 'openlearn-courses',
-    name: 'OpenLearn',
-    endpoint: 'https://www.open.edu/openlearn/rss.xml?feed=course',
-    terms: 'https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn',
-    attribution:
-      'Course details link to OpenLearn. SSEGU is not affiliated with The Open University.',
-  },
-  {
     id: 'freecodecamp-courses',
     slug: 'freecodecamp-courses',
     name: 'freeCodeCamp',
     endpoint: 'https://curriculum-db.freecodecamp.org/graphql',
     terms: 'https://opensource.freecodecamp.org/terms-of-service/',
     attribution: 'Course details link to freeCodeCamp. SSEGU is not affiliated with the provider.',
+  },
+  {
+    id: 'microsoft-learn-courses',
+    slug: 'microsoft-learn-courses',
+    name: 'Microsoft Learn',
+    endpoint: 'https://learn.microsoft.com/api/v1',
+    terms: 'https://learn.microsoft.com/legal/microsoft-apis/terms-of-use',
+    attribution: 'Course metadata via Microsoft Learn. Open the provider page for course details.',
   },
 ];
 const decode = (s) =>
@@ -43,13 +33,6 @@ const decode = (s) =>
     .replace(/&quot;/g, '"')
     .replace(/&apos;/g, "'")
     .trim();
-const tag = (xml, name) =>
-  decode(
-    xml
-      .match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`, 'i'))?.[1]
-      ?.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-      .replace(/<[^>]+>/g, '') ?? '',
-  );
 const slug = (s) =>
   s
     .toLowerCase()
@@ -58,101 +41,6 @@ const slug = (s) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
     .slice(0, 100);
-async function fetchText(url) {
-  let lastError;
-  for (let attempt = 0; attempt < 3; attempt += 1) {
-    try {
-      const response = await fetch(url, {
-        headers: {
-          accept: 'application/xml, application/rss+xml, application/json',
-          'user-agent': 'SSEGU-Course-Aggregator/1.0',
-        },
-        signal: AbortSignal.timeout(20000),
-      });
-      if (!response.ok) throw new Error(`HTTP ${response.status} from ${url}`);
-      const body = await response.text();
-      if (body.length > 8_000_000) throw new Error('provider response exceeds 8 MB');
-      return body;
-    } catch (error) {
-      lastError = error;
-      if (attempt < 2) await new Promise((resolve) => setTimeout(resolve, 250 * 2 ** attempt));
-    }
-  }
-  throw lastError;
-}
-function pageMetadata(html) {
-  const meta = {};
-  for (const match of html.matchAll(/<meta\b([^>]+)>/gi)) {
-    const attributes = Object.fromEntries(
-      [...match[1].matchAll(/([\w:-]+)\s*=\s*(["'])(.*?)\2/g)].map(([, key, , value]) => [
-        key.toLowerCase(),
-        value,
-      ]),
-    );
-    const key = attributes.property || attributes.name;
-    const value = attributes.content;
-    if (key && value) meta[key.toLowerCase()] = decode(value);
-  }
-  const structured = [];
-  for (const [, json] of html.matchAll(
-    /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,
-  )) {
-    try {
-      structured.push(JSON.parse(json.trim()));
-    } catch {
-      // Ignore invalid structured data and retain the page metadata.
-    }
-  }
-  const nodes = structured.flatMap((item) => (Array.isArray(item) ? item : [item]));
-  const course = nodes.find((item) => {
-    const type = item && typeof item === 'object' ? item['@type'] : undefined;
-    return type === 'Course' || (Array.isArray(type) && type.includes('Course'));
-  });
-  return { meta, course: course ?? null };
-}
-async function enrichCourse(course) {
-  try {
-    const html = await fetchText(course.url);
-    const details = pageMetadata(html);
-    const structured = details.course ?? {};
-    const description = structured.description || details.meta.description || details.meta['og:description'];
-    const title = structured.name || details.meta['og:title'] || course.title;
-    const subject = structured.about?.name || structured.provider?.name || details.meta['course:subject'];
-    const level = structured.educationalLevel || details.meta['course:level'];
-    const language = structured.inLanguage || details.meta['og:locale'];
-    const duration = structured.timeRequired || details.meta['course:duration'];
-    const free = structured.isAccessibleForFree === true || Number(structured.offers?.price) === 0;
-    return {
-      ...course,
-      title,
-      summary: course.summary || description,
-      subject: course.subject || (typeof subject === 'string' ? subject : undefined),
-      level: course.level || (typeof level === 'string' ? level : undefined),
-      language: course.language || (typeof language === 'string' ? language : undefined),
-      duration: course.duration || (typeof duration === 'string' ? duration : undefined),
-      coursePriceStatus: course.coursePriceStatus || (free ? 'free' : undefined),
-      sourceData: { ...(course.sourceData ?? {}), pageMetadata: details.meta, structuredCourse: details.course },
-    };
-  } catch {
-    return course;
-  }
-}
-async function mapConcurrent(items, limit, mapper, onProgress = () => {}) {
-  const results = new Array(items.length);
-  let next = 0;
-  let completed = 0;
-  await Promise.all(
-    Array.from({ length: Math.min(limit, items.length) }, async () => {
-      while (next < items.length) {
-        const index = next++;
-        results[index] = await mapper(items[index]);
-        completed += 1;
-        if (completed % 100 === 0 || completed === items.length) onProgress(completed, items.length);
-      }
-    }),
-  );
-  return results;
-}
 async function getCourses(source) {
   if (source.id === 'freecodecamp-courses') {
     let payload;
@@ -188,53 +76,87 @@ async function getCourses(source) {
       deliveryMode: 'self_paced',
       coursePriceStatus: 'free',
       certificatePriceStatus: 'unknown',
-      sourceData: { certification: name },
+      summary:
+        'Self-paced freeCodeCamp certification curriculum. Open the provider page for the current syllabus, projects, and assessment requirements.',
+      sourceData: { certification: name, contentType: 'certification' },
     }));
   }
-  const xml = await fetchText(source.endpoint);
-  let entries;
-  if (source.id === 'openlearn-courses') {
-    entries = [...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].map(([, item]) => ({
-      id: tag(item, 'guid') || tag(item, 'link'),
-      title: tag(item, 'title'),
-      url: tag(item, 'link'),
-      summary: tag(item, 'description'),
-      subject: tag(item, 'category') || undefined,
-      language: tag(item, 'language') || undefined,
-      deliveryMode: 'online',
-      coursePriceStatus: 'free',
-      sourceData: { rssItem: item },
-    }));
-    if (!entries.length) throw new Error('OpenLearn course RSS contained no items');
-  } else {
-    entries = [...xml.matchAll(/<sitemap\b[^>]*>([\s\S]*?)<\/sitemap>/gi)]
-      .map(([, item]) => tag(item, 'loc'))
-      .filter((loc) => /\/courses\/[^/]+\/sitemap\.xml$/.test(loc))
-      .map((loc) => {
-        const url = loc.replace(/sitemap\.xml$/, '');
-        const id = url.split('/').filter(Boolean).at(-1);
-        return {
-          id: url,
-          title: id.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()),
-          url,
-          deliveryMode: 'self_paced',
-          coursePriceStatus: 'free',
-          certificatePriceStatus: 'unavailable',
-          sourceData: { sitemapUrl: loc },
-        };
+  if (source.id !== 'microsoft-learn-courses') throw new Error(`Unsupported course source: ${source.id}`);
+  const accessToken = process.env.MICROSOFT_LEARN_ACCESS_TOKEN;
+  if (!accessToken) throw new Error('MICROSOFT_LEARN_ACCESS_TOKEN is required for Microsoft Learn');
+  const apiVersion = '2023-11-01-preview';
+  const requestCatalog = async (path) => {
+    let nextUrl = new URL(`${source.endpoint}/${path}`);
+    nextUrl.searchParams.set('api-version', apiVersion);
+    nextUrl.searchParams.set('locale', 'en-us');
+    nextUrl.searchParams.set('maxpagesize', '100');
+    const entries = [];
+    for (let page = 0; nextUrl && page < 100; page += 1) {
+      const response = await fetch(nextUrl, {
+        headers: { accept: 'application/json', authorization: `Bearer ${accessToken}` },
+        signal: AbortSignal.timeout(30000),
       });
-    if (!entries.length) throw new Error('MIT sitemap contained no course URLs');
-    entries = entries.map((r) => ({
-      ...r,
-      title: r.url
-        .split('/')
-        .filter(Boolean)
-        .at(-1)
-        .replace(/-/g, ' ')
-        .replace(/\b\w/g, (c) => c.toUpperCase()),
+      if (!response.ok) throw new Error(`Microsoft Learn ${path} returned HTTP ${response.status}`);
+      const payload = await response.json();
+      const rows = Array.isArray(payload)
+        ? payload
+        : Array.isArray(payload?.value)
+          ? payload.value
+          : Array.isArray(payload?.data)
+            ? payload.data
+            : Array.isArray(payload?.items)
+              ? payload.items
+              : undefined;
+      if (!rows) throw new Error(`Microsoft Learn ${path} response did not contain a catalog array`);
+      entries.push(...rows);
+      const continuation = payload?.nextLink ?? payload?.['@odata.nextLink'];
+      nextUrl = typeof continuation === 'string' ? new URL(continuation) : null;
+    }
+    return entries;
+  };
+  const [paths, modules] = await Promise.all([
+    requestCatalog('learning-paths'),
+    requestCatalog('modules'),
+  ]);
+  const readable = (value) =>
+    typeof value === 'string'
+      ? decode(value.replace(/<[^>]*>/g, ' ').replace(/&nbsp;/g, ' '))
+          .replace(/\s+/g, ' ')
+          .trim()
+          .slice(0, 1_200)
+      : '';
+  const taxonomyNames = (value) =>
+    Array.isArray(value)
+      ? value.map((item) => (typeof item === 'object' ? readable(item?.name) : readable(item))).filter(Boolean)
+      : [];
+  return [...paths, ...modules]
+    .filter((item) => item && typeof item.id === 'string' && typeof item.title === 'string' && typeof item.url === 'string')
+    .map((item) => ({
+      id: item.id,
+      title: readable(item.title),
+      url: item.url,
+      summary: readable(item.summary),
+      subject: taxonomyNames(item.subjects)[0] || taxonomyNames(item.products)[0] || 'Technology',
+      level: taxonomyNames(item.levels)[0] || undefined,
+      language: readable(item.locale) || 'en-us',
+      duration:
+        Number.isFinite(item.durationInMinutes) && item.durationInMinutes > 0
+          ? item.durationInMinutes < 60
+            ? `${item.durationInMinutes} minutes`
+            : `${Math.floor(item.durationInMinutes / 60)} hours${item.durationInMinutes % 60 ? ` ${item.durationInMinutes % 60} minutes` : ''}`
+          : undefined,
+      deliveryMode: 'self_paced',
+      coursePriceStatus: 'free',
+      certificatePriceStatus: 'unknown',
+      sourceData: {
+        contentType: item.type,
+        roles: taxonomyNames(item.roles),
+        products: taxonomyNames(item.products),
+        units: Array.isArray(item.units) ? item.units.length : undefined,
+        modules: Array.isArray(item.modules) ? item.modules.length : undefined,
+        updatedAt: item.updatedAt,
+      },
     }));
-  }
-  return entries;
 }
 const sqlValue = (v) => (v == null ? 'NULL' : `'${String(v).replaceAll("'", "''")}'`);
 const sourceDataJson = (value) => {
@@ -250,6 +172,8 @@ const stmt = (sql, values) =>
     .replace(/;$/, '')};`;
 const statements = [];
 const sourceResults = [];
+statements.push(`UPDATE content_sources SET enabled = 0, updated_at = '${now.replaceAll("'", "''")}' WHERE id IN ('mit-ocw-courses', 'openlearn-courses');`);
+statements.push("DELETE FROM courses WHERE source_id IN ('mit-ocw-courses','openlearn-courses');");
 for (const source of sources) {
   const reviewedAt = now;
   statements.push(
@@ -291,7 +215,7 @@ for (const source of sources) {
     .map((c) => ({ ...c, url: c.url?.startsWith('http') ? c.url : '' }))
     .filter((c) => c.id && c.title && c.url);
   const unique = [...new Map(records.map((r) => [r.url, r])).values()];
-  console.log(`${source.name}: fetched ${unique.length} course records; enriching provider pages`);
+  console.log(`${source.name}: fetched ${unique.length} source catalog records`);
   if (!unique.length) {
     const errorSummary = 'provider returned no valid course records';
     statements.push(
@@ -321,10 +245,7 @@ for (const source of sources) {
     });
     continue;
   }
-  const enriched = await mapConcurrent(unique, 12, enrichCourse, (completed, total) => {
-    console.log(`${source.name}: enriched ${completed}/${total} course pages`);
-  });
-  console.log(`${source.name}: source metadata enrichment finished`);
+  const enriched = unique;
   const runId = `courses:${source.id}:${now}`;
   for (const c of enriched) {
     const sourceRecordHash = createHash('sha256').update(String(c.id)).digest('hex');

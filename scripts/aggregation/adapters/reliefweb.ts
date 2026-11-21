@@ -1,7 +1,7 @@
 import type { AdapterResult, RawJobRecord, SourceConfig } from '../types.ts';
 import { normalizeSourceJob } from '../normalise.ts';
 
-export const RELIEFWEB_SOURCE: SourceConfig = {
+const reliefWebSource: SourceConfig = {
   id: 'reliefweb-jobs',
   slug: 'reliefweb-jobs',
   name: 'ReliefWeb jobs API',
@@ -15,6 +15,20 @@ export const RELIEFWEB_SOURCE: SourceConfig = {
   allowedHostnames: ['reliefweb.int', 'api.reliefweb.int'],
   minimumIntervalMs: 12 * 60 * 60 * 1_000,
 };
+
+export function createReliefWebSource(appName?: string): SourceConfig {
+  const source = { ...reliefWebSource };
+  if (!appName?.trim()) return source;
+  const endpoint = new URL(source.endpointUrl);
+  endpoint.searchParams.set('appname', appName.trim());
+  endpoint.searchParams.set('profile', 'full');
+  endpoint.searchParams.set('preset', 'latest');
+  source.endpointUrl = endpoint.toString();
+  source.appName = appName.trim();
+  return source;
+}
+
+export const RELIEFWEB_SOURCE = createReliefWebSource();
 
 export function parseReliefWebPayload(payload: unknown): AdapterResult {
   if (
@@ -37,6 +51,25 @@ export function parseReliefWebPayload(payload: unknown): AdapterResult {
       typeof row.title !== 'string'
     )
       continue;
+    const countries = Array.isArray(row.country) ? row.country : [row.country];
+    const countryNames = countries
+      .map((country) =>
+        typeof country === 'string'
+          ? country
+          : country && typeof country === 'object' && typeof (country as { name?: unknown }).name === 'string'
+            ? (country as { name: string }).name
+            : '',
+      )
+      .filter(Boolean);
+    const categories = Array.isArray(row.career_categories) ? row.career_categories : [];
+    const categoryNames = categories
+      .map((category) =>
+        category && typeof category === 'object' && typeof (category as { name?: unknown }).name === 'string'
+          ? (category as { name: string }).name
+          : '',
+      )
+      .filter(Boolean);
+    const date = row.date && typeof row.date === 'object' ? (row.date as Record<string, unknown>) : {};
     records.push({
       sourceRecordId: id,
       sourceData: item as Record<string, unknown>,
@@ -48,14 +81,11 @@ export function parseReliefWebPayload(payload: unknown): AdapterResult {
         typeof (row.source as { name?: unknown }).name === 'string'
           ? (row.source as { name: string }).name
           : 'ReliefWeb publisher',
-      location: typeof row.country === 'string' ? row.country : 'International',
-      category: 'Humanitarian and development',
-      publishedAt:
-        typeof row.date === 'object' &&
-        row.date &&
-        typeof (row.date as { created?: unknown }).created === 'string'
-          ? (row.date as { created: string }).created
-          : null,
+      location: countryNames.join(', ') || 'International',
+      category: categoryNames.slice(0, 2).join(', ') || 'Humanitarian and development',
+      permittedExcerpt: typeof row.body === 'string' ? row.body : null,
+      deadlineAt: typeof date.closing === 'string' ? date.closing.slice(0, 10) : null,
+      publishedAt: typeof date.created === 'string' ? date.created : null,
     });
   }
   return records.length

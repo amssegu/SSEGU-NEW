@@ -40,7 +40,10 @@ export function parseRemoteOkPayload(payload: unknown): AdapterResult {
       applicationUrl: url,
       title: row.position,
       employer: row.company,
-      location: typeof row.location === 'string' ? row.location : 'Remote',
+      location:
+        typeof row.location === 'string' && row.location.trim()
+          ? row.location
+          : 'Remote · check applicant location eligibility',
       category: Array.isArray(row.tags)
         ? row.tags
             .filter((tag): tag is string => typeof tag === 'string')

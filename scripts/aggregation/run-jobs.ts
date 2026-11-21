@@ -85,9 +85,16 @@ export async function runJobs({
         errorSummary: parsed.error,
       });
     records.push(...parsed.records);
-    if (parsed.outcome === 'empty' || !source.pagination?.parameter || !parsed.nextCursor) break;
+    if (parsed.outcome === 'empty' || !source.pagination?.parameter) break;
     const url = new URL(nextUrl);
-    url.searchParams.set(source.pagination.parameter, parsed.nextCursor);
+    if (source.pagination.kind === 'page') {
+      if (parsed.records.length === 0 || parsed.records.length < 20) break;
+      const nextPage = Number(url.searchParams.get(source.pagination.parameter) ?? 1) + 1;
+      url.searchParams.set(source.pagination.parameter, String(nextPage));
+    } else {
+      if (!parsed.nextCursor) break;
+      url.searchParams.set(source.pagination.parameter, parsed.nextCursor);
+    }
     nextUrl = url.toString();
   }
   if (records.length === 0)

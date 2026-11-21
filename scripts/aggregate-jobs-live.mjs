@@ -40,6 +40,8 @@ class SqlPlanDatabase {
 }
 
 const database = new SqlPlanDatabase();
+database.add("UPDATE content_sources SET enabled = 0, updated_at = ? WHERE id IN ('jubajobs-jobs', 'yubhub-jobs')", [now.toISOString()]);
+database.add("DELETE FROM jobs WHERE source_id IN ('jubajobs-jobs','yubhub-jobs')");
 const sources = getApprovedJobSources();
 const results = [];
 const slugRegistry = new Set();

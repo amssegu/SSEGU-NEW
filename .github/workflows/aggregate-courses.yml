@@ -1,4 +1,4 @@
-name: Aggregate curated courses
+name: Aggregate direct course catalogs
 
 on:
   schedule:
@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   actions: write
+  id-token: write
 
 concurrency:
   group: aggregate-courses-production
@@ -24,6 +25,28 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Authenticate with Microsoft Entra ID
+        if: ${{ vars.AZURE_CLIENT_ID != '' && vars.AZURE_TENANT_ID != '' && vars.AZURE_SUBSCRIPTION_ID != '' }}
+        uses: azure/login@v2
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      - name: Get Microsoft Learn API token
+        if: ${{ vars.AZURE_CLIENT_ID != '' && vars.AZURE_TENANT_ID != '' && vars.AZURE_SUBSCRIPTION_ID != '' }}
+        run: |
+          token="$(az account get-access-token --resource https://learn.microsoft.com --query accessToken -o tsv)"
+          echo "::add-mask::$token"
+          echo "MICROSOFT_LEARN_ACCESS_TOKEN=$token" >> "$GITHUB_ENV"
+      - name: Use Microsoft Learn API token secret
+        if: ${{ vars.AZURE_CLIENT_ID == '' || vars.AZURE_TENANT_ID == '' || vars.AZURE_SUBSCRIPTION_ID == '' }}
+        env:
+          MICROSOFT_LEARN_ACCESS_TOKEN: ${{ secrets.MICROSOFT_LEARN_ACCESS_TOKEN }}
+        run: |
+          if [ -n "$MICROSOFT_LEARN_ACCESS_TOKEN" ]; then
+            echo "::add-mask::$MICROSOFT_LEARN_ACCESS_TOKEN"
+            echo "MICROSOFT_LEARN_ACCESS_TOKEN=$MICROSOFT_LEARN_ACCESS_TOKEN" >> "$GITHUB_ENV"
+          fi
       - name: Plan course catalogue database upsert
         env:
           COURSE_LIVE_REPORT_PATH: ${{ runner.temp }}/ssegu-courses-live-report.json
@@ -45,7 +68,7 @@ jobs:
         run: >-
           npx --yes wrangler@4.158.0 d1 execute ssegu-course-aggregation-production
           --remote --json
-          --command "SELECT c.source_id,c.permission_type,c.availability_status,c.canonical_url,c.enrolment_url,c.slug,c.title,c.provider,c.summary,c.subject,c.level,c.delivery_mode,c.language,c.duration,c.course_price_status,c.certificate_price_status,c.last_seen_at,length(c.source_data_json) AS source_data_bytes,s.terms_url,s.attribution_text,s.enabled AS source_enabled FROM courses c JOIN content_sources s ON s.id=c.source_id WHERE s.enabled=1 AND c.availability_status IN ('available','unavailable','unverified') ORDER BY c.slug;"
+          --command "SELECT c.source_id,c.permission_type,c.availability_status,c.canonical_url,c.enrolment_url,c.slug,c.title,c.provider,c.summary,c.subject,c.level,c.delivery_mode,c.language,c.duration,c.course_price_status,c.certificate_price_status,c.last_seen_at,length(c.source_data_json) AS source_data_bytes,s.terms_url,s.attribution_text,s.enabled AS source_enabled FROM courses c JOIN content_sources s ON s.id=c.source_id WHERE s.enabled=1 AND c.source_id IN ('microsoft-learn-courses','freecodecamp-courses') AND c.availability_status IN ('available','unavailable','unverified') ORDER BY c.slug;"
           > "$RUNNER_TEMP/courses-query.json"
       - name: Read ingestion runs from D1
         env:

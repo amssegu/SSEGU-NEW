@@ -57,7 +57,7 @@ jobs:
         run: >-
           npx --yes wrangler@4.158.0 d1 execute ssegu-work-aggregation-production
           --remote --json
-          --command "SELECT j.source_id,j.permission_type,j.status,j.canonical_url,j.application_url,j.slug,j.title,j.employer,j.location,j.country,j.category,j.employment_type,j.work_mode,j.permitted_excerpt,j.salary_text,j.salary_currency,j.salary_period,j.published_at,j.deadline_at,j.source_data_json,s.attribution_text,s.enabled AS source_enabled,CASE WHEN json_extract(s.restriction_flags_json,'$.prohibitJobpostingSchema') THEN 1 ELSE 0 END AS prohibit_jobposting_schema FROM jobs j JOIN content_sources s ON s.id=j.source_id WHERE s.enabled=1 AND j.status IN ('active','expired') ORDER BY j.slug;"
+          --command "SELECT j.source_id,j.permission_type,j.status,j.canonical_url,j.application_url,j.slug,j.title,j.employer,j.location,j.country,j.category,j.employment_type,j.work_mode,j.permitted_excerpt,j.salary_text,j.salary_currency,j.salary_period,j.published_at,j.deadline_at,j.source_data_json,s.attribution_text,s.enabled AS source_enabled,CASE WHEN json_extract(s.restriction_flags_json,'$.prohibitJobpostingSchema') THEN 1 ELSE 0 END AS prohibit_jobposting_schema FROM jobs j JOIN content_sources s ON s.id=j.source_id WHERE s.enabled=1 AND j.source_id IN ('remoteok-jobs','himalayas-jobs') AND j.status IN ('active','expired') ORDER BY j.slug;"
           > "$RUNNER_TEMP/jobs-query.json"
 
       - name: Read ingestion runs from D1

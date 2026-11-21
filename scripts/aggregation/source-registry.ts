@@ -17,8 +17,6 @@ export const JOB_SOURCE_REGISTRY = [
 ] as const;
 
 export const APPROVED_JOB_SOURCE_IDS = new Set([
-  'jubajobs-jobs',
-  'yubhub-jobs',
   'remoteok-jobs',
   'himalayas-jobs',
 ]);

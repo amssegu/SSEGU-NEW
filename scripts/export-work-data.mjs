@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { buildWorkExport } from './work-export.mjs';
 
 const outputDirectory = join(process.cwd(), 'src/data/generated');
-const mode = process.env.WORK_EXPORT_MODE ?? 'curated';
+const mode = process.env.WORK_EXPORT_MODE ?? 'empty';
 const timestamp = process.env.WORK_EXPORT_TIMESTAMP ?? null;
 
 const fixture = {

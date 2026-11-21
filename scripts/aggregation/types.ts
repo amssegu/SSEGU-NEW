@@ -34,7 +34,7 @@ export interface SourceConfig {
   maxResponseBytes?: number;
   appName?: string;
   pagination?: {
-    kind: 'cursor';
+    kind: 'cursor' | 'page';
     parameter: string;
     maxPages: number;
   };
@@ -48,6 +48,7 @@ export interface RawJobRecord {
   title: string;
   employer: string;
   location: string;
+  employmentType?: string | null;
   country?: string | null;
   category?: string | null;
   permittedExcerpt?: string | null;

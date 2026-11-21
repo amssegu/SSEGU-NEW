@@ -45,10 +45,8 @@ if (!previousHash) {
   }
 }
 const sources = [
-  ['mit-ocw', 'MIT OpenCourseWare', 'link_only_catalogue'],
-  ['openlearn', 'OpenLearn', 'link_only_catalogue'],
-  ['freecodecamp', 'freeCodeCamp', 'link_only_catalogue'],
-  ['saylor', 'Saylor Academy', 'skipped_authentication_required'],
+  ['freecodecamp-courses', 'freeCodeCamp', 'link_only_catalogue'],
+  ['microsoft-learn-courses', 'Microsoft Learn', 'skipped_authentication_required'],
 ];
 const report = {
   generatedAt: new Date().toISOString(),

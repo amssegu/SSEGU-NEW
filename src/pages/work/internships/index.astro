@@ -5,13 +5,13 @@ import { formatWorkDate, internships } from '../../../lib/work';
 
 <WorkLayout
   title="Internships | SSEGU Work"
-  description="Browse fixture internships and early-career opportunities."
+  description="Browse current internships and early-career opportunities."
 >
   <div class="work-page-shell">
     <div class="work-page-intro">
       <p class="work-eyebrow">Start building experience</p>
       <h1>Internships</h1>
-      <p>Find fixture placements designed to connect learning with practical work.</p>
+      <p>Browse verified early-career placements from participating employers.</p>
     </div>
     <div class="work-resource-grid">
       {internships.map((internship) => (
@@ -35,5 +35,10 @@ import { formatWorkDate, internships } from '../../../lib/work';
         </article>
       ))}
     </div>
+    {internships.length === 0 && (
+      <p class="work-empty-state">
+        There are no verified internships available right now. Please check back soon.
+      </p>
+    )}
   </div>
 </WorkLayout>
