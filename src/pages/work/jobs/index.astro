@@ -44,7 +44,8 @@ const clientJobs = allJobs.map(toWorkJobClientData);
           <label for="job-location">Location</label>
           <select id="job-location" name="location">
             <option value="">All locations</option>
-            {jobFilters.locations.map((option) => (
+            <option value="Uganda">Uganda, including remote jobs open to Ugandan applicants</option>
+            {jobFilters.locations.filter((option) => option.toLowerCase() !== 'uganda').map((option) => (
               <option value={option}>{option}</option>
             ))}
           </select>
@@ -125,7 +126,7 @@ const clientJobs = allJobs.map(toWorkJobClientData);
     const dateFormatter = new Intl.DateTimeFormat('en-UG', { dateStyle: 'medium' });
     const params = new URLSearchParams(window.location.search);
     keyword.value = params.get('q') || '';
-    location.value = params.get('location') || '';
+    location.value = params.has('location') ? params.get('location') || '' : 'Uganda';
     type.value = params.get('type') || '';
     arrangement.value = params.get('arrangement') || '';
     listingStatus.value = params.get('status') || 'active';
@@ -166,9 +167,14 @@ const clientJobs = allJobs.map(toWorkJobClientData);
         const haystack = [job.title, job.employer, job.category, job.description]
           .join(' ')
           .toLowerCase();
+        const matchesLocation =
+          !location.value ||
+          (location.value === 'Uganda'
+            ? job.country.toUpperCase() === 'UG' || /uganda/i.test(`${job.location} ${job.country}`)
+            : job.location === location.value);
         return (
           (!query || haystack.includes(query)) &&
-          (!location.value || job.location === location.value) &&
+          matchesLocation &&
           (!type.value || job.employmentType === type.value) &&
           (!arrangement.value || job.arrangement === arrangement.value) &&
           (selectedStatus === 'all' || job.status === selectedStatus)
@@ -192,7 +198,7 @@ const clientJobs = allJobs.map(toWorkJobClientData);
       if (updateUrl) {
         const next = new URLSearchParams();
         if (keyword.value.trim()) next.set('q', keyword.value.trim());
-        if (location.value) next.set('location', location.value);
+        next.set('location', location.value);
         if (type.value) next.set('type', type.value);
         if (arrangement.value) next.set('arrangement', arrangement.value);
         if (listingStatus.value !== 'active') next.set('status', listingStatus.value);
@@ -211,6 +217,7 @@ const clientJobs = allJobs.map(toWorkJobClientData);
     });
     clearButton?.addEventListener('click', () => {
       form.reset();
+      location.value = 'Uganda';
       listingStatus.value = 'active';
       applyFilters();
       keyword.focus();
