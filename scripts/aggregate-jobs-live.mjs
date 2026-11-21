@@ -42,7 +42,20 @@ class SqlPlanDatabase {
 const database = new SqlPlanDatabase();
 database.add("UPDATE content_sources SET enabled = 0, updated_at = ? WHERE id IN ('jubajobs-jobs', 'yubhub-jobs')", [now.toISOString()]);
 database.add("DELETE FROM jobs WHERE source_id IN ('jubajobs-jobs','yubhub-jobs')");
-const sources = getApprovedJobSources();
+const approvedSources = getApprovedJobSources();
+const requestedSourceIds = process.env.JOB_SOURCE_IDS
+  ?.split(',')
+  .map((sourceId) => sourceId.trim())
+  .filter(Boolean);
+const unknownSourceIds = requestedSourceIds?.filter(
+  (sourceId) => !approvedSources.some(({ source }) => source.id === sourceId),
+);
+if (unknownSourceIds?.length)
+  throw new Error(`Unapproved job source IDs requested: ${unknownSourceIds.join(', ')}`);
+const sources = requestedSourceIds?.length
+  ? approvedSources.filter(({ source }) => requestedSourceIds.includes(source.id))
+  : approvedSources;
+if (!sources.length) throw new Error('No approved job sources selected for aggregation');
 const results = [];
 const slugRegistry = new Set();
 

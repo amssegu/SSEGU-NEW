@@ -37,7 +37,10 @@ export function reserveUniqueJobSlugs(jobs: NormalizedJob[], reserved = new Set<
     let attempt = 0;
     while (reserved.has(candidate)) {
       attempt += 1;
-      candidate = slugify(original, job.sourceId, job.sourceRecordId, String(attempt));
+      const stableSuffix = slugify(job.sourceId, job.sourceRecordId).slice(0, 20);
+      const attemptSuffix = String(attempt);
+      const suffix = `${stableSuffix}-${attemptSuffix}`;
+      candidate = `${slugify(original).slice(0, 99 - suffix.length)}-${suffix}`;
     }
     job.slug = candidate;
     reserved.add(candidate);

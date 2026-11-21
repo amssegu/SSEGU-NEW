@@ -51,6 +51,7 @@ export async function runJobs({
   let pageCount = 0;
   let fetchedCount = 0;
   while (pageCount < (source.pagination?.maxPages ?? 1)) {
+    console.log(`${source.id}: fetching page ${pageCount + 1}`);
     const response = await fetchBounded(nextUrl, {
       fetchImpl,
       maxBytes: source.maxResponseBytes,
@@ -74,6 +75,7 @@ export async function runJobs({
     const parsed = adapter.parse(payload);
     fetchedCount += parsed.records.length;
     pageCount += 1;
+    console.log(`${source.id}: page ${pageCount} returned ${parsed.records.length} valid records`);
     if (parsed.outcome === 'malformed')
       return finish({
         sourceId: source.id,
@@ -108,6 +110,7 @@ export async function runJobs({
     });
   const normalized = [];
   const quarantined = [];
+  console.log(`${source.id}: normalizing ${records.length} fetched records`);
   for (const raw of records) {
     try {
       normalized.push(adapter.normalize(raw, source, now.toISOString()));
@@ -120,7 +123,9 @@ export async function runJobs({
       });
     }
   }
+  console.log(`${source.id}: normalized ${normalized.length}; validating`);
   const checked = quarantineInvalidJobs(normalized, source);
+  console.log(`${source.id}: validated ${checked.accepted.length}; deduplicating`);
   const deduped = deduplicateJobs(checked.accepted);
   reserveUniqueJobSlugs(deduped.unique, slugRegistry);
   const summary: RunSummary = {
@@ -136,6 +141,9 @@ export async function runJobs({
     rejectedCount: checked.quarantined.length + deduped.duplicates.length + quarantined.length,
     quarantined: [...quarantined, ...checked.quarantined],
   };
+  console.log(
+    `${source.id}: accepted ${summary.acceptedCount}, rejected ${summary.rejectedCount}`,
+  );
   if (db) {
     const runId = `${source.id}:${now.toISOString()}`;
     for (const job of deduped.unique) {
