@@ -1,6 +1,6 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
-import WorkAside from '../../../components/work/WorkAside.astro';
+import AdSlot from '../../../components/main/AdSlot.astro';
 import WorkJobCard from '../../../components/work/WorkJobCard.astro';
 import WorkJobSource from '../../../components/work/WorkJobSource.astro';
 import {
@@ -54,7 +54,7 @@ const structuredData = [
       <span aria-hidden="true">/</span>
       <span aria-current="page">{job.title}</span>
     </nav>
-    <div class="work-detail-layout">
+    <div class="work-detail-layout work-job-detail-layout">
       <div class="work-detail-main">
         <article class="work-detail-card work-job-detail">
           <div class="work-detail-heading">
@@ -193,7 +193,34 @@ const structuredData = [
           </section>
         )}
       </div>
-      <WorkAside />
+      <aside class="work-job-detail-aside" aria-label="Application details and advertisement">
+        <section class="work-job-apply-panel">
+          <p class="work-eyebrow">Application</p>
+          <h2>{eligible ? 'Interested in this role?' : 'Listing status'}</h2>
+          <p>
+            {eligible
+              ? 'Confirm the requirements and application deadline on the original listing before applying.'
+              : 'This opportunity may no longer be accepting applications. Check the source for current status.'}
+          </p>
+          {eligible && job.applicationUrl ? (
+            <a class="work-button" href={job.applicationUrl} rel="noopener noreferrer" target="_blank">
+              Apply on source <span aria-hidden="true">↗</span>
+            </a>
+          ) : job.sourceUrl ? (
+            <a class="work-button work-button-secondary" href={job.sourceUrl} rel="noopener noreferrer" target="_blank">
+              Check original listing <span aria-hidden="true">↗</span>
+            </a>
+          ) : null}
+          <small>SSEGU Work does not charge applicants to apply.</small>
+        </section>
+        <AdSlot placement="sidebar" format="rectangle" minHeight={280} />
+        <section class="work-jobs-aside-panel work-job-detail-links">
+          <h2>Explore more</h2>
+          <a href="/work/jobs/">Browse all jobs <span aria-hidden="true">→</span></a>
+          <a href="/work/courses/">Explore courses <span aria-hidden="true">→</span></a>
+          <a href="/work/cv-resources/">Prepare your CV <span aria-hidden="true">→</span></a>
+        </section>
+      </aside>
     </div>
   </div>
 </WorkLayout>
