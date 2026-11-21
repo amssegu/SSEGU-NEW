@@ -9,7 +9,15 @@ const payload = JSON.parse(await readFile(queryPath, 'utf8'));
 const rows = payload.flatMap((result) => (Array.isArray(result.results) ? result.results : []));
 const cleanText = (value, limit = 2_000) => {
   if (typeof value !== 'string') return undefined;
-  const cleaned = value
+  const sourceText = value
+    .replace(/\u00a0/g, ' ')
+    .replace(/Â(?=\s)/g, '')
+    .replace(/[\u0080-\u00ff]+/g, (run) => {
+      if (!/[ÃÂâ]/.test(run)) return run;
+      const decoded = Buffer.from(run, 'latin1').toString('utf8');
+      return decoded.includes('\uFFFD') ? run : decoded;
+    });
+  const cleaned = sourceText
     .replace(/<[^>]*>/g, ' ')
     .replace(/&nbsp;|&#160;/gi, ' ')
     .replace(/&amp;/gi, '&')
@@ -49,7 +57,7 @@ const jobs = rows.map((row) => {
     category: row.category,
     employmentType: row.employment_type,
     workMode: row.work_mode,
-    permittedExcerpt: row.permitted_excerpt ?? undefined,
+    permittedExcerpt: cleanText(row.permitted_excerpt, 500),
     salaryText: row.salary_text ?? undefined,
     salaryCurrency: row.salary_currency ?? undefined,
     salaryPeriod: row.salary_period ?? undefined,
