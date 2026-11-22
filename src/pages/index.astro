@@ -62,12 +62,12 @@ const moreNews = stories.slice(5, 14);
             <StoryCard article={article} compact />
           ))}
         </div>
-        <AdSlot placement="sidebar" format="rectangle" minHeight={0} />
       </div>
     </section>
     <aside class="home-sidebar">
       <TopStories articles={stories} />
       <NewsletterModule />
+      <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
     </aside>
   </div>
   <AdSlot placement="section" format="horizontal" />
