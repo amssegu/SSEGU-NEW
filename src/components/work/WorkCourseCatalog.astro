@@ -25,8 +25,9 @@ interface Props {
 
 const { courses, allCourses, options, page, pageCount, total } = Astro.props;
 const filterOptions = (values: string[]) => values.filter(Boolean);
-const start = total === 0 ? 0 : (page - 1) * 48 + 1;
-const end = Math.min(page * 48, total);
+const pageSize = 9;
+const start = total === 0 ? 0 : (page - 1) * pageSize + 1;
+const end = Math.min(page * pageSize, total);
 const previousHref = page === 2 ? '/work/courses/' : `/work/courses/page/${page - 1}/`;
 const nextHref = `/work/courses/page/${page + 1}/`;
 const clientCourses = allCourses.map((course) => ({
@@ -56,122 +57,150 @@ const clientCourses = allCourses.map((course) => ({
         <a class="work-button work-button-secondary" href="/work/courses/how-we-evaluate/">How we evaluate</a>
       </nav>
     </div>
-    <form id="work-course-filters" class="work-filter-panel" data-testid="work-course-filters">
-      <div class="work-filter-grid">
-        <div>
-          <label for="course-search">Search courses</label>
-          <input
-            id="course-search"
-            name="q"
-            type="search"
-            placeholder="Title or provider"
-            autocomplete="off"
-          />
+    <div class="work-courses-layout">
+      <main class="work-courses-main">
+        <form id="work-course-filters" class="work-filter-panel work-course-filter-panel" data-testid="work-course-filters">
+          <div class="work-course-filter-toolbar">
+            <label class="sr-only" for="course-search">Search courses</label>
+            <input
+              id="course-search"
+              name="q"
+              type="search"
+              placeholder="Search courses or providers"
+              autocomplete="off"
+            />
+            <button
+              class="work-button work-button-secondary"
+              id="toggle-course-filters"
+              type="button"
+              aria-expanded="false"
+              aria-controls="course-advanced-filters"
+            >
+              More filters <span aria-hidden="true">⌄</span>
+            </button>
+          </div>
+          <div class="work-course-advanced-filters" id="course-advanced-filters" hidden>
+            <div class="work-filter-grid">
+              <div>
+                <label for="course-provider">Provider</label>
+                <select id="course-provider" name="provider">
+                  <option value="">All providers</option>
+                  {filterOptions(options.providers).map((value) => (
+                    <option value={value}>{value}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label for="course-category">Category</label>
+                <select id="course-category" name="category">
+                  <option value="">All categories</option>
+                  {filterOptions(options.categories).map((value) => (
+                    <option value={value}>{value}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label for="course-credential">Credential type</label>
+                <select id="course-credential" name="credential">
+                  <option value="">Any credential</option>
+                  {filterOptions(options.credentials).map((value) => (
+                    <option value={value}>{value}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label for="course-level">Level</label>
+                <select id="course-level" name="level">
+                  <option value="">All levels</option>
+                  {filterOptions(options.levels).map((value) => (
+                    <option value={value}>{value}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label for="course-price">Course price</label>
+                <select id="course-price" name="price">
+                  <option value="">Any course price</option>
+                  {filterOptions(options.coursePrices).map((value) => (
+                    <option value={value}>{courseStatusLabel(value)}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label for="certificate-price">Certificate price</label>
+                <select id="certificate-price" name="certificatePrice">
+                  <option value="">Any certificate price</option>
+                  {filterOptions(options.certificatePrices).map((value) => (
+                    <option value={value}>{courseStatusLabel(value)}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label for="course-delivery">Delivery</label>
+                <select id="course-delivery" name="delivery">
+                  <option value="">Any delivery mode</option>
+                  {filterOptions(options.deliveryModes).map((value) => (
+                    <option value={value}>{courseStatusLabel(value)}</option>
+                  ))}
+                </select>
+              </div>
+            </div>
+            <div class="work-filter-actions">
+              <button class="work-button" type="submit">Apply filters</button>
+              <button class="work-button work-button-secondary" type="reset">Clear all</button>
+            </div>
+          </div>
+        </form>
+        <p id="course-results-status" class="work-results-status" role="status" aria-live="polite">
+          Showing {start}–{end} of {total} courses.
+        </p>
+        <div class="work-resource-grid work-course-results-grid" data-course-results>
+          {courses.map((course) => (
+            <WorkCourseCard course={course} />
+          ))}
         </div>
-        <div>
-          <label for="course-provider">Provider</label>
-          <select id="course-provider" name="provider">
-            <option value="">All providers</option>
-            {filterOptions(options.providers).map((value) => (
-              <option value={value}>{value}</option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label for="course-category">Category</label>
-          <select id="course-category" name="category">
-            <option value="">All categories</option>
-            {filterOptions(options.categories).map((value) => (
-              <option value={value}>{value}</option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label for="course-credential">Credential type</label>
-          <select id="course-credential" name="credential">
-            <option value="">Any credential</option>
-            {filterOptions(options.credentials).map((value) => <option value={value}>{value}</option>)}
-          </select>
-        </div>
-        <div>
-          <label for="course-level">Level</label>
-          <select id="course-level" name="level">
-            <option value="">All levels</option>
-            {filterOptions(options.levels).map((value) => (
-              <option value={value}>{value}</option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label for="course-price">Course price</label>
-          <select id="course-price" name="price">
-            <option value="">Any course price</option>
-            {filterOptions(options.coursePrices).map((value) => (
-              <option value={value}>{courseStatusLabel(value)}</option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label for="certificate-price">Certificate price</label>
-          <select id="certificate-price" name="certificatePrice">
-            <option value="">Any certificate price</option>
-            {filterOptions(options.certificatePrices).map((value) => (
-              <option value={value}>{courseStatusLabel(value)}</option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label for="course-delivery">Delivery</label>
-          <select id="course-delivery" name="delivery">
-            <option value="">Any delivery mode</option>
-            {filterOptions(options.deliveryModes).map((value) => (
-              <option value={value}>{courseStatusLabel(value)}</option>
-            ))}
-          </select>
-        </div>
-      </div>
-      <div class="work-filter-actions">
-        <button class="work-button" type="submit">
-          Search courses
-        </button>
-        <button class="work-button work-button-secondary" type="reset">
-          Clear
-        </button>
-      </div>
-    </form>
-    <p id="course-results-status" class="work-results-status" role="status" aria-live="polite">
-      Showing {start}–{end} of {total} courses.
-    </p>
-    <div class="work-resource-grid" data-course-results>
-      {courses.map((course) => (
-        <WorkCourseCard course={course} />
-      ))}
+        <p class="work-course-empty" data-course-empty hidden={allCourses.length > 0}>
+          {allCourses.length
+            ? 'No courses match those filters. Try changing your search.'
+            : 'We’re connecting direct course catalogs. Courses will appear here once source details are available.'}
+        </p>
+        <nav
+          id="course-pagination"
+          class="work-filter-actions work-pagination"
+          aria-label="Course pages"
+        >
+          {page > 1 && (
+            <a class="work-button work-button-secondary" href={previousHref}>
+              Previous page
+            </a>
+          )}
+          <span>
+            Page {page} of {pageCount}
+          </span>
+          {page < pageCount && (
+            <a class="work-button" href={nextHref}>
+              Next page
+            </a>
+          )}
+        </nav>
+      </main>
+      <aside class="work-courses-aside" aria-label="Course learning resources">
+        <AdSlot placement="sidebar" format="rectangle" minHeight={280} />
+        <section class="work-jobs-aside-panel">
+          <p class="work-eyebrow">Plan your learning</p>
+          <h2>Choose a course with confidence</h2>
+          <p>Check the provider’s current fees, certificate terms and availability in Uganda before you enrol.</p>
+          <ul>
+            <li>Compare free access with paid certificates.</li>
+            <li>Look for a level and format that fit your schedule.</li>
+            <li>Confirm all details on the provider’s own site.</li>
+          </ul>
+          <a href="/work/courses/free/">Browse free courses <span aria-hidden="true">→</span></a>
+          <a href="/work/career-pathways/">Explore career pathways <span aria-hidden="true">→</span></a>
+          <a href="/work/courses/how-we-evaluate/">How we evaluate courses <span aria-hidden="true">→</span></a>
+        </section>
+      </aside>
     </div>
-    <p class="work-course-empty" data-course-empty hidden={allCourses.length > 0}>
-      {allCourses.length
-        ? 'No courses match those filters. Try changing your search.'
-        : 'We’re connecting direct course catalogs. Courses will appear here once source details are available.'}
-    </p>
-    <nav
-      id="course-pagination"
-      class="work-filter-actions work-pagination"
-      aria-label="Course pages"
-    >
-      {page > 1 && (
-        <a class="work-button work-button-secondary" href={previousHref}>
-          Previous page
-        </a>
-      )}
-      <span>
-        Page {page} of {pageCount}
-      </span>
-      {page < pageCount && (
-        <a class="work-button" href={nextHref}>
-          Next page
-        </a>
-      )}
-    </nav>
-    <AdSlot placement="section" format="horizontal" />
   </div>
 </WorkLayout>
 
@@ -181,14 +210,21 @@ const clientCourses = allCourses.map((course) => ({
   const status = document.querySelector('#course-results-status');
   const empty = document.querySelector('[data-course-empty]');
   const pagination = document.querySelector('#course-pagination');
+  const filterToggle = document.querySelector('#toggle-course-filters');
+  const advancedFilters = document.querySelector('#course-advanced-filters');
   const params = new URLSearchParams(window.location.search);
   const fields = ['q', 'provider', 'category', 'credential', 'level', 'price', 'certificatePrice', 'delivery'];
-  const pageSize = 48;
+  const pageSize = 9;
   let currentPage = Number(params.get('page')) || initialPage || 1;
   fields.forEach((name) => {
     const input = form?.elements.namedItem(name);
     if (input && params.has(name)) input.value = params.get(name);
   });
+  if (fields.slice(1).some((name) => params.has(name))) {
+    advancedFilters.hidden = false;
+    filterToggle.setAttribute('aria-expanded', 'true');
+    filterToggle.innerHTML = 'Fewer filters <span aria-hidden="true">⌃</span>';
+  }
   const escapeHtml = (value) =>
     String(value ?? '').replace(
       /[&<>"']/g,
@@ -285,6 +321,14 @@ const clientCourses = allCourses.map((course) => ({
     event.preventDefault();
     currentPage = 1;
     apply();
+  });
+  filterToggle?.addEventListener('click', () => {
+    const expanded = filterToggle.getAttribute('aria-expanded') === 'true';
+    filterToggle.setAttribute('aria-expanded', String(!expanded));
+    advancedFilters.hidden = expanded;
+    filterToggle.innerHTML = expanded
+      ? 'More filters <span aria-hidden="true">⌄</span>'
+      : 'Fewer filters <span aria-hidden="true">⌃</span>';
   });
   form?.addEventListener('reset', () => {
     currentPage = 1;

@@ -3,7 +3,7 @@ import WorkCourseCatalog from '../../../../components/work/WorkCourseCatalog.ast
 import { getCourseFilterOptions, getCourseDirectory } from '../../../../lib/work';
 
 export async function getStaticPaths() {
-  const pageSize = 48;
+  const pageSize = 9;
   const allCourses = await getCourseDirectory();
   const pageCount = Math.ceil(allCourses.length / pageSize);
   return Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => {

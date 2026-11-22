@@ -1072,6 +1072,34 @@
   gap: 1.5rem;
 }
 
+.work-courses-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.work-courses-main {
+  min-width: 0;
+}
+
+.work-courses-aside {
+  position: sticky;
+  top: 1rem;
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  max-height: calc(100svh - 2rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.work-courses-aside > .ad-sidebar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .work-jobs-main {
   min-width: 0;
 }
@@ -1096,6 +1124,7 @@
 }
 
 .work-jobs-aside-panel,
+.work-courses-aside .work-jobs-aside-panel,
 .work-job-apply-panel {
   padding: 1.15rem;
   border: 1px solid var(--work-line);
@@ -1105,6 +1134,7 @@
 }
 
 .work-jobs-aside-panel h2,
+.work-courses-aside .work-jobs-aside-panel h2,
 .work-job-apply-panel h2 {
   margin: 0.25rem 0 0.55rem;
   color: var(--work-navy-deep);
@@ -1114,6 +1144,7 @@
 }
 
 .work-jobs-aside-panel p:not(.work-eyebrow),
+.work-courses-aside .work-jobs-aside-panel p:not(.work-eyebrow),
 .work-job-apply-panel p:not(.work-eyebrow) {
   margin: 0.55rem 0;
   color: var(--work-muted);
@@ -1122,6 +1153,14 @@
 }
 
 .work-jobs-aside-panel ul {
+  margin: 0.8rem 0 1rem;
+  padding-left: 1.15rem;
+  color: var(--work-muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.work-courses-aside .work-jobs-aside-panel ul {
   margin: 0.8rem 0 1rem;
   padding-left: 1.15rem;
   color: var(--work-muted);
@@ -1560,6 +1599,41 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.2rem;
+}
+
+.work-course-results-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.work-course-filter-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.6rem;
+}
+
+.work-course-filter-toolbar input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--work-line);
+  border-radius: 7px;
+  color: var(--work-ink);
+  background: #fff;
+  font: inherit;
+}
+
+.work-course-filter-toolbar .work-button {
+  min-height: 44px;
+}
+
+.work-course-advanced-filters[hidden] {
+  display: none;
+}
+
+.work-course-advanced-filters:not([hidden]) {
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--work-line);
 }
 
 .work-employer-grid {
@@ -2320,6 +2394,20 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .work-courses-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .work-courses-aside {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .work-course-results-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .work-home-article-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2409,6 +2497,10 @@
   .work-detail-meta,
   .work-form-grid {
     grid-template-columns: 1fr;
+  }
+
+  .work-course-results-grid {
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .work-form-field-wide {
