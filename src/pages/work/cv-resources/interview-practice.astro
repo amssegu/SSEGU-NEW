@@ -1,0 +1,27 @@
+---
+import WorkLayout from '../../../../layouts/WorkLayout.astro';
+import InterviewPracticeTool from '../../../../components/work/InterviewPracticeTool.astro';
+---
+
+<WorkLayout
+  title="Interview Practice | SSEGU Work"
+  description="Prepare honest, specific interview answers with these free practice questions and notes."
+  canonical="https://ssegu.com/work/cv-resources/interview-practice/"
+>
+  <main class="work-page-shell">
+    <nav class="work-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/work/">Work</a><span>/</span><a href="/work/cv-resources/">CV Resources</a><span>/</span><span aria-current="page">Interview Practice</span>
+    </nav>
+    <div class="work-page-intro">
+      <p class="work-eyebrow">Free application tool</p>
+      <h1 id="interview-practice-title">Interview practice</h1>
+      <p>Build clear answers from your own experience, then practise saying them naturally.</p>
+    </div>
+    <InterviewPracticeTool />
+    <p class="cv-tool-back"><a href="/work/cv-resources/">← Back to CV resources</a></p>
+  </main>
+</WorkLayout>
+
+<style>
+  .cv-tool-back { margin-top: 1.5rem; font-weight: 700; }
+</style>

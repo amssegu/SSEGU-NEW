@@ -1,0 +1,42 @@
+<section class="cv-tool-page" aria-labelledby="checklist-title">
+  <p>Tick each item as you review your application. Use the progress count to see what is left.</p>
+  <div class="cv-checklist" data-cv-checklist>
+    <label><input type="checkbox" /> My phone number and email address are correct.</label>
+    <label><input type="checkbox" /> My profile and skills match this vacancy truthfully.</label>
+    <label><input type="checkbox" /> Every role has clear dates, employer and relevant achievements.</label>
+    <label><input type="checkbox" /> I checked spelling, dates and consistent formatting.</label>
+    <label><input type="checkbox" /> I followed the requested file type and file name.</label>
+    <label><input type="checkbox" /> I opened the final file and checked every page.</label>
+    <label><input type="checkbox" /> All statements are accurate and referees have agreed to be listed.</label>
+  </div>
+  <div class="cv-checklist-footer">
+    <p class="cv-tool-status" data-checklist-status role="status" aria-live="polite">0 of 7 checked</p>
+    <button class="cv-tool-button" type="button" data-checklist-reset>Reset checklist</button>
+  </div>
+</section>
+
+<script>
+  const checklist = document.querySelector<HTMLElement>('[data-cv-checklist]');
+  const updateChecklist = () => {
+    if (!checklist) return;
+    const boxes = Array.from(checklist.querySelectorAll<HTMLInputElement>('input[type="checkbox"]'));
+    const checked = boxes.filter((box) => box.checked).length;
+    const status = document.querySelector<HTMLElement>('[data-checklist-status]');
+    if (status) status.textContent = `${checked} of ${boxes.length} checked`;
+  };
+  checklist?.addEventListener('change', updateChecklist);
+  document.querySelector('[data-checklist-reset]')?.addEventListener('click', () => {
+    checklist?.querySelectorAll<HTMLInputElement>('input[type="checkbox"]').forEach((box) => { box.checked = false; });
+    updateChecklist();
+  });
+</script>
+
+<style>
+  .cv-tool-page { max-width: 800px; padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--work-line); border-radius: var(--work-radius); background: #fff; box-shadow: 0 4px 18px rgb(22 59 124 / 7%); }
+  .cv-checklist { display: grid; gap: .25rem; margin-top: 1.25rem; }
+  .cv-checklist label { display: grid; grid-template-columns: 1.25rem 1fr; gap: .7rem; align-items: start; padding: .85rem .5rem; border-bottom: 1px solid var(--work-line); color: #26394f; }
+  .cv-checklist input { width: 1.1rem; height: 1.1rem; margin: .1rem 0 0; accent-color: var(--work-blue); }
+  .cv-checklist-footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1rem; }
+  .cv-tool-status { color: var(--work-blue); font-weight: 800; }
+  .cv-tool-button { padding: .6rem .9rem; border: 1px solid var(--work-blue); border-radius: 5px; background: white; color: var(--work-blue); font: inherit; font-weight: 700; cursor: pointer; }
+</style>

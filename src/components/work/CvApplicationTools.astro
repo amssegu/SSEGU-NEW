@@ -2,102 +2,38 @@
   <div class="work-page-intro">
     <p class="work-eyebrow">Free application tools</p>
     <h2 id="cv-tools-title">Get the rest of your application ready</h2>
-    <p>Use these simple, private tools alongside your CV. Nothing is sent to a server.</p>
+    <p>Open a focused tool for your final CV review, cover letter or interview practice.</p>
   </div>
   <div class="cv-tools-grid">
-    <article class="cv-tool-card">
-      <span class="cv-tool-number" aria-hidden="true">01</span>
+    <a class="cv-tool-card" href="/work/cv-resources/checklist/">
+      <span class="cv-tool-number" aria-hidden="true">01 · CV REVIEW</span>
       <h3>CV final-check list</h3>
-      <p>Tick each item as you review your application.</p>
-      <div class="cv-checklist" data-cv-checklist>
-        <label><input type="checkbox" /> My phone number and email are correct.</label>
-        <label><input type="checkbox" /> My profile and skills match this vacancy truthfully.</label>
-        <label><input type="checkbox" /> Every role has clear dates, employer and achievements.</label>
-        <label><input type="checkbox" /> I checked spelling, dates and consistent formatting.</label>
-        <label><input type="checkbox" /> I followed the requested file type and file name.</label>
-        <label><input type="checkbox" /> I opened the final file and checked every page.</label>
-      </div>
-      <p class="cv-tool-status" data-checklist-status aria-live="polite">0 of 6 checked</p>
-    </article>
-    <article class="cv-tool-card">
-      <span class="cv-tool-number" aria-hidden="true">02</span>
+      <p>Review your contact details, evidence, formatting and application instructions before sending.</p>
+      <span class="cv-tool-link">Open checklist →</span>
+    </a>
+    <a class="cv-tool-card" href="/work/cv-resources/cover-letter/">
+      <span class="cv-tool-number" aria-hidden="true">02 · COVER LETTER</span>
       <h3>Cover letter starter</h3>
-      <p>Fill in the prompts to create a focused first draft. Edit it to sound like you.</p>
-      <div class="cv-tool-fields">
-        <label>Role<input data-letter-role placeholder="e.g. Accounts Assistant" /></label>
-        <label>Employer<input data-letter-employer placeholder="e.g. Example Company" /></label>
-        <label>Relevant evidence<textarea data-letter-evidence rows="3" placeholder="Describe one real experience or achievement relevant to the role."></textarea></label>
-      </div>
-      <textarea class="cv-letter-output" data-letter-output aria-label="Cover letter draft" rows="8" placeholder="Your draft will appear here; you can edit it before copying."></textarea>
-      <button class="cv-tool-button" type="button" data-letter-copy>Copy draft</button>
-      <span class="cv-tool-status" data-letter-status role="status" aria-live="polite"></span>
-    </article>
-    <article class="cv-tool-card">
-      <span class="cv-tool-number" aria-hidden="true">03</span>
+      <p>Turn a few role-specific details into an editable first draft you can copy and personalise.</p>
+      <span class="cv-tool-link">Write a cover letter →</span>
+    </a>
+    <a class="cv-tool-card" href="/work/cv-resources/interview-practice/">
+      <span class="cv-tool-number" aria-hidden="true">03 · INTERVIEW</span>
       <h3>Interview practice</h3>
-      <p>Choose a prompt, write a few notes, then practise answering aloud with a real example.</p>
-      <label>Practice question<select data-interview-question>
-        <option>Tell me about yourself and the experience you would bring to this role.</option>
-        <option>Describe a time you solved a problem at work or during your studies.</option>
-        <option>Tell me about a time you worked with a team to reach a goal.</option>
-        <option>What is one achievement you are proud of, and how did you make it happen?</option>
-        <option>How would you handle a difficult customer or colleague?</option>
-        <option>What would you like to learn or achieve in this role?</option>
-      </select></label>
-      <label>Your notes <textarea rows="5" data-interview-notes placeholder="Situation: what was happening?&#10;Action: what did you do?&#10;Result: what changed or what did you learn?"></textarea></label>
-      <p class="cv-tool-hint">Keep your answer specific and honest. Focus on what you did, not only what the team did.</p>
-    </article>
+      <p>Choose a question, prepare a real example and practise answering it clearly.</p>
+      <span class="cv-tool-link">Practise an answer →</span>
+    </a>
   </div>
 </section>
-
-<script>
-  const checklist = document.querySelector<HTMLElement>('[data-cv-checklist]');
-  checklist?.addEventListener('change', () => {
-    const boxes = Array.from(checklist.querySelectorAll<HTMLInputElement>('input[type="checkbox"]'));
-    const checked = boxes.filter((box) => box.checked).length;
-    const status = document.querySelector<HTMLElement>('[data-checklist-status]');
-    if (status) status.textContent = `${checked} of ${boxes.length} checked`;
-  });
-
-  const letterRole = document.querySelector<HTMLInputElement>('[data-letter-role]');
-  const letterEmployer = document.querySelector<HTMLInputElement>('[data-letter-employer]');
-  const letterEvidence = document.querySelector<HTMLTextAreaElement>('[data-letter-evidence]');
-  const letterOutput = document.querySelector<HTMLTextAreaElement>('[data-letter-output]');
-  const updateLetter = () => {
-    if (!letterOutput) return;
-    const role = letterRole?.value.trim() || '[role title]';
-    const employer = letterEmployer?.value.trim() || '[employer]';
-    const evidence = letterEvidence?.value.trim() || '[add a specific example that shows how your experience meets a requirement]';
-    letterOutput.value = `Dear Hiring Manager,\n\nI am applying for the ${role} position at ${employer}. I am interested in this opportunity because [explain briefly why this role or organisation interests you].\n\nMy experience in [relevant area] has prepared me to contribute to this role. For example, ${evidence}\n\nI would welcome the opportunity to discuss how my experience and skills could support your team. Thank you for considering my application.\n\nYours sincerely,\n[Your name]`;
-  };
-  [letterRole, letterEmployer, letterEvidence].forEach((field) => field?.addEventListener('input', updateLetter));
-  updateLetter();
-  document.querySelector('[data-letter-copy]')?.addEventListener('click', async () => {
-    const status = document.querySelector<HTMLElement>('[data-letter-status]');
-    try {
-      await navigator.clipboard.writeText(letterOutput?.value ?? '');
-      if (status) status.textContent = 'Draft copied. Review and personalise it before sending.';
-    } catch {
-      if (status) status.textContent = 'Copy is unavailable here. Select the draft text and copy it.';
-    }
-  });
-</script>
 
 <style>
   .cv-tools { margin: 3rem 0 1rem; }
   .cv-tools-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
-  .cv-tool-card { display: flex; flex-direction: column; align-items: stretch; min-width: 0; padding: 1.25rem; border: 1px solid var(--work-line); border-radius: var(--work-radius); background: #fff; box-shadow: 0 4px 18px rgb(22 59 124 / 7%); }
+  .cv-tool-card { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; padding: 1.25rem; border: 1px solid var(--work-line); border-radius: var(--work-radius); background: #fff; box-shadow: 0 4px 18px rgb(22 59 124 / 7%); color: inherit; text-decoration: none; transition: transform 160ms ease, box-shadow 160ms ease; }
+  .cv-tool-card:hover, .cv-tool-card:focus-visible { transform: translateY(-2px); box-shadow: 0 8px 24px rgb(22 59 124 / 13%); }
   .cv-tool-number { color: var(--work-purple); font-size: .75rem; font-weight: 900; letter-spacing: .08em; }
-  .cv-tool-card h3 { margin: .35rem 0; color: var(--work-navy-deep); font-size: 1.2rem; }
-  .cv-tool-card > p { color: var(--work-muted); font-size: .9rem; }
-  .cv-checklist, .cv-tool-fields { display: grid; gap: .65rem; }
-  .cv-checklist label, .cv-tool-card label { display: grid; gap: .3rem; color: #26394f; font-size: .88rem; }
-  .cv-checklist label { grid-template-columns: 1.1rem 1fr; align-items: start; }
-  .cv-tool-card input, .cv-tool-card textarea, .cv-tool-card select { width: 100%; padding: .6rem; border: 1px solid #b8c6d9; border-radius: 5px; color: #14243a; font: inherit; font-size: .9rem; }
-  .cv-checklist input { margin-top: .15rem; accent-color: var(--work-blue); }
-  .cv-tool-status { margin: .6rem 0 0; color: var(--work-blue); font-size: .83rem; font-weight: 700; }
-  .cv-letter-output { margin-top: .7rem; background: #f8fbff; }
-  .cv-tool-button { align-self: start; margin-top: .6rem; padding: .5rem .8rem; border: 1px solid var(--work-blue); border-radius: 5px; background: white; color: var(--work-blue); font: inherit; font-weight: 700; cursor: pointer; }
-  .cv-tool-hint { margin-top: .7rem; padding: .7rem; border-left: 3px solid var(--work-yellow); background: #fffaf0; font-size: .85rem; }
+  .cv-tool-card h3 { margin: .45rem 0; color: var(--work-navy-deep); font-size: 1.2rem; }
+  .cv-tool-card p { margin: 0 0 1rem; color: var(--work-muted); font-size: .9rem; }
+  .cv-tool-link { margin-top: auto; color: var(--work-blue); font-weight: 800; }
   @media (max-width: 900px) { .cv-tools-grid { grid-template-columns: 1fr; } }
 </style>

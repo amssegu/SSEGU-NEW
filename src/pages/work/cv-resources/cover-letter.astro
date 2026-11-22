@@ -1,0 +1,27 @@
+---
+import WorkLayout from '../../../../layouts/WorkLayout.astro';
+import CoverLetterTool from '../../../../components/work/CoverLetterTool.astro';
+---
+
+<WorkLayout
+  title="Cover Letter Starter | SSEGU Work"
+  description="Create and edit a focused cover letter draft for a specific role using this free, private tool."
+  canonical="https://ssegu.com/work/cv-resources/cover-letter/"
+>
+  <main class="work-page-shell">
+    <nav class="work-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/work/">Work</a><span>/</span><a href="/work/cv-resources/">CV Resources</a><span>/</span><span aria-current="page">Cover Letter Starter</span>
+    </nav>
+    <div class="work-page-intro">
+      <p class="work-eyebrow">Free application tool</p>
+      <h1 id="cover-letter-title">Cover letter starter</h1>
+      <p>Make a role-specific first draft, then review and personalise it before you send it.</p>
+    </div>
+    <CoverLetterTool />
+    <p class="cv-tool-back"><a href="/work/cv-resources/">← Back to CV resources</a></p>
+  </main>
+</WorkLayout>
+
+<style>
+  .cv-tool-back { margin-top: 1.5rem; font-weight: 700; }
+</style>

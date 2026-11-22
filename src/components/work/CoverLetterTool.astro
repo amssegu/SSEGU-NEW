@@ -1,0 +1,60 @@
+<section class="cv-tool-page" aria-labelledby="cover-letter-title">
+  <p>Enter a few details to create a first draft. The draft stays editable: replace prompts, check every claim and make it sound like you before sending.</p>
+  <div class="cv-letter-fields">
+    <label>Role title<input data-letter-role placeholder="e.g. Accounts Assistant" /></label>
+    <label>Employer<input data-letter-employer placeholder="e.g. Example Company" /></label>
+    <label>Why this role interests you<textarea data-letter-interest rows="2" placeholder="A specific reason you want this role or want to work with this employer."></textarea></label>
+    <label>Relevant experience or achievement<textarea data-letter-evidence rows="3" placeholder="Describe a real example that shows how you meet an important requirement."></textarea></label>
+    <label>Your name<input data-letter-name placeholder="Your full name" /></label>
+  </div>
+  <label class="cv-letter-label">Editable cover letter draft<textarea class="cv-letter-output" data-letter-output rows="15"></textarea></label>
+  <div class="cv-letter-actions">
+    <button class="cv-tool-button" type="button" data-letter-copy>Copy draft</button>
+    <span class="cv-tool-status" data-letter-status role="status" aria-live="polite"></span>
+  </div>
+</section>
+
+<script>
+  const letterRole = document.querySelector<HTMLInputElement>('[data-letter-role]');
+  const letterEmployer = document.querySelector<HTMLInputElement>('[data-letter-employer]');
+  const letterInterest = document.querySelector<HTMLTextAreaElement>('[data-letter-interest]');
+  const letterEvidence = document.querySelector<HTMLTextAreaElement>('[data-letter-evidence]');
+  const letterName = document.querySelector<HTMLInputElement>('[data-letter-name]');
+  const letterOutput = document.querySelector<HTMLTextAreaElement>('[data-letter-output]');
+  const updateLetter = () => {
+    if (!letterOutput) return;
+    const role = letterRole?.value.trim() || '[role title]';
+    const employer = letterEmployer?.value.trim() || '[employer]';
+    const interest = letterInterest?.value.trim() || '[explain briefly why this role or organisation interests you]';
+    const evidence = letterEvidence?.value.trim() || '[give a specific example that shows how your experience meets a requirement]';
+    const name = letterName?.value.trim() || '[Your name]';
+    const previous = letterOutput.value;
+    const generated = `Dear Hiring Manager,\n\nI am applying for the ${role} position at ${employer}. ${interest}\n\nMy experience has prepared me to contribute to this role. For example, ${evidence}\n\nI would welcome the opportunity to discuss how my experience and skills could support your team. Thank you for considering my application.\n\nYours sincerely,\n${name}`;
+    if (!previous || previous === letterOutput.dataset.generated) letterOutput.value = generated;
+    letterOutput.dataset.generated = generated;
+  };
+  [letterRole, letterEmployer, letterInterest, letterEvidence, letterName].forEach((field) => field?.addEventListener('input', updateLetter));
+  updateLetter();
+  document.querySelector('[data-letter-copy]')?.addEventListener('click', async () => {
+    const status = document.querySelector<HTMLElement>('[data-letter-status]');
+    try {
+      await navigator.clipboard.writeText(letterOutput?.value ?? '');
+      if (status) status.textContent = 'Draft copied. Review and personalise it before sending.';
+    } catch {
+      if (status) status.textContent = 'Copy is unavailable here. Select the draft text and copy it.';
+    }
+  });
+</script>
+
+<style>
+  .cv-tool-page { max-width: 900px; padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--work-line); border-radius: var(--work-radius); background: #fff; box-shadow: 0 4px 18px rgb(22 59 124 / 7%); }
+  .cv-letter-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.25rem 0; }
+  .cv-letter-fields label, .cv-letter-label { display: grid; gap: .35rem; color: #26394f; font-size: .9rem; font-weight: 700; }
+  .cv-letter-fields label:nth-child(n + 3) { grid-column: 1 / -1; }
+  .cv-letter-fields input, .cv-letter-fields textarea, .cv-letter-output { width: 100%; padding: .7rem; border: 1px solid #b8c6d9; border-radius: 5px; color: #14243a; font: inherit; font-weight: 400; }
+  .cv-letter-output { margin-top: .4rem; background: #f8fbff; line-height: 1.55; }
+  .cv-letter-actions { display: flex; align-items: center; gap: 1rem; margin-top: .8rem; }
+  .cv-tool-button { padding: .6rem .9rem; border: 1px solid var(--work-blue); border-radius: 5px; background: white; color: var(--work-blue); font: inherit; font-weight: 700; cursor: pointer; }
+  .cv-tool-status { color: var(--work-blue); font-size: .88rem; }
+  @media (max-width: 640px) { .cv-letter-fields { grid-template-columns: 1fr; } .cv-letter-fields label:nth-child(n + 3) { grid-column: auto; } }
+</style>

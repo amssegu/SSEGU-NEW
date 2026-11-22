@@ -1,0 +1,38 @@
+<section class="cv-tool-page" aria-labelledby="interview-practice-title">
+  <p>Choose a question and prepare notes from your own experience. Practise your answer aloud; these notes stay in your browser and are not saved or sent.</p>
+  <div class="cv-interview-layout">
+    <div class="cv-interview-prompt">
+      <label for="practice-question">Practice question</label>
+      <select id="practice-question" data-interview-question>
+        <option>Tell me about yourself and the experience you would bring to this role.</option>
+        <option>Describe a time you solved a problem at work or during your studies.</option>
+        <option>Tell me about a time you worked with a team to reach a goal.</option>
+        <option>What is one achievement you are proud of, and how did you make it happen?</option>
+        <option>How would you handle a difficult customer or colleague?</option>
+        <option>What would you like to learn or achieve in this role?</option>
+        <option>Tell me about a time something did not go to plan. What did you do?</option>
+      </select>
+      <p class="cv-tool-hint"><strong>Structure your example:</strong> explain the situation, the action you personally took, and the result or lesson. Keep it specific and honest.</p>
+    </div>
+    <label class="cv-interview-notes">Your answer notes<textarea rows="12" data-interview-notes placeholder="Situation: what was happening?&#10;&#10;Action: what did you do?&#10;&#10;Result: what changed or what did you learn?"></textarea></label>
+  </div>
+  <button class="cv-tool-button" type="button" data-interview-clear>Clear notes</button>
+</section>
+
+<script>
+  document.querySelector('[data-interview-clear]')?.addEventListener('click', () => {
+    const notes = document.querySelector<HTMLTextAreaElement>('[data-interview-notes]');
+    if (notes) notes.value = '';
+  });
+</script>
+
+<style>
+  .cv-tool-page { max-width: 1000px; padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--work-line); border-radius: var(--work-radius); background: #fff; box-shadow: 0 4px 18px rgb(22 59 124 / 7%); }
+  .cv-interview-layout { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 1.25rem; margin: 1.25rem 0; }
+  .cv-interview-prompt label, .cv-interview-notes { display: grid; gap: .45rem; color: #26394f; font-size: .9rem; font-weight: 700; }
+  .cv-interview-prompt select, .cv-interview-notes textarea { width: 100%; padding: .7rem; border: 1px solid #b8c6d9; border-radius: 5px; color: #14243a; font: inherit; font-weight: 400; }
+  .cv-interview-notes textarea { line-height: 1.55; }
+  .cv-tool-hint { margin-top: 1rem; padding: .9rem; border-left: 3px solid var(--work-yellow); background: #fffaf0; color: #384b61; font-size: .9rem; line-height: 1.55; }
+  .cv-tool-button { padding: .6rem .9rem; border: 1px solid var(--work-blue); border-radius: 5px; background: white; color: var(--work-blue); font: inherit; font-weight: 700; cursor: pointer; }
+  @media (max-width: 700px) { .cv-interview-layout { grid-template-columns: 1fr; } }
+</style>
