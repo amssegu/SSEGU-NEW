@@ -29,13 +29,16 @@ const stories = pageItems(allStories, 1, CATEGORY_PAGE_SIZE);
   <div class="shell page-wrap category-page-shell">
     <p class="eyebrow">Section</p>
     <h1>{label(slug)}</h1>
-    <AdSlot placement="top" format="horizontal" />
     {stories.length ? (
       <>
         <div class="category-content">
           <section class="category-main" aria-label={`${label(slug)} stories`}>
             <div class="listing-grid">
-              {stories.map((article) => (
+              {stories.slice(0, 3).map((article) => (
+                <StoryCard article={article} />
+              ))}
+              <AdSlot placement="section" format="horizontal" />
+              {stories.slice(3).map((article) => (
                 <StoryCard article={article} />
               ))}
             </div>
@@ -43,7 +46,6 @@ const stories = pageItems(allStories, 1, CATEGORY_PAGE_SIZE);
           </section>
           <aside class="category-sidebar" aria-label="Advertisement">
             <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
-            <AdSlot placement="section" format="rectangle" minHeight={600} />
           </aside>
         </div>
       </>

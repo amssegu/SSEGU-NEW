@@ -394,7 +394,8 @@ input:focus-visible {
 .ad-slot .adsbygoogle {
   display: block;
   width: 100%;
-  min-width: 250px;
+  min-width: 0;
+  max-width: 100%;
 }
 .ad-slot-placeholder {
   display: grid;
@@ -407,8 +408,8 @@ input:focus-visible {
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
-.ad-unit ins.adsbygoogle[data-ad-status='unfilled'] {
-  visibility: hidden;
+.ad-unit:has(> .ad-slot > ins.adsbygoogle[data-ad-status='unfilled']) {
+  display: none;
 }
 .ad-sidebar {
   width: 100%;
@@ -421,6 +422,13 @@ input:focus-visible {
   padding-block: 0.75rem;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
+}
+
+.listing-grid > .ad-unit {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: none;
+  margin: 0;
 }
 .ad-article {
   margin-block: 1.5rem;

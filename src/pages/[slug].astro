@@ -162,7 +162,6 @@ const structuredData = [
             height="675"
           />
         </picture>
-        <AdSlot placement="article" format="horizontal" minHeight={60} />
         <div class="article-body">
           {hasNormalizedBody ? (
             <div set:html={cleanedBody} />
@@ -173,7 +172,7 @@ const structuredData = [
           )}
         </div>
         <template id="article-inline-ad-template">
-          <AdSlot placement="article" format="horizontal" minHeight={60} />
+          <AdSlot placement="article" format="horizontal" minHeight={90} />
         </template>
         {relatedStories.length > 0 && (
           <section class="related" aria-labelledby="related-title">
@@ -202,7 +201,7 @@ const structuredData = [
       {topStories.length > 0 && (
         <aside class="article-top-stories" aria-label="Top Stories">
           <TopStories articles={topStories} />
-          <AdSlot placement="sidebar" format="rectangle" minHeight={120} />
+          <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
         </aside>
       )}
     </div>
@@ -214,7 +213,7 @@ const structuredData = [
   const inlineAdTemplate = document.querySelector('#article-inline-ad-template');
   if (articleBody && inlineAdTemplate) {
     const paragraphs = [...articleBody.querySelectorAll('p')];
-    const adCount = Math.min(5, Math.max(2, Math.floor(paragraphs.length / 3)));
+    const adCount = Math.min(2, Math.floor(paragraphs.length / 8));
     const insertionIndexes = new Set(
       Array.from({ length: adCount }, (_, index) =>
         Math.min(

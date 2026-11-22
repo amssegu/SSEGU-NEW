@@ -1,7 +1,6 @@
 ---
 import '../styles/work.css';
 import '../styles/global.css';
-import AdSlot from '../components/main/AdSlot.astro';
 import CookieConsent from '../components/shared/CookieConsent.astro';
 import SeoHead from '../components/shared/SeoHead.astro';
 import { adsenseClient } from '../lib/adsense';
@@ -117,7 +116,6 @@ const nav = [
       </header>
       <main id="work-main-content" class="work-main">
         <slot />
-        <AdSlot placement="section" format="horizontal" />
       </main>
       <footer class="work-footer">
         <div class="work-footer-inner">
