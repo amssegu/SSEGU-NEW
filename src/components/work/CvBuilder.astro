@@ -6,7 +6,8 @@
       <p>Your information stays in this browser. Add each job and qualification as its own entry, then print a clean, text-based CV.</p>
     </div>
     <div class="cv-builder-actions">
-      <button class="work-button" type="button" data-cv-print>Print / save as PDF</button>
+      <button class="work-button" type="button" data-cv-download>Download PDF</button>
+      <button class="work-button work-button-secondary" type="button" data-cv-print>Print CV</button>
       <button class="work-button work-button-secondary" type="button" data-cv-copy>Copy CV text</button>
       <span class="cv-copy-status" role="status" aria-live="polite"></span>
     </div>
@@ -132,6 +133,131 @@
       renderEntries('education', '[data-cv-education]');
       renderList('additional', '[data-cv-additional]');
     };
+    const downloadPdf = async () => {
+      const status = document.querySelector<HTMLElement>('.cv-copy-status');
+      if (status) status.textContent = 'Preparing your PDF…';
+      try {
+        const { jsPDF } = await import('jspdf');
+        const pdf = new jsPDF({ unit: 'mm', format: 'a4', compress: true });
+        const pageWidth = pdf.internal.pageSize.getWidth();
+        const pageHeight = pdf.internal.pageSize.getHeight();
+        const margin = 17;
+        const contentWidth = pageWidth - margin * 2;
+        const bottom = pageHeight - margin;
+        const navy = [24, 59, 104] as const;
+        const dark = [24, 36, 51] as const;
+        const muted = [83, 101, 123] as const;
+        const safeText = (text: string) => text
+          .replace(/[‘’]/g, "'")
+          .replace(/[“”]/g, '"')
+          .replace(/[–—]/g, '-')
+          .replace(/…/g, '...')
+          .replace(/[^\x20-\xFF]/g, '?');
+        let y = margin;
+        const name = value('name') || 'Your Name';
+        const newPage = () => {
+          pdf.addPage();
+          y = margin;
+          pdf.setFont('helvetica', 'bold');
+          pdf.setFontSize(12);
+          pdf.setTextColor(...navy);
+          pdf.text(safeText(name), margin, y);
+          y += 5;
+          pdf.setDrawColor(...navy);
+          pdf.setLineWidth(0.4);
+          pdf.line(margin, y, pageWidth - margin, y);
+          y += 7;
+        };
+        const writeLines = (text: string, x: number, width: number, fontSize: number, leading: number, style: 'normal' | 'bold' = 'normal', color: readonly [number, number, number] = dark) => {
+          pdf.setFont('helvetica', style);
+          pdf.setFontSize(fontSize);
+          pdf.setTextColor(...color);
+          const wrapped = pdf.splitTextToSize(safeText(text), width) as string[];
+          for (const line of wrapped) {
+            if (y + leading > bottom) newPage();
+            pdf.text(line, x, y);
+            y += leading;
+          }
+        };
+        const sectionHeading = (heading: string) => {
+          if (y + 13 > bottom) newPage();
+          y += 4;
+          pdf.setFont('helvetica', 'bold');
+          pdf.setFontSize(12);
+          pdf.setTextColor(...navy);
+          pdf.text(heading.toUpperCase(), margin, y);
+          y += 2;
+          pdf.setDrawColor(174, 189, 206);
+          pdf.setLineWidth(0.25);
+          pdf.line(margin, y, pageWidth - margin, y);
+          y += 5;
+        };
+        const writeBullets = (items: string[]) => {
+          for (const item of items) writeLines(`- ${item}`, margin + 3, contentWidth - 3, 10.8, 5.3);
+        };
+
+        pdf.setProperties({ title: `${name} - CV`, subject: 'Curriculum vitae', creator: 'SSEGU CV Builder' });
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(20.5);
+        pdf.setTextColor(...navy);
+        const nameLines = pdf.splitTextToSize(safeText(name), contentWidth) as string[];
+        for (const line of nameLines) {
+          if (y + 10 > bottom) newPage();
+          pdf.text(line, margin, y);
+          y += 9;
+        }
+        const contact = [value('email'), value('phone'), value('location'), value('website')].filter(Boolean).join(' | ');
+        if (contact) writeLines(contact, margin, contentWidth, 10.5, 4.8, 'normal', muted);
+        y += 2;
+        pdf.setDrawColor(...navy);
+        pdf.setLineWidth(0.65);
+        pdf.line(margin, y, pageWidth - margin, y);
+        y += 4;
+
+        const profile = value('profile');
+        if (profile) {
+          sectionHeading('Professional Profile');
+          writeLines(profile, margin, contentWidth, 10.8, 5.3);
+        }
+        const skills = lines(value('skills'));
+        if (skills.length) {
+          sectionHeading('Key Skills');
+          writeBullets(skills);
+        }
+        const experiences = entryValues('experience');
+        if (experiences.length) {
+          sectionHeading('Work Experience');
+          for (const entry of experiences) {
+            if (entry.title) writeLines(entry.title, margin, contentWidth, 11.5, 5, 'bold');
+            const meta = [entry.organization, entry.location, [entry.start, entry.end].filter(Boolean).join(' - ')].filter(Boolean).join(' | ');
+            if (meta) writeLines(meta, margin, contentWidth, 10.8, 5, 'normal', muted);
+            writeBullets(entry.details);
+            y += 2;
+          }
+        }
+        const education = entryValues('education');
+        if (education.length) {
+          sectionHeading('Education and Training');
+          for (const entry of education) {
+            if (entry.title) writeLines(entry.title, margin, contentWidth, 11.5, 5, 'bold');
+            const meta = [entry.organization, entry.location, [entry.start, entry.end].filter(Boolean).join(' - ')].filter(Boolean).join(' | ');
+            if (meta) writeLines(meta, margin, contentWidth, 10.8, 5, 'normal', muted);
+            writeBullets(entry.details);
+            y += 2;
+          }
+        }
+        const additional = lines(value('additional'));
+        if (additional.length) {
+          sectionHeading('Additional Information');
+          writeBullets(additional);
+        }
+        const filename = name.normalize('NFKD').replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '-') || 'CV';
+        pdf.save(`${filename}-CV.pdf`);
+        if (status) status.textContent = 'Your PDF download has started.';
+      } catch {
+        if (status) status.textContent = 'PDF download failed. Use Print CV and choose Save as PDF instead.';
+      }
+    };
     const addEntry = (type: string) => {
       const template = document.querySelector<HTMLTemplateElement>(`[data-entry-template="${type}"]`);
       const list = form.querySelector<HTMLElement>(`[data-entry-list="${type}"]`);
@@ -151,7 +277,7 @@
         render();
       }
     });
-    const printStyles = `body{margin:0;color:#182433;font:10.5pt Arial,Helvetica,sans-serif;line-height:1.45} .cv-preview{max-width:190mm;margin:0 auto} .cv-preview-header{padding-bottom:10pt;border-bottom:2px solid #183b68} .cv-preview-header h2{margin:0 0 5pt;color:#122e50;font-size:23pt} .cv-preview-header p{margin:0;font-size:9.5pt} .cv-preview section{margin-top:15pt;break-inside:avoid} .cv-preview section h3{margin:0 0 6pt;padding-bottom:3pt;border-bottom:1px solid #aebdce;color:#183b68;font-size:11pt;text-transform:uppercase;letter-spacing:.03em} .cv-preview-entry{margin:0 0 10pt;break-inside:avoid} .cv-preview-entry h4{margin:0;font-size:10.5pt} .cv-preview p,.cv-preview li{margin:2pt 0;font-size:10pt;overflow-wrap:anywhere} .cv-preview ul{margin:3pt 0 0;padding-left:18pt} .cv-preview-meta{color:#384b61} @page{size:A4;margin:16mm}`;
+    const printStyles = `body{margin:0;color:#182433;font:10.8pt Arial,Helvetica,sans-serif;line-height:1.5} .cv-preview{max-width:190mm;margin:0 auto} .cv-preview-header{padding-bottom:10pt;border-bottom:2px solid #183b68} .cv-preview-header h2{margin:0 0 5pt;color:#122e50;font-size:20.5pt} .cv-preview-header p{margin:0;font-size:10.5pt} .cv-preview section{margin-top:13pt} .cv-preview section h3{margin:0 0 6pt;padding-bottom:3pt;border-bottom:1px solid #aebdce;color:#183b68;font-size:12pt;text-transform:uppercase;letter-spacing:.03em} .cv-preview-entry{margin:0 0 10pt} .cv-preview-entry h4{margin:0;font-size:11.5pt} .cv-preview p,.cv-preview li{margin:2pt 0;font-size:10.8pt;overflow-wrap:anywhere} .cv-preview ul{margin:3pt 0 0;padding-left:12pt;list-style:none} .cv-preview li{padding-left:10pt;text-indent:-10pt} .cv-preview li:before{content:'- '} .cv-preview-meta{color:#53657b} @page{size:A4;margin:16mm}`;
     const printCv = () => {
       const printWindow = window.open('', '_blank');
       if (!printWindow) {
@@ -168,6 +294,7 @@
     };
     form.addEventListener('input', render);
     render();
+    document.querySelector('[data-cv-download]')?.addEventListener('click', downloadPdf);
     document.querySelector('[data-cv-print]')?.addEventListener('click', printCv);
     document.querySelector('[data-cv-copy]')?.addEventListener('click', async () => {
       const text = preview.innerText.replace(/\n{3,}/g, '\n\n').trim();
@@ -208,12 +335,14 @@
   .cv-preview-header h2 { margin: 0 0 .4rem; color: #122e50; font-size: 1.7rem; }
   .cv-preview-header p { margin: 0; overflow-wrap: anywhere; font-size: .88rem; }
   .cv-preview section { margin-top: 1.1rem; }
-  .cv-preview section h3 { margin: 0 0 .45rem; padding-bottom: .25rem; border-bottom: 1px solid #aebdce; color: #183b68; font-size: 1rem; text-transform: uppercase; letter-spacing: .035em; }
-  .cv-preview h4 { margin: .6rem 0 .15rem; color: #182433; font-size: .95rem; }
+  .cv-preview section h3 { margin: 0 0 .45rem; padding-bottom: .25rem; border-bottom: 1px solid #aebdce; color: #183b68; font-size: .96rem; text-transform: uppercase; letter-spacing: .035em; }
+  .cv-preview h4 { margin: .6rem 0 .15rem; color: #182433; font-size: .92rem; }
   .cv-preview p, .cv-preview li { font-size: .9rem; line-height: 1.5; overflow-wrap: anywhere; }
   .cv-preview p { margin: .25rem 0; white-space: pre-wrap; }
   .cv-preview-meta { color: #53657b; }
-  .cv-preview ul { margin: .3rem 0 0; padding-left: 1.2rem; }
+  .cv-preview ul { margin: .3rem 0 0; padding-left: .9rem; list-style: none; }
+  .cv-preview li { padding-left: .8rem; text-indent: -.8rem; }
+  .cv-preview li::before { content: "- "; }
   .cv-builder-note { margin: 1rem 0 0; color: #53657b; font-size: .9rem; }
   @media (max-width: 850px) { .cv-builder-heading { align-items: start; flex-direction: column; } .cv-builder-layout { grid-template-columns: 1fr; } .cv-preview { position: static; max-height: none; overflow: visible; } }
 </style>
