@@ -2326,12 +2326,105 @@ input:focus-visible {
 
   .home-grid,
   .lower-grid {
-    gap: 1.25rem;
+    gap: 1rem;
   }
 
   .card-grid,
   .listing-grid {
-    gap: 1.25rem;
+    gap: 1rem;
+  }
+
+  .shell,
+  .home-grid,
+  .lower-grid,
+  .lead-area,
+  .lead-primary,
+  .supporting-column,
+  .home-sidebar,
+  .below-lead-stories,
+  .card-grid,
+  .listing-grid,
+  .story-card {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .page-wrap {
+    padding-block: 1.5rem 2rem;
+  }
+
+  .home-grid {
+    margin-top: 1rem;
+  }
+
+  .lead-area,
+  .lead-primary {
+    gap: 0.75rem;
+  }
+
+  .below-lead-stories {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .lower-grid {
+    margin-top: 2rem;
+  }
+
+  .story-card-copy {
+    padding-block: 0.35rem;
+  }
+
+  .story-card h3 {
+    margin-block: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1.15;
+  }
+
+  .ad-unit {
+    margin-block: 0.75rem 0.5rem;
+  }
+
+  .ad-section {
+    margin-top: 1rem;
+    padding-block: 0.5rem;
+  }
+
+  .category-page-shell > .eyebrow {
+    margin: 0 0 0.3rem;
+  }
+
+  .category-page-shell > h1 {
+    margin: 0 0 0.45rem;
+  }
+
+  .category-page-shell > .ad-top {
+    margin: 0.5rem auto 0.35rem;
+  }
+
+  .category-page-shell .category-content {
+    gap: 0.9rem;
+    margin-top: 0.75rem;
+  }
+
+  .category-page-shell .category-main .listing-grid {
+    gap: 0.75rem;
+  }
+
+  .category-page-shell .pagination {
+    gap: 0.3rem;
+    margin-top: 1.25rem;
+    padding-top: 0.7rem;
+  }
+
+  .category-page-shell .pagination a,
+  .category-page-shell .pagination span {
+    padding: 0.4rem;
+    font-size: 0.82rem;
+  }
+
+  .category-page-shell .category-sidebar {
+    gap: 0.75rem;
   }
 }
 

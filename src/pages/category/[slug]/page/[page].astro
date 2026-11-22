@@ -39,7 +39,7 @@ const { slug, currentPage, totalPages, stories } = Astro.props;
   title={`${label(slug)} — Page ${currentPage} | SSEGU`}
   description={`SSEGU ${label(slug)} stories, page ${currentPage}.`}
 >
-  <div class="shell page-wrap">
+  <div class="shell page-wrap category-page-shell">
     <p class="eyebrow">Section</p>
     <h1>{label(slug)}</h1>
     <AdSlot placement="top" format="horizontal" />
