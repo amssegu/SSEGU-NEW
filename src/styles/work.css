@@ -1324,6 +1324,18 @@
   gap: 0.8rem;
 }
 
+.work-job-results > .ad-unit {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin: 0;
+  padding-block: 0.4rem;
+  border-block: 1px solid var(--work-line);
+}
+
+.work-job-results > .ad-unit .ad-label {
+  margin-bottom: 0.2rem;
+}
+
 .work-pagination {
   display: flex;
   align-items: center;

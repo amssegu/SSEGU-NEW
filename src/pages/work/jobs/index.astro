@@ -115,6 +115,9 @@ const initialJobs = activeJobs.filter(
             Showing {initialJobs.length} active {initialJobs.length === 1 ? 'opportunity' : 'opportunities'} in Uganda
           </p>
         </div>
+        <template id="job-inline-ad-template">
+          <AdSlot placement="section" format="horizontal" minHeight={90} />
+        </template>
         <div id="job-results" class="work-job-results" data-testid="work-job-results">
           {initialJobs.map((job) => (
             <WorkJobCard job={job} />
@@ -130,7 +133,6 @@ const initialJobs = activeJobs.filter(
           <div class="work-pagination-pages" id="job-pagination-pages"></div>
           <button class="work-pagination-button" type="button" data-page-action="next">Next</button>
         </nav>
-        <AdSlot placement="section" format="horizontal" minHeight={90} />
       </section>
       <aside class="work-jobs-aside" aria-label="Job search resources and advertisement">
         <AdSlot placement="sidebar" format="rectangle" minHeight={280} />
@@ -164,6 +166,7 @@ const initialJobs = activeJobs.filter(
     const advancedFilters = document.querySelector('#job-advanced-filters');
     const pagination = document.querySelector('#job-pagination');
     const paginationPages = document.querySelector('#job-pagination-pages');
+    const inlineAdTemplate = document.querySelector('#job-inline-ad-template');
     const pageSize = 10;
     const dateFormatter = new Intl.DateTimeFormat('en-UG', { dateStyle: 'medium' });
     const params = new URLSearchParams(window.location.search);
@@ -248,7 +251,28 @@ const initialJobs = activeJobs.filter(
       currentPage = Math.min(currentPage, Math.max(pageCount, 1));
       const startIndex = (currentPage - 1) * pageSize;
       const pageJobs = matches.slice(startIndex, startIndex + pageSize);
-      results.innerHTML = pageJobs.map(renderJob).join('');
+      let adsOnPage = 0;
+      results.innerHTML = pageJobs
+        .map((job, index) => {
+          let markup = renderJob(job);
+          if ((index + 1) % 3 === 0 && adsOnPage < 5 && inlineAdTemplate) {
+            adsOnPage += 1;
+            markup += inlineAdTemplate.innerHTML;
+          }
+          return markup;
+        })
+        .join('');
+      if (document.querySelector('script[data-ssegu-adsense]')) {
+        results.querySelectorAll('.adsbygoogle:not([data-ad-requested])').forEach((ad) => {
+          ad.setAttribute('data-ad-requested', '1');
+          try {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+          } catch (error) {
+            ad.removeAttribute('data-ad-requested');
+            console.warn('AdSense could not load this job-listing ad slot.', error);
+          }
+        });
+      }
       emptyState.hidden = matches.length !== 0;
       emptyState.textContent = jobs.length
         ? 'No opportunities match those filters. Try a wider search.'
