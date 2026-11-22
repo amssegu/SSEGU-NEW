@@ -1,5 +1,5 @@
 ---
-title: 'Empowering communities; 5 websites to presidential initiatives that might change your life Uganda | SSEGU'
+title: 'Empowering communities; 5 websites to presidential initiatives that might change your life Uganda'
 slug: empowering-communities-5-websites-to
 excerpt: 'Are you a Ugandan that'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Transform Your Life with Neville Goddard''s Three Magic Words: "Isn''t It Wonderful?" | SSEGU'
+title: 'Transform Your Life with Neville Goddard''s Three Magic Words: "Isn''t It Wonderful?"'
 slug: transform-your-life-with-neville
 excerpt: 'Have you heard of Neville Goddard? He is one of the great spiritual teachers and authors of our time. In today'
 author: editorial-desk

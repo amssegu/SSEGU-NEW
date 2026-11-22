@@ -1,5 +1,5 @@
 ---
-title: 'The Hidden Costs That Can Push a Ugandan Wedding Over Budget | SSEGU'
+title: 'The Hidden Costs That Can Push a Ugandan Wedding Over Budget'
 slug: the-hidden-costs-of-wedding-in-uganda
 excerpt: 'Planning a wedding in Uganda? Learn about hidden costs such as kwanjula, guests, décor, transport, vendor extras, outfits and wedding debt.'
 author: editorial-desk

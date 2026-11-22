@@ -1,5 +1,5 @@
 ---
-title: 'Quick and Easy Dinner Recipes for Busy Weekdays | SSEGU'
+title: 'Quick and Easy Dinner Recipes for Busy Weekdays'
 slug: quick-and-easy-dinner-recipes-for-busy
 excerpt: 'Why Quick Dinner Recipes Matter In today’s fast-paced society, where many individuals juggle professional responsibilities and personal commitments, the chal...'
 author: editorial-desk

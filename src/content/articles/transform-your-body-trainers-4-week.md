@@ -1,5 +1,5 @@
 ---
-title: 'Transform Your Body | SSEGU'
+title: 'Transform Your Body'
 slug: transform-your-body-trainers-4-week
 excerpt: 'weight loss workout plan, 4-week fitness program, personal trainer tips, jump-start weight loss, body transformation guide, effective exercise routin'
 author: editorial-desk

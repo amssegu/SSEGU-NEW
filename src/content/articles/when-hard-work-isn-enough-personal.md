@@ -1,5 +1,5 @@
 ---
-title: "When Hard Work Isn't Enough: A Personal Journey | SSEGU"
+title: "When Hard Work Isn't Enough: A Personal Journey"
 slug: when-hard-work-isn-enough-personal
 excerpt: 'The Illusion of Hard Work: A Personal Account Graduating with a B.Tech degree in 2019 was a significant milestone for me, representing countless hours of stu...'
 author: editorial-desk

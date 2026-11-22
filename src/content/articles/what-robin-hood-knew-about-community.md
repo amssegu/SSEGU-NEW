@@ -1,5 +1,5 @@
 ---
-title: 'What Robin Hood Knew About Community-Based Businesses | SSEGU'
+title: 'What Robin Hood Knew About Community-Based Businesses'
 slug: what-robin-hood-knew-about-community
 excerpt: 'While the Sheriff taxed everyone and kept the gold, Robin gave back. He fed the village. He protected the weak. He made the people love him.'
 author: editorial-desk

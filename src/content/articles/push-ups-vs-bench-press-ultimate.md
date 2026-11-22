@@ -1,5 +1,5 @@
 ---
-title: 'Push-Ups vs. Bench Press: The Ultimate Showdown for Upper Body Strength | SSEGU'
+title: 'Push-Ups vs. Bench Press: The Ultimate Showdown for Upper Body Strength'
 slug: push-ups-vs-bench-press-ultimate
 excerpt: 'Push-Ups vs. Bench Press, Upper Body Strength, Strength Training, Fitness Comparison, Muscle Building, Exercise Benefits'
 author: editorial-desk

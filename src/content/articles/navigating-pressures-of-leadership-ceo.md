@@ -1,5 +1,5 @@
 ---
-title: "Navigating the Pressures of Leadership: A CEO's Perspective | SSEGU"
+title: "Navigating the Pressures of Leadership: A CEO's Perspective"
 slug: navigating-pressures-of-leadership-ceo
 excerpt: 'Leadership at the executive level, particularly in the role of a CEO, involves a unique set of pressures and responsibilities. From making critical decisions...'
 author: editorial-desk

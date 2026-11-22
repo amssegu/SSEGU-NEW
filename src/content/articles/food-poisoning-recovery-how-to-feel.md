@@ -1,5 +1,5 @@
 ---
-title: 'Food Poisoning Recovery: How to Feel Better Fast and Safely at Home | ssegu | SSEGU'
+title: 'Food Poisoning Recovery: How to Feel Better Fast and Safely at Home'
 slug: food-poisoning-recovery-how-to-feel
 excerpt: 'Food poisoning occurs when you consume contaminated food or drinks. This could be due to bacteria, viruses, or toxins. Common symptoms include nausea,'
 author: editorial-desk

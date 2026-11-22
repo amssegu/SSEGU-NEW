@@ -1,5 +1,5 @@
 ---
-title: 'Transform Your Business: How to Invest Wisely and Achieve Remarkable Results | SSEGU'
+title: 'Transform Your Business: How to Invest Wisely and Achieve Remarkable Results'
 slug: transform-your-business-how-to-invest
 excerpt: 'business transformation, wise investment, business growth, investment strategies, achieving results, business success'
 author: editorial-desk

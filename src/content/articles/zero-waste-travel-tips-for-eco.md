@@ -1,5 +1,5 @@
 ---
-title: 'Zero-Waste Travel Tips for the Eco-Conscious Explorer | SSEGU'
+title: 'Zero-Waste Travel Tips for the Eco-Conscious Explorer'
 slug: zero-waste-travel-tips-for-eco
 excerpt: 'Zero-waste traveling is all about minimizing your environmental impact by reducing the waste you produce during your trips. This guide will share esse'
 author: editorial-desk

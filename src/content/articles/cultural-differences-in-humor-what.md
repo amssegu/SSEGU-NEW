@@ -1,5 +1,5 @@
 ---
-title: 'Cultural Differences in Humor: What Makes People Laugh Around the World? | SSEGU'
+title: 'Cultural Differences in Humor: What Makes People Laugh Around the World?'
 slug: cultural-differences-in-humor-what
 excerpt: 'Humor is a universal language, but the nuances of what makes people laugh can vary dramatically from one culture to another. Across the globe, every c'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Airtel Starlink Uganda: How to Connect Your Phone Beyond Mobile Network Coverage | SSEGU'
+title: 'Airtel Starlink Uganda: How to Connect Your Phone Beyond Mobile Network Coverage'
 slug: airtel-starlink-uganda-how-to-connect
 excerpt: 'Learn how to activate Airtel Starlink in Uganda, check compatible phones, connect by satellite, use WhatsApp and verify current data bundle costs.'
 author: editorial-desk

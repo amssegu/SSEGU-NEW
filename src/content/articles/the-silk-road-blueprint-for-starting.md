@@ -1,5 +1,5 @@
 ---
-title: 'The Silk Road Blueprint For Starting a Local Import Business | SSEGU'
+title: 'The Silk Road Blueprint For Starting a Local Import Business'
 slug: the-silk-road-blueprint-for-starting
 excerpt: 'The Silk Road did not start with ships. It started with one guy and one camel. Silk from China. Spices from India. Glass from Rome. Merchants got ri'
 author: editorial-desk

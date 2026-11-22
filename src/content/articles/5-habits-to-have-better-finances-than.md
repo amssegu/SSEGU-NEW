@@ -1,5 +1,5 @@
 ---
-title: '5 Habits to Have Better Finances Than 99% of People | SSEGU'
+title: '5 Habits to Have Better Finances Than 99% of People'
 slug: 5-habits-to-have-better-finances-than
 excerpt: 'personal finance, money management, financial habits, wealth building, financial success, budgeting tips'
 author: editorial-desk

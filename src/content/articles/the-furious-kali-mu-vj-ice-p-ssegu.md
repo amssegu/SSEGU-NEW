@@ -1,5 +1,5 @@
 ---
-title: 'The Furious - Kali Mu: VJ ICE P | ssegu | SSEGU'
+title: 'The Furious - Kali Mu: VJ ICE P'
 slug: the-furious-kali-mu-vj-ice-p-ssegu
 excerpt: '🔥 The Furious ⚔️ Kali Mu: VJ ICE P Genre: Action, Thriller, Crime Runtime: 1 Hr 53 Min Kick Away Stress: 🎬'
 author: editorial-desk

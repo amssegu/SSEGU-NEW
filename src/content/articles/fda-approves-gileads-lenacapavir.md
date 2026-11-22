@@ -1,5 +1,5 @@
 ---
-title: 'FDA Approves Gilead’s Lenacapavir (Yeztugo) HIV Drug: A Breakthrough Marred by Accessibility Concerns | SSEGU'
+title: 'FDA Approves Gilead’s Lenacapavir (Yeztugo) HIV Drug: A Breakthrough Marred by Accessibility Concerns'
 slug: fda-approves-gileads-lenacapavir
 excerpt: 'On Wednesday, June 18, 2025, the U.S. Food and Drug Administration (FDA) gave the green light to lenacapavir, also known as Yeztugo, a groundbreaking'
 author: editorial-desk

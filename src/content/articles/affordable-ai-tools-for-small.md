@@ -1,5 +1,5 @@
 ---
-title: 'Affordable AI Tools for Small Businesses: What’s Worth Paying For? | SSEGU'
+title: 'Affordable AI Tools for Small Businesses: What’s Worth Paying For?'
 slug: affordable-ai-tools-for-small
 excerpt: 'Discover affordable AI tools for small businesses, compare free and paid plans, estimate costs and learn when an AI subscription is worth paying for.'
 author: editorial-desk

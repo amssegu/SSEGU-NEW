@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Reading on Brain Structure: Why We Should Read More | SSEGU'
+title: 'The Impact of Reading on Brain Structure: Why We Should Read More'
 slug: the-impact-of-reading-on-brain
 excerpt: 'The Decline of Reading and Its Societal Implications In recent years, a noticeable decline in reading habits has been observed, particularly among younger ge...'
 author: editorial-desk

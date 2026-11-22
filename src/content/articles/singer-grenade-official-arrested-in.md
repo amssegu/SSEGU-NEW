@@ -1,5 +1,5 @@
 ---
-title: 'Singer Grenade Official Arrested in China | SSEGU'
+title: 'Singer Grenade Official Arrested in China'
 slug: singer-grenade-official-arrested-in
 excerpt: 'In a surprising turn of events, Ugandan singer Grenade Official, whose real name is Deus Nduggwa, has been arrested in Beijing, China. The arrest, whi'
 author: editorial-desk

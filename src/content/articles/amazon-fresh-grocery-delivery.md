@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Fresh Grocery Delivery | SSEGU'
+title: 'Amazon Fresh Grocery Delivery'
 slug: amazon-fresh-grocery-delivery
 excerpt: 'Benefits of Amazon Fresh Grocery Delivery Amazon Fresh'
 author: editorial-desk

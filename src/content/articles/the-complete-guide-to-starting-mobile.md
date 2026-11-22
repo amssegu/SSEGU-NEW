@@ -1,5 +1,5 @@
 ---
-title: 'The Complete Guide To Starting a Mobile Car Wash Business | SSEGU'
+title: 'The Complete Guide To Starting a Mobile Car Wash Business'
 slug: the-complete-guide-to-starting-mobile
 excerpt: 'You do not need a shop. You do not need $50,000. You need a bucket, a van, and customers who hate driving to car washes. In 2027, mobile car wash b'
 author: editorial-desk

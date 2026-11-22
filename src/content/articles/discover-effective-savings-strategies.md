@@ -1,5 +1,5 @@
 ---
-title: 'Discover effective savings strategies for expats living in Dubai to build a strong financial cushion for the future. | SSEGU'
+title: 'Discover effective savings strategies for expats living in Dubai to build a strong financial cushion for the future.'
 slug: discover-effective-savings-strategies
 excerpt: 'the bustling heart of the United Arab Emirates—Dubai! As an expat in this vibrant city, you'
 author: editorial-desk

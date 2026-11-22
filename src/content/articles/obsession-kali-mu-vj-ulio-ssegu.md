@@ -1,5 +1,5 @@
 ---
-title: 'Obsession - Kali Mu: VJ Ulio | ssegu | SSEGU'
+title: 'Obsession - Kali Mu: VJ Ulio'
 slug: obsession-kali-mu-vj-ulio-ssegu
 excerpt: '😈 Obsession 💘 Kali Mu: VJ Ulio Genre: Horror, Thriller Runtime: 1 Hr 49 Min Kick Away Stress: 🎬'
 author: editorial-desk

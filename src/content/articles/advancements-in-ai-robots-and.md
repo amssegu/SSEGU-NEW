@@ -1,5 +1,5 @@
 ---
-title: 'Advancements in AI Robots and Autonomous Vehicles in Industries | SSEGU'
+title: 'Advancements in AI Robots and Autonomous Vehicles in Industries'
 slug: advancements-in-ai-robots-and
 excerpt: 'Autonomous systems represent a significant technological leap, fundamentally changing tasks across various sectors. Unlike traditional automation, whi'
 author: editorial-desk

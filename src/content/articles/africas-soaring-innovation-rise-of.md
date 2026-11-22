@@ -1,5 +1,5 @@
 ---
-title: "Africa's Soaring Innovation: The Rise of Homegrown Military Drones | SSEGU"
+title: "Africa's Soaring Innovation: The Rise of Homegrown Military Drones"
 slug: africas-soaring-innovation-rise-of
 excerpt: 'The Rise of Homegrown Military Drones, Military Africa, indigenous drone production, African military technology, technological arms race, African na'
 author: editorial-desk

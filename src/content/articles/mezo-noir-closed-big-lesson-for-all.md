@@ -1,5 +1,5 @@
 ---
-title: 'Mezo noir closed; a big lesson for all hang out places | SSEGU'
+title: 'Mezo noir closed; a big lesson for all hang out places'
 slug: mezo-noir-closed-big-lesson-for-all
 excerpt: 'Mezo noir closed; a big lesson for all hang out places | SSEGU'
 author: editorial-desk

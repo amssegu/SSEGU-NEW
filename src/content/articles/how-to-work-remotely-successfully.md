@@ -1,5 +1,5 @@
 ---
-title: 'How to Work Remotely Successfully: A Complete Guide to Being Productive and Effective | SSEGU'
+title: 'How to Work Remotely Successfully: A Complete Guide to Being Productive and Effective'
 slug: how-to-work-remotely-successfully
 excerpt: 'This complete guide explains how to work remotely successfully, including how to create a productive workspace, stay focused, communicate effectively,'
 author: editorial-desk

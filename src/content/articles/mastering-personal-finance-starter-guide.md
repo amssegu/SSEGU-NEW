@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Personal Finance: A Starter Guide | SSEGU'
+title: 'Mastering Personal Finance: A Starter Guide'
 slug: mastering-personal-finance-starter-guide
 excerpt: 'Unlock the secrets to achieving financial freedom with this essential guide to mastering personal finance. Setting Realistic Financial Goals Setting realisti...'
 author: editorial-desk

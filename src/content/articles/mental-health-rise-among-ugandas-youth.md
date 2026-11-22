@@ -1,5 +1,5 @@
 ---
-title: 'Mental Health Rise Among Uganda’s Youth. | SSEGU'
+title: 'Mental Health Rise Among Uganda’s Youth.'
 slug: mental-health-rise-among-ugandas-youth
 excerpt: 'On June 5th, 2025, Dr. Juliet Nakku, Executive Director of Butabika National Referral Mental Hospital, addressed a press briefing at the Uganda Media'
 author: editorial-desk

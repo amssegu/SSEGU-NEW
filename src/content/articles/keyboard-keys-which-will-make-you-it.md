@@ -1,5 +1,5 @@
 ---
-title: 'Keyboard keys which will make you an IT professional | SSEGU'
+title: 'Keyboard keys which will make you an IT professional'
 slug: keyboard-keys-which-will-make-you-it
 excerpt: 'IT professional, keyboard shortcuts, essential keys, tech skills, productivity tips, computer efficiency'
 author: editorial-desk

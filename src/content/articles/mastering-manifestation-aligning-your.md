@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Manifestation: Aligning Your Thoughts, Emotions, and Actions for Success | SSEGU'
+title: 'Mastering Manifestation: Aligning Your Thoughts, Emotions, and Actions for Success'
 slug: mastering-manifestation-aligning-your
 excerpt: 'Manifestation is the art of bringing into your life the things you desire through the power of your thoughts, emotions, and actions. It’s about aligning thes...'
 author: editorial-desk

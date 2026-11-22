@@ -1,5 +1,5 @@
 ---
-title: 'Python for Automation: Streamlining Your Tasks with Scripts | SSEGU'
+title: 'Python for Automation: Streamlining Your Tasks with Scripts'
 slug: python-for-automation-streamlining-your
 excerpt: 'Introduction to Python for Automation Python is a versatile programming language that excels in various fields, from web development to data science. However...'
 author: editorial-desk

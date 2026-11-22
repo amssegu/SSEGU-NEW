@@ -1,5 +1,5 @@
 ---
-title: 'The Importance of Continuing Education | SSEGU'
+title: 'The Importance of Continuing Education'
 slug: the-importance-of-continuing-education
 excerpt: 'Continuing education is the process of learning and acquiring new knowledge and skills after completing formal education. It is an ongoing process that helps...'
 author: editorial-desk

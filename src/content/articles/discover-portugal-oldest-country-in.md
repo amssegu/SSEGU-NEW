@@ -1,5 +1,5 @@
 ---
-title: 'Discover Portugal: The Oldest Country in Europe, the Land of Wine, Trendy Cities, and Amazing Surf | SSEGU'
+title: 'Discover Portugal: The Oldest Country in Europe, the Land of Wine, Trendy Cities, and Amazing Surf'
 slug: discover-portugal-oldest-country-in
 excerpt: 'Portugal has long been an underrated gem in Europe, but in recent years, the world has started to take notice of its charm. Nestled in the western par'
 author: editorial-desk

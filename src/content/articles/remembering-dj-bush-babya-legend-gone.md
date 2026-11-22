@@ -1,5 +1,5 @@
 ---
-title: 'Remembering DJ Bush Baby:A Legend Gone Too Soon | SSEGU'
+title: 'Remembering DJ Bush Baby:A Legend Gone Too Soon'
 slug: remembering-dj-bush-babya-legend-gone
 excerpt: 'Just three days before his untimely passing on June 2, 2025, the beloved DJ Bush Baby shared a heartwarming post on social media, capturing a joyful m'
 author: editorial-desk

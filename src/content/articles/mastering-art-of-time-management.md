@@ -1,5 +1,5 @@
 ---
-title: 'Mastering the Art of Time Management | SSEGU'
+title: 'Mastering the Art of Time Management'
 slug: mastering-art-of-time-management
 excerpt: 'part time property management jobs,time management,time management worksheet, ,productivityhacks ,efficientliving ,worksmart ,focusandachieve'
 author: editorial-desk

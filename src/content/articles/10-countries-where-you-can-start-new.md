@@ -1,5 +1,5 @@
 ---
-title: '10 Countries Where You Can Start a New Life | SSEGU'
+title: '10 Countries Where You Can Start a New Life'
 slug: 10-countries-where-you-can-start-new
 excerpt: 'If, for whatever reason, your current lifestyle doesn'
 author: editorial-desk

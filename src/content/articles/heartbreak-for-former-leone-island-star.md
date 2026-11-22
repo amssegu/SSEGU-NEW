@@ -1,5 +1,5 @@
 ---
-title: 'Heartbreak for former Leone Island Star — Videobrown Soldja Mourns the Sudden Loss of His Wife | SSEGU'
+title: 'Heartbreak for former Leone Island Star — Videobrown Soldja Mourns the Sudden Loss of His Wife'
 slug: heartbreak-for-former-leone-island-star
 excerpt: 'Former Leone Island’s beloved singer and performer —Videobrown Soldja, has announced the tragic passing of his wife, Dr. Caroline Kawooya. Videobrown'
 author: editorial-desk

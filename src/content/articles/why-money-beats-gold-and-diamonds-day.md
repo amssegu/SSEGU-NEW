@@ -1,5 +1,5 @@
 ---
-title: 'Why Money Beats Gold and Diamonds Day To Day | SSEGU'
+title: 'Why Money Beats Gold and Diamonds Day To Day'
 slug: why-money-beats-gold-and-diamonds-day
 excerpt: 'So money is more'
 author: editorial-desk

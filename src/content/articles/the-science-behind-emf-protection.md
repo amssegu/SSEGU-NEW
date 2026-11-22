@@ -1,5 +1,5 @@
 ---
-title: 'The Science Behind EMF Protection Technology | SSEGU'
+title: 'The Science Behind EMF Protection Technology'
 slug: the-science-behind-emf-protection
 excerpt: 'With the proliferation of electronic devices such as smartphones, computers, and Wi-Fi routers, there is a growing concern about the potential health effects...'
 author: editorial-desk

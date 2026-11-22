@@ -1,5 +1,5 @@
 ---
-title: 'Wealth Mindset: Transforming Your Relationship with Money through the Law of Attraction | SSEGU'
+title: 'Wealth Mindset: Transforming Your Relationship with Money through the Law of Attraction'
 slug: wealth-mindset-transforming-your
 excerpt: 'Wealth Mindset: Transforming Your Relationship with Money through the Law of Attraction The concept of a “wealth mindset” refers to the idea that one’s attit...'
 author: editorial-desk

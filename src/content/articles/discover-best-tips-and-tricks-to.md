@@ -1,5 +1,5 @@
 ---
-title: 'Discover the best tips and tricks to maximize your storage cabinet space with these top 10 organizing hacks. | SSEGU'
+title: 'Discover the best tips and tricks to maximize your storage cabinet space with these top 10 organizing hacks.'
 slug: discover-best-tips-and-tricks-to
 excerpt: 'Keeping your storage cabinets organized not only makes finding items easier but also maximizes the space available, allowing for a more effective and'
 author: editorial-desk

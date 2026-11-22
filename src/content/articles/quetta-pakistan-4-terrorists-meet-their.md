@@ -1,5 +1,5 @@
 ---
-title: 'Quetta Pakistan: 4 Terrorists Meet Their End in Police Clash | SSEGU'
+title: 'Quetta Pakistan: 4 Terrorists Meet Their End in Police Clash'
 slug: quetta-pakistan-4-terrorists-meet-their
 excerpt: 'Terrorists Meet Their End in Police Clash, Quetta, Balochistan, Pakistan, terrorists, police clash, Counter Terrorism Department, CTD, showdown'
 author: editorial-desk

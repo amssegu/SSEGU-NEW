@@ -1,5 +1,5 @@
 ---
-title: 'Balancing Creativity and Technology: The Future of Marketing Roles | SSEGU'
+title: 'Balancing Creativity and Technology: The Future of Marketing Roles'
 slug: balancing-creativity-and-technology
 excerpt: 'In the whirlwind of the digital age, the landscape of marketing is evolving at lightning speed. This transformation is fueled by the synergistic blend of cre...'
 author: editorial-desk

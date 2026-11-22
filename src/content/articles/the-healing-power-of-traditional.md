@@ -1,5 +1,5 @@
 ---
-title: 'The Healing Power of Traditional Remedies | SSEGU'
+title: 'The Healing Power of Traditional Remedies'
 slug: the-healing-power-of-traditional
 excerpt: 'Exploring the effectiveness and benefits of traditional remedies in promoting health and wellness, The Healing Power of Traditional Remedies'
 author: editorial-desk

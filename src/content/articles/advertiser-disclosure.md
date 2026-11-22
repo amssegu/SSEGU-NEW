@@ -1,5 +1,5 @@
 ---
-title: 'ADVERTISER DISCLOSURE | SSEGU'
+title: 'ADVERTISER DISCLOSURE'
 slug: advertiser-disclosure
 excerpt: 'Get a Free Online Courses Get a Free Management Courses Get a Free IT Course Get a Free Caregiving course Free Cyber Security Course Job Opportunities'
 author: editorial-desk

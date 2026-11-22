@@ -1,5 +1,5 @@
 ---
-title: 'The Myth of Hard Work: Why Direction Matters More Than Effort | SSEGU'
+title: 'The Myth of Hard Work: Why Direction Matters More Than Effort'
 slug: the-myth-of-hard-work-why-direction
 excerpt: 'The Romanticization of Hard Work The perception of hard work as the primary pathway to success is a tale deeply rooted in cultural and historical narratives....'
 author: editorial-desk

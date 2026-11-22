@@ -1,5 +1,5 @@
 ---
-title: 'Is Your Blood Pressure Too High? Here’s What Every Young Person Needs to Know | SSEGU'
+title: 'Is Your Blood Pressure Too High? Here’s What Every Young Person Needs to Know'
 slug: is-your-blood-pressure-too-high-heres
 excerpt: 'High Blood Pressure in Young People: Why You Should Care When you hear'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Understanding Sarcasm and Irony: The Complexities of Humorous Communication | SSEGU'
+title: 'Understanding Sarcasm and Irony: The Complexities of Humorous Communication'
 slug: understanding-sarcasm-and-irony
 excerpt: 'Have you ever chuckled at someone'
 author: editorial-desk

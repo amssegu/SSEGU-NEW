@@ -1,5 +1,5 @@
 ---
-title: 'How to Sell Handmade Crafts Online in Uganda: E-Commerce Guide | SSEGU'
+title: 'How to Sell Handmade Crafts Online in Uganda: E-Commerce Guide'
 slug: how-to-sell-handmade-crafts-online-in
 excerpt: 'Learn how to sell handmade crafts online in Uganda using WhatsApp, Instagram, TikTok and e-commerce. Covers pricing, payments, delivery, taxes, steps'
 author: editorial-desk

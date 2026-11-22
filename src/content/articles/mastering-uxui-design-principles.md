@@ -1,5 +1,5 @@
 ---
-title: 'Mastering UX/UI Design Principles | SSEGU'
+title: 'Mastering UX/UI Design Principles'
 slug: mastering-uxui-design-principles
 excerpt: 'UX design, UI design, user experience, user interface, design principles, comprehensive guide'
 author: editorial-desk

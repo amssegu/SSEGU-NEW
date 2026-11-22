@@ -1,5 +1,5 @@
 ---
-title: 'Ikkis Part 1 Kali Mu: VJ Shield | SSEGU'
+title: 'Ikkis Part 1 Kali Mu: VJ Shield'
 slug: ikkis-part-1-kali-mu-vj-shield
 excerpt: 'Download Ikkis Part 1 By VJ Shield Mp4 Mobile Movie. Stream Ikkis Part 1 By VJ Shield ssegu'
 author: editorial-desk

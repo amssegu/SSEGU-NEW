@@ -1,5 +1,5 @@
 ---
-title: 'Cooking to Coding: Finding Your Niche in Online Education | SSEGU'
+title: 'Cooking to Coding: Finding Your Niche in Online Education'
 slug: cooking-to-coding-finding-your-niche-in
 excerpt: 'Explore how to discover and excel in your niche through online education, whether it'
 author: editorial-desk

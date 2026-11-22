@@ -1,5 +1,5 @@
 ---
-title: 'Exploring the Unique Aspects of ChatGPT-4o | SSEGU'
+title: 'Exploring the Unique Aspects of ChatGPT-4o'
 slug: exploring-unique-aspects-of-chatgpt-4o
 excerpt: 'ChatGPT-4o is the result of continuous evolution and improvement in AI chatbot technology. It builds upon the success of its predecessor, ChatGPT-3, b'
 author: editorial-desk

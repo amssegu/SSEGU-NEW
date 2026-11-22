@@ -1,5 +1,5 @@
 ---
-title: 'Top 10 Money Affirmations to Attract Wealth | SSEGU'
+title: 'Top 10 Money Affirmations to Attract Wealth'
 slug: top-10-money-affirmations-to-attract
 excerpt: 'Affirmations are positive statements that can help you to challenge and overcome self-sabotaging and negative thoughts. When you repeatedly affirm your dream...'
 author: editorial-desk

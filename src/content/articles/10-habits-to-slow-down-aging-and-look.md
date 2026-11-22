@@ -1,5 +1,5 @@
 ---
-title: '10 Habits to Slow Down Aging and Look Better than 99% of People | SSEGU'
+title: '10 Habits to Slow Down Aging and Look Better than 99% of People'
 slug: 10-habits-to-slow-down-aging-and-look
 excerpt: 'Taking care of your skin is essential for slowing down the aging process and maintaining a youthful appearance. By following a consistent skincare'
 author: editorial-desk

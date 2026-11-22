@@ -1,5 +1,5 @@
 ---
-title: 'Rise of the Conqueror Kali Mu: VJ ICE P | ssegu | SSEGU'
+title: 'Rise of the Conqueror Kali Mu: VJ ICE P'
 slug: rise-of-conqueror-kali-mu-vj-ice-p-ssegu
 excerpt: '🏴‍☠️ Rise of the Conqueror 💪 Kali Mu: VJ ICE P Genre: Action, Adventure, War Runtime: 1 Hr 59 Min Kick Away Stress: 🎬'
 author: editorial-desk

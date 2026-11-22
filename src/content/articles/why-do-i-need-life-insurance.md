@@ -1,5 +1,5 @@
 ---
-title: 'Why Do I Need Life Insurance? | SSEGU'
+title: 'Why Do I Need Life Insurance?'
 slug: why-do-i-need-life-insurance
 excerpt: 'life insurance, financial planning, death benefit, term life insurance, whole life insurance, universal life insurance, financial security'
 author: editorial-desk

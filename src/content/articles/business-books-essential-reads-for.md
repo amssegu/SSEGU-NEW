@@ -1,5 +1,5 @@
 ---
-title: 'Business Books, Essential Reads for Future Entrepreneurs | SSEGU'
+title: 'Business Books, Essential Reads for Future Entrepreneurs'
 slug: business-books-essential-reads-for
 excerpt: 'we aimed for a top ten ranking of the best business books, but to be completely honest, what works for some might not work for others. That’s why we d'
 author: editorial-desk

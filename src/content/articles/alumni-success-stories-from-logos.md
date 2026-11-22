@@ -1,5 +1,5 @@
 ---
-title: 'Alumni Success Stories from Logos University | SSEGU'
+title: 'Alumni Success Stories from Logos University'
 slug: alumni-success-stories-from-logos
 excerpt: 'Higher education is a crucial step in shaping one'
 author: editorial-desk

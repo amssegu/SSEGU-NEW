@@ -1,5 +1,5 @@
 ---
-title: '5 Unique Ways to Upgrade Your Craft Show Booth | SSEGU'
+title: '5 Unique Ways to Upgrade Your Craft Show Booth'
 slug: 5-unique-ways-to-upgrade-your-craft
 excerpt: 'Last year, I attended a bustling local craft fair, curious to find unique handmade items and perhaps gather inspiration for my own creative endeavors'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'How to Earn $17.32 Per Video Watching TikTok on Your Phone: A Fun Way to Make Money Online | SSEGU'
+title: 'How to Earn $17.32 Per Video Watching TikTok on Your Phone: A Fun Way to Make Money Online'
 slug: earn-1732-per-video-watching-tiktok
 excerpt: 'Believe it or not, you can earn $17.32 per video just by watching TikTok content on your mobile device or phone. Sounds like a dream, right'
 author: editorial-desk

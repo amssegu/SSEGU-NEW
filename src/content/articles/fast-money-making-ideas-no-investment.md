@@ -1,5 +1,5 @@
 ---
-title: 'Fast Money-Making Ideas: No Investment, No Risks | SSEGU'
+title: 'Fast Money-Making Ideas: No Investment, No Risks'
 slug: fast-money-making-ideas-no-investment
 excerpt: 'One way to make money quickly without investing or taking risks is by exploring online surveys and microtasks. Many companies and research organizatio'
 author: editorial-desk

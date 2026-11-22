@@ -1,5 +1,5 @@
 ---
-title: '7-Man Army Kali Mu: VJ Muba | SSEGU'
+title: '7-Man Army Kali Mu: VJ Muba'
 slug: 7-man-army-kali-mu-vj-muba
 excerpt: 'Download 7-Man Army By VJ Muba Mp4 Mobile Movie. Stream 7-Man Army By VJ Muba ssegu'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Financial Independence with Crypto Trading | SSEGU'
+title: 'Mastering Financial Independence with Crypto Trading'
 slug: mastering-financial-independence-with
 excerpt: 'Financial independence is the ability to live comfortably and sustainably without relying on a traditional 9-5 job.'
 author: editorial-desk

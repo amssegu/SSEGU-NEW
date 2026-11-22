@@ -1,5 +1,5 @@
 ---
-title: 'Hon. Moses Magogo Re-elected As FUFA President . | SSEGU'
+title: 'Hon. Moses Magogo Re-elected As FUFA President .'
 slug: hon-moses-magogo-re-elected-as-fufa
 excerpt: 'Moses Magogo has been re-elected as the President of the Federation of Uganda Football Associations (FUFA) for the term 2025-2029 on Unopposed ticket.'
 author: editorial-desk

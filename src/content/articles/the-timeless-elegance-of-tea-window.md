@@ -1,5 +1,5 @@
 ---
-title: 'The Timeless Elegance of Tea: A Window into Traditions | SSEGU'
+title: 'The Timeless Elegance of Tea: A Window into Traditions'
 slug: the-timeless-elegance-of-tea-window
 excerpt: 'As the steam gently wafted from the antique porcelain teapot, a sense of calm and tradition filled the air. It was at my grandmother'
 author: editorial-desk

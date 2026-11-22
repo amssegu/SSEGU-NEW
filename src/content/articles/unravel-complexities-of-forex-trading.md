@@ -1,5 +1,5 @@
 ---
-title: 'Unravel the complexities of Forex trading and its stark differences from gambling. | SSEGU'
+title: 'Unravel the complexities of Forex trading and its stark differences from gambling.'
 slug: unravel-complexities-of-forex-trading
 excerpt: 'Forex trading, foreign exchange trading, currency trading, forex market analysis, technical analysis, fundamental analysis, forex trading strategies,'
 author: editorial-desk

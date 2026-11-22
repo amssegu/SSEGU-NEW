@@ -1,5 +1,5 @@
 ---
-title: 'Are Biden’s Last-Minute Pardons A Bold Move or a Shield Against Political Retribution? | SSEGU'
+title: 'Are Biden’s Last-Minute Pardons A Bold Move or a Shield Against Political Retribution?'
 slug: are-bidens-last-minute-pardons-bold
 excerpt: 'As his presidency has come to a close, Joe Biden has issued preemptive pardons to several high-profile figures. Among these are Dr. Anthoni Fauci, for'
 author: editorial-desk

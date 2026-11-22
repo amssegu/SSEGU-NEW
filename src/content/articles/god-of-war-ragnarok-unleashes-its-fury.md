@@ -1,5 +1,5 @@
 ---
-title: "God of War: Ragnarok Unleashes its Fury on PC – PlayStation's Epic Journey Spreads to New Horizons | SSEGU"
+title: "God of War: Ragnarok Unleashes its Fury on PC – PlayStation's Epic Journey Spreads to New Horizons"
 slug: god-of-war-ragnarok-unleashes-its-fury
 excerpt: 'God of War, Ragnarok, God of War: Ragnarok, PC gaming, PlayStation Store, Billbil-kun, Sony Santa Monica, game release, PC games, Dealabs'
 author: editorial-desk

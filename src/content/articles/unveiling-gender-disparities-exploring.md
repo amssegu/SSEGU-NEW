@@ -1,5 +1,5 @@
 ---
-title: 'Unveiling Gender Disparities: Exploring Variances in Disease Burden Between Genders | SSEGU'
+title: 'Unveiling Gender Disparities: Exploring Variances in Disease Burden Between Genders'
 slug: unveiling-gender-disparities-exploring
 excerpt: 'Unveiling Gender Disparities, Exploring Variances in Disease Burden Between Genders, Recent Study, The Lancet Public Health, Disease Burden, Males vs'
 author: editorial-desk

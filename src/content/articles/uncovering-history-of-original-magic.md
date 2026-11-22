@@ -1,5 +1,5 @@
 ---
-title: 'Uncovering the History of the Original Magic Ring | SSEGU'
+title: 'Uncovering the History of the Original Magic Ring'
 slug: uncovering-history-of-original-magic
 excerpt: 'Exploring the origins and stories behind the first magic ring ever created, Uncovering the History of the Original Magic Ring'
 author: editorial-desk

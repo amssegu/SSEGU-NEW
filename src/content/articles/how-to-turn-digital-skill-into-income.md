@@ -1,5 +1,5 @@
 ---
-title: 'How to Turn a Digital Skill Into Income: A Practical Guide | SSEGU'
+title: 'How to Turn a Digital Skill Into Income: A Practical Guide'
 slug: how-to-turn-digital-skill-into-income
 excerpt: 'Learn how to turn digital skills into income through freelancing, finding clients, pricing services, building a portfolio and avoiding common mistakes'
 author: editorial-desk

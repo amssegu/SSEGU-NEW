@@ -1,5 +1,5 @@
 ---
-title: 'Bioluminescence in the Deep Sea | SSEGU'
+title: 'Bioluminescence in the Deep Sea'
 slug: bioluminescence-in-deep-sea
 excerpt: 'Bioluminescence, the remarkable ability of some organisms to produce light, is a spectacle that few get to observe firsthand. In the deep, dark waters'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Unveiling the Serenity: A Journey through Traditional Tea Ceremonies | SSEGU'
+title: 'Unveiling the Serenity: A Journey through Traditional Tea Ceremonies'
 slug: unveiling-serenity-journey-through
 excerpt: 'In the heart of Kyoto, amidst verdant gardens where the susurrus of leaves crafts a symphonic tranquility, an ancient tradition lives on that mystifies and i...'
 author: editorial-desk

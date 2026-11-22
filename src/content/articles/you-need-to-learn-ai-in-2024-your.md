@@ -1,5 +1,5 @@
 ---
-title: 'You Need To Learn AI in 2024! (Your Roadmap) | SSEGU'
+title: 'You Need To Learn AI in 2024! (Your Roadmap)'
 slug: you-need-to-learn-ai-in-2024-your
 excerpt: 'Artificial Intelligence (AI) is transforming industries and revolutionizing the way we live and work. In 2024, AI is expected to play an even more sig'
 author: editorial-desk

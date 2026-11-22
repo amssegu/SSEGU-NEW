@@ -1,5 +1,5 @@
 ---
-title: 'How to Stay Safe Online: Essential Cybersecurity Tips for Everyone | SSEGU'
+title: 'How to Stay Safe Online: Essential Cybersecurity Tips for Everyone'
 slug: how-to-stay-safe-online-essential
 excerpt: 'In this comprehensive guide, you'
 author: editorial-desk

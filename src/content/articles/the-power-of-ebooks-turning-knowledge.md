@@ -1,5 +1,5 @@
 ---
-title: 'The Power of eBooks: Turning Knowledge into Profit | SSEGU'
+title: 'The Power of eBooks: Turning Knowledge into Profit'
 slug: the-power-of-ebooks-turning-knowledge
 excerpt: 'Explore how eBooks can be a potent tool for turning knowledge into a profitable venture, with insights on creation, marketing, and sales strategies.'
 author: editorial-desk

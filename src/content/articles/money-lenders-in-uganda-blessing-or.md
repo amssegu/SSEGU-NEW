@@ -1,5 +1,5 @@
 ---
-title: 'Money Lenders in Uganda: A Blessing or a Curse? | SSEGU'
+title: 'Money Lenders in Uganda: A Blessing or a Curse?'
 slug: money-lenders-in-uganda-blessing-or
 excerpt: 'In recent years, Uganda has witnessed a significant increase in the number of money lenders operating in the country. These lenders, also known as'
 author: editorial-desk

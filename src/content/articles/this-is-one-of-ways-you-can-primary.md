@@ -1,5 +1,5 @@
 ---
-title: 'This is one of the ways you can primary monetize a blog turning it into a profitable business. | SSEGU'
+title: 'This is one of the ways you can primary monetize a blog turning it into a profitable business.'
 slug: this-is-one-of-ways-you-can-primary
 excerpt: 'monetize blog, profitable blogging, blog income strategies, blog monetization tips, make money blogging, blogging for profit'
 author: editorial-desk

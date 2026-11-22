@@ -1,5 +1,5 @@
 ---
-title: 'Innovative DIY Kits for Home Decor Enthusiasts | SSEGU'
+title: 'Innovative DIY Kits for Home Decor Enthusiasts'
 slug: innovative-diy-kits-for-home-decor
 excerpt: 'Home decor enthusiasts often look for innovative ways to enhance the aesthetics and functionality of their living spaces. DIY (Do-It-Yourself) kits'
 author: editorial-desk

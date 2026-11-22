@@ -1,5 +1,5 @@
 ---
-title: 'The Neurological Basis of ASMR: How Gentle Sounds and Visuals Stimulate Relaxation. | SSEGU'
+title: 'The Neurological Basis of ASMR: How Gentle Sounds and Visuals Stimulate Relaxation.'
 slug: the-neurological-basis-of-asmr-how
 excerpt: 'This phenomenon is known as Autonomous Sensory Meridian Response, or ASMR, and it'
 author: editorial-desk

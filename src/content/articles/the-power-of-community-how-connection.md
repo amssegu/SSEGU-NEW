@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Community: How Connection and Support Helped Me Achieve My Goals | SSEGU'
+title: 'The Power of Community: How Connection and Support Helped Me Achieve My Goals'
 slug: the-power-of-community-how-connection
 excerpt: 'Introduction: The Importance of Community In an increasingly interconnected world, the concept of community has emerged as a cornerstone for personal and pro...'
 author: editorial-desk

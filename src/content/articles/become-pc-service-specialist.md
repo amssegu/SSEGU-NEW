@@ -1,5 +1,5 @@
 ---
-title: 'Become a PC Service Specialist! 💻🔧 | SSEGU'
+title: 'Become a PC Service Specialist! 💻🔧'
 slug: become-pc-service-specialist
 excerpt: 'In today'
 author: editorial-desk

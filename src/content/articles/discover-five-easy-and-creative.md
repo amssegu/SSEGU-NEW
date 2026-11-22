@@ -1,5 +1,5 @@
 ---
-title: 'Discover five easy and creative upcycling projects perfect for beginners looking to turn trash into treasure. | SSEGU'
+title: 'Discover five easy and creative upcycling projects perfect for beginners looking to turn trash into treasure.'
 slug: discover-five-easy-and-creative
 excerpt: 'Once upon a time in a quaint little town, there lived an elderly woman named Mrs. Thompson. Her cozy home was filled with all sorts of trinkets and treasures...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Social Benefits of Humor: Strengthening Relationships Through Laughter | SSEGU'
+title: 'The Social Benefits of Humor: Strengthening Relationships Through Laughter'
 slug: the-social-benefits-of-humor
 excerpt: 'When was the last time you shared a good laugh with someone? Whether it'
 author: editorial-desk

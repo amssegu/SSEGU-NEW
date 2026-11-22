@@ -1,5 +1,5 @@
 ---
-title: 'Long-Term Data Storage: Why HDDs Are Still Relevant in a World Moving Towards SSDs | SSEGU'
+title: 'Long-Term Data Storage: Why HDDs Are Still Relevant in a World Moving Towards SSDs'
 slug: long-term-data-storage-why-hdds-are
 excerpt: 'In today’s fast-paced tech environment, solid-state drives (SSDs) are often highlighted for their speed and reliability. However, when it comes to lon'
 author: editorial-desk

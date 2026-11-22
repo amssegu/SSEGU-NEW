@@ -1,5 +1,5 @@
 ---
-title: 'Discover exciting DIY group projects for a memorable family craft night everyone can enjoy together. | SSEGU'
+title: 'Discover exciting DIY group projects for a memorable family craft night everyone can enjoy together.'
 slug: discover-exciting-diy-group-projects
 excerpt: 'Gathering the family together for a craft night is a perfect way to bond and create lasting memories. Whether you have tiny tots or teenagers, everyon'
 author: editorial-desk

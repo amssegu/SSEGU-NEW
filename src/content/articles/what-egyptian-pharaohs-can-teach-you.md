@@ -1,5 +1,5 @@
 ---
-title: 'What Egyptian Pharaohs Can Teach You About Building Digital Assets | SSEGU'
+title: 'What Egyptian Pharaohs Can Teach You About Building Digital Assets'
 slug: what-egyptian-pharaohs-can-teach-you
 excerpt: 'That is exactly what digital assets do. Courses, templates, email lists, software, content. They work while you sleep for years.'
 author: editorial-desk

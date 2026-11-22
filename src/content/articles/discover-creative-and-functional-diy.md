@@ -1,5 +1,5 @@
 ---
-title: 'Discover creative and functional DIY storage cabinet projects designed to enhance and organize every room in your home. | SSEGU'
+title: 'Discover creative and functional DIY storage cabinet projects designed to enhance and organize every room in your home.'
 slug: discover-creative-and-functional-diy
 excerpt: 'Once upon a time, in a cluttered apartment on the bustling streets of San Francisco, lived Mia, a budding artist with a passion for upcycling. Her sma'
 author: editorial-desk

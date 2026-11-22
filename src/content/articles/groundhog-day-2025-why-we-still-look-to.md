@@ -1,5 +1,5 @@
 ---
-title: 'Why We Still Look to a Groundhog for Weather Predictions | SSEGU'
+title: 'Why We Still Look to a Groundhog for Weather Predictions'
 slug: groundhog-day-2025-why-we-still-look-to
 excerpt: 'Every year on February 2nd, people across North America pause to watch a furry little creature emerge from the ground and, supposedly, predict the wea'
 author: editorial-desk

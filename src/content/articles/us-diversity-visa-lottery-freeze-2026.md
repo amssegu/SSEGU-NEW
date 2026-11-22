@@ -1,5 +1,5 @@
 ---
-title: 'U.S. Diversity Visa Lottery Freeze 2026: Important Updates for DV Applicants | ssegu | SSEGU'
+title: 'U.S. Diversity Visa Lottery Freeze 2026: Important Updates for DV Applicants'
 slug: us-diversity-visa-lottery-freeze-2026
 excerpt: 'If you are a DV-2025 or DV-2026 selectee, or you plan to apply for the DV-2027 program, here is a simplified breakdown of the latest developments and'
 author: editorial-desk

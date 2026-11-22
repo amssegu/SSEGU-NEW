@@ -1,5 +1,5 @@
 ---
-title: 'Wisdom and Inspiration: Lessons from My Favorite Mentor | SSEGU'
+title: 'Wisdom and Inspiration: Lessons from My Favorite Mentor'
 slug: wisdom-and-inspiration-lessons-from-my
 excerpt: 'Introduction to My Mentor Throughout my journey in both personal and professional realms, I have been fortunate to encounter several influential individuals....'
 author: editorial-desk

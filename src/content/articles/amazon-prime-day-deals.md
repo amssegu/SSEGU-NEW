@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Prime Day Deals | SSEGU'
+title: 'Amazon Prime Day Deals'
 slug: amazon-prime-day-deals
 excerpt: 'History of Amazon Prime Day Amazon Prime Day is an annual event created by Amazon to offer exclusive sales and discounts to its Prime members. It was first i...'
 author: editorial-desk

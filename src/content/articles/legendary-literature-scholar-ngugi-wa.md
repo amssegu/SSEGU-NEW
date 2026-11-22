@@ -1,5 +1,5 @@
 ---
-title: "Legendary Literature Scholar Ngugi wa Thiong'o Dies at Age 87 | SSEGU"
+title: "Legendary Literature Scholar Ngugi wa Thiong'o Dies at Age 87"
 slug: legendary-literature-scholar-ngugi-wa
 excerpt: 'Ngugi wa Thiong'
 author: editorial-desk

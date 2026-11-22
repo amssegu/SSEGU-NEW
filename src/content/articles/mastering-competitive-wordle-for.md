@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Competitive Wordle for Fitness Fun | SSEGU'
+title: 'Mastering Competitive Wordle for Fitness Fun'
 slug: mastering-competitive-wordle-for
 excerpt: 'Benefits of Combining Wordle and Fitness Combining Wordle and fitness can provide several benefits to individuals. Firstly, it adds an element of fun and exc...'
 author: editorial-desk

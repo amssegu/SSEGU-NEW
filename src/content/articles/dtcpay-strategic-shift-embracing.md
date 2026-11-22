@@ -1,5 +1,5 @@
 ---
-title: "DTCPay's Strategic Shift: Embracing Stablecoins for Digital Payments | SSEGU"
+title: "DTCPay's Strategic Shift: Embracing Stablecoins for Digital Payments"
 slug: dtcpay-strategic-shift-embracing
 excerpt: 'The Transition from Cryptocurrencies to Stablecoins In a significant strategic shift, DTCPay has announced its decision to discontinue support for major cryp...'
 author: editorial-desk

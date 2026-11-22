@@ -1,5 +1,5 @@
 ---
-title: 'Mastering WhatsApp Group Messaging Tricks | SSEGU'
+title: 'Mastering WhatsApp Group Messaging Tricks'
 slug: mastering-whatsapp-group-messaging
 excerpt: 'Customizing group chats allows you to personalize your conversations and make them more enjoyable. You can change the group name, add a group descript'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'NOCTARI part 4 - THE NEW ORDER - ssegu | SSEGU'
+title: 'NOCTARI part 4 - THE NEW ORDER - ssegu'
 slug: noctari-part-4-new-order-ssegu
 excerpt: '👽🛸 NOCTARI part 4 - THE NEW ORDER. 🎭 🔥 Kick Away Stress: 🎬 🤖The division of forces ignites a desperate game of survival in NOCTARI 4'
 author: editorial-desk

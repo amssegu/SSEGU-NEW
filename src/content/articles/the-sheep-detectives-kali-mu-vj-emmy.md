@@ -1,5 +1,5 @@
 ---
-title: 'The Sheep Detectives Kali Mu: VJ Emmy | ssegu | SSEGU'
+title: 'The Sheep Detectives Kali Mu: VJ Emmy'
 slug: the-sheep-detectives-kali-mu-vj-emmy
 excerpt: '🐑 The Sheep Detectives 🕵🏽 Kali Mu: VJ Emmy Genre: Comedy, Crime, Mystery, Family Runtime: 1 Hr 49 Min Kick Away Stress: 🎬'
 author: editorial-desk

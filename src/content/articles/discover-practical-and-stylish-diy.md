@@ -1,5 +1,5 @@
 ---
-title: 'Discover practical and stylish DIY storage cabinet ideas to help you declutter and organize your living space effectively. | SSEGU'
+title: 'Discover practical and stylish DIY storage cabinet ideas to help you declutter and organize your living space effectively.'
 slug: discover-practical-and-stylish-diy
 excerpt: 'Once upon a time in a bustling small town, there lived a young couple, Sarah and Tom, who recently moved into their first home.'
 author: editorial-desk

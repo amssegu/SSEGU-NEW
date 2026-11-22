@@ -1,5 +1,5 @@
 ---
-title: 'Case Studies: Successful Marketing Campaigns That Embraced Diversity | SSEGU'
+title: 'Case Studies: Successful Marketing Campaigns That Embraced Diversity'
 slug: case-studies-successful-marketing
 excerpt: 'In today’s global marketplace, the importance of diversity in marketing cannot be overstated. Brands that have embraced diversity and inclusion in their adve...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'DIY Skincare: Natural Remedies For Glowing Skin | SSEGU'
+title: 'DIY Skincare: Natural Remedies For Glowing Skin'
 slug: diy-skincare-natural-remedies-for
 excerpt: 'Exploring the Benefits of Natural Ingredients in Skincare The world of natural skincare is rich with ingredients that offer a myriad of benefits for the skin...'
 author: editorial-desk

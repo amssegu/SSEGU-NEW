@@ -1,5 +1,5 @@
 ---
-title: 'Basmati Rice: From Field to Table | SSEGU'
+title: 'Basmati Rice: From Field to Table'
 slug: basmati-rice-from-field-to-table
 excerpt: 'Explore the journey of Basmati rice from its cultivation in the fields to becoming a delicious meal on your dining table'
 author: editorial-desk

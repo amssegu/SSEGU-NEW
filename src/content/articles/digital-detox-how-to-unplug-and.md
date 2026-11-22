@@ -1,5 +1,5 @@
 ---
-title: 'Digital Detox: How to Unplug and Reconnect with the Real World | SSEGU'
+title: 'Digital Detox: How to Unplug and Reconnect with the Real World'
 slug: digital-detox-how-to-unplug-and
 excerpt: 'In today'
 author: editorial-desk

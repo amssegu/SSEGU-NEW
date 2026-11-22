@@ -1,5 +1,5 @@
 ---
-title: '6 Tips for Achieving Work-Life Balance | SSEGU'
+title: '6 Tips for Achieving Work-Life Balance'
 slug: 6-tips-for-achieving-work-life-balance
 excerpt: 'Achieving a healthy work-life balance is crucial not only for your well-being but also for your productivity and job satisfaction. With the boundaries betwee...'
 author: editorial-desk

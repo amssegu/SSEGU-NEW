@@ -1,5 +1,5 @@
 ---
-title: 'Peaky Blinders: The Immortal Man - VJ Ulio | SSEGU'
+title: 'Peaky Blinders: The Immortal Man - VJ Ulio'
 slug: peaky-blinders-vj-ulio
 excerpt: 'Peaky Blinders: The Immortal Man - VJ Ulio Amid the chaos of World War II, Tommy Shelby returns from a self-imposed exile'
 author: editorial-desk

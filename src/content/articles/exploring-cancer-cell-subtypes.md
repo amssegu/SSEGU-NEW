@@ -1,5 +1,5 @@
 ---
-title: 'Exploring Cancer Cell Subtypes | SSEGU'
+title: 'Exploring Cancer Cell Subtypes'
 slug: exploring-cancer-cell-subtypes
 excerpt: 'Cancer is a complex disease that can affect different parts of the body. Within each type of cancer, various subtypes have distinct characteristics. U'
 author: editorial-desk

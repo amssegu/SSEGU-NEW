@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Order Tracking - How to track your Amazon orders and understand delivery statuses. | SSEGU'
+title: 'Amazon Order Tracking - How to track your Amazon orders and understand delivery statuses.'
 slug: amazon-order-tracking-how-to-track-your
 excerpt: 'Understanding Amazon Order Statuses When you place an order on Amazon, it goes through various stages before it is delivered to your doorstep. Understanding ...'
 author: editorial-desk

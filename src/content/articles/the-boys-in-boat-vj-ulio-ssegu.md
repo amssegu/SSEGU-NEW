@@ -1,5 +1,5 @@
 ---
-title: 'The Boys in the Boat - VJ Ulio | ssegu | SSEGU'
+title: 'The Boys in the Boat - VJ Ulio'
 slug: the-boys-in-boat-vj-ulio-ssegu
 excerpt: 'The Boys in the Boat - VJ Ulio - During the height of the Great Depression, members of the rowing team at the University of Washington get thrust'
 author: editorial-desk

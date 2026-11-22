@@ -1,5 +1,5 @@
 ---
-title: 'Paving the Way to a Successful Future for Everyone | SSEGU'
+title: 'Paving the Way to a Successful Future for Everyone'
 slug: paving-way-to-successful-future-for
 excerpt: 'Job vacancies and opportunities In Ireland, Singapore, Luxembourg, UAE, and Norway we get you a Work Permit for free come and work Any one can apply.'
 author: editorial-desk

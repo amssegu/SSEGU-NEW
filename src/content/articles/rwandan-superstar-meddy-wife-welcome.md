@@ -1,5 +1,5 @@
 ---
-title: 'Rwandan Superstar Meddy & Wife Welcome Adorable Baby Boy – Meet Little Zayn M Ngano! | SSEGU'
+title: 'Rwandan Superstar Meddy & Wife Welcome Adorable Baby Boy – Meet Little Zayn M Ngano!'
 slug: rwandan-superstar-meddy-wife-welcome
 excerpt: 'Rwandan music sensation Meddy born name —Ngabo Médard Jobert and his beautiful wife are officially parents! The couple, who have kept their relationsh'
 author: editorial-desk

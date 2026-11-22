@@ -1,5 +1,5 @@
 ---
-title: 'Your Style on Your Wrist: Smartwatches with Custom Faces | SSEGU'
+title: 'Your Style on Your Wrist: Smartwatches with Custom Faces'
 slug: your-style-on-your-wrist-smartwatches
 excerpt: 'The smartwatch industry has revolutionized the way we interact with technology, merging the boundaries between fashion and functionality. Customizable'
 author: editorial-desk

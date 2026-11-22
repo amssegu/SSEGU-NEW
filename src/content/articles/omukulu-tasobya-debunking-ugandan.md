@@ -1,5 +1,5 @@
 ---
-title: '"Omukulu Tasobya": Debunking the Ugandan Belief That Parents Don’t Make Mistakes | SSEGU'
+title: '"Omukulu Tasobya": Debunking the Ugandan Belief That Parents Don’t Make Mistakes'
 slug: omukulu-tasobya-debunking-ugandan
 excerpt: 'As December 2024 came to an end, the phrase'
 author: editorial-desk

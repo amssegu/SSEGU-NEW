@@ -1,5 +1,5 @@
 ---
-title: 'Attracting Prosperity: Practical Steps to Apply the Law of Attraction for Financial Gain | SSEGU'
+title: 'Attracting Prosperity: Practical Steps to Apply the Law of Attraction for Financial Gain'
 slug: attracting-prosperity-practical-steps
 excerpt: 'Attracting Prosperity: Practical Steps to Apply the Law of Attraction for Financial Gain The Law of Attraction posits that like attracts like, and when appli...'
 author: editorial-desk

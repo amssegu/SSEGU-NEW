@@ -1,5 +1,5 @@
 ---
-title: 'Discover the Magic of Europe! A Perfect 10-Day Itinerary for Every Traveler | SSEGU'
+title: 'Discover the Magic of Europe! A Perfect 10-Day Itinerary for Every Traveler'
 slug: discover-magic-of-europe-perfect-10-day
 excerpt: 'Europe is amazing—the culture, the food, the history, and the architecture. It'
 author: editorial-desk

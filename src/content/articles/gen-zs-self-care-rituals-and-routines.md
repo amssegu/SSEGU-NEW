@@ -1,5 +1,5 @@
 ---
-title: "Gen Z's Self-Care Rituals and Routines | SSEGU"
+title: "Gen Z's Self-Care Rituals and Routines"
 slug: gen-zs-self-care-rituals-and-routines
 excerpt: 'Exploring the various self-care rituals and routines adopted by Generation Z to maintain their mental and physical well-being.'
 author: editorial-desk

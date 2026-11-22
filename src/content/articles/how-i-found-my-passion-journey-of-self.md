@@ -1,5 +1,5 @@
 ---
-title: 'How I Found My Passion: A Journey of Self-Discovery | SSEGU'
+title: 'How I Found My Passion: A Journey of Self-Discovery'
 slug: how-i-found-my-passion-journey-of-self
 excerpt: 'Introduction: The Quest for Passion The journey towards discovering one’s passion can often feel akin to navigating a winding road with numerous obstacles. M...'
 author: editorial-desk

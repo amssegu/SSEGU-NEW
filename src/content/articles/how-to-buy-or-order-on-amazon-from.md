@@ -1,5 +1,5 @@
 ---
-title: 'How To Buy Or Order On Amazon From Uganda: Step-by-Step Guide for Beginners | SSEGU'
+title: 'How To Buy Or Order On Amazon From Uganda: Step-by-Step Guide for Beginners'
 slug: how-to-buy-or-order-on-amazon-from
 excerpt: 'This step-by-step guide explains how to buy or order on Amazon from Uganda, including how to find products, choose shipping options, make payments, ca'
 author: editorial-desk

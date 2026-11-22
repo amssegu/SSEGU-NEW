@@ -1,5 +1,5 @@
 ---
-title: 'Gardening 101: Growing Your Green Oasis | SSEGU'
+title: 'Gardening 101: Growing Your Green Oasis'
 slug: gardening-101-growing-your-green-oasis
 excerpt: 'Selecting the Right Plants for Your Garden Creating a lush garden starts with choosing plants that are well-suited to your climate, sunlight exposure, and so...'
 author: editorial-desk

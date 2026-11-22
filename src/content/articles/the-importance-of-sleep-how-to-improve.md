@@ -1,5 +1,5 @@
 ---
-title: 'The Importance of Sleep: How to Improve Your Sleep Quality for Better Health | SSEGU'
+title: 'The Importance of Sleep: How to Improve Your Sleep Quality for Better Health'
 slug: the-importance-of-sleep-how-to-improve
 excerpt: 'Sleep is a fundamental aspect of human health, yet it is often overlooked or sacrificed in our busy lives. Quality sleep is crucial for physical, ment'
 author: editorial-desk

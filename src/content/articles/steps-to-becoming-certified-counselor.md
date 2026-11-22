@@ -1,5 +1,5 @@
 ---
-title: 'Steps to Becoming a Certified Counselor | SSEGU'
+title: 'Steps to Becoming a Certified Counselor'
 slug: steps-to-becoming-certified-counselor
 excerpt: 'Embark on a transformative journey to becoming an accredited spiritual counselor and unlock the door to guiding others through life'
 author: editorial-desk

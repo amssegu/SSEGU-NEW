@@ -1,5 +1,5 @@
 ---
-title: 'Bruins Icon Ignites Crowd with Epic Beer Chug | SSEGU'
+title: 'Bruins Icon Ignites Crowd with Epic Beer Chug'
 slug: bruins-icon-ignites-crowd-with-epic
 excerpt: 'It was a night steeped in anticipation as fans gathered, buzzing with excitement, in the storied arena that has long been a fortress for the Boston Br'
 author: editorial-desk

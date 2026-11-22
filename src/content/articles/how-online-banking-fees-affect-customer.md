@@ -1,5 +1,5 @@
 ---
-title: 'How Online Banking Fees Affect Customer Behavior | SSEGU'
+title: 'How Online Banking Fees Affect Customer Behavior'
 slug: how-online-banking-fees-affect-customer
 excerpt: 'online banking, banking services, customer behavior, online banking fees, financial institutions, customer engagement, customer loyalty, fee structure'
 author: editorial-desk

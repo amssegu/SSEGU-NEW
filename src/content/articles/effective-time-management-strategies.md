@@ -1,5 +1,5 @@
 ---
-title: 'Effective Time Management Strategies For Busy Professionals | SSEGU'
+title: 'Effective Time Management Strategies For Busy Professionals'
 slug: effective-time-management-strategies
 excerpt: 'Identifying Your Peak Productivity Periods Every professional has unique rhythms that govern their energy and focus levels throughout the day. Identifying yo...'
 author: editorial-desk

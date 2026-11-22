@@ -1,5 +1,5 @@
 ---
-title: 'Slash Amazon Costs With These Money-Saving Tips | SSEGU'
+title: 'Slash Amazon Costs With These Money-Saving Tips'
 slug: slash-amazon-costs-with-these-money
 excerpt: 'Amazon Prime isn'
 author: editorial-desk

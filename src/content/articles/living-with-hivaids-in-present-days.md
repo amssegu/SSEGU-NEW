@@ -1,5 +1,5 @@
 ---
-title: 'Living with HIV/AIDS in the present days; a message of hope to a new patient | SSEGU'
+title: 'Living with HIV/AIDS in the present days; a message of hope to a new patient'
 slug: living-with-hivaids-in-present-days
 excerpt: 'Even after so many years of sensitisation and education on HIV/AIDS in Uganda, a recent speech by Dr Nelson Musoba shows that in 2023, 38,000 new case'
 author: editorial-desk

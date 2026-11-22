@@ -1,5 +1,5 @@
 ---
-title: '"I have never known you as an artist" . Biswanka tells Laika Music in The Radio 4 Rumble | SSEGU'
+title: '"I have never known you as an artist" . Biswanka tells Laika Music in The Radio 4 Rumble'
 slug: i-have-never-known-you-as-artist
 excerpt: '"I have never known you as an artist" . Biswanka tells Laika Music in The Radio 4 Rumble | SSEGU'
 author: editorial-desk

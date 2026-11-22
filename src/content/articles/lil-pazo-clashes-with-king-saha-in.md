@@ -1,5 +1,5 @@
 ---
-title: 'Lil Pazo Clashes with King Saha in Uganda’s Gut-Busting Brawl! | SSEGU'
+title: 'Lil Pazo Clashes with King Saha in Uganda’s Gut-Busting Brawl!'
 slug: lil-pazo-clashes-with-king-saha-in
 excerpt: 'Uganda, TikTok’s blazing hotter than a Kampala sun with Lil Pazo and King Saha throwing punches, and it’s funnier than a goat moonwalking to “Enkudi”!'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Mama Fiina Gifts Bruno K Whopping UGX 10M for New Car During — His TikTok Live Debut! | SSEGU'
+title: 'Mama Fiina Gifts Bruno K Whopping UGX 10M for New Car During — His TikTok Live Debut!'
 slug: mama-fiina-gifts-bruno-k-whopping-ugx
 excerpt: 'The Ugandan entertainment scene was set ablaze last night when legendary socialite and businesswoman Mama Fiina surprised singer Bruno K with a jaw-dr'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Can E-Mobility Solve Uganda’s Fuel Crisis? | SSEGU'
+title: 'Can E-Mobility Solve Uganda’s Fuel Crisis?'
 slug: can-e-mobility-solve-ugandas-fuel-crisis
 excerpt: 'Can E-Mobility Solve Uganda’s Fuel Crisis? Uganda’s fuel crisis has become a stubborn thorn in the side of motorists, businesses, and even everyday c'
 author: editorial-desk

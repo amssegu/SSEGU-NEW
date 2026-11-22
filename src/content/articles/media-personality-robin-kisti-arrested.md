@@ -1,5 +1,5 @@
 ---
-title: 'Media Personality Robin Kisti Arrested in Drug Bust – Resists Police Before Being Whisked Away! | SSEGU'
+title: 'Media Personality Robin Kisti Arrested in Drug Bust – Resists Police Before Being Whisked Away!'
 slug: media-personality-robin-kisti-arrested
 excerpt: 'Shocking scenes unfolded earlier today as popular media personality Robin Kisti was arrested as the police discovered drugs at her residence. Eyewitne'
 author: editorial-desk

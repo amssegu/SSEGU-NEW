@@ -1,5 +1,5 @@
 ---
-title: 'Exploring the Fundamentals: An Introduction to Lucid Dreaming | SSEGU'
+title: 'Exploring the Fundamentals: An Introduction to Lucid Dreaming'
 slug: exploring-fundamentals-introduction-to
 excerpt: 'Have you ever realized you were dreaming while still in the middle of a dream? If so, you'
 author: editorial-desk

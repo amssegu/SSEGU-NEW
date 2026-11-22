@@ -1,5 +1,5 @@
 ---
-title: 'Import Phones from Dubai to Zimbabwe: Quick Guide & Top Tips | SSEGU'
+title: 'Import Phones from Dubai to Zimbabwe: Quick Guide & Top Tips'
 slug: import-phones-from-dubai-to-zimbabwe
 excerpt: 'How to Import Phones from Dubai to Zimbabwe, Import phones Dubai to Zimbabwe, importing mobile phones, import regulations, customs clearance, shipping'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Discover how to create customizable DIY storage cabinets that perfectly fit your decor and storage needs. | SSEGU'
+title: 'Discover how to create customizable DIY storage cabinets that perfectly fit your decor and storage needs.'
 slug: discover-how-to-create-customizable-diy
 excerpt: 'The beauty of creating a DIY storage cabinet lies in its flexibility and the personal touch it adds to your home. With varying sizes, materials, and d'
 author: editorial-desk

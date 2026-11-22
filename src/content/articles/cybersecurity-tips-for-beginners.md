@@ -1,5 +1,5 @@
 ---
-title: 'Cybersecurity Tips for Beginners: A Complete Guide to Staying Safe Online | SSEGU'
+title: 'Cybersecurity Tips for Beginners: A Complete Guide to Staying Safe Online'
 slug: cybersecurity-tips-for-beginners
 excerpt: 'This beginner-friendly guide explains the fundamentals of cybersecurity, common online threats, and practical tips you can use every day to protect yo'
 author: editorial-desk

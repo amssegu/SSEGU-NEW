@@ -1,5 +1,5 @@
 ---
-title: '7 Steps to Manifest Your Dream Life Using the Law of Attraction | SSEGU'
+title: '7 Steps to Manifest Your Dream Life Using the Law of Attraction'
 slug: 7-steps-to-manifest-your-dream-life
 excerpt: 'The Law of Attraction is a universal principle that suggests that positive thoughts bring positive results into a person’s life, while negative thoughts brin...'
 author: editorial-desk

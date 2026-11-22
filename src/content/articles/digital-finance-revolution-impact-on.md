@@ -1,5 +1,5 @@
 ---
-title: 'Digital Finance Revolution: Impact on Personal Finance in Kenya | SSEGU'
+title: 'Digital Finance Revolution: Impact on Personal Finance in Kenya'
 slug: digital-finance-revolution-impact-on
 excerpt: 'Exploring how digital finance is transforming personal finance management for individuals in Kenya.'
 author: editorial-desk

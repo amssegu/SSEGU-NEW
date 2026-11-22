@@ -1,5 +1,5 @@
 ---
-title: 'The Furious - Kali Mu: VJ Emmy | ssegu | SSEGU'
+title: 'The Furious - Kali Mu: VJ Emmy'
 slug: the-furious-kali-mu-vj-emmy-ssegu
 excerpt: '🔥 The Furious 🥊👊 Kali Mu: VJ Emmy Genre: Action, Thriller, Crime Runtime: 1 Hr 53 Min Kick Away Stress: 🎬'
 author: editorial-desk

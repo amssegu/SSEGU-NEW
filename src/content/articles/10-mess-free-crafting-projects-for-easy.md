@@ -1,5 +1,5 @@
 ---
-title: '10 Mess-Free Crafting Projects for Easy Clean-up | SSEGU'
+title: '10 Mess-Free Crafting Projects for Easy Clean-up'
 slug: 10-mess-free-crafting-projects-for-easy
 excerpt: 'One of the most significant advantages of mess-free crafting is the minimal cleaning required afterwards. This means less time is spent picking up scr'
 author: editorial-desk

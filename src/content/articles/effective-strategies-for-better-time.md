@@ -1,5 +1,5 @@
 ---
-title: 'Effective Strategies for Better Time Management | SSEGU'
+title: 'Effective Strategies for Better Time Management'
 slug: effective-strategies-for-better-time
 excerpt: 'part time property management jobs, time management, time management worksheet'
 author: editorial-desk

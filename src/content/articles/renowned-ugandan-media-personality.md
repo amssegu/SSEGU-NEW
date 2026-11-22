@@ -1,5 +1,5 @@
 ---
-title: 'Renowned Ugandan Media Personality Cedric Babu Ndilima Passes Away at 49 | SSEGU'
+title: 'Renowned Ugandan Media Personality Cedric Babu Ndilima Passes Away at 49'
 slug: renowned-ugandan-media-personality
 excerpt: 'Cedric Babu Ndilima, a renowned Ugandan media figure, sports administrator, and former tennis player, sadly passed away on May 31, 2025, at the age of'
 author: editorial-desk

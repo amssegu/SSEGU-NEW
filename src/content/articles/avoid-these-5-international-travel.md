@@ -1,5 +1,5 @@
 ---
-title: 'Avoid These 5 International Travel Mistakes to Enhance Your Experience | SSEGU'
+title: 'Avoid These 5 International Travel Mistakes to Enhance Your Experience'
 slug: avoid-these-5-international-travel
 excerpt: 'travel tips, international travel, travel mistakes, travel advice, travel planning, travel experience'
 author: editorial-desk

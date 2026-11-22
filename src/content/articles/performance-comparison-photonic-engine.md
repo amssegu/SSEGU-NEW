@@ -1,5 +1,5 @@
 ---
-title: 'Performance Comparison: Photonic Engine vs. Magic Editor | SSEGU'
+title: 'Performance Comparison: Photonic Engine vs. Magic Editor'
 slug: performance-comparison-photonic-engine
 excerpt: 'In the world of content creation and digital design, tools and technologies play a pivotal role in determining the quality, efficiency, and innovation of out...'
 author: editorial-desk

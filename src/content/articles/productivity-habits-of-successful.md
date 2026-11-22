@@ -1,5 +1,5 @@
 ---
-title: 'Productivity Habits of Successful People: How to Work Smarter and Achieve More | SSEGU'
+title: 'Productivity Habits of Successful People: How to Work Smarter and Achieve More'
 slug: productivity-habits-of-successful
 excerpt: 'This complete guide explains the most effective productivity habits of successful people and how you can apply them to improve your daily routine, inc'
 author: editorial-desk

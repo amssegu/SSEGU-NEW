@@ -1,5 +1,5 @@
 ---
-title: 'Chasing Dreams: The Solitary Path of a Young Entrepreneur | SSEGU'
+title: 'Chasing Dreams: The Solitary Path of a Young Entrepreneur'
 slug: chasing-dreams-solitary-path-of-young
 excerpt: 'The Beginning of the Journey The entrepreneurial journey often commences with a spark; an idea that ignites ambitions and fuels aspirations. For many young i...'
 author: editorial-desk

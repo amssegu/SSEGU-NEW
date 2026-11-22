@@ -1,5 +1,5 @@
 ---
-title: 'Legendary singer Kabuye Semboga Holds A Concert Marking 42 Years Of Music Career. | SSEGU'
+title: 'Legendary singer Kabuye Semboga Holds A Concert Marking 42 Years Of Music Career.'
 slug: legendary-singer-kabuye-semboga-holds
 excerpt: 'Semboga, a legendary Ugandan singeler, songwriter, and audio producer, celebrated an impressive 42 years in his music career with a spectacular concer'
 author: editorial-desk

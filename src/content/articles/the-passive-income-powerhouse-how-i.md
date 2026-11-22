@@ -1,5 +1,5 @@
 ---
-title: 'The Passive Income Powerhouse: How I Make Money Selling Digital Products on Gumroad | SSEGU'
+title: 'The Passive Income Powerhouse: How I Make Money Selling Digital Products on Gumroad'
 slug: the-passive-income-powerhouse-how-i
 excerpt: 'passive income, digital products, Gumroad, online business, make money online, selling digital products'
 author: editorial-desk

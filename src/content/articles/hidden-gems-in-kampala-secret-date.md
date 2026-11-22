@@ -1,5 +1,5 @@
 ---
-title: 'Hidden Gems in Kampala: Secret Date Spots for an Unforgettable Romantic Escape | SSEGU'
+title: 'Hidden Gems in Kampala: Secret Date Spots for an Unforgettable Romantic Escape'
 slug: hidden-gems-in-kampala-secret-date
 excerpt: 'The Allure of Privacy on Your Date In the vibrant city of Kampala, where bustling markets and lively streets define everyday life, the significance of privac...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Health Insurance Options for Expats in Dubai | SSEGU'
+title: 'Health Insurance Options for Expats in Dubai'
 slug: health-insurance-options-for-expats-in
 excerpt: 'Understanding Health Insurance for Expats in Dubai Dubai, a vibrant city in the United Arab Emirates (UAE), attracts expatriates from around the world with i...'
 author: editorial-desk

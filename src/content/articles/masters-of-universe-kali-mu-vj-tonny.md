@@ -1,5 +1,5 @@
 ---
-title: 'Masters of the Universe Kali Mu: VJ Tonny | ssegu | SSEGU'
+title: 'Masters of the Universe Kali Mu: VJ Tonny'
 slug: masters-of-universe-kali-mu-vj-tonny
 excerpt: '⚔️ Masters of the Universe 💥 Kali Mu: VJ Tonny Genre: Action, Fantasy, Sci-Fi Runtime: 2 Hr 21 Min Kick Away Stress: 🎬'
 author: editorial-desk

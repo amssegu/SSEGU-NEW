@@ -1,5 +1,5 @@
 ---
-title: 'Putin Praises Forces in Ukraine and Condemns the West on 79th Victory Day Anniversary | SSEGU'
+title: 'Putin Praises Forces in Ukraine and Condemns the West on 79th Victory Day Anniversary'
 slug: putin-praises-forces-in-ukraine-and
 excerpt: 'Putin Praises Forces in Ukraine and Condemns the West on 79th Victory Day Anniversary, Victory Day, Vladimir Putin, Russia, World War II anniversary,'
 author: editorial-desk

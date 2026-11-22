@@ -1,5 +1,5 @@
 ---
-title: 'General Muhoozi’s X Account Deactivated After Shocking Death Threat | SSEGU'
+title: 'General Muhoozi’s X Account Deactivated After Shocking Death Threat'
 slug: general-muhoozis-x-account-deactivated
 excerpt: 'This alarming statement drew widespread condemnation and heightened concerns about the General'
 author: editorial-desk

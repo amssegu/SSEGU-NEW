@@ -1,5 +1,5 @@
 ---
-title: 'Love or Lies? How I Got Scammed on a Dating App | SSEGU'
+title: 'Love or Lies? How I Got Scammed on a Dating App'
 slug: love-or-lies-how-i-got-scammed-on
 excerpt: 'Back in the day, people found love in real life... fewer scams, fewer regrets. Today? With the dating app era, your perfect'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'How To Build And Maintain Healthy Relationships: Communication Tips | SSEGU'
+title: 'How To Build And Maintain Healthy Relationships: Communication Tips'
 slug: how-to-build-and-maintain-healthy
 excerpt: 'Mastering the Art of Active Listening Active listening is the cornerstone of effective communication and a vital component in building and maintaining health...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Transform Your Life: The Power of a Healthy Sleep Cycle and Productive Morning Routine | SSEGU'
+title: 'Transform Your Life: The Power of a Healthy Sleep Cycle and Productive Morning Routine'
 slug: transform-your-life-power-of-healthy
 excerpt: 'The Importance of Sleep: Why You Should Prioritize Your Sleep Cycle Sleep is an essential component of overall well-being, playing a vital role in mental, ph...'
 author: editorial-desk

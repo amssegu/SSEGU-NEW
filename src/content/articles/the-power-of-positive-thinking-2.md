@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Positive Thinking | SSEGU'
+title: 'The Power of Positive Thinking'
 slug: the-power-of-positive-thinking-2
 excerpt: 'Discover how harnessing the power of positive thinking can transform your life and improve your overall well-being.'
 author: editorial-desk

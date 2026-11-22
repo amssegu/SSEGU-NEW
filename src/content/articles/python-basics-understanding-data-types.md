@@ -1,5 +1,5 @@
 ---
-title: 'Python Basics: Understanding Data Types and Variables | SSEGU'
+title: 'Python Basics: Understanding Data Types and Variables'
 slug: python-basics-understanding-data-types
 excerpt: 'Python, a powerful and easy-to-learn programming language, offers a range of data types that are designed to help you solve various problems efficiently and ...'
 author: editorial-desk

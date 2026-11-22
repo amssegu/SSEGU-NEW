@@ -1,5 +1,5 @@
 ---
-title: 'Explore affordable transportation options for new expats in Dubai. Learn how to commute easily and save money. | SSEGU'
+title: 'Explore affordable transportation options for new expats in Dubai. Learn how to commute easily and save money.'
 slug: explore-affordable-transportation
 excerpt: 'understanding the local transportation system is key to not only navigating the city but also saving significantly on your daily commute. Dubai offers'
 author: editorial-desk

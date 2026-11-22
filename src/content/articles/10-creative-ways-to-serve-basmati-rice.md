@@ -1,5 +1,5 @@
 ---
-title: '10 Creative Ways to Serve Basmati Rice | SSEGU'
+title: '10 Creative Ways to Serve Basmati Rice'
 slug: 10-creative-ways-to-serve-basmati-rice
 excerpt: 'Basmati rice, known for its fragrant aroma and fluffy texture, is a staple in many cuisines, particularly in Indian and Middle Eastern dishes. Its uni'
 author: editorial-desk

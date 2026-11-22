@@ -1,5 +1,5 @@
 ---
-title: 'The Box in the Attic Kali Mu: VJ CB - ssegu | SSEGU'
+title: 'The Box in the Attic Kali Mu: VJ CB - ssegu'
 slug: the-box-in-attic-kali-mu-vj-cb-ssegu
 excerpt: 'The Box in the Attic Kali Mu: VJ CB Genre: Horror, Thriller Kick Away Stress: 🎬'
 author: editorial-desk

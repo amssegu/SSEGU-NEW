@@ -1,5 +1,5 @@
 ---
-title: 'Build A Car From Scratch | SSEGU'
+title: 'Build A Car From Scratch'
 slug: build-car-from-scratch
 excerpt: 'How to build a Car from Scratch, Automotive enthusiast, car construction, vehicle design, automotive mechanics, DIY car building, How to make a car'
 author: editorial-desk

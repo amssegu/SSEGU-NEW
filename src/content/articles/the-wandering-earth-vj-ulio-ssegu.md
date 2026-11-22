@@ -1,5 +1,5 @@
 ---
-title: 'The Wandering Earth - VJ Ulio | ssegu | SSEGU'
+title: 'The Wandering Earth - VJ Ulio'
 slug: the-wandering-earth-vj-ulio-ssegu
 excerpt: 'The Wandering Earth - VJ Ulio A group of astronauts put their lives on the line to save mankind as they try to shift Earth to a new solar system'
 author: editorial-desk

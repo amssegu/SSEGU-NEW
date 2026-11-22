@@ -1,5 +1,5 @@
 ---
-title: 'Pancakes or Waffles: The Ultimate Breakfast Debate | SSEGU'
+title: 'Pancakes or Waffles: The Ultimate Breakfast Debate'
 slug: pancakes-or-waffles-ultimate-breakfast
 excerpt: 'Dive into the delicious dilemma of choosing between pancakes and waffles for the ultimate breakfast treat. Exploring the Origins of Pancakes and Waffles The ...'
 author: editorial-desk

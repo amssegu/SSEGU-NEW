@@ -1,5 +1,5 @@
 ---
-title: "NASA's Field Tactics for Artemis Readiness | SSEGU"
+title: "NASA's Field Tactics for Artemis Readiness"
 slug: nasas-field-tactics-for-artemis
 excerpt: 'The Artemis mission is not just another giant leap for mankind; it'
 author: editorial-desk

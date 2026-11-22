@@ -1,5 +1,5 @@
 ---
-title: 'Depression in Africa: A Silent Cry for Help | SSEGU'
+title: 'Depression in Africa: A Silent Cry for Help'
 slug: depression-in-africa-silent-cry-for-help
 excerpt: 'When I think about depression, I remember all the people who hide their pain behind a mask of strength. They suffer in silence, afraid to speak out.'
 author: editorial-desk

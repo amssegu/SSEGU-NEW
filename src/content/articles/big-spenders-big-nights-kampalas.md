@@ -1,5 +1,5 @@
 ---
-title: 'Big Spenders, Big Nights; Kampala''s Celebrities Now Hosting In Clubs and Bars on "Hosting Nights." | SSEGU'
+title: 'Big Spenders, Big Nights; Kampala''s Celebrities Now Hosting In Clubs and Bars on "Hosting Nights."'
 slug: big-spenders-big-nights-kampalas
 excerpt: 'Kampala'
 author: editorial-desk

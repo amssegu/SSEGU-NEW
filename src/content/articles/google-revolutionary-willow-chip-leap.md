@@ -1,5 +1,5 @@
 ---
-title: "Google's Revolutionary Willow Chip: A Leap Towards Error-Free Quantum Computing | SSEGU"
+title: "Google's Revolutionary Willow Chip: A Leap Towards Error-Free Quantum Computing"
 slug: google-revolutionary-willow-chip-leap
 excerpt: 'Understanding Quantum Computing and the Qubit Challenge Quantum computing represents a profound shift in how information is processed and manipulated, distin...'
 author: editorial-desk

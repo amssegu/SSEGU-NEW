@@ -1,5 +1,5 @@
 ---
-title: '7 Smart Investments for First-Time Entrepreneurs in Uganda: How to Break In and What to Avoid | SSEGU'
+title: '7 Smart Investments for First-Time Entrepreneurs in Uganda: How to Break In and What to Avoid'
 slug: 7-smart-investments-for-first-time
 excerpt: 'For many Ugandans, income generation has been quite the challenge. Jobs are scarce, the economy is unforgiving, and even personal ventures have been h'
 author: editorial-desk

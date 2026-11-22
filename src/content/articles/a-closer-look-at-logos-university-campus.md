@@ -1,5 +1,5 @@
 ---
-title: "A Closer Look at Logos University's Campus | SSEGU"
+title: "A Closer Look at Logos University's Campus"
 slug: a-closer-look-at-logos-university-campus
 excerpt: 'Logos University, with its main campus nestled in the heart of Ohio, boasts an array of iconic symbols and an atmosphere that reflects its rich academ'
 author: editorial-desk

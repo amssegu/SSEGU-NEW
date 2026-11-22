@@ -1,5 +1,5 @@
 ---
-title: 'Why Many Ugandans Fail at Online Side Hustles—And How You Can Succeed | SSEGU'
+title: 'Why Many Ugandans Fail at Online Side Hustles—And How You Can Succeed'
 slug: why-many-ugandans-fail-at-online-side
 excerpt: 'From Surveys to Freelancing: Why Ugandans Struggle with Online Side Hustles & Gigs over the past couple of years post-Covid, many Ugandans have joine'
 author: editorial-desk

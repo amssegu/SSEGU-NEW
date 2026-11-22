@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Predictive Analytics in Sports, Explore the growing influence of predictive analytics in the world of sports and how it is revolutionizing decision-making processes. | SSEGU'
+title: 'The Impact of Predictive Analytics in Sports, Explore the growing influence of predictive analytics in the world of sports and how it is revolutionizing decision-making processes.'
 slug: the-impact-of-predictive-analytics-in
 excerpt: 'Predictive analytics has carved out a significant niche within the sports industry, offering profound insights that contribute to more strategic decis'
 author: editorial-desk

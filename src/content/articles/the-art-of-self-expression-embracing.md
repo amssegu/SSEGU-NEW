@@ -1,5 +1,5 @@
 ---
-title: 'The Art of Self-Expression: Embracing DIY Kits for Adults | SSEGU'
+title: 'The Art of Self-Expression: Embracing DIY Kits for Adults'
 slug: the-art-of-self-expression-embracing
 excerpt: 'On a chilly Saturday morning, nestled in a cozy corner of her sunlit living room, Sarah discovered a small, unassuming box that had been sitting idle'
 author: editorial-desk

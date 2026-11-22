@@ -1,5 +1,5 @@
 ---
-title: 'Learn how to create eco-friendly storage cabinets using recycled materials. This guide provides step-by-step instructions for a sustainable DIY project. | SSEGU'
+title: 'Learn how to create eco-friendly storage cabinets using recycled materials. This guide provides step-by-step instructions for a sustainable DIY project.'
 slug: learn-how-to-create-eco-friendly
 excerpt: 'there lived an elderly carpenter renowned for his creativity and commitment to the environment. The village was becoming cluttered with old materials'
 author: editorial-desk

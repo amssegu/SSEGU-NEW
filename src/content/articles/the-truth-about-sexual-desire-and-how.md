@@ -1,5 +1,5 @@
 ---
-title: 'The Truth About Sexual Desire and How to Enhance Your Sexual Connection | SSEGU'
+title: 'The Truth About Sexual Desire and How to Enhance Your Sexual Connection'
 slug: the-truth-about-sexual-desire-and-how
 excerpt: 'For many of us, the first two decades of our lives are filled with misconceptions about sexuality. One of the most pervasive myths is the'
 author: editorial-desk

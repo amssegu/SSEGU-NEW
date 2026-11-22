@@ -1,5 +1,5 @@
 ---
-title: 'Bone Keeper - Kali Mu: VJ Ham | ssegu | SSEGU'
+title: 'Bone Keeper - Kali Mu: VJ Ham'
 slug: bone-keeper-kali-mu-vj-ham-ssegu
 excerpt: '🦴 Bone Keeper 👁️ 🎥 Kali Mu: VJ Ham 🎭 Genre: Horror, Thriller'
 author: editorial-desk

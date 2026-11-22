@@ -1,5 +1,5 @@
 ---
-title: 'Google’s New Feature is the Most Impactful Use of Generative AI Ever | SSEGU'
+title: 'Google’s New Feature is the Most Impactful Use of Generative AI Ever'
 slug: googles-new-feature-is-most-impactful
 excerpt: 'Generative AI refers to a type of artificial intelligence that can generate new and original content, such as images, text, or even music.'
 author: editorial-desk

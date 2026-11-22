@@ -1,5 +1,5 @@
 ---
-title: '10 Habits to Slow Down Aging and Look Better than 99% of People | SSEGU'
+title: '10 Habits to Slow Down Aging and Look Better than 99% of People'
 slug: 10-habits-to-slow-down-aging-and-look-2
 excerpt: 'anti-aging tips, healthy aging habits, youthful appearance, longevity secrets, skincare routine, age-defying lifestyle'
 author: editorial-desk

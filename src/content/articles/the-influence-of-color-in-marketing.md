@@ -1,5 +1,5 @@
 ---
-title: 'The Influence of Color in Marketing | SSEGU'
+title: 'The Influence of Color in Marketing'
 slug: the-influence-of-color-in-marketing
 excerpt: 'Explore how colors impact consumer behavior and marketing strategies.,'
 author: editorial-desk

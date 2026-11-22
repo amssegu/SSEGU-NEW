@@ -1,5 +1,5 @@
 ---
-title: 'Theophostic Prayer: A Path to Inner Healing | SSEGU'
+title: 'Theophostic Prayer: A Path to Inner Healing'
 slug: theophostic-prayer-path-to-inner-healing
 excerpt: 'The journey to inner healing can take many paths. One such path is through theophostic prayer ministry. This unique form of Christian counseling combines pra...'
 author: editorial-desk

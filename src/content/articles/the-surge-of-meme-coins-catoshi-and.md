@@ -1,5 +1,5 @@
 ---
-title: 'The Surge of Meme Coins: Catoshi and the Future of Crypto | SSEGU'
+title: 'The Surge of Meme Coins: Catoshi and the Future of Crypto'
 slug: the-surge-of-meme-coins-catoshi-and
 excerpt: 'The Meme Coin Mania: A Golden Era for Crypto Enthusiasts In recent times, the world of cryptocurrency has witnessed an unprecedented explosion in the popular...'
 author: editorial-desk

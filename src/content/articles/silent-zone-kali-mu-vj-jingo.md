@@ -1,5 +1,5 @@
 ---
-title: 'Silent Zone Kali Mu: VJ Jingo | SSEGU'
+title: 'Silent Zone Kali Mu: VJ Jingo'
 slug: silent-zone-kali-mu-vj-jingo
 excerpt: 'Download Silent Zone By VJ Jingo Mp4 Mobile Movie. Stream Silent Zone By VJ Jingo ssegu'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Jim Spire Sentongo clarifies disinformation circulating around Dr John Spire Kiggundu’s sudden death. | SSEGU'
+title: 'Jim Spire Sentongo clarifies disinformation circulating around Dr John Spire Kiggundu’s sudden death.'
 slug: jim-spire-sentongo-clarifies
 excerpt: 'On June 22, the famous satirical cartoonist Jim Spire Sentongo announced the death of his elder brother who was also the heir of their father. There'
 author: editorial-desk

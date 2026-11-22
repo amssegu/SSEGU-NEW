@@ -1,5 +1,5 @@
 ---
-title: '15 MIN TONED ARMS WORKOUT - No Equipment | SSEGU'
+title: '15 MIN TONED ARMS WORKOUT - No Equipment'
 slug: 15-min-toned-arms-workout-no-equipment
 excerpt: '15-minute arm workout, toned arms workout, no equipment workout, quick arm exercises, at-home arm workout'
 author: editorial-desk

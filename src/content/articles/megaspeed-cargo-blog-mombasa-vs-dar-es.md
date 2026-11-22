@@ -1,5 +1,5 @@
 ---
-title: 'MegaSpeed Cargo Blog: Mombasa vs Dar es Salaam Route Comparison for Vehicle Importers in Uganda and Zimbabwe | SSEGU'
+title: 'MegaSpeed Cargo Blog: Mombasa vs Dar es Salaam Route Comparison for Vehicle Importers in Uganda and Zimbabwe'
 slug: megaspeed-cargo-blog-mombasa-vs-dar-es
 excerpt: 'This complete Mombasa vs Dar es Salaam route comparison explains transit times, shipping costs, border procedures, congestion risks, and when importer'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Discover the Best Futuristic AI Robots to Watch in 2025 | SSEGU'
+title: 'Discover the Best Futuristic AI Robots to Watch in 2025'
 slug: discover-best-futuristic-ai-robots-to
 excerpt: 'See the futuristic AI robots set to transform our lives by 2025 we showcase the most futuristic AI robots that will revolutionize various industries.'
 author: editorial-desk

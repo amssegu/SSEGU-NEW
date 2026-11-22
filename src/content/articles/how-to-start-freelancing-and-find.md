@@ -1,5 +1,5 @@
 ---
-title: "How to Start Freelancing and Find Clients: A Complete Beginner's Guide | SSEGU"
+title: "How to Start Freelancing and Find Clients: A Complete Beginner's Guide"
 slug: how-to-start-freelancing-and-find
 excerpt: 'This beginner-friendly guide covers everything you need to know to start freelancing and build a sustainable client base.'
 author: editorial-desk

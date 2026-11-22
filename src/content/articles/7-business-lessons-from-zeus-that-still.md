@@ -1,5 +1,5 @@
 ---
-title: '7 Business Lessons From Zeus That Still Work Today | SSEGU'
+title: '7 Business Lessons From Zeus That Still Work Today'
 slug: 7-business-lessons-from-zeus-that-still
 excerpt: 'The Greek king of the gods was not perfect. But his leadership, strategy, and power moves contain lessons we can still use to grow, lead, and dominate'
 author: editorial-desk

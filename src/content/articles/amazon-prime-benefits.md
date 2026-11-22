@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Prime Benefits | SSEGU'
+title: 'Amazon Prime Benefits'
 slug: amazon-prime-benefits
 excerpt: 'What is Amazon Prime? Amazon Prime is a subscription service offered by Amazon that provides members with a wide range of benefits and perks. With Amazon Pri...'
 author: editorial-desk

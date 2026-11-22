@@ -1,5 +1,5 @@
 ---
-title: 'The Neuroscience of Lucid Dreaming: How Our Brain Creates Conscious Dreams | SSEGU'
+title: 'The Neuroscience of Lucid Dreaming: How Our Brain Creates Conscious Dreams'
 slug: the-neuroscience-of-lucid-dreaming-how
 excerpt: 'Have you ever realized you were dreaming while in the middle of a dream? That fascinating moment when you suddenly become aware that you'
 author: editorial-desk

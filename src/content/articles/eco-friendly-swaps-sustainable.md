@@ -1,5 +1,5 @@
 ---
-title: 'Eco-Friendly Swaps: Sustainable Alternatives for Everyday Items | SSEGU'
+title: 'Eco-Friendly Swaps: Sustainable Alternatives for Everyday Items'
 slug: eco-friendly-swaps-sustainable
 excerpt: 'Whether you'
 author: editorial-desk

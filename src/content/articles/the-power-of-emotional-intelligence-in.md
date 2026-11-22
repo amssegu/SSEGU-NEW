@@ -1,5 +1,5 @@
 ---
-title: "The Power of Emotional Intelligence in Mastering Life's Challenges | SSEGU"
+title: "The Power of Emotional Intelligence in Mastering Life's Challenges"
 slug: the-power-of-emotional-intelligence-in
 excerpt: 'Understanding and Harnessing Emotional Intelligence Emotional Intelligence (EI) is a critical factor that can greatly affect one’s ability to navigate life’s...'
 author: editorial-desk

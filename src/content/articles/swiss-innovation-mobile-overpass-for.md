@@ -1,5 +1,5 @@
 ---
-title: 'Swiss Innovation: Mobile Overpass for Road Work | SSEGU'
+title: 'Swiss Innovation: Mobile Overpass for Road Work'
 slug: swiss-innovation-mobile-overpass-for
 excerpt: 'Switzerland has long been synonymous with innovation and efficiency. Its latest contribution to infrastructure management is no exception. The revolut'
 author: editorial-desk

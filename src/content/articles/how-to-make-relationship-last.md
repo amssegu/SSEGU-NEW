@@ -1,5 +1,5 @@
 ---
-title: 'How To Make A Relationship Last | SSEGU'
+title: 'How To Make A Relationship Last'
 slug: how-to-make-relationship-last
 excerpt: 'relationship advice, long-lasting relationship, relationship tips, healthy relationship, relationship goals, relationship success'
 author: editorial-desk

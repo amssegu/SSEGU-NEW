@@ -1,5 +1,5 @@
 ---
-title: '10 Things to Consider Before Buying a Storage Cabinet | SSEGU'
+title: '10 Things to Consider Before Buying a Storage Cabinet'
 slug: 10-things-to-consider-before-buying
 excerpt: 'Whether it'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'How Ancient Bazaars Can Inspire Your Weekend Flea Market Business | SSEGU'
+title: 'How Ancient Bazaars Can Inspire Your Weekend Flea Market Business'
 slug: how-ancient-bazaars-can-inspire-your
 excerpt: 'The Grand Bazaar in Istanbul. The Silk Road markets. The souks of Marrakech. These places ran for centuries without ads, without websites, without in'
 author: editorial-desk

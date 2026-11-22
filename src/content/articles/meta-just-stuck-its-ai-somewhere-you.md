@@ -1,5 +1,5 @@
 ---
-title: "Meta Just Stuck Its AI Somewhere You Didn't Expect It — A Pair Of Ray-Ban Smart Glasses | SSEGU"
+title: "Meta Just Stuck Its AI Somewhere You Didn't Expect It — A Pair Of Ray-Ban Smart Glasses"
 slug: meta-just-stuck-its-ai-somewhere-you
 excerpt: 'A Pair Of Ray-Ban Smart Glasses, Meta, Ray-Ban, smart glasses, wearable technology, AI capabilities, tech and fashion fusion, advanced AI, wearable t'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'How to Choose the Right Unlimited Internet Plan in Uganda | SSEGU'
+title: 'How to Choose the Right Unlimited Internet Plan in Uganda'
 slug: how-to-choose-right-unlimited-internet
 excerpt: 'If you regularly stream videos or make frequent video calls, then chances are that the regular mobile internet packages from the likes of MTN and Airt'
 author: editorial-desk

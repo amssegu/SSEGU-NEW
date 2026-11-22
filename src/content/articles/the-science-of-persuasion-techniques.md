@@ -1,5 +1,5 @@
 ---
-title: 'The Science of Persuasion: Techniques Marketers Use to Drive Action | SSEGU'
+title: 'The Science of Persuasion: Techniques Marketers Use to Drive Action'
 slug: the-science-of-persuasion-techniques
 excerpt: 'Welcome to the fascinating world of marketing psychology, where the art and science of persuasion shape how marketers connect with their target audiences. Pe...'
 author: editorial-desk

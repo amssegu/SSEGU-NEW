@@ -1,5 +1,5 @@
 ---
-title: 'Learn innovative and practical design hacks to make the most out of your small craft show booth, ensuring a memorable and effective presentation. | SSEGU'
+title: 'Learn innovative and practical design hacks to make the most out of your small craft show booth, ensuring a memorable and effective presentation.'
 slug: learn-innovative-and-practical-design
 excerpt: 'Participating in craft shows can be exciting and rewarding for small business owners and hobbyists alike. However, one of the challenges faced by many'
 author: editorial-desk

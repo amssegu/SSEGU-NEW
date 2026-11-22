@@ -1,5 +1,5 @@
 ---
-title: 'The Importance of Self-Care: Why Taking Care of Yourself Matters | SSEGU'
+title: 'The Importance of Self-Care: Why Taking Care of Yourself Matters'
 slug: the-importance-of-self-care-why-taking
 excerpt: 'In today'
 author: editorial-desk

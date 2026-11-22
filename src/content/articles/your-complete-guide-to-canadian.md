@@ -1,5 +1,5 @@
 ---
-title: 'Your Complete Guide to Canadian Permanent Residence and Work Permits | ssegu | SSEGU'
+title: 'Your Complete Guide to Canadian Permanent Residence and Work Permits'
 slug: your-complete-guide-to-canadian
 excerpt: 'If you are planning to work or settle permanently in Canada, understanding the country’s immigration system is the first step. Below is a simplified g'
 author: editorial-desk

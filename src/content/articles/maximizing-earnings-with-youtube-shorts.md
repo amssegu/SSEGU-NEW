@@ -1,5 +1,5 @@
 ---
-title: 'Maximizing Earnings with YouTube Shorts | SSEGU'
+title: 'Maximizing Earnings with YouTube Shorts'
 slug: maximizing-earnings-with-youtube-shorts
 excerpt: 'Discover strategies and tips to boost your income using YouTube'
 author: editorial-desk

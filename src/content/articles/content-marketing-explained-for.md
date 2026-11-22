@@ -1,5 +1,5 @@
 ---
-title: 'Content Marketing Explained for Beginners: A Complete Guide to Building an Effective Content Strategy | SSEGU'
+title: 'Content Marketing Explained for Beginners: A Complete Guide to Building an Effective Content Strategy'
 slug: content-marketing-explained-for
 excerpt: 'This complete beginner'
 author: editorial-desk

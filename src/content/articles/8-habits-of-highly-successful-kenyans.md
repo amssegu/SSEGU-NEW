@@ -1,5 +1,5 @@
 ---
-title: '8 Habits of Highly Successful Kenyans | SSEGU'
+title: '8 Habits of Highly Successful Kenyans'
 slug: 8-habits-of-highly-successful-kenyans
 excerpt: 'Discover 8 habits practiced by Kenya'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Ragga Dee Claims To Own a watch worth 1 Billion Ugandan Shillings. | SSEGU'
+title: 'Ragga Dee Claims To Own a watch worth 1 Billion Ugandan Shillings.'
 slug: ragga-dee-claims-to-own-watch-worth-1
 excerpt: 'During a recent interview with BBS at the Uganda Film Festival 2025, Ragga Dee shared about the gem in his wardrobe that costs him billion of Uganda'
 author: editorial-desk

@@ -2,6 +2,8 @@
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import CvBuilder from '../../../components/work/CvBuilder.astro';
 import CvApplicationTools from '../../../components/work/CvApplicationTools.astro';
+import CvChecklistTool from '../../../components/work/CvChecklistTool.astro';
+import AdSlot from '../../../components/main/AdSlot.astro';
 import { formatWorkDate, getPublishedWorkArticles } from '../../../lib/work';
 const recommendedSlugs = [
   'how-to-write-cv-in-uganda-that-gets',
@@ -27,7 +29,17 @@ const recommendedArticles = (await getPublishedWorkArticles('career-advice'))
         Start with the free builder, then use the guides below to improve each part of your application.
       </p>
     </div>
+    <AdSlot placement="section" format="horizontal" minHeight={90} />
     <CvBuilder />
+    <section class="cv-inline-checklist" aria-labelledby="checklist-title">
+      <div class="work-page-intro">
+        <p class="work-eyebrow">Free application tool</p>
+        <h2 id="checklist-title">CV final-check list</h2>
+        <p>A few careful checks can help you catch errors before your CV reaches an employer.</p>
+      </div>
+      <CvChecklistTool />
+    </section>
+    <AdSlot placement="section" format="horizontal" minHeight={90} />
     <section class="cv-recommendations" aria-labelledby="cv-guides-title">
       <div class="work-page-intro">
         <p class="work-eyebrow">Read while you build</p>
@@ -51,6 +63,7 @@ const recommendedArticles = (await getPublishedWorkArticles('career-advice'))
         ))}
       </div>
     </section>
+    <AdSlot placement="section" format="horizontal" minHeight={90} />
     <CvApplicationTools />
   </div>
 </WorkLayout>

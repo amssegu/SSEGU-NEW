@@ -1,5 +1,5 @@
 ---
-title: '10 Essential Habits for Building a Productive and Balanced Routine | SSEGU'
+title: '10 Essential Habits for Building a Productive and Balanced Routine'
 slug: 10-essential-habits-for-building
 excerpt: 'Building sustainable habits isn'
 author: editorial-desk

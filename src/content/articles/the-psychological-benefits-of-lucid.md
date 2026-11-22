@@ -1,5 +1,5 @@
 ---
-title: 'The Psychological Benefits of Lucid Dreaming: Overcoming Nightmares and Reducing Anxiety | SSEGU'
+title: 'The Psychological Benefits of Lucid Dreaming: Overcoming Nightmares and Reducing Anxiety'
 slug: the-psychological-benefits-of-lucid
 excerpt: 'Have you ever realized you were dreaming during a dream? This phenomenon, known as lucid dreaming, is more than just a fleeting trick of the mind. It'
 author: editorial-desk

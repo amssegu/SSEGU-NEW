@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Journaling: How Writing Down Your Thoughts Can Transform Your Life | SSEGU'
+title: 'The Power of Journaling: How Writing Down Your Thoughts Can Transform Your Life'
 slug: the-power-of-journaling-how-writing
 excerpt: 'Journaling is a powerful tool that can help you process your thoughts, gain clarity, and achieve your goals. By writing down your thoughts, feelings,'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Booking Airbnb Accommodations in East Africa and Beyond | SSEGU'
+title: 'Booking Airbnb Accommodations in East Africa and Beyond'
 slug: booking-airbnb-accommodations-in-east
 excerpt: 'Airbnb has revolutionized the way people travel and experience new destinations. With its vast array of accommodation options, the platform has made i'
 author: editorial-desk

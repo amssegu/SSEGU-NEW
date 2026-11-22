@@ -1,5 +1,5 @@
 ---
-title: '10 Questions to Help You Discover Your Strengths & Weaknesses | SSEGU'
+title: '10 Questions to Help You Discover Your Strengths & Weaknesses'
 slug: 10-questions-to-help-you-discover-your
 excerpt: 'Explore these 10 questions to gain insights into your own strengths and weaknesses, helping you on your path of self-discovery and personal developmen'
 author: editorial-desk

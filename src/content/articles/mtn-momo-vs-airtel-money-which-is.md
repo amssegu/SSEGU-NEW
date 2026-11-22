@@ -1,5 +1,5 @@
 ---
-title: 'MTN MoMo vs Airtel Money: Which Is Cheaper in Uganda? | SSEGU'
+title: 'MTN MoMo vs Airtel Money: Which Is Cheaper in Uganda?'
 slug: mtn-momo-vs-airtel-money-which-is
 excerpt: 'Compare MTN MoMo and Airtel Money fees in Uganda for sending money, cash withdrawals and bill payments, with practical tips'
 author: editorial-desk

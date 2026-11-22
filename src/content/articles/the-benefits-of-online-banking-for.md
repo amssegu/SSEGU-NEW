@@ -1,5 +1,5 @@
 ---
-title: 'The Benefits of Online Banking for Beginners | SSEGU'
+title: 'The Benefits of Online Banking for Beginners'
 slug: the-benefits-of-online-banking-for
 excerpt: 'online banking, digital banking, banking services, financial management, convenience, efficiency, security, beginners, financial independence, financi'
 author: editorial-desk

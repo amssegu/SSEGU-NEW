@@ -1,5 +1,5 @@
 ---
-title: 'Time Management Tips for Maximum Productivity: How to Use Your Time More Effectively | SSEGU'
+title: 'Time Management Tips for Maximum Productivity: How to Use Your Time More Effectively'
 slug: time-management-tips-for-maximum
 excerpt: 'This complete guide explains the best time management tips for maximum productivity, including how to plan your day, prioritize tasks, avoid distracti'
 author: editorial-desk

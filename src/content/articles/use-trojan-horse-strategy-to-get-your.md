@@ -1,5 +1,5 @@
 ---
-title: 'Use The Trojan Horse Strategy To Get Your First 10 Local Clients | SSEGU'
+title: 'Use The Trojan Horse Strategy To Get Your First 10 Local Clients'
 slug: use-trojan-horse-strategy-to-get-your
 excerpt: 'They hid inside a gift. The Trojans brought it in themselves. Then the Greeks won. Most local businesses try to'
 author: editorial-desk

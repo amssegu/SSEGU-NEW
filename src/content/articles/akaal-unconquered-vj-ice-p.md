@@ -1,5 +1,5 @@
 ---
-title: 'Akaal: The Unconquered - VJ ice P | SSEGU'
+title: 'Akaal: The Unconquered - VJ ice P'
 slug: akaal-unconquered-vj-ice-p
 excerpt: 'Akaal: The Unconquered - VJ ice P - In this action drama set in the 1840s, Punjab warriors defend themselves against a vengeful army.'
 author: editorial-desk

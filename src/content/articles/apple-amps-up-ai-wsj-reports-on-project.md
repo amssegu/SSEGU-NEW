@@ -1,5 +1,5 @@
 ---
-title: 'Apple Amps Up AI: WSJ Reports on Project ACDC | SSEGU'
+title: 'Apple Amps Up AI: WSJ Reports on Project ACDC'
 slug: apple-amps-up-ai-wsj-reports-on-project
 excerpt: 'WSJ Reports on Project ACDC, Apple AI, Wall Street Journal report, Project ACDC, Apple data center chips, AI software, Apple technology, artificial in'
 author: editorial-desk

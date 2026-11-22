@@ -1,5 +1,5 @@
 ---
-title: 'Jose Aldo Takes Home $21k in Potential Farewell Bout: UFC 301 Promotional Payouts Unveiled | SSEGU'
+title: 'Jose Aldo Takes Home $21k in Potential Farewell Bout: UFC 301 Promotional Payouts Unveiled'
 slug: jose-aldo-takes-home-21k-in-potential
 excerpt: 'UFC 301, thrilling fights, fighter pay, UFC Promotional Guidelines, post-fight analysis, MMA news, fighter earnings, UFC compliance pay, facebook, wh'
 author: editorial-desk

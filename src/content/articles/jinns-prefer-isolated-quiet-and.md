@@ -1,5 +1,5 @@
 ---
-title: 'Jinns prefer isolated | quiet | and abandoned environments - Hidden from human sight But Where Do they Live? | ssegu | SSEGU'
+title: 'Jinns prefer isolated | quiet | and abandoned environments - Hidden from human sight But Where Do they Live?'
 slug: jinns-prefer-isolated-quiet-and
 excerpt: 'While humans build cities from brick, steel, and concrete, jinn are believed to inhabit the unseen spaces that exist alongside our physical world. Acc'
 author: editorial-desk

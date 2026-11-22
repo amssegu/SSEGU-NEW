@@ -1,5 +1,5 @@
 ---
-title: 'Unlock the power of automated trading systems to capitalize on market breakouts. | SSEGU'
+title: 'Unlock the power of automated trading systems to capitalize on market breakouts.'
 slug: unlock-power-of-automated-trading
 excerpt: 'Automated trading systems, algorithmic trading, high-frequency trading, market data analysis, trading algorithms, real-time market data, trading infra'
 author: editorial-desk

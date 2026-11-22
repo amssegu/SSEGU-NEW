@@ -1,5 +1,5 @@
 ---
-title: 'The Importance of Multi-Factor Authentication in Online Banking Security | SSEGU'
+title: 'The Importance of Multi-Factor Authentication in Online Banking Security'
 slug: the-importance-of-multi-factor
 excerpt: 'online banking, digital age, financial management, security challenges, cyber threats, multi-factor authentication, MFA, unauthorized access, IT secur'
 author: editorial-desk

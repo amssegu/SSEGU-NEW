@@ -1,5 +1,5 @@
 ---
-title: "The Surprising Truth About Why the Law of Attraction Isn't Working for You (and How to Fix It) | SSEGU"
+title: "The Surprising Truth About Why the Law of Attraction Isn't Working for You (and How to Fix It)"
 slug: the-surprising-truth-about-why-law-of
 excerpt: 'Law of Attraction, Manifestation Tips, Self Improvement, Mindset Shift, Positive Thinking, Personal Development'
 author: editorial-desk

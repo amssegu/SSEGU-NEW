@@ -1,5 +1,5 @@
 ---
-title: 'If You Were a Clock, Would You Turn Back Time? | SSEGU'
+title: 'If You Were a Clock, Would You Turn Back Time?'
 slug: if-you-were-clock-would-you-turn-back
 excerpt: 'The Philosophy of Time: A Clock’s Perspective Time has long been a subject of philosophical inquiry, inviting reflection on its nature, significance, and the...'
 author: editorial-desk

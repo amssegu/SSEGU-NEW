@@ -1,5 +1,5 @@
 ---
-title: "Another Man's Wife Kali Mu: VJ CB - ssegu | SSEGU"
+title: "Another Man's Wife Kali Mu: VJ CB - ssegu"
 slug: another-mans-wife-kali-mu-vj-cb-ssegu
 excerpt: 'Another Man'
 author: editorial-desk

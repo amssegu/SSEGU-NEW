@@ -1,5 +1,5 @@
 ---
-title: 'Advantages of Online Mental Health Assessments | SSEGU'
+title: 'Advantages of Online Mental Health Assessments'
 slug: advantages-of-online-mental-health
 excerpt: 'Online mental health assessments provide convenience and accessibility for individuals seeking support for their mental well-being.'
 author: editorial-desk

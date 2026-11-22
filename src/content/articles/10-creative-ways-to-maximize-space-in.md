@@ -1,5 +1,5 @@
 ---
-title: '10 Creative Ways to Maximize Space in Your Craft Show Display | SSEGU'
+title: '10 Creative Ways to Maximize Space in Your Craft Show Display'
 slug: 10-creative-ways-to-maximize-space-in
 excerpt: 'When it comes to craft shows, maximizing your display space not only enhances your ability to showcase your products but also attracts more customers.'
 author: editorial-desk

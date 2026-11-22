@@ -1,5 +1,5 @@
 ---
-title: 'Unlock the full potential of TradingView with our comprehensive starter guide. | SSEGU'
+title: 'Unlock the full potential of TradingView with our comprehensive starter guide.'
 slug: unlock-full-potential-of-tradingview
 excerpt: 'Mastering TradingView: A Starter Guide, Unlock the full potential of TradingView with our comprehensive starter guide.'
 author: editorial-desk

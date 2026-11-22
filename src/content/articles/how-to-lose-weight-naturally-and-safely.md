@@ -1,5 +1,5 @@
 ---
-title: 'How to Lose Weight Naturally and Safely: A Complete Guide to Healthy, Sustainable Weight Loss | SSEGU'
+title: 'How to Lose Weight Naturally and Safely: A Complete Guide to Healthy, Sustainable Weight Loss'
 slug: how-to-lose-weight-naturally-and-safely
 excerpt: 'This comprehensive guide explains how to lose weight naturally, the habits that support healthy weight management, common mistakes to avoid, and pract'
 author: editorial-desk

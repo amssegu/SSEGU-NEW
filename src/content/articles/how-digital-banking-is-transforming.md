@@ -1,5 +1,5 @@
 ---
-title: 'How Digital Banking is Transforming Uganda’s Economy (And What it means for you) | SSEGU'
+title: 'How Digital Banking is Transforming Uganda’s Economy (And What it means for you)'
 slug: how-digital-banking-is-transforming
 excerpt: 'Digital this, digital that, digital banking. We live a digital world today; even our money is now handled online. It'
 author: editorial-desk

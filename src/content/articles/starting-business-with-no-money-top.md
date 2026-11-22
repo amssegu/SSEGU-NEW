@@ -1,5 +1,5 @@
 ---
-title: 'Starting a Business with No Money: Top Business Ideas for Entrepreneurs on a Budget | SSEGU'
+title: 'Starting a Business with No Money: Top Business Ideas for Entrepreneurs on a Budget'
 slug: starting-business-with-no-money-top
 excerpt: 'starting a business, no money business ideas, budget entrepreneurship, low-cost business ideas, frugal entrepreneurship, business ideas for beginners'
 author: editorial-desk

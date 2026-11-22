@@ -1,5 +1,5 @@
 ---
-title: 'Balaalo Herdmen Given 14 Day Ultimatum To Vacate Northern Uganda. A Complex Issue Of Land And Livelihoods. | SSEGU'
+title: 'Balaalo Herdmen Given 14 Day Ultimatum To Vacate Northern Uganda. A Complex Issue Of Land And Livelihoods.'
 slug: balaalo-herdmen-given-14-day-ultimatum
 excerpt: 'On May 23rd, 2025, the State Minister for Northern Uganda Rehabilitation, Hon. Kenneth Omona, held a press briefing at the regional Office of the Pri'
 author: editorial-desk

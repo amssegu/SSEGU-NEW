@@ -1,5 +1,5 @@
 ---
-title: "Tom Clancy's Jack Ryan: Ghost War - Kali Mu: VJ ICEP | SSEGU | SSEGU"
+title: "Tom Clancy's Jack Ryan: Ghost War - Kali Mu: VJ ICEP"
 slug: tom-clancys-jack-ryan-ghost-war-kali-mu
 excerpt: 'Tom Clancy'
 author: editorial-desk

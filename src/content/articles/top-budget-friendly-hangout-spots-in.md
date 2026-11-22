@@ -1,5 +1,5 @@
 ---
-title: 'Top Budget-Friendly Hangout Spots in Kampala: Enjoy Fun and Adventure Without Breaking the Bank! | SSEGU'
+title: 'Top Budget-Friendly Hangout Spots in Kampala: Enjoy Fun and Adventure Without Breaking the Bank!'
 slug: top-budget-friendly-hangout-spots-in
 excerpt: 'Introduction to Affordable Escapes in Kampala Kampala, the capital city of Uganda, is a vibrant metropolis teeming with life, culture, and unique experiences...'
 author: editorial-desk

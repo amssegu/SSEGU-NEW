@@ -1,5 +1,5 @@
 ---
-title: 'Gospel Star Julie Mutesasira Returns to Uganda After Years Abroad | SSEGU'
+title: 'Gospel Star Julie Mutesasira Returns to Uganda After Years Abroad'
 slug: gospel-star-julie-mutesasira-returns-to
 excerpt: 'After spending several years in Canada, beloved Ugandan gospel singer — Julie Birungi aka. Julie Mutesasira has finally touched down in Kampala, send'
 author: editorial-desk

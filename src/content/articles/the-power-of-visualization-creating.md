@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Visualization: Creating a Wealth Manifestation Vision Board | SSEGU'
+title: 'The Power of Visualization: Creating a Wealth Manifestation Vision Board'
 slug: the-power-of-visualization-creating
 excerpt: 'The Power of Visualization: Creating a Wealth Manifestation Vision Board Visualization is a powerful mental technique that involves envisioning specific goal...'
 author: editorial-desk

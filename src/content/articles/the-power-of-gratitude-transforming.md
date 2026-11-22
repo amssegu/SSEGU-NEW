@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Gratitude: Transforming Your Life with a Positive Mindset | SSEGU'
+title: 'The Power of Gratitude: Transforming Your Life with a Positive Mindset'
 slug: the-power-of-gratitude-transforming
 excerpt: 'Gratitude is a simple yet powerful practice that can transform your life by shifting your focus from what you lack to what you have. By cultivating a'
 author: editorial-desk

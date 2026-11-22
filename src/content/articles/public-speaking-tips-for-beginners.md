@@ -1,5 +1,5 @@
 ---
-title: 'Public Speaking Tips for Beginners: A Complete Guide to Speaking with Confidence | SSEGU'
+title: 'Public Speaking Tips for Beginners: A Complete Guide to Speaking with Confidence'
 slug: public-speaking-tips-for-beginners
 excerpt: 'This complete guide covers practical public speaking tips for beginners, common mistakes to avoid, and strategies that will help you deliver clear, me'
 author: editorial-desk

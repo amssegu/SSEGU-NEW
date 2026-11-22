@@ -1,5 +1,5 @@
 ---
-title: 'Journey of Gratitude: Embracing the Power of Thankfulness | SSEGU'
+title: 'Journey of Gratitude: Embracing the Power of Thankfulness'
 slug: journey-of-gratitude-embracing-power-of
 excerpt: 'Journey of Gratitude: Embracing the Power of Thankfulness Gratitude—a simple yet profound act of acknowledging the good in one’s life—has the power to transf...'
 author: editorial-desk

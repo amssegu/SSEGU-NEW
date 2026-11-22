@@ -1,5 +1,5 @@
 ---
-title: 'Engaging Audiences in the Metaverse: A New Frontier for Brand Experiences | SSEGU'
+title: 'Engaging Audiences in the Metaverse: A New Frontier for Brand Experiences'
 slug: engaging-audiences-in-metaverse-new
 excerpt: 'Imagine stepping into a sprawling digital universe, where possibilities unfold in limitless expanses, and the boundaries between reality and virtuality blur ...'
 author: editorial-desk

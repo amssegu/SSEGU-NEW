@@ -1,5 +1,5 @@
 ---
-title: 'The Importance Of Bible-Based Principles | SSEGU'
+title: 'The Importance Of Bible-Based Principles'
 slug: the-importance-of-bible-based-principles
 excerpt: 'Explore the timeless wisdom and modern relevance of Bible-based principles in shaping individuals and societies. The Foundation of Bible-Based Principles The...'
 author: editorial-desk

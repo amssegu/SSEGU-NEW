@@ -1,5 +1,5 @@
 ---
-title: 'NOCTARI part 1 - Arrival | ssegu | SSEGU'
+title: 'NOCTARI part 1 - Arrival'
 slug: noctari-arrival-ssegu
 excerpt: '👽🛸 NOCTARI part 1 - Arrival 🎭 🔥 Kick Away Stress: 🎬 In NOCTARI - Arrival, ☄️ the opening chapter of an epic sci-fi fantasy saga, a catastrophic'
 author: editorial-desk

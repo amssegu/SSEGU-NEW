@@ -1,5 +1,5 @@
 ---
-title: 'Blockchain Technology: Transforming Supply Chain Management | SSEGU'
+title: 'Blockchain Technology: Transforming Supply Chain Management'
 slug: blockchain-technology-transforming
 excerpt: 'Introduction Blockchain technology, initially developed as the underlying mechanism for cryptocurrencies such as Bitcoin, has emerged as a revolutionary tool...'
 author: editorial-desk

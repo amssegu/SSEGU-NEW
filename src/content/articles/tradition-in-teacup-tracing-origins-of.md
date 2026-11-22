@@ -1,5 +1,5 @@
 ---
-title: 'Tradition in a Teacup: Tracing the Origins of Tea Ceremonies | SSEGU'
+title: 'Tradition in a Teacup: Tracing the Origins of Tea Ceremonies'
 slug: tradition-in-teacup-tracing-origins-of
 excerpt: 'In the bustling heart of Kyoto, amidst the serene landscape gardens and ancient wooden temples, lies a small, nondescript teahouse that might be easily misse...'
 author: editorial-desk

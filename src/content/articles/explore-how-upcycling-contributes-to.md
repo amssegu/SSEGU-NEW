@@ -1,5 +1,5 @@
 ---
-title: 'Explore how upcycling contributes to sustainability by reducing waste and promoting creativity. Learn about its environmental impact and benefits. | SSEGU'
+title: 'Explore how upcycling contributes to sustainability by reducing waste and promoting creativity. Learn about its environmental impact and benefits.'
 slug: explore-how-upcycling-contributes-to
 excerpt: 'In a small coastal town, Maria stumbled upon the remnants of old fishing nets and ropes littered along the shore. Driven by a passion to protect'
 author: editorial-desk

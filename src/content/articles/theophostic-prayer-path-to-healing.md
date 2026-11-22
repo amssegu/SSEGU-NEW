@@ -1,5 +1,5 @@
 ---
-title: 'Theophostic Prayer: A Path to Healing | SSEGU'
+title: 'Theophostic Prayer: A Path to Healing'
 slug: theophostic-prayer-path-to-healing
 excerpt: 'But what exactly is theophostic prayer? How does it work, and why has it become a subject of both reverence and controversy? In this article, we delv'
 author: editorial-desk

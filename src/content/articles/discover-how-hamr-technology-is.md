@@ -1,5 +1,5 @@
 ---
-title: 'Discover how HAMR technology is transforming HDDs by enhancing data storage capacity and performance. | SSEGU'
+title: 'Discover how HAMR technology is transforming HDDs by enhancing data storage capacity and performance.'
 slug: discover-how-hamr-technology-is
 excerpt: 'Have you ever wondered how the advancing technology could fit more and more data into the same old hard disk drives (HDDs)? Well, one groundbreaking t'
 author: editorial-desk

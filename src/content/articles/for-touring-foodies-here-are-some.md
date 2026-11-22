@@ -1,5 +1,5 @@
 ---
-title: "For the Touring Foodies, here are some Uganda's Street Food I Recomend...From a Ugandan's Point of View | SSEGU"
+title: "For the Touring Foodies, here are some Uganda's Street Food I Recomend...From a Ugandan's Point of View"
 slug: for-touring-foodies-here-are-some
 excerpt: 'There'
 author: editorial-desk

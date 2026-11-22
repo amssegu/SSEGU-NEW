@@ -1,5 +1,5 @@
 ---
-title: 'Effective Treatments for Vitamin D Deficiency in Men | SSEGU'
+title: 'Effective Treatments for Vitamin D Deficiency in Men'
 slug: effective-treatments-for-vitamin-d
 excerpt: 'Vitamin D deficiency is a common condition that affects many men. It occurs when the body does not have enough vitamin D, which is essential for maint'
 author: editorial-desk

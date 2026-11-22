@@ -1,5 +1,5 @@
 ---
-title: 'How to Start Journaling for Mental Health, Creativity & Self-Growth | SSEGU'
+title: 'How to Start Journaling for Mental Health, Creativity & Self-Growth'
 slug: how-to-start-journaling-for-mental
 excerpt: 'Ever had a day that you wished to share, but couldn'
 author: editorial-desk

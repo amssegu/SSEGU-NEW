@@ -1,5 +1,5 @@
 ---
-title: 'Happy Mother’s Day With Love And Support Toward A Brighter Future | SSEGU'
+title: 'Happy Mother’s Day With Love And Support Toward A Brighter Future'
 slug: happy-mothers-day-with-love-and-support
 excerpt: 'Mother’s Day is a heartfelt celebration that honors the selfless love and sacrifices of mothers around the world. It’s a day to acknowledge'
 author: editorial-desk

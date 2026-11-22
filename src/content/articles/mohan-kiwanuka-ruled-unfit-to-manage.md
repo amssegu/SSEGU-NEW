@@ -1,5 +1,5 @@
 ---
-title: 'Mohan Kiwanuka Ruled Unfit to Manage Business Empire | SSEGU'
+title: 'Mohan Kiwanuka Ruled Unfit to Manage Business Empire'
 slug: mohan-kiwanuka-ruled-unfit-to-manage
 excerpt: 'On June 7, 2025, Uganda’s Court of Appeal, the second-highest court, declared prominent businessman Mohan Musisi Kiwanuka unfit to manage his busines'
 author: editorial-desk

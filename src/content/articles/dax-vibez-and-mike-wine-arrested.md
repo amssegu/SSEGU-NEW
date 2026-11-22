@@ -1,5 +1,5 @@
 ---
-title: 'Dax Vibez And Mike wine Arrested. | SSEGU'
+title: 'Dax Vibez And Mike wine Arrested.'
 slug: dax-vibez-and-mike-wine-arrested
 excerpt: 'Dax Vibez and Mike wine in the wee hours of Monday morning were arrested by the Jinja DPC, this was confirmed by the Admin handling Dax Vibes social a'
 author: editorial-desk

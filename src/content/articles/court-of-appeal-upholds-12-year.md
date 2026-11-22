@@ -1,5 +1,5 @@
 ---
-title: 'Court of Appeal Upholds 12-Year Sentence for Mowzey Radio’s Killer | SSEGU'
+title: 'Court of Appeal Upholds 12-Year Sentence for Mowzey Radio’s Killer'
 slug: court-of-appeal-upholds-12-year
 excerpt: 'The Court of Appeal has decided to uphold the 12-year, 3-month prison sentence of Godfrey Wamala, also known as Troy, for the tragic manslaughter of t'
 author: editorial-desk

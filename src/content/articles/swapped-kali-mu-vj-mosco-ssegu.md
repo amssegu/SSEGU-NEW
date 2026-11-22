@@ -1,5 +1,5 @@
 ---
-title: 'Swapped - Kali Mu: VJ Mosco - ssegu | SSEGU'
+title: 'Swapped - Kali Mu: VJ Mosco - ssegu'
 slug: swapped-kali-mu-vj-mosco-ssegu
 excerpt: 'Swapped Data-saving downloads Kali Mu: VJ Mosco Genre: Adventure, Animation,Family,Fantasy - ssegu'
 author: editorial-desk

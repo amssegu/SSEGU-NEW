@@ -1,5 +1,5 @@
 ---
-title: 'How to Import a Car to Tanzania: VAT & Duties Guide (2024 Update) | SSEGU'
+title: 'How to Import a Car to Tanzania: VAT & Duties Guide (2024 Update)'
 slug: how-to-import-car-to-tanzania-vat
 excerpt: 'For Tanzanians, Japanese used cars offer a great way to save money without compromising on quality. However, before importing a Japanese used car to T'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Can You Catch Ebola From Food? Myth vs. Fact Explained | SSEGU'
+title: 'Can You Catch Ebola From Food? Myth vs. Fact Explained'
 slug: can-you-catch-ebola-from-food-myth-vs
 excerpt: 'Whenever a serious virus makes headlines, many people begin asking questions about how it spreads. One common concern is whether Ebola can be transmit'
 author: editorial-desk

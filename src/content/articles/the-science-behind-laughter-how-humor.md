@@ -1,5 +1,5 @@
 ---
-title: 'The Science Behind Laughter: How Humor Affects the Brain | SSEGU'
+title: 'The Science Behind Laughter: How Humor Affects the Brain'
 slug: the-science-behind-laughter-how-humor
 excerpt: 'Have you ever wondered why laughter feels so good? Why a good giggle can lighten your mood and make the world seem a little brighter? Well, it turns o'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Uganda Partners with Lemon Group to Revolutionize Blockchain Initiatives | SSEGU'
+title: 'Uganda Partners with Lemon Group to Revolutionize Blockchain Initiatives'
 slug: uganda-partners-with-lemon-group-to
 excerpt: 'The Official Announcement and Government Commitment On the date of the announcement, the government of Uganda, led by Hon. Oryem Henry Okello, the Minister o...'
 author: editorial-desk

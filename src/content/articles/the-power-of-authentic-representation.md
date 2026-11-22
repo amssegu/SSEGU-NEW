@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Authentic Representation: Moving Beyond Tokenism in Marketing | SSEGU'
+title: 'The Power of Authentic Representation: Moving Beyond Tokenism in Marketing'
 slug: the-power-of-authentic-representation
 excerpt: 'In today’s global market, the push towards diversity and inclusivity in marketing isn’t just a trend—it’s a reflection of a changing world. However, there re...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Basmati Rice: A History and Cultivation Journey | SSEGU'
+title: 'Basmati Rice: A History and Cultivation Journey'
 slug: basmati-rice-history-and-cultivation
 excerpt: 'Introduction to Basmati Rice Basmati rice, a variety renowned for its fragrant aroma and exquisite flavor, has a rich history that dates back thousands of ye...'
 author: editorial-desk

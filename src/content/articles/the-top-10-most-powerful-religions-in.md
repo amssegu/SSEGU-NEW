@@ -1,5 +1,5 @@
 ---
-title: 'The Top 10 Most Powerful Religions in the World | SSEGU'
+title: 'The Top 10 Most Powerful Religions in the World'
 slug: the-top-10-most-powerful-religions-in
 excerpt: 'Whether you'
 author: editorial-desk

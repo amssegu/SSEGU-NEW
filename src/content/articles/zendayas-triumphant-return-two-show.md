@@ -1,5 +1,5 @@
 ---
-title: "Zendaya's Triumphant Return: Two Show-Stopping Looks at the 2024 Met Gala | SSEGU"
+title: "Zendaya's Triumphant Return: Two Show-Stopping Looks at the 2024 Met Gala"
 slug: zendayas-triumphant-return-two-show
 excerpt: 'Zendaya'
 author: editorial-desk

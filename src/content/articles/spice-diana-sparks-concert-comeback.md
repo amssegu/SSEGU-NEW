@@ -1,5 +1,5 @@
 ---
-title: 'Spice Diana Sparks Concert Comeback After Secret Meeting with Next Media CEO Kin Kariisa | SSEGU'
+title: 'Spice Diana Sparks Concert Comeback After Secret Meeting with Next Media CEO Kin Kariisa'
 slug: spice-diana-sparks-concert-comeback
 excerpt: 'Is the'
 author: editorial-desk

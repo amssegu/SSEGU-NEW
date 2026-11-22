@@ -1,5 +1,5 @@
 ---
-title: 'How to Prepare a Delicious Bacon-Wrapped Stuffed Chicken | SSEGU'
+title: 'How to Prepare a Delicious Bacon-Wrapped Stuffed Chicken'
 slug: how-to-prepare-delicious-bacon-wrapped
 excerpt: 'Creating a scrumptious meal at home can be fulfilling, especially when you have the right combination of ingredients. For this recipe, gather some'
 author: editorial-desk

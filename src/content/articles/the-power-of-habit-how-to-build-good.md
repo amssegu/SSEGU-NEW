@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Habit: How to Build Good Habits and Break Bad Ones | SSEGU'
+title: 'The Power of Habit: How to Build Good Habits and Break Bad Ones'
 slug: the-power-of-habit-how-to-build-good
 excerpt: 'Habits are the building blocks of our daily lives. They shape our actions, influence our decisions, and ultimately determine our success and happiness'
 author: editorial-desk

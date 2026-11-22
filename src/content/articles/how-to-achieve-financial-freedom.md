@@ -1,5 +1,5 @@
 ---
-title: 'How to Achieve Financial Freedom: A Complete Guide to Building Wealth and Taking Control of Your Money | SSEGU'
+title: 'How to Achieve Financial Freedom: A Complete Guide to Building Wealth and Taking Control of Your Money'
 slug: how-to-achieve-financial-freedom
 excerpt: 'This complete guide explains what financial freedom means, why it matters, and practical strategies you can use to build wealth and gain greater contr'
 author: editorial-desk

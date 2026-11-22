@@ -1,5 +1,5 @@
 ---
-title: 'How To Buy Or Order On Alibaba: Step-by-Step Guide for Beginners | SSEGU'
+title: 'How To Buy Or Order On Alibaba: Step-by-Step Guide for Beginners'
 slug: how-to-buy-or-order-on-alibaba-step-by
 excerpt: 'This step-by-step guide explains how to buy or order products on Alibaba safely and effectively, from creating an account to receiving your shipment.'
 author: editorial-desk

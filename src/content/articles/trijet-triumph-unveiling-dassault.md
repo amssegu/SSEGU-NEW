@@ -1,5 +1,5 @@
 ---
-title: "Trijet Triumph: Unveiling the Dassault Falcon 50's Third Engine Innovation | SSEGU"
+title: "Trijet Triumph: Unveiling the Dassault Falcon 50's Third Engine Innovation"
 slug: trijet-triumph-unveiling-dassault
 excerpt: 'Falcon50, DassaultAviation, TrijetDesign, SupercriticalWing, BusinessJets, AerospaceEngineering, AviationHistory, ExtendedRangeJets, isaacupdate, sseg'
 author: editorial-desk

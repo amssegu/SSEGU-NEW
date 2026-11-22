@@ -1,5 +1,5 @@
 ---
-title: 'Transparency as a Catalyst for Organizational Success | SSEGU'
+title: 'Transparency as a Catalyst for Organizational Success'
 slug: transparency-as-catalyst-for
 excerpt: 'In the heart of Silicon Valley, a tech startup named SoluTech was once teetering on the brink of collapse. The issue? A lack of transparency within the compa...'
 author: editorial-desk

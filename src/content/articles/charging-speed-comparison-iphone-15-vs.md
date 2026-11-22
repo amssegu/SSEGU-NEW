@@ -1,5 +1,5 @@
 ---
-title: 'Charging Speed Comparison: iPhone 15 vs. Pixel 8 Pro | SSEGU'
+title: 'Charging Speed Comparison: iPhone 15 vs. Pixel 8 Pro'
 slug: charging-speed-comparison-iphone-15-vs
 excerpt: 'When it comes to comparing the charging speeds of the latest smartphones, the iPhone 15 and Pixel 8 Pro are two of the most talked-about contenders. As new m...'
 author: editorial-desk

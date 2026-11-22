@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Positive Thinking: How a Positive Mindset Can Transform Your Life | SSEGU'
+title: 'The Power of Positive Thinking: How a Positive Mindset Can Transform Your Life'
 slug: the-power-of-positive-thinking-how
 excerpt: 'Positive thinking is a powerful tool that can have a profound impact on our lives. By adopting a positive mindset, we can overcome obstacles, achieve'
 author: editorial-desk

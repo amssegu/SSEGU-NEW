@@ -1,5 +1,5 @@
 ---
-title: 'Stress Management Techniques That Work: Practical Ways to Reduce Stress and Improve Well-Being | SSEGU'
+title: 'Stress Management Techniques That Work: Practical Ways to Reduce Stress and Improve Well-Being'
 slug: stress-management-techniques-that-work
 excerpt: 'The good news is that stress doesn'
 author: editorial-desk

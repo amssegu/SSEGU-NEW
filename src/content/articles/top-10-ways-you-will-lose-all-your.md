@@ -1,5 +1,5 @@
 ---
-title: 'Top 10 Ways You Will Lose All Your Money in Crypto | SSEGU'
+title: 'Top 10 Ways You Will Lose All Your Money in Crypto'
 slug: top-10-ways-you-will-lose-all-your
 excerpt: 'cryptocurrency risks, losing money in crypto, crypto investment mistakes, avoid crypto scams, financial loss in cryptocurrency, crypto trading errors'
 author: editorial-desk

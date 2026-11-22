@@ -1,5 +1,5 @@
 ---
-title: 'Why Travel Is Good for Your Mental Health | SSEGU'
+title: 'Why Travel Is Good for Your Mental Health'
 slug: why-travel-is-good-for-your-mental
 excerpt: 'travel benefits, mental health, wellness travel, mental wellness, travel therapy, health benefits of travel'
 author: editorial-desk

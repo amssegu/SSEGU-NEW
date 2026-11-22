@@ -1,5 +1,5 @@
 ---
-title: "Knicks Dominate Game 1: Hart's Wife vs. Haliburton's Drives, Who Wins? | SSEGU"
+title: "Knicks Dominate Game 1: Hart's Wife vs. Haliburton's Drives, Who Wins?"
 slug: knicks-dominate-game-1-harts-wife-vs
 excerpt: 'Hart'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Delicious Chicken Stew with Potatoes and Peppers | SSEGU'
+title: 'Delicious Chicken Stew with Potatoes and Peppers'
 slug: delicious-chicken-stew-with-potatoes-3
 excerpt: 'Ingredients for a Hearty Chicken Stew Cooking a delightful chicken stew can be both simple and satisfying. To begin, gather your ingredients: chicken, potato...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Barbarian Kali Mu: VJ Bonny | SSEGU'
+title: 'Barbarian Kali Mu: VJ Bonny'
 slug: barbarian-kali-mu-vj-bonny
 excerpt: 'Download Barbarian By VJ Bonny Mp4 Mobile Movie. Stream Barbarian By VJ Bonny ssegu'
 author: editorial-desk

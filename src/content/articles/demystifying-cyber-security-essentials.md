@@ -1,5 +1,5 @@
 ---
-title: 'Demystifying Cyber Security Essentials: Safeguard Your Digital World in Just 7 Minutes | SSEGU'
+title: 'Demystifying Cyber Security Essentials: Safeguard Your Digital World in Just 7 Minutes'
 slug: demystifying-cyber-security-essentials
 excerpt: 'Cyber threats are evolving at a rapid pace, and without proper security measures, you could fall victim to identity theft, financial loss'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Discover creative DIY outdoor crafts for kids to enjoy nature and bond as a family. | SSEGU'
+title: 'Discover creative DIY outdoor crafts for kids to enjoy nature and bond as a family.'
 slug: discover-creative-diy-outdoor-crafts
 excerpt: 'world of adventure right in your backyard! Engaging kids in outdoor activities not only sparks their creativity but also strengthens family bonds. Cra'
 author: editorial-desk

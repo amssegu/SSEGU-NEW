@@ -1,5 +1,5 @@
 ---
-title: 'Email Marketing for Beginners: A Step-by-Step Guide to Building Successful Email Campaigns | SSEGU'
+title: 'Email Marketing for Beginners: A Step-by-Step Guide to Building Successful Email Campaigns'
 slug: email-marketing-for-beginners-step-by
 excerpt: 'This complete beginner'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: '11 Money Lessons From The Bible That Made Me Rich | ssegu | SSEGU'
+title: '11 Money Lessons From The Bible That Made Me Rich'
 slug: 11-money-lessons-from-bible-that-made
 excerpt: 'Discover the timeless financial wisdom that completely transformed my bank account and life.'
 author: editorial-desk

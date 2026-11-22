@@ -1,5 +1,5 @@
 ---
-title: '3 Surprising Habits That Make You Smarter | SSEGU'
+title: '3 Surprising Habits That Make You Smarter'
 slug: 3-surprising-habits-that-make-you
 excerpt: 'brain health, cognitive enhancement, mental fitness, intelligence boosting, smart habits, brainpower improvement'
 author: editorial-desk

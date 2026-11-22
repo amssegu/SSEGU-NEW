@@ -1,5 +1,5 @@
 ---
-title: 'Pastor Kayanja Breaks Down in Tears After Public Apology in Wine Saga Redemption Moment | ssegu | SSEGU'
+title: 'Pastor Kayanja Breaks Down in Tears After Public Apology in Wine Saga Redemption Moment'
 slug: pastor-kayanja-breaks-down-in-tears
 excerpt: 'Pastor Kayanja apology, wine saga Uganda, Kasibo Joshua apology, Miracle Center news, Kayanja forgiveness, Uganda church news, salvation testimony 📺 laba-Video'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Wonders of Innovation: The Evolution of Man-Made Wonders Over Time | SSEGU'
+title: 'Wonders of Innovation: The Evolution of Man-Made Wonders Over Time'
 slug: wonders-of-innovation-evolution-of-man
 excerpt: 'Wonders of Innovation: The Evolution of Man-Made Wonders Over Time The term ‘wonders of the world’ has historically referred to remarkable constructions that...'
 author: editorial-desk

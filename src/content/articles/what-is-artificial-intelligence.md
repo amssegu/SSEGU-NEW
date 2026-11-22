@@ -1,5 +1,5 @@
 ---
-title: "What Is Artificial Intelligence? A Complete Beginner's Guide | SSEGU"
+title: "What Is Artificial Intelligence? A Complete Beginner's Guide"
 slug: what-is-artificial-intelligence
 excerpt: 'Instead of simply following fixed instructions, many AI systems analyze large amounts of data, identify patterns, and improve their performance over t'
 author: editorial-desk

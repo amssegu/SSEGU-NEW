@@ -1,5 +1,5 @@
 ---
-title: 'Border 2 Part 2 Kali Mu: VJ Shield | SSEGU'
+title: 'Border 2 Part 2 Kali Mu: VJ Shield'
 slug: border-2-part-2-kali-mu-vj-shield
 excerpt: 'Download Border 2 Part 2 By VJ Shield Mp4 Mobile Movie. Stream Border 2 Part 2 By VJ Shield ssegu'
 author: editorial-desk

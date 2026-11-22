@@ -1,5 +1,5 @@
 ---
-title: 'The Complete Guide to Lifelong Learning: How Continuous Education Leads to Personal and Professional Success | SSEGU'
+title: 'The Complete Guide to Lifelong Learning: How Continuous Education Leads to Personal and Professional Success'
 slug: the-complete-guide-to-lifelong-learning
 excerpt: 'The Complete Guide to Lifelong Learning: How Continuous Education Leads to Personal and Professional Success Lifelong learning is the continuous pursuit of k...'
 author: editorial-desk

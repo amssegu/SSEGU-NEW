@@ -1,5 +1,5 @@
 ---
-title: "Living Stress-Free in a Wireless World: The Role of Aires Tech's EMF Protection Solutions | SSEGU"
+title: "Living Stress-Free in a Wireless World: The Role of Aires Tech's EMF Protection Solutions"
 slug: living-stress-free-in-wireless-world
 excerpt: 'In today’s fast-paced digital age, we are constantly surrounded by wireless technology, which, while convenient, brings potential health risks due to increas...'
 author: editorial-desk

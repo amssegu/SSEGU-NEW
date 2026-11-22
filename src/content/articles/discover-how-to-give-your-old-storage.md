@@ -1,5 +1,5 @@
 ---
-title: 'Discover how to give your old storage cabinet a new lease on life with these simple makeover tips. | SSEGU'
+title: 'Discover how to give your old storage cabinet a new lease on life with these simple makeover tips.'
 slug: discover-how-to-give-your-old-storage
 excerpt: 'Transforming an old storage cabinet into a functional masterpiece not only breathes new life into a piece of furniture but also enhances your living s'
 author: editorial-desk

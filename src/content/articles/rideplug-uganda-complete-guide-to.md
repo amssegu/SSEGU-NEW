@@ -1,5 +1,5 @@
 ---
-title: 'RidePlug Uganda: The Complete Guide to Importing Cars into Uganda | SSEGU'
+title: 'RidePlug Uganda: The Complete Guide to Importing Cars into Uganda'
 slug: rideplug-uganda-complete-guide-to
 excerpt: 'This complete guide explains everything you need to know about importing cars into Uganda, including the difference between direct sourcing and buying'
 author: editorial-desk

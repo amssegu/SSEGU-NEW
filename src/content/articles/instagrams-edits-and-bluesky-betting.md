@@ -1,5 +1,5 @@
 ---
-title: "Instagram's Edits and Bluesky Betting Big on TikTok’s Uncertain Future | SSEGU"
+title: "Instagram's Edits and Bluesky Betting Big on TikTok’s Uncertain Future"
 slug: instagrams-edits-and-bluesky-betting
 excerpt: 'So, the recent TikTok ban left many Americans scrambling for alternative platforms to continue their online ventures and exploits. Many other social m'
 author: editorial-desk

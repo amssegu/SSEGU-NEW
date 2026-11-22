@@ -1,5 +1,5 @@
 ---
-title: "Beginner's Guide to Yoga: Everything You Need to Know to Get Started | SSEGU"
+title: "Beginner's Guide to Yoga: Everything You Need to Know to Get Started"
 slug: beginners-guide-to-yoga-everything-you
 excerpt: 'The best part is that you don'
 author: editorial-desk

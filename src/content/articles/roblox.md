@@ -1,5 +1,5 @@
 ---
-title: 'Roblox | SSEGU'
+title: 'Roblox'
 slug: roblox
 excerpt: '10 Tips for Building an Epic Game in Roblox, Roblox, gaming, online games, game development, virtual worlds, multiplayer games'
 author: editorial-desk

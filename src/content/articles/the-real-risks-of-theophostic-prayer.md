@@ -1,5 +1,5 @@
 ---
-title: 'The Real Risks of Theophostic Prayer: What You Need to Know | SSEGU'
+title: 'The Real Risks of Theophostic Prayer: What You Need to Know'
 slug: the-real-risks-of-theophostic-prayer
 excerpt: 'The Real Risks of Theophostic Prayer: What You Need to Know Theophostic Prayer, developed in the 1990s by Dr. Ed Smith, is a form of Christian prayer and cou...'
 author: editorial-desk

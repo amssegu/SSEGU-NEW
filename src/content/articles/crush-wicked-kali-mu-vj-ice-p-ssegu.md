@@ -1,5 +1,5 @@
 ---
-title: 'Crush The Wicked - Kali Mu: VJ ICE P | ssegu | SSEGU'
+title: 'Crush The Wicked - Kali Mu: VJ ICE P'
 slug: crush-wicked-kali-mu-vj-ice-p-ssegu
 excerpt: '🤪 Crush The Wicked 🦸 Kali Mu: VJ ICE P Genre: Action, Crime, Family Runtime: 1 Hr 22 Min Kick Away Stress: 🎬'
 author: editorial-desk

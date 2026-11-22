@@ -1,5 +1,5 @@
 ---
-title: 'The Top Ten Richest Families in the World and their NET WORTH | SSEGU'
+title: 'The Top Ten Richest Families in the World and their NET WORTH'
 slug: the-top-ten-richest-families-in-world
 excerpt: 'This time, we'
 author: editorial-desk

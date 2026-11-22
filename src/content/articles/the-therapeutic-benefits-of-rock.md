@@ -1,5 +1,5 @@
 ---
-title: 'The Therapeutic Benefits of Rock Climbing for Mental Health | SSEGU'
+title: 'The Therapeutic Benefits of Rock Climbing for Mental Health'
 slug: the-therapeutic-benefits-of-rock
 excerpt: 'The Therapeutic Benefits of Rock Climbing for Mental Health Rock climbing has surged in popularity as both a physical and mental challenge. What many may not...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'From Myth To Money: 9 Ancient Stories That Will Change How You Earn | SSEGU'
+title: 'From Myth To Money: 9 Ancient Stories That Will Change How You Earn'
 slug: from-myth-to-money-9-ancient-stories
 excerpt: 'People made money 3000 years ago. The rules did not change. They just told the rules as stories. In 2027, the people who get rich are not the smart'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Ultimate Guide to Choosing the Perfect Storage Cabinet | SSEGU'
+title: 'The Ultimate Guide to Choosing the Perfect Storage Cabinet'
 slug: the-ultimate-guide-to-choosing-perfect
 excerpt: 'Choosing the perfect storage cabinet is crucial for organizing space effectively, whether it’s in your home, office, or workshop. Storage cabinets com'
 author: editorial-desk

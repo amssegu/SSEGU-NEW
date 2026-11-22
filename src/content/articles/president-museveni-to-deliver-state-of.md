@@ -1,5 +1,5 @@
 ---
-title: 'President Museveni To Deliver State of the Nation Address On 5th June | SSEGU'
+title: 'President Museveni To Deliver State of the Nation Address On 5th June'
 slug: president-museveni-to-deliver-state-of
 excerpt: 'President Yoweri Museveni is scheduled to deliver the State of the Nation Address tomorrow, Thursday, June 5, 2025, at Kololo Ceremonial Grounds. This'
 author: editorial-desk

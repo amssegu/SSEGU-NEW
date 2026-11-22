@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Gratitude on Manifestation and Law of Attraction | SSEGU'
+title: 'The Impact of Gratitude on Manifestation and Law of Attraction'
 slug: the-impact-of-gratitude-on
 excerpt: 'Gratitude is more than just a feel-good emotion; it has profound effects on our mental, emotional, and even physical state. In the context of manifestation a...'
 author: editorial-desk

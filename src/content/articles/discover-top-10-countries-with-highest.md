@@ -1,5 +1,5 @@
 ---
-title: 'Discover the Top 10 Countries with the Highest Percentage of White Residents Outside of Europe | SSEGU'
+title: 'Discover the Top 10 Countries with the Highest Percentage of White Residents Outside of Europe'
 slug: discover-top-10-countries-with-highest
 excerpt: 'Welcome back to our awesome articles! After the success of our black-and-white series, many of you asked us to explore the countries with the highest'
 author: editorial-desk

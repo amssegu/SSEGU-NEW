@@ -1,5 +1,5 @@
 ---
-title: 'The Role of Humor in Workplace Dynamics and Team Building | SSEGU'
+title: 'The Role of Humor in Workplace Dynamics and Team Building'
 slug: the-role-of-humor-in-workplace-dynamics
 excerpt: 'Have you ever wondered why some workplaces buzz with energy and camaraderie while others seem to just trudge along? The secret might just lie in the p'
 author: editorial-desk

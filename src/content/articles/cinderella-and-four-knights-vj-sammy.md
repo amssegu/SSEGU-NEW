@@ -1,5 +1,5 @@
 ---
-title: 'Cinderella and Four-Knights - VJ Sammy - Seas0n1 | SSEGU'
+title: 'Cinderella and Four-Knights - VJ Sammy - Seas0n1'
 slug: cinderella-and-four-knights-vj-sammy
 excerpt: 'VJ Sammy / Cinderella and Four Knights Cinderella and Four Knights - Season 1'
 author: editorial-desk

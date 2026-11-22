@@ -1,5 +1,5 @@
 ---
-title: 'How Spartan Training Can Help You Launch a Local Fitness Business | SSEGU'
+title: 'How Spartan Training Can Help You Launch a Local Fitness Business'
 slug: how-spartan-training-can-help-you
 excerpt: 'In 2027, most local fitness businesses fail for the same reason. They copy big box gyms. They sell monthly memberships no one uses.'
 author: editorial-desk

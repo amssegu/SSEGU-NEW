@@ -1,5 +1,5 @@
 ---
-title: 'The Joy of Creating: Exploring DIY Kits for Adults | SSEGU'
+title: 'The Joy of Creating: Exploring DIY Kits for Adults'
 slug: the-joy-of-creating-exploring-diy-kits
 excerpt: 'On a chilly autumn evening, Sarah found herself wandering the aisles of her local bookstore, looking for something to spark her creativity. Her job as'
 author: editorial-desk

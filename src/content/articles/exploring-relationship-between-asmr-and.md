@@ -1,5 +1,5 @@
 ---
-title: 'Exploring the Relationship Between ASMR and Mindfulness: Enhancing Meditation Practices. | SSEGU'
+title: 'Exploring the Relationship Between ASMR and Mindfulness: Enhancing Meditation Practices.'
 slug: exploring-relationship-between-asmr-and
 excerpt: 'Have you ever felt a tingling sensation that starts from your scalp and trickles down your spine when listening to specific sounds or watching certain action...'
 author: editorial-desk

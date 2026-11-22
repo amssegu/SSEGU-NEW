@@ -1,5 +1,5 @@
 ---
-title: 'How to Know You’re in Love | SSEGU'
+title: 'How to Know You’re in Love'
 slug: how-to-know-youre-in-love
 excerpt: 'love, relationships, signs of love, falling in love, emotional connection, love indicators'
 author: editorial-desk

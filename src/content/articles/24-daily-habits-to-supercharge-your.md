@@ -1,5 +1,5 @@
 ---
-title: '24 Daily Habits to Supercharge Your Self-Development Journey | SSEGU'
+title: '24 Daily Habits to Supercharge Your Self-Development Journey'
 slug: 24-daily-habits-to-supercharge-your
 excerpt: 'self-development, daily habits, personal growth, self-improvement, productivity tips, success strategies'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Bioluminescence in Medical Research | SSEGU'
+title: 'Bioluminescence in Medical Research'
 slug: bioluminescence-in-medical-research
 excerpt: 'Bioluminescence, the natural phenomenon through which living organisms produce light, has intrigued both the public and scientific community for centuries. T...'
 author: editorial-desk

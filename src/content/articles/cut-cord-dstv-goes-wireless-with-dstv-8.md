@@ -1,5 +1,5 @@
 ---
-title: 'Cut the Cord! DStv Goes Wireless with DStv Stream: No Dish, No Decoder Needed | SSEGU'
+title: 'Cut the Cord! DStv Goes Wireless with DStv Stream: No Dish, No Decoder Needed'
 slug: cut-cord-dstv-goes-wireless-with-dstv-8
 excerpt: 'DStv Goes Wireless with DStv Stream: No Dish, No Decoder Needed, MultiChoice Uganda, Lois Kwikiriza, DStv Stream, digital entertainment, standalone s'
 author: editorial-desk

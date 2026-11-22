@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Transparent Communication on Remote Team Productivity | SSEGU'
+title: 'The Impact of Transparent Communication on Remote Team Productivity'
 slug: the-impact-of-transparent-communication
 excerpt: 'Understanding the Impact of Transparent Communication on Remote Team Productivity In today’s global business environment, remote work has become a staple in ...'
 author: editorial-desk

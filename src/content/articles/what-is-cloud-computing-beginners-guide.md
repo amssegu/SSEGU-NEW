@@ -1,5 +1,5 @@
 ---
-title: "What Is Cloud Computing? A Beginner's Guide to Understanding the Cloud | SSEGU"
+title: "What Is Cloud Computing? A Beginner's Guide to Understanding the Cloud"
 slug: what-is-cloud-computing-beginners-guide
 excerpt: 'In this beginner-friendly guide, you'
 author: editorial-desk

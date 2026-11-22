@@ -1,5 +1,5 @@
 ---
-title: 'Exploring innovative and sustainable display options for retailers looking to reduce their environmental impact and promote eco-friendly practices. | SSEGU'
+title: 'Exploring innovative and sustainable display options for retailers looking to reduce their environmental impact and promote eco-friendly practices.'
 slug: exploring-innovative-and-sustainable
 excerpt: 'Imagine walking into a small, bustling coffee shop tucked away in the corner of a busy urban street. The aroma of freshly brewed coffee fills the air, and th...'
 author: editorial-desk

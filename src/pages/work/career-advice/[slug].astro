@@ -1,6 +1,7 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import WorkAside from '../../../components/work/WorkAside.astro';
+import AdSlot from '../../../components/main/AdSlot.astro';
 import { formatWorkDate, fromWorkEntry, workArticles } from '../../../lib/work';
 import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../../../lib/seo';
 import {
@@ -145,6 +146,9 @@ const structuredData = [
               </>
             )}
           </div>
+          <template id="work-inline-ad-template">
+            <div class="work-inline-ad"><AdSlot placement="article" format="horizontal" minHeight={90} /></div>
+          </template>
         </article>
         {relatedArticles.length > 0 && (
           <section class="work-related" aria-labelledby="related-advice-title">
@@ -174,3 +178,34 @@ const structuredData = [
     </div>
   </div>
 </WorkLayout>
+
+<script is:inline>
+  const articleBody = document.querySelector('.work-detail-body');
+  const inlineAdTemplate = document.querySelector('#work-inline-ad-template');
+  if (articleBody && inlineAdTemplate) {
+    const paragraphs = [...articleBody.querySelectorAll('p')];
+    if (paragraphs.length > 0) {
+      const adCount = Math.min(4, Math.max(2, Math.floor(paragraphs.length / 3)));
+      const insertionIndexes = Array.from({ length: adCount }, (_, index) =>
+        Math.min(paragraphs.length - 1, (index + 1) * 3 - 1),
+      );
+      insertionIndexes.forEach((paragraphIndex) => {
+        paragraphs[paragraphIndex]?.after(inlineAdTemplate.content.cloneNode(true));
+      });
+
+      if (document.querySelector('script[data-ssegu-adsense]')) {
+        document
+          .querySelectorAll('.work-detail-body .adsbygoogle:not([data-ad-requested])')
+          .forEach((ad) => {
+            ad.setAttribute('data-ad-requested', '1');
+            try {
+              (window.adsbygoogle = window.adsbygoogle || []).push({});
+            } catch (error) {
+              ad.removeAttribute('data-ad-requested');
+              console.warn('AdSense could not load this inline ad slot.', error);
+            }
+          });
+      }
+    }
+  }
+</script>

@@ -1,5 +1,5 @@
 ---
-title: 'The Passenger Kali Mu: VJ Ulio - ssegu | SSEGU'
+title: 'The Passenger Kali Mu: VJ Ulio - ssegu'
 slug: the-passenger-kali-mu-vj-ulio-ssegu
 excerpt: 'The Passenger Kali Mu: VJ Ulio Genre: Horror, Thriller Kick Away Stress: 🎬'
 author: editorial-desk

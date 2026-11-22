@@ -1,5 +1,5 @@
 ---
-title: 'From Zero to Passive Hero: How I Built Income Streams with No Money | SSEGU'
+title: 'From Zero to Passive Hero: How I Built Income Streams with No Money'
 slug: from-zero-to-passive-hero-how-i-built
 excerpt: 'passive income, income streams, no money, financial freedom, entrepreneurship, side hustle'
 author: editorial-desk

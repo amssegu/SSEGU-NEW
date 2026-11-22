@@ -1,5 +1,5 @@
 ---
-title: 'Benefits of Implementing a Learning Management System in Schools | SSEGU'
+title: 'Benefits of Implementing a Learning Management System in Schools'
 slug: benefits-of-implementing-learning
 excerpt: 'Exploring the advantages of integrating a Learning Management System (LMS) in educational institutions for enhanced learning experiences.'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Step-by-Step Guide To Mastering SEO | SSEGU'
+title: 'Step-by-Step Guide To Mastering SEO'
 slug: step-by-step-guide-to-mastering-seo
 excerpt: 'SEO guide, mastering SEO, SEO tips, step-by-step SEO, SEO strategies, SEO for beginners'
 author: editorial-desk

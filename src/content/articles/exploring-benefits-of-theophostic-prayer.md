@@ -1,5 +1,5 @@
 ---
-title: 'Exploring the Benefits of Theophostic Prayer | SSEGU'
+title: 'Exploring the Benefits of Theophostic Prayer'
 slug: exploring-benefits-of-theophostic-prayer
 excerpt: 'Theophostic prayer is a faith-based intervention. It aims to facilitate emotional healing through prayer and divine revelation. But what exactly is t'
 author: editorial-desk

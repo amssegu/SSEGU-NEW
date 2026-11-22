@@ -1,5 +1,5 @@
 ---
-title: 'How I Earn Big Selling eBooks | SSEGU'
+title: 'How I Earn Big Selling eBooks'
 slug: how-i-earn-big-selling-ebooks-my-simple
 excerpt: 'eBook selling tips, online income secrets, earn money online, self-publishing success, passive income strategies, digital product sales'
 author: editorial-desk

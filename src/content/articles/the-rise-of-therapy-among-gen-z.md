@@ -1,5 +1,5 @@
 ---
-title: 'The Rise of Therapy Among Gen Z | SSEGU'
+title: 'The Rise of Therapy Among Gen Z'
 slug: the-rise-of-therapy-among-gen-z
 excerpt: 'Exploring why therapy has become increasingly popular among Generation Z and its impact on mental health and well-being.'
 author: editorial-desk

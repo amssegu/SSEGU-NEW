@@ -1,5 +1,5 @@
 ---
-title: 'Personal Finance in Uganda: How to Manage Your Money, Save and Avoid Debt | SSEGU'
+title: 'Personal Finance in Uganda: How to Manage Your Money, Save and Avoid Debt'
 slug: personal-finance-in-uganda-how-to
 excerpt: 'Learn how to manage money in Uganda, including budgeting, saving, emergency funds, loans, mobile money, NSSF, investing and financial scams.'
 author: editorial-desk

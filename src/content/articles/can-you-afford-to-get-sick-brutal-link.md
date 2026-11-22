@@ -1,5 +1,5 @@
 ---
-title: 'Can You Afford to Get Sick? The Brutal Link Between Poverty and Health in Uganda | SSEGU'
+title: 'Can You Afford to Get Sick? The Brutal Link Between Poverty and Health in Uganda'
 slug: can-you-afford-to-get-sick-brutal-link
 excerpt: 'There is this saying,'
 author: editorial-desk

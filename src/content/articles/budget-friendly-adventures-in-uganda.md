@@ -1,5 +1,5 @@
 ---
-title: 'Budget-Friendly Adventures in Uganda: Explore the Pearl of Africa with Friends! | SSEGU'
+title: 'Budget-Friendly Adventures in Uganda: Explore the Pearl of Africa with Friends!'
 slug: budget-friendly-adventures-in-uganda
 excerpt: 'Exploring Uganda’s Natural Wonders on a Budget Uganda, often referred to as the “Pearl of Africa,” boasts some of the most incredible natural landscapes that...'
 author: editorial-desk

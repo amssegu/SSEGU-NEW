@@ -1,5 +1,5 @@
 ---
-title: 'How To Use Wise for Your PayPal Withdrawal in East Africa: Complete Guide for Uganda Users | SSEGU'
+title: 'How To Use Wise for Your PayPal Withdrawal in East Africa: Complete Guide for Uganda Users'
 slug: how-to-use-wise-for-your-paypal
 excerpt: 'This guide explains how Wise works with PayPal, what options are available for users in Uganda and East Africa, how to set up accounts, important requ'
 author: editorial-desk

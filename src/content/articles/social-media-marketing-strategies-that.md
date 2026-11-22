@@ -1,5 +1,5 @@
 ---
-title: 'Social Media Marketing Strategies That Work: A Complete Guide to Growing Your Brand Online | SSEGU'
+title: 'Social Media Marketing Strategies That Work: A Complete Guide to Growing Your Brand Online'
 slug: social-media-marketing-strategies-that
 excerpt: 'This complete guide explains the best social media marketing strategies that work, helping beginners and experienced marketers build a strong online p'
 author: editorial-desk

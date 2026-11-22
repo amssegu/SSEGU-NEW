@@ -1,5 +1,5 @@
 ---
-title: 'Aires Tech: The Future of EMF Protection | SSEGU'
+title: 'Aires Tech: The Future of EMF Protection'
 slug: aires-tech-future-of-emf-protection
 excerpt: 'The Evolution and Importance of Aires Tech in EMF Protection In an era where technology continuously evolves and integrates deeper into our daily lives, expo...'
 author: editorial-desk

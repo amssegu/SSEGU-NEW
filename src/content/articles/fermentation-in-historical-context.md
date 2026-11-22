@@ -1,5 +1,5 @@
 ---
-title: 'Fermentation in Historical Context | SSEGU'
+title: 'Fermentation in Historical Context'
 slug: fermentation-in-historical-context
 excerpt: 'The Role of Fermentation in Human History: Key Points Through the Ages Fermentation is a metabolic process that converts sugar to acids, gases, or alcohol. I...'
 author: editorial-desk

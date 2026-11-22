@@ -1,5 +1,5 @@
 ---
-title: 'How to Get Paid $2.49 Every Minute Watching Google Ads in 2024 | SSEGU'
+title: 'How to Get Paid $2.49 Every Minute Watching Google Ads in 2024'
 slug: get-paid-249-every-min-watching-google
 excerpt: 'You can get paid up to $2.49 every minute just by watching ads. It sounds like a dream, but it'
 author: editorial-desk

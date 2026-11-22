@@ -1,5 +1,5 @@
 ---
-title: 'spider noir - vj neil | ssegu | SSEGU'
+title: 'spider noir - vj neil'
 slug: spider-noir-vj-neil-ssegu
 excerpt: 'Spider Noir -mu vj neil 🌃 🔥 Ka-Plot: As the city plunges deeper into danger 🌆⚠️, Ben Reilly 🕵️‍♂️ finally comes face-to-face with the mastermin'
 author: editorial-desk

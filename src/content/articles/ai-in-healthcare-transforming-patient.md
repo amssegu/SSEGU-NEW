@@ -1,5 +1,5 @@
 ---
-title: 'AI in Healthcare: Transforming Patient Care and Research | SSEGU'
+title: 'AI in Healthcare: Transforming Patient Care and Research'
 slug: ai-in-healthcare-transforming-patient
 excerpt: 'Introduction to AI in Healthcare The integration of artificial intelligence (AI) into the healthcare sector marks a significant evolution in how pati'
 author: editorial-desk

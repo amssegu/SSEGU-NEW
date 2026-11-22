@@ -1,5 +1,5 @@
 ---
-title: "Safeguarding Your Health with Aires Tech's EMF Protection Solutions | SSEGU"
+title: "Safeguarding Your Health with Aires Tech's EMF Protection Solutions"
 slug: safeguarding-your-health-with-aires
 excerpt: 'Discover how Aires Tech'
 author: editorial-desk

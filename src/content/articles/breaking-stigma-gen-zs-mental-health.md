@@ -1,5 +1,5 @@
 ---
-title: "Breaking the Stigma: Gen Z's Mental Health Advocacy | SSEGU"
+title: "Breaking the Stigma: Gen Z's Mental Health Advocacy"
 slug: breaking-stigma-gen-zs-mental-health
 excerpt: 'An in-depth look at how Generation Z is challenging mental health stigmas and advocating for better mental health awareness and support.'
 author: editorial-desk

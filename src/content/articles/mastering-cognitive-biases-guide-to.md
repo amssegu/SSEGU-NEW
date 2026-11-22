@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Cognitive Biases: A Guide to Influencing Others | SSEGU'
+title: 'Mastering Cognitive Biases: A Guide to Influencing Others'
 slug: mastering-cognitive-biases-guide-to
 excerpt: 'Understanding cognitive biases is crucial in mastering the art of influencing others. Cognitive biases are inherent biases in human thinking that can'
 author: editorial-desk

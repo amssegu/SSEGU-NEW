@@ -1,5 +1,5 @@
 ---
-title: 'Innovative Treatments for Cancer Cells | SSEGU'
+title: 'Innovative Treatments for Cancer Cells'
 slug: innovative-treatments-for-cancer-cells
 excerpt: 'Cancer cells are abnormal cells that divide and grow uncontrollably. They can invade nearby tissues and spread to other parts of the body through the'
 author: editorial-desk

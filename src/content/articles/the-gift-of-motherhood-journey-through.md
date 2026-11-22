@@ -1,5 +1,5 @@
 ---
-title: 'The Gift of Motherhood: A Journey Through Fertility | SSEGU'
+title: 'The Gift of Motherhood: A Journey Through Fertility'
 slug: the-gift-of-motherhood-journey-through
 excerpt: 'Exploring the journey of fertility and the gift of motherhood, including challenges and triumphs along the way., The Gift of Motherhood: A Journey Thr'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Understanding Mathematics: Its Importance and Applications | SSEGU'
+title: 'Understanding Mathematics: Its Importance and Applications'
 slug: understanding-mathematics-its
 excerpt: 'What is Mathematics? Mathematics is a universal language that transcends borders and cultures. It is the abstract science of number, quantity, and space, whe...'
 author: editorial-desk

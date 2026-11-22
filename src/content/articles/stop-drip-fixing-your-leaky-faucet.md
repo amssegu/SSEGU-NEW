@@ -1,5 +1,5 @@
 ---
-title: 'Stop the Drip: Fixing Your Leaky Faucet | SSEGU'
+title: 'Stop the Drip: Fixing Your Leaky Faucet'
 slug: stop-drip-fixing-your-leaky-faucet
 excerpt: 'Before you can tackle the problem of a leaky faucet, you need to know what type of faucet you'
 author: editorial-desk

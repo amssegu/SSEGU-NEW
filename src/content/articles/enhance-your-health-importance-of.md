@@ -1,5 +1,5 @@
 ---
-title: 'Enhance Your Health: The Importance of Quality Sleep | SSEGU'
+title: 'Enhance Your Health: The Importance of Quality Sleep'
 slug: enhance-your-health-importance-of
 excerpt: 'Sleep is a fundamental aspect of human health, yet it is often overlooked or sacrificed in our busy lives. Quality sleep is crucial for physical, ment'
 author: editorial-desk

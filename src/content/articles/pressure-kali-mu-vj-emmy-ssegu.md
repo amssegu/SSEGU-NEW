@@ -1,5 +1,5 @@
 ---
-title: 'Pressure Kali Mu: VJ Emmy - ssegu | SSEGU'
+title: 'Pressure Kali Mu: VJ Emmy - ssegu'
 slug: pressure-kali-mu-vj-emmy-ssegu
 excerpt: 'Pressure Kali Mu: VJ Emmy Genre: Thriller, History, War Kick Away Stress: 🎬'
 author: editorial-desk

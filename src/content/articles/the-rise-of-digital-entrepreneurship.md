@@ -1,5 +1,5 @@
 ---
-title: 'The Rise of Digital Entrepreneurship Among Gen Z | SSEGU'
+title: 'The Rise of Digital Entrepreneurship Among Gen Z'
 slug: the-rise-of-digital-entrepreneurship
 excerpt: 'Exploring how Generation Z is redefining the landscape of entrepreneurship through digital platforms and innovative business models.'
 author: editorial-desk

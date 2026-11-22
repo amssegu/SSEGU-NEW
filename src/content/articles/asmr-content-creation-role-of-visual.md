@@ -1,5 +1,5 @@
 ---
-title: 'ASMR Content Creation: The Role of Visual and Auditory Techniques in Eliciting Therapeutic Responses. | SSEGU'
+title: 'ASMR Content Creation: The Role of Visual and Auditory Techniques in Eliciting Therapeutic Responses.'
 slug: asmr-content-creation-role-of-visual
 excerpt: 'Welcome to the soothing world of ASMR (Autonomous Sensory Meridian Response), where gentle whispers, subtle sounds, and mesmerizing visuals come toget'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Start Small, Dream Big: Top Business Investments in Uganda with 50,000 UGX | SSEGU'
+title: 'Start Small, Dream Big: Top Business Investments in Uganda with 50,000 UGX'
 slug: start-small-dream-big-top-business
 excerpt: 'Introduction: The Potential of Small Investments Starting a business can be a transformative journey, particularly when initiated with a modest budget such a...'
 author: editorial-desk

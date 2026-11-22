@@ -1,5 +1,5 @@
 ---
-title: 'Transforming Yourself: 1-2 Month Self-Improvement Guide | SSEGU'
+title: 'Transforming Yourself: 1-2 Month Self-Improvement Guide'
 slug: transforming-yourself-1-2-month-self
 excerpt: 'To improve yourself in 1-2 months, it'
 author: editorial-desk

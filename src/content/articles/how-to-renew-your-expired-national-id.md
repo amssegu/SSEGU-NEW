@@ -1,5 +1,5 @@
 ---
-title: 'How to Renew Your Expired National ID in Uganda: The Complete Guide to the NIRA Pre-Registration Portal — With Screenshots | SSEGU'
+title: 'How to Renew Your Expired National ID in Uganda: The Complete Guide to the NIRA Pre-Registration Portal — With Screenshots'
 slug: how-to-renew-your-expired-national-id
 excerpt: 'After suffering from a series of delays, the much-awaited national ID renewal and mass enrollment exercise in Uganda is finally here. And if your are'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Secrets to Shopify Retention: Top Tips to Maximize Customer Loyalty | SSEGU'
+title: 'Secrets to Shopify Retention: Top Tips to Maximize Customer Loyalty'
 slug: secrets-to-shopify-retention-top-tips
 excerpt: 'Understanding Customer Retention and Its Importance Customer retention is a crucial aspect of business strategy, particularly for Shopify merchants seeking t...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Mastering the Art of Time Management: How to Be More Efficient with Your Time | SSEGU'
+title: 'Mastering the Art of Time Management: How to Be More Efficient with Your Time'
 slug: mastering-art-of-time-management-how-to
 excerpt: 'time management, efficiency tips, productivity hacks, time management strategies, effective time use, mastering time management'
 author: editorial-desk

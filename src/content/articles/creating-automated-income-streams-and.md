@@ -1,5 +1,5 @@
 ---
-title: 'Creating automated income streams and maximizing earnings with Telegram Bots and Bucks | SSEGU'
+title: 'Creating automated income streams and maximizing earnings with Telegram Bots and Bucks'
 slug: creating-automated-income-streams-and
 excerpt: 'automated income streams, maximizing earnings, Telegram bots, passive income, digital entrepreneurship, online money-making strategies'
 author: editorial-desk

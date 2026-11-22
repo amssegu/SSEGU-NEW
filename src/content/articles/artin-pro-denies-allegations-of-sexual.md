@@ -1,5 +1,5 @@
 ---
-title: 'Artin Pro Denies Allegations of Sexual Assault Against Uncle Chumi | SSEGU'
+title: 'Artin Pro Denies Allegations of Sexual Assault Against Uncle Chumi'
 slug: artin-pro-denies-allegations-of-sexual
 excerpt: 'The controversy began earlier this week when Uncle Chumi, whose real name is Crek Haidare Mushabe, claimed in an interview with Shalom Kaweesi that s'
 author: editorial-desk

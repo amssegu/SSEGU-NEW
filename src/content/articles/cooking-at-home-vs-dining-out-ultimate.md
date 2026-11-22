@@ -1,5 +1,5 @@
 ---
-title: 'Cooking at Home vs. Dining Out: The Ultimate Cost Comparison | SSEGU'
+title: 'Cooking at Home vs. Dining Out: The Ultimate Cost Comparison'
 slug: cooking-at-home-vs-dining-out-ultimate
 excerpt: 'When it comes to deciding between cooking at home and dining out, cost-effectiveness plays a pivotal role. A common misconception is that dining out is inher...'
 author: editorial-desk

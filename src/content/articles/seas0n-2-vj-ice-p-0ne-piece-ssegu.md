@@ -1,5 +1,5 @@
 ---
-title: 'Seas0n 2 - Vj Ice P 0ne Piece | SSEGU | SSEGU'
+title: 'Seas0n 2 - Vj Ice P 0ne Piece'
 slug: seas0n-2-vj-ice-p-0ne-piece-ssegu
 excerpt: 'Season 2 - 0ne Piece by Vj Ice P at ssegu.com free downloand'
 author: editorial-desk

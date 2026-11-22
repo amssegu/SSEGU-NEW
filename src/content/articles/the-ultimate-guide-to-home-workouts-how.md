@@ -1,5 +1,5 @@
 ---
-title: 'The Ultimate Guide to Home Workouts: How to Build Strength, Stay Fit, and Exercise Without a Gym | SSEGU'
+title: 'The Ultimate Guide to Home Workouts: How to Build Strength, Stay Fit, and Exercise Without a Gym'
 slug: the-ultimate-guide-to-home-workouts-how
 excerpt: 'This ultimate guide to home workouts explains the benefits of exercising at home, essential equipment, beginner-friendly exercises, workout plans, com'
 author: editorial-desk

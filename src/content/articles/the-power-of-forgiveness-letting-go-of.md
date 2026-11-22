@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Forgiveness: Letting Go of Resentment and Moving On | SSEGU'
+title: 'The Power of Forgiveness: Letting Go of Resentment and Moving On'
 slug: the-power-of-forgiveness-letting-go-of
 excerpt: 'Forgiveness is a process that can be difficult to navigate, but it'
 author: editorial-desk

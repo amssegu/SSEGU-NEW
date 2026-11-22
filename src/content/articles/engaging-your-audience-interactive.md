@@ -1,5 +1,5 @@
 ---
-title: 'Engaging Your Audience: Interactive Approaches to Showcase Products | SSEGU'
+title: 'Engaging Your Audience: Interactive Approaches to Showcase Products'
 slug: engaging-your-audience-interactive
 excerpt: 'Imagine stepping into a lively trade show bustling with innovative technology and eye-catching displays. Among them, one booth stands out, not just fo'
 author: editorial-desk

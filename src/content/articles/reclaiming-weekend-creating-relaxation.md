@@ -1,5 +1,5 @@
 ---
-title: 'Reclaiming the Weekend: Creating a Relaxation Hub | SSEGU'
+title: 'Reclaiming the Weekend: Creating a Relaxation Hub'
 slug: reclaiming-weekend-creating-relaxation
 excerpt: 'In the current era, Ugandans, similar to people globally, are facing escalating pressures from financial challenges, rigorous work hours, and the cont'
 author: editorial-desk

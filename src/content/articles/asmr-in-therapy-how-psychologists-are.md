@@ -1,5 +1,5 @@
 ---
-title: 'ASMR in Therapy: How Psychologists Are Using ASMR to Help Patients with Anxiety. | SSEGU'
+title: 'ASMR in Therapy: How Psychologists Are Using ASMR to Help Patients with Anxiety.'
 slug: asmr-in-therapy-how-psychologists-are
 excerpt: 'Have you ever felt a tingling sensation down your spine while listening to soft whispers or gentle tapping? That sensation is known as Autonomous Sensory Mer...'
 author: editorial-desk

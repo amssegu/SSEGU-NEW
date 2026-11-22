@@ -1,5 +1,5 @@
 ---
-title: 'Bibiino Byebakolera ku Federation Ebya Eddy Kenzo | ssegu | SSEGU'
+title: 'Bibiino Byebakolera ku Federation Ebya Eddy Kenzo'
 slug: bibiino-byebakolera-ku-federation-ebya
 excerpt: 'Ebya Eddy Kenzo Bikabya Bafana Abottodde Ebyaama, Bibiino Byebakolera ku Federation'
 author: editorial-desk

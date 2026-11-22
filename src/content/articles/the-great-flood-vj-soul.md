@@ -1,5 +1,5 @@
 ---
-title: 'The Great Flood - VJ Soul | SSEGU'
+title: 'The Great Flood - VJ Soul'
 slug: the-great-flood-vj-soul
 excerpt: 'The Great Flood - VJ Soul A disastrous great flood sweeps the planet. On what may be the last day on Earth, a desperate fight ensues to save a child'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Bus Accidents In Uganda: The Silent Thief Of Lives | SSEGU'
+title: 'Bus Accidents In Uganda: The Silent Thief Of Lives'
 slug: bus-accidents-in-uganda-silent-thief-of
 excerpt: 'In Uganda, buses are a critical mode of transport, serving millions across the country’s 146 districts. However, the rising number of bus accidents ha'
 author: editorial-desk

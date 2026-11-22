@@ -1,5 +1,5 @@
 ---
-title: 'The Main Event - VJ Ice P | ssegu | SSEGU'
+title: 'The Main Event - VJ Ice P'
 slug: the-main-event-vj-ice-p-ssegu
 excerpt: 'The Main Event - VJ Ice P - After discovering a magical mask, an 11-year-old aspiring wrestler enters a competition to become the next WWE superstar.'
 author: editorial-desk

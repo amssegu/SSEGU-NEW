@@ -1,5 +1,5 @@
 ---
-title: 'On the Hunt - Kali Mu: VJ ICEP | ssegu | SSEGU'
+title: 'On the Hunt - Kali Mu: VJ ICEP'
 slug: on-hunt-kali-mu-vj-icep
 excerpt: 'tion, Thriller 🔥 Ka-Plot: A former military woman 🪖💪 is thrown into a desperate race against time ⏳ when her daughter mysteriously disappears 😨.'
 author: editorial-desk

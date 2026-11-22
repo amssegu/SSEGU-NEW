@@ -1,5 +1,5 @@
 ---
-title: 'The Role of Automation in Streamlining Marketing Campaigns | SSEGU'
+title: 'The Role of Automation in Streamlining Marketing Campaigns'
 slug: the-role-of-automation-in-streamlining
 excerpt: 'In today’s fast-paced digital world, marketing teams are constantly seeking innovative strategies to stay ahead. Marketing automation emerges as a pivotal to...'
 author: editorial-desk

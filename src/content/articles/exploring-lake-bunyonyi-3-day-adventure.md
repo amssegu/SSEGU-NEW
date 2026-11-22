@@ -1,5 +1,5 @@
 ---
-title: "Exploring Lake Bunyonyi: A 3-Day Adventure in Uganda's Natural Paradise | SSEGU"
+title: "Exploring Lake Bunyonyi: A 3-Day Adventure in Uganda's Natural Paradise"
 slug: exploring-lake-bunyonyi-3-day-adventure
 excerpt: 'Introduction to Lake Bunyonyi Lake Bunyonyi, situated in southwestern Uganda, is renowned for its breathtaking scenery and tranquil atmosphere. Nestled at an...'
 author: editorial-desk

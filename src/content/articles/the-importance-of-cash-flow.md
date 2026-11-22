@@ -1,5 +1,5 @@
 ---
-title: 'The Importance of Cash Flow: A Comprehensive Guide | SSEGU'
+title: 'The Importance of Cash Flow: A Comprehensive Guide'
 slug: the-importance-of-cash-flow
 excerpt: 'Understanding the Importance of Cash Flow: A Comprehensive Guide Cash flow is the lifeblood of any business, large or small. It is a vital indicator of finan...'
 author: editorial-desk

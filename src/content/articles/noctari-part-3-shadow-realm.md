@@ -1,5 +1,5 @@
 ---
-title: 'NOCTARI part 3 - SHADOW REALM. | SSEGU'
+title: 'NOCTARI part 3 - SHADOW REALM.'
 slug: noctari-part-3-shadow-realm
 excerpt: '👽🛸 NOCTARI part 3 - SHADOW 🎭 🔥 Kick Away Stress: 🎬 🔥The stakes reach a psychological breaking point in NOCTARI 3 – SHADOW REALM, 📡'
 author: editorial-desk

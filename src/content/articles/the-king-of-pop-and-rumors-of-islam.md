@@ -1,5 +1,5 @@
 ---
-title: 'The King of Pop and the Rumors of Islam: What Really Happened? | ssegu | SSEGU'
+title: 'The King of Pop and the Rumors of Islam: What Really Happened?'
 slug: the-king-of-pop-and-rumors-of-islam
 excerpt: 'Few celebrities in modern history have been examined as intensely as Michael Jackson. From his music and appearance to his private life and beliefs, n'
 author: editorial-desk

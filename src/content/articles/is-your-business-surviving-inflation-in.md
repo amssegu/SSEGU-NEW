@@ -1,5 +1,5 @@
 ---
-title: 'Is your Business Surviving the Inflation in Uganda? Here is What Every Ugandan Entrepreneur Must Know | SSEGU'
+title: 'Is your Business Surviving the Inflation in Uganda? Here is What Every Ugandan Entrepreneur Must Know'
 slug: is-your-business-surviving-inflation-in
 excerpt: 'How to Protect Your Business from Inflation in Uganda Uganda’s inflation is squeezing businesses dry. Prices keep climbing, profits are shrinking, an'
 author: editorial-desk

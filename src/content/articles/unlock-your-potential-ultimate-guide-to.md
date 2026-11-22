@@ -1,5 +1,5 @@
 ---
-title: 'Unlock Your Potential: The Ultimate Guide to Silencing Negative Self-Talk and Achieving Your Goals | SSEGU'
+title: 'Unlock Your Potential: The Ultimate Guide to Silencing Negative Self-Talk and Achieving Your Goals'
 slug: unlock-your-potential-ultimate-guide-to
 excerpt: 'self-improvement, goal-setting, positive mindset, mental health, personal development, overcoming negativity'
 author: editorial-desk

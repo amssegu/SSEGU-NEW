@@ -1,5 +1,5 @@
 ---
-title: 'Are GLP-1 Weight Loss Drugs A Shortcut to Sliming or Long-Term Trap? | SSEGU'
+title: 'Are GLP-1 Weight Loss Drugs A Shortcut to Sliming or Long-Term Trap?'
 slug: are-glp-1-weight-loss-drugs-shortcut-to
 excerpt: 'Not to be a bore, but hey, at some point, everyone questions their body proportions—some feel'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Organizational Tips: Maximizing Space with a Storage Cabinet | SSEGU'
+title: 'Organizational Tips: Maximizing Space with a Storage Cabinet'
 slug: organizational-tips-maximizing-space
 excerpt: 'Storage cabinets are an invaluable asset in any home, office, or workspace. They help in keeping spaces clutter-free and organized, allowing for effec'
 author: editorial-desk

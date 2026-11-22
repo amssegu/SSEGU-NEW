@@ -1,5 +1,5 @@
 ---
-title: 'From Hobby to Masterpiece: The Allure of DIY Kits for Adults | SSEGU'
+title: 'From Hobby to Masterpiece: The Allure of DIY Kits for Adults'
 slug: from-hobby-to-masterpiece-allure-of-diy
 excerpt: 'Amid the clamor of daily urban life, Sarah discovered a surprisingly captivating escape in the form of a small, intricately designed DIY miniature hou'
 author: editorial-desk

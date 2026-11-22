@@ -1,5 +1,5 @@
 ---
-title: 'The Future of Success: Why Emotional Intelligence is the Key to Thriving in a High-Tech World | SSEGU'
+title: 'The Future of Success: Why Emotional Intelligence is the Key to Thriving in a High-Tech World'
 slug: the-future-of-success-why-emotional
 excerpt: 'In the rapidly evolving world of technology, one human ability remains irreplaceable: emotional intelligence (EI). As artificial intelligence (AI) con'
 author: editorial-desk

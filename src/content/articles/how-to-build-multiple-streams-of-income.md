@@ -1,5 +1,5 @@
 ---
-title: 'How to Build Multiple Streams of Income: A Practical Guide to Diversifying Your Earnings | SSEGU'
+title: 'How to Build Multiple Streams of Income: A Practical Guide to Diversifying Your Earnings'
 slug: how-to-build-multiple-streams-of-income
 excerpt: 'This guide explains what multiple streams of income are, why they matter, and practical ways to create them regardless of your experience or current f'
 author: editorial-desk

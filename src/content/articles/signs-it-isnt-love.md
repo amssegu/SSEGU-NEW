@@ -1,5 +1,5 @@
 ---
-title: 'Signs It Isn’t Love | SSEGU'
+title: 'Signs It Isn’t Love'
 slug: signs-it-isnt-love
 excerpt: 'Signs It Isn’t Love, fake love, relationship red flags, signs of a toxic relationship, emotional manipulation, unhealthy relationship signs'
 author: editorial-desk

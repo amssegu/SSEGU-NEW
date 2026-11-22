@@ -1,5 +1,5 @@
 ---
-title: 'AD VITAM - VJ ULIO | SSEGU | SSEGU'
+title: 'AD VITAM - VJ ULIO'
 slug: ad-vitam-vj-ulio-ssegu
 excerpt: 'AD VITAM - VJ ULIO After escaping an attempted murder, Franck Lazarev must find his wife Leo, who has been kidnapped by a mysterious group'
 author: editorial-desk

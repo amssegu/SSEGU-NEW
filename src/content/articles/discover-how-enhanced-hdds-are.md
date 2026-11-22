@@ -1,5 +1,5 @@
 ---
-title: 'Discover how enhanced HDDs are revolutionizing mass storage solutions in cost-effective data centers. | SSEGU'
+title: 'Discover how enhanced HDDs are revolutionizing mass storage solutions in cost-effective data centers.'
 slug: discover-how-enhanced-hdds-are
 excerpt: 'digital era, the volume of data created, captured, and consumed globally is staggering, presenting both challenges and opportunities for data centers.'
 author: editorial-desk

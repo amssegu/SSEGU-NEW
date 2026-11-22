@@ -1,5 +1,5 @@
 ---
-title: 'Kill Code - Kali Mu: VJ Shield | ssegu | SSEGU'
+title: 'Kill Code - Kali Mu: VJ Shield'
 slug: kill-code-kali-mu-vj-shield-ssegu
 excerpt: 'Kali Mu: VJ Shield 🎭 Genre: Action, Sci-Fi, Thriller 🔥 Ka-Plot: North America 🌎 has been split into four dangerous quadrants ⚠️ where a ruthless'
 author: editorial-desk

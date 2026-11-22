@@ -1,5 +1,5 @@
 ---
-title: 'Performer Sarah Short Seeks Aid For Leg Treatment. | SSEGU'
+title: 'Performer Sarah Short Seeks Aid For Leg Treatment.'
 slug: performer-sarah-short-seeks-aid-for-leg
 excerpt: 'Sarah Short whose real names, Sarah Nantongo, for 2 months now has been going through pain in her leg and seeks financial assistance from the public'
 author: editorial-desk

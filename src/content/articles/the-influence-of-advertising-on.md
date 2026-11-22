@@ -1,5 +1,5 @@
 ---
-title: 'The Influence of Advertising on Sportpesa Betting Behavior | SSEGU'
+title: 'The Influence of Advertising on Sportpesa Betting Behavior'
 slug: the-influence-of-advertising-on
 excerpt: 'Advertising is a potent tool used by companies to influence consumer behavior and perceptions. In the realm of sports betting, advertising strategies'
 author: editorial-desk

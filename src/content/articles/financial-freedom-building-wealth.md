@@ -1,5 +1,5 @@
 ---
-title: 'Financial Freedom: Building a Wealth Mindset with Law of Attraction | SSEGU'
+title: 'Financial Freedom: Building a Wealth Mindset with Law of Attraction'
 slug: financial-freedom-building-wealth
 excerpt: 'Financial Freedom: Building a Wealth Mindset with Law of Attraction The concept of achieving financial freedom is a goal for many people, which entails havin...'
 author: editorial-desk

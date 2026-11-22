@@ -1,5 +1,5 @@
 ---
-title: 'How to Build a $1M YouTube Channel in 1 Hour a Day | ssegu | SSEGU'
+title: 'How to Build a $1M YouTube Channel in 1 Hour a Day'
 slug: how-to-build-1m-youtube-channel-in-1
 excerpt: 'Are you spending hours creating YouTube videos…🎥'
 author: editorial-desk

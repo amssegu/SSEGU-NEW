@@ -1,5 +1,5 @@
 ---
-title: 'Which Country Leads in Tech Innovation? | SSEGU'
+title: 'Which Country Leads in Tech Innovation?'
 slug: which-country-leads-in-tech-innovation
 excerpt: 'Technology innovation plays a crucial role in shaping the modern world. It drives economic growth, enhances productivity, and improves the quality of'
 author: editorial-desk

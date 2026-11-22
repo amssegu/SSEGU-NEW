@@ -1,5 +1,5 @@
 ---
-title: '10 Small Changes for a Healthier Lifestyle | SSEGU'
+title: '10 Small Changes for a Healthier Lifestyle'
 slug: 10-small-changes-for-healthier-lifestyle
 excerpt: 'Embracing a healthier lifestyle doesn'
 author: editorial-desk

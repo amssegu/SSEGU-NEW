@@ -1,5 +1,5 @@
 ---
-title: 'A Day in the Life: Behind the Scenes of My Profession | SSEGU'
+title: 'A Day in the Life: Behind the Scenes of My Profession'
 slug: a-day-in-life-behind-scenes-of-my
 excerpt: 'Introduction to My Profession My profession occupies a pivotal role in the modern workforce, where a blend of creativity, analytical thinking, and precise ex...'
 author: editorial-desk

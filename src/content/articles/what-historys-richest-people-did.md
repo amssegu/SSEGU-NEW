@@ -1,5 +1,5 @@
 ---
-title: 'What History’s Richest People Did Differently And How You Can Copy It in 2027 | SSEGU'
+title: 'What History’s Richest People Did Differently And How You Can Copy It in 2027'
 slug: what-historys-richest-people-did
 excerpt: 'Rockefeller. Carnegie. Musk. Bezos. Different centuries. Different industries. Same 5 patterns. They were not the smartest. They were not the lucki'
 author: editorial-desk

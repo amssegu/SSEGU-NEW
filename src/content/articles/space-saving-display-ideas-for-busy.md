@@ -1,5 +1,5 @@
 ---
-title: 'Space-Saving Display Ideas for Busy Craft Shows | SSEGU'
+title: 'Space-Saving Display Ideas for Busy Craft Shows'
 slug: space-saving-display-ideas-for-busy
 excerpt: 'Attending craft shows can be an exhilarating experience for creative entrepreneurs. Whether you are a veteran or a newcomer, the ability to effectivel'
 author: editorial-desk

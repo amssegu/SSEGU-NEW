@@ -1,5 +1,5 @@
 ---
-title: 'Kasuku Live - SHEILA GASHUMBA ON FRANK GASHUMBA AND MUGOLE | SSEGU'
+title: 'Kasuku Live - SHEILA GASHUMBA ON FRANK GASHUMBA AND MUGOLE'
 slug: kasuku-live-sheila-gashumba-on-frank
 excerpt: 'SHEILA GASHUMBA ON FRANK GASHUMBA AND MUGOLE'
 author: editorial-desk

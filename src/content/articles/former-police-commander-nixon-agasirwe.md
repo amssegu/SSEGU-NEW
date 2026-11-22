@@ -1,5 +1,5 @@
 ---
-title: 'Former Police Commander Nixon Agasirwe Arrested In connection to Murder of Prosecutor Joan Kagezi | SSEGU'
+title: 'Former Police Commander Nixon Agasirwe Arrested In connection to Murder of Prosecutor Joan Kagezi'
 slug: former-police-commander-nixon-agasirwe
 excerpt: 'On May 22nd 2025, Nixon Agasirwe was arrested in connection with the 2015 murder of Prosecutor Joan Kagezi, following a testimony from a convicted acc'
 author: editorial-desk

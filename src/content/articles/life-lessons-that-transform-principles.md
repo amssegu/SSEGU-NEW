@@ -1,5 +1,5 @@
 ---
-title: 'Life Lessons That Transform: The Principles I Live By | SSEGU'
+title: 'Life Lessons That Transform: The Principles I Live By'
 slug: life-lessons-that-transform-principles
 excerpt: 'Learn how setting individual goals, cultivating a positive mindset, and surrounding yourself with inspiring influences can lead to success and fulfil'
 author: editorial-desk

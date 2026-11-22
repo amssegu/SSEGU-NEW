@@ -1,5 +1,5 @@
 ---
-title: 'Live Below Your Means: The Path to Wealth Through Smart Financial Choices | SSEGU'
+title: 'Live Below Your Means: The Path to Wealth Through Smart Financial Choices'
 slug: live-below-your-means-path-to-wealth
 excerpt: 'Introduction: The Concept of Living Below Your Means Living below your means is a principle that has garnered attention as a vital strategy for achieving fin...'
 author: editorial-desk

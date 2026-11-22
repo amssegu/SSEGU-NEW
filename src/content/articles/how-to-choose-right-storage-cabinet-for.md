@@ -1,5 +1,5 @@
 ---
-title: 'How to Choose the Right Storage Cabinet for Your Space | SSEGU'
+title: 'How to Choose the Right Storage Cabinet for Your Space'
 slug: how-to-choose-right-storage-cabinet-for
 excerpt: 'Choosing the right storage cabinet for your space can significantly improve organization and enhance the aesthetics of your room.'
 author: editorial-desk

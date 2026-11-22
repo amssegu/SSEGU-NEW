@@ -1,5 +1,5 @@
 ---
-title: "Apes Ascend: 'Kingdom of the Planet of the Apes' Swings in with $6.6 Million Preview Bonanza | SSEGU"
+title: "Apes Ascend: 'Kingdom of the Planet of the Apes' Swings in with $6.6 Million Preview Bonanza"
 slug: apes-ascend-kingdom-of-planet-of-apes
 excerpt: 'Apes Ascend, Kingdom of the Planet of the Apes, Kingdom of the Planet of the Apes, box office, 20th Century Studios, primate saga, movie previews, bl'
 author: editorial-desk

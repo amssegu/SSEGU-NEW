@@ -1,5 +1,5 @@
 ---
-title: '11 High-Paying Faceless Niches on TikTok and YouTube | SSEGU'
+title: '11 High-Paying Faceless Niches on TikTok and YouTube'
 slug: 11-high-paying-faceless-niches-on
 excerpt: 'high-paying niches,faceless content,TikTok earnings,YouTube earnings,passive income,'
 author: editorial-desk

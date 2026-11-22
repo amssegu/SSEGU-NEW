@@ -1,5 +1,5 @@
 ---
-title: 'Tips for Saving Money on Car Insurance | SSEGU'
+title: 'Tips for Saving Money on Car Insurance'
 slug: tips-for-saving-money-on-car-insurance
 excerpt: 'car insurance, save money on car insurance, reduce car insurance premiums, auto insurance tips, car insurance discounts, lower car insurance rates'
 author: editorial-desk

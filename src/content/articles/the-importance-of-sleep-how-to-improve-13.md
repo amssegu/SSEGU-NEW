@@ -1,5 +1,5 @@
 ---
-title: 'The Importance of Sleep: How to Improve Your Sleep Hygiene | SSEGU'
+title: 'The Importance of Sleep: How to Improve Your Sleep Hygiene'
 slug: the-importance-of-sleep-how-to-improve-13
 excerpt: 'Sleep is a fundamental aspect of our lives, essential for physical health, mental well-being, and overall quality of life. Despite its importance, man'
 author: editorial-desk

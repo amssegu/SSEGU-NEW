@@ -1,5 +1,5 @@
 ---
-title: 'Man of War - Kali Mu: VJ ICE P | ssegu | SSEGU'
+title: 'Man of War - Kali Mu: VJ ICE P'
 slug: man-of-war-kali-mu-vj-ice-p-ssegu
 excerpt: '🔫 Man of War 🔥 Kali Mu: VJ ICE P Genre: Action, war Runtime: 1 Hr 51 Min Kick Away Stress: 🎬'
 author: editorial-desk

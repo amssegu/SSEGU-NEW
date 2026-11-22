@@ -1,5 +1,5 @@
 ---
-title: "Joshua Baraka's Wrong Places receives 5millions Streams | SSEGU"
+title: "Joshua Baraka's Wrong Places receives 5millions Streams"
 slug: joshua-barakas-wrong-places-receives
 excerpt: 'Joshua Baraka'
 author: editorial-desk

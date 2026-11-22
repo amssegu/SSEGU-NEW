@@ -1,5 +1,5 @@
 ---
-title: 'Killer Whale Kali Mu: VJ Emmy - ssegu | SSEGU'
+title: 'Killer Whale Kali Mu: VJ Emmy - ssegu'
 slug: killer-whale-kali-mu-vj-emmy-ssegu
 excerpt: 'Killer Whale Kali Mu: VJ Emmy Genre: Survival, Action, Horror, Thriller Kick Away Stress: 🎬'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Unraveling the Psychology of Scammers | SSEGU'
+title: 'Unraveling the Psychology of Scammers'
 slug: unraveling-psychology-of-scammers
 excerpt: 'Scammers are motivated by the allure of easy money. They are drawn to the idea of making a quick profit without putting in much effort. The promise of'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Agent Zeta - VJ Ulio | SSEGU'
+title: 'Agent Zeta - VJ Ulio'
 slug: agent-zeta-vj-ulio
 excerpt: 'Agent Zeta - VJ Ulio When five former Spanish spies involved in Operation Swamp are killed, the CNI tasks Zeta with tracking the sixth surviving agent'
 author: editorial-desk

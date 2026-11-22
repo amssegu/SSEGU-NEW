@@ -1,5 +1,5 @@
 ---
-title: "Unlocking the Secrets of Meditation: A Beginner's Guide | SSEGU"
+title: "Unlocking the Secrets of Meditation: A Beginner's Guide"
 slug: unlocking-secrets-of-meditation
 excerpt: 'Unlocking the Secrets of Meditation: A Beginner’s Guide Meditation is an ancient practice that has been used for centuries as a way to achieve mental clarity...'
 author: editorial-desk

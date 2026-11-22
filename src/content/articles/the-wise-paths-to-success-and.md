@@ -1,5 +1,5 @@
 ---
-title: 'The wise paths to success and fulfillment without any education | SSEGU'
+title: 'The wise paths to success and fulfillment without any education'
 slug: the-wise-paths-to-success-and
 excerpt: 'Self-Made Success Without School, self-education, entrepreneurship, personal growth, financial independence, life skills, unconventional success'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Pastor Wilson Bugembe’s song Yesu Mwoto wins him An Award At EAGMA in Tanzania. | SSEGU'
+title: 'Pastor Wilson Bugembe’s song Yesu Mwoto wins him An Award At EAGMA in Tanzania.'
 slug: pastor-wilson-bugembes-song-yesu-mwoto
 excerpt: 'Pastor Wilson Bugembe’s song Tonsobola (Yesu Mwoto) has won him the prestigious “Best Traditional (Cultural) Song of the Year” award for the 2024-2025'
 author: editorial-desk

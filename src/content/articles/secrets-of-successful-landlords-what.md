@@ -1,5 +1,5 @@
 ---
-title: 'Secrets of Successful Landlords: What Every Property Owner Must Know | SSEGU'
+title: 'Secrets of Successful Landlords: What Every Property Owner Must Know'
 slug: secrets-of-successful-landlords-what
 excerpt: 'For many Ugandans and retired workers, setting up rentals is the most immediate and assured source of passive income—set up your rental spaces, get te'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Journey of Spiritual Growth: Unlocking Your Inner Potential | SSEGU'
+title: 'The Journey of Spiritual Growth: Unlocking Your Inner Potential'
 slug: the-journey-of-spiritual-growth
 excerpt: 'the transformative journey of spiritual growth through self-awareness and connection with a higher consciousness. This video below and blog post delve'
 author: editorial-desk

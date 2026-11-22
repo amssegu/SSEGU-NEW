@@ -1,5 +1,5 @@
 ---
-title: 'AI Robots to Watch in 2025 | SSEGU'
+title: 'AI Robots to Watch in 2025'
 slug: ai-robots-to-watch-in-2025
 excerpt: 'Futuristic AI Robots Explore the revolutionary advancements in futuristic AI robots set to transform our lives by 2025. Learn how human-robot collaboration i...'
 author: editorial-desk

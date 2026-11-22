@@ -1,5 +1,5 @@
 ---
-title: 'Exploring the Healing Power of Theophostic Prayer | SSEGU'
+title: 'Exploring the Healing Power of Theophostic Prayer'
 slug: exploring-healing-power-of-theophostic
 excerpt: 'Theophostic prayer is not just any prayer. It'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Cryptocurrency Regulations in 2025: Where the Biggest Crypto Nations Stand | SSEGU'
+title: 'Cryptocurrency Regulations in 2025: Where the Biggest Crypto Nations Stand'
 slug: cryptocurrency-regulations-in-2025
 excerpt: 'So, cryptocurrencies! The digital money that keeps having stakeholders at the edge of their seats every now and then...I mean, bitcoin has been known'
 author: editorial-desk

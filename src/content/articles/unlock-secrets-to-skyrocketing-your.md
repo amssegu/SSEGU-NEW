@@ -1,5 +1,5 @@
 ---
-title: 'Unlock the Secrets to Skyrocketing Your Article Engagement | SSEGU'
+title: 'Unlock the Secrets to Skyrocketing Your Article Engagement'
 slug: unlock-secrets-to-skyrocketing-your
 excerpt: 'SEO tips, content marketing, article engagement, blogging strategies, audience engagement, digital marketing'
 author: editorial-desk

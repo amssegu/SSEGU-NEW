@@ -1,5 +1,5 @@
 ---
-title: 'Dax Vibez Released out And Police Explains His Earlier Arrest. | SSEGU'
+title: 'Dax Vibez Released out And Police Explains His Earlier Arrest.'
 slug: dax-vibez-released-out-and-police
 excerpt: 'Dax Vibez finally released after spending hours in police custody of Jinja following his arrest.'
 author: editorial-desk

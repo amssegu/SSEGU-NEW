@@ -1,5 +1,5 @@
 ---
-title: 'Tragic Crash at the Gates: Driver Fatally Collides with White House Security Barrier | SSEGU'
+title: 'Tragic Crash at the Gates: Driver Fatally Collides with White House Security Barrier'
 slug: tragic-crash-at-gates-driver-fatally
 excerpt: 'D.C. Police Department, traffic collision, Secret Service, White House crash, public safety, vehicle speeding, perimeter gate collision, male driver p'
 author: editorial-desk

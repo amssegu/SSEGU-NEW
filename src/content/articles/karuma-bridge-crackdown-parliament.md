@@ -1,5 +1,5 @@
 ---
-title: 'Karuma Bridge Crackdown: Parliament Demands Answers and Action | SSEGU'
+title: 'Karuma Bridge Crackdown: Parliament Demands Answers and Action'
 slug: karuma-bridge-crackdown-parliament
 excerpt: 'Parliament Demands Answers and Action, Members of Parliament, Karuma Bridge, restricted access, North and West Nile regions, Uganda trade, government'
 author: editorial-desk

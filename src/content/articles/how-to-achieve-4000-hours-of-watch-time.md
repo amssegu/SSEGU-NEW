@@ -1,5 +1,5 @@
 ---
-title: 'How to Achieve 4000 Hours of Watch Time on YouTube in a Month | SSEGU'
+title: 'How to Achieve 4000 Hours of Watch Time on YouTube in a Month'
 slug: how-to-achieve-4000-hours-of-watch-time
 excerpt: 'Watch time is a fundamental metric on YouTube that plays a crucial role in how videos are ranked, recommended, and monetized on the platform. A signif'
 author: editorial-desk

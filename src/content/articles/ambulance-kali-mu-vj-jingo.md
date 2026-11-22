@@ -1,5 +1,5 @@
 ---
-title: 'Ambulance Kali Mu: VJ Jingo | SSEGU'
+title: 'Ambulance Kali Mu: VJ Jingo'
 slug: ambulance-kali-mu-vj-jingo
 excerpt: 'Download Ambulance By VJ Jingo Mp4 Mobile Movie. Stream Ambulance By VJ Jingo ssegu'
 author: editorial-desk

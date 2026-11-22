@@ -1,5 +1,5 @@
 ---
-title: 'Are Midnight Snacks Wrecking Your Health? 3 Hidden Dangers of Eating Late at Night, and Their Fixes. | SSEGU'
+title: 'Are Midnight Snacks Wrecking Your Health? 3 Hidden Dangers of Eating Late at Night, and Their Fixes.'
 slug: are-midnight-snacks-wrecking-your
 excerpt: 'Midnight snacks! Anyone here in the habit of late-night errands to the fridge? From light snacks to full-on meal courses? I do—I live for those night'
 author: editorial-desk

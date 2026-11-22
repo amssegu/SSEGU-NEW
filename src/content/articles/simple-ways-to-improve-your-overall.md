@@ -1,5 +1,5 @@
 ---
-title: 'Simple Ways to Improve Your Overall Health: A Complete Guide to Living a Healthier Life | SSEGU'
+title: 'Simple Ways to Improve Your Overall Health: A Complete Guide to Living a Healthier Life'
 slug: simple-ways-to-improve-your-overall
 excerpt: 'This complete guide explores simple and practical ways to improve your overall health and develop habits that support long-term wellness.'
 author: editorial-desk

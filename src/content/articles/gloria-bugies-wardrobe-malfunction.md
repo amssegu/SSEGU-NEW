@@ -1,5 +1,5 @@
 ---
-title: 'Gloria Bugie’s Wardrobe Malfunction Sparks Stylist Shake-Up Rumors | SSEGU'
+title: 'Gloria Bugie’s Wardrobe Malfunction Sparks Stylist Shake-Up Rumors'
 slug: gloria-bugies-wardrobe-malfunction
 excerpt: 'Last night at the Comedy Store, Gloria Bugie born name Gloria Busingye delivered a show-stopping performance—until her outfit decided to steal the spo'
 author: editorial-desk

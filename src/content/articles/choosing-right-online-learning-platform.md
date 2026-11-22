@@ -1,5 +1,5 @@
 ---
-title: 'Choosing the Right Online Learning Platform for Your Digital Products | SSEGU'
+title: 'Choosing the Right Online Learning Platform for Your Digital Products'
 slug: choosing-right-online-learning-platform
 excerpt: 'Choosing the Right Online Learning Platform for Your Digital Products The explosion of online learning has opened a myriad of opportunities for creators and ...'
 author: editorial-desk

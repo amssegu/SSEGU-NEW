@@ -1,5 +1,5 @@
 ---
-title: "Mind-Blowing Facts You Didn't Know About India | SSEGU"
+title: "Mind-Blowing Facts You Didn't Know About India"
 slug: mind-blowing-facts-you-didnt-know-about
 excerpt: 'incredible facts you probably didn'
 author: editorial-desk

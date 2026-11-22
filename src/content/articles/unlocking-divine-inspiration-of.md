@@ -1,5 +1,5 @@
 ---
-title: 'Unlocking the Divine Inspiration of Scripture | SSEGU'
+title: 'Unlocking the Divine Inspiration of Scripture'
 slug: unlocking-divine-inspiration-of
 excerpt: 'At the core of Bible-based faith lies the conviction that the scriptures are not merely historical documents or literary works, but divinely inspired'
 author: editorial-desk

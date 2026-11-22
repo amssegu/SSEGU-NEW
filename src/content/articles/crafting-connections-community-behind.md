@@ -1,5 +1,5 @@
 ---
-title: 'Crafting Connections: The Community Behind DIY Kits for Adults | SSEGU'
+title: 'Crafting Connections: The Community Behind DIY Kits for Adults'
 slug: crafting-connections-community-behind
 excerpt: 'The room was silent except for the soft rustling of papers and the occasional click of a tool. Around the table sat five adults, each deeply focused o'
 author: editorial-desk

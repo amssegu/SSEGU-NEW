@@ -1,5 +1,5 @@
 ---
-title: '10 Effective Strategies for Engaging Craft Show Displays | SSEGU'
+title: '10 Effective Strategies for Engaging Craft Show Displays'
 slug: 10-effective-strategies-for-engaging
 excerpt: 'Once upon a time, there was a passionate craftsperson named Emma who made breathtaking handmade jewelry. After months of preparation, Emma decided to'
 author: editorial-desk

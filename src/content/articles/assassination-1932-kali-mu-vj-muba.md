@@ -1,5 +1,5 @@
 ---
-title: 'Assassination: 1932 Kali Mu: VJ Muba | SSEGU'
+title: 'Assassination: 1932 Kali Mu: VJ Muba'
 slug: assassination-1932-kali-mu-vj-muba
 excerpt: 'Download Assassination: 1932 By VJ Muba Mp4 Mobile Movie. Stream Assassination: 1932 By VJ Muba ssegu'
 author: editorial-desk

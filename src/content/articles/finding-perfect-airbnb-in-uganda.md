@@ -1,5 +1,5 @@
 ---
-title: 'Finding the Perfect Airbnb in Uganda: A Comprehensive Guide | SSEGU'
+title: 'Finding the Perfect Airbnb in Uganda: A Comprehensive Guide'
 slug: finding-perfect-airbnb-in-uganda
 excerpt: 'The word Airbnb is a common word now especially among travellers and tourists. Although most times especially in Uganda what you'
 author: editorial-desk

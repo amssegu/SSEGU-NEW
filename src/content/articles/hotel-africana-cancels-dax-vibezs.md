@@ -1,5 +1,5 @@
 ---
-title: 'Hotel Africana Cancels Dax Vibez’s Maiden Concert | SSEGU'
+title: 'Hotel Africana Cancels Dax Vibez’s Maiden Concert'
 slug: hotel-africana-cancels-dax-vibezs
 excerpt: 'Ugandan musician Dax Vibez, whose real name is Ivan Bugembe Sentamu, took to social media to announce the cancellation of his highly anticipated maid'
 author: editorial-desk

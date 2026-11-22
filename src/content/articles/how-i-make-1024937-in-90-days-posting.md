@@ -1,5 +1,5 @@
 ---
-title: 'How I Make $1,024,937 In 90 Days Posting Facebook Reels (Full System) | ssegu | SSEGU'
+title: 'How I Make $1,024,937 In 90 Days Posting Facebook Reels (Full System)'
 slug: how-i-make-1024937-in-90-days-posting
 excerpt: 'Learn the exact system used to grow a Facebook page to 💵 2.9 million followers and generate over $49,000 in a single month.'
 author: editorial-desk

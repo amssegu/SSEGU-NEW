@@ -1,5 +1,5 @@
 ---
-title: 'What Ancient Temples Can Teach You About Customer Experience | SSEGU'
+title: 'What Ancient Temples Can Teach You About Customer Experience'
 slug: what-ancient-temples-can-teach-you
 excerpt: 'Egyptians, Greeks, and Mayans spent 100 years and millions of stones to make you feel something the moment you walked in. Awe. Peace. Trust. Belongin'
 author: editorial-desk

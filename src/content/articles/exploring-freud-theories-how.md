@@ -1,5 +1,5 @@
 ---
-title: "Exploring Freud's Theories: How Psychoanalysis Interprets Dreams | SSEGU"
+title: "Exploring Freud's Theories: How Psychoanalysis Interprets Dreams"
 slug: exploring-freud-theories-how
 excerpt: 'Freud'
 author: editorial-desk

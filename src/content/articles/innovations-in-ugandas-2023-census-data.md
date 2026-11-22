@@ -1,5 +1,5 @@
 ---
-title: "Innovations in Uganda's Census Data Gathering | SSEGU"
+title: "Innovations in Uganda's Census Data Gathering"
 slug: innovations-in-ugandas-2023-census-data
 excerpt: 'Uganda'
 author: editorial-desk

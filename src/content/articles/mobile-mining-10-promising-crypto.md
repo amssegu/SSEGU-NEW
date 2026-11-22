@@ -1,5 +1,5 @@
 ---
-title: 'Mobile Mining: 10 Promising Crypto Mining Apps You Must Have | SSEGU'
+title: 'Mobile Mining: 10 Promising Crypto Mining Apps You Must Have'
 slug: mobile-mining-10-promising-crypto
 excerpt: 'The rise of mobile crypto mining has been a game-changer in the industry. With the increasing popularity of cryptocurrencies and the widespread use of'
 author: editorial-desk

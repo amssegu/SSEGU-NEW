@@ -1,5 +1,5 @@
 ---
-title: 'Attracting Money and Success: Applying the Law of Attraction to Business Ventures | SSEGU'
+title: 'Attracting Money and Success: Applying the Law of Attraction to Business Ventures'
 slug: attracting-money-and-success-applying
 excerpt: 'The Law of Attraction is a powerful universal principle that suggests what you focus on expands and attracts similar energy. This concept can be effectively ...'
 author: editorial-desk

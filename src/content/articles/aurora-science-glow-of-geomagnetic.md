@@ -1,5 +1,5 @@
 ---
-title: 'The Glow of Geomagnetic Storms | SSEGU'
+title: 'The Glow of Geomagnetic Storms'
 slug: aurora-science-glow-of-geomagnetic
 excerpt: 'The Northern Lights, or aurora borealis, have long captivated observers with their ethereal dance across the night sky. These luminous displays are no'
 author: editorial-desk

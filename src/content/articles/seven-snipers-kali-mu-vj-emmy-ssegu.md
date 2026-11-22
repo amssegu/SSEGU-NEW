@@ -1,5 +1,5 @@
 ---
-title: 'Seven Snipers Kali Mu: VJ Emmy - ssegu | SSEGU'
+title: 'Seven Snipers Kali Mu: VJ Emmy - ssegu'
 slug: seven-snipers-kali-mu-vj-emmy-ssegu
 excerpt: '🎯 Seven Snipers 🔥 🎥 Kali Mu: VJ Emmy 🎭 Genre: Action, Thriller 🔥 Ka-Plot: A former elite sniper 🎯💪 living a quiet life on a remote Australi'
 author: editorial-desk

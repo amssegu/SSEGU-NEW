@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Social Media Marketing: Strategies For Business Growth | SSEGU'
+title: 'Mastering Social Media Marketing: Strategies For Business Growth'
 slug: mastering-social-media-marketing
 excerpt: 'Identifying Your Target Audience on Different Platforms Understanding your audience is the cornerstone of any successful social media marketing strategy. It ...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Pharaoh’s Formula: Building a Luxury Brand In Your City | SSEGU'
+title: 'The Pharaoh’s Formula: Building a Luxury Brand In Your City'
 slug: the-pharaohs-formula-building-luxury
 excerpt: 'Gold. Temples. Tombs. Story. Status. People did not buy from Pharaohs because they needed to. They bought because they wanted to be close to power.'
 author: editorial-desk

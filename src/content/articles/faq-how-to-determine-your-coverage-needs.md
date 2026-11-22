@@ -1,5 +1,5 @@
 ---
-title: 'FAQ: How to Determine Your Coverage Needs? | SSEGU'
+title: 'FAQ: How to Determine Your Coverage Needs?'
 slug: faq-how-to-determine-your-coverage-needs
 excerpt: 'homeowners insurance,health insurance,auto insurance,disability insurance,long-term care insurance,renters insurance,insurance coverage,coverage needs'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: '15 Habits Keeping You Poor and How to Break Free | SSEGU'
+title: '15 Habits Keeping You Poor and How to Break Free'
 slug: 15-habits-keeping-you-poor-and-how-to
 excerpt: 'Welcome to our channel, the place where people come to get inspired and educated about the world. Today, we'
 author: editorial-desk

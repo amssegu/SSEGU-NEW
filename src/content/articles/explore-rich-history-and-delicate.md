@@ -1,5 +1,5 @@
 ---
-title: 'Explore the rich history and delicate artistry behind traditional tea ceremonies across different cultures. | SSEGU'
+title: 'Explore the rich history and delicate artistry behind traditional tea ceremonies across different cultures.'
 slug: explore-rich-history-and-delicate
 excerpt: 'In a small, tranquil village in the heart of Japan’s picturesque countryside, where the wind whispers through cherry blossoms and the air is scented with the...'
 author: editorial-desk

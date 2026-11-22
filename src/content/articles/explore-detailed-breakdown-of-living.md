@@ -1,5 +1,5 @@
 ---
-title: 'Explore the detailed breakdown of living costs in Dubai on a 17,000 AED monthly salary. | SSEGU'
+title: 'Explore the detailed breakdown of living costs in Dubai on a 17,000 AED monthly salary.'
 slug: explore-detailed-breakdown-of-living
 excerpt: 'the sparkling city of Dubai, a bustling metropolis known for its breathtaking skyscrapers, vibrant lifestyle, and diverse expatriate community. If you'
 author: editorial-desk

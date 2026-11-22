@@ -1,5 +1,5 @@
 ---
-title: 'Transform Your Dreams into Reality: The Ultimate Guide to Writing for Manifestation | SSEGU'
+title: 'Transform Your Dreams into Reality: The Ultimate Guide to Writing for Manifestation'
 slug: transform-your-dreams-into-reality
 excerpt: 'manifestation, writing for manifestation, transform your dreams, goal setting, law of attraction, self-improvement'
 author: editorial-desk

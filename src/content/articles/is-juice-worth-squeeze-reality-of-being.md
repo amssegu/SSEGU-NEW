@@ -1,5 +1,5 @@
 ---
-title: 'Is the juice worth the squeeze?, the reality of being a sales agent | SSEGU'
+title: 'Is the juice worth the squeeze?, the reality of being a sales agent'
 slug: is-juice-worth-squeeze-reality-of-being
 excerpt: 'As we look for jobs, most of us are going to find adverts with no experience, very little qualifications and an easy application procedure, normally t'
 author: editorial-desk

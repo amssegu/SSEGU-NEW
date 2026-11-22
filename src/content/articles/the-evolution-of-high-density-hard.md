@@ -1,5 +1,5 @@
 ---
-title: 'The Evolution of High-Density Hard Drives: How HDMR Technology is Changing the Game | SSEGU'
+title: 'The Evolution of High-Density Hard Drives: How HDMR Technology is Changing the Game'
 slug: the-evolution-of-high-density-hard
 excerpt: 'Introduction to High-Density Magnetic Recording (HDMR) The landscape of data storage is undergoing a significant transformation with the emergence of High-De...'
 author: editorial-desk

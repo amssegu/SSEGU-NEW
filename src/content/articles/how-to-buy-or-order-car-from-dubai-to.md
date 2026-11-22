@@ -1,5 +1,5 @@
 ---
-title: 'How To Buy Or Order a Car From Dubai to Uganda: Step-by-Step Guide for Beginners | SSEGU'
+title: 'How To Buy Or Order a Car From Dubai to Uganda: Step-by-Step Guide for Beginners'
 slug: how-to-buy-or-order-car-from-dubai-to
 excerpt: 'However, importing a car from Dubai to Uganda requires careful planning. Buyers need to understand how to find reliable sellers, check vehicle history'
 author: editorial-desk

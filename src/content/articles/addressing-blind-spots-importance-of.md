@@ -1,5 +1,5 @@
 ---
-title: 'Addressing Blind Spots: The Importance of Market Research in Understanding Diverse Audiences | SSEGU'
+title: 'Addressing Blind Spots: The Importance of Market Research in Understanding Diverse Audiences'
 slug: addressing-blind-spots-importance-of
 excerpt: 'In today'
 author: editorial-desk

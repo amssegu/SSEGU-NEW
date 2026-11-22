@@ -1,5 +1,5 @@
 ---
-title: "Ghana's Anti-LGBTQ Bill Hearing Hits Pause: Supreme Court Calls for Civility | SSEGU"
+title: "Ghana's Anti-LGBTQ Bill Hearing Hits Pause: Supreme Court Calls for Civility"
 slug: ghanas-anti-lgbtq-bill-hearing-hits
 excerpt: 'Ghana'
 author: editorial-desk

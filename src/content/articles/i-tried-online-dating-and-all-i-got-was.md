@@ -1,5 +1,5 @@
 ---
-title: 'I Tried Online Dating and All I Got Was This Article - Some Advice for Enthusiasts! | SSEGU'
+title: 'I Tried Online Dating and All I Got Was This Article - Some Advice for Enthusiasts!'
 slug: i-tried-online-dating-and-all-i-got-was
 excerpt: 'How I Tried Online Dating and Learned Nothing About Love When it comes to the world of online dating apps, the likes of Tinder and whatnot, they say'
 author: editorial-desk

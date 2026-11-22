@@ -1,5 +1,5 @@
 ---
-title: 'Choosing the Right Workplace Personality Assessment Tool | SSEGU'
+title: 'Choosing the Right Workplace Personality Assessment Tool'
 slug: choosing-right-workplace-personality
 excerpt: 'Discover how to select the best workplace personality assessment tool for your organization, Choosing the Right Workplace Personality Assessment Tool'
 author: editorial-desk

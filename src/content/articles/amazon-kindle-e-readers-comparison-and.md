@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Kindle E-Readers - Comparison and reviews of different Kindle models available on Amazon. | SSEGU'
+title: 'Amazon Kindle E-Readers - Comparison and reviews of different Kindle models available on Amazon.'
 slug: amazon-kindle-e-readers-comparison-and
 excerpt: 'Overview of Kindle E-Readers Kindle E-Readers are a series of devices designed and sold by Amazon for reading e-books. They offer a convenient and portable w...'
 author: editorial-desk

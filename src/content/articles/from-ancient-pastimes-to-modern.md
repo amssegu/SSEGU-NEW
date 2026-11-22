@@ -1,5 +1,5 @@
 ---
-title: 'From Ancient Pastimes to Modern Delights: The Resurgence of Traditional Board Games | SSEGU'
+title: 'From Ancient Pastimes to Modern Delights: The Resurgence of Traditional Board Games'
 slug: from-ancient-pastimes-to-modern
 excerpt: 'There'
 author: editorial-desk

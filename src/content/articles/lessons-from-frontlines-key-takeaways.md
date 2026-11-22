@@ -1,5 +1,5 @@
 ---
-title: 'Lessons from the Frontlines: Key Takeaways from Real-World Experiences | SSEGU'
+title: 'Lessons from the Frontlines: Key Takeaways from Real-World Experiences'
 slug: lessons-from-frontlines-key-takeaways
 excerpt: 'Introduction: The Value of Frontline Experience In today’s fast-paced and ever-evolving professional landscape, the significance of frontline experience rema...'
 author: editorial-desk

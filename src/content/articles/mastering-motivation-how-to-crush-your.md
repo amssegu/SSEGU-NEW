@@ -1,5 +1,5 @@
 ---
-title: "Mastering Motivation: How to Crush Your Goals Even When You Don't Feel Like It | SSEGU"
+title: "Mastering Motivation: How to Crush Your Goals Even When You Don't Feel Like It"
 slug: mastering-motivation-how-to-crush-your
 excerpt: 'motivation tips, goal setting, overcoming procrastination, self-discipline, staying motivated, achieving goals'
 author: editorial-desk

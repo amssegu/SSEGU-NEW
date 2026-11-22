@@ -1,5 +1,5 @@
 ---
-title: 'Ip Man: Kung Fu Legend - Kali Mu: VJ ICE P | ssegu | SSEGU'
+title: 'Ip Man: Kung Fu Legend - Kali Mu: VJ ICE P'
 slug: ip-man-kung-fu-legend-kali-mu-vj-ice-p
 excerpt: '🥋 Ip Man: Kung Fu Legend 👊 Kali Mu: VJ ICE P Genre: Action, Martial Arts Runtime: 1 Hr 38 Min Kick Away Stress: 🎬'
 author: editorial-desk

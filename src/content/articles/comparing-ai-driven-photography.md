@@ -1,5 +1,5 @@
 ---
-title: 'Comparing AI-Driven Photography Capabilities of iPhone 15 and Pixel 8 Pro | SSEGU'
+title: 'Comparing AI-Driven Photography Capabilities of iPhone 15 and Pixel 8 Pro'
 slug: comparing-ai-driven-photography
 excerpt: 'Analyzing the AI-Driven Photography Capabilities of iPhone 15 vs Pixel 8 Pro The advent of AI-driven technology in smartphones has significantly enhanced cam...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Kampala Bombings Under Scrutiny: How Military Officials Are Accused of Faking Attacks | SSEGU'
+title: 'Kampala Bombings Under Scrutiny: How Military Officials Are Accused of Faking Attacks'
 slug: kampala-bombings-under-scrutiny-how
 excerpt: '2025 began with gusto: USAID suspensions, Trump-era trade sanctions causing their fair share of economic debates, the ongoing Umeme and UEDCL electric'
 author: editorial-desk

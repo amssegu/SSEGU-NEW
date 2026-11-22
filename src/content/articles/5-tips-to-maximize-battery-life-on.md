@@ -1,5 +1,5 @@
 ---
-title: '5 Tips to Maximize Battery Life on the iPhone 15 | SSEGU'
+title: '5 Tips to Maximize Battery Life on the iPhone 15'
 slug: 5-tips-to-maximize-battery-life-on
 excerpt: 'The iPhone 15, with its cutting-edge technology and sleek design, continues to be a staple in the world of smartphones. As powerful as it is, maximizing its ...'
 author: editorial-desk

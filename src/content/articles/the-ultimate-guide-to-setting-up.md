@@ -1,5 +1,5 @@
 ---
-title: 'Ultimate Guide to Setting Up a Successful Facebook Group for Your Business | SSEGU'
+title: 'Ultimate Guide to Setting Up a Successful Facebook Group for Your Business'
 slug: the-ultimate-guide-to-setting-up
 excerpt: 'Are you looking to boost your business’s online presence? A Facebook Group could be your secret weapon. Today, I’m sharing pro tips and insider secret'
 author: editorial-desk

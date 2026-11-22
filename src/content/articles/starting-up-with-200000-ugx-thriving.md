@@ -1,5 +1,5 @@
 ---
-title: 'Starting Up with 200,000 UGX: Thriving Business Ideas in Uganda | SSEGU'
+title: 'Starting Up with 200,000 UGX: Thriving Business Ideas in Uganda'
 slug: starting-up-with-200000-ugx-thriving
 excerpt: 'Understanding the Ugandan Market Landscape The Ugandan market is characterized by a diverse range of industries with varying growth trajectories, presenting ...'
 author: editorial-desk

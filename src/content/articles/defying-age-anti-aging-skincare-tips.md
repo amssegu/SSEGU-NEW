@@ -1,5 +1,5 @@
 ---
-title: 'Defying Age: Anti-Aging Skincare Tips You Need | SSEGU'
+title: 'Defying Age: Anti-Aging Skincare Tips You Need'
 slug: defying-age-anti-aging-skincare-tips
 excerpt: 'As we age, our skin undergoes various changes that contribute to the signs of aging. These changes include a decrease in collagen production, a loss o'
 author: editorial-desk

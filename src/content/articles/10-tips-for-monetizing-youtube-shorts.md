@@ -1,5 +1,5 @@
 ---
-title: '10 Tips for Monetizing YouTube Shorts and TikTok Videos | SSEGU'
+title: '10 Tips for Monetizing YouTube Shorts and TikTok Videos'
 slug: 10-tips-for-monetizing-youtube-shorts
 excerpt: 'Discover effective strategies to monetize YouTube Shorts and TikTok videos, turning your creative content into a reliable income source.'
 author: editorial-desk

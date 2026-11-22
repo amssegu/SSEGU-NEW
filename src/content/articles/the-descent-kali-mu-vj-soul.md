@@ -1,5 +1,5 @@
 ---
-title: 'The Descent Kali Mu: VJ Soul | SSEGU'
+title: 'The Descent Kali Mu: VJ Soul'
 slug: the-descent-kali-mu-vj-soul
 excerpt: 'Download The Descent By VJ Soul Mp4 Mobile Movie. Stream The Descent By VJ Soul ssegu'
 author: editorial-desk

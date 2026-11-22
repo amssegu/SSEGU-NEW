@@ -1,5 +1,5 @@
 ---
-title: 'Common Challenges in Lucid Dreaming: How to Stay Asleep and Maintain Lucidity | SSEGU'
+title: 'Common Challenges in Lucid Dreaming: How to Stay Asleep and Maintain Lucidity'
 slug: common-challenges-in-lucid-dreaming-how
 excerpt: 'Have you ever found yourself aware that you'
 author: editorial-desk

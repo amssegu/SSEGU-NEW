@@ -1,5 +1,5 @@
 ---
-title: 'The Basics of Financial Planning: A Complete Guide to Building a Strong Financial Future | SSEGU'
+title: 'The Basics of Financial Planning: A Complete Guide to Building a Strong Financial Future'
 slug: the-basics-of-financial-planning
 excerpt: 'This complete guide explains the basics of financial planning, why it matters, the key steps involved, and how you can create a simple plan to improve'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: "Man City's Tactical Mastery in Title Chase | SSEGU"
+title: "Man City's Tactical Mastery in Title Chase"
 slug: man-citys-tactical-mastery-in-title
 excerpt: 'Manchester City'
 author: editorial-desk

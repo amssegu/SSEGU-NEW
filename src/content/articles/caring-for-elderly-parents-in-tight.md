@@ -1,5 +1,5 @@
 ---
-title: 'Caring for elderly parents in a tight economy, the hardships and benefits you might consider before giving up | SSEGU'
+title: 'Caring for elderly parents in a tight economy, the hardships and benefits you might consider before giving up'
 slug: caring-for-elderly-parents-in-tight
 excerpt: 'Growing up as kids, our dream was to take care of our parents and guardians that groomed us. As we grow up though, we come to face the harsh realities'
 author: editorial-desk

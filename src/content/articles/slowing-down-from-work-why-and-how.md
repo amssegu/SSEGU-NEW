@@ -1,5 +1,5 @@
 ---
-title: 'Slowing Down from Work; Why and How Taking a Break Boosts Your Overall Performance | SSEGU'
+title: 'Slowing Down from Work; Why and How Taking a Break Boosts Your Overall Performance'
 slug: slowing-down-from-work-why-and-how
 excerpt: 'Productivity and efficiency are pretty complicated aspects of life, especially for us humans--we simply ain’t machines. Today, I might be very product'
 author: editorial-desk

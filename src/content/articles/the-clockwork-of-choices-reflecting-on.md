@@ -1,5 +1,5 @@
 ---
-title: 'The Clockwork of Choices: Reflecting on Time and Regret | SSEGU'
+title: 'The Clockwork of Choices: Reflecting on Time and Regret'
 slug: the-clockwork-of-choices-reflecting-on
 excerpt: 'The Nature of Time: A Philosophical Perspective Time has long fascinated philosophers, scholars, and thinkers across various cultures. It serves as both a co...'
 author: editorial-desk

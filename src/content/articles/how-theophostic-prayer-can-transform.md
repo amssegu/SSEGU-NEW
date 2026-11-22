@@ -1,5 +1,5 @@
 ---
-title: 'How Theophostic Prayer Can Transform Lives | SSEGU'
+title: 'How Theophostic Prayer Can Transform Lives'
 slug: how-theophostic-prayer-can-transform
 excerpt: 'Theophostic prayer is a unique blend of spiritual and therapeutic practices. It'
 author: editorial-desk

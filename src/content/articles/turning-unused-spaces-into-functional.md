@@ -1,5 +1,5 @@
 ---
-title: 'Turning Unused Spaces into Functional Storage Areas | SSEGU'
+title: 'Turning Unused Spaces into Functional Storage Areas'
 slug: turning-unused-spaces-into-functional
 excerpt: 'Once, in a quaint house nestled on the outskirts of a bustling city, lived a young couple overwhelmed by their burgeoning collection of life'
 author: editorial-desk

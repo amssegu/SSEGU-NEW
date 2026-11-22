@@ -1,5 +1,5 @@
 ---
-title: 'Transform Text into Stunning Videos Instantly with Our AI-Powered Generator | SSEGU'
+title: 'Transform Text into Stunning Videos Instantly with Our AI-Powered Generator'
 slug: transform-text-into-stunning-videos
 excerpt: 'Discover the step-by-step process of creating videos effortlessly, alongside real-world applications across marketing, education, and entertainment.'
 author: editorial-desk

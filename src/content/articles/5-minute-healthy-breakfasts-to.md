@@ -1,5 +1,5 @@
 ---
-title: '5 Minute Healthy Breakfasts to Jumpstart Your Day | SSEGU'
+title: '5 Minute Healthy Breakfasts to Jumpstart Your Day'
 slug: 5-minute-healthy-breakfasts-to
 excerpt: 'Kick off your mornings with these fast, nutritious breakfast options that keep you energized. Choosing the Right Ingredients for Speed and Nutrition Starting...'
 author: editorial-desk

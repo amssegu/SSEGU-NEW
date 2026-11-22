@@ -1,5 +1,5 @@
 ---
-title: 'Thor’s Hammer Method: Breaking Through Creator Block and Making Money in 2027 | SSEGU'
+title: 'Thor’s Hammer Method: Breaking Through Creator Block and Making Money in 2027'
 slug: thors-hammer-method-breaking-through
 excerpt: 'The Thor’s Hammer Method is how you become'
 author: editorial-desk

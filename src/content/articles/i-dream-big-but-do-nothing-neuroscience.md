@@ -1,5 +1,5 @@
 ---
-title: 'I Dream Big But Do Nothing? The Neuroscience Behind Procrastination & How to Fix It | ssegu | SSEGU'
+title: 'I Dream Big But Do Nothing? The Neuroscience Behind Procrastination & How to Fix It'
 slug: i-dream-big-but-do-nothing-neuroscience
 excerpt: 'procrastination neuroscience, avoidance loop explained, why we procrastinate, how to stop procrastinating, brain habits productivity, self improvement'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Explore the best affordable social life in Dubai with a variety of entertainment options to enjoy. | SSEGU'
+title: 'Explore the best affordable social life in Dubai with a variety of entertainment options to enjoy.'
 slug: explore-best-affordable-social-life-in
 excerpt: 'Dubai, the city of undeniable beauty and extravagance, may sound like a destination that could make a dent in your wallet. Yet, it'
 author: editorial-desk

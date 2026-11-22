@@ -1,5 +1,5 @@
 ---
-title: '60-Second Prayer for Manifesting Abundance | SSEGU'
+title: '60-Second Prayer for Manifesting Abundance'
 slug: 60-second-prayer-for-manifesting
 excerpt: 'personal development, manifestation techniques, Bob Proctor teachings, financial abundance, unlocking potential, manifestation exercises, divine plan,'
 author: editorial-desk

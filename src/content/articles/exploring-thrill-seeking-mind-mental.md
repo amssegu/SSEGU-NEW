@@ -1,5 +1,5 @@
 ---
-title: 'Exploring the Thrill-Seeking Mind: Mental Health Benefits of Extreme Sports | SSEGU'
+title: 'Exploring the Thrill-Seeking Mind: Mental Health Benefits of Extreme Sports'
 slug: exploring-thrill-seeking-mind-mental
 excerpt: 'Exploring the Thrill-Seeking Mind: Mental Health Benefits of Extreme Sports Extreme sports, often considered the domain of adrenaline junkies and thrill-seek...'
 author: editorial-desk

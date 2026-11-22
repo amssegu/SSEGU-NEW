@@ -1,5 +1,5 @@
 ---
-title: 'VINKA FINALLY DOES IT! The Cricket Oval Is About to Catch Fire | SSEGU'
+title: 'VINKA FINALLY DOES IT! The Cricket Oval Is About to Catch Fire'
 slug: vinka-finally-does-it-cricket-oval-is
 excerpt: 'After years of us screaming'
 author: editorial-desk

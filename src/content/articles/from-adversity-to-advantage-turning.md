@@ -1,5 +1,5 @@
 ---
-title: 'From Adversity to Advantage: Turning Obstacles into Opportunities | SSEGU'
+title: 'From Adversity to Advantage: Turning Obstacles into Opportunities'
 slug: from-adversity-to-advantage-turning
 excerpt: 'Introduction to Adversity and Opportunity Adversity is a term that encompasses a wide range of challenges and difficulties that individuals may face througho...'
 author: editorial-desk

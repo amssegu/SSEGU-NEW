@@ -1,5 +1,5 @@
 ---
-title: 'Forget Trends: 6 Proven Principles for Building a Profitable Business | SSEGU'
+title: 'Forget Trends: 6 Proven Principles for Building a Profitable Business'
 slug: forget-trends-6-proven-principles-for
 excerpt: 'In business, there’s always something shiny grabbing everyone’s attention. Something trendy every client seems to looking for. And it’s easy to feel l'
 author: editorial-desk

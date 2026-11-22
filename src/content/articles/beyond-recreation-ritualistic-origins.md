@@ -1,5 +1,5 @@
 ---
-title: 'Beyond Recreation: The Ritualistic Origins of Mancala and its Cultural Legacy | SSEGU'
+title: 'Beyond Recreation: The Ritualistic Origins of Mancala and its Cultural Legacy'
 slug: beyond-recreation-ritualistic-origins
 excerpt: 'On the sandy shores of a small African village, under the sprawling branches of an ancient baobab tree, a group of elderly men gather. Their faces, lined wit...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Overcoming Self-Doubt: My Journey to Building Confidence | SSEGU'
+title: 'Overcoming Self-Doubt: My Journey to Building Confidence'
 slug: overcoming-self-doubt-my-journey-to
 excerpt: 'Introduction: The Nature of Self-Doubt Self-doubt is an inherent aspect of the human experience that can have profound effects on an individual’s mental heal...'
 author: editorial-desk

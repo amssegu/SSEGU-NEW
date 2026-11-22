@@ -1,5 +1,5 @@
 ---
-title: 'How Ancient Greek Stoics Used Minimalism To Build Wealth | SSEGU'
+title: 'How Ancient Greek Stoics Used Minimalism To Build Wealth'
 slug: how-ancient-greek-stoics-used
 excerpt: 'Epictetus was a slave. Marcus Aurelius ran an empire. Seneca was one of the richest men in Rome. Different lives, same philosophy.'
 author: editorial-desk

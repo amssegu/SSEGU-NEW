@@ -1,5 +1,5 @@
 ---
-title: "GNL Zamba's Vision for Uganda’s Hip-Hop 2025 | SSEGU"
+title: "GNL Zamba's Vision for Uganda’s Hip-Hop 2025"
 slug: gnl-zambas-vision-for-ugandas-hip-hop
 excerpt: 'Ernest Tulye Nsimbi, better known as GNL Zamba, in his national address, the state of hip-hop Uganda 2025, he speaks of his vision for hiphop not as a'
 author: editorial-desk

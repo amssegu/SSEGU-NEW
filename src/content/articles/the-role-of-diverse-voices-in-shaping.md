@@ -1,5 +1,5 @@
 ---
-title: 'The Role of Diverse Voices in Shaping Marketing Messages | SSEGU'
+title: 'The Role of Diverse Voices in Shaping Marketing Messages'
 slug: the-role-of-diverse-voices-in-shaping
 excerpt: 'In today'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Long distance relationships work out, | SSEGU'
+title: 'Long distance relationships work out,'
 slug: long-distance-relationships-work-out
 excerpt: 'Long distance relationships are the most challenging phase you'
 author: editorial-desk

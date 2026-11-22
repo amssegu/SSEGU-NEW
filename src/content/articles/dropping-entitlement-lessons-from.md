@@ -1,5 +1,5 @@
 ---
-title: "Dropping the Entitlement: Lessons from the Celtics' Wake-Up Call | SSEGU"
+title: "Dropping the Entitlement: Lessons from the Celtics' Wake-Up Call"
 slug: dropping-entitlement-lessons-from
 excerpt: 'Wake-Up Call, Boston Celtics, entitlement in sports, poor three-point shooting, cultural problems in sports, frustration in basketball, self-destruct'
 author: editorial-desk

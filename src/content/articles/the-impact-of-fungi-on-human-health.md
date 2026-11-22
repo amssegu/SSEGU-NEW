@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Fungi on Human Health | SSEGU'
+title: 'The Impact of Fungi on Human Health'
 slug: the-impact-of-fungi-on-human-health
 excerpt: 'What roles do fungi play in the ecosystem, and how does this relate to human health? Fungi are critical components of the ecosystem, performing essential fun...'
 author: editorial-desk

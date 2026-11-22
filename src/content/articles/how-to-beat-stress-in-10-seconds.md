@@ -1,5 +1,5 @@
 ---
-title: 'How to Beat Stress in 10 Seconds: A Powerful Trick for Uganda | SSEGU'
+title: 'How to Beat Stress in 10 Seconds: A Powerful Trick for Uganda'
 slug: how-to-beat-stress-in-10-seconds
 excerpt: 'Stress. For many Ugandan youth, stress has been a friend right away from school. Exam stress. Then comes employment and financial stress. Relationship'
 author: editorial-desk

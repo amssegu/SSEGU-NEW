@@ -1,5 +1,5 @@
 ---
-title: 'The Science of Sleep: Understanding the Biological Basis of Dreaming | SSEGU'
+title: 'The Science of Sleep: Understanding the Biological Basis of Dreaming'
 slug: the-science-of-sleep-understanding
 excerpt: 'Welcome to the enigmatic world of sleep and dreaming—a universe where science and wonder collide. Every night, as our bodies rest, our brains embark o'
 author: editorial-desk

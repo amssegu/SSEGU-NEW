@@ -1,5 +1,5 @@
 ---
-title: 'Is there any company in Canada willing to hire people from Africa with sponsored visa? | SSEGU'
+title: 'Is there any company in Canada willing to hire people from Africa with sponsored visa?'
 slug: is-there-any-company-in-canada-willing
 excerpt: 'Discover Canadian companies offering visa sponsorships to skilled professionals from Africa.'
 author: editorial-desk

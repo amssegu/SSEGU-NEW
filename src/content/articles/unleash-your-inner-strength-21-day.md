@@ -1,5 +1,5 @@
 ---
-title: 'Unleash Your Inner Strength: A 21-Day Guide to Building Unshakeable Self-Confidence | SSEGU'
+title: 'Unleash Your Inner Strength: A 21-Day Guide to Building Unshakeable Self-Confidence'
 slug: unleash-your-inner-strength-21-day
 excerpt: 'self-confidence, personal development, 21-day guide, inner strength, self-improvement, mental resilience'
 author: editorial-desk

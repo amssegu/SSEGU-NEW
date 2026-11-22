@@ -1,5 +1,5 @@
 ---
-title: 'Before you walk out that relationship, 3 reasons why you should leave or stay | SSEGU'
+title: 'Before you walk out that relationship, 3 reasons why you should leave or stay'
 slug: before-you-walk-out-that-relationship-3
 excerpt: 'Dating is not something that we all understand till we experience it, normally we tend to question those that make drastic decisions like walking away'
 author: editorial-desk

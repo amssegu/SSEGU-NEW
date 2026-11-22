@@ -1,5 +1,5 @@
 ---
-title: 'Amino Acid Isoleucine: The Key To Extending Lifespan In Mice And Potentially In Humans | SSEGU'
+title: 'Amino Acid Isoleucine: The Key To Extending Lifespan In Mice And Potentially In Humans'
 slug: amino-acid-isoleucine-key-to-extending
 excerpt: 'Understanding Isoleucine: The Essential Amino Acid Isoleucine is one of the three branched-chain amino acids (BCAAs), alongside leucine and valine. This esse...'
 author: editorial-desk

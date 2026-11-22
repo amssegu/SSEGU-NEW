@@ -1,5 +1,5 @@
 ---
-title: 'The Importance of Researching Local Customs Before Traveling | SSEGU'
+title: 'The Importance of Researching Local Customs Before Traveling'
 slug: the-importance-of-researching-local
 excerpt: 'travel tips, local customs, cultural awareness, travel planning, international travel, travel etiquette'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Diversifying Income Streams for Online Wealth | SSEGU'
+title: 'Diversifying Income Streams for Online Wealth'
 slug: diversifying-income-streams-for-online
 excerpt: 'Learn effective strategies to diversify your income streams online and build sustainable wealth.'
 author: editorial-desk

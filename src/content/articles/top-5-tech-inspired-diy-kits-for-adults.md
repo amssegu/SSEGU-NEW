@@ -1,5 +1,5 @@
 ---
-title: 'Top 5 Tech-Inspired DIY Kits for Adults | SSEGU'
+title: 'Top 5 Tech-Inspired DIY Kits for Adults'
 slug: top-5-tech-inspired-diy-kits-for-adults
 excerpt: 'For adults who love to tinker, build, and learn, there are numerous DIY kits out there that combine the thrill of creating with the advancement of tec'
 author: editorial-desk

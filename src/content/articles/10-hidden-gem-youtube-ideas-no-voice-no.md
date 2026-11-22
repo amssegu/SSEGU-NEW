@@ -1,5 +1,5 @@
 ---
-title: '10 Hidden Gem YouTube Ideas: No Voice, No Face Required! | SSEGU'
+title: '10 Hidden Gem YouTube Ideas: No Voice, No Face Required!'
 slug: 10-hidden-gem-youtube-ideas-no-voice-no
 excerpt: 'YouTube ideas, faceless YouTube ideas, no voice YouTube content, hidden gem YouTube niches, YouTube tips and tricks, creative YouTube content'
 author: editorial-desk

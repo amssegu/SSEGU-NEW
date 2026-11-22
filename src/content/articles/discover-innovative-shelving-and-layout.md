@@ -1,5 +1,5 @@
 ---
-title: 'Discover innovative shelving and layout designs that can help you make the most out of your living space.v | SSEGU'
+title: 'Discover innovative shelving and layout designs that can help you make the most out of your living space.v'
 slug: discover-innovative-shelving-and-layout
 excerpt: 'Once upon a time, in the bustling heart of a cozy little town, there was a charming cafe known for its snug corners and quaint decor. The owner, a young entr...'
 author: editorial-desk

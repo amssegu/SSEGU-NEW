@@ -1,5 +1,5 @@
 ---
-title: '6 Amazing Ways to Lower Your Body Fat Percentage | SSEGU'
+title: '6 Amazing Ways to Lower Your Body Fat Percentage'
 slug: 6-amazing-ways-to-lower-your-body-fat
 excerpt: 'body fat loss, strength training, high-protein diet, HIIT workouts, whole foods nutrition, weight management tips'
 author: editorial-desk

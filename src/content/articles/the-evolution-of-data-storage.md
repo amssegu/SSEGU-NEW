@@ -1,5 +1,5 @@
 ---
-title: 'The Evolution of Data Storage Technology: Ensuring Future Compatibility | SSEGU'
+title: 'The Evolution of Data Storage Technology: Ensuring Future Compatibility'
 slug: the-evolution-of-data-storage
 excerpt: 'Data storage technology has undergone significant transformations, evolving from primitive forms like paper records and punch cards to modern digital solutio...'
 author: editorial-desk

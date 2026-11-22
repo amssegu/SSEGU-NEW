@@ -1,5 +1,5 @@
 ---
-title: 'Infiltrate - VJ Emmy | SSEGU'
+title: 'Infiltrate - VJ Emmy'
 slug: infiltrate-vj-emmy
 excerpt: 'Infiltrate - VJ Emmy - Government agent Lily Chen must choose between duty and family when her husband is kidnapped and she'
 author: editorial-desk

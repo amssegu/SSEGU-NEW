@@ -1,5 +1,5 @@
 ---
-title: 'Discover 5 educational crafts for kids that combine fun and learning through hands-on creativity. | SSEGU'
+title: 'Discover 5 educational crafts for kids that combine fun and learning through hands-on creativity.'
 slug: discover-5-educational-crafts-for-kids
 excerpt: 'world of educational crafts, where creativity meets learning in the most delightful way! Crafting is not only a fun activity but also a fantastic oppo'
 author: editorial-desk

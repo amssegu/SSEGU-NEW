@@ -1,5 +1,5 @@
 ---
-title: 'Building a Web Scraper in Python: A Hands-On Tutorial | SSEGU'
+title: 'Building a Web Scraper in Python: A Hands-On Tutorial'
 slug: building-web-scraper-in-python-hands-on
 excerpt: 'Introduction to Web Scraping Web scraping is a valuable skill for any developer to have. It involves extracting data from websites and can be used for a rang...'
 author: editorial-desk

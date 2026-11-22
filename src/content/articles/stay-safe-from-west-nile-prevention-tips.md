@@ -1,5 +1,5 @@
 ---
-title: 'Stay Safe from West Nile and Prevention Tips | SSEGU'
+title: 'Stay Safe from West Nile and Prevention Tips'
 slug: stay-safe-from-west-nile-prevention-tips
 excerpt: 'The West Nile virus (WNV) is transmitted to humans through the bite of an infected mosquito, with the primary carriers being the Culex species. Mosqui'
 author: editorial-desk

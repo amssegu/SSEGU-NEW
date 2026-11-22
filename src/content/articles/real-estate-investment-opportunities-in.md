@@ -1,5 +1,5 @@
 ---
-title: 'Real Estate Investment Opportunities in Kenya | SSEGU'
+title: 'Real Estate Investment Opportunities in Kenya'
 slug: real-estate-investment-opportunities-in
 excerpt: 'Explore the lucrative real estate investment opportunities available in Kenya, featuring emerging markets, growth potential, and expert insights.'
 author: editorial-desk

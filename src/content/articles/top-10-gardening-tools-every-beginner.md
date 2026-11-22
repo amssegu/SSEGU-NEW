@@ -1,5 +1,5 @@
 ---
-title: 'Top 10 Gardening Tools Every Beginner Needs | SSEGU'
+title: 'Top 10 Gardening Tools Every Beginner Needs'
 slug: top-10-gardening-tools-every-beginner
 excerpt: 'Starting a garden can be an exciting venture, but knowing which tools are necessary is the first step to success. For beginners, it'
 author: editorial-desk

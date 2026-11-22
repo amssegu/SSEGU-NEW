@@ -1,5 +1,5 @@
 ---
-title: "Biden's Blind Eye: Former Officials Allege Breach of Legal Limits in Weapons Sales to Israel | SSEGU"
+title: "Biden's Blind Eye: Former Officials Allege Breach of Legal Limits in Weapons Sales to Israel"
 slug: bidens-blind-eye-former-officials
 excerpt: 'Weapons Sales to Israel, Biden administration, weapons sales, Israel, Gaza conflict, civilian casualties, American arms, international scrutiny, lega'
 author: editorial-desk

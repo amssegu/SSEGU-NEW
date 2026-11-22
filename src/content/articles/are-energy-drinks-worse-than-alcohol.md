@@ -1,5 +1,5 @@
 ---
-title: 'Are Energy Drinks Worse Than Alcohol? Here’s What Experts Say | SSEGU'
+title: 'Are Energy Drinks Worse Than Alcohol? Here’s What Experts Say'
 slug: are-energy-drinks-worse-than-alcohol
 excerpt: 'Over the past few days, overtaken by deadlines and pending projects, I’ve found myself chugging down quite a magnitude of energy drinks to fuel my mid'
 author: editorial-desk

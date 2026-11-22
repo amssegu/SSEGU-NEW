@@ -1,5 +1,5 @@
 ---
-title: 'Unlocking the Power of Positive Thinking: Can Your Thoughts Shape Your Reality? | SSEGU'
+title: 'Unlocking the Power of Positive Thinking: Can Your Thoughts Shape Your Reality?'
 slug: unlocking-power-of-positive-thinking
 excerpt: 'positive thinking, mindset transformation, thoughts shape reality, power of positivity, mental health, law of attraction'
 author: editorial-desk

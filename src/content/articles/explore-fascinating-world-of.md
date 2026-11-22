@@ -1,5 +1,5 @@
 ---
-title: 'Explore the fascinating world of bioluminescent organisms and uncover the scientific principles that allow them to emit light. | SSEGU'
+title: 'Explore the fascinating world of bioluminescent organisms and uncover the scientific principles that allow them to emit light.'
 slug: explore-fascinating-world-of
 excerpt: 'Bioluminescence, the production and emission of light by living organisms, is one of nature'
 author: editorial-desk

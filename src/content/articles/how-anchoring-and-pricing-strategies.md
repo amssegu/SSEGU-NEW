@@ -1,5 +1,5 @@
 ---
-title: 'How Anchoring and Pricing Strategies Influence Consumer Spending | SSEGU'
+title: 'How Anchoring and Pricing Strategies Influence Consumer Spending'
 slug: how-anchoring-and-pricing-strategies
 excerpt: 'Welcome to the intriguing world of psychological pricing strategies! Ever wonder why you ended up buying something you initially thought was too expensive? O...'
 author: editorial-desk

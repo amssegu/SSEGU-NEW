@@ -1,5 +1,5 @@
 ---
-title: 'DIY Crafting Kits to Elevate Your Creativity | SSEGU'
+title: 'DIY Crafting Kits to Elevate Your Creativity'
 slug: diy-crafting-kits-to-elevate-your
 excerpt: 'Engaging in crafts is not only a relaxing way to pass the time but also a fantastic method to boost creativity and make something pleasing for your ho'
 author: editorial-desk

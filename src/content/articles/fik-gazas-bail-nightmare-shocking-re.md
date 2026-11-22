@@ -1,5 +1,5 @@
 ---
-title: "Fik Gaza's Bail Nightmare – A shocking Re-arrest | SSEGU"
+title: "Fik Gaza's Bail Nightmare – A shocking Re-arrest"
 slug: fik-gazas-bail-nightmare-shocking-re
 excerpt: 'Fik Gaza’s brief taste of freedom was cut short when security operatives re-arrested him just hours after he was granted bail. The singer was whisked'
 author: editorial-desk

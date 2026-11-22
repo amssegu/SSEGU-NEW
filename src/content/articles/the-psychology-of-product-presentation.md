@@ -1,5 +1,5 @@
 ---
-title: 'The Psychology of Product Presentation: Leveraging Consumer Behavior for Effective Showcasing | SSEGU'
+title: 'The Psychology of Product Presentation: Leveraging Consumer Behavior for Effective Showcasing'
 slug: the-psychology-of-product-presentation
 excerpt: 'Imagine walking into a store, the scent of fresh pine wafting through the air, a gentle melody playing in the background. In front of you, a beautiful'
 author: editorial-desk

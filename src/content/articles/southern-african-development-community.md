@@ -1,5 +1,5 @@
 ---
-title: 'Southern African Development Community - Governmental BodyBreakout | SSEGU'
+title: 'Southern African Development Community - Governmental BodyBreakout'
 slug: southern-african-development-community
 excerpt: 'SADC, regional integration, socioeconomic growth, poverty alleviation, economic resilience, political stability, sustainable development, quality of l'
 author: editorial-desk

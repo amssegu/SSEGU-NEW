@@ -1,5 +1,5 @@
 ---
-title: 'Emmanuel Bwiire of Benti Boys Found Alive After Week-Long Disappearance | SSEGU'
+title: 'Emmanuel Bwiire of Benti Boys Found Alive After Week-Long Disappearance'
 slug: emmanuel-bwiire-of-benti-boys-found
 excerpt: 'Emmanuel Bwiire, a member of Ugandan music duo Benti Boys Africa, has been found alive after nearly a week of mysterious absence, bringing relief to f'
 author: editorial-desk

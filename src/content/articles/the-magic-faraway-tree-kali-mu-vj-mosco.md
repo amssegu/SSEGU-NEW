@@ -1,5 +1,5 @@
 ---
-title: 'The Magic Faraway Tree Kali Mu: VJ Mosco - ssegu | SSEGU'
+title: 'The Magic Faraway Tree Kali Mu: VJ Mosco - ssegu'
 slug: the-magic-faraway-tree-kali-mu-vj-mosco
 excerpt: 'The Magic Faraway Tree Kali Mu: VJ Mosco Genre: Fantasy, Adventure, Family, Drama Kick Away Stress: 🎬'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Behind the Scenes of Uganda’s Major Music Festivals: What It Takes to Put on a Festival | SSEGU'
+title: 'Behind the Scenes of Uganda’s Major Music Festivals: What It Takes to Put on a Festival'
 slug: behind-scenes-of-ugandas-major-music
 excerpt: 'What really happens behind Uganda’s major music festivals? Here'
 author: editorial-desk

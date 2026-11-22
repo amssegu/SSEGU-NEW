@@ -1,5 +1,5 @@
 ---
-title: 'You Destroy Your Brain Health Rapidly With These 4 Stupid Daily Habits | SSEGU'
+title: 'You Destroy Your Brain Health Rapidly With These 4 Stupid Daily Habits'
 slug: you-destroy-your-brain-health-rapidly
 excerpt: 'brain health, daily habits, mental health, cognitive function, unhealthy habits, brain damage'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: "Cockroach Milk Exists, Healthier Than Cow Milk, I Don't Plan on Tasting it Though! | SSEGU"
+title: "Cockroach Milk Exists, Healthier Than Cow Milk, I Don't Plan on Tasting it Though!"
 slug: cockroach-milk-exists-healthier-than
 excerpt: 'Nutrition has always been something of an enigma for me, partly because most of my favorite foods are considered unhealthy and partly because the actu'
 author: editorial-desk

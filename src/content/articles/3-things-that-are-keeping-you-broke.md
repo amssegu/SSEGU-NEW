@@ -1,5 +1,5 @@
 ---
-title: '3 Things That Are Keeping You Broke That You Must Stop Today | ssegu | SSEGU'
+title: '3 Things That Are Keeping You Broke That You Must Stop Today'
 slug: 3-things-that-are-keeping-you-broke
 excerpt: 'JUST GET RICH FIRST Most people are trying to fix their financial situation by doing more—more work, more effort, more hustle.'
 author: editorial-desk

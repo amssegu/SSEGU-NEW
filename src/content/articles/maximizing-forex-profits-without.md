@@ -1,5 +1,5 @@
 ---
-title: 'Maximizing Forex Profits Without Risking Capital | SSEGU'
+title: 'Maximizing Forex Profits Without Risking Capital'
 slug: maximizing-forex-profits-without
 excerpt: 'One of the key factors in successful Forex trading is risk management. It is crucial to understand and manage the risks associated with Forex trading'
 author: editorial-desk

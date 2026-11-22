@@ -1,5 +1,5 @@
 ---
-title: "Uncovering the Mysteries of Senet: Ancient Egypt's Favorite Game | SSEGU"
+title: "Uncovering the Mysteries of Senet: Ancient Egypt's Favorite Game"
 slug: uncovering-mysteries-of-senet-ancient
 excerpt: 'In the heart of the dusty recesses of an old attic, a curious child stumbled upon a worn wooden board inscribed with symbols that seemed to whisper secrets o...'
 author: editorial-desk

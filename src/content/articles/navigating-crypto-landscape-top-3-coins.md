@@ -1,5 +1,5 @@
 ---
-title: 'Navigating the Crypto Landscape: Top 3 Coins to Hold Until 2025 | SSEGU'
+title: 'Navigating the Crypto Landscape: Top 3 Coins to Hold Until 2025'
 slug: navigating-crypto-landscape-top-3-coins
 excerpt: 'In today'
 author: editorial-desk

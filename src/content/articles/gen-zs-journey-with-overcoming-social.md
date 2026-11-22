@@ -1,5 +1,5 @@
 ---
-title: "Gen Z's Journey with Overcoming Social Anxiety and Thriving | SSEGU"
+title: "Gen Z's Journey with Overcoming Social Anxiety and Thriving"
 slug: gen-zs-journey-with-overcoming-social
 excerpt: 'Explore how Generation Z is tackling social anxiety, using technology and new coping strategies to thrive in a connected world.'
 author: editorial-desk

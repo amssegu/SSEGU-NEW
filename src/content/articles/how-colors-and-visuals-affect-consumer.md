@@ -1,5 +1,5 @@
 ---
-title: 'How Colors and Visuals Affect Consumer Emotions and Behavior | SSEGU'
+title: 'How Colors and Visuals Affect Consumer Emotions and Behavior'
 slug: how-colors-and-visuals-affect-consumer
 excerpt: 'Have you ever wondered why certain advertisements grab your attention more than others, or why you feel a surge of excitement when you see a clearance sale s...'
 author: editorial-desk

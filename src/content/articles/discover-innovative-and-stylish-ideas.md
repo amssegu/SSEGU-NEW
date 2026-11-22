@@ -1,5 +1,5 @@
 ---
-title: 'Discover innovative and stylish ideas to personalize your storage cabinets, making them both functional and aesthetically pleasing for your space. | SSEGU'
+title: 'Discover innovative and stylish ideas to personalize your storage cabinets, making them both functional and aesthetically pleasing for your space.'
 slug: discover-innovative-and-stylish-ideas
 excerpt: 'Storage cabinets are essential in organizing our homes and workplaces, but they often come in standard designs that might not perfectly match our pers'
 author: editorial-desk

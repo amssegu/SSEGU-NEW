@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Storytelling in Marketing and Its Psychological Impact | SSEGU'
+title: 'The Power of Storytelling in Marketing and Its Psychological Impact'
 slug: the-power-of-storytelling-in-marketing
 excerpt: 'Welcome to the captivating world of storytelling in marketing, where every brand narrative has the power to forge profound emotional bonds with its audience....'
 author: editorial-desk

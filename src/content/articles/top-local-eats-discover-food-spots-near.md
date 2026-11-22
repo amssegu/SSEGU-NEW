@@ -1,5 +1,5 @@
 ---
-title: 'Top Local Eats: Discover Food Spots Near You | SSEGU'
+title: 'Top Local Eats: Discover Food Spots Near You'
 slug: top-local-eats-discover-food-spots-near
 excerpt: 'Embark on a culinary journey right in your own neighborhood with our guide to the best local eats. Unearthing Hidden Culinary Gems in Your Area Every neighbo...'
 author: editorial-desk

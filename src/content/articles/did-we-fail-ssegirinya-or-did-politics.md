@@ -1,5 +1,5 @@
 ---
-title: 'Did We Fail Ssegirinya, or Did Politics Swallow Him Whole? | SSEGU'
+title: 'Did We Fail Ssegirinya, or Did Politics Swallow Him Whole?'
 slug: did-we-fail-ssegirinya-or-did-politics
 excerpt: 'Did We Fail Ssegirinya, or Did Politics Swallow Him Whole? The news of Muhammad Ssegirinya’s passing has shaken us all as Ugandans. From a social me'
 author: editorial-desk

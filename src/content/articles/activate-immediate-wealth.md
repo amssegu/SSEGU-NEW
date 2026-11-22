@@ -1,5 +1,5 @@
 ---
-title: 'Activate Immediate Wealth | SSEGU'
+title: 'Activate Immediate Wealth'
 slug: activate-immediate-wealth
 excerpt: 'Imagine a technique so powerful that it can bring money into your life immediately and in unexpected ways. Today, we'
 author: editorial-desk

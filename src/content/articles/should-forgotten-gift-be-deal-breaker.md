@@ -1,5 +1,5 @@
 ---
-title: 'Should a Forgotten Gift be a Deal-Breaker? | SSEGU'
+title: 'Should a Forgotten Gift be a Deal-Breaker?'
 slug: should-forgotten-gift-be-deal-breaker
 excerpt: 'Should You Break Up with Your Boyfriend Because He Forgot Your Valentine’s Gift? As Valentine’s Day comes to a close, many of us are left basking in'
 author: editorial-desk

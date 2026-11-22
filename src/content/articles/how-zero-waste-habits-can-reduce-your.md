@@ -1,5 +1,5 @@
 ---
-title: 'How Zero-Waste Habits Can Reduce Your Carbon Footprint | SSEGU'
+title: 'How Zero-Waste Habits Can Reduce Your Carbon Footprint'
 slug: how-zero-waste-habits-can-reduce-your
 excerpt: 'Welcome to the sustainable side of life, where every small change can lead to significant environmental benefits! Reducing our carbon footprint is crucial in...'
 author: editorial-desk

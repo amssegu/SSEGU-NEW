@@ -1,5 +1,5 @@
 ---
-title: 'How Long Does It Take to Get Big Shoulders? | SSEGU'
+title: 'How Long Does It Take to Get Big Shoulders?'
 slug: how-long-does-it-take-to-get-big
 excerpt: 'building shoulders, shoulder workout, muscle growth, strength training, fitness guide, shoulder exercises'
 author: editorial-desk

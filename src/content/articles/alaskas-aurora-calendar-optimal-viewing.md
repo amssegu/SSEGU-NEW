@@ -1,5 +1,5 @@
 ---
-title: "Alaska's Aurora Calendar: Optimal Viewing Dates | SSEGU"
+title: "Alaska's Aurora Calendar: Optimal Viewing Dates"
 slug: alaskas-aurora-calendar-optimal-viewing
 excerpt: 'Alaska'
 author: editorial-desk

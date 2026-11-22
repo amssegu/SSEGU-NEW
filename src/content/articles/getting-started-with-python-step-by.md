@@ -1,5 +1,5 @@
 ---
-title: 'Getting Started with Python: A Step-by-Step Guide | SSEGU'
+title: 'Getting Started with Python: A Step-by-Step Guide'
 slug: getting-started-with-python-step-by
 excerpt: 'Welcome to the world of Python programming! Whether you are a beginner looking to delve into the realm of coding or an experienced programmer aiming to expan...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Levixone Wins People’s Choice Award 2025 In Tanzania | SSEGU'
+title: 'Levixone Wins People’s Choice Award 2025 In Tanzania'
 slug: levixone-wins-peoples-choice-award-2025
 excerpt: 'Ugandan gospel musician Levixone has been honored with the People’s Choice Award at the East African Gospel Music Awards (EAGMA) 2025, held in Tanzani'
 author: editorial-desk

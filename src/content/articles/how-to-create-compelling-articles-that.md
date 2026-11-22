@@ -1,5 +1,5 @@
 ---
-title: 'How to create compelling articles that drive sales and engagement through effective content marketing strategies. | SSEGU'
+title: 'How to create compelling articles that drive sales and engagement through effective content marketing strategies.'
 slug: how-to-create-compelling-articles-that
 excerpt: 'content marketing strategies, drive sales and engagement, create compelling articles, effective content marketing, boost online sales, engaging conte'
 author: editorial-desk

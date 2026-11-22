@@ -1,5 +1,5 @@
 ---
-title: 'Explore 10 engaging and mess-free crafting activities for toddlers to enjoy at home. | SSEGU'
+title: 'Explore 10 engaging and mess-free crafting activities for toddlers to enjoy at home.'
 slug: explore-10-engaging-and-mess-free
 excerpt: 'Crafting with toddlers isn’t just a fun way to pass the time; it'
 author: editorial-desk

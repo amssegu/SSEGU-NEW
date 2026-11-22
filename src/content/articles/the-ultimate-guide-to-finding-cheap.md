@@ -1,5 +1,5 @@
 ---
-title: 'The Ultimate Guide to Finding Cheap Flight Coupons | SSEGU'
+title: 'The Ultimate Guide to Finding Cheap Flight Coupons'
 slug: the-ultimate-guide-to-finding-cheap
 excerpt: 'Discover the best strategies and resources for finding budget-friendly flight coupons to save on your next travel adventure.'
 author: editorial-desk

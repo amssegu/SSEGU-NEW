@@ -1,5 +1,5 @@
 ---
-title: 'Top Tools to Save Time in Project Management | SSEGU'
+title: 'Top Tools to Save Time in Project Management'
 slug: top-tools-to-save-time-in-project
 excerpt: 'Before diving into the myriad of project management tools available, it'
 author: editorial-desk

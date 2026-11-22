@@ -1,5 +1,5 @@
 ---
-title: 'Blast Part I Kali Mu: VJ Shield | ssegu | SSEGU'
+title: 'Blast Part I Kali Mu: VJ Shield'
 slug: blast-part-i-kali-mu-vj-shield-ssegu
 excerpt: '💣 Blast Part I 💥 Kali Mu: VJ Shield Genre: Drama, Action, Family, Thriller Runtime: 2 Hr 23 Min Kick Away Stress: 🎬'
 author: editorial-desk

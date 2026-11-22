@@ -1,5 +1,5 @@
 ---
-title: 'US Tightens Grip on Stablecoins | SSEGU'
+title: 'US Tightens Grip on Stablecoins'
 slug: us-tightens-grip-on-stablecoins
 excerpt: 'The rapid ascent of stablecoins in the financial landscape is a phenomenon driven by their promise of stability and reliability in the volatile world'
 author: editorial-desk

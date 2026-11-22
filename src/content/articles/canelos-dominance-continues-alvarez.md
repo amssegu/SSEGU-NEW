@@ -1,5 +1,5 @@
 ---
-title: "Canelo's Dominance Continues: Alvarez Triumphs Over Munguia in Unanimous Victory | SSEGU"
+title: "Canelo's Dominance Continues: Alvarez Triumphs Over Munguia in Unanimous Victory"
 slug: canelos-dominance-continues-alvarez
 excerpt: 'Boxing, CaneloAlvarez, JaimeMunguia, FightNight, BoxingChampion, TitleDefense, UnanimousDecision, BoxingHighlights,isaacupate, ssegu,facebook'
 author: editorial-desk

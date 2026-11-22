@@ -1,5 +1,5 @@
 ---
-title: 'Discover the incredible journeys of everyday items transformed from waste into unique and valuable treasures through upcycling. | SSEGU'
+title: 'Discover the incredible journeys of everyday items transformed from waste into unique and valuable treasures through upcycling.'
 slug: discover-incredible-journeys-of
 excerpt: 'Upcycling, unlike recycling, involves converting old or discarded materials into something useful and beautiful, giving an item a better purpose.'
 author: editorial-desk

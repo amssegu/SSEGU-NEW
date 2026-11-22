@@ -1,5 +1,5 @@
 ---
-title: 'Understanding the Recent Changes to Google Search Console Insights | SSEGU'
+title: 'Understanding the Recent Changes to Google Search Console Insights'
 slug: understanding-recent-changes-to-google
 excerpt: 'Introduction to Google Search Console Insights Google Search Console Insights is a powerful tool designed to help content creators and publishers analyze the...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Upcycling for a Cause: Community Stories of Transformative Projects | SSEGU'
+title: 'Upcycling for a Cause: Community Stories of Transformative Projects'
 slug: upcycling-for-cause-community-stories
 excerpt: 'In the heart of a bustling city, a small community garden stands as a beacon of sustainability and togetherness. This garden was not always a place'
 author: editorial-desk

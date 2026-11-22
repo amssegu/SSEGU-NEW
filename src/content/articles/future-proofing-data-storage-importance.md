@@ -1,5 +1,5 @@
 ---
-title: 'Future-Proofing Data Storage: The Importance of Ongoing HDD Technology Advances for Emerging Needs | SSEGU'
+title: 'Future-Proofing Data Storage: The Importance of Ongoing HDD Technology Advances for Emerging Needs'
 slug: future-proofing-data-storage-importance
 excerpt: 'Understand the significance of continuous HDD technology advancements in preparing for future data storage requirements'
 author: editorial-desk

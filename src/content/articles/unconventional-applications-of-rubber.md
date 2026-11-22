@@ -1,5 +1,5 @@
 ---
-title: 'Unconventional Applications of Rubber Bands | SSEGU'
+title: 'Unconventional Applications of Rubber Bands'
 slug: unconventional-applications-of-rubber
 excerpt: 'Unconventional Applications of Rubber Bands: Creative Solutions for Everyday Problems Rubber bands are typically relegated to the roles of bundling pens or s...'
 author: editorial-desk

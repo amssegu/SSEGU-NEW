@@ -1,5 +1,5 @@
 ---
-title: 'Robert Pattinson’s Mickey 17, the new Expendable Explained | SSEGU'
+title: 'Robert Pattinson’s Mickey 17, the new Expendable Explained'
 slug: robert-pattinsons-mickey-17-new
 excerpt: 'Lovers of movies, today I am with you, and if you are a Robert Pattinson fan, sit tight—we have another watch of him in this new dark sci-fi, Mickey 1'
 author: editorial-desk

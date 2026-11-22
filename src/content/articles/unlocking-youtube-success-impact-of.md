@@ -1,5 +1,5 @@
 ---
-title: 'Unlocking YouTube Success: The Impact of Subscribers on Views | SSEGU'
+title: 'Unlocking YouTube Success: The Impact of Subscribers on Views'
 slug: unlocking-youtube-success-impact-of
 excerpt: 'When it comes to YouTube'
 author: editorial-desk

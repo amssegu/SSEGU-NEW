@@ -1,5 +1,5 @@
 ---
-title: 'Celebrities Demand Release of Bobi Wine’s Bodyguard After Alleged Abduction—Gen. Muhoozi’s Tweets Fuel Outrage | SSEGU'
+title: 'Celebrities Demand Release of Bobi Wine’s Bodyguard After Alleged Abduction—Gen. Muhoozi’s Tweets Fuel Outrage'
 slug: celebrities-demand-release-of-bobi
 excerpt: 'The Ugandan social media scene is on fire as celebrities and activists rally behind Eddie Mutwe, — the bodyguard of opposition leader Bobi Wine born n'
 author: editorial-desk

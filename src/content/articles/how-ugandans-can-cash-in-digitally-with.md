@@ -1,5 +1,5 @@
 ---
-title: 'How Ugandans Can Cash In Digitally with Crypto in Uganda, Without the Tears | SSEGU'
+title: 'How Ugandans Can Cash In Digitally with Crypto in Uganda, Without the Tears'
 slug: how-ugandans-can-cash-in-digitally-with
 excerpt: 'Cryptocurrencies have been around for quite some time, with every few years something making the headlines here and there—from crypto scams to Bitcoin'
 author: editorial-desk

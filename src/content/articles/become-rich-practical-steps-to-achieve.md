@@ -1,5 +1,5 @@
 ---
-title: 'Become Rich: Practical Steps to Achieve Financial Success - The Formula Part 2 | SSEGU'
+title: 'Become Rich: Practical Steps to Achieve Financial Success - The Formula Part 2'
 slug: become-rich-practical-steps-to-achieve
 excerpt: 'I'
 author: editorial-desk

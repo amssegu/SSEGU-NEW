@@ -1,5 +1,5 @@
 ---
-title: 'How to Build Self-Confidence: A Complete Guide to Believing in Yourself | SSEGU'
+title: 'How to Build Self-Confidence: A Complete Guide to Believing in Yourself'
 slug: how-to-build-self-confidence-complete
 excerpt: 'This comprehensive guide explains what self-confidence is, why it matters, and practical strategies you can use to become more confident every day.'
 author: editorial-desk

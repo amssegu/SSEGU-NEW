@@ -1,5 +1,5 @@
 ---
-title: 'Unveiling Financial Destiny | SSEGU'
+title: 'Unveiling Financial Destiny'
 slug: unveiling-financial-destiny
 excerpt: 'Have you ever wondered if your birth date could hold the key to your financial success? It’s a belief held across cultures and practices'
 author: editorial-desk

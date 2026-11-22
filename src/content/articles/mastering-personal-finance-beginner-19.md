@@ -1,5 +1,5 @@
 ---
-title: "Mastering Personal Finance: A Beginner's Guide | SSEGU"
+title: "Mastering Personal Finance: A Beginner's Guide"
 slug: mastering-personal-finance-beginner-19
 excerpt: 'Embark on a journey to financial freedom with essential tips and strategies for managing your money effectively. Setting Realistic Financial Goals Setting re...'
 author: editorial-desk

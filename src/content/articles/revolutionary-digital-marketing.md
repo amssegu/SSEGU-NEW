@@ -1,5 +1,5 @@
 ---
-title: 'Revolutionary Digital Marketing Strategies for 2024 | SSEGU'
+title: 'Revolutionary Digital Marketing Strategies for 2024'
 slug: revolutionary-digital-marketing
 excerpt: 'As we move further into 2024, digital marketing is undergoing a significant transformation, driven largely by the rapid advancements in artificial int'
 author: editorial-desk

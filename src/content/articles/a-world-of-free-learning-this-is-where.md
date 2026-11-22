@@ -1,5 +1,5 @@
 ---
-title: 'A WORLD OF FREE LEARNING: 🚀 This is Where Learning is Free For Everyone | SSEGU'
+title: 'A WORLD OF FREE LEARNING: 🚀 This is Where Learning is Free For Everyone'
 slug: a-world-of-free-learning-this-is-where
 excerpt: 'start learning today - 100% free, no strings attached! 💯 Discover 1000,000.00 FREE online courses with certificates! 🎓'
 author: editorial-desk

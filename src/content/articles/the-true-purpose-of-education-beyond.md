@@ -1,5 +1,5 @@
 ---
-title: 'The True Purpose of Education: Beyond the Classroom | SSEGU'
+title: 'The True Purpose of Education: Beyond the Classroom'
 slug: the-true-purpose-of-education-beyond
 excerpt: 'When you think of education, what'
 author: editorial-desk

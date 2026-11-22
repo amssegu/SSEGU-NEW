@@ -1,5 +1,5 @@
 ---
-title: 'Community Health Workers and the Fight to Revive Uganda’s Ailing Healthcare System | SSEGU'
+title: 'Community Health Workers and the Fight to Revive Uganda’s Ailing Healthcare System'
 slug: community-health-workers-and-fight-to
 excerpt: 'When many of us think about Uganda’s healthcare system, the picture that emerges is one of overwhelmed hospitals, mothers crammed into under-equipped'
 author: editorial-desk

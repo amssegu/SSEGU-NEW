@@ -1,5 +1,5 @@
 ---
-title: 'A Powerful Two-Word Technique to Manifest Your Desires | SSEGU'
+title: 'A Powerful Two-Word Technique to Manifest Your Desires'
 slug: a-powerful-two-word-technique-to
 excerpt: 'Are you ready to turn your dreams into reality? Imagine a simple technique that could help you manifest your deepest desires while you sleep. Yes, you'
 author: editorial-desk

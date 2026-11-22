@@ -1,5 +1,5 @@
 ---
-title: 'How Your Decisions Shape Your Financial Future | SSEGU'
+title: 'How Your Decisions Shape Your Financial Future'
 slug: how-your-decisions-shape-your-financial
 excerpt: 'you'
 author: editorial-desk

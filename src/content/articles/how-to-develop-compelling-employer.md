@@ -1,5 +1,5 @@
 ---
-title: 'How to develop a compelling employer brand that attracts top talent and fosters a positive work culture. | SSEGU'
+title: 'How to develop a compelling employer brand that attracts top talent and fosters a positive work culture.'
 slug: how-to-develop-compelling-employer
 excerpt: 'employer branding, talent attraction, positive work culture, recruitment strategies, employee engagement, workplace reputation'
 author: editorial-desk

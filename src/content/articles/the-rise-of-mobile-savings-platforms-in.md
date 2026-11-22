@@ -1,5 +1,5 @@
 ---
-title: 'The Rise of Mobile Savings Platforms in Kenya | SSEGU'
+title: 'The Rise of Mobile Savings Platforms in Kenya'
 slug: the-rise-of-mobile-savings-platforms-in
 excerpt: 'Exploring how mobile savings platforms are transforming financial inclusion in Kenya by enabling secure and convenient saving options.'
 author: editorial-desk

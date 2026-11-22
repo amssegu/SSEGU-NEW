@@ -1,5 +1,5 @@
 ---
-title: 'Masters of the Universe Kali Mu: VJ Soul | ssegu | SSEGU'
+title: 'Masters of the Universe Kali Mu: VJ Soul'
 slug: masters-of-universe-kali-mu-vj-soul
 excerpt: '⚔️ Masters of the Universe 💥 Kali Mu: VJ Soul Genre: Action, Fantasy, Sci-Fi Runtime: 2 Hr 21 Min Kick Away Stress: 🎬'
 author: editorial-desk

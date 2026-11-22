@@ -1,5 +1,5 @@
 ---
-title: 'Old Mutual Investment Group Uganda Launches Private Wealth Management Product | SSEGU'
+title: 'Old Mutual Investment Group Uganda Launches Private Wealth Management Product'
 slug: old-mutual-investment-group-uganda
 excerpt: 'Old Mutual Investment Group Uganda officially launched its Private Wealth Management Product on May 27th at Sheraton Hotel. This innovative offer'
 author: editorial-desk

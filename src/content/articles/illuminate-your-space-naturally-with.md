@@ -1,5 +1,5 @@
 ---
-title: 'Illuminate your space naturally with the unique advantages of beeswax candles | SSEGU'
+title: 'Illuminate your space naturally with the unique advantages of beeswax candles'
 slug: illuminate-your-space-naturally-with
 excerpt: 'Beeswax candles, natural brilliance, meticulous work of bees, golden glow, non-toxic candles, hypoallergenic candles, renewable resource, holistic can'
 author: editorial-desk

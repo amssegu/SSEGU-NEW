@@ -1,5 +1,5 @@
 ---
-title: 'The Benefits of Regular Exercise: A Complete Guide to a Healthier Life | SSEGU'
+title: 'The Benefits of Regular Exercise: A Complete Guide to a Healthier Life'
 slug: the-benefits-of-regular-exercise
 excerpt: 'In this comprehensive guide, we'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: "JavaScript Basics Everyone Should Know: A Beginner's Guide to Web Programming | SSEGU"
+title: "JavaScript Basics Everyone Should Know: A Beginner's Guide to Web Programming"
 slug: javascript-basics-everyone-should-know
 excerpt: 'Whether you'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'How to Start a Profitable Chapati Business in Uganda with Only 300,000 UGX | SSEGU'
+title: 'How to Start a Profitable Chapati Business in Uganda with Only 300,000 UGX'
 slug: how-to-start-profitable-chapati
 excerpt: 'The Potential of a Chapati Business in Uganda The chapati business in Uganda presents a noteworthy opportunity for entrepreneurs looking to engage in the foo...'
 author: editorial-desk

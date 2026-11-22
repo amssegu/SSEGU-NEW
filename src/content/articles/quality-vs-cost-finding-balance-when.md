@@ -1,5 +1,5 @@
 ---
-title: 'Quality vs. Cost: Finding the Balance When Purchasing a Storage Cabinet | SSEGU'
+title: 'Quality vs. Cost: Finding the Balance When Purchasing a Storage Cabinet'
 slug: quality-vs-cost-finding-balance-when
 excerpt: 'When it comes to purchasing a storage cabinet, finding the perfect balance between quality and cost can be a challenging task. Many of us want a durab'
 author: editorial-desk

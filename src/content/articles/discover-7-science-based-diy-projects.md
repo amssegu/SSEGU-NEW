@@ -1,5 +1,5 @@
 ---
-title: 'Discover 7 science-based DIY projects for kids that make learning STEM subjects fun and engaging. | SSEGU'
+title: 'Discover 7 science-based DIY projects for kids that make learning STEM subjects fun and engaging.'
 slug: discover-7-science-based-diy-projects
 excerpt: 'Introducing science, technology, engineering, and mathematics (STEM) concepts through crafts is not just educational, but also a fantastic way to spar'
 author: editorial-desk

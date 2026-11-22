@@ -1,5 +1,5 @@
 ---
-title: 'Efficient Storage Solutions for Craft Show Displays | SSEGU'
+title: 'Efficient Storage Solutions for Craft Show Displays'
 slug: efficient-storage-solutions-for-craft
 excerpt: 'When participating in craft shows, having an efficient and organized display is crucial not only for attracting customers but also for making setup an'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Healthy Eating Habits for a Better Life: A Complete Guide to Improving Your Nutrition | SSEGU'
+title: 'Healthy Eating Habits for a Better Life: A Complete Guide to Improving Your Nutrition'
 slug: healthy-eating-habits-for-better-life
 excerpt: 'This comprehensive guide explores the importance of healthy eating, practical nutrition tips, common mistakes to avoid, and simple habits that can hel'
 author: editorial-desk

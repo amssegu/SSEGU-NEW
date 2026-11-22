@@ -1,5 +1,5 @@
 ---
-title: 'Discover 21 Platforms to Sell AI Art and Make Passive Income | SSEGU'
+title: 'Discover 21 Platforms to Sell AI Art and Make Passive Income'
 slug: discover-21-platforms-to-sell-ai-art
 excerpt: 'AI art, passive income, sell AI art, online art platforms, digital art marketplace, monetize AI art'
 author: editorial-desk

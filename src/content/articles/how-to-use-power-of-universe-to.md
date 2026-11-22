@@ -1,5 +1,5 @@
 ---
-title: 'How to Use the Power of the Universe to Transform Your Life | SSEGU'
+title: 'How to Use the Power of the Universe to Transform Your Life'
 slug: how-to-use-power-of-universe-to
 excerpt: 'Have you ever felt a connection to something greater than yourself? Like a universal force that you can tap into, similar to flipping a switch to turn'
 author: editorial-desk

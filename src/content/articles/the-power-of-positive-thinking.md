@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Positive Thinking: Transforming Your Life Through Optimism | SSEGU'
+title: 'The Power of Positive Thinking: Transforming Your Life Through Optimism'
 slug: the-power-of-positive-thinking
 excerpt: 'Positive thinking is a mental attitude that focuses on the bright side of life and expects positive outcomes. It’s more than just being cheerful; it’s'
 author: editorial-desk

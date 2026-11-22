@@ -1,5 +1,5 @@
 ---
-title: 'The Tech Revolution: How AI and Automation are Transforming Mixed-Use Real Estate | SSEGU'
+title: 'The Tech Revolution: How AI and Automation are Transforming Mixed-Use Real Estate'
 slug: the-tech-revolution-how-ai-and
 excerpt: 'The Emergence of AI and Automation in Commercial Real Estate The commercial real estate sector has undergone a significant transformation in recent years, pr...'
 author: editorial-desk

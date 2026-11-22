@@ -1,5 +1,5 @@
 ---
-title: 'Navigating the Challenges of Influencer Payment Systems in 2024 | SSEGU'
+title: 'Navigating the Challenges of Influencer Payment Systems in 2024'
 slug: navigating-challenges-of-influencer
 excerpt: 'The Rise of Niche Creators and Payment Trends In recent years, the marketing landscape has witnessed a significant transformation, with niche influencers gai...'
 author: editorial-desk

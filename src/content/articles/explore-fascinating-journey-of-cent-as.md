@@ -1,5 +1,5 @@
 ---
-title: 'Explore the fascinating journey of the cent as a pivotal currency unit in global finance | SSEGU'
+title: 'Explore the fascinating journey of the cent as a pivotal currency unit in global finance'
 slug: explore-fascinating-journey-of-cent-as
 excerpt: 'global finance, currency history, cent origins, monetary systems, ancient currency, trade and commerce, currency denominations, cent coins, economic h'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Finding Meaning: Navigating Your Spiritual Journey | SSEGU'
+title: 'Finding Meaning: Navigating Your Spiritual Journey'
 slug: finding-meaning-navigating-your
 excerpt: 'Embarking on a spiritual journey can be a transformative experience that offers profound insights into one’s purpose and existence. Whether you are drawn to ...'
 author: editorial-desk

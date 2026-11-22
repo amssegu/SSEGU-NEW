@@ -1,5 +1,5 @@
 ---
-title: 'The Power of eBooks: How to Monetize Your Expertise | SSEGU'
+title: 'The Power of eBooks: How to Monetize Your Expertise'
 slug: the-power-of-ebooks-how-to-monetize
 excerpt: 'The digital era has revolutionized the way information is consumed, and eBooks have become a powerful tool for those looking to monetize their expertise. An ...'
 author: editorial-desk

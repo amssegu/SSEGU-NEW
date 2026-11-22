@@ -1,5 +1,5 @@
 ---
-title: 'The Future of Online Automotive Education | SSEGU'
+title: 'The Future of Online Automotive Education'
 slug: the-future-of-online-automotive
 excerpt: 'Online automotive training has emerged as a key solution to meet this demand. It offers a flexible, accessible, and cost-effective way to acquire new'
 author: editorial-desk

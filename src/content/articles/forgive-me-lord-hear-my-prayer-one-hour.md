@@ -1,5 +1,5 @@
 ---
-title: 'Forgive Me Lord, Hear My Prayer: A One-Hour Challenge of Forgiveness and Reflection | SSEGU'
+title: 'Forgive Me Lord, Hear My Prayer: A One-Hour Challenge of Forgiveness and Reflection'
 slug: forgive-me-lord-hear-my-prayer-one-hour
 excerpt: 'the power of prayer and forgiveness in your spiritual journey. This prayer delves into the essential role in seeking forgive Forgive Me Lord, Hear My'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Top Tips for Managing Your Personal Finances Like a Pro xyz | SSEGU'
+title: 'Top Tips for Managing Your Personal Finances Like a Pro xyz'
 slug: top-tips-for-managing-your-personal
 excerpt: 'Discover expert strategies to take control of your Personal Finances. Learn budgeting, saving, and investing tips to achieve financial stability'
 author: editorial-desk

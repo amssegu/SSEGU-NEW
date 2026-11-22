@@ -1,5 +1,5 @@
 ---
-title: '8 Weeks Without Sugar: Mental Clarity and Weight Loss Effects | SSEGU'
+title: '8 Weeks Without Sugar: Mental Clarity and Weight Loss Effects'
 slug: 8-weeks-without-sugar-mental-clarity
 excerpt: 'Eliminating sugar from your diet for 8 weeks can have numerous benefits for your mental clarity. When you consume excess sugar, it can lead to spikes'
 author: editorial-desk

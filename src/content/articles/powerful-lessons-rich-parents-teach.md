@@ -1,5 +1,5 @@
 ---
-title: 'Powerful Lessons Rich Parents Teach Their Kids That the Poor Don’t | SSEGU'
+title: 'Powerful Lessons Rich Parents Teach Their Kids That the Poor Don’t'
 slug: powerful-lessons-rich-parents-teach
 excerpt: 'essential lessons that wealthy parents teach their children, which are often overlooked by those with less financial education. These lessons can prov'
 author: editorial-desk

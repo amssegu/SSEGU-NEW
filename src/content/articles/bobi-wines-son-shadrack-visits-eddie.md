@@ -1,5 +1,5 @@
 ---
-title: "Bobi Wine's Son Shadrack Visits Eddie Mutwe In Prison. | SSEGU"
+title: "Bobi Wine's Son Shadrack Visits Eddie Mutwe In Prison."
 slug: bobi-wines-son-shadrack-visits-eddie
 excerpt: 'On the morning of June 27, 2025, Shadrack Mbogo Ssentamu, the third child of Ugandan opposition leader Robert Kyagulanyi Ssentamu, known as Bobi Wine,'
 author: editorial-desk

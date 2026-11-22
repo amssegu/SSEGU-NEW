@@ -1,5 +1,5 @@
 ---
-title: 'Start 2025 with Smarter, More Impactful Email Marketing | SSEGU'
+title: 'Start 2025 with Smarter, More Impactful Email Marketing'
 slug: start-2025-with-smarter-more-impactful
 excerpt: 'The Importance of Fine-Tuning Email Marketing Strategies As we approach the new year, the necessity for organizations to reassess and refine their email mark...'
 author: editorial-desk

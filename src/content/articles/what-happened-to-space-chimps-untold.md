@@ -1,5 +1,5 @@
 ---
-title: 'What Happened to the Space Chimps? The Untold Story of Ham, Enos - Chimpanzees Today | SSEGU | SSEGU'
+title: 'What Happened to the Space Chimps? The Untold Story of Ham, Enos - Chimpanzees Today'
 slug: what-happened-to-space-chimps-untold
 excerpt: 'In the early 1960s, the race to space was heating up. Scientists needed to understand how living beings would react to spaceflight before sending huma'
 author: editorial-desk

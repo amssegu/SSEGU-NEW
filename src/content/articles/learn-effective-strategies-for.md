@@ -1,5 +1,5 @@
 ---
-title: 'Learn effective strategies for budgeting and managing expenses with a 17,000 AED salary in Dubai. | SSEGU'
+title: 'Learn effective strategies for budgeting and managing expenses with a 17,000 AED salary in Dubai.'
 slug: learn-effective-strategies-for
 excerpt: 'Living in the bustling city of Dubai on a 17,000 AED salary presents a unique set of challenges and opportunities. The city'
 author: editorial-desk

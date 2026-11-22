@@ -1,5 +1,5 @@
 ---
-title: 'Exploring the World of Sustainable Fashion: Making Ethical Choices | SSEGU'
+title: 'Exploring the World of Sustainable Fashion: Making Ethical Choices'
 slug: exploring-world-of-sustainable-fashion
 excerpt: 'In recent years, sustainable fashion has gained significant attention as consumers become more aware of the environmental and social impacts of the fa'
 author: editorial-desk

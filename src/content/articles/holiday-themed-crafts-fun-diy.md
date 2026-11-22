@@ -1,5 +1,5 @@
 ---
-title: 'Holiday-Themed Crafts: Fun DIY Decorations to Make with Kids | SSEGU'
+title: 'Holiday-Themed Crafts: Fun DIY Decorations to Make with Kids'
 slug: holiday-themed-crafts-fun-diy
 excerpt: 'The holiday season is a perfect time to gather around the crafting table with your little ones. Engaging in holiday-themed DIY crafts not only ignites'
 author: editorial-desk

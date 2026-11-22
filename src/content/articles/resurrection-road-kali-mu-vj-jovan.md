@@ -1,5 +1,5 @@
 ---
-title: 'Resurrection Road Kali Mu: VJ Jovan | SSEGU'
+title: 'Resurrection Road Kali Mu: VJ Jovan'
 slug: resurrection-road-kali-mu-vj-jovan
 excerpt: 'Download Resurrection Road By VJ Jovan Mp4 Mobile Movie. Stream Resurrection Road By VJ Jovan ssegu'
 author: editorial-desk

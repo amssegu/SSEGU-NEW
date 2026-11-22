@@ -1,5 +1,5 @@
 ---
-title: 'Frankenstein 2 Part 1 Kali Mu: VJ ICEP | SSEGU'
+title: 'Frankenstein 2 Part 1 Kali Mu: VJ ICEP'
 slug: frankenstein-2-part-1-kali-mu-vj-icep
 excerpt: 'Download Frankenstein 2 Part 1 By VJ ICEP Mp4 Mobile Movie. Stream Frankenstein 2 Part 1 By VJ ICEP ssegu'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The 7-Minute Cyber Security Checklist Every Internet User Needs | SSEGU'
+title: 'The 7-Minute Cyber Security Checklist Every Internet User Needs'
 slug: the-7-minute-cyber-security-checklist
 excerpt: 'Introduction to Cyber Security In today’s digital age, safeguarding personal information has become paramount. With increasing cyber threats, it’s essential ...'
 author: editorial-desk

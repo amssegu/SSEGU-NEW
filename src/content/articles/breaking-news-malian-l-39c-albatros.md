@@ -1,5 +1,5 @@
 ---
-title: 'Breaking News: Malian L-39C Albatros Incident | SSEGU'
+title: 'Breaking News: Malian L-39C Albatros Incident'
 slug: breaking-news-malian-l-39c-albatros
 excerpt: 'The Malian Air Force, a pivotal component in the country'
 author: editorial-desk

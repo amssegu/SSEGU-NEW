@@ -1,5 +1,5 @@
 ---
-title: 'Understanding the Recent Meta Outage: Impacts and Insights | SSEGU'
+title: 'Understanding the Recent Meta Outage: Impacts and Insights'
 slug: understanding-recent-meta-outage
 excerpt: 'Overview of the Outage On October 4, 2023, users around the globe experienced significant disruptions across multiple platforms owned by Meta, including Face...'
 author: editorial-desk

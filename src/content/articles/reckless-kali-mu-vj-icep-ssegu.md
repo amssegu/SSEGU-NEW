@@ -1,5 +1,5 @@
 ---
-title: 'Reckless - Kali Mu: VJ ICEP | ssegu | SSEGU'
+title: 'Reckless - Kali Mu: VJ ICEP'
 slug: reckless-kali-mu-vj-icep-ssegu
 excerpt: '🚔 Reckless 💰 🎥 Kali Mu: VJ ICEP 🎭 Genre: Crime, Action, Thriller'
 author: editorial-desk

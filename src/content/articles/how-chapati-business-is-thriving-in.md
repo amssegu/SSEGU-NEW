@@ -1,5 +1,5 @@
 ---
-title: 'How the Chapati Business is Thriving in Uganda’s Gig Economy | SSEGU'
+title: 'How the Chapati Business is Thriving in Uganda’s Gig Economy'
 slug: how-chapati-business-is-thriving-in
 excerpt: 'Uganda’s gig economy is booming as more people look for alternative sources of income to supplement their earnings. With rising living costs and a com'
 author: editorial-desk

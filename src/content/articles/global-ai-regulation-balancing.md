@@ -1,5 +1,5 @@
 ---
-title: 'Global AI Regulation: Balancing Innovation and Safety | SSEGU'
+title: 'Global AI Regulation: Balancing Innovation and Safety'
 slug: global-ai-regulation-balancing
 excerpt: 'Introduction to AI Regulation As artificial intelligence technologies rapidly evolve, the need for effective regulation and policy-making becomes inc'
 author: editorial-desk

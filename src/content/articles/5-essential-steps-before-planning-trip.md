@@ -1,5 +1,5 @@
 ---
-title: '5 Essential Steps Before Planning a Trip | SSEGU'
+title: '5 Essential Steps Before Planning a Trip'
 slug: 5-essential-steps-before-planning-trip
 excerpt: 'Traveling can be one of the most rewarding experiences, but it requires thorough planning to ensure it goes smoothly. Whether you are setting off on a short ...'
 author: editorial-desk

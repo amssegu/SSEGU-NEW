@@ -1,5 +1,5 @@
 ---
-title: 'The Evolution of Smartphone Charging: From Lightning to USB-C | SSEGU'
+title: 'The Evolution of Smartphone Charging: From Lightning to USB-C'
 slug: the-evolution-of-smartphone-charging
 excerpt: 'The way we charge our smartphones has drastically evolved over the past decade, influenced by technological advancements, user demands for faster charging, a...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Is AI making it Easier to become an Entrepreneur or is it Just Making it Harder to Compete? | SSEGU'
+title: 'Is AI making it Easier to become an Entrepreneur or is it Just Making it Harder to Compete?'
 slug: is-ai-making-it-easier-to-become
 excerpt: 'There was a time when entrepreneurship was all about starting up some business somewhere and praying it picks up. Life was very physical and tangible'
 author: editorial-desk

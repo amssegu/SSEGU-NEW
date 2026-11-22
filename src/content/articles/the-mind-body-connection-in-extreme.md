@@ -1,5 +1,5 @@
 ---
-title: 'The Mind-Body Connection in Extreme Sports: How Adrenaline Affects Mental Wellness | SSEGU'
+title: 'The Mind-Body Connection in Extreme Sports: How Adrenaline Affects Mental Wellness'
 slug: the-mind-body-connection-in-extreme
 excerpt: 'The Mind-Body Connection in Extreme Sports: How Adrenaline Affects Mental Wellness Extreme sports are not just a test of physical endurance and skill but als...'
 author: editorial-desk

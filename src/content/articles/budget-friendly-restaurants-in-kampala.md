@@ -1,5 +1,5 @@
 ---
-title: 'Budget-Friendly Restaurants in Kampala for Delicious Affordable Dining | SSEGU'
+title: 'Budget-Friendly Restaurants in Kampala for Delicious Affordable Dining'
 slug: budget-friendly-restaurants-in-kampala
 excerpt: 'Introduction: Why Kampala is a Foodie’s Paradise Kampala, the bustling capital of Uganda, is renowned for its vibrant culinary scene, making it a true paradi...'
 author: editorial-desk

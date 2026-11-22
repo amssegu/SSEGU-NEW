@@ -1,5 +1,5 @@
 ---
-title: '10 Ways to Spot a Business Scam in Uganda Before It’s Too Late | SSEGU'
+title: '10 Ways to Spot a Business Scam in Uganda Before It’s Too Late'
 slug: 10-ways-to-spot-business-scam-in-uganda
 excerpt: 'For any Ugandan out there, securing a job or setting up a business is a top priority. Life is tough—everything is expensive, rent is hectic, and the'
 author: editorial-desk

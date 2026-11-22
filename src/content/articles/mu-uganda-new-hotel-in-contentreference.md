@@ -1,5 +1,5 @@
 ---
-title: 'Mu Uganda New Hotel in - contentReference - Sparks Online Debate Amid Unverified Claims | SSEGU'
+title: 'Mu Uganda New Hotel in - contentReference - Sparks Online Debate Amid Unverified Claims'
 slug: mu-uganda-new-hotel-in-contentreference
 excerpt: 'Uganda hotel news, hospitality industry Uganda, hotel allegations Uganda, tourism Uganda, hotel regulation Uganda, news analysis Uganda'
 author: editorial-desk

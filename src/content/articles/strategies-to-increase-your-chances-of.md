@@ -1,5 +1,5 @@
 ---
-title: 'Strategies to Increase Your Chances of Winning Betika’s Mega Jackpot in Nairobi | SSEGU'
+title: 'Strategies to Increase Your Chances of Winning Betika’s Mega Jackpot in Nairobi'
 slug: strategies-to-increase-your-chances-of
 excerpt: 'Discover effective strategies to boost your chances of winning Betika’s Mega Jackpot and turn your dreams into reality.'
 author: editorial-desk

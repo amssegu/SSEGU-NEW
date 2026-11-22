@@ -1,5 +1,5 @@
 ---
-title: "Don't give up yet, life gets easier when we hold on | SSEGU"
+title: "Don't give up yet, life gets easier when we hold on"
 slug: dont-give-up-yet-life-gets-easier-when
 excerpt: 'You are a work in progress, and that'
 author: editorial-desk

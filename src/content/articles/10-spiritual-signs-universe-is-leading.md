@@ -1,5 +1,5 @@
 ---
-title: '10 Spiritual Signs the Universe Is Leading You to Your Soulmate | SSEGU'
+title: '10 Spiritual Signs the Universe Is Leading You to Your Soulmate'
 slug: 10-spiritual-signs-universe-is-leading
 excerpt: 'Have you ever pondered whether the cosmos sends subtle messages about your destined partner? Today, we explore the profound signals that may indicate'
 author: editorial-desk

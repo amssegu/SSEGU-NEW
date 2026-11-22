@@ -1,5 +1,5 @@
 ---
-title: 'Why Eating Meat is Destroying the Planet: The Environmental Impact of Livestock Farming | SSEGU'
+title: 'Why Eating Meat is Destroying the Planet: The Environmental Impact of Livestock Farming'
 slug: why-eating-meat-is-destroying-planet
 excerpt: 'The livestock sector has emerged as one of the top contributors to some of the most significant environmental problems on both local and global scales'
 author: editorial-desk

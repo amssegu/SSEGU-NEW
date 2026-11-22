@@ -1,5 +1,5 @@
 ---
-title: "Real Estate Investment Opportunities in Kenya's Market | SSEGU"
+title: "Real Estate Investment Opportunities in Kenya's Market"
 slug: real-estate-investment-opportunities-in-2
 excerpt: 'Kenya, a country marked by its diverse landscapes and vibrant cultures, is also emerging as a compelling market for real estate investment. With its g'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: "Unleashing the Future: Dust Moto's Groundbreaking Electric Dirt Bike | SSEGU"
+title: "Unleashing the Future: Dust Moto's Groundbreaking Electric Dirt Bike"
 slug: unleashing-future-dust-moto
 excerpt: 'The Evolution of Dirt Biking Dirt biking has undergone a significant transformation since its inception, with roots tracing back to the early 1900s when moto...'
 author: editorial-desk

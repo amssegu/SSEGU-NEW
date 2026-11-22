@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Personal Finance Essentials | SSEGU'
+title: 'Mastering Personal Finance Essentials'
 slug: mastering-personal-finance-essentials
 excerpt: 'Unlock the secrets to achieving financial freedom and stability with our comprehensive guide. Setting Achievable Financial Goals Establishing clear and attai...'
 author: editorial-desk

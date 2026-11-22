@@ -1,5 +1,5 @@
 ---
-title: 'Maximizing Productivity Through Time Management Techniques | SSEGU'
+title: 'Maximizing Productivity Through Time Management Techniques'
 slug: maximizing-productivity-through-time
 excerpt: 'part time property management jobs, time management, time management worksheet'
 author: editorial-desk

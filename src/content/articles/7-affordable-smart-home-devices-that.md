@@ -1,5 +1,5 @@
 ---
-title: '7 Affordable Smart Home Devices That Won’t Break the Bank | SSEGU'
+title: '7 Affordable Smart Home Devices That Won’t Break the Bank'
 slug: 7-affordable-smart-home-devices-that
 excerpt: 'Smart homes are no longer a thing for sci-fi movies where iron man controls something by voice command or some top secret agent checking on their hom'
 author: editorial-desk

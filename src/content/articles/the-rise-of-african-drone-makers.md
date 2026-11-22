@@ -1,5 +1,5 @@
 ---
-title: 'The Rise of African Drone Makers | SSEGU'
+title: 'The Rise of African Drone Makers'
 slug: the-rise-of-african-drone-makers
 excerpt: 'The African drone manufacturing sector is experiencing a period of significant growth, characterized by increased local production and innovative desi'
 author: editorial-desk

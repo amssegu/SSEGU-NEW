@@ -1,5 +1,5 @@
 ---
-title: "How to Learn Programming from Scratch: A Complete Beginner's Guide to Starting Your Coding Journey | SSEGU"
+title: "How to Learn Programming from Scratch: A Complete Beginner's Guide to Starting Your Coding Journey"
 slug: how-to-learn-programming-from-scratch
 excerpt: 'This complete guide explains how to learn programming from scratch, the steps beginners should follow, the best learning strategies, common mistakes t'
 author: editorial-desk

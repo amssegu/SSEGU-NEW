@@ -1,5 +1,5 @@
 ---
-title: 'Benefits of Travel Insurance for International Travelers | SSEGU'
+title: 'Benefits of Travel Insurance for International Travelers'
 slug: benefits-of-travel-insurance-for
 excerpt: 'travel insurance, international travelers, medical emergency coverage, trip cancellation, lost property, assistance services, personal liability cover'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Role of Storytelling in Neuro-Driven Marketing | SSEGU'
+title: 'The Role of Storytelling in Neuro-Driven Marketing'
 slug: the-role-of-storytelling-in-neuro
 excerpt: 'The Role of Storytelling in Neuro-Driven Marketing Storytelling is not just an art form; it is a powerful marketing tool that leverages neuroscience to enhan...'
 author: editorial-desk

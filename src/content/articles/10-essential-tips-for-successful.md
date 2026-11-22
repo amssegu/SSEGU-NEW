@@ -1,5 +1,5 @@
 ---
-title: '10 Essential Tips for Successful Fermentation | SSEGU'
+title: '10 Essential Tips for Successful Fermentation'
 slug: 10-essential-tips-for-successful
 excerpt: 'Introduction to Fermentation Fermentation is an ancient method of food preservation that enhances the flavor and nutritional qualities of foods and beverages...'
 author: editorial-desk

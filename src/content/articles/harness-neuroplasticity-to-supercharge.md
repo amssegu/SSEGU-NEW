@@ -1,5 +1,5 @@
 ---
-title: 'Harness Neuroplasticity to Supercharge Your Law of Attraction Practice | SSEGU'
+title: 'Harness Neuroplasticity to Supercharge Your Law of Attraction Practice'
 slug: harness-neuroplasticity-to-supercharge
 excerpt: 'neuroplasticity, law of attraction, brain training, mindset transformation, manifesting goals, personal development'
 author: editorial-desk

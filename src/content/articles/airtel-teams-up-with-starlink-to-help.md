@@ -1,5 +1,5 @@
 ---
-title: 'Airtel Teams Up with Starlink to Help Bring High-Speed Internet to Remote Africa - Starlink in Africa | SSEGU'
+title: 'Airtel Teams Up with Starlink to Help Bring High-Speed Internet to Remote Africa - Starlink in Africa'
 slug: airtel-teams-up-with-starlink-to-help
 excerpt: 'Airtel has been a leading internet provider to many African countries, and Starlink'
 author: editorial-desk

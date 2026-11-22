@@ -1,5 +1,5 @@
 ---
-title: 'The Legend of the Spiritual Rats | SSEGU'
+title: 'The Legend of the Spiritual Rats'
 slug: the-legend-of-spiritual-rats
 excerpt: 'Exploring the mystical belief in spiritual rats and their significance in African folklore, The Legend of the Spiritual Rats'
 author: editorial-desk

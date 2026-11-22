@@ -1,5 +1,5 @@
 ---
-title: 'What are some benefits from having over 10000 connections on LinkedIn? | SSEGU'
+title: 'What are some benefits from having over 10000 connections on LinkedIn?'
 slug: what-are-some-benefits-from-having-over
 excerpt: 'Benefits of 10,000+ LinkedIn Connections. Discover the key advantages of having over 10,000 LinkedIn connections for networking success.'
 author: editorial-desk

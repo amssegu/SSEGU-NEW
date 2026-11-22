@@ -1,5 +1,5 @@
 ---
-title: 'Sheikh Burhan Muhsin Kiti Refuses To Apologise To the church And the Public. | SSEGU'
+title: 'Sheikh Burhan Muhsin Kiti Refuses To Apologise To the church And the Public.'
 slug: sheikh-burhan-muhsin-kiti-refuses-to
 excerpt: 'On June 5, 2025, just days after the annual Uganda Martyrs Day, Sheikh Burhan Muhsin Kiti, a well-known Ugandan Islamic scholar, preacher, public spea'
 author: editorial-desk

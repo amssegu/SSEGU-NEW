@@ -1,5 +1,5 @@
 ---
-title: 'The Financial Literacy Gap in Uganda, Who Is Really Responsible? | SSEGU'
+title: 'The Financial Literacy Gap in Uganda, Who Is Really Responsible?'
 slug: the-financial-literacy-gap-in-uganda
 excerpt: 'Uganda'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Renting vs. Buying a House in Uganda: Which One Makes More Sense in 2025? | SSEGU'
+title: 'Renting vs. Buying a House in Uganda: Which One Makes More Sense in 2025?'
 slug: renting-vs-buying-house-in-uganda-which
 excerpt: 'It'
 author: editorial-desk

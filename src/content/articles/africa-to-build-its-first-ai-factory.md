@@ -1,5 +1,5 @@
 ---
-title: 'Africa to Build its First AI Factory Courtesy of Cassava INdustries and INVIDIA | SSEGU'
+title: 'Africa to Build its First AI Factory Courtesy of Cassava INdustries and INVIDIA'
 slug: africa-to-build-its-first-ai-factory
 excerpt: 'Africa has always been considered a step behind when it comes to technology. And I mean, only just recently, we started embracing STEM initiatives—yea'
 author: editorial-desk

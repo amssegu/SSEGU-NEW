@@ -1,5 +1,5 @@
 ---
-title: 'How to Save Money Every Month: Practical Strategies for Building Financial Stability | SSEGU'
+title: 'How to Save Money Every Month: Practical Strategies for Building Financial Stability'
 slug: how-to-save-money-every-month-practical
 excerpt: 'This comprehensive guide explores practical, beginner-friendly strategies that can help you save money every month without sacrificing your quality of'
 author: editorial-desk

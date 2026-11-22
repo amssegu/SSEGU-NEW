@@ -1,5 +1,5 @@
 ---
-title: "A Beginner's Guide to Transitioning to a Zero-Waste Lifestyle | SSEGU"
+title: "A Beginner's Guide to Transitioning to a Zero-Waste Lifestyle"
 slug: a-beginner-guide-to-transitioning-to
 excerpt: 'Embarking on a zero-waste lifestyle is not just about helping the environment, it’s about transforming the way we think about and interact with the wo'
 author: editorial-desk

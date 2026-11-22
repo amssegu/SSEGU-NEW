@@ -1,5 +1,5 @@
 ---
-title: 'Compare living standards in Dubai with your home country to make informed decisions. | SSEGU'
+title: 'Compare living standards in Dubai with your home country to make informed decisions.'
 slug: compare-living-standards-in-dubai-with
 excerpt: 'our exploration of living standards in the bustling metropolis of Dubai as compared to those in your home country! Whether you’re considering a move o'
 author: editorial-desk

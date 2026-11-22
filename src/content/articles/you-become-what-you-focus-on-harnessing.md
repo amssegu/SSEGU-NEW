@@ -1,5 +1,5 @@
 ---
-title: 'You Become What You Focus On Harnessing the Power of Focus for Personal Growth | SSEGU'
+title: 'You Become What You Focus On Harnessing the Power of Focus for Personal Growth'
 slug: you-become-what-you-focus-on-harnessing
 excerpt: 'personal growth, power of focus, self-improvement, mindset transformation, goal setting, positive thinking'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Healing Power of Humor: Can Laughter Be Therapeutic? | SSEGU'
+title: 'The Healing Power of Humor: Can Laughter Be Therapeutic?'
 slug: the-healing-power-of-humor-can-laughter
 excerpt: 'Have you ever found yourself bursting into laughter and almost instantly feeling better, lighter, and happier? This magical element—humor—is not just'
 author: editorial-desk

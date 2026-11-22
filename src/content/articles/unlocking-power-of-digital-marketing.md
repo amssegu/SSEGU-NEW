@@ -1,5 +1,5 @@
 ---
-title: "Unlocking the Power of Digital Marketing: A Comprehensive Beginner's Guide | SSEGU"
+title: "Unlocking the Power of Digital Marketing: A Comprehensive Beginner's Guide"
 slug: unlocking-power-of-digital-marketing
 excerpt: 'mastering digital marketing is no longer optional—it'
 author: editorial-desk

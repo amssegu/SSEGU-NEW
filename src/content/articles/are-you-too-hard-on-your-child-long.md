@@ -1,5 +1,5 @@
 ---
-title: 'Are You Too Hard on Your Child? The Long-Term Consequences of Harsh Discipline in Parenting | SSEGU'
+title: 'Are You Too Hard on Your Child? The Long-Term Consequences of Harsh Discipline in Parenting'
 slug: are-you-too-hard-on-your-child-long
 excerpt: 'As parents, caregivers, and role models, we strive to raise children who are resilient, confident, and prepared for the challenges of life. We have l'
 author: editorial-desk

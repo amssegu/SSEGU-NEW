@@ -1,5 +1,5 @@
 ---
-title: 'The Art of Meditation: A Guide to Inner Exploration | SSEGU'
+title: 'The Art of Meditation: A Guide to Inner Exploration'
 slug: the-art-of-meditation-guide-to-inner
 excerpt: 'The Art of Meditation: A Guide to Inner Exploration Meditation is an ancient practice that has been used for centuries to promote inner peace, improve concen...'
 author: editorial-desk

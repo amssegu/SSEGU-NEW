@@ -1,5 +1,5 @@
 ---
-title: '15 Compelling Reasons Why Traveling the World Will Transform Your Life | SSEGU'
+title: '15 Compelling Reasons Why Traveling the World Will Transform Your Life'
 slug: 15-compelling-reasons-why-traveling
 excerpt: 'Welcome to our channel, the place where people come to get inspired and educated about the world. It’s amazing to have you back with us for another mo'
 author: editorial-desk

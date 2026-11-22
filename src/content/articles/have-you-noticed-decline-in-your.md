@@ -1,5 +1,5 @@
 ---
-title: 'Have You Noticed the Decline in your Attention Span? Or Are You Still Oblivious? | SSEGU'
+title: 'Have You Noticed the Decline in your Attention Span? Or Are You Still Oblivious?'
 slug: have-you-noticed-decline-in-your
 excerpt: 'How Long Can You Stay Focused? Attention span—how long can you stay focused on something? While many of us don’t think much about it, I find it to be'
 author: editorial-desk

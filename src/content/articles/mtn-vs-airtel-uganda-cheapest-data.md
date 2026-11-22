@@ -1,5 +1,5 @@
 ---
-title: 'MTN vs Airtel Uganda: The Cheapest Data Bundle Is Not Always the Best Deal | SSEGU'
+title: 'MTN vs Airtel Uganda: The Cheapest Data Bundle Is Not Always the Best Deal'
 slug: mtn-vs-airtel-uganda-cheapest-data
 excerpt: 'Compare MTN and Airtel Uganda data bundles, prices per GB, validity and restrictions. Find the best option for your budget and internet needs.'
 author: editorial-desk

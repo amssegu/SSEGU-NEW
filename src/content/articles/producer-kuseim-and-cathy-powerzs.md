@@ -1,5 +1,5 @@
 ---
-title: "Producer Kuseim and Cathy Powerz's Heartwarming Kwanjula Ceremony. Another Step To Wedding Bells. | SSEGU"
+title: "Producer Kuseim and Cathy Powerz's Heartwarming Kwanjula Ceremony. Another Step To Wedding Bells."
 slug: producer-kuseim-and-cathy-powerzs
 excerpt: 'On this special day, Cathy Powerz joyfully welcomed Producer Kuseim into her family, solidifying their commitment to each other. The Kwanjula Ceremon'
 author: editorial-desk

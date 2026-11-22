@@ -1,5 +1,5 @@
 ---
-title: "Transforming E-Commerce: Reserva's Journey to Enhanced Conversion and Efficiency with Yuno | SSEGU"
+title: "Transforming E-Commerce: Reserva's Journey to Enhanced Conversion and Efficiency with Yuno"
 slug: transforming-e-commerce-reserva-journey
 excerpt: 'Understanding the Challenges Faced by Reserva As e-commerce rapidly evolves, businesses like Reserva encounter various challenges that can hinder their growt...'
 author: editorial-desk

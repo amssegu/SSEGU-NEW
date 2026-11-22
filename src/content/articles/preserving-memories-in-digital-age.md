@@ -1,5 +1,5 @@
 ---
-title: 'Preserving Memories in the Digital Age: The Importance of Converting VHS and MiniDV Tapes | SSEGU'
+title: 'Preserving Memories in the Digital Age: The Importance of Converting VHS and MiniDV Tapes'
 slug: preserving-memories-in-digital-age
 excerpt: 'The Fragility of Analog Media Analog media formats, such as VHS and MiniDV tapes, were pivotal in the evolution of home video recording, providing individual...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: "Spire Mystery And Evidence In Late Dr. John Spire Kiggundu's Death | SSEGU"
+title: "Spire Mystery And Evidence In Late Dr. John Spire Kiggundu's Death"
 slug: spire-mystery-and-evidence-in-late-dr
 excerpt: 'On June 22, 2025, the medical community, family members and friends were shocked to hear about the passing of Dr. John Spire Kiggundu, a beloved gyn'
 author: editorial-desk

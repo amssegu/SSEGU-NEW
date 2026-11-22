@@ -1,5 +1,5 @@
 ---
-title: 'Crafting Your Study Haven: Tips for Success | SSEGU'
+title: 'Crafting Your Study Haven: Tips for Success'
 slug: crafting-your-study-haven-tips-for
 excerpt: 'Unlock the secrets to creating a study space that boosts productivity and positivity, ensuring academic success. Selecting the Ideal Location for Your Study ...'
 author: editorial-desk

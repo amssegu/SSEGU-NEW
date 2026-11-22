@@ -1,5 +1,5 @@
 ---
-title: "Namusoke Aisha Alien Skin's Baby Mama accuses the singer of domestic violence | SSEGU"
+title: "Namusoke Aisha Alien Skin's Baby Mama accuses the singer of domestic violence"
 slug: namusoke-aisha-alien-skins-baby-mama
 excerpt: 'Namusoke Aisha, who claims to be baby Mama to musician Alien Skin for nine years, has recently shared some serious concerns regarding their relation'
 author: editorial-desk

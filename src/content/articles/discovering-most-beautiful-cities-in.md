@@ -1,5 +1,5 @@
 ---
-title: 'Discovering the Most Beautiful Cities in the World in 2024 | SSEGU'
+title: 'Discovering the Most Beautiful Cities in the World in 2024'
 slug: discovering-most-beautiful-cities-in
 excerpt: 'beautiful cities, world travel 2024, timeless beauty, travel destinations, city tourism, travel guide'
 author: editorial-desk

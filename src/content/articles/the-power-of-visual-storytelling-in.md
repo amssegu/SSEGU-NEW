@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Visual Storytelling in Showcasing Products | SSEGU'
+title: 'The Power of Visual Storytelling in Showcasing Products'
 slug: the-power-of-visual-storytelling-in
 excerpt: 'Imagine walking into a bustling outdoor market. Each stall showcases its products uniquely: colorful displays, intriguing arrangements, and sometimes'
 author: editorial-desk

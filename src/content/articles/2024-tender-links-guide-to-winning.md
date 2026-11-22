@@ -1,5 +1,5 @@
 ---
-title: '2024 tender links: Guide To Winning Tenders In South Africa | SSEGU'
+title: '2024 tender links: Guide To Winning Tenders In South Africa'
 slug: 2024-tender-links-guide-to-winning
 excerpt: 'Navigating the tender process in South Africa can be complex, but understanding the key steps can significantly increase your chances of success. The'
 author: editorial-desk

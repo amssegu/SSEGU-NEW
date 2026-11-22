@@ -1,5 +1,5 @@
 ---
-title: 'Kampala’s Top 5 Tech Hubs You Need to Know if You Are a Tech Enthusiast | SSEGU'
+title: 'Kampala’s Top 5 Tech Hubs You Need to Know if You Are a Tech Enthusiast'
 slug: kampalas-top-5-tech-hubs-you-need-to
 excerpt: 'With the current push for innovation, most every S.6 vaccist is pushing for a tech career--aspiring developers, computer engineers, scientists, you na'
 author: editorial-desk

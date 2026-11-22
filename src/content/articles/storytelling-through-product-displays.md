@@ -1,5 +1,5 @@
 ---
-title: 'Storytelling Through Product Displays: Crafting Compelling Narratives | SSEGU'
+title: 'Storytelling Through Product Displays: Crafting Compelling Narratives'
 slug: storytelling-through-product-displays
 excerpt: 'Once upon a time, in a quaint little town, there was a charming boutique known for its unique window displays. Each month, the display would tell a di'
 author: editorial-desk

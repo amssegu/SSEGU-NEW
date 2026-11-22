@@ -1,5 +1,5 @@
 ---
-title: '"CEO" The Real Story Behind the Glamour and Grit of Leading a Company | SSEGU'
+title: '"CEO" The Real Story Behind the Glamour and Grit of Leading a Company'
 slug: ceo-real-story-behind-glamour-and-grit
 excerpt: 'The media often glamorizes the lives of high-powered CEOs, showcasing the allure of wealth, influence, and success. However, the true nature of being'
 author: editorial-desk

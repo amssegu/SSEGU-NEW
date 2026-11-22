@@ -1,5 +1,5 @@
 ---
-title: 'Embracing Compassion: The Key to Spiritual Fulfillment | SSEGU'
+title: 'Embracing Compassion: The Key to Spiritual Fulfillment'
 slug: embracing-compassion-key-to-spiritual
 excerpt: 'Embracing Compassion: The Key to Spiritual Fulfillment Compassion, the emotional response when perceiving suffering and involving an authentic desire to help...'
 author: editorial-desk

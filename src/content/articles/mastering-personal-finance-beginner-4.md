@@ -1,5 +1,5 @@
 ---
-title: "Mastering Personal Finance: A Beginner's Guide | SSEGU"
+title: "Mastering Personal Finance: A Beginner's Guide"
 slug: mastering-personal-finance-beginner-4
 excerpt: 'Unlock the secrets to managing your money effectively and securing your financial future. Setting Realistic Financial Goals Setting realistic financial goals...'
 author: editorial-desk

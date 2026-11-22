@@ -1,5 +1,5 @@
 ---
-title: 'The History of Sand Art Across Different Cultures | SSEGU'
+title: 'The History of Sand Art Across Different Cultures'
 slug: the-history-of-sand-art-across
 excerpt: 'The History of Sand Art Across Different Cultures Sand art, the practice of modeling sand into an artistic form, such as sand brushing, sand sculpture, sandp...'
 author: editorial-desk

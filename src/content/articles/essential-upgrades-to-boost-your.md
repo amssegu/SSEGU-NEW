@@ -1,5 +1,5 @@
 ---
-title: 'Essential Upgrades to Boost Your Financial Success | SSEGU'
+title: 'Essential Upgrades to Boost Your Financial Success'
 slug: essential-upgrades-to-boost-your
 excerpt: 'Attaining financial success is a common goal for many, but not everyone takes the strategic steps necessary to achieve it. To elevate your financial health a...'
 author: editorial-desk

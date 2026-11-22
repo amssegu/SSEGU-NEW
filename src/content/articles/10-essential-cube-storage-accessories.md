@@ -1,5 +1,5 @@
 ---
-title: '10 Essential Cube Storage Accessories for Crafters | SSEGU'
+title: '10 Essential Cube Storage Accessories for Crafters'
 slug: 10-essential-cube-storage-accessories
 excerpt: 'Cube storage is a popular choice among crafters because of its versatility and efficiency in organizing supplies. To maximize the potential of your cu'
 author: editorial-desk

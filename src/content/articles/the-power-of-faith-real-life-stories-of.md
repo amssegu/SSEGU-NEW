@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Faith: Real-Life Stories of Healing Miracles | SSEGU'
+title: 'The Power of Faith: Real-Life Stories of Healing Miracles'
 slug: the-power-of-faith-real-life-stories-of
 excerpt: 'Explore these incredible true stories of healing miracles that showcase the remarkable power of faith and belief, The Power of Faith: Real-Life Storie'
 author: editorial-desk

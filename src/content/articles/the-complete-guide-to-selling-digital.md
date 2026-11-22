@@ -1,5 +1,5 @@
 ---
-title: 'The Complete Guide To Selling Digital Products on Etsy in 2027 | SSEGU'
+title: 'The Complete Guide To Selling Digital Products on Etsy in 2027'
 slug: the-complete-guide-to-selling-digital
 excerpt: 'Digital products on Etsy mean this: Make it once. Sell it 1000 times. No inventory. No shipping. No'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: '30-Minute Meals for Busy Weeknights | SSEGU'
+title: '30-Minute Meals for Busy Weeknights'
 slug: 30-minute-meals-for-busy-weeknights
 excerpt: 'Turn your hectic weeknights into a breeze with these delicious, quick, and easy 30-minute meal ideas that everyone will love. Maximizing Ingredients for Quic...'
 author: editorial-desk

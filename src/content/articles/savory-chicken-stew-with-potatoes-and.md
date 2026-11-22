@@ -1,5 +1,5 @@
 ---
-title: 'Savory Chicken Stew with Potatoes and Peppers Recipe | SSEGU'
+title: 'Savory Chicken Stew with Potatoes and Peppers Recipe'
 slug: savory-chicken-stew-with-potatoes-and
 excerpt: 'Ingredients for a Hearty Chicken Stew Cooking a delightful chicken stew can be both simple and satisfying. To begin, gather your ingredients: chicken'
 author: editorial-desk

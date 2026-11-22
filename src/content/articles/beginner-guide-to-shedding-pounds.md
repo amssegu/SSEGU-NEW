@@ -1,5 +1,5 @@
 ---
-title: "Beginner's Guide to Shedding Pounds | SSEGU"
+title: "Beginner's Guide to Shedding Pounds"
 slug: beginner-guide-to-shedding-pounds
 excerpt: 'Embarking on a weight loss journey begins with setting attainable targets. A realistic goal provides a clear direction and prevents feelings of overwh'
 author: editorial-desk

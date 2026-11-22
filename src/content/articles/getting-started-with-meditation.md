@@ -1,5 +1,5 @@
 ---
-title: 'Getting Started With Meditation: Techniques For Inner Peace | SSEGU'
+title: 'Getting Started With Meditation: Techniques For Inner Peace'
 slug: getting-started-with-meditation
 excerpt: 'Exploring the Basics of Meditation Embarking on the journey of meditation begins with understanding its core principles. Meditation is a practice where an in...'
 author: editorial-desk

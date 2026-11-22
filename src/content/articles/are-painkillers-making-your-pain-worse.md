@@ -1,5 +1,5 @@
 ---
-title: 'Are Painkillers Making Your Pain Worse? | SSEGU'
+title: 'Are Painkillers Making Your Pain Worse?'
 slug: are-painkillers-making-your-pain-worse
 excerpt: 'Painkillers—we'
 author: editorial-desk

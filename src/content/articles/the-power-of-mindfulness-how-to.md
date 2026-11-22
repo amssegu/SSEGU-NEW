@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Mindfulness: How to Incorporate Mindfulness into Your Daily Life | SSEGU'
+title: 'The Power of Mindfulness: How to Incorporate Mindfulness into Your Daily Life'
 slug: the-power-of-mindfulness-how-to
 excerpt: 'In a world that often feels chaotic and fast-paced, mindfulness offers a way to find peace and clarity. Mindfulness, the practice of being present and'
 author: editorial-desk

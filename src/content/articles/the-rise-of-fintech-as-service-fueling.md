@@ -1,5 +1,5 @@
 ---
-title: 'The Rise of Fintech-as-a-Service: Fueling the Future of Financial Services | SSEGU'
+title: 'The Rise of Fintech-as-a-Service: Fueling the Future of Financial Services'
 slug: the-rise-of-fintech-as-service-fueling
 excerpt: 'The Digital Transformation of Financial Services The financial services industry has experienced a remarkable digital transformation in recent years, driven ...'
 author: editorial-desk

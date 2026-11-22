@@ -1,5 +1,5 @@
 ---
-title: 'How Aires Tech is Revolutionizing EMF Protection | SSEGU'
+title: 'How Aires Tech is Revolutionizing EMF Protection'
 slug: how-aires-tech-is-revolutionizing-emf
 excerpt: 'Introduction to Aires Tech and Their Role in EMF Protection In a world increasingly dependent on electronic devices, the concern about the effects of electro...'
 author: editorial-desk

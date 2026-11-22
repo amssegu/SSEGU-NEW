@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Public Speaking: A Step-by-Step Guide | SSEGU'
+title: 'Mastering Public Speaking: A Step-by-Step Guide'
 slug: mastering-public-speaking-step-by-step
 excerpt: 'The first step to mastering public speaking is to develop a keen understanding of your audience. Knowing who you are speaking to is critical as it sha'
 author: editorial-desk

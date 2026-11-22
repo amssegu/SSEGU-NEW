@@ -1,5 +1,5 @@
 ---
-title: 'Unlocking Betika’s Mega Jackpot: Your Guide to Winning Big | SSEGU'
+title: 'Unlocking Betika’s Mega Jackpot: Your Guide to Winning Big'
 slug: unlocking-betikas-mega-jackpot-your
 excerpt: 'Discover how to unlock Betika'
 author: editorial-desk

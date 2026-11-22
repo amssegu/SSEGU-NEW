@@ -1,5 +1,5 @@
 ---
-title: 'Discover Porto in 4 Days: The Ultimate Travel Guide | SSEGU'
+title: 'Discover Porto in 4 Days: The Ultimate Travel Guide'
 slug: discover-porto-in-4-days-ultimate
 excerpt: 'Many travelers dream of exploring the beautiful city of Porto but often feel overwhelmed by the sheer number of attractions and experiences the city o'
 author: editorial-desk

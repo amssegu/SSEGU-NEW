@@ -1,5 +1,5 @@
 ---
-title: 'Smart Money Habits for Long-Term Wealth: A Complete Guide to Financial Success | SSEGU'
+title: 'Smart Money Habits for Long-Term Wealth: A Complete Guide to Financial Success'
 slug: smart-money-habits-for-long-term-wealth
 excerpt: 'This comprehensive guide explains the most effective money habits that can help you build lasting wealth, avoid common financial mistakes, and achieve'
 author: editorial-desk

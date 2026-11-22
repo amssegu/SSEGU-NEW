@@ -1,5 +1,5 @@
 ---
-title: 'Understanding ASMR: What Happens in Your Brain During an ASMR Experience? | SSEGU'
+title: 'Understanding ASMR: What Happens in Your Brain During an ASMR Experience?'
 slug: understanding-asmr-what-happens-in-your
 excerpt: 'Have you ever felt a soothing sensation of tingles skip down your spine or a whisper-like touch on your scalp while listening to someone turn a page or whisp...'
 author: editorial-desk

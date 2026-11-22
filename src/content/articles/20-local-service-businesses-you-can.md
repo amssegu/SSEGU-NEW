@@ -1,5 +1,5 @@
 ---
-title: '20 Local Service Businesses You Can Start With $100 | SSEGU'
+title: '20 Local Service Businesses You Can Start With $100'
 slug: 20-local-service-businesses-you-can
 excerpt: 'You do not need a loan. You do not need employees. You need $100, 1 skill, and people who hate doing the task. In 2027, local service businesses st'
 author: editorial-desk

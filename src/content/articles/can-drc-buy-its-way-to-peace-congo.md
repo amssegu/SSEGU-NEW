@@ -1,5 +1,5 @@
 ---
-title: 'Can DRC Buy its Way to Peace? Congo Exchanging Minerals for Military and Security Support. | SSEGU'
+title: 'Can DRC Buy its Way to Peace? Congo Exchanging Minerals for Military and Security Support.'
 slug: can-drc-buy-its-way-to-peace-congo
 excerpt: 'Peace is a precious commodity, one many learn to hold dearly today. Gone are the days when battle was at a set field; modern warfare is not peaceful a'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'WordPress for Beginners: Everything You Need to Know | SSEGU'
+title: 'WordPress for Beginners: Everything You Need to Know'
 slug: wordpress-for-beginners-everything-you
 excerpt: 'This beginner'
 author: editorial-desk

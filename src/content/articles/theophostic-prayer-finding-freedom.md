@@ -1,5 +1,5 @@
 ---
-title: 'Theophostic Prayer: Finding Freedom Within | SSEGU'
+title: 'Theophostic Prayer: Finding Freedom Within'
 slug: theophostic-prayer-finding-freedom
 excerpt: 'Yet, like any practice, it has its supporters and critics. This article delves into the world of theophostic prayer. We'
 author: editorial-desk

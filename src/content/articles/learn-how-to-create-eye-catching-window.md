@@ -1,5 +1,5 @@
 ---
-title: 'Learn how to create eye-catching window displays that draw customers into your store. | SSEGU'
+title: 'Learn how to create eye-catching window displays that draw customers into your store.'
 slug: learn-how-to-create-eye-catching-window
 excerpt: 'In the competitive retail landscape, attracting customers starts right from the front window. A creative and engaging window display not only draws attention...'
 author: editorial-desk

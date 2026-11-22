@@ -1,5 +1,5 @@
 ---
-title: 'I Tested the ‘Smiling More’ Theory, Here is Why its a Life-Hack | SSEGU'
+title: 'I Tested the ‘Smiling More’ Theory, Here is Why its a Life-Hack'
 slug: i-tested-smiling-more-theory-here-is
 excerpt: 'Health is such a diverse topic—food, exercise, medicine, you name it. Well, today we’re about the benefits of smiling. Why do we smile in the first p'
 author: editorial-desk

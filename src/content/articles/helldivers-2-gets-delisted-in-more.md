@@ -1,5 +1,5 @@
 ---
-title: 'Helldivers 2 Gets Delisted In More Countries Without PSN Access, Blindsided Devs Call For It To Be Available Worldwide | SSEGU'
+title: 'Helldivers 2 Gets Delisted In More Countries Without PSN Access, Blindsided Devs Call For It To Be Available Worldwide'
 slug: helldivers-2-gets-delisted-in-more
 excerpt: 'Blindsided Devs Call For It To Be Available Worldwide, Helldivers 2, game delisting, PlayStation Network, digital distribution, gaming community, deve'
 author: editorial-desk

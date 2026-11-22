@@ -1,5 +1,5 @@
 ---
-title: 'Optimizing Global Supply Chain Management with Technology | SSEGU'
+title: 'Optimizing Global Supply Chain Management with Technology'
 slug: optimizing-global-supply-chain
 excerpt: 'In today’s global economy, managing supply chains effectively is crucial for businesses looking to stay competitive. The complexity of coordinating operation...'
 author: editorial-desk

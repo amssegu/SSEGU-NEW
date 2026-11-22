@@ -1,5 +1,5 @@
 ---
-title: 'Learn how much you can save on dining out vs. cooking at home. Get tips on budget-friendly meals and grocery savings. | SSEGU'
+title: 'Learn how much you can save on dining out vs. cooking at home. Get tips on budget-friendly meals and grocery savings.'
 slug: learn-how-much-you-can-save-on-dining
 excerpt: 'Have you ever wondered how much you'
 author: editorial-desk

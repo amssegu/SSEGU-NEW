@@ -1,5 +1,5 @@
 ---
-title: '5 Minutes to Wealth: Discover My Proven Method for Manifesting Money Instantly | SSEGU'
+title: '5 Minutes to Wealth: Discover My Proven Method for Manifesting Money Instantly'
 slug: 5-minutes-to-wealth-discover-my-proven
 excerpt: 'manifesting money, wealth creation, financial success, instant money manifestation, proven wealth methods, attract abundance'
 author: editorial-desk

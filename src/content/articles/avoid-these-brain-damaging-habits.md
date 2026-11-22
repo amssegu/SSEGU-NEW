@@ -1,5 +1,5 @@
 ---
-title: 'Avoid These Brain-Damaging Habits | SSEGU'
+title: 'Avoid These Brain-Damaging Habits'
 slug: avoid-these-brain-damaging-habits
 excerpt: 'Unhealthy habits can have a significant impact on the health of your brain. Certain activities or lifestyle choices can damage brain cells, impair cog'
 author: editorial-desk

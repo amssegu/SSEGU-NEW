@@ -1,5 +1,5 @@
 ---
-title: 'Financial Planning for Travel: A Step-by-Step Approach | SSEGU'
+title: 'Financial Planning for Travel: A Step-by-Step Approach'
 slug: financial-planning-for-travel-step-by
 excerpt: 'Traveling can be one of life'
 author: editorial-desk

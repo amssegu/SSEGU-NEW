@@ -1,5 +1,5 @@
 ---
-title: 'Did DeepSeek Train Its AI Using ChatGPT? Shocking Allegations in the AI World. | SSEGU'
+title: 'Did DeepSeek Train Its AI Using ChatGPT? Shocking Allegations in the AI World.'
 slug: did-deepseek-train-its-ai-using-chatgpt
 excerpt: 'Competition in the tech world has always been fierce—artificial intelligence is no different. New players come up with promising breakthroughs that ch'
 author: editorial-desk

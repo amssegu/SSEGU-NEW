@@ -1,5 +1,5 @@
 ---
-title: 'Manifestation in the Modern World: Truth, Myth, or a Clever Mind Trick? | SSEGU'
+title: 'Manifestation in the Modern World: Truth, Myth, or a Clever Mind Trick?'
 slug: manifestation-in-modern-world-truth
 excerpt: 'Manifestation in the Modern World: Does It Actually Work or Is It All in Your Head? Manifestation; the belief that your thoughts, intentions and emot'
 author: editorial-desk

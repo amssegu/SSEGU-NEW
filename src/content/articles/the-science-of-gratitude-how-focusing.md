@@ -1,5 +1,5 @@
 ---
-title: 'The Science of Gratitude: How Focusing on the Positive Can Transform Your Life | SSEGU'
+title: 'The Science of Gratitude: How Focusing on the Positive Can Transform Your Life'
 slug: the-science-of-gratitude-how-focusing
 excerpt: 'Gratitude is a powerful emotion that can have a profound impact on our well-being and happiness. By focusing on the positive aspects of our lives, we'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Building Trust through Neuroscientific Strategies | SSEGU'
+title: 'Building Trust through Neuroscientific Strategies'
 slug: building-trust-through-neuroscientific
 excerpt: 'Building Trust through Neuroscientific Strategies: Trust is the cornerstone of personal relationships, effective teamwork, and successful organizational lead...'
 author: editorial-desk

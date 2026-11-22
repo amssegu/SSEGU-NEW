@@ -1,5 +1,5 @@
 ---
-title: 'The Ultimate Guide to Digital Marketing for Beginners: Everything You Need to Know | SSEGU'
+title: 'The Ultimate Guide to Digital Marketing for Beginners: Everything You Need to Know'
 slug: the-ultimate-guide-to-digital-marketing
 excerpt: 'Digital marketing is the practice of promoting products, services, or brands using the internet and digital devices. It encompasses every online initi'
 author: editorial-desk

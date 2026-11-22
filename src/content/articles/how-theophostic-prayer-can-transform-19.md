@@ -1,5 +1,5 @@
 ---
-title: 'How Theophostic Prayer Can Transform Lives | SSEGU'
+title: 'How Theophostic Prayer Can Transform Lives'
 slug: how-theophostic-prayer-can-transform-19
 excerpt: 'Founded by Dr. Ed Smith, TPM has gained global recognition. It'
 author: editorial-desk

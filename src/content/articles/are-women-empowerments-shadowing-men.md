@@ -1,5 +1,5 @@
 ---
-title: 'Are Women Empowerments Shadowing Men Down in Uganda Or Dragging Their DownFall | SSEGU'
+title: 'Are Women Empowerments Shadowing Men Down in Uganda Or Dragging Their DownFall'
 slug: are-women-empowerments-shadowing-men
 excerpt: 'Women empowerment initiatives in Uganda aim to address issues of gender equality but concerns by a few Vigilantes who have seen its consequences on m'
 author: editorial-desk

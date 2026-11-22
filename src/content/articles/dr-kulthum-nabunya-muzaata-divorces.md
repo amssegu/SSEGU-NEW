@@ -1,5 +1,5 @@
 ---
-title: 'Dr. Kulthum Nabunya Muzaata Divorces Acram Gumisiriza After 2 Years | SSEGU'
+title: 'Dr. Kulthum Nabunya Muzaata Divorces Acram Gumisiriza After 2 Years'
 slug: dr-kulthum-nabunya-muzaata-divorces
 excerpt: 'Dr. Kulthum Nabunya Muzaata, a prominent Ugandan Islamic scholar, educator, and community leader, announced the end of her two-year marriage to Acram'
 author: editorial-desk

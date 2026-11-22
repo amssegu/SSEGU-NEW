@@ -1,5 +1,5 @@
 ---
-title: 'How to Create a Budget That Actually Works: A Complete Guide to Managing Your Money | SSEGU'
+title: 'How to Create a Budget That Actually Works: A Complete Guide to Managing Your Money'
 slug: how-to-create-budget-that-actually
 excerpt: 'This complete guide explains how to create a budget that actually works, including how to track your income, manage expenses, set financial goals, avo'
 author: editorial-desk

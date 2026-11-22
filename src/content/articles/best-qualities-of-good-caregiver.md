@@ -1,5 +1,5 @@
 ---
-title: 'Best Qualities of a Good Caregiver | SSEGU'
+title: 'Best Qualities of a Good Caregiver'
 slug: best-qualities-of-good-caregiver
 excerpt: 'Caregiving is a deeply rewarding but challenging role, requiring a unique set of qualities to ensure the well-being of those in need. Caregivers'
 author: editorial-desk

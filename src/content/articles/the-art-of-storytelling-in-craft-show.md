@@ -1,5 +1,5 @@
 ---
-title: 'The Art of Storytelling in Craft Show Display | SSEGU'
+title: 'The Art of Storytelling in Craft Show Display'
 slug: the-art-of-storytelling-in-craft-show
 excerpt: 'Once upon a time, nestled in the bustling aisles of a vibrant craft show, a small, overlooked booth barely caught the eyes of passersby. This booth, c'
 author: editorial-desk

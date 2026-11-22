@@ -1,5 +1,5 @@
 ---
-title: 'x | SSEGU'
+title: 'x'
 slug: x
 excerpt: 'The Power of X in Building an Engaged Twitter Community, social media engagement, Twitter community, community building, Twitter strategies, social'
 author: editorial-desk

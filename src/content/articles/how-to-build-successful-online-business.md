@@ -1,5 +1,5 @@
 ---
-title: 'How to Build a Successful Online Business: A Complete Step-by-Step Guide | SSEGU'
+title: 'How to Build a Successful Online Business: A Complete Step-by-Step Guide'
 slug: how-to-build-successful-online-business
 excerpt: 'This comprehensive guide explains how to build a successful online business from the ground up, covering everything from choosing a business idea to a'
 author: editorial-desk

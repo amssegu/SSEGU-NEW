@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Customer Service Contact - How to reach Amazon customer support for various issues. | SSEGU'
+title: 'Amazon Customer Service Contact - How to reach Amazon customer support for various issues.'
 slug: amazon-customer-service-contact-how-to
 excerpt: 'Understanding Amazon Customer Service Amazon customer service plays a crucial role in ensuring a smooth shopping experience for customers. By understanding h...'
 author: editorial-desk

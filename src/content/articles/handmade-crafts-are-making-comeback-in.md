@@ -1,5 +1,5 @@
 ---
-title: 'Handmade Crafts are Making a Comeback in uganda, a Source of Income to Artisans | SSEGU'
+title: 'Handmade Crafts are Making a Comeback in uganda, a Source of Income to Artisans'
 slug: handmade-crafts-are-making-comeback-in
 excerpt: 'Uganda has come a long way in industrialization, with companies like Mukwano Plastics making and distributing a variety of items to the market. Simba,'
 author: editorial-desk

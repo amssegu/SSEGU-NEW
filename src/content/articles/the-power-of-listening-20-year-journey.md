@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Listening: A 20-Year Journey to Understanding My Wife | SSEGU'
+title: 'The Power of Listening: A 20-Year Journey to Understanding My Wife'
 slug: the-power-of-listening-20-year-journey
 excerpt: 'The Misunderstanding: Fixer vs. Listener In relationships, a common misconception often arises regarding the roles partners should play when the other faces ...'
 author: editorial-desk

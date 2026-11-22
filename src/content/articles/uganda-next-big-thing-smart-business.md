@@ -1,5 +1,5 @@
 ---
-title: "Uganda's Next Big Thing: Smart Business Ideas for 100,000 UGX Investors | SSEGU"
+title: "Uganda's Next Big Thing: Smart Business Ideas for 100,000 UGX Investors"
 slug: uganda-next-big-thing-smart-business
 excerpt: 'Understanding the Landscape: The Power of 100,000 Shillings In the current economic environment of Uganda, entrepreneurial opportunities abound, even for tho...'
 author: editorial-desk

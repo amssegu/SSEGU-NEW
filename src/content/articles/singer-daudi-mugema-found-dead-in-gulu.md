@@ -1,5 +1,5 @@
 ---
-title: 'Singer Daudi Mugema Found Dead in Gulu Hotel. | SSEGU'
+title: 'Singer Daudi Mugema Found Dead in Gulu Hotel.'
 slug: singer-daudi-mugema-found-dead-in-gulu
 excerpt: 'On Tuesday, June 24, 2025, Uganda’s gospel music community was heartbroken by the unexpected passing of the beloved singer Daudi Mugema. Fans were de'
 author: editorial-desk

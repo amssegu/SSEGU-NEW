@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Accessibility in AI Interface Design: Yitong Du's Award-Winning Innovations | SSEGU"
+title: "Enhancing Accessibility in AI Interface Design: Yitong Du's Award-Winning Innovations"
 slug: enhancing-accessibility-in-ai-interface
 excerpt: 'Introduction to AI Interface Design Challenges Artificial Intelligence (AI) has transformed various industries, enhancing efficiency and creating new opportu...'
 author: editorial-desk

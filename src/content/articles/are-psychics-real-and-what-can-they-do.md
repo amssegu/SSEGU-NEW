@@ -1,5 +1,5 @@
 ---
-title: 'Are Psychics Real and What Can They Do? | SSEGU'
+title: 'Are Psychics Real and What Can They Do?'
 slug: are-psychics-real-and-what-can-they-do
 excerpt: 'When we think of psychics, many of us might picture Whoopi Goldberg'
 author: editorial-desk

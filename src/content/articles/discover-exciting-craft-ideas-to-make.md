@@ -1,5 +1,5 @@
 ---
-title: 'Discover exciting craft ideas to make your weekly crafting time with kids more enjoyable and creative. | SSEGU'
+title: 'Discover exciting craft ideas to make your weekly crafting time with kids more enjoyable and creative.'
 slug: discover-exciting-craft-ideas-to-make
 excerpt: 'Crafting with kids isn'
 author: editorial-desk

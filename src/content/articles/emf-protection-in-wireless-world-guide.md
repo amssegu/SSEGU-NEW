@@ -1,5 +1,5 @@
 ---
-title: "EMF Protection in a Wireless World: A Guide to Aires Tech's Innovative Technology | SSEGU"
+title: "EMF Protection in a Wireless World: A Guide to Aires Tech's Innovative Technology"
 slug: emf-protection-in-wireless-world-guide
 excerpt: 'EMF Protection in a Wireless World: A Guide to Aires Tech’s Innovative Technology In today’s digital age, the prevalence of electronic devices and wireless t...'
 author: editorial-desk

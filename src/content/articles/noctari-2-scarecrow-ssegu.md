@@ -1,5 +1,5 @@
 ---
-title: 'NOCTARI part 2 - Scarecrow | ssegu | SSEGU'
+title: 'NOCTARI part 2 - Scarecrow'
 slug: noctari-2-scarecrow-ssegu
 excerpt: '👽🛸 NOCTARI part 2 - Scarecrow 🎭 🔥 Kick Away Stress: 🎬 🌠The battle for survival escalates in NOCTARI – Scarecrow,💀 the thrilling'
 author: editorial-desk

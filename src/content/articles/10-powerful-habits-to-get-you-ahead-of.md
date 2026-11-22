@@ -1,5 +1,5 @@
 ---
-title: '10 Powerful Habits to Get You Ahead of 99% of People | SSEGU'
+title: '10 Powerful Habits to Get You Ahead of 99% of People'
 slug: 10-powerful-habits-to-get-you-ahead-of
 excerpt: 'success habits, personal development, productivity tips, self improvement, goal setting, time management'
 author: editorial-desk

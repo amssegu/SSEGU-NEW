@@ -1,5 +1,5 @@
 ---
-title: 'Elon Musk Treasury access: A New Era of Government Efficiency or Private Overreach? | SSEGU'
+title: 'Elon Musk Treasury access: A New Era of Government Efficiency or Private Overreach?'
 slug: elon-musk-treasury-access-new-era-of
 excerpt: 'Elon Musk'
 author: editorial-desk

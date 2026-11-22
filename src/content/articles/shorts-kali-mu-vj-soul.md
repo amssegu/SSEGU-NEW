@@ -1,5 +1,5 @@
 ---
-title: 'Shorts Kali Mu: VJ Soul | SSEGU'
+title: 'Shorts Kali Mu: VJ Soul'
 slug: shorts-kali-mu-vj-soul
 excerpt: 'Download Shorts By VJ Soul Mp4 Mobile Movie. Stream Shorts By VJ Soul ssegu'
 author: editorial-desk

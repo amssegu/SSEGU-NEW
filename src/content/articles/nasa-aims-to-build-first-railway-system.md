@@ -1,5 +1,5 @@
 ---
-title: 'NASA Aims To Build First Railway System On Moon | SSEGU'
+title: 'NASA Aims To Build First Railway System On Moon'
 slug: nasa-aims-to-build-first-railway-system
 excerpt: 'NASA Aims To Build First Railway System On Moon, NASA, lunar railway, space exploration, Moon transportation, lunar surface, sustainable human presenc'
 author: editorial-desk

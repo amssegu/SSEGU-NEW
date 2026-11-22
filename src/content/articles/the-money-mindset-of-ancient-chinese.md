@@ -1,5 +1,5 @@
 ---
-title: 'The Money Mindset of Ancient Chinese Merchants on Alibaba | SSEGU'
+title: 'The Money Mindset of Ancient Chinese Merchants on Alibaba'
 slug: the-money-mindset-of-ancient-chinese
 excerpt: 'In 2027, you have Alibaba, TikTok Shop, and global shipping. But most people still think like tourists, not merchants.'
 author: editorial-desk

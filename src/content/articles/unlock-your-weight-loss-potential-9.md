@@ -1,5 +1,5 @@
 ---
-title: 'Unlock Your Weight Loss Potential | SSEGU'
+title: 'Unlock Your Weight Loss Potential'
 slug: unlock-your-weight-loss-potential-9
 excerpt: 'Weight loss can often seem like an insurmountable challenge, but with the right strategies, it can become an achievable and even enjoyable journey.'
 author: editorial-desk

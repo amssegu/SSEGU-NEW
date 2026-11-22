@@ -1,5 +1,5 @@
 ---
-title: 'A Complete Guide to Importing Japanese Cars to Zimbabwe, Fees and Requirements | SSEGU'
+title: 'A Complete Guide to Importing Japanese Cars to Zimbabwe, Fees and Requirements'
 slug: a-complete-guide-to-importing-japanese
 excerpt: 'Importing a vehicle from Japan to Zimbabwe involves various fees and requirements that are essential to understand. Below is a detailed breakdown of t'
 author: editorial-desk

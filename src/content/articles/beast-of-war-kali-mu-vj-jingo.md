@@ -1,5 +1,5 @@
 ---
-title: 'Beast of War Kali Mu: VJ Jingo | SSEGU'
+title: 'Beast of War Kali Mu: VJ Jingo'
 slug: beast-of-war-kali-mu-vj-jingo
 excerpt: 'Download Beast of War By VJ Jingo Mp4 Mobile Movie. Stream Beast of War By VJ Jingo ssegu'
 author: editorial-desk

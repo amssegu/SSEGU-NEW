@@ -1,5 +1,5 @@
 ---
-title: 'Ugly Story 2 Kali Mu: VJ ICE P - ssegu | SSEGU'
+title: 'Ugly Story 2 Kali Mu: VJ ICE P - ssegu'
 slug: ugly-story-2-kali-mu-vj-ice-p-ssegu
 excerpt: 'Ugly Story 2 Kali Mu: VJ ICE P Genre: Romance, Drama, Indian Movie Kick Away Stress: 🎬'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Cryptocurrency Adoption in the UAE: How Traders Can Capitalize | SSEGU'
+title: 'Cryptocurrency Adoption in the UAE: How Traders Can Capitalize'
 slug: cryptocurrency-adoption-in-uae-how
 excerpt: 'Explore the rapidly evolving cryptocurrency landscape in the UAE, marked by proactive regulations, growing investor interest, and opportunities'
 author: editorial-desk

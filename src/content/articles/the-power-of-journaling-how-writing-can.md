@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Journaling: How Writing Can Transform Your Life | SSEGU'
+title: 'The Power of Journaling: How Writing Can Transform Your Life'
 slug: the-power-of-journaling-how-writing-can
 excerpt: 'Journaling is a simple yet powerful tool that can bring clarity, creativity, and emotional well-being into your life. By putting thoughts and feelings'
 author: editorial-desk

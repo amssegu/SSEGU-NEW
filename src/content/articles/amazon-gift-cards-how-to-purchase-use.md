@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Gift Cards - How to purchase, use, and check the balance of Amazon gift cards. | SSEGU'
+title: 'Amazon Gift Cards - How to purchase, use, and check the balance of Amazon gift cards.'
 slug: amazon-gift-cards-how-to-purchase-use
 excerpt: 'Understanding Amazon Gift Cards Amazon Gift Cards are a convenient and flexible way to shop on Amazon. They are essentially digital gift vouchers that can be...'
 author: editorial-desk

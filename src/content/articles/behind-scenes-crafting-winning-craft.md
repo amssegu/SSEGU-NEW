@@ -1,5 +1,5 @@
 ---
-title: 'Behind the Scenes: Crafting a Winning Craft Show Display | SSEGU'
+title: 'Behind the Scenes: Crafting a Winning Craft Show Display'
 slug: behind-scenes-crafting-winning-craft
 excerpt: 'It was a crisp, sunny morning when Sarah, a local artist, decided to participate in her first craft show. Nervous yet excited, she meticulously prepar'
 author: editorial-desk

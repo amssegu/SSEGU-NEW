@@ -1,5 +1,5 @@
 ---
-title: 'The Complex Journey of Oskar Schindler: From Greed to Redemption | SSEGU'
+title: 'The Complex Journey of Oskar Schindler: From Greed to Redemption'
 slug: the-complex-journey-of-oskar-schindler
 excerpt: 'Introduction to Oskar Schindler Oskar Schindler was a complex figure whose life encapsulates a dramatic transformation shaped by the socio-political upheaval...'
 author: editorial-desk

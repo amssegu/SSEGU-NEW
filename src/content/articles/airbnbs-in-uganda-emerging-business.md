@@ -1,5 +1,5 @@
 ---
-title: 'Airbnbs in Uganda, an emerging business that few understand | SSEGU'
+title: 'Airbnbs in Uganda, an emerging business that few understand'
 slug: airbnbs-in-uganda-emerging-business
 excerpt: 'In recent years, Uganda has witnessed a significant surge in the popularity of Airbnb, a platform that allows individuals to rent out their properties'
 author: editorial-desk

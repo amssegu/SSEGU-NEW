@@ -1,5 +1,5 @@
 ---
-title: 'Mastering the Art of Building Rapport | SSEGU'
+title: 'Mastering the Art of Building Rapport'
 slug: mastering-art-of-building-rapport
 excerpt: 'Building rapport is crucial in establishing meaningful connections with others. It involves creating a sense of trust, understanding, and mutual respe'
 author: editorial-desk

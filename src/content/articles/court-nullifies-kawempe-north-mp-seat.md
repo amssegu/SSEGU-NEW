@@ -1,5 +1,5 @@
 ---
-title: 'Court Nullifies Kawempe North MP Seat And Declares It Vacant. | SSEGU'
+title: 'Court Nullifies Kawempe North MP Seat And Declares It Vacant.'
 slug: court-nullifies-kawempe-north-mp-seat
 excerpt: 'As of May 26th, the High Court nullified the election of NUP'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'How to Receive Payments from International Clients in Uganda | SSEGU'
+title: 'How to Receive Payments from International Clients in Uganda'
 slug: how-to-receive-payments-from
 excerpt: 'Learn how to receive payments from international clients in Uganda using bank transfers, Upwork, Fiverr and Payoneer. Compare fees'
 author: editorial-desk

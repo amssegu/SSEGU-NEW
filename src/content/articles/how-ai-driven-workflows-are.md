@@ -1,5 +1,5 @@
 ---
-title: 'How AI-Driven Workflows are Revolutionizing Freelancing | SSEGU'
+title: 'How AI-Driven Workflows are Revolutionizing Freelancing'
 slug: how-ai-driven-workflows-are
 excerpt: 'Introduction to AI-Driven Workflows in Freelancing Artificial intelligence (AI) is transforming numerous industries, and freelancing is no exception. AI-driv...'
 author: editorial-desk

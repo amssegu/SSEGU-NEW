@@ -1,5 +1,5 @@
 ---
-title: 'The Art of Pasta Preparation in Italian Restaurants | SSEGU'
+title: 'The Art of Pasta Preparation in Italian Restaurants'
 slug: the-art-of-pasta-preparation-in-italian
 excerpt: 'Discover the exquisite art of pasta preparation in authentic Italian restaurants. Learn about traditional techniques and recipes that bring the true f'
 author: editorial-desk

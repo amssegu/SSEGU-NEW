@@ -1,5 +1,5 @@
 ---
-title: 'The Healing Touch: The Science Behind Energy Healing | SSEGU'
+title: 'The Healing Touch: The Science Behind Energy Healing'
 slug: the-healing-touch-science-behind-energy
 excerpt: 'Exploring the scientific principles behind energy healing practices and their potential benefits, The Healing Touch: The Science Behind Energy Healing'
 author: editorial-desk

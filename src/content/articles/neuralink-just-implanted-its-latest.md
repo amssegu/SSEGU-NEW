@@ -1,5 +1,5 @@
 ---
-title: 'Neuralink Just Implanted Its Latest Brain Chip – Plans for 20 More in 2025! | SSEGU'
+title: 'Neuralink Just Implanted Its Latest Brain Chip – Plans for 20 More in 2025!'
 slug: neuralink-just-implanted-its-latest
 excerpt: 'Neuralink, the tech company founded by Elon Musk has achieved yet another breakthrough with the 3rd implantation of its brain-computer interface (BCI)'
 author: editorial-desk

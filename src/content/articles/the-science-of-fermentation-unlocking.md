@@ -1,5 +1,5 @@
 ---
-title: 'The Science of Fermentation: Unlocking its Secrets | SSEGU'
+title: 'The Science of Fermentation: Unlocking its Secrets'
 slug: the-science-of-fermentation-unlocking
 excerpt: 'The Science of Fermentation: Unlocking Its Secrets Fermentation is a remarkable biological process that has been instrumental in human food and beverage prod...'
 author: editorial-desk

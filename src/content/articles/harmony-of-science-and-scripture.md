@@ -1,5 +1,5 @@
 ---
-title: 'Harmony of Science and Scripture | SSEGU'
+title: 'Harmony of Science and Scripture'
 slug: harmony-of-science-and-scripture
 excerpt: 'Explore the fascinating intersection where the enduring wisdom of Scripture meets the dynamic discoveries of science, and how they can coexist in harmony. Un...'
 author: editorial-desk

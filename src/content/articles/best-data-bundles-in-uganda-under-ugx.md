@@ -1,5 +1,5 @@
 ---
-title: 'Best Data Bundles in Uganda Under UGX 10,000: What MTN and Airtel Actually Offer | SSEGU'
+title: 'Best Data Bundles in Uganda Under UGX 10,000: What MTN and Airtel Actually Offer'
 slug: best-data-bundles-in-uganda-under-ugx
 excerpt: 'Find the best MTN and Airtel data bundles in Uganda under UGX 10,000. Compare prices, GB, validity, weekend deals and student bundles.'
 author: editorial-desk

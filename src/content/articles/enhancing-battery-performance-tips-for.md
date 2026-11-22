@@ -1,5 +1,5 @@
 ---
-title: 'Enhancing Battery Performance: Tips for Long-Term iPhone 15 and Pixel 8 Pro Users | SSEGU'
+title: 'Enhancing Battery Performance: Tips for Long-Term iPhone 15 and Pixel 8 Pro Users'
 slug: enhancing-battery-performance-tips-for
 excerpt: 'Enhancing Battery Performance: Tips for Long-Term iPhone 15 and Pixel 8 Pro Users Smartphones have become indispensable tools in our daily lives, but frequen...'
 author: editorial-desk

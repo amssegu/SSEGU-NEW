@@ -1,5 +1,5 @@
 ---
-title: 'Top 10 Richest Criminal Organizations in the World | SSEGU'
+title: 'Top 10 Richest Criminal Organizations in the World'
 slug: top-10-richest-criminal-organizations
 excerpt: 'Organized crime has been around for centuries, but modern criminal groups became more prevalent in the 1970s with the rise of the mob, mafia, and othe'
 author: editorial-desk

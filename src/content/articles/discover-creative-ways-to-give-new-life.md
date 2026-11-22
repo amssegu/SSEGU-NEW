@@ -1,5 +1,5 @@
 ---
-title: 'Discover creative ways to give new life to old furniture by transforming them into chic storage solutions for your home. | SSEGU'
+title: 'Discover creative ways to give new life to old furniture by transforming them into chic storage solutions for your home.'
 slug: discover-creative-ways-to-give-new-life
 excerpt: 'Once upon a time, in a quaint little house on the edge of a vibrant town, there lived a woman named Emily who had a passion for breathing new life int'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Surprising Benefits of Eating Two Bananas a Day for a Month | SSEGU'
+title: 'The Surprising Benefits of Eating Two Bananas a Day for a Month'
 slug: the-surprising-benefits-of-eating-two
 excerpt: 'health benefits of incorporating bananas into your daily diet. Rich in potassium and fiber, bananas promote heart health by regulating blood pressure'
 author: editorial-desk

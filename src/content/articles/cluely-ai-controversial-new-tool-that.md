@@ -1,5 +1,5 @@
 ---
-title: 'Cluely AI: The Controversial New Tool That Helps You Cheat in Real-Time | SSEGU'
+title: 'Cluely AI: The Controversial New Tool That Helps You Cheat in Real-Time'
 slug: cluely-ai-controversial-new-tool-that
 excerpt: 'Cheating has always been part of the game when it comes to online applications and whatnot. A little lie on your resume to sound like the absolute per'
 author: editorial-desk

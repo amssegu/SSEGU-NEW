@@ -1,5 +1,5 @@
 ---
-title: 'Discover Generosity: Top Websites Where Kind-Hearted Individuals Give Away Money | SSEGU'
+title: 'Discover Generosity: Top Websites Where Kind-Hearted Individuals Give Away Money'
 slug: discover-generosity-top-websites-where
 excerpt: 'generosity, free money, financial help, charitable donations, kindness, giving websites'
 author: editorial-desk

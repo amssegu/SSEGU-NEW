@@ -1,5 +1,5 @@
 ---
-title: "UK Officials Spark Outrage for Embracing Uganda's Alleged Human Rights Violator | SSEGU"
+title: "UK Officials Spark Outrage for Embracing Uganda's Alleged Human Rights Violator"
 slug: uk-officials-spark-outrage-for
 excerpt: 'Alleged Human Rights Violator, Controversial, British government, Uganda army, Gen Muhoozi Kainerugaba, repressive tactics, Yoweri Museveni, Adm Sir'
 author: editorial-desk

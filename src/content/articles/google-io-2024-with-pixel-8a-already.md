@@ -1,5 +1,5 @@
 ---
-title: 'Google I/O 2024: With Pixel 8a Already Announced, The Focus Turns To AI | SSEGU'
+title: 'Google I/O 2024: With Pixel 8a Already Announced, The Focus Turns To AI'
 slug: google-io-2024-with-pixel-8a-already
 excerpt: 'Google I/O 2024 has taken a significant leap, setting a new benchmark in the AI frontier. Attendees were enthralled as the tech giant revealed its lat'
 author: editorial-desk

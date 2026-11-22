@@ -1,5 +1,5 @@
 ---
-title: "Mastering Personal Finance: A Beginner's Guide | SSEGU"
+title: "Mastering Personal Finance: A Beginner's Guide"
 slug: mastering-personal-finance-beginner
 excerpt: 'Unlock the secrets to financial freedom and stability with our beginner'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Craft Show Display Success Stories: A Source of Inspiration | SSEGU'
+title: 'Craft Show Display Success Stories: A Source of Inspiration'
 slug: craft-show-display-success-stories
 excerpt: 'Emma, a self-taught jewelry designer from a small coastal town, had always been passionate about crafting unique, intricate pieces that her friends an'
 author: editorial-desk

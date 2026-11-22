@@ -1,5 +1,5 @@
 ---
-title: 'Embrace Authenticity: The Key to Becoming a Better You | SSEGU'
+title: 'Embrace Authenticity: The Key to Becoming a Better You'
 slug: embrace-authenticity-key-to-becoming
 excerpt: 'Be Yourself: The Power of Authenticity Authenticity serves as a fundamental pillar in personal development, allowing individuals to unlock their true potenti...'
 author: editorial-desk

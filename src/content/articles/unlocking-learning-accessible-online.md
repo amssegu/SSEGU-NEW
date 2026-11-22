@@ -1,5 +1,5 @@
 ---
-title: 'Unlocking Learning: The Accessible Online Classroom | SSEGU'
+title: 'Unlocking Learning: The Accessible Online Classroom'
 slug: unlocking-learning-accessible-online
 excerpt: 'Explore how online learning platforms are revolutionizing accessibility in education, offering unprecedented opportunities for learners of all backgrounds. B...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Scriptural Insights for Relationship Communication | SSEGU'
+title: 'Scriptural Insights for Relationship Communication'
 slug: scriptural-insights-for-relationship
 excerpt: 'Explore how Bible verses can illuminate the path to stronger, more meaningful communication within relationships. The Power of Words: Proverbs 18:21 The wisd...'
 author: editorial-desk

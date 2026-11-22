@@ -1,5 +1,5 @@
 ---
-title: 'Collaborating with Brands: A Step-by-Step Guide for TikTok and YouTube Shorts Creators | SSEGU'
+title: 'Collaborating with Brands: A Step-by-Step Guide for TikTok and YouTube Shorts Creators'
 slug: collaborating-with-brands-step-by-step
 excerpt: 'Learn how to successfully collaborate with brands as a TikTok and YouTube Shorts creator. This step-by-step guide covers everything from finding'
 author: editorial-desk

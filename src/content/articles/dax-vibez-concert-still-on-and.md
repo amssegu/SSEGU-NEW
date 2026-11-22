@@ -1,5 +1,5 @@
 ---
-title: 'Dax Vibez Concert Still On And Relocated to UMA Grounds. | SSEGU'
+title: 'Dax Vibez Concert Still On And Relocated to UMA Grounds.'
 slug: dax-vibez-concert-still-on-and
 excerpt: 'Ugandan singer Dax Vibez has confirmed that his highly anticipated All White Concert is still on track, despite a recent setback, after Hotel Africana'
 author: editorial-desk

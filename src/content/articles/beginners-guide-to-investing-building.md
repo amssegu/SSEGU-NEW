@@ -1,5 +1,5 @@
 ---
-title: "Beginner's Guide To Investing: Building Wealth For The Future | SSEGU"
+title: "Beginner's Guide To Investing: Building Wealth For The Future"
 slug: beginners-guide-to-investing-building
 excerpt: 'Deciphering the Basics of Investing Investing may seem daunting to the uninitiated, but understanding its fundamentals is the first step toward financial emp...'
 author: editorial-desk

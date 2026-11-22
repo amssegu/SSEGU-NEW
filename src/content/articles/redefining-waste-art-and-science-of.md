@@ -1,5 +1,5 @@
 ---
-title: 'Redefining Waste: The Art and Science of Upcycling Innovations | SSEGU'
+title: 'Redefining Waste: The Art and Science of Upcycling Innovations'
 slug: redefining-waste-art-and-science-of
 excerpt: 'Imagine walking through a bustling market where every stall bristles with vibrant creativity, only to realize that all you see was once deemed useless'
 author: editorial-desk

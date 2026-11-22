@@ -1,5 +1,5 @@
 ---
-title: 'Supercharge Your Walk: Simple Ways to Maximize Health Benefits | SSEGU'
+title: 'Supercharge Your Walk: Simple Ways to Maximize Health Benefits'
 slug: supercharge-your-walk-simple-ways-to
 excerpt: 'Introduction to Walking for Health Physical activity is a cornerstone of good health, yet it does not have to be intricate or time-consuming to yield signifi...'
 author: editorial-desk

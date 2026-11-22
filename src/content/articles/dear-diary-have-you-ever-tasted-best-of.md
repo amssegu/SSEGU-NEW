@@ -1,5 +1,5 @@
 ---
-title: "Dear Diary, Have You Ever Tasted the Best of Uganda's Street Food? | SSEGU"
+title: "Dear Diary, Have You Ever Tasted the Best of Uganda's Street Food?"
 slug: dear-diary-have-you-ever-tasted-best-of
 excerpt: 'What makes a country, if not its street food? I haven'
 author: editorial-desk

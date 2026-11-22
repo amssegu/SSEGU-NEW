@@ -1,5 +1,5 @@
 ---
-title: "6 Signs You're About to Manifest Your Desires According to Bob Proctor | SSEGU"
+title: "6 Signs You're About to Manifest Your Desires According to Bob Proctor"
 slug: 6-signs-youre-about-to-manifest-your
 excerpt: 'Law of Attraction, Manifestation, Bob Proctor, Self-help, Motivational Speaker, Universal Principles, Signs of Manifestation, Personal Growth, isaacup'
 author: editorial-desk

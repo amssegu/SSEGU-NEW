@@ -1,5 +1,5 @@
 ---
-title: 'Packing Smart: Your Ultimate Guide Before a Trip | SSEGU'
+title: 'Packing Smart: Your Ultimate Guide Before a Trip'
 slug: packing-smart-your-ultimate-guide
 excerpt: 'Traveling can be an exciting adventure, but packing for a trip often feels like a daunting task. However, with a little planning and some smart strategies, y...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Immersive Brand Storytelling: Crafting Compelling Narratives in the Metaverse | SSEGU'
+title: 'Immersive Brand Storytelling: Crafting Compelling Narratives in the Metaverse'
 slug: immersive-brand-storytelling-crafting
 excerpt: 'Imagine stepping into a vibrant, digital world where every interaction tells a story—a world where a brand isn'
 author: editorial-desk

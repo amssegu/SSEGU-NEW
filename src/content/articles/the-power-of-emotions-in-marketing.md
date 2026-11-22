@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Emotions in Marketing | SSEGU'
+title: 'The Power of Emotions in Marketing'
 slug: the-power-of-emotions-in-marketing
 excerpt: 'Exploring how emotional appeal can enhance marketing strategies and drive consumer behavior'
 author: editorial-desk

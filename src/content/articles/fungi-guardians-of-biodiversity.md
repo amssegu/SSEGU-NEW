@@ -1,5 +1,5 @@
 ---
-title: 'Fungi: Guardians of Biodiversity | SSEGU'
+title: 'Fungi: Guardians of Biodiversity'
 slug: fungi-guardians-of-biodiversity
 excerpt: 'What are fungi, and why are they important to biodiversity? Fungi are a kingdom of organisms that are crucial to Earth'
 author: editorial-desk

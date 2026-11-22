@@ -1,5 +1,5 @@
 ---
-title: 'Chickenhare and the Secret of the Groundhog Kali Mu: VJ Uncle T - ssegu | SSEGU'
+title: 'Chickenhare and the Secret of the Groundhog Kali Mu: VJ Uncle T - ssegu'
 slug: chickenhare-and-secret-of-groundhog
 excerpt: 'Chickenhare and the Secret of the Groundhog Kali Mu: VJ Uncle T Genre: Animation, Adventure, Comedy, Family Kick Away Stress: 🎬'
 author: editorial-desk

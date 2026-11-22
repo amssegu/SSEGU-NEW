@@ -1,5 +1,5 @@
 ---
-title: 'The easiest (& laziest) way to get rich | ssegu | SSEGU'
+title: 'The easiest (& laziest) way to get rich'
 slug: the-easiest-laziest-way-to-get-rich
 excerpt: 'I break down exactly how investing just $100 a month can grow into over a million dollars, why waiting for the'
 author: editorial-desk

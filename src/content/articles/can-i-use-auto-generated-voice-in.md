@@ -1,5 +1,5 @@
 ---
-title: 'Can I use an auto-generated voice in a YouTube video and monetize it? | SSEGU'
+title: 'Can I use an auto-generated voice in a YouTube video and monetize it?'
 slug: can-i-use-auto-generated-voice-in
 excerpt: 'Auto-generated voices are computer-generated voices that can be used in various applications, including YouTube videos. These voices are created using'
 author: editorial-desk

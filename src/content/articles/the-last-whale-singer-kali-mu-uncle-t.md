@@ -1,5 +1,5 @@
 ---
-title: 'The Last Whale Singer - Kali Mu: Uncle T | ssegu | SSEGU'
+title: 'The Last Whale Singer - Kali Mu: Uncle T'
 slug: the-last-whale-singer-kali-mu-uncle-t
 excerpt: '🎼 The Last Whale Singer 🐋 Kali Mu: Uncle T Genre: Adventure, Animation, Family Runtime: 1 Hr 31 Min Kick Away Stress: 🎬'
 author: editorial-desk

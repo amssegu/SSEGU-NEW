@@ -1,5 +1,5 @@
 ---
-title: 'Potential Conflict In The North: Israeli Soldiers Are Preparing For A Major War With Lebanon | SSEGU'
+title: 'Potential Conflict In The North: Israeli Soldiers Are Preparing For A Major War With Lebanon'
 slug: potential-conflict-in-north-israeli
 excerpt: 'The North Conflict'
 author: editorial-desk

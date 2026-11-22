@@ -1,5 +1,5 @@
 ---
-title: 'The Last Stand of Ellen Cole Kali Mu: VJ Emmy - ssegu | SSEGU'
+title: 'The Last Stand of Ellen Cole Kali Mu: VJ Emmy - ssegu'
 slug: the-last-stand-of-ellen-cole-kali-mu-vj
 excerpt: 'The Last Stand of Ellen Cole Kali Mu: VJ Emmy Genre: Action, Adventure Kick Away Stress: 🎬'
 author: editorial-desk

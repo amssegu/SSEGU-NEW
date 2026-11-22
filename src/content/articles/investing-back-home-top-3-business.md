@@ -1,5 +1,5 @@
 ---
-title: 'Investing Back Home: Top Business Ideas for Ugandans Abroad | SSEGU'
+title: 'Investing Back Home: Top Business Ideas for Ugandans Abroad'
 slug: investing-back-home-top-3-business
 excerpt: 'In recent years, it'
 author: editorial-desk

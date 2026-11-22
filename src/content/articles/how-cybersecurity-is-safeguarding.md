@@ -1,5 +1,5 @@
 ---
-title: 'How Cybersecurity Is Safeguarding the Digitized Financial Sector Against Emerging Threats | SSEGU'
+title: 'How Cybersecurity Is Safeguarding the Digitized Financial Sector Against Emerging Threats'
 slug: how-cybersecurity-is-safeguarding
 excerpt: 'Finance has come a long way. There was a time when even a simple deposit meant taking a trip to your local bank branch, standing in line, filling out'
 author: editorial-desk

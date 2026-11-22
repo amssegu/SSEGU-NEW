@@ -1,5 +1,5 @@
 ---
-title: 'The Ultimate Two-Word Technique for Manifesting Success | SSEGU'
+title: 'The Ultimate Two-Word Technique for Manifesting Success'
 slug: the-ultimate-two-word-technique-for
 excerpt: 'Imagine a simple technique that could help manifest your deepest desires while you sleep. A simple two-word technique before bed will attract anything'
 author: editorial-desk

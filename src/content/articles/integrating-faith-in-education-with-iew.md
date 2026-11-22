@@ -1,5 +1,5 @@
 ---
-title: 'Integrating Faith in Education with IEW | SSEGU'
+title: 'Integrating Faith in Education with IEW'
 slug: integrating-faith-in-education-with-iew
 excerpt: 'Explore the transformative power of integrating Bible-based principles into education through IEW'
 author: editorial-desk

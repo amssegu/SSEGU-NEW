@@ -1,5 +1,5 @@
 ---
-title: 'Unlock Your Potential: How Your Thoughts Shape Your Reality (And Help You Achieve Your Goals) | SSEGU'
+title: 'Unlock Your Potential: How Your Thoughts Shape Your Reality (And Help You Achieve Your Goals)'
 slug: unlock-your-potential-how-your-thoughts
 excerpt: 'mindset, manifestation, positive thinking, goal setting, self-improvement, personal development'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Embrace Minimalism: Simplify Life for Lasting Happiness | SSEGU'
+title: 'Embrace Minimalism: Simplify Life for Lasting Happiness'
 slug: embrace-minimalism-simplify-life-for
 excerpt: 'Minimalism is more than just a design trend; it'
 author: editorial-desk

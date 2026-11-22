@@ -1,5 +1,5 @@
 ---
-title: 'ASMR for Chronic Pain Relief: Can Gentle Visuals and Sounds Alleviate Physical Discomfort? | SSEGU'
+title: 'ASMR for Chronic Pain Relief: Can Gentle Visuals and Sounds Alleviate Physical Discomfort?'
 slug: asmr-for-chronic-pain-relief-can-gentle
 excerpt: 'Have you ever felt the gentle waves of relaxation wash over you from soft whispers or the soothing sound of rain? If so, you'
 author: editorial-desk

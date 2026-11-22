@@ -1,5 +1,5 @@
 ---
-title: 'Class Central: The Odysseus Strategy - How To Stay Persistent With Your Online Business in 2027 | SSEGU'
+title: 'Class Central: The Odysseus Strategy - How To Stay Persistent With Your Online Business in 2027'
 slug: class-central-odysseus-strategy-how-to
 excerpt: 'On Class Central, you can learn the exact skills to navigate your own 10-year journey in 12 months. This guide breaks down'
 author: editorial-desk

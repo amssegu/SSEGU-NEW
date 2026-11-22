@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Explained in Simple Terms: A Beginner's Guide | SSEGU"
+title: "Machine Learning Explained in Simple Terms: A Beginner's Guide"
 slug: machine-learning-explained-in-simple
 excerpt: 'Think of it like teaching a child to recognize different animals. Instead of memorizing every animal, the child learns by seeing many examples. Over t'
 author: editorial-desk

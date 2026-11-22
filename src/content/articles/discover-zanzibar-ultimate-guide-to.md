@@ -1,5 +1,5 @@
 ---
-title: "Discover Zanzibar: The Ultimate Guide to Exploring Tanzania's Island Paradise | SSEGU"
+title: "Discover Zanzibar: The Ultimate Guide to Exploring Tanzania's Island Paradise"
 slug: discover-zanzibar-ultimate-guide-to
 excerpt: 'Welcome to Zanzibar, the idyllic island paradise off the coast of Tanzania in East Africa. Known as the'
 author: editorial-desk

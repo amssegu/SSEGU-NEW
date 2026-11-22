@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Self-Compassion: Treating Yourself with Kindness and Understanding | SSEGU'
+title: 'The Power of Self-Compassion: Treating Yourself with Kindness and Understanding'
 slug: the-power-of-self-compassion-treating
 excerpt: 'Self-compassion is the practice of treating yourself with the same kindness, care, and understanding that you would offer to a good friend.'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: '🇺🇬 Bobi Wine Performance, Speech & Award – 2026 Democracy Gala | SSEGU'
+title: '🇺🇬 Bobi Wine Performance, Speech & Award – 2026 Democracy Gala'
 slug: bobi-wine-performance-speech-award-2026
 excerpt: 'Watch Bobi Wine’s performance, speech, and award moment at the 2026 Heroes of Democracy Gala in New York.'
 author: editorial-desk

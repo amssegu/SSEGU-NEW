@@ -1,5 +1,5 @@
 ---
-title: 'Russia Offers Elon Musk a Nuclear Power Plant for His Mars Mission—Will He Accept? | SSEGU'
+title: 'Russia Offers Elon Musk a Nuclear Power Plant for His Mars Mission—Will He Accept?'
 slug: russia-offers-elon-musk-nuclear-power
 excerpt: 'Recently, Elon Musk came out with his plan for a Mars mission, with the first Martian being his Tesla robot. Well, for that, they will need power, whi'
 author: editorial-desk

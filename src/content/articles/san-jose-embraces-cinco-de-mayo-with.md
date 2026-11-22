@@ -1,5 +1,5 @@
 ---
-title: 'San Jose Embraces Cinco de Mayo with Colorful Parades and Official Lowriding Celebration | SSEGU'
+title: 'San Jose Embraces Cinco de Mayo with Colorful Parades and Official Lowriding Celebration'
 slug: san-jose-embraces-cinco-de-mayo-with
 excerpt: 'Cinco de Mayo, San Jose celebration, Mexican heritage, community parade, vibrant festivities, cultural event, street celebration, Mexican culture, isa'
 author: editorial-desk

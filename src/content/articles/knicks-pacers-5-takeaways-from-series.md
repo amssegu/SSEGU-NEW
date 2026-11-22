@@ -1,5 +1,5 @@
 ---
-title: 'Knicks-Pacers: 5 Takeaways From Series-changing Game 3 | SSEGU'
+title: 'Knicks-Pacers: 5 Takeaways From Series-changing Game 3'
 slug: knicks-pacers-5-takeaways-from-series
 excerpt: 'Game 3 proved to be a watershed moment for the series, with several key plays dramatically shifting the momentum in favor of the victors. A critical t'
 author: editorial-desk

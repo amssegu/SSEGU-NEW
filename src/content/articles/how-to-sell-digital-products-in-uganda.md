@@ -1,5 +1,5 @@
 ---
-title: 'How to Sell Digital Products in Uganda Without a Website | SSEGU'
+title: 'How to Sell Digital Products in Uganda Without a Website'
 slug: how-to-sell-digital-products-in-uganda
 excerpt: 'Learn how to sell digital products in Uganda without a website, using Mobile Money, WhatsApp, simple delivery tools and practical pricing strategies.'
 author: editorial-desk

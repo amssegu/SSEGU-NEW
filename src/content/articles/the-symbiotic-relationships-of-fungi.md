@@ -1,5 +1,5 @@
 ---
-title: 'The Symbiotic Relationships of Fungi | SSEGU'
+title: 'The Symbiotic Relationships of Fungi'
 slug: the-symbiotic-relationships-of-fungi
 excerpt: 'What are symbiotic relationships in fungi? Symbiotic relationships involve interactions between two different organisms living close to each other. Fungi for...'
 author: editorial-desk

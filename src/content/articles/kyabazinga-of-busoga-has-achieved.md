@@ -1,5 +1,5 @@
 ---
-title: 'Kyabazinga of Busoga Has achieved Another Degree In Global Affairs | SSEGU'
+title: 'Kyabazinga of Busoga Has achieved Another Degree In Global Affairs'
 slug: kyabazinga-of-busoga-has-achieved
 excerpt: 'The Kyabazinga of Busoga, His Royal Highness William Gabula Nadiope IV, graduated with a Master’s of Advanced Studies in Global Affairs from Yale U'
 author: editorial-desk

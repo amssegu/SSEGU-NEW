@@ -1,5 +1,5 @@
 ---
-title: 'Travel Hacks: Maximizing Your Adventures On A Budget | SSEGU'
+title: 'Travel Hacks: Maximizing Your Adventures On A Budget'
 slug: travel-hacks-maximizing-your-adventures
 excerpt: 'Discovering Affordable Destinations That Wow Exploring the globe doesn'
 author: editorial-desk

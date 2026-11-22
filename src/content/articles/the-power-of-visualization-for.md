@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Visualization for Achieving Goals | SSEGU'
+title: 'The Power of Visualization for Achieving Goals'
 slug: the-power-of-visualization-for
 excerpt: 'Visualization is a powerful mental technique that involves envisioning the desired outcomes in your life. This method is not just a motivational tool, but it...'
 author: editorial-desk

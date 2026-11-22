@@ -1,5 +1,5 @@
 ---
-title: 'The Strategic Artistry of Go: A Journey Through Ancient East Asian Board Games | SSEGU'
+title: 'The Strategic Artistry of Go: A Journey Through Ancient East Asian Board Games'
 slug: the-strategic-artistry-of-go-journey
 excerpt: 'Discover how this ancient game has influenced cultures and continues to captivate minds across the world. Amidst the gently rustling leaves of a serene Japan...'
 author: editorial-desk

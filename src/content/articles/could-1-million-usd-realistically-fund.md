@@ -1,5 +1,5 @@
 ---
-title: 'Could $1 Million USD Realistically Fund the Start of a New City in Africa? | ssegu | SSEGU'
+title: 'Could $1 Million USD Realistically Fund the Start of a New City in Africa?'
 slug: could-1-million-usd-realistically-fund
 excerpt: 'In countries where rural land remains relatively affordable — including parts of Zambia, Tanzania, Ghana, and Uganda — investors can acquire hundreds'
 author: editorial-desk

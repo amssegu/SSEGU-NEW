@@ -1,5 +1,5 @@
 ---
-title: 'Building a Culture of Openness: Embracing Transparent Communication in the Workplace | SSEGU'
+title: 'Building a Culture of Openness: Embracing Transparent Communication in the Workplace'
 slug: building-culture-of-openness-embracing
 excerpt: 'Once upon a time in a bustling startup in Silicon Valley, a young team leader named Sarah noticed a significant downturn in her team'
 author: editorial-desk

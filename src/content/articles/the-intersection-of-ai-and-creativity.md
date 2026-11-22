@@ -1,5 +1,5 @@
 ---
-title: 'The Intersection of AI and Creativity | SSEGU'
+title: 'The Intersection of AI and Creativity'
 slug: the-intersection-of-ai-and-creativity
 excerpt: 'The intersection of artificial intelligence (AI) and creativity represents a burgeoning field that explores how technology can mimic, augment, and expand the...'
 author: editorial-desk

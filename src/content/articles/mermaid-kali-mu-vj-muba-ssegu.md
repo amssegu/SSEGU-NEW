@@ -1,5 +1,5 @@
 ---
-title: 'Mermaid Kali Mu: VJ Muba - ssegu | SSEGU'
+title: 'Mermaid Kali Mu: VJ Muba - ssegu'
 slug: mermaid-kali-mu-vj-muba-ssegu
 excerpt: 'Mermaid Kali Mu: VJ Muba Genre: Horror, Comedy, Action, Thriller Kick Away Stress: 🎬'
 author: editorial-desk

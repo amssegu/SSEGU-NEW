@@ -1,5 +1,5 @@
 ---
-title: 'Transform Your Life: 12 Habits for Optimal Health and Productivity | SSEGU'
+title: 'Transform Your Life: 12 Habits for Optimal Health and Productivity'
 slug: transform-your-life-12-habits-for
 excerpt: 'Establishing a Structured Daily Routine One of the foundational habits for achieving optimal health and productivity is to establish a structured daily routi...'
 author: editorial-desk

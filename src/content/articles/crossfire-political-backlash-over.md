@@ -1,5 +1,5 @@
 ---
-title: "Political Backlash Over Biden's Israel Arms Move | SSEGU"
+title: "Political Backlash Over Biden's Israel Arms Move"
 slug: crossfire-political-backlash-over
 excerpt: 'The recent announcement of a U.S. arms deal with Israel has sent ripples through the corridors of power in Washington and beyond. The agreement, which'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'If You Were a Clock: The Philosophy of Turning Back Time | SSEGU'
+title: 'If You Were a Clock: The Philosophy of Turning Back Time'
 slug: if-you-were-clock-philosophy-of-turning
 excerpt: 'The Nature of Time: Understanding Its Linear Progression Time, as a concept, has fascinated both philosophers and scientists alike, reflecting a complex inte...'
 author: editorial-desk

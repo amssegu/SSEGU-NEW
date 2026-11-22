@@ -1,5 +1,5 @@
 ---
-title: 'Alternative Uses for Coffee Filters | SSEGU'
+title: 'Alternative Uses for Coffee Filters'
 slug: alternative-uses-for-coffee-filters
 excerpt: 'Discovering New Uses for an Everyday Item: Coffee Filters Beyond Brewing While most people stock coffee filters for their primary use in brewing coffee, many...'
 author: editorial-desk

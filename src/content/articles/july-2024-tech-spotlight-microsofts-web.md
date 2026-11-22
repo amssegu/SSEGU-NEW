@@ -1,5 +1,5 @@
 ---
-title: "Unveiling Microsoft's Web Store | SSEGU"
+title: "Unveiling Microsoft's Web Store"
 slug: july-2024-tech-spotlight-microsofts-web
 excerpt: 'Microsoft Web Store, online shopping evolution, digital marketplace challenge, consumer experience enhancement, cutting-edge technology, innovative se'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Explore how HDMR technology is revolutionizing data storage for companies investing in high-density hard drives. | SSEGU'
+title: 'Explore how HDMR technology is revolutionizing data storage for companies investing in high-density hard drives.'
 slug: explore-how-hdmr-technology-is
 excerpt: 'Imagine a world where the amount of data you can store is no longer limited by physical space. That’s the promise of High-Density Magnetic Recording ('
 author: editorial-desk

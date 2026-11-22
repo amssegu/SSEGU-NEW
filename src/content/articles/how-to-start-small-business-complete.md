@@ -1,5 +1,5 @@
 ---
-title: "How to Start a Small Business: A Complete Beginner's Guide to Building a Successful Business | SSEGU"
+title: "How to Start a Small Business: A Complete Beginner's Guide to Building a Successful Business"
 slug: how-to-start-small-business-complete
 excerpt: 'This complete guide explains how to start a small business from scratch, including how to choose an idea, create a business plan, understand customers'
 author: editorial-desk

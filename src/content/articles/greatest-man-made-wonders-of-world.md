@@ -1,5 +1,5 @@
 ---
-title: 'Greatest Man-Made Wonders of the World, A Journey Through Timeless Architectural Marvels | SSEGU'
+title: 'Greatest Man-Made Wonders of the World, A Journey Through Timeless Architectural Marvels'
 slug: greatest-man-made-wonders-of-world
 excerpt: 'Discover the 30 greatest man-made wonders of the world, from ancient temples to modern skyscrapers. Explore iconic landmarks that showcase the brillia'
 author: editorial-desk

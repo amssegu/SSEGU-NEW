@@ -1,5 +1,5 @@
 ---
-title: 'Discover innovative storage cabinet solutions designed to maximize small spaces and keep your home organized and clutter-free. | SSEGU'
+title: 'Discover innovative storage cabinet solutions designed to maximize small spaces and keep your home organized and clutter-free.'
 slug: discover-innovative-storage-cabinet
 excerpt: 'Living in a small space poses unique challenges, one of the biggest being storage. The key to maximizing every inch is effective organization and cle'
 author: editorial-desk

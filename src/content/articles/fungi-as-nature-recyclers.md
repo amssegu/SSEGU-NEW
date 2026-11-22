@@ -1,5 +1,5 @@
 ---
-title: "Fungi as Nature's Recyclers | SSEGU"
+title: "Fungi as Nature's Recyclers"
 slug: fungi-as-nature-recyclers
 excerpt: 'Fungi, an often overlooked kingdom of organisms, play crucial roles in ecosystems across the globe. From tiny yeasts to sprawling mycelial networks, f'
 author: editorial-desk

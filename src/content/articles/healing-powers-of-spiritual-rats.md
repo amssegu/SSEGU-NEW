@@ -1,5 +1,5 @@
 ---
-title: 'Healing Powers of the Spiritual Rats | SSEGU'
+title: 'Healing Powers of the Spiritual Rats'
 slug: healing-powers-of-spiritual-rats
 excerpt: 'Exploring the mystical healing abilities of the Spiritual Rats and their significance in traditional practices, Healing Powers of the Spiritual Rats'
 author: editorial-desk

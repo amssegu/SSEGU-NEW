@@ -1,5 +1,5 @@
 ---
-title: 'Signs They’re Attracted to You | SSEGU'
+title: 'Signs They’re Attracted to You'
 slug: signs-theyre-attracted-to-you
 excerpt: 'attraction signs, body language attraction, signs of interest, flirting signals, relationship tips, dating advice'
 author: editorial-desk

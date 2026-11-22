@@ -1,5 +1,5 @@
 ---
-title: 'Top Money-Making Apps to Boost Your Income | SSEGU'
+title: 'Top Money-Making Apps to Boost Your Income'
 slug: top-money-making-apps-to-boost-your
 excerpt: 'If you'
 author: editorial-desk

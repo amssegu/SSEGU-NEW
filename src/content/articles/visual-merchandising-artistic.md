@@ -1,5 +1,5 @@
 ---
-title: 'Visual Merchandising: Artistic Approaches to Showcasing Products | SSEGU'
+title: 'Visual Merchandising: Artistic Approaches to Showcasing Products'
 slug: visual-merchandising-artistic
 excerpt: 'Once upon a time, in the bustling lanes of a popular shopping district, stood an old, overlooked bookstore that had seen better days. Its windows were'
 author: editorial-desk

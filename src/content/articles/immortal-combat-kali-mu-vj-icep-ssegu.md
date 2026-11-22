@@ -1,5 +1,5 @@
 ---
-title: 'Immortal Combat - Kali Mu: VJ ICEP | ssegu | SSEGU'
+title: 'Immortal Combat - Kali Mu: VJ ICEP'
 slug: immortal-combat-kali-mu-vj-icep-ssegu
 excerpt: '⚔️ Immortal Combat 🔥 🎥 Kali Mu: VJ ICEP 🎭 Genre: Action, Adventure, Sci-Fi'
 author: editorial-desk

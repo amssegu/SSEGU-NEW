@@ -1,5 +1,5 @@
 ---
-title: 'Unlocking Financial Abundance | SSEGU'
+title: 'Unlocking Financial Abundance'
 slug: unlocking-financial-abundance
 excerpt: 'What if I told you that a simple change in your mindset could unleash a flood of money and abundance into your life? It may sound crazy, but this revo'
 author: editorial-desk

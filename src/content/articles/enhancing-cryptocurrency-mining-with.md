@@ -1,5 +1,5 @@
 ---
-title: 'Enhancing Cryptocurrency Mining with Bitcoin Containers | SSEGU'
+title: 'Enhancing Cryptocurrency Mining with Bitcoin Containers'
 slug: enhancing-cryptocurrency-mining-with
 excerpt: 'Introduction to Bitcoin Containers In the rapidly evolving realm of cryptocurrency mining, securing and scaling operations is paramount for success. Innovati...'
 author: editorial-desk

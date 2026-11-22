@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Stage: 10 Ugandan Celebrities Who Turned Fame Into Business | SSEGU'
+title: 'Beyond the Stage: 10 Ugandan Celebrities Who Turned Fame Into Business'
 slug: top-ugandan-celebrities-turning-their
 excerpt: 'Meet 10 Ugandan celebrities who have moved beyond entertainment into business'
 author: editorial-desk

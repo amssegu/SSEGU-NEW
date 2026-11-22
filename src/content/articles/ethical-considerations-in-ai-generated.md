@@ -1,5 +1,5 @@
 ---
-title: 'Ethical Considerations in AI-Generated Art | SSEGU'
+title: 'Ethical Considerations in AI-Generated Art'
 slug: ethical-considerations-in-ai-generated
 excerpt: 'Introduction to Ethical Considerations in AI-Generated Art As artificial intelligence (AI) technology advances, it increasingly intersects with creative doma...'
 author: editorial-desk

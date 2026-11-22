@@ -1,5 +1,5 @@
 ---
-title: 'AI Search vs. Google: Which One Gives You the Right Answers Depends on your use-case | SSEGU'
+title: 'AI Search vs. Google: Which One Gives You the Right Answers Depends on your use-case'
 slug: ai-search-vs-google-which-one-gives-you
 excerpt: 'Recently, AI search has been popping up as a rival to Google'
 author: editorial-desk

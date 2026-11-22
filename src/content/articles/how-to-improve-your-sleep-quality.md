@@ -1,5 +1,5 @@
 ---
-title: 'How to Improve Your Sleep Quality: A Complete Guide to Better Sleep and Better Health | SSEGU'
+title: 'How to Improve Your Sleep Quality: A Complete Guide to Better Sleep and Better Health'
 slug: how-to-improve-your-sleep-quality
 excerpt: 'This comprehensive guide explains why sleep matters, the factors that affect sleep quality, and practical strategies you can use to enjoy deeper, more'
 author: editorial-desk

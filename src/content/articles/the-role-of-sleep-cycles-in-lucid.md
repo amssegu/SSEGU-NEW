@@ -1,5 +1,5 @@
 ---
-title: 'The Role of Sleep Cycles in Lucid Dreaming: Understanding REM Sleep and Dream Control | SSEGU'
+title: 'The Role of Sleep Cycles in Lucid Dreaming: Understanding REM Sleep and Dream Control'
 slug: the-role-of-sleep-cycles-in-lucid
 excerpt: 'Have you ever woken up from a dream that felt so real you wished you could go back and control its events? Well, this fascinating ability is not exclu'
 author: editorial-desk

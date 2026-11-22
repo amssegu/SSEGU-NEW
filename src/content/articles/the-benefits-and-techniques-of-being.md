@@ -1,5 +1,5 @@
 ---
-title: 'The benefits and techniques of being comfortable with solitude and nurturing a positive relationship with oneself. | SSEGU'
+title: 'The benefits and techniques of being comfortable with solitude and nurturing a positive relationship with oneself.'
 slug: the-benefits-and-techniques-of-being
 excerpt: 'self-care, mindfulness, self-improvement, solitude benefits, self-love, mental well-being'
 author: editorial-desk

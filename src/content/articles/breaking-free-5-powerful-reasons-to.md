@@ -1,5 +1,5 @@
 ---
-title: 'Breaking Free: 5 Powerful Reasons to Leave a Toxic Environment Today | SSEGU'
+title: 'Breaking Free: 5 Powerful Reasons to Leave a Toxic Environment Today'
 slug: breaking-free-5-powerful-reasons-to
 excerpt: 'Dear friend, I see you. I see the weight of toxicity bearing down on you, suffocating your soul. I see the exhaustion, the doubt, and the fear. But mo'
 author: editorial-desk

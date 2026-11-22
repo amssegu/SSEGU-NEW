@@ -1,5 +1,5 @@
 ---
-title: 'Understanding the Basics of Theophostic Prayer | SSEGU'
+title: 'Understanding the Basics of Theophostic Prayer'
 slug: understanding-basics-of-theophostic
 excerpt: 'TPM is a unique approach to inner healing. It combines prayer and psychological principles, aiming to facilitate emotional healing through the illumin'
 author: editorial-desk

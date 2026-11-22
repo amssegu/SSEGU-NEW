@@ -1,5 +1,5 @@
 ---
-title: 'Discover essential healthcare services, insurance options &amp; costs in Dubai for single expats. Learn more! | SSEGU'
+title: 'Discover essential healthcare services, insurance options &amp; costs in Dubai for single expats. Learn more!'
 slug: discover-essential-healthcare-services
 excerpt: 'Dubai, known for its ultramodern architecture and bustling expat community, offers a robust healthcare system that caters impressively to its diverse'
 author: editorial-desk

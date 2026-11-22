@@ -1,5 +1,5 @@
 ---
-title: 'how to use AutoCAD to create house plans this is the Mastering of AutoCAD for House Plan Design | SSEGU'
+title: 'how to use AutoCAD to create house plans this is the Mastering of AutoCAD for House Plan Design'
 slug: how-to-use-autocad-to-create-house
 excerpt: 'AutoCAD house plans, AutoCAD home design, AutoCAD architectural design, house plan drafting, AutoCAD tutorials, home plan drawing'
 author: editorial-desk

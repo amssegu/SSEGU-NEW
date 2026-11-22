@@ -1,5 +1,5 @@
 ---
-title: 'How to Start Investing in Stocks with $100: Beginner-Friendly Guide for 2026 | ssegu | SSEGU'
+title: 'How to Start Investing in Stocks with $100: Beginner-Friendly Guide for 2026'
 slug: how-to-start-investing-in-stocks-with
 excerpt: 'This step-by-step guide explains how to start investing with a small budget while reducing risk and building long-term financial habits.'
 author: editorial-desk

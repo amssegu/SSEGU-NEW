@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Betika on Sports Betting Trends in East Africa | SSEGU'
+title: 'The Impact of Betika on Sports Betting Trends in East Africa'
 slug: the-impact-of-betika-on-sports-betting
 excerpt: 'Betika, a prominent sports betting company, has significantly shaped the sports betting landscape in East Africa. Since its establishment, Betika has'
 author: editorial-desk

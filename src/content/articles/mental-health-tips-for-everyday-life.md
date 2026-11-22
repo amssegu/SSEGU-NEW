@@ -1,5 +1,5 @@
 ---
-title: 'Mental Health Tips for Everyday Life: Simple Habits for a Happier and Healthier Mind | SSEGU'
+title: 'Mental Health Tips for Everyday Life: Simple Habits for a Happier and Healthier Mind'
 slug: mental-health-tips-for-everyday-life
 excerpt: 'This comprehensive guide explores practical mental health tips you can incorporate into your everyday life to support emotional well-being and build l'
 author: editorial-desk

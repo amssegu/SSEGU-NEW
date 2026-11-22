@@ -1,5 +1,5 @@
 ---
-title: 'Whistle - Kali Mu: VJ Jingo | ssegu | SSEGU'
+title: 'Whistle - Kali Mu: VJ Jingo'
 slug: whistle-kali-mu-vj-jingo-ssegu
 excerpt: 'Whistle Data-saving downloads Kali Mu: VJ Jingo Genre: Horror,Mystery - Whistle - Kali Mu: VJ Jingo | ssegu'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Fermentation Around the World | SSEGU'
+title: 'Fermentation Around the World'
 slug: fermentation-around-world
 excerpt: 'Fermentation Around the World: A Journey Through Traditional Practices Fermentation is a culinary process used across the globe that involves the breakdown o...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Body Language and the Simplicity of Life Lessons | SSEGU'
+title: 'The Power of Body Language and the Simplicity of Life Lessons'
 slug: the-power-of-body-language-and
 excerpt: 'The Impact of Body Language in Communication Body language plays a crucial role in everyday interactions, often conveying messages that spoken words cannot e...'
 author: editorial-desk

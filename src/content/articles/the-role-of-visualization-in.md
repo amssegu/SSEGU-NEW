@@ -1,5 +1,5 @@
 ---
-title: 'The Role of Visualization in Manifestation: Creating a Clear Vision for Your Goals | SSEGU'
+title: 'The Role of Visualization in Manifestation: Creating a Clear Vision for Your Goals'
 slug: the-role-of-visualization-in
 excerpt: 'Explore how visualization techniques can play a crucial role in manifesting your goals and creating a clear vision for your future.'
 author: editorial-desk

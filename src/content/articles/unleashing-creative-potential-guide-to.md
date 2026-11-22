@@ -1,5 +1,5 @@
 ---
-title: 'Unleashing Creative Potential: A Guide to the Best DIY Kits for Adults | SSEGU'
+title: 'Unleashing Creative Potential: A Guide to the Best DIY Kits for Adults'
 slug: unleashing-creative-potential-guide-to
 excerpt: 'In the heart of bustling New York City, amidst the chaos and the constant buzz, Sarah discovered a small beacon of tranquility that would change her l'
 author: editorial-desk

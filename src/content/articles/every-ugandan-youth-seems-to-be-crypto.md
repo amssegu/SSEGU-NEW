@@ -1,5 +1,5 @@
 ---
-title: 'Every Ugandan Youth Seems to be Crypto Trading, but What is it Costing Them? | SSEGU'
+title: 'Every Ugandan Youth Seems to be Crypto Trading, but What is it Costing Them?'
 slug: every-ugandan-youth-seems-to-be-crypto
 excerpt: 'If you have been around many youths in Uganda, you have probably heard one of them talking about an interest in cryptocurrencies and day trading. In f'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Anita Fabiola and Mark Mubiru Celebrate the Arrival of Their Twins. | SSEGU'
+title: 'Anita Fabiola and Mark Mubiru Celebrate the Arrival of Their Twins.'
 slug: anita-fabiola-and-mark-mubiru-celebrate
 excerpt: 'Former Ugandan media personality Anita Fabiola and her husband, Mark Ronald Mubiru, are celebrating the arrival of twins, a momentous occasion that ha'
 author: editorial-desk

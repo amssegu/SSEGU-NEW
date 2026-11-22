@@ -1,5 +1,5 @@
 ---
-title: 'Strategies for Saving and Investing on a 17,000 AED Salary in Dubai | SSEGU'
+title: 'Strategies for Saving and Investing on a 17,000 AED Salary in Dubai'
 slug: strategies-for-saving-and-investing-on
 excerpt: 'Financial Management on a Moderate Income in Dubai Dubai is known for its extravagant lifestyle and high cost of living. However, with a strategic approach, ...'
 author: editorial-desk

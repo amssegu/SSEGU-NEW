@@ -1,5 +1,5 @@
 ---
-title: 'Fitness Fundamentals: Crafting Your Perfect Workout Routine | SSEGU'
+title: 'Fitness Fundamentals: Crafting Your Perfect Workout Routine'
 slug: fitness-fundamentals-crafting-your
 excerpt: 'Identifying Your Fitness Goals and Assessing Your Current Level Embarking on a fitness journey starts with a clear vision of what you want to achieve. Whethe...'
 author: editorial-desk

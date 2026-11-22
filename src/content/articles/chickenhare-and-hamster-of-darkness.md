@@ -1,5 +1,5 @@
 ---
-title: 'Chickenhare and the Hamster of Darkness Kali Mu: VJ Uncle T - ssegu | SSEGU'
+title: 'Chickenhare and the Hamster of Darkness Kali Mu: VJ Uncle T - ssegu'
 slug: chickenhare-and-hamster-of-darkness
 excerpt: 'Chickenhare and the Hamster of Darkness Kali Mu: VJ Uncle T Genre: Adventure, Comedy, Family, Fantasy Kick Away Stress: 🎬'
 author: editorial-desk

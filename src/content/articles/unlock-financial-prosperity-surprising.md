@@ -1,5 +1,5 @@
 ---
-title: 'Unlock Financial Prosperity with the wisdom of Buddhism | SSEGU'
+title: 'Unlock Financial Prosperity with the wisdom of Buddhism'
 slug: unlock-financial-prosperity-surprising
 excerpt: 'Have you ever felt like money slips through your fingers no matter how diligently you plan or save? Picture this: you'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'They Will Kill You - VJ Soul | ssegu | SSEGU'
+title: 'They Will Kill You - VJ Soul'
 slug: they-will-kill-you-vj-soul-ssegu
 excerpt: 'They Will Kill You - VJ Soul - A woman answers a cryptic ad for a housekeeping job at a luxurious yet foreboding New York City high-rise.'
 author: editorial-desk

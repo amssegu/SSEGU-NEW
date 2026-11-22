@@ -1,5 +1,5 @@
 ---
-title: 'Jowy Landa confirms Death of her Brother Martin. | SSEGU'
+title: 'Jowy Landa confirms Death of her Brother Martin.'
 slug: jowy-landa-confirms-death-of-her
 excerpt: 'Jowy Landa, the vibrant Ugandan musician known for her electrifying performances and captivating voice, has shared heart-wrenching news of her belove'
 author: editorial-desk

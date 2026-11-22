@@ -1,5 +1,5 @@
 ---
-title: 'Top 10 Best Hotels in the World 2024 | SSEGU'
+title: 'Top 10 Best Hotels in the World 2024'
 slug: top-10-best-hotels-in-world-2024
 excerpt: 'top hotels 2024, best luxury hotels, world’s best hotels, luxury travel 2024, hotel reviews 2024, ultimate hotel experiences'
 author: editorial-desk

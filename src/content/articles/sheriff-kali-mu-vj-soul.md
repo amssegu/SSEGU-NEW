@@ -1,5 +1,5 @@
 ---
-title: 'Sheriff Kali Mu: VJ Soul | SSEGU'
+title: 'Sheriff Kali Mu: VJ Soul'
 slug: sheriff-kali-mu-vj-soul
 excerpt: 'Download Sheriff By VJ Soul Mp4 Mobile Movie. Stream Sheriff By VJ Soul ssegu'
 author: editorial-desk

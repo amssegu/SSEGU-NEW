@@ -1,5 +1,5 @@
 ---
-title: 'How the Rich Stay Rich While Everyone Else Struggles, A Truth Revealed | SSEGU'
+title: 'How the Rich Stay Rich While Everyone Else Struggles, A Truth Revealed'
 slug: how-rich-stay-rich-while-everyone-else
 excerpt: 'The Bible says that'
 author: editorial-desk

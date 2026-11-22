@@ -1,5 +1,5 @@
 ---
-title: 'How to Build Healthy Daily Habits: A Complete Guide to Creating Lasting Positive Changes | SSEGU'
+title: 'How to Build Healthy Daily Habits: A Complete Guide to Creating Lasting Positive Changes'
 slug: how-to-build-healthy-daily-habits
 excerpt: 'Many people struggle with unhealthy routines because they try to change everything at once. The most effective approach is to focus on small, realisti'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Cedric Babu Body Returned to Uganda And Will Be Laid To Rest On Saturday. | SSEGU'
+title: 'Cedric Babu Body Returned to Uganda And Will Be Laid To Rest On Saturday.'
 slug: cedric-babu-body-returned-to-uganda-and
 excerpt: 'The body of the late Cedric Babu, son of former Kampala Central MP Francis Babu, has arrived at Entebbe International Airport. He will be laid to rest'
 author: editorial-desk

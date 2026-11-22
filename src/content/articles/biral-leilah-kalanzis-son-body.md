@@ -1,5 +1,5 @@
 ---
-title: "Biral Leilah Kalanzi's son Body Repatriated And To Be Buried On Friday | SSEGU"
+title: "Biral Leilah Kalanzi's son Body Repatriated And To Be Buried On Friday"
 slug: biral-leilah-kalanzis-son-body
 excerpt: 'On June 19th, Leilah Kalanzi confirms receiving the body of her late son Biral who died in Qatar last week. On return of his body, vigil was held at'
 author: editorial-desk

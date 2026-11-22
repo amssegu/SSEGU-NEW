@@ -1,5 +1,5 @@
 ---
-title: 'Switzerland Triumphs at Eurovision 2023 | SSEGU'
+title: 'Switzerland Triumphs at Eurovision 2023'
 slug: switzerland-triumphs-at-eurovision-2023
 excerpt: 'Switzerland'
 author: editorial-desk

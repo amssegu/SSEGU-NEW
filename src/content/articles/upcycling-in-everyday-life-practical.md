@@ -1,5 +1,5 @@
 ---
-title: 'Upcycling in Everyday Life: Practical Tips and DIY Ideas | SSEGU'
+title: 'Upcycling in Everyday Life: Practical Tips and DIY Ideas'
 slug: upcycling-in-everyday-life-practical
 excerpt: 'Upcycling, a term first used in 1994, has grown in popularity as people have become more environmentally conscious. Unlike recycling'
 author: editorial-desk

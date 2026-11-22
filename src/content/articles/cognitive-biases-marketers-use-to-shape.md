@@ -1,5 +1,5 @@
 ---
-title: 'Cognitive Biases Marketers Use to Shape Consumer Preferences | SSEGU'
+title: 'Cognitive Biases Marketers Use to Shape Consumer Preferences'
 slug: cognitive-biases-marketers-use-to-shape
 excerpt: 'Have you ever wondered why you choose one brand over another, even when they offer similar products? It'
 author: editorial-desk

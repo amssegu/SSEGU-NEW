@@ -1,5 +1,5 @@
 ---
-title: 'Understanding the Potential Risks of Theophostic Prayer | SSEGU'
+title: 'Understanding the Potential Risks of Theophostic Prayer'
 slug: understanding-potential-risks-of
 excerpt: 'Understanding the Potential Risks of Theophostic Prayer Theophostic Prayer, a specific method of prayer-focused healing and therapy developed by Dr. Ed Smith...'
 author: editorial-desk

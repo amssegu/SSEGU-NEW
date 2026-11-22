@@ -1,5 +1,5 @@
 ---
-title: 'Cedric Babu Laid To Rest in Kamengo. | SSEGU'
+title: 'Cedric Babu Laid To Rest in Kamengo.'
 slug: cedric-babu-laid-to-rest-in-kamengo
 excerpt: 'On June 7, 2025, thousands gathered for final farewell of Cedric Babu Ndilima in his ancestral home in Kamengo, Mpigi District . Prominent dignita'
 author: editorial-desk

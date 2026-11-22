@@ -1,5 +1,5 @@
 ---
-title: 'The Role of Zero-Waste Living in Combating Climate Change | SSEGU'
+title: 'The Role of Zero-Waste Living in Combating Climate Change'
 slug: the-role-of-zero-waste-living-in
 excerpt: 'Zero-waste living, which involves minimizing the trash we generate through thoughtful consumption and sustainable practices, stands out as a beacon of'
 author: editorial-desk

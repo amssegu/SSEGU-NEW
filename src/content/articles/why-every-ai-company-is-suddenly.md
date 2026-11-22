@@ -1,5 +1,5 @@
 ---
-title: 'Why Every AI Company Is Suddenly Obsessed With Reddit | SSEGU'
+title: 'Why Every AI Company Is Suddenly Obsessed With Reddit'
 slug: why-every-ai-company-is-suddenly
 excerpt: 'In the digital age, AI technology has experienced a remarkable rise in popularity. With advancements in machine learning and natural language processi'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Tanzania Battling Fury: Cyclone Hidaya Unleashes Havoc | SSEGU'
+title: 'Tanzania Battling Fury: Cyclone Hidaya Unleashes Havoc'
 slug: tanzania-battling-fury-cyclone-hidaya
 excerpt: 'Cyclone, landfall, flooding, deaths, ferry services, Dar es Salaam, Zanzibar, hurricane-force winds, isaacupdate, ssegu, facebook'
 author: editorial-desk

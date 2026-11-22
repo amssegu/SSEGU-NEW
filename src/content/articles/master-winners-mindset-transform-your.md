@@ -1,5 +1,5 @@
 ---
-title: "Master the Winner's Mindset: Transform Your Thinking to Achieve Unstoppable Success | SSEGU"
+title: "Master the Winner's Mindset: Transform Your Thinking to Achieve Unstoppable Success"
 slug: master-winners-mindset-transform-your
 excerpt: 'mindset transformation, success mindset, achieve success, positive thinking, mental toughness, personal growth'
 author: editorial-desk

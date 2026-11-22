@@ -1,5 +1,5 @@
 ---
-title: 'How I Make $1,000 a Month in Passive Income Doing Just 2 Hours of Work Per Week | SSEGU'
+title: 'How I Make $1,000 a Month in Passive Income Doing Just 2 Hours of Work Per Week'
 slug: how-i-make-1000-month-in-passive-income
 excerpt: 'passive income, side hustle, make money online, work from home, financial freedom, online business'
 author: editorial-desk

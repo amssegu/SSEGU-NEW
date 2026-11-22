@@ -1,5 +1,5 @@
 ---
-title: '3 Compelling Reasons Why I Use YouTube Shorts in My Digital Marketing Strategy | SSEGU'
+title: '3 Compelling Reasons Why I Use YouTube Shorts in My Digital Marketing Strategy'
 slug: 3-compelling-reasons-why-i-use-youtube
 excerpt: 'YouTube Shorts, digital marketing strategy, video marketing, social media marketing, content creation, online engagement'
 author: editorial-desk

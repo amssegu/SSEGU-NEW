@@ -1,5 +1,5 @@
 ---
-title: '6 Reasons Why Ugandans Are Obsessed with Foreign Brands Over our Own Local Ones | SSEGU'
+title: '6 Reasons Why Ugandans Are Obsessed with Foreign Brands Over our Own Local Ones'
 slug: 6-reasons-why-ugandans-are-obsessed
 excerpt: 'Foreign brands. We all like wearing those designer Gucci, Louis Vuitton, and whatnot. Even if it’s not a designer product, many Ugandans will more re'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'How to Start Freelancing in Uganda With No Experience | SSEGU'
+title: 'How to Start Freelancing in Uganda With No Experience'
 slug: how-to-start-freelancing-in-uganda-with
 excerpt: 'start freelancing in Uganda with no experience. Find beginner-friendly skills,clients,freelance websites,payment options and a 30-day plan'
 author: editorial-desk

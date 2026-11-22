@@ -1,5 +1,5 @@
 ---
-title: 'Rajini Gaang Kali Mu: VJ Kali | SSEGU'
+title: 'Rajini Gaang Kali Mu: VJ Kali'
 slug: rajini-gaang-kali-mu-vj-kali
 excerpt: 'Download Rajini Gaang By VJ Kali Mp4 Mobile Movie. Stream Rajini Gaang By VJ Kali ssegu'
 author: editorial-desk

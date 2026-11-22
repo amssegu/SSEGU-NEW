@@ -1,5 +1,5 @@
 ---
-title: 'Understanding the Power of Theophostic Prayer | SSEGU'
+title: 'Understanding the Power of Theophostic Prayer'
 slug: understanding-power-of-theophostic
 excerpt: 'Theophostic prayer is a Christian-based approach to emotional healing. It'
 author: editorial-desk

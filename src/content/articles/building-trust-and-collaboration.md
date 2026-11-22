@@ -1,5 +1,5 @@
 ---
-title: 'Building Trust and Collaboration through Transparent Communication in Remote Teams | SSEGU'
+title: 'Building Trust and Collaboration through Transparent Communication in Remote Teams'
 slug: building-trust-and-collaboration
 excerpt: 'Building Trust and Collaboration through Transparent Communication in Remote Teams In the evolving landscape of work, where remote teams are becoming increas...'
 author: editorial-desk

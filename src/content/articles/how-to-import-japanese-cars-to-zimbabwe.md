@@ -1,5 +1,5 @@
 ---
-title: 'How to import japanese cars to Zimbabwe | SSEGU'
+title: 'How to import japanese cars to Zimbabwe'
 slug: how-to-import-japanese-cars-to-zimbabwe
 excerpt: 'How to import cars from japan to Zimbabwe, Import cars Japan to Zimbabwe, car importation process, Japanese car exporters, import regulations Zimbabwe'
 author: editorial-desk

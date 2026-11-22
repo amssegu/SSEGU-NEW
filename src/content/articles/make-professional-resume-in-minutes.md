@@ -1,5 +1,5 @@
 ---
-title: 'Make A Professional Resume in Minutes | SSEGU'
+title: 'Make A Professional Resume in Minutes'
 slug: make-professional-resume-in-minutes
 excerpt: 'Are you looking to create a standout resume quickly and effortlessly? you can design a professional, eye-catching resume that grabs attention in just minutes...'
 author: editorial-desk

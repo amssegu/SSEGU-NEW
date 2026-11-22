@@ -1,5 +1,5 @@
 ---
-title: 'Navigating the Kenyan Stock Market: Tips for Beginners | SSEGU'
+title: 'Navigating the Kenyan Stock Market: Tips for Beginners'
 slug: navigating-kenyan-stock-market-tips-for
 excerpt: 'A comprehensive guide for beginners on how to effectively navigate and invest in the Kenyan stock market.'
 author: editorial-desk

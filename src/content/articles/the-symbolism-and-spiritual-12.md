@@ -1,5 +1,5 @@
 ---
-title: 'The Symbolism and Spiritual Significance of Sand Art | SSEGU'
+title: 'The Symbolism and Spiritual Significance of Sand Art'
 slug: the-symbolism-and-spiritual-12
 excerpt: 'The Symbolism and Spiritual Significance of Sand Art Sand art, an ancient and intricate form of artistic expression, has profound symbolic and spiritual mean...'
 author: editorial-desk

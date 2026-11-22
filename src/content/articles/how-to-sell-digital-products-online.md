@@ -1,5 +1,5 @@
 ---
-title: 'How To Sell Digital Products Online With Google Drive | SSEGU'
+title: 'How To Sell Digital Products Online With Google Drive'
 slug: how-to-sell-digital-products-online
 excerpt: 'digital products, Google Drive, online selling, boost earnings, e-commerce, comprehensive guide'
 author: editorial-desk

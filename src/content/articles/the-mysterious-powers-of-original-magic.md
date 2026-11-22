@@ -1,5 +1,5 @@
 ---
-title: 'The Mysterious Powers of the Original Magic Ring Revealed | SSEGU'
+title: 'The Mysterious Powers of the Original Magic Ring Revealed'
 slug: the-mysterious-powers-of-original-magic
 excerpt: 'Explore the secrets and mystical abilities of the ancient magic ring that has captivated many throughout history, The Mysterious Powers of the Origina'
 author: editorial-desk

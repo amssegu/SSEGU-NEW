@@ -1,5 +1,5 @@
 ---
-title: 'Battle for Productivity Dominance: Google vs. Microsoft in Latest App Report | SSEGU'
+title: 'Battle for Productivity Dominance: Google vs. Microsoft in Latest App Report'
 slug: battle-for-productivity-dominance
 excerpt: 'Battle for Productivity Dominance, Google vs. Microsoft in Latest App Report, productivity tools, Google Play, mobile users, professional organizatio'
 author: editorial-desk

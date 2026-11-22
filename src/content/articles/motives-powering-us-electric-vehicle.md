@@ -1,5 +1,5 @@
 ---
-title: 'Motives Powering US Electric Vehicle Policy | SSEGU'
+title: 'Motives Powering US Electric Vehicle Policy'
 slug: motives-powering-us-electric-vehicle
 excerpt: 'The United States'
 author: editorial-desk

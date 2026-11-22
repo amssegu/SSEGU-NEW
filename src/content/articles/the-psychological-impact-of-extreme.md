@@ -1,5 +1,5 @@
 ---
-title: 'The Psychological Impact of Extreme Sports on Overcoming Anxiety | SSEGU'
+title: 'The Psychological Impact of Extreme Sports on Overcoming Anxiety'
 slug: the-psychological-impact-of-extreme
 excerpt: 'Extreme sports, often thrilling and adrenaline-pumping activities, are not just about physical challenges; they also offer profound psychological benefits, p...'
 author: editorial-desk

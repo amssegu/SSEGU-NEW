@@ -1,5 +1,5 @@
 ---
-title: "Court grants Bebe Cool's forensics Team Permission to Access Muhangi’s YouTube Channel | SSEGU"
+title: "Court grants Bebe Cool's forensics Team Permission to Access Muhangi’s YouTube Channel"
 slug: court-grants-bebe-cools-forensics-team
 excerpt: 'The Ugandan court has granted Bebe Cool’s forensics team permission to examine Alex Muhangi’s YouTube channel “Comedy Store UG” – to determine the fin'
 author: editorial-desk

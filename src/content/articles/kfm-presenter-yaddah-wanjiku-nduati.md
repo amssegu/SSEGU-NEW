@@ -1,5 +1,5 @@
 ---
-title: 'KFM presenter Yaddah Wanjiku Nduati wins Reporter Slam Africa 2025 in Lagos. | SSEGU'
+title: 'KFM presenter Yaddah Wanjiku Nduati wins Reporter Slam Africa 2025 in Lagos.'
 slug: kfm-presenter-yaddah-wanjiku-nduati
 excerpt: 'On 22nd May,2025 Kfm Presenter Yaddah Wanjiku won the second edition of Reporter Slam Africa 2025 In Lagos, Nigeria where she shared how her passion h'
 author: editorial-desk

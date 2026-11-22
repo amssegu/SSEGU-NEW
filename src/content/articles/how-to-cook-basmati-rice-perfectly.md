@@ -1,5 +1,5 @@
 ---
-title: 'How to Cook Basmati Rice Perfectly | SSEGU'
+title: 'How to Cook Basmati Rice Perfectly'
 slug: how-to-cook-basmati-rice-perfectly
 excerpt: 'Basmati rice, with its delightful aroma and light, fluffy texture, has been a long-time favorite for cooks around the globe. Originating from the Indi'
 author: editorial-desk

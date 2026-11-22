@@ -1,5 +1,5 @@
 ---
-title: 'How to Develop a Growth Mindset: A Complete Guide to Unlocking Personal and Professional Growth | SSEGU'
+title: 'How to Develop a Growth Mindset: A Complete Guide to Unlocking Personal and Professional Growth'
 slug: how-to-develop-growth-mindset-complete
 excerpt: 'In a world that is constantly changing, developing a growth mindset can help you adapt, build confidence, improve your skills, and create better oppor'
 author: editorial-desk

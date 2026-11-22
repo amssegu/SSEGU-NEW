@@ -1,5 +1,5 @@
 ---
-title: 'Best Freelancing Websites for Ugandans in 2026 | SSEGU'
+title: 'Best Freelancing Websites for Ugandans in 2026'
 slug: best-freelancing-websites-for-ugandans
 excerpt: 'Looking for the best freelancing websites for Ugandans in 2026? Compare Upwork, Fiverr, Freelancer, PeoplePerHour, Contra and Toptal.'
 author: editorial-desk

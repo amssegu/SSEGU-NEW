@@ -1,5 +1,5 @@
 ---
-title: 'Understanding Fast Charging Technologies in Modern Smartphones | SSEGU'
+title: 'Understanding Fast Charging Technologies in Modern Smartphones'
 slug: understanding-fast-charging
 excerpt: 'Understanding Fast Charging Technologies in Modern Smartphones As smartphones become increasingly powerful, their demand for energy has also grown. This has ...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Unleash your culinary creativity and transform your kitchen into a haven of homemade delights | SSEGU'
+title: 'Unleash your culinary creativity and transform your kitchen into a haven of homemade delights'
 slug: unleash-your-culinary-creativity-and
 excerpt: 'Unleash your culinary creativity and transform your kitchen into a haven of homemade delights Exploring the Basics of Home Cooking Diving into the world of h...'
 author: editorial-desk

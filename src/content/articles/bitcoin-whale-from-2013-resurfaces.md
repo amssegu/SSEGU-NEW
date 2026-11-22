@@ -1,5 +1,5 @@
 ---
-title: 'Bitcoin Whale From 2013 Resurfaces, Moves Over 1,000 BTC Worth $61 Million | SSEGU'
+title: 'Bitcoin Whale From 2013 Resurfaces, Moves Over 1,000 BTC Worth $61 Million'
 slug: bitcoin-whale-from-2013-resurfaces
 excerpt: 'The term'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Showcasing Products: The Art of Visual Merchandising | SSEGU'
+title: 'Showcasing Products: The Art of Visual Merchandising'
 slug: showcasing-products-art-of-visual
 excerpt: 'Once upon a time, in a bustling town square, there was a small but charming little boutique known for its eclectic mix of products. The owner, Sarah,'
 author: editorial-desk

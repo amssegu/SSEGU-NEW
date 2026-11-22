@@ -1,5 +1,5 @@
 ---
-title: 'Is the City Nolonger a Land of Opportunity? Ugandans are Relocating to Villages. | SSEGU'
+title: 'Is the City Nolonger a Land of Opportunity? Ugandans are Relocating to Villages.'
 slug: is-city-nolonger-land-of-opportunity
 excerpt: 'Kampala, amongst other Ugandan cities, has long been a source of income for many. The land of hustle and money, and truth to point, countless youth ha'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Ultimate Travel Tips | SSEGU'
+title: 'Ultimate Travel Tips'
 slug: ultimate-travel-tips-comprehensive-q
 excerpt: 'travel tips, travel advice, travel guide, smooth journey, travel planning, travel Q&A'
 author: editorial-desk

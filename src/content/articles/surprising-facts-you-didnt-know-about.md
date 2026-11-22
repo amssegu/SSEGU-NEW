@@ -1,5 +1,5 @@
 ---
-title: "Surprising Facts You Didn't Know About Muhammad bin Salman | SSEGU"
+title: "Surprising Facts You Didn't Know About Muhammad bin Salman"
 slug: surprising-facts-you-didnt-know-about
 excerpt: 'Muhammad bin Salman Al-Saud, commonly referred to as MBS, was born on August 31, 1985, in Jeddah, Saudi Arabia. He is the eldest son of King Salman an'
 author: editorial-desk

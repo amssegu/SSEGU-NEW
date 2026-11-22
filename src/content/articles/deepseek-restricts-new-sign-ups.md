@@ -1,5 +1,5 @@
 ---
-title: 'DeepSeek Restricts New Sign-Ups Following Cyber Attacks: What You Need to Know. | SSEGU'
+title: 'DeepSeek Restricts New Sign-Ups Following Cyber Attacks: What You Need to Know.'
 slug: deepseek-restricts-new-sign-ups
 excerpt: 'Recently, Chinese AI company DeepSeek rivaling OpenAI has hit a seeming roadblock in operations. The company recently announced a temporary restrictio'
 author: editorial-desk

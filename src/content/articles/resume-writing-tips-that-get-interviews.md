@@ -1,5 +1,5 @@
 ---
-title: 'Resume Writing Tips That Get Interviews: A Complete Guide to Creating a Winning Resume | SSEGU'
+title: 'Resume Writing Tips That Get Interviews: A Complete Guide to Creating a Winning Resume'
 slug: resume-writing-tips-that-get-interviews
 excerpt: 'This complete guide explains how to write a resume that captures employers'
 author: editorial-desk

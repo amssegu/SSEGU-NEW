@@ -1,5 +1,5 @@
 ---
-title: 'The Ultimate Guide to Becoming a Money Magnet: Raise Your Vibration and Attract Wealth Fast! | SSEGU'
+title: 'The Ultimate Guide to Becoming a Money Magnet: Raise Your Vibration and Attract Wealth Fast!'
 slug: the-ultimate-guide-to-becoming-money
 excerpt: 'law of attraction, wealth manifestation, raise your vibration, attract wealth, money magnet guide, financial abundance'
 author: editorial-desk

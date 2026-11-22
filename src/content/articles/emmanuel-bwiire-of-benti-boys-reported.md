@@ -1,5 +1,5 @@
 ---
-title: 'Emmanuel Bwiire of Benti Boys Reported Missing, Duo Partner Appeals for Help | SSEGU'
+title: 'Emmanuel Bwiire of Benti Boys Reported Missing, Duo Partner Appeals for Help'
 slug: emmanuel-bwiire-of-benti-boys-reported
 excerpt: 'Emmanuel Bwiire, one of the Ugandan music duo Benti Boys, has been reported missing by his brother and fellow duo member, Steven, who made a public ap'
 author: editorial-desk

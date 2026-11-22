@@ -1,5 +1,5 @@
 ---
-title: 'Understanding Data Types in C++ | SSEGU'
+title: 'Understanding Data Types in C++'
 slug: understanding-data-types-in-c
 excerpt: 'A comprehensive guide to understanding data types in C++, including fundamental and user-defined data types, their usage, and best practices. Understanding d...'
 author: editorial-desk

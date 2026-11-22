@@ -1,5 +1,5 @@
 ---
-title: 'Unconventional Product Showcasing: Thinking Outside the Box | SSEGU'
+title: 'Unconventional Product Showcasing: Thinking Outside the Box'
 slug: unconventional-product-showcasing
 excerpt: 'Once, in the bustling city of New York, a small startup decided to launch its innovative, eco-friendly water bottles. However, amidst the sea of compe'
 author: editorial-desk

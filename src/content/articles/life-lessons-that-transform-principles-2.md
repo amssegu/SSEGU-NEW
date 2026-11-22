@@ -1,5 +1,5 @@
 ---
-title: 'Life Lessons That Transform: Principles for a Fulfilling Life | SSEGU'
+title: 'Life Lessons That Transform: Principles for a Fulfilling Life'
 slug: life-lessons-that-transform-principles-2
 excerpt: 'Your Body is Your Greatest Asset Understanding the significance of physical health is paramount, as the body serves as the primary vessel through whi'
 author: editorial-desk

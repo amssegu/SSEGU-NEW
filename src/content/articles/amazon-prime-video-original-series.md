@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Prime Video Original Series - Reviews and recommendations of original shows available on Amazon Prime Video. | SSEGU'
+title: 'Amazon Prime Video Original Series - Reviews and recommendations of original shows available on Amazon Prime Video.'
 slug: amazon-prime-video-original-series
 excerpt: 'Exploring Amazon Prime Video Original Series Amazon Prime Video is home to a wide range of original series that offer unique and compelling storytelling. Fro...'
 author: editorial-desk

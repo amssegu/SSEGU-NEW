@@ -1,5 +1,5 @@
 ---
-title: 'Singer Martha Mukisa Gives Birth to A Baby Girl. | SSEGU'
+title: 'Singer Martha Mukisa Gives Birth to A Baby Girl.'
 slug: singer-martha-mukisa-gives-birth-to
 excerpt: 'Singer Martha Mukisa on 22nd May 2025 expressed lovely joyful message of the news of welcoming her little girl on social media with heartful motherly'
 author: editorial-desk

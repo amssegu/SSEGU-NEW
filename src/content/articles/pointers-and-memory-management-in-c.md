@@ -1,5 +1,5 @@
 ---
-title: 'Pointers and Memory Management in C++ | SSEGU'
+title: 'Pointers and Memory Management in C++'
 slug: pointers-and-memory-management-in-c
 excerpt: 'Understanding pointers and memory management is fundamental for writing efficient and effective programs in C++. This article delves into the dynamics of poi...'
 author: editorial-desk

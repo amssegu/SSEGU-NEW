@@ -1,5 +1,5 @@
 ---
-title: 'Top Programs Offered at Logos University | SSEGU'
+title: 'Top Programs Offered at Logos University'
 slug: top-programs-offered-at-logos-university
 excerpt: 'Whether you'
 author: editorial-desk

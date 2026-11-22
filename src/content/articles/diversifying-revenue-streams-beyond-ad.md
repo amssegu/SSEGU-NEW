@@ -1,5 +1,5 @@
 ---
-title: 'Diversifying Revenue Streams: Beyond Ad Revenue for YouTube Shorts and TikTok Creators | SSEGU'
+title: 'Diversifying Revenue Streams: Beyond Ad Revenue for YouTube Shorts and TikTok Creators'
 slug: diversifying-revenue-streams-beyond-ad
 excerpt: 'Diversifying Revenue Streams: Beyond Ad Revenue for YouTube Shorts and TikTok Creators As a content creator on platforms like YouTube Shorts and TikTok, rely...'
 author: editorial-desk

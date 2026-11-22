@@ -1,5 +1,5 @@
 ---
-title: "Beginner's Guide to Investing in the Stock Market: Everything You Need to Know | SSEGU"
+title: "Beginner's Guide to Investing in the Stock Market: Everything You Need to Know"
 slug: beginners-guide-to-investing-in-stock
 excerpt: 'Many successful investors started with little knowledge but achieved impressive results through consistent investing, patience, and continuous learnin'
 author: editorial-desk

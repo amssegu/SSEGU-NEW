@@ -1,5 +1,5 @@
 ---
-title: 'Kickstart Your Morning: 5 Habits for a Positive Start to the Day | SSEGU'
+title: 'Kickstart Your Morning: 5 Habits for a Positive Start to the Day'
 slug: kickstart-your-morning-5-habits-for
 excerpt: 'Hydrate with Warm Lemon Water Beginning your day with warm lemon water is a straightforward yet impactful habit that can enhance your overall health. This re...'
 author: editorial-desk

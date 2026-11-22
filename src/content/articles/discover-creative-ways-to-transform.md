@@ -1,5 +1,5 @@
 ---
-title: 'Discover creative ways to transform common household items into functional and stylish storage cabinets. | SSEGU'
+title: 'Discover creative ways to transform common household items into functional and stylish storage cabinets.'
 slug: discover-creative-ways-to-transform
 excerpt: 'Once upon a time, in a cramped but cozy apartment located on the bustling streets of a lively city, lived Sarah, a creative soul with a penchant for o'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Unveiling the Layers of Maturity Development | SSEGU'
+title: 'Unveiling the Layers of Maturity Development'
 slug: unveiling-layers-of-maturity-development
 excerpt: 'Maturity can be defined as the ability to respond to situations and challenges in a responsible and balanced way. It is characterized by emotional sta'
 author: editorial-desk

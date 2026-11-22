@@ -1,5 +1,5 @@
 ---
-title: '10 Best National Parks in Uganda to Visit Before You Die | SSEGU'
+title: '10 Best National Parks in Uganda to Visit Before You Die'
 slug: 10-best-national-parks-in-uganda-to
 excerpt: 'Uganda'
 author: editorial-desk

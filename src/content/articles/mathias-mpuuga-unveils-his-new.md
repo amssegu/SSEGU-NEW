@@ -1,5 +1,5 @@
 ---
-title: 'Mathias Mpuuga Unveils His New Political Party Democratic Front. | SSEGU'
+title: 'Mathias Mpuuga Unveils His New Political Party Democratic Front.'
 slug: mathias-mpuuga-unveils-his-new
 excerpt: 'As of May 27th , Mathias Mpuuga unveiled his new political party named the Democratic Front a new political party that is to deliberate in bringing fr'
 author: editorial-desk

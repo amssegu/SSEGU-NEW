@@ -1,5 +1,5 @@
 ---
-title: 'Techniques to Prevent Landslides | SSEGU'
+title: 'Techniques to Prevent Landslides'
 slug: safeguarding-slopes-techniques-to
 excerpt: 'Landslides are complex natural disasters that can result from a variety of factors, including intense rainfall, seismic activity, volcanic eruptions,'
 author: editorial-desk

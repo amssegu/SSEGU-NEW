@@ -1,5 +1,5 @@
 ---
-title: 'How to Use WhatsApp Business to Find Customers in Uganda | SSEGU'
+title: 'How to Use WhatsApp Business to Find Customers in Uganda'
 slug: how-to-use-whatsapp-business-to-find
 excerpt: 'how to use WhatsApp Business to find and convert customers in Uganda, with practical tips on catalogues, pricing, Status, mobile money, delivery'
 author: editorial-desk

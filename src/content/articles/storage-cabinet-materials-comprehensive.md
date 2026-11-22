@@ -1,5 +1,5 @@
 ---
-title: 'Storage Cabinet Materials: A Comprehensive Guide for Buyers | SSEGU'
+title: 'Storage Cabinet Materials: A Comprehensive Guide for Buyers'
 slug: storage-cabinet-materials-comprehensive
 excerpt: 'When it comes to selecting the right storage cabinet for your home, office, or industrial environment, the material of the cabinet is just as crucial'
 author: editorial-desk

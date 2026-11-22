@@ -1,5 +1,5 @@
 ---
-title: '13 UPDF Soldiers Arrested After Attack on Wakiso Police Station. | SSEGU'
+title: '13 UPDF Soldiers Arrested After Attack on Wakiso Police Station.'
 slug: 13-updf-soldiers-arrested-after-attack
 excerpt: 'On June 2, 2025, Uganda People’s Defence Forces (UPDF), attached to the Presidential Task Force on Land Matters, attacked Wakiso Police to try to f'
 author: editorial-desk

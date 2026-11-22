@@ -1,5 +1,5 @@
 ---
-title: 'Streamline Your Inbox with These Tools | SSEGU'
+title: 'Streamline Your Inbox with These Tools'
 slug: streamline-your-inbox-with-these-tools
 excerpt: 'email management, productivity hacks, email productivity tools'
 author: editorial-desk

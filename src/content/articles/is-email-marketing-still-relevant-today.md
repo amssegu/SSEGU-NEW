@@ -1,5 +1,5 @@
 ---
-title: "Is Email Marketing Still Relevant Today? Here's How to Do it Properly | SSEGU"
+title: "Is Email Marketing Still Relevant Today? Here's How to Do it Properly"
 slug: is-email-marketing-still-relevant-today
 excerpt: 'Emails... If you’re reading this, chances are you have an email account—or maybe even two or three. Gmail, Yahoo Mail, Outlook, you name it. And if yo'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Theophostic Prayer: Beyond the Benefits to Understanding the Risks | SSEGU'
+title: 'Theophostic Prayer: Beyond the Benefits to Understanding the Risks'
 slug: theophostic-prayer-beyond-benefits-to
 excerpt: 'An in-depth exploration of Theophostic Prayer, examining both its potential benefits and the risks involved for practitioners.'
 author: editorial-desk

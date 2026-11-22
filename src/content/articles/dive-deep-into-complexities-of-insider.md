@@ -1,5 +1,5 @@
 ---
-title: "Dive deep into the complexities of insider trading, its implications, and why it's a critical concept in the finance world. | SSEGU"
+title: "Dive deep into the complexities of insider trading, its implications, and why it's a critical concept in the finance world."
 slug: dive-deep-into-complexities-of-insider
 excerpt: 'Dive deep into the complexities of insider trading,its implications,and why it'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Double Celebration : Ykee Benda And Kuseim Propose To Their Girlfriends | SSEGU'
+title: 'Double Celebration : Ykee Benda And Kuseim Propose To Their Girlfriends'
 slug: double-celebration-ykee-benda-and
 excerpt: 'The weekend steps in brightly with love and celebration as two prominent Ugandan figures, Ykee Benda and Kuseim, proposed to their long-time girlfrie'
 author: editorial-desk

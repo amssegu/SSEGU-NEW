@@ -1,5 +1,5 @@
 ---
-title: 'Fermented Delicacies: Unveiling the Culinary Wonders | SSEGU'
+title: 'Fermented Delicacies: Unveiling the Culinary Wonders'
 slug: fermented-delicacies-unveiling-culinary
 excerpt: 'Fermented Delicacies: Unveiling the Culinary Wonders Fermented foods are a fascinating facet of global cuisine, offering not only unique flavors and textures...'
 author: editorial-desk

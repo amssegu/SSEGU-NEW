@@ -1,5 +1,5 @@
 ---
-title: 'The Connection Between Gratitude and Wealth: Cultivating Abundance Through Appreciation | SSEGU'
+title: 'The Connection Between Gratitude and Wealth: Cultivating Abundance Through Appreciation'
 slug: the-connection-between-gratitude-and
 excerpt: 'The Connection Between Gratitude and Wealth: Cultivating Abundance Through Appreciation In a world where the pursuit of wealth often overshadows inner fulfil...'
 author: editorial-desk

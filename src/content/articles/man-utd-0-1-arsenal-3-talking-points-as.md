@@ -1,5 +1,5 @@
 ---
-title: 'Man Utd 0-1 Arsenal - 3 Talking Points As Gunners Take Title Race To Final Day | SSEGU'
+title: 'Man Utd 0-1 Arsenal - 3 Talking Points As Gunners Take Title Race To Final Day'
 slug: man-utd-0-1-arsenal-3-talking-points-as
 excerpt: 'The Decisive Goal: A Masterclass in Precision and Timing The match'
 author: editorial-desk

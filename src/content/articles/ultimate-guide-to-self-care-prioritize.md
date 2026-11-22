@@ -1,5 +1,5 @@
 ---
-title: 'Ultimate Guide To Self-Care: Prioritize Your Well-being | SSEGU'
+title: 'Ultimate Guide To Self-Care: Prioritize Your Well-being'
 slug: ultimate-guide-to-self-care-prioritize
 excerpt: 'Exploring the Pillars of Self-Care Self-care is more than a buzzword; it'
 author: editorial-desk

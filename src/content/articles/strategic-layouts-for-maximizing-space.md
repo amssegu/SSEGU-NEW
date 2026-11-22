@@ -1,5 +1,5 @@
 ---
-title: 'Strategic Layouts for Maximizing Space in Craft Show Displays | SSEGU'
+title: 'Strategic Layouts for Maximizing Space in Craft Show Displays'
 slug: strategic-layouts-for-maximizing-space
 excerpt: 'When participating in a craft show, making the most out of your allotted space is crucial not only for displaying your products effectively but also f'
 author: editorial-desk

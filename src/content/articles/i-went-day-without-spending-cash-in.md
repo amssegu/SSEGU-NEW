@@ -1,5 +1,5 @@
 ---
-title: 'I Went a Day Without Spending Cash in Uganda—But is Uganda Ready for this Cashless Economy? | SSEGU'
+title: 'I Went a Day Without Spending Cash in Uganda—But is Uganda Ready for this Cashless Economy?'
 slug: i-went-day-without-spending-cash-in
 excerpt: 'Have you ever spent a day without spending any physical paper money? Okay, maybe not the entire day—we ain'
 author: editorial-desk

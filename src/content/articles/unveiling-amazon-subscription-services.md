@@ -1,5 +1,5 @@
 ---
-title: 'Unveiling Amazon Subscription Services | SSEGU'
+title: 'Unveiling Amazon Subscription Services'
 slug: unveiling-amazon-subscription-services
 excerpt: 'Exploring Amazon Music - Dive into the world of music streaming with Amazon Music and discover its features and benefits. Amazon Music is a subscription-base...'
 author: editorial-desk

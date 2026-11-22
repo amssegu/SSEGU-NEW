@@ -1,5 +1,5 @@
 ---
-title: 'Liverpool vs Tottenham Hotspur 4-2: Premier League Clash Unravels in Thrilling Showdown | SSEGU'
+title: 'Liverpool vs Tottenham Hotspur 4-2: Premier League Clash Unravels in Thrilling Showdown'
 slug: liverpool-vs-tottenham-hotspur-4-2
 excerpt: 'Liverpool vs Tottenham Hotspur, Premier League, Anfield clash, football spectacle, intense match, thrilling victory, Liverpool 4-2 Tottenham, match ru'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Mastering Amazon Return Policy Details | SSEGU'
+title: 'Mastering Amazon Return Policy Details'
 slug: mastering-amazon-return-policy-details
 excerpt: 'Understanding Amazon'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Mercury Rising - Kali Mu: VJ Ulio | ssegu | SSEGU'
+title: 'Mercury Rising - Kali Mu: VJ Ulio'
 slug: mercury-rising-kali-mu-vj-ulio-ssegu
 excerpt: 'Mercury Rising Film requests Kali Mu: VJ Ulio Genre: Action,Crime,Drama,Thriller Mercury Rising - Kali Mu: VJ Ulio | ssegu'
 author: editorial-desk

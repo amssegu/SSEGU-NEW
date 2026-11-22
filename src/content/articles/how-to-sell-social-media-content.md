@@ -1,5 +1,5 @@
 ---
-title: 'How to Sell Social Media Content Calendars to Small Businesses in Uganda | SSEGU'
+title: 'How to Sell Social Media Content Calendars to Small Businesses in Uganda'
 slug: how-to-sell-social-media-content
 excerpt: 'how to sell social media content calendars to small businesses in Uganda, including packages, pricing, client outreach, content planning'
 author: editorial-desk

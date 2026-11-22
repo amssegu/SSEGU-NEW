@@ -1,5 +1,5 @@
 ---
-title: 'Finding Love: How to Attract a Wealthy Partner | SSEGU'
+title: 'Finding Love: How to Attract a Wealthy Partner'
 slug: finding-love-how-to-attract-wealthy
 excerpt: 'When it comes to finding a wealthy partner, it'
 author: editorial-desk

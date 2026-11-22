@@ -1,5 +1,5 @@
 ---
-title: 'If you don’t understand these money laws, you’ll never be rich | ssegu | SSEGU'
+title: 'If you don’t understand these money laws, you’ll never be rich'
 slug: if-you-dont-understand-these-money-laws
 excerpt: 'Most people never build real wealth, not because they'
 author: editorial-desk

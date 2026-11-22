@@ -1,5 +1,5 @@
 ---
-title: 'Top Online Platforms for Automotive Training | SSEGU'
+title: 'Top Online Platforms for Automotive Training'
 slug: top-online-platforms-for-automotive
 excerpt: 'Fortunately, the digital age has made it possible for mechanics, technicians, and enthusiasts to enhance their skills through online automotive traini'
 author: editorial-desk

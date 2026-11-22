@@ -1,5 +1,5 @@
 ---
-title: 'How to Win the Hummer H2: Your Ultimate Guide | SSEGU'
+title: 'How to Win the Hummer H2: Your Ultimate Guide'
 slug: how-to-win-hummer-h2-your-ultimate-guide
 excerpt: 'Introduction to the Hummer H2 Contest The Hummer H2 contest presents an exciting opportunity for automotive enthusiasts and individuals looking to obtain one...'
 author: editorial-desk

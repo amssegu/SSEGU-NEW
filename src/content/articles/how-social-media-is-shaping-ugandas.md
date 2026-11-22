@@ -1,5 +1,5 @@
 ---
-title: 'How Social Media is Shaping Uganda’s Entertainment Scene For Better or Worse | SSEGU'
+title: 'How Social Media is Shaping Uganda’s Entertainment Scene For Better or Worse'
 slug: how-social-media-is-shaping-ugandas
 excerpt: 'How Social Media is Shaping Uganda’s Entertainment Scene For Better or Worse Entertainment has always been, and will always be, a broad tapestry, eac'
 author: editorial-desk

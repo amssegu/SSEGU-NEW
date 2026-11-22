@@ -1,5 +1,5 @@
 ---
-title: 'The Journey To Personal Development and Success | SSEGU'
+title: 'The Journey To Personal Development and Success'
 slug: the-journey-to-personal-development-and
 excerpt: 'Start a journey to personal growth and lasting success . This guide will give you the tools and strategies to reach your full potential. You’ll learn to cult...'
 author: editorial-desk

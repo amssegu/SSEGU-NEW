@@ -1,5 +1,5 @@
 ---
-title: 'Russian President Vladimir Putin Set To Replace Long-standing Ally Sergei Shoigu As Defence Minister | SSEGU'
+title: 'Russian President Vladimir Putin Set To Replace Long-standing Ally Sergei Shoigu As Defence Minister'
 slug: russian-president-vladimir-putin-set-to
 excerpt: 'Sergei Shoigu has been a pivotal figure in Russian politics, having held the position of Defence Minister since 2012. His tenure has seen significant'
 author: editorial-desk

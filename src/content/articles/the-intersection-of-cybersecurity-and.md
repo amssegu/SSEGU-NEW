@@ -1,5 +1,5 @@
 ---
-title: 'The Intersection of Cybersecurity and Artificial Intelligence: Insights from Alok Jain | SSEGU'
+title: 'The Intersection of Cybersecurity and Artificial Intelligence: Insights from Alok Jain'
 slug: the-intersection-of-cybersecurity-and
 excerpt: 'Understanding the Synergy Between Cybersecurity and AI The growing interconnection between cybersecurity and artificial intelligence (AI) has emerged as a pi...'
 author: editorial-desk

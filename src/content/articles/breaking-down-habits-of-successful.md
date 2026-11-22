@@ -1,5 +1,5 @@
 ---
-title: 'Breaking Down the Habits of Successful Kenyans | SSEGU'
+title: 'Breaking Down the Habits of Successful Kenyans'
 slug: breaking-down-habits-of-successful
 excerpt: 'Success is often a blend of passion, discipline, and a consistent set of habits that ensure continual progress. In Kenya, a country renowned not only for its...'
 author: editorial-desk

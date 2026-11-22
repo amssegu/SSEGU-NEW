@@ -1,5 +1,5 @@
 ---
-title: 'Cultural Reverence in Every Sip: Unveiling the Art of Tea Ceremonies | SSEGU'
+title: 'Cultural Reverence in Every Sip: Unveiling the Art of Tea Ceremonies'
 slug: cultural-reverence-in-every-sip
 excerpt: 'On a brisk autumn afternoon in Kyoto, tucked away from the hustle of city life, I found myself seated on a tatami mat in an ancient wooden teahouse overlooki...'
 author: editorial-desk

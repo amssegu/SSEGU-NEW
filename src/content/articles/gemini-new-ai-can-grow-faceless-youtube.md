@@ -1,5 +1,5 @@
 ---
-title: 'Gemini NEW AI Can Grow a FACELESS Youtube Channel to 1000 Subs | ssegu | SSEGU'
+title: 'Gemini NEW AI Can Grow a FACELESS Youtube Channel to 1000 Subs'
 slug: gemini-new-ai-can-grow-faceless-youtube
 excerpt: '🎯Can you really grow a YouTube channel to 1,000 subscribers without showing your face or recording a single voiceover? Yes! In this video'
 author: editorial-desk

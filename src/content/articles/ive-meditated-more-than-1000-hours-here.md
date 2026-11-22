@@ -1,5 +1,5 @@
 ---
-title: 'I’ve Meditated More Than 1000 Hours, Here Are 3 Things I’ve Learnt | SSEGU'
+title: 'I’ve Meditated More Than 1000 Hours, Here Are 3 Things I’ve Learnt'
 slug: ive-meditated-more-than-1000-hours-here
 excerpt: 'Meditation has taught me the power of presence. When we sit in meditation, we learn to be fully present in the moment, letting go of distractions and'
 author: editorial-desk

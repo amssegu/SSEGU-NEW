@@ -1,5 +1,5 @@
 ---
-title: 'The Whistler - Kali Mu: VJ Ricky | ssegu | SSEGU'
+title: 'The Whistler - Kali Mu: VJ Ricky'
 slug: the-whistler-kali-mu-vj-ricky
 excerpt: 'The Whistler 👁️ 🎥 Kali Mu: VJ Ricky 🎭 Genre: Horror, Mystery, Thriller'
 author: editorial-desk

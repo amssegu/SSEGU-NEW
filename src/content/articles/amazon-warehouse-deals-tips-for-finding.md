@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Warehouse Deals - Tips for finding and purchasing discounted items from Amazon Warehouse. | SSEGU'
+title: 'Amazon Warehouse Deals - Tips for finding and purchasing discounted items from Amazon Warehouse.'
 slug: amazon-warehouse-deals-tips-for-finding
 excerpt: 'Understanding Amazon Warehouse Deals Amazon Warehouse Deals is a section on Amazon where you can find discounted items that have been returned, used, or refu...'
 author: editorial-desk

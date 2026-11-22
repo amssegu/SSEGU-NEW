@@ -1,5 +1,5 @@
 ---
-title: '5 Simple Ways to Invest in Real Estate for Beginners | SSEGU'
+title: '5 Simple Ways to Invest in Real Estate for Beginners'
 slug: 5-simple-ways-to-invest-in-real-estate
 excerpt: 'Understanding Real Estate Investment Real estate investment is a strategic approach through which individuals or entities purchase properties with the expect...'
 author: editorial-desk

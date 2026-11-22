@@ -1,5 +1,5 @@
 ---
-title: '7 Ways Tesla is Losing to BYD in the Electric Vehicle Market. | SSEGU'
+title: '7 Ways Tesla is Losing to BYD in the Electric Vehicle Market.'
 slug: 7-ways-tesla-is-losing-to-byd-in
 excerpt: 'It is evident that Electric Vehicles have taken root in today’s consumer market, and it'
 author: editorial-desk

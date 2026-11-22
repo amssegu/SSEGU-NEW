@@ -1,5 +1,5 @@
 ---
-title: 'Unlock the Power of Manifestation: How to Manifest Anything You Desire in Just 24 Hours | SSEGU'
+title: 'Unlock the Power of Manifestation: How to Manifest Anything You Desire in Just 24 Hours'
 slug: unlock-power-of-manifestation-how-to
 excerpt: 'manifestation, law of attraction, manifest your desires, achieve your goals, 24-hour manifestation, power of the mind'
 author: editorial-desk

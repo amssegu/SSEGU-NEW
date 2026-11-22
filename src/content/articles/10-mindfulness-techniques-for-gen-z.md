@@ -1,5 +1,5 @@
 ---
-title: '10 Mindfulness Techniques for Gen Z | SSEGU'
+title: '10 Mindfulness Techniques for Gen Z'
 slug: 10-mindfulness-techniques-for-gen-z
 excerpt: 'Discover effective mindfulness techniques tailored for Gen Z to help reduce stress and enhance mental well-being.'
 author: editorial-desk

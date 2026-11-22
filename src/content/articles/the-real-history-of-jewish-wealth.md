@@ -1,5 +1,5 @@
 ---
-title: 'The Real History of Jewish Wealth | SSEGU'
+title: 'The Real History of Jewish Wealth'
 slug: the-real-history-of-jewish-wealth
 excerpt: 'Throughout history, Jewish people have been perceived as being predominantly wealthy. But where did this rhetoric stem from? Like all groups, Jewish p'
 author: editorial-desk

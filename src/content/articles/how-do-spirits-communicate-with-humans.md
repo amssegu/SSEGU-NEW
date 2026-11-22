@@ -1,5 +1,5 @@
 ---
-title: 'How do spirits communicate with humans? Can they touch us or only show themselves and give off energy? | SSEGU'
+title: 'How do spirits communicate with humans? Can they touch us or only show themselves and give off energy?'
 slug: how-do-spirits-communicate-with-humans
 excerpt: 'Spirits communicate with humans through various methods. These can include'
 author: editorial-desk

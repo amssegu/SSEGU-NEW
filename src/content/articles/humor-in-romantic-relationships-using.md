@@ -1,5 +1,5 @@
 ---
-title: 'Humor in Romantic Relationships: Using Jokes to Build a Stronger Bond | SSEGU'
+title: 'Humor in Romantic Relationships: Using Jokes to Build a Stronger Bond'
 slug: humor-in-romantic-relationships-using
 excerpt: 'Laughter truly is a universal language! Who knew that the same giggles and chuckles that lift our spirits can also strengthen our romantic bonds? Inco'
 author: editorial-desk

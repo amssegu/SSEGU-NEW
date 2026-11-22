@@ -1,5 +1,5 @@
 ---
-title: 'Learn how to balance speed and capacity with SSDs and HDDs for optimal enterprise storage solutions. | SSEGU'
+title: 'Learn how to balance speed and capacity with SSDs and HDDs for optimal enterprise storage solutions.'
 slug: learn-how-to-balance-speed-and-capacity
 excerpt: 'In the fast-paced world of modern enterprise, the debate between using Solid State Drives (SSDs) and Hard Disk Drives (HDDs) is more relevant than eve'
 author: editorial-desk

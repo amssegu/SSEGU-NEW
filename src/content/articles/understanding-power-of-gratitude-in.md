@@ -1,5 +1,5 @@
 ---
-title: 'Understanding the Power of Gratitude in Spiritual Growth | SSEGU'
+title: 'Understanding the Power of Gratitude in Spiritual Growth'
 slug: understanding-power-of-gratitude-in
 excerpt: 'Understanding the Power of Gratitude in Spiritual Growth Gratitude is more than just a polite expression of thanks; it’s a transformative force in spiritual ...'
 author: editorial-desk

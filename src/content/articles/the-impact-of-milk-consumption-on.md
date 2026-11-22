@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Milk Consumption on Testosterone Levels | SSEGU'
+title: 'The Impact of Milk Consumption on Testosterone Levels'
 slug: the-impact-of-milk-consumption-on
 excerpt: 'Testosterone is a hormone that plays a crucial role in the development and maintenance of male reproductive tissues.'
 author: editorial-desk

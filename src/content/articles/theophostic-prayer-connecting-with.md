@@ -1,5 +1,5 @@
 ---
-title: 'Theophostic Prayer: Connecting with Divine Healing | SSEGU'
+title: 'Theophostic Prayer: Connecting with Divine Healing'
 slug: theophostic-prayer-connecting-with
 excerpt: 'The term "theophostic" is derived from the Greek words for God (Theos) and light (phos). This illuminates the essence of the practice. It'
 author: editorial-desk

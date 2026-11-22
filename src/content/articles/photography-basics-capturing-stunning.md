@@ -1,5 +1,5 @@
 ---
-title: 'Photography Basics: Capturing Stunning Images With Any Camera | SSEGU'
+title: 'Photography Basics: Capturing Stunning Images With Any Camera'
 slug: photography-basics-capturing-stunning
 excerpt: 'Understanding Your Camera'
 author: editorial-desk

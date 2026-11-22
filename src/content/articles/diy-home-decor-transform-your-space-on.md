@@ -1,5 +1,5 @@
 ---
-title: 'DIY Home Décor: Transform Your Space On A Budget | SSEGU'
+title: 'DIY Home Décor: Transform Your Space On A Budget'
 slug: diy-home-decor-transform-your-space-on
 excerpt: 'Exploring the Basics of Budget-Friendly Home Décor Embarking on a home decor journey doesn'
 author: editorial-desk

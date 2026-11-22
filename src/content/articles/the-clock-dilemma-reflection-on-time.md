@@ -1,5 +1,5 @@
 ---
-title: "The Clock's Dilemma: A Reflection on Time and Choices | SSEGU"
+title: "The Clock's Dilemma: A Reflection on Time and Choices"
 slug: the-clock-dilemma-reflection-on-time
 excerpt: 'The Nature of Time: A Philosophical Exploration Time has long intrigued philosophers, scientists, and thinkers alike, provoking questions about its essence a...'
 author: editorial-desk

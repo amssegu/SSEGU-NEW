@@ -1,5 +1,5 @@
 ---
-title: 'Why Personal Loans Are Essential for Managing Medical Emergencies in Kenya | SSEGU'
+title: 'Why Personal Loans Are Essential for Managing Medical Emergencies in Kenya'
 slug: why-personal-loans-are-essential-for
 excerpt: 'Discover the Benefits of Using a Personal Loan for Medical Emergencies in African Countries like Kenya. Ensure you'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'DIY Kits for Self-Care and Wellness | SSEGU'
+title: 'DIY Kits for Self-Care and Wellness'
 slug: diy-kits-for-self-care-and-wellness
 excerpt: 'In today’s bustling world, taking time for oneself is more crucial than ever. DIY kits for self-care and wellness have surged in popularity as they of'
 author: editorial-desk

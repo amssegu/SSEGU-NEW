@@ -1,5 +1,5 @@
 ---
-title: 'The Hypothetical Clock: A Journey Through Time | SSEGU'
+title: 'The Hypothetical Clock: A Journey Through Time'
 slug: the-hypothetical-clock-journey-through
 excerpt: 'The Philosophy of Time and Regret Time is a fundamental aspect of human existence, influencing our actions, memories, and regret. It is often perceived as a ...'
 author: editorial-desk

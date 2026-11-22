@@ -1,5 +1,5 @@
 ---
-title: 'Leaked: How LinkedIn Is Allegedly Using Your Data to Train AI Without Consent | SSEGU'
+title: 'Leaked: How LinkedIn Is Allegedly Using Your Data to Train AI Without Consent'
 slug: leaked-how-linkedin-is-allegedly-using
 excerpt: 'The war between AI innovation and data privacy has been going on for quite some time now. This year, LinkedIn is taking the brunt of it. A recent cla'
 author: editorial-desk

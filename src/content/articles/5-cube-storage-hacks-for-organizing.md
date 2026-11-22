@@ -1,5 +1,5 @@
 ---
-title: '5 Cube Storage Hacks for Organizing Your Craft Supplies | SSEGU'
+title: '5 Cube Storage Hacks for Organizing Your Craft Supplies'
 slug: 5-cube-storage-hacks-for-organizing
 excerpt: 'Crafting is not just about creativity and the joy of making something with your hands; it also necessitates an organized space where you can freely express y...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'MC Ollo NBS youth voice host and crew miraculously survive a terrible car accident | SSEGU'
+title: 'MC Ollo NBS youth voice host and crew miraculously survive a terrible car accident'
 slug: mc-ollo-nbs-youth-voice-host-and-crew
 excerpt: 'MC Ollo and Crew Miraculously Survive Car Crash! The gossip mill is buzzing with some jaw-dropping news! Over the weekend, NBS Youth Voice host Odong'
 author: editorial-desk

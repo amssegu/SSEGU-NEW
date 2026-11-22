@@ -1,5 +1,5 @@
 ---
-title: 'Understanding Google Gemini 2.0: A New Era in Search and AI Overviews | SSEGU'
+title: 'Understanding Google Gemini 2.0: A New Era in Search and AI Overviews'
 slug: understanding-google-gemini-20-new-era
 excerpt: 'Introduction to Google Gemini 2.0 Google Gemini 2.0 represents a significant advancement in the realm of search and artificial intelligence, showcasing the c...'
 author: editorial-desk

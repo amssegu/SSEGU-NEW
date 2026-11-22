@@ -1,5 +1,5 @@
 ---
-title: 'Crafting Made Easy: Organizational Tips for DIY Crafters Using Cube Storage | SSEGU'
+title: 'Crafting Made Easy: Organizational Tips for DIY Crafters Using Cube Storage'
 slug: crafting-made-easy-organizational-tips
 excerpt: 'Crafting Made Easy: Organizational Tips for DIY Crafters Using Cube Storage For DIY enthusiasts, crafting is not just a hobby; it'
 author: editorial-desk

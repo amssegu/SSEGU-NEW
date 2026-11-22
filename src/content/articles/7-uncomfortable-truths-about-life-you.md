@@ -1,5 +1,5 @@
 ---
-title: '7 Uncomfortable Truths About Life You Need to Accept | SSEGU'
+title: '7 Uncomfortable Truths About Life You Need to Accept'
 slug: 7-uncomfortable-truths-about-life-you
 excerpt: 'Life is a complex journey, filled with highs and lows, triumphs and setbacks. While it’s natural to seek comfort and stability, there are certain hars'
 author: editorial-desk

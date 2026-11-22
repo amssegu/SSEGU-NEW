@@ -1,5 +1,5 @@
 ---
-title: 'Getting Started with C++ Programming | SSEGU'
+title: 'Getting Started with C++ Programming'
 slug: getting-started-with-c-programming
 excerpt: 'Introduction to C++ Programming C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so ...'
 author: editorial-desk

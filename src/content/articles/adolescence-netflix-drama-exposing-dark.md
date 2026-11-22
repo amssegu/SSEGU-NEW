@@ -1,5 +1,5 @@
 ---
-title: 'Adolescence: The Netflix Drama Exposing the Dark Side of Growing Up as a Modern World Teen | SSEGU'
+title: 'Adolescence: The Netflix Drama Exposing the Dark Side of Growing Up as a Modern World Teen'
 slug: adolescence-netflix-drama-exposing-dark
 excerpt: 'Adolescence—we'
 author: editorial-desk

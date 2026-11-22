@@ -1,5 +1,5 @@
 ---
-title: 'The Evolution of Banking: Online vs. Traditional Approaches | SSEGU'
+title: 'The Evolution of Banking: Online vs. Traditional Approaches'
 slug: the-evolution-of-banking-online-vs
 excerpt: 'banking industry, online banking, traditional banking, customer behavior, technological landscape, customer satisfaction, security concerns, financial'
 author: editorial-desk

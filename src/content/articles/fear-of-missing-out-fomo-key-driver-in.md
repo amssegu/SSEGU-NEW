@@ -1,5 +1,5 @@
 ---
-title: 'Fear of Missing Out (FOMO): A Key Driver in Modern Marketing Strategies | SSEGU'
+title: 'Fear of Missing Out (FOMO): A Key Driver in Modern Marketing Strategies'
 slug: fear-of-missing-out-fomo-key-driver-in
 excerpt: 'Have you ever felt a tinge of anxiety when you see your friends posting photos from a party you couldn'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Step-by-Step of How to Create a Profitable Trading Bot & How to Backtest it with Zero Coding Knowledge Needed. | SSEGU'
+title: 'Step-by-Step of How to Create a Profitable Trading Bot & How to Backtest it with Zero Coding Knowledge Needed.'
 slug: step-by-step-of-how-to-create
 excerpt: 'Trading bots are automated software programs that execute trades on behalf of traders. They are designed to analyze market conditions, identify profit'
 author: editorial-desk

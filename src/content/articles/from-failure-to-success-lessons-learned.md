@@ -1,5 +1,5 @@
 ---
-title: 'From Failure to Success: Lessons Learned from My Biggest Mistakes | SSEGU'
+title: 'From Failure to Success: Lessons Learned from My Biggest Mistakes'
 slug: from-failure-to-success-lessons-learned
 excerpt: 'Introduction: The Journey Begins Failure, often seen as a negative outcome, can serve as a powerful catalyst for resilience and personal growth. In the realm...'
 author: editorial-desk

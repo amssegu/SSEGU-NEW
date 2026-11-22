@@ -1,5 +1,5 @@
 ---
-title: 'Benefits of Online Automotive Training Programs | SSEGU'
+title: 'Benefits of Online Automotive Training Programs'
 slug: benefits-of-online-automotive-training
 excerpt: 'Online automotive training programs have emerged as a popular choice for those seeking to gain automotive skills.'
 author: editorial-desk

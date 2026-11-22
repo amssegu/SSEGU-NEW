@@ -1,5 +1,5 @@
 ---
-title: 'Common Misconceptions About Health Insurance Coverage | SSEGU'
+title: 'Common Misconceptions About Health Insurance Coverage'
 slug: common-misconceptions-about-health
 excerpt: 'health insurance coverage, common misconceptions, health insurance myths, informed decisions, healthcare needs, About Health Insurance Coverage'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: '5 Essential Tips to Learn Before Your 30s to Avoid Common Pitfalls and Achieve Success | SSEGU'
+title: '5 Essential Tips to Learn Before Your 30s to Avoid Common Pitfalls and Achieve Success'
 slug: 5-essential-tips-to-learn-before-your
 excerpt: 'self-improvement, personal development, life tips, success strategies, avoiding pitfalls, achieving success'
 author: editorial-desk

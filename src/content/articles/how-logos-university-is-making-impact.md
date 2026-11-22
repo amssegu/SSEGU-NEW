@@ -1,5 +1,5 @@
 ---
-title: 'How Logos University is Making an Impact | SSEGU'
+title: 'How Logos University is Making an Impact'
 slug: how-logos-university-is-making-impact
 excerpt: 'Logos University has firmly established its reputation through a commitment to educational excellence. With a diverse range of programs that cater to'
 author: editorial-desk

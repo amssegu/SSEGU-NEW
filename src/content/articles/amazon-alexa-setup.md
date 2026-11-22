@@ -1,5 +1,5 @@
 ---
-title: 'Amazon Alexa Setup | SSEGU'
+title: 'Amazon Alexa Setup'
 slug: amazon-alexa-setup
 excerpt: 'What is Amazon Alexa? Amazon Alexa is a virtual assistant developed by Amazon. It is capable of voice interaction, music playback, making to-do lists, settin...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Zoom Enhance: Myth or Reality? | SSEGU'
+title: 'Zoom Enhance: Myth or Reality?'
 slug: zoom-enhance-myth-or-reality
 excerpt: 'Zoom Enhance: Myth or Reality? The concept of ‘zoom and enhance’ has become a staple in crime dramas and science fiction movies, often shown as a miraculous ...'
 author: editorial-desk

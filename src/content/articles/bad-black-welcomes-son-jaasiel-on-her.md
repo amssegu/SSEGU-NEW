@@ -1,5 +1,5 @@
 ---
-title: 'Bad Black Welcomes Son Jaasiel on Her Birthday. | SSEGU'
+title: 'Bad Black Welcomes Son Jaasiel on Her Birthday.'
 slug: bad-black-welcomes-son-jaasiel-on-her
 excerpt: 'Ugandan socialite Shanita Namuyimbwa, better known as Bad Black, has welcomed a new chapter in her life with the birth of her son, Jaasiel.'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'ASMR and Stress Relief: Exploring the Therapeutic Benefits for Mental Health. | SSEGU'
+title: 'ASMR and Stress Relief: Exploring the Therapeutic Benefits for Mental Health.'
 slug: asmr-and-stress-relief-exploring
 excerpt: 'Welcome to the soothing world of ASMR (Autonomous Sensory Meridian Response), a growing trend that combines unique, gentle sounds and movements to help trigg...'
 author: editorial-desk

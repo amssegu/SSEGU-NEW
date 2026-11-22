@@ -1,5 +1,5 @@
 ---
-title: '2025 Best Hotels in Uganda | SSEGU'
+title: '2025 Best Hotels in Uganda'
 slug: 2025-best-hotels-in-uganda
 excerpt: 'Introduction to Uganda’s Hospitality Scene Uganda, often referred to as the “Pearl of Africa,” has emerged as a premier destination for tourists seeking adve...'
 author: editorial-desk

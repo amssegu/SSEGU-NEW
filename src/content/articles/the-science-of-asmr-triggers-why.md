@@ -1,5 +1,5 @@
 ---
-title: 'The Science of ASMR Triggers: Why Certain Sounds and Visuals Create Tingles Across the Body. | SSEGU'
+title: 'The Science of ASMR Triggers: Why Certain Sounds and Visuals Create Tingles Across the Body.'
 slug: the-science-of-asmr-triggers-why
 excerpt: 'Have you ever felt a soothing tingle at the back of your neck when someone whispers gently, or perhaps when watching someone concentrate on a meticulous task...'
 author: editorial-desk

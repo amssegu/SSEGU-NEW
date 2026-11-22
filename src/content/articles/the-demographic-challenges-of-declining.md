@@ -1,5 +1,5 @@
 ---
-title: 'The Demographic Challenges of Declining Nations | SSEGU'
+title: 'The Demographic Challenges of Declining Nations'
 slug: the-demographic-challenges-of-declining
 excerpt: 'Population decline can have significant impacts on the economy and society of a nation. With fewer people, there is a decrease in the labor force, whi'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Modern Technology on Dream Patterns and Interpretation | SSEGU'
+title: 'The Impact of Modern Technology on Dream Patterns and Interpretation'
 slug: the-impact-of-modern-technology-on
 excerpt: 'Dreams have always been a captivating element of human psychology, providing insight into our deepest fears, desires, and emotions. Traditionally, interpreti...'
 author: editorial-desk

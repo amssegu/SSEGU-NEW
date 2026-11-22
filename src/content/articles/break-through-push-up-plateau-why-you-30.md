@@ -1,5 +1,5 @@
 ---
-title: 'Break Through the Push-Up Plateau | SSEGU'
+title: 'Break Through the Push-Up Plateau'
 slug: break-through-push-up-plateau-why-you-30
 excerpt: 'strength training, push-up plateau, build muscle, workout tips, fitness goals, upper body strength'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Boost Your Earnings with AI Art: How to Sell AI-Generated Art for Passive Income | SSEGU'
+title: 'Boost Your Earnings with AI Art: How to Sell AI-Generated Art for Passive Income'
 slug: boost-your-earnings-with-ai-art-how-to
 excerpt: 'AI Art, Passive Income, Sell AI Art, AI-Generated Art, Boost Earnings, Art Market'
 author: editorial-desk

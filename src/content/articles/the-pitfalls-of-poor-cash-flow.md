@@ -1,5 +1,5 @@
 ---
-title: 'The Pitfalls of Poor Cash Flow Management | SSEGU'
+title: 'The Pitfalls of Poor Cash Flow Management'
 slug: the-pitfalls-of-poor-cash-flow
 excerpt: 'Poor cash flow management is a critical problem that can cripple otherwise healthy businesses. It refers to the difficulties a company might face when it doe...'
 author: editorial-desk

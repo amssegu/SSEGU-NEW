@@ -1,5 +1,5 @@
 ---
-title: 'The Future of Marketing: Trends and Predictions for Inclusive Campaigns | SSEGU'
+title: 'The Future of Marketing: Trends and Predictions for Inclusive Campaigns'
 slug: the-future-of-marketing-trends-and
 excerpt: 'Welcome to the ever-evolving world of marketing, where inclusivity and diversity are not just buzzwords but fundamental elements driving successful campaigns...'
 author: editorial-desk

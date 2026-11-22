@@ -1,5 +1,5 @@
 ---
-title: 'Credit Scores Explained: What You Need to Know | SSEGU'
+title: 'Credit Scores Explained: What You Need to Know'
 slug: credit-scores-explained-what-you-need
 excerpt: 'This complete guide explains what a credit score is, how it is calculated, why it matters, common credit mistakes, and practical steps you can take to'
 author: editorial-desk

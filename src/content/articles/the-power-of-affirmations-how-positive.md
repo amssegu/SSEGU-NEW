@@ -1,5 +1,5 @@
 ---
-title: 'The Power of Affirmations: How Positive Self-talk Can Change Your Life | SSEGU'
+title: 'The Power of Affirmations: How Positive Self-talk Can Change Your Life'
 slug: the-power-of-affirmations-how-positive
 excerpt: 'Explore how positive affirmations can transform your mindset and lead to a more fulfilling life.'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Recognizing End-of-Life Signs in Cancer Patients | SSEGU'
+title: 'Recognizing End-of-Life Signs in Cancer Patients'
 slug: recognizing-end-of-life-signs-in-cancer
 excerpt: 'As cancer progresses towards the end of life, certain physical signs may become more apparent. These signs can vary from person to person,'
 author: editorial-desk

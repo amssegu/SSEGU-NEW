@@ -1,5 +1,5 @@
 ---
-title: 'ASMR and the Autonomic Nervous System: How ASMR Influences Physical States of Calmness and Relaxation. | SSEGU'
+title: 'ASMR and the Autonomic Nervous System: How ASMR Influences Physical States of Calmness and Relaxation.'
 slug: asmr-and-autonomic-nervous-system-how
 excerpt: 'Have you ever felt a tingly sensation that spreads through your scalp and down your spine when listening to soft whispers or watching someone focus intently ...'
 author: editorial-desk

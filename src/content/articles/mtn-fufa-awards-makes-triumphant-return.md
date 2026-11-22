@@ -1,5 +1,5 @@
 ---
-title: "MTN FUFA Awards Makes A Triumphant Return, Honouring 2024's Finest | SSEGU"
+title: "MTN FUFA Awards Makes A Triumphant Return, Honouring 2024's Finest"
 slug: mtn-fufa-awards-makes-triumphant-return
 excerpt: 'On the evening of May 30, 2025, Kampala Serena Hotel was abuzz with excitement as the MTN FUFA Awards 2024 returned after a four-year shut to honour t'
 author: editorial-desk

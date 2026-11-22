@@ -1,5 +1,5 @@
 ---
-title: 'Discover SSD benefits &amp; HDD advancements for informed data storage decisions. | SSEGU'
+title: 'Discover SSD benefits &amp; HDD advancements for informed data storage decisions.'
 slug: discover-ssd-benefits-hdd-advancements
 excerpt: 'the choice between Solid State Drives (SSDs) and Hard Disk Drives (HDDs) is becoming increasingly complex with continual advancements in technology. W'
 author: editorial-desk

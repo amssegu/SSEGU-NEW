@@ -1,5 +1,5 @@
 ---
-title: 'Sierra Space Prepares To Launch The Dream Chaser Spaceplane | SSEGU'
+title: 'Sierra Space Prepares To Launch The Dream Chaser Spaceplane'
 slug: sierra-space-prepares-to-launch-dream
 excerpt: 'As humanity reaches out to the cosmos, Sierra Space is at the forefront with its Dream Chaser spaceplane. This heralds a new chapter in our celestial'
 author: editorial-desk

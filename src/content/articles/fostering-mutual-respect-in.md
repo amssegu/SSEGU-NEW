@@ -1,5 +1,5 @@
 ---
-title: 'Fostering Mutual Respect in Relationships | SSEGU'
+title: 'Fostering Mutual Respect in Relationships'
 slug: fostering-mutual-respect-in
 excerpt: 'Explore the transformative power of mutual trust, respect, and understanding in strengthening relationships. The Foundation of Trust in Healthy Relationships...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Do Deewane Seher Mein - Kali Mu: VJ Kali | ssegu | SSEGU'
+title: 'Do Deewane Seher Mein - Kali Mu: VJ Kali'
 slug: do-deewane-seher-mein-kali-mu-vj-kali
 excerpt: 'Kali Mu: VJ Kali 🎭 Genre: Romance, Drama 🔥 Ka-Plot: Kali Mu: VJ Kali 🎭 Genre: Romance, Drama 🔥 Ka-Plot: Two shy millennia'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: '10 Daily Habits to Improve Your Mental Wellbeing | SSEGU'
+title: '10 Daily Habits to Improve Your Mental Wellbeing'
 slug: 10-daily-habits-to-improve-your-mental
 excerpt: 'Discover 10 daily habits that can positively impact your mental wellbeing and overall happiness, Daily Habits to Improve Your Mental Wellbeing'
 author: editorial-desk

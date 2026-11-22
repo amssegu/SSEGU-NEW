@@ -1,5 +1,5 @@
 ---
-title: 'Miss Uganda, Natasha Nyonyozi has been crowned “Beauty with a Purpose Africa” title at 72nd Miss World in India. | SSEGU'
+title: 'Miss Uganda, Natasha Nyonyozi has been crowned “Beauty with a Purpose Africa” title at 72nd Miss World in India.'
 slug: miss-uganda-natasha-nyonyozi-has-been
 excerpt: 'On May 26, 2025, the dazzling Miss Uganda, Natasha Nyonyonzi, proudly claimed the title of “Beauty with a Purpose Africa” at the 72nd Miss World pagea'
 author: editorial-desk

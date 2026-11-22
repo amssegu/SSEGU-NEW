@@ -1,5 +1,5 @@
 ---
-title: 'The online money-making opportunities that should make you stop and think | SSEGU'
+title: 'The online money-making opportunities that should make you stop and think'
 slug: how-to-avoid-common-online-money-making
 excerpt: 'how to spot online job, investment, mobile-money and money-making scams in Uganda, protect your personal data and report fraud if you are targeted.'
 author: editorial-desk

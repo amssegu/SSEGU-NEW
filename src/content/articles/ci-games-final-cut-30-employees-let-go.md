@@ -1,5 +1,5 @@
 ---
-title: "CI Games' Final Cut: 30 Employees Let Go in Last Round of Layoffs | SSEGU"
+title: "CI Games' Final Cut: 30 Employees Let Go in Last Round of Layoffs"
 slug: ci-games-final-cut-30-employees-let-go
 excerpt: 'CI Games'
 author: editorial-desk

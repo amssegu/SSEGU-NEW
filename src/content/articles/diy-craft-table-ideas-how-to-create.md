@@ -1,5 +1,5 @@
 ---
-title: 'DIY Craft Table Ideas: How to Create Your Own Cube Storage Craft Table | SSEGU'
+title: 'DIY Craft Table Ideas: How to Create Your Own Cube Storage Craft Table'
 slug: diy-craft-table-ideas-how-to-create
 excerpt: 'DIY Craft Table Ideas: How to Create Your Own Cube Storage Craft Table Creating a DIY cube storage craft table is an excellent way to add functionality and o...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'How AI is Revolutionizing Online Banking | SSEGU'
+title: 'How AI is Revolutionizing Online Banking'
 slug: how-ai-is-revolutionizing-online-banking
 excerpt: 'Artificial Intelligence (AI), online banking, banking sector, customer experience, security, financial management, operational efficiency, fraud detec'
 author: editorial-desk

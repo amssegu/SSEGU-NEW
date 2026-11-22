@@ -1,5 +1,5 @@
 ---
-title: 'Choosing the Right Online Automotive Program | SSEGU'
+title: 'Choosing the Right Online Automotive Program'
 slug: choosing-right-online-automotive-program
 excerpt: 'In this comprehensive guide, we'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Unlocking the Power of the Law of Attraction and Abundance | SSEGU'
+title: 'Unlocking the Power of the Law of Attraction and Abundance'
 slug: unlocking-power-of-law-of-attraction
 excerpt: 'Law of Attraction, positive energy, abundance, financial success, personal development, prosperity, mindset, Eric Butterworth, mindfulness, self-care,'
 author: editorial-desk

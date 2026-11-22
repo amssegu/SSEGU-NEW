@@ -1,5 +1,5 @@
 ---
-title: 'Discover how authentic representation and inclusivity in marketing strategies can strengthen brand loyalty. | SSEGU'
+title: 'Discover how authentic representation and inclusivity in marketing strategies can strengthen brand loyalty.'
 slug: discover-how-authentic-representation
 excerpt: 'In today'
 author: editorial-desk

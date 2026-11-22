@@ -1,5 +1,5 @@
 ---
-title: 'Black Phone 2 Kali Mu: VJ Emmy | SSEGU'
+title: 'Black Phone 2 Kali Mu: VJ Emmy'
 slug: black-phone-2-kali-mu-vj-emmy
 excerpt: 'Download Black Phone 2 By VJ Emmy Mp4 Mobile Movie. Stream Black Phone 2 By VJ Emmy ssegu'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'iSmart Shankar Part 2 Kali Mu: VJ ICEP | SSEGU'
+title: 'iSmart Shankar Part 2 Kali Mu: VJ ICEP'
 slug: ismart-shankar-part-2-kali-mu-vj-icep
 excerpt: 'Download iSmart Shankar Part 2 By VJ ICEP Mp4 Mobile Movie. Stream iSmart Shankar Part 2 By VJ ICEP ssegu Title: iSmart Shankar Part 2 Kali Mu: VJ ICEP Genre...'
 author: editorial-desk

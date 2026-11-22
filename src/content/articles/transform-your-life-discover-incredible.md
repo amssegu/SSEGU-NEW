@@ -1,5 +1,5 @@
 ---
-title: 'Discover the Incredible Benefits of Joining a Weight Loss Challenge | SSEGU'
+title: 'Discover the Incredible Benefits of Joining a Weight Loss Challenge'
 slug: transform-your-life-discover-incredible
 excerpt: 'weight loss challenge, health transformation, fitness journey, weight loss benefits, healthy lifestyle, motivation for weight loss'
 author: editorial-desk

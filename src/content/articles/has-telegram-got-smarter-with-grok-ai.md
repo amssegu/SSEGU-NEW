@@ -1,5 +1,5 @@
 ---
-title: 'Has Telegram got Smarter with the Grok AI Intergration? Here is How You Can Test it Yourself! | SSEGU'
+title: 'Has Telegram got Smarter with the Grok AI Intergration? Here is How You Can Test it Yourself!'
 slug: has-telegram-got-smarter-with-grok-ai
 excerpt: 'While the Grok AI integration is exciting, it has also stirred some controversy. The chatbot has faced scrutiny over its unfiltered responses, leading'
 author: editorial-desk

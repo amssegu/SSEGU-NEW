@@ -1,5 +1,5 @@
 ---
-title: '15 Surprising Facts You Didn’t Know About Keanu Reeves | SSEGU'
+title: '15 Surprising Facts You Didn’t Know About Keanu Reeves'
 slug: 15-surprising-facts-you-didnt-know
 excerpt: 'Today, we'
 author: editorial-desk

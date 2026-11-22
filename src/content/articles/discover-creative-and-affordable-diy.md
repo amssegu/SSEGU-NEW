@@ -1,5 +1,5 @@
 ---
-title: 'Discover creative and affordable DIY storage cabinet ideas that maximize small spaces without breaking the bank. | SSEGU'
+title: 'Discover creative and affordable DIY storage cabinet ideas that maximize small spaces without breaking the bank.'
 slug: discover-creative-and-affordable-diy
 excerpt: 'Once, in a quaint little apartment nestled in the heart of the city, lived Sarah, a budding artist with more creativity than space. Her tools and mate'
 author: editorial-desk

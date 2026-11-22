@@ -1,5 +1,5 @@
 ---
-title: "Playing Video Games: An Unexpected Boost to Kids' IQ | SSEGU"
+title: "Playing Video Games: An Unexpected Boost to Kids' IQ"
 slug: playing-video-games-unexpected-boost-to
 excerpt: 'The Study Overview Recent research conducted by a collaborative team of scientists from the Netherlands, Germany, and Sweden has revealed interesting insight...'
 author: editorial-desk

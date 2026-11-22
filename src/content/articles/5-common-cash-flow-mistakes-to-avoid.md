@@ -1,5 +1,5 @@
 ---
-title: '5 Common Cash Flow Mistakes to Avoid | SSEGU'
+title: '5 Common Cash Flow Mistakes to Avoid'
 slug: 5-common-cash-flow-mistakes-to-avoid
 excerpt: 'Cash flow management is the lifeblood of any business, large or small. Effective management of cash flow ensures that a company has enough liquidity to meet ...'
 author: editorial-desk

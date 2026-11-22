@@ -1,5 +1,5 @@
 ---
-title: 'Turn Idle Time into Cash: 6 Apps to Earn Passive Income by Keeping Your Computer On | SSEGU'
+title: 'Turn Idle Time into Cash: 6 Apps to Earn Passive Income by Keeping Your Computer On'
 slug: turn-idle-time-into-cash-6-apps-to-earn
 excerpt: 'passive income, earn money online, idle time earnings, computer passive income apps, make money from home, earn cash with computer'
 author: editorial-desk

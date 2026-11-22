@@ -1,5 +1,5 @@
 ---
-title: 'Storm Rider: Legend of Hammerhead - Kali Mu: VJ Ricky | ssegu | SSEGU'
+title: 'Storm Rider: Legend of Hammerhead - Kali Mu: VJ Ricky'
 slug: storm-rider-legend-of-hammerhead-kali
 excerpt: '🌊 Storm Rider: Legend of Hammerhead ⚡ 🎥 Kali Mu: VJ Ricky 🎭 Genre: Action, Adventure, Sci-Fi'
 author: editorial-desk

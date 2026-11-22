@@ -1,5 +1,5 @@
 ---
-title: 'How to Overcome Procrastination: Practical Strategies to Get Things Done | SSEGU'
+title: 'How to Overcome Procrastination: Practical Strategies to Get Things Done'
 slug: how-to-overcome-procrastination
 excerpt: 'In this comprehensive guide, you'
 author: editorial-desk

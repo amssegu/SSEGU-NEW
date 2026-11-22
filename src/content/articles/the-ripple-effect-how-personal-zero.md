@@ -1,5 +1,5 @@
 ---
-title: 'The Ripple Effect: How Personal Zero-Waste Practices Benefit Community Health | SSEGU'
+title: 'The Ripple Effect: How Personal Zero-Waste Practices Benefit Community Health'
 slug: the-ripple-effect-how-personal-zero
 excerpt: 'Welcome to the ripple effect of choosing zero waste! Embracing a lifestyle focused on minimizing waste not only tidies up your personal space but also'
 author: editorial-desk

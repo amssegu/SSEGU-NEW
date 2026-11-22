@@ -1,5 +1,5 @@
 ---
-title: 'Find Your Econet or Ecocash Number: A Complete Guide | SSEGU'
+title: 'Find Your Econet or Ecocash Number: A Complete Guide'
 slug: find-your-econet-or-ecocash-number
 excerpt: 'Econet Zimbabwe, How to check Econet number, Ecocash number, Verify Econet number, Find Ecocash number, Retrieve Ecocash number, Econet customer care'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Predator: Badlands Kali Mu: VJ Soul | SSEGU'
+title: 'Predator: Badlands Kali Mu: VJ Soul'
 slug: predator-badlands-kali-mu-vj-soul
 excerpt: 'Download Predator: Badlands By VJ Soul Mp4 Mobile Movie. Stream Predator: Badlands By VJ Soul ssegu'
 author: editorial-desk

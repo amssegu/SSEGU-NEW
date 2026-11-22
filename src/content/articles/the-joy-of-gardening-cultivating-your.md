@@ -1,5 +1,5 @@
 ---
-title: 'The Joy of Gardening: Cultivating Your Own Green Space | SSEGU'
+title: 'The Joy of Gardening: Cultivating Your Own Green Space'
 slug: the-joy-of-gardening-cultivating-your
 excerpt: 'Gardening is a timeless and rewarding activity that connects us with nature and brings beauty into our lives. Whether you have a spacious backyard, a'
 author: editorial-desk

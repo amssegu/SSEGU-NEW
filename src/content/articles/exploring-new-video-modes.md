@@ -1,5 +1,5 @@
 ---
-title: 'Exploring New Video Modes | SSEGU'
+title: 'Exploring New Video Modes'
 slug: exploring-new-video-modes
 excerpt: 'Exploring New Video Modes: Tips and Insights As technology progresses, so too do the ways we view and interact with video content. New video modes not only e...'
 author: editorial-desk

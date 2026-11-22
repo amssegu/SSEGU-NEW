@@ -1,5 +1,5 @@
 ---
-title: 'Discover how HDD innovations shape eco-friendly data storage solutions with focus on environment and energy efficiency. | SSEGU'
+title: 'Discover how HDD innovations shape eco-friendly data storage solutions with focus on environment and energy efficiency.'
 slug: discover-how-hdd-innovations-shape-eco
 excerpt: 'In an era where digital data generation is soaring, and concerns over environmental impacts are more heightened than ever, finding sustainable ways to'
 author: editorial-desk

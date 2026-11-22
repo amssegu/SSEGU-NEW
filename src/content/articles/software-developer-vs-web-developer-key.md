@@ -1,5 +1,5 @@
 ---
-title: 'Software Developer vs. Web Developer | SSEGU'
+title: 'Software Developer vs. Web Developer'
 slug: software-developer-vs-web-developer-key
 excerpt: 'software developer, web developer, career differences, job insights, programming careers, tech industry'
 author: editorial-desk

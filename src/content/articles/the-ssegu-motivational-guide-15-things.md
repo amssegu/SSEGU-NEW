@@ -1,5 +1,5 @@
 ---
-title: 'The Ssegu Motivational Guide: 15 Things That Keep You Poor | SSEGU'
+title: 'The Ssegu Motivational Guide: 15 Things That Keep You Poor'
 slug: the-ssegu-motivational-guide-15-things
 excerpt: 'we’re diving into a critical topic: 15 things that poor people waste money on, preventing them from moving forward financially.'
 author: editorial-desk

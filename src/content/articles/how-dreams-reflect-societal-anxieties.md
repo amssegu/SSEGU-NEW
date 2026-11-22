@@ -1,5 +1,5 @@
 ---
-title: 'How Dreams Reflect Societal Anxieties and Aspirations Across Cultures | SSEGU'
+title: 'How Dreams Reflect Societal Anxieties and Aspirations Across Cultures'
 slug: how-dreams-reflect-societal-anxieties
 excerpt: 'Dreams are windows to the interconnected weave of our personal and collective unconscious, revealing more than just our private fears and fantasies. They are...'
 author: editorial-desk

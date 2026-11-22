@@ -1,5 +1,5 @@
 ---
-title: "Bebecool Explains How His Friendship With Bobi Wine Reached it's End. | SSEGU"
+title: "Bebecool Explains How His Friendship With Bobi Wine Reached it's End."
 slug: bebecool-explains-how-his-friendship
 excerpt: 'Bebe Cool when asked about his rivalry with longtime friend, Bobi Wine during the Bride and Groom Expo 2025, he explains the roots of the tension'
 author: editorial-desk

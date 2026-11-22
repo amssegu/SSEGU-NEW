@@ -1,5 +1,5 @@
 ---
-title: 'How Transparent Communication Fosters Trust in the Workplace | SSEGU'
+title: 'How Transparent Communication Fosters Trust in the Workplace'
 slug: how-transparent-communication-fosters
 excerpt: 'Once in a bustling tech startup, the team found themselves grappling with the imminent launch of a much-anticipated product. Rumors swirled, tension escalate...'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'How to Set and Achieve Your Goals: A Complete Guide to Turning Dreams into Reality | SSEGU'
+title: 'How to Set and Achieve Your Goals: A Complete Guide to Turning Dreams into Reality'
 slug: how-to-set-and-achieve-your-goals
 excerpt: 'This comprehensive guide explains how to set meaningful goals, create effective action plans, overcome obstacles, and stay motivated until you achieve'
 author: editorial-desk

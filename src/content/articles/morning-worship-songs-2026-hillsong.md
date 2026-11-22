@@ -1,5 +1,5 @@
 ---
-title: 'Morning Worship Songs 2026 | Hillsong Praise with Lyrics | SSEGU'
+title: 'Morning Worship Songs 2026 | Hillsong Praise with Lyrics'
 slug: morning-worship-songs-2026-hillsong
 excerpt: 'Morning Worship Songs 2026, Hillsong worship, Christian praise songs with lyrics, daily devotion music, morning prayer songs, gospel worship playlist'
 author: editorial-desk

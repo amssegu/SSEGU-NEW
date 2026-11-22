@@ -1,5 +1,5 @@
 ---
-title: 'Crypto Goldmine: Top 3 Coins to Hold Until 2025 for Massive Gains | SSEGU'
+title: 'Crypto Goldmine: Top 3 Coins to Hold Until 2025 for Massive Gains'
 slug: crypto-goldmine-top-3-coins-to-hold
 excerpt: 'cryptocurrency, investment, top coins, crypto gains, 2025 predictions, crypto goldmine'
 author: editorial-desk

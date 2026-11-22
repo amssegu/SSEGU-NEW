@@ -1,5 +1,5 @@
 ---
-title: 'The Complete Guide to Personal Finance: Master Your Money and Build Lasting Wealth | SSEGU'
+title: 'The Complete Guide to Personal Finance: Master Your Money and Build Lasting Wealth'
 slug: the-complete-guide-to-personal-finance
 excerpt: 'This complete guide explains the essential principles of personal finance, practical money management strategies, and proven habits that can help you'
 author: editorial-desk

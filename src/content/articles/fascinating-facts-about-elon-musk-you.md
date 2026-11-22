@@ -1,5 +1,5 @@
 ---
-title: "Fascinating Facts About Elon Musk You Probably Didn't Know | SSEGU"
+title: "Fascinating Facts About Elon Musk You Probably Didn't Know"
 slug: fascinating-facts-about-elon-musk-you
 excerpt: 'we delve into the life of Elon Musk, the South African-born entrepreneur, engineer, inventor, and real-life Iron Man. At 45, he was already the 83rd r'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Dreaming in Different Cultures: A Comparative Study | SSEGU'
+title: 'Dreaming in Different Cultures: A Comparative Study'
 slug: dreaming-in-different-cultures
 excerpt: 'Dreams are a universal human experience, intriguing and mystifying us in equal measure. Every culture across the globe holds distinct beliefs and interpretat...'
 author: editorial-desk

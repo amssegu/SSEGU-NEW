@@ -1,5 +1,5 @@
 ---
-title: 'The Science of Happiness: Understanding and Cultivating Well-Being | SSEGU'
+title: 'The Science of Happiness: Understanding and Cultivating Well-Being'
 slug: the-science-of-happiness-understanding
 excerpt: 'Happiness is a universal pursuit, yet it can often seem elusive. The science of happiness, also known as positive psychology, studies the factors that'
 author: editorial-desk

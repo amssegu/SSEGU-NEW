@@ -1,5 +1,5 @@
 ---
-title: 'The Future of Emotional Intelligence: Why EQ Will Matter More Than IQ | SSEGU'
+title: 'The Future of Emotional Intelligence: Why EQ Will Matter More Than IQ'
 slug: the-future-of-emotional-intelligence
 excerpt: 'In the evolving landscape of human abilities and technological advancements, emotional intelligence (EQ) is poised to become an increasingly vital ski'
 author: editorial-desk

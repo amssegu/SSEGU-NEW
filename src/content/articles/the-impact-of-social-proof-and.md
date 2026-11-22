@@ -1,5 +1,5 @@
 ---
-title: 'The Impact of Social Proof and Influencer Endorsements on Buying Habits | SSEGU'
+title: 'The Impact of Social Proof and Influencer Endorsements on Buying Habits'
 slug: the-impact-of-social-proof-and
 excerpt: 'Social proof and influencer endorsements play pivotal roles in shaping purchasing habits, becoming powerful tools for marketers and brands alike. Soci'
 author: editorial-desk

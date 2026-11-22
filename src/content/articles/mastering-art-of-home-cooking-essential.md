@@ -1,5 +1,5 @@
 ---
-title: 'Mastering The Art Of Home Cooking: Essential Recipes And Techniques | SSEGU'
+title: 'Mastering The Art Of Home Cooking: Essential Recipes And Techniques'
 slug: mastering-art-of-home-cooking-essential
 excerpt: 'Building Your Culinary Foundation: Essential Kitchen Tools and Ingredients Every great home cook knows that the key to culinary success starts with a well-eq...'
 author: editorial-desk

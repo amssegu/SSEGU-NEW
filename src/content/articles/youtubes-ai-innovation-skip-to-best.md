@@ -1,5 +1,5 @@
 ---
-title: "YouTube's AI Innovation: Skip to the Best Parts | SSEGU"
+title: "YouTube's AI Innovation: Skip to the Best Parts"
 slug: youtubes-ai-innovation-skip-to-best
 excerpt: 'YouTube'
 author: editorial-desk

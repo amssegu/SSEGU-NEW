@@ -1,5 +1,5 @@
 ---
-title: 'Affordable Luxury Resorts in Uganda: Prices, Value & Booking Tips | SSEGU'
+title: 'Affordable Luxury Resorts in Uganda: Prices, Value & Booking Tips'
 slug: affordable-luxury-resorts-in-uganda
 excerpt: 'how to find affordable luxury resorts in Uganda, what you should expect to pay, how to verify properties and how to avoid hidden costs booking scams'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The Inner Game to Becoming Rich - The Formula Part 1 | SSEGU'
+title: 'The Inner Game to Becoming Rich - The Formula Part 1'
 slug: the-inner-game-to-becoming-rich-formula
 excerpt: 'Welcome back to another quick self-help guide! Today, I'
 author: editorial-desk

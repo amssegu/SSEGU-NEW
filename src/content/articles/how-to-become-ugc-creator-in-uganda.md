@@ -1,5 +1,5 @@
 ---
-title: 'How to Become a UGC Creator in Uganda: Turning Simple Videos into Paid Work | SSEGU'
+title: 'How to Become a UGC Creator in Uganda: Turning Simple Videos into Paid Work'
 slug: how-to-become-ugc-creator-in-uganda
 excerpt: 'Learn how to become a UGC creator in Uganda, build a portfolio, find paying clients, price your services in UGX and turn video creation into income.'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Maximizing Earnings: Strategies for Building a Following on YouTube Shorts and TikTok | SSEGU'
+title: 'Maximizing Earnings: Strategies for Building a Following on YouTube Shorts and TikTok'
 slug: maximizing-earnings-strategies-for
 excerpt: 'Learn effective strategies to grow your following and maximize your earnings on YouTube Shorts and TikTok.'
 author: editorial-desk

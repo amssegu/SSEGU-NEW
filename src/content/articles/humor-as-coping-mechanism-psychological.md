@@ -1,5 +1,5 @@
 ---
-title: 'Humor as a Coping Mechanism: Psychological Perspectives | SSEGU'
+title: 'Humor as a Coping Mechanism: Psychological Perspectives'
 slug: humor-as-coping-mechanism-psychological
 excerpt: 'Humor: it’s more than just a good laugh! It'
 author: editorial-desk

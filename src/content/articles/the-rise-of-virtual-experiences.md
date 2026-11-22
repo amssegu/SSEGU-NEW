@@ -1,5 +1,5 @@
 ---
-title: 'The Rise of Virtual Experiences: Unleashing Marketing Potential in the Metaverse | SSEGU'
+title: 'The Rise of Virtual Experiences: Unleashing Marketing Potential in the Metaverse'
 slug: the-rise-of-virtual-experiences
 excerpt: 'Imagine stepping into a vast, vibrant city where every building, street, and character is meticulously crafted to tell a story—the electrifying field of a fu...'
 author: editorial-desk

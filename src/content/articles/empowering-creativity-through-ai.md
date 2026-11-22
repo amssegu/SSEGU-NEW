@@ -1,5 +1,5 @@
 ---
-title: 'Empowering Creativity Through AI-Assisted Artistry | SSEGU'
+title: 'Empowering Creativity Through AI-Assisted Artistry'
 slug: empowering-creativity-through-ai
 excerpt: 'Artificial Intelligence (AI) has transformed various industries by automating tasks, analyzing big data, and providing new tools for innovation. In the field...'
 author: editorial-desk

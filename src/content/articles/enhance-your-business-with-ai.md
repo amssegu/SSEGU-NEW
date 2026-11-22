@@ -1,5 +1,5 @@
 ---
-title: 'Enhance Your Business with AI | SSEGU'
+title: 'Enhance Your Business with AI'
 slug: enhance-your-business-with-ai
 excerpt: 'best ai tools for small business, ai platforms, best ai tools for business'
 author: editorial-desk

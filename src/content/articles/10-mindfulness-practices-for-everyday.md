@@ -1,5 +1,5 @@
 ---
-title: '10 Mindfulness Practices for Everyday Life | SSEGU'
+title: '10 Mindfulness Practices for Everyday Life'
 slug: 10-mindfulness-practices-for-everyday
 excerpt: 'Introduction to Mindfulness Practices Mindfulness involves maintaining a moment-by-moment awareness of our thoughts, feelings, bodily sensations, and the sur...'
 author: editorial-desk

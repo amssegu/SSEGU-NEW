@@ -1,5 +1,5 @@
 ---
-title: 'A 5-Step Guide to Make More Than $100/Day with Amazon and ChatGPT | SSEGU'
+title: 'A 5-Step Guide to Make More Than $100/Day with Amazon and ChatGPT'
 slug: a-5-step-guide-to-make-more-than-100day
 excerpt: 'Are you looking for a way to earn more than $100 a day online? Combining the power of Amazon'
 author: editorial-desk

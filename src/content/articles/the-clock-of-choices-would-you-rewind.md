@@ -1,5 +1,5 @@
 ---
-title: 'The Clock of Choices: Would You Rewind Time? | SSEGU'
+title: 'The Clock of Choices: Would You Rewind Time?'
 slug: the-clock-of-choices-would-you-rewind
 excerpt: 'The Allure of the Past: Understanding Nostalgia Nostalgia is a profound and multifaceted emotional experience that many individuals encounter throughout thei...'
 author: editorial-desk

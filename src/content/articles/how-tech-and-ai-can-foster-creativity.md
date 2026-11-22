@@ -1,5 +1,5 @@
 ---
-title: 'How Tech and AI Can Foster Creativity, Collaboration, and Critical Thinking in Education | SSEGU'
+title: 'How Tech and AI Can Foster Creativity, Collaboration, and Critical Thinking in Education'
 slug: how-tech-and-ai-can-foster-creativity
 excerpt: 'In an era defined by rapid technological advancement, the integration of technology and artificial intelligence (AI) in education is not just a trend'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Colle AI: A Game-Changer in Blockchain and Digital Asset Management | SSEGU'
+title: 'Colle AI: A Game-Changer in Blockchain and Digital Asset Management'
 slug: colle-ai-game-changer-in-blockchain-and
 excerpt: 'Colle AI’s Emergence in the Blockchain Landscape Colle AI is rapidly establishing itself as a revolutionary multichain AI platform within the blockchain ecos...'
 author: editorial-desk

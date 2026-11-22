@@ -1,5 +1,5 @@
 ---
-title: 'Investing in SACCOs: A Wise Financial Move | SSEGU'
+title: 'Investing in SACCOs: A Wise Financial Move'
 slug: investing-in-saccos-wise-financial-move
 excerpt: 'Learn why investing in SACCOs (Savings and Credit Cooperative Organizations) can be a beneficial financial decision.'
 author: editorial-desk

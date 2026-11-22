@@ -1,5 +1,5 @@
 ---
-title: 'How to Quickly Find Your EcoNet or EcoCash Number: The Ultimate Guide | SSEGU'
+title: 'How to Quickly Find Your EcoNet or EcoCash Number: The Ultimate Guide'
 slug: how-to-quickly-find-your-econet-or
 excerpt: 'In the modern financial landscape, digital services have become increasingly essential, with EcoNet and EcoCash emerging as prominent players'
 author: editorial-desk

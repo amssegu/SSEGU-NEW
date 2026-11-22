@@ -1,5 +1,5 @@
 ---
-title: 'Nobert Mao Re-elected As Democratic Party President | SSEGU'
+title: 'Nobert Mao Re-elected As Democratic Party President'
 slug: nobert-mao-re-elected-as-democratic
 excerpt: 'Nobert Mao has been reelected as the presidential general of the democratic party in Uganda for a fourth conservative term securing 969 votes at the p'
 author: editorial-desk

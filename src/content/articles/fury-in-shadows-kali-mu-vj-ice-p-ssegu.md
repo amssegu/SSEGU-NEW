@@ -1,5 +1,5 @@
 ---
-title: 'Fury In the Shadows Kali Mu: VJ ICE P - ssegu | SSEGU'
+title: 'Fury In the Shadows Kali Mu: VJ ICE P - ssegu'
 slug: fury-in-shadows-kali-mu-vj-ice-p-ssegu
 excerpt: 'Fury In the Shadows Kali Mu: VJ ICE P Genre: Crime, Action, Drama Kick Away Stress: 🎬'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Maximizing Income Streams: Strategies for Selling Templates and Workbooks | SSEGU'
+title: 'Maximizing Income Streams: Strategies for Selling Templates and Workbooks'
 slug: maximizing-income-streams-strategies
 excerpt: 'Maximizing Income Streams: Strategies for Selling Templates and Workbooks The digital marketplace offers numerous opportunities for creatives and professiona...'
 author: editorial-desk

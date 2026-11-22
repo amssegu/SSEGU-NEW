@@ -1,5 +1,5 @@
 ---
-title: 'Miss Uganda Natasha Nyonyozi Fight For Autism At Miss World. | SSEGU'
+title: 'Miss Uganda Natasha Nyonyozi Fight For Autism At Miss World.'
 slug: miss-uganda-natasha-nyonyozi-fight-for
 excerpt: 'During her presentation of “Beauty with a Purpose” at the 72nd miss world festival 2025 in India, she spoke of her plight to advocate for autistic ind'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Top 7 Mental Health Tips for Extreme Sports Enthusiasts | SSEGU'
+title: 'Top 7 Mental Health Tips for Extreme Sports Enthusiasts'
 slug: top-7-mental-health-tips-for-extreme
 excerpt: 'Top 7 Mental Health Tips for Extreme Sports Enthusiasts Engaging in extreme sports can be thrilling and rewarding, offering a unique blend of adrenaline and ...'
 author: editorial-desk

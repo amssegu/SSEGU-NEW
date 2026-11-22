@@ -1,5 +1,5 @@
 ---
-title: 'Nasdaq - Financial Services CorporationBreakout | SSEGU'
+title: 'Nasdaq - Financial Services CorporationBreakout'
 slug: nasdaq-financial-services
 excerpt: 'Nasdaq, electronic stock market, financial sector, trading technology, financial innovation, blockchain technology, global financial services, securit'
 author: editorial-desk

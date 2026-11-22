@@ -1,5 +1,5 @@
 ---
-title: 'CarBarn Uganda: Car Import Rules & Regulations Complete Guide | SSEGU'
+title: 'CarBarn Uganda: Car Import Rules & Regulations Complete Guide'
 slug: carbarn-uganda-car-import-rules
 excerpt: 'This complete guide explains the car import rules and regulations in Uganda, including the required documents, customs procedures, border processes th'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Navio Willing To Battle GNL Zamba | SSEGU'
+title: 'Navio Willing To Battle GNL Zamba'
 slug: navio-willing-to-battle-gnl-zamba
 excerpt: 'Ugandan hip-hop legend Navio is all fired up and ready for some rap battles. He’s even open to facing off against his long-time friend and rival, GNL'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'The 10 Biggest Bank Heists in History: Tales of Grand Larceny | SSEGU'
+title: 'The 10 Biggest Bank Heists in History: Tales of Grand Larceny'
 slug: the-10-biggest-bank-heists-in-history
 excerpt: 'we decided to look at the biggest bank robberies in history. Bank heists have evolved from gun-toting robbers to highly skilled tech experts pulling o'
 author: editorial-desk

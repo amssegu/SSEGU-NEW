@@ -1,5 +1,5 @@
 ---
-title: 'The Science Behind Odibet: A Research Review | SSEGU'
+title: 'The Science Behind Odibet: A Research Review'
 slug: the-science-behind-odibet-research
 excerpt: 'Odibet, a popular online betting platform, has become a significant player in the world of sports gambling, particularly in regions like Africa. This'
 author: editorial-desk

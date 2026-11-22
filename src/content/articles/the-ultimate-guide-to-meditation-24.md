@@ -1,5 +1,5 @@
 ---
-title: 'The Ultimate Guide to Meditation: 24 Powerful Tips for Inner Peace and Clarity | SSEGU'
+title: 'The Ultimate Guide to Meditation: 24 Powerful Tips for Inner Peace and Clarity'
 slug: the-ultimate-guide-to-meditation-24
 excerpt: 'meditation, inner peace, mental clarity, mindfulness, meditation tips, stress relief'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Comparing Low-Light Capabilities | SSEGU'
+title: 'Comparing Low-Light Capabilities'
 slug: comparing-low-light-capabilities
 excerpt: 'Introduction to Low-Light Photography Low-light photography has become a vital skill for photographers, whether amateur or professional, given its applicatio...'
 author: editorial-desk

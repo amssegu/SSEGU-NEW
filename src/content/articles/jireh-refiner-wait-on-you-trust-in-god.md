@@ -1,5 +1,5 @@
 ---
-title: '🎶 Jireh, Refiner, Wait On You, Trust In God ✝️ | Elevation Worship & Maverick City Music 2025 🙏 | SSEGU'
+title: '🎶 Jireh, Refiner, Wait On You, Trust In God ✝️ | Elevation Worship & Maverick City Music 2025 🙏'
 slug: jireh-refiner-wait-on-you-trust-in-god
 excerpt: 'Jireh Elevation Worship, Maverick City Music songs 2025, gospel worship songs, Christian praise music, wait on you song, trust in God worship, refiner'
 author: editorial-desk

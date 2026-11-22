@@ -1,5 +1,5 @@
 ---
-title: 'The Art of Upcycling: Creative Expression through Reusing Materials | SSEGU'
+title: 'The Art of Upcycling: Creative Expression through Reusing Materials'
 slug: the-art-of-upcycling-creative
 excerpt: 'Once upon a time, in a quaint little workshop nestled in the corner of a bustling city, there lived a seasoned artisan named Eliza. She wasn'
 author: editorial-desk

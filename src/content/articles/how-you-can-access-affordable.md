@@ -1,5 +1,5 @@
 ---
-title: 'How You Can Access Affordable Healthcare on a Tight Budget in Uganda | SSEGU'
+title: 'How You Can Access Affordable Healthcare on a Tight Budget in Uganda'
 slug: how-you-can-access-affordable
 excerpt: 'The great American statesman Benjamin Franklin once famously said that nothing in this world can be certain except death and taxes. He couldn'
 author: editorial-desk

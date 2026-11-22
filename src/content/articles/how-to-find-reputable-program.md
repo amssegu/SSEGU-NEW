@@ -1,5 +1,5 @@
 ---
-title: 'How to Find a Reputable Program | SSEGU'
+title: 'How to Find a Reputable Program'
 slug: how-to-find-reputable-program
 excerpt: 'Choosing the right program for your spiritual training is essential for your personal and professional growth. A reputable program will provide you with the ...'
 author: editorial-desk

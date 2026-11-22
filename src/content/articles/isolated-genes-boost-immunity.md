@@ -1,5 +1,5 @@
 ---
-title: 'Isolated Genes Boost Immunity | SSEGU'
+title: 'Isolated Genes Boost Immunity'
 slug: isolated-genes-boost-immunity
 excerpt: 'Isolated Genes Boost Immunity, Genetic isolation, immune system, genetic traits, isolated populations, pathogens, Papua New Guineans, genetic variati'
 author: editorial-desk

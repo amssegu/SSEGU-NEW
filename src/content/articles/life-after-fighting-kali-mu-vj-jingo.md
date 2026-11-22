@@ -1,5 +1,5 @@
 ---
-title: 'Life After Fighting - Kali Mu: VJ Jingo | ssegu | SSEGU'
+title: 'Life After Fighting - Kali Mu: VJ Jingo'
 slug: life-after-fighting-kali-mu-vj-jingo
 excerpt: 'Kali Mu: VJ Jingo 🎭 Genre: Action, Thriller 🔥 Ka-Plot: Former martial arts champion Alex Faulkner 👊 had left the fighting life behind for peace'
 author: editorial-desk

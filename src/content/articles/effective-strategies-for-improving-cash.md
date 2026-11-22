@@ -1,5 +1,5 @@
 ---
-title: 'Effective Strategies for Improving Cash Flow | SSEGU'
+title: 'Effective Strategies for Improving Cash Flow'
 slug: effective-strategies-for-improving-cash
 excerpt: 'Managing cash flow effectively is crucial for the survival and growth of any business'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'My Weird School Kali Mu: VJ Mosco | SSEGU'
+title: 'My Weird School Kali Mu: VJ Mosco'
 slug: my-weird-school-kali-mu-vj-mosco
 excerpt: 'Download My Weird School By VJ Mosco Mp4 Mobile Movie. Stream My Weird School By VJ Mosco ssegu Title: My Weird School Kali Mu: VJ Mosco Genre: Sci-Fi,Comedy...'
 author: editorial-desk

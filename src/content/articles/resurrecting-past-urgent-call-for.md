@@ -1,5 +1,5 @@
 ---
-title: 'Resurrecting the Past: Urgent Call for Regulation in Digital Recreation of Deceased Individuals | SSEGU'
+title: 'Resurrecting the Past: Urgent Call for Regulation in Digital Recreation of Deceased Individuals'
 slug: resurrecting-past-urgent-call-for
 excerpt: 'Urgent Call for Regulation in Digital Recreation of Deceased Individuals, AI ethics, digital immortality, deceased digital recreations, psychological'
 author: editorial-desk

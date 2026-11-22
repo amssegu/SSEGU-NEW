@@ -1,5 +1,5 @@
 ---
-title: 'Uncovering the Hidden World of Fungi | SSEGU'
+title: 'Uncovering the Hidden World of Fungi'
 slug: uncovering-hidden-world-of-fungi
 excerpt: 'What are fungi and why are they significant? Fungi are a diverse kingdom of organisms that are neither plants nor animals. They include yeasts, molds, and mu...'
 author: editorial-desk

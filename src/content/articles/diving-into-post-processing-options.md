@@ -1,5 +1,5 @@
 ---
-title: 'Diving Into Post-Processing Options | SSEGU'
+title: 'Diving Into Post-Processing Options'
 slug: diving-into-post-processing-options
 excerpt: 'Diving Into Post-Processing Options: Enhancing Your Photos for Maximum Impact Post-processing is a crucial step in modern photography that allows photographe...'
 author: editorial-desk

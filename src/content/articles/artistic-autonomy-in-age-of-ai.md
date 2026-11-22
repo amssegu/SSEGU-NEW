@@ -1,5 +1,5 @@
 ---
-title: 'Artistic Autonomy in the Age of AI | SSEGU'
+title: 'Artistic Autonomy in the Age of AI'
 slug: artistic-autonomy-in-age-of-ai
 excerpt: 'Exploring the evolving dynamics of artistic independence amidst the rise of artificial intelligence.,'
 author: editorial-desk

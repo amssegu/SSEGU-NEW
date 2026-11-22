@@ -1,5 +1,5 @@
 ---
-title: 'Coca-Cola Ingredient Smuggled from Sudan: The Gum Arabic Black Market. | SSEGU'
+title: 'Coca-Cola Ingredient Smuggled from Sudan: The Gum Arabic Black Market.'
 slug: coca-cola-ingredient-smuggled-from
 excerpt: 'CocaCoca-Cola Coca-Cola Ingredient Smuggled from Sudan So recently, as I browse the web, I see somewhere that Sudan produces about 80% of the world'
 author: editorial-desk

@@ -1,5 +1,5 @@
 ---
-title: 'Mastering the Art of Solo Trip Planning | SSEGU'
+title: 'Mastering the Art of Solo Trip Planning'
 slug: mastering-art-of-solo-trip-planning
 excerpt: 'Traveling by oneself can be one of the most rewarding experiences. Solo travel allows for complete autonomy, challenging oneself, and a true sense of adventu...'
 author: editorial-desk

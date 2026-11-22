@@ -1,5 +1,5 @@
 ---
-title: 'Conservation and Threats to Bioluminescent Organisms | SSEGU'
+title: 'Conservation and Threats to Bioluminescent Organisms'
 slug: conservation-and-threats-to
 excerpt: 'Introduction to Bioluminescence and Its Organisms Bioluminescence is a fascinating natural phenomenon exhibited by various organisms, from deep-sea fish to f...'
 author: editorial-desk

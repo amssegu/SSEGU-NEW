@@ -1,5 +1,5 @@
 ---
-title: 'Case Studies: Success Stories of AI and Automation in Marketing | SSEGU'
+title: 'Case Studies: Success Stories of AI and Automation in Marketing'
 slug: case-studies-success-stories-of-ai-and
 excerpt: 'Welcome to the exciting world of Artificial Intelligence (AI) and automation in marketing! As digital landscapes evolve, marketers are increasingly tu'
 author: editorial-desk

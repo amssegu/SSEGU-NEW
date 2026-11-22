@@ -1,5 +1,5 @@
 ---
-title: 'Russia Mounts Surprise Assault On Northern Ukraine In Most Serious Cross-border Offensive In Two Years | SSEGU'
+title: 'Russia Mounts Surprise Assault On Northern Ukraine In Most Serious Cross-border Offensive In Two Years'
 slug: russia-mounts-surprise-assault-on
 excerpt: 'The sudden offensive by Russian forces on northern Ukraine has taken the international community by surprise, prompting analysts and experts to questi'
 author: editorial-desk

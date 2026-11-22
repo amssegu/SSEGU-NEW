@@ -1,5 +1,5 @@
 ---
-title: 'Deep in debt? Top 10 Habits to get You Out of it, and Stay Out. | SSEGU'
+title: 'Deep in debt? Top 10 Habits to get You Out of it, and Stay Out.'
 slug: deep-in-debt-top-10-habits-to-get-you
 excerpt: 'Money and finance--we all have our stories when it comes to money, and we most definitely have histories with debt--a quick loan here, some cash favor'
 author: editorial-desk

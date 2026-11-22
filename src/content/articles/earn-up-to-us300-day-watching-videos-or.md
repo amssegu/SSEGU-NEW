@@ -1,5 +1,5 @@
 ---
-title: 'How to Earn Up To $300 a Day Watching Videos or Getting Others to Watch Videos with These Apps | SSEGU'
+title: 'How to Earn Up To $300 a Day Watching Videos or Getting Others to Watch Videos with These Apps'
 slug: earn-up-to-us300-day-watching-videos-or
 excerpt: 'Many companies rely on video marketing to promote their products and services. These videos need viewers, and platforms are willing to pay users like'
 author: editorial-desk

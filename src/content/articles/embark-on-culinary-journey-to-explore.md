@@ -1,5 +1,5 @@
 ---
-title: 'Embark on a culinary journey to explore the best Chinese dining experiences in your area | SSEGU'
+title: 'Embark on a culinary journey to explore the best Chinese dining experiences in your area'
 slug: embark-on-culinary-journey-to-explore
 excerpt: 'Embark on a culinary journey to explore the best Chinese dining experiences in your area Unveiling the Hidden Gems: How to Find Authentic Chinese Restaurants...'
 author: editorial-desk

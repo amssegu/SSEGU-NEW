@@ -1,5 +1,5 @@
 ---
-title: 'Essential Upgrades to Transform Your Life from Poverty to Wealth | SSEGU'
+title: 'Essential Upgrades to Transform Your Life from Poverty to Wealth'
 slug: essential-upgrades-to-transform-your
 excerpt: 'Are you tired of the same old advice that tells you to splurge on flashy cars, diamond chains, and mansions? Deep down, you know these are just market'
 author: editorial-desk

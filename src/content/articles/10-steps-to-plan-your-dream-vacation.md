@@ -1,5 +1,5 @@
 ---
-title: '10 Steps to Plan Your Dream Vacation | SSEGU'
+title: '10 Steps to Plan Your Dream Vacation'
 slug: 10-steps-to-plan-your-dream-vacation
 excerpt: 'Step 1: Dream and Define Your Ideal Vacation The first step in planning your dream vacation is to allow yourself to dream big. Think about what your ideal ge...'
 author: editorial-desk
