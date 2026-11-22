@@ -39,13 +39,13 @@ const stories = pageItems(allStories, 1, CATEGORY_PAGE_SIZE);
                 <StoryCard article={article} />
               ))}
             </div>
+            <Pagination currentPage={1} totalPages={totalPages} basePath={`/category/${slug}/`} />
           </section>
           <aside class="category-sidebar" aria-label="Advertisement">
             <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
             <AdSlot placement="section" format="rectangle" minHeight={600} />
           </aside>
         </div>
-        <Pagination currentPage={1} totalPages={totalPages} basePath={`/category/${slug}/`} />
       </>
     ) : (
       <p class="empty-state">No stories are available in this section yet.</p>

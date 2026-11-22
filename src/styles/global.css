@@ -2024,8 +2024,20 @@ input:focus-visible {
   .listing-grid {
     grid-template-columns: 1fr;
   }
+  .category-content {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+  }
+  .category-main .listing-grid {
+    gap: 1rem;
+  }
   .category-sidebar {
+    position: static;
     grid-template-columns: 1fr;
+  }
+  .category-sidebar > .ad-section {
+    display: none;
   }
   .article-page {
     padding-block: 1.5rem 2.5rem;

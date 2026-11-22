@@ -50,12 +50,12 @@ const { slug, currentPage, totalPages, stories } = Astro.props;
             <StoryCard article={article} />
           ))}
         </div>
+        <Pagination currentPage={currentPage} totalPages={totalPages} basePath={`/category/${slug}/`} />
       </section>
       <aside class="category-sidebar" aria-label="Advertisement">
         <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
         <AdSlot placement="section" format="rectangle" minHeight={600} />
       </aside>
     </div>
-    <Pagination currentPage={currentPage} totalPages={totalPages} basePath={`/category/${slug}/`} />
   </div>
 </MainLayout>
