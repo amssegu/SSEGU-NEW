@@ -198,7 +198,7 @@ export async function getPublishedWorkArticles(category?: string) {
 }
 
 export const workCategories = ['career-advice'] as const;
-export const WORK_PAGE_SIZE = 16;
+export const WORK_PAGE_SIZE = 9;
 
 export function workPageCount(total: number, pageSize = WORK_PAGE_SIZE) {
   return Math.max(1, Math.ceil(total / pageSize));

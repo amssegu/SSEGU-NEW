@@ -1,7 +1,6 @@
 import type { APIRoute } from 'astro';
 import {
   cvResources,
-  internships,
   isEligibleWorkJob,
   getPublishedWorkArticles,
   getPublishedWorkCourses,
@@ -21,9 +20,7 @@ export const GET: APIRoute = async () => {
   const paths = [
     '/work/',
     '/work/jobs/',
-    '/work/internships/',
     '/work/career-advice/',
-    '/work/cv-resources/checklist/',
     '/work/cv-resources/cover-letter/',
     '/work/cv-resources/interview-practice/',
     ...articlePages,
@@ -33,7 +30,6 @@ export const GET: APIRoute = async () => {
     ...publishedJobs
       .filter((job) => isEligibleWorkJob(job))
       .map((job) => `/work/jobs/${job.slug}/`),
-    ...internships.map((internship) => `/work/internships/${internship.slug}/`),
     ...workArticles.map((article) => `/work/career-advice/${article.slug}/`),
     ...publishedCourses.map((course) => `/work/courses/${course.slug}/`),
     ...cvResources.map((resource) => `/work/cv-resources/${resource.slug}/`),

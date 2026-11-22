@@ -1,6 +1,7 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import Pagination from '../../../components/main/Pagination.astro';
+import AdSlot from '../../../components/main/AdSlot.astro';
 import {
   formatWorkDate,
   getPublishedWorkArticles,
@@ -22,23 +23,42 @@ const workArticles = workPageItems(allWorkArticles, 1);
       <h1>Career Advice</h1>
       <p>Practical fixture guidance for your next application, interview and career move.</p>
     </div>
-    <div class="work-article-grid">
-      {workArticles.map((article) => (
-        <article class="work-advice-card">
-          <a href={`/work/career-advice/${article.slug}/`}>
-            <img src={article.image} alt="" width="1200" height="675" />
-            <div>
-              <p class="work-card-kicker">{article.category}</p>
-              <h2>{article.title}</h2>
-              <p>{article.description}</p>
-              <small>
-                By {article.author} · {formatWorkDate(article.publishedAt)}
-              </small>
-            </div>
-          </a>
-        </article>
-      ))}
+    <div class="category-content">
+      <section class="category-main" aria-label="Career advice articles">
+        <div class="work-article-grid">
+          {workArticles.slice(0, 3).map((article) => (
+            <article class="work-advice-card">
+              <a href={`/work/career-advice/${article.slug}/`}>
+                <img src={article.image} alt="" width="1200" height="675" />
+                <div>
+                  <p class="work-card-kicker">{article.category}</p>
+                  <h2>{article.title}</h2>
+                  <p>{article.description}</p>
+                  <small>By {article.author} · {formatWorkDate(article.publishedAt)}</small>
+                </div>
+              </a>
+            </article>
+          ))}
+          <AdSlot placement="section" format="horizontal" />
+          {workArticles.slice(3).map((article) => (
+            <article class="work-advice-card">
+              <a href={`/work/career-advice/${article.slug}/`}>
+                <img src={article.image} alt="" width="1200" height="675" />
+                <div>
+                  <p class="work-card-kicker">{article.category}</p>
+                  <h2>{article.title}</h2>
+                  <p>{article.description}</p>
+                  <small>By {article.author} · {formatWorkDate(article.publishedAt)}</small>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+        <Pagination currentPage={1} totalPages={totalPages} basePath="/work/career-advice/" />
+      </section>
+      <aside class="category-sidebar" aria-label="Advertisement">
+        <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
+      </aside>
     </div>
-    <Pagination currentPage={1} totalPages={totalPages} basePath="/work/career-advice/" />
   </div>
 </WorkLayout>
