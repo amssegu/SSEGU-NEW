@@ -2,15 +2,12 @@
   <div class="cv-builder-heading">
     <div>
       <p class="work-eyebrow">Free · private · no account</p>
-      <h2 id="cv-builder-title">Build a clear, job-ready CV</h2>
-      <p>
-        Add the details that matter for your next role. Your information stays in this browser;
-        nothing is uploaded. Print or save the finished CV as a text-based PDF.
-      </p>
+      <h2 id="cv-builder-title">Build your CV</h2>
+      <p>Your information stays in this browser. Add each job and qualification as its own entry, then print a clean, text-based CV.</p>
     </div>
     <div class="cv-builder-actions">
       <button class="work-button" type="button" data-cv-print>Print / save as PDF</button>
-      <button class="work-button work-button-secondary" type="button" data-cv-copy>Copy as text</button>
+      <button class="work-button work-button-secondary" type="button" data-cv-copy>Copy CV text</button>
       <span class="cv-copy-status" role="status" aria-live="polite"></span>
     </div>
   </div>
@@ -22,25 +19,27 @@
         <label>Email<input name="email" type="email" autocomplete="email" placeholder="amina@example.com" /></label>
         <label>Phone<input name="phone" type="tel" autocomplete="tel" placeholder="+256 700 000 000" /></label>
         <label>Location<input name="location" autocomplete="address-level2" placeholder="Kampala, Uganda" /></label>
-        <label>LinkedIn or portfolio <span class="cv-optional">(optional)</span><input name="website" type="url" placeholder="linkedin.com/in/yourname" /></label>
+        <label>LinkedIn or portfolio <span class="cv-optional">(optional)</span><input name="website" type="url" placeholder="https://linkedin.com/in/yourname" /></label>
       </fieldset>
       <fieldset>
         <legend>Professional profile</legend>
-        <label>A short introduction<textarea name="profile" rows="4" placeholder="Summarise your experience, strongest skills and the value you bring to the role."></textarea></label>
+        <label>Short introduction <span class="cv-optional">(2–4 lines)</span><textarea name="profile" rows="4" placeholder="Summarise your experience, strongest relevant skills and the value you bring to the role."></textarea></label>
         <label>Key skills <span class="cv-optional">(one per line)</span><textarea name="skills" rows="4" placeholder="Customer service&#10;Stock management&#10;Microsoft Excel"></textarea></label>
       </fieldset>
       <fieldset>
         <legend>Work experience</legend>
-        <p class="cv-field-help">Add one role per block. Start each achievement with an action and include a real result or scale where you can.</p>
-        <label>Job title, employer and dates <span class="cv-optional">(one role per line)</span><textarea name="experience" rows="5" placeholder="Sales Assistant | Example Stores, Kampala | Jan 2023–Present&#10;Helped customers find products and resolved queries&#10;Recorded daily sales and supported stock counts"></textarea></label>
+        <p class="cv-field-help">Add a separate entry for every role. Use the bullet fields for responsibilities and achievements.</p>
+        <div class="cv-entry-list" data-entry-list="experience"></div>
+        <button class="cv-add-entry" type="button" data-add-entry="experience">+ Add work experience</button>
       </fieldset>
       <fieldset>
         <legend>Education and training</legend>
-        <label>Qualification, institution and dates <span class="cv-optional">(one per line)</span><textarea name="education" rows="4" placeholder="Diploma in Business Administration | Example Institute | 2021–2023"></textarea></label>
+        <div class="cv-entry-list" data-entry-list="education"></div>
+        <button class="cv-add-entry" type="button" data-add-entry="education">+ Add education</button>
       </fieldset>
       <fieldset>
         <legend>Additional information</legend>
-        <label>Certifications, languages or relevant volunteering <span class="cv-optional">(optional, one per line)</span><textarea name="additional" rows="3" placeholder="First Aid Certificate | 2024&#10;Languages: English, Luganda"></textarea></label>
+        <label>Certifications, languages, projects or relevant volunteering <span class="cv-optional">(optional, one per line)</span><textarea name="additional" rows="4" placeholder="First Aid Certificate | 2024&#10;Languages: English, Luganda"></textarea></label>
       </fieldset>
     </form>
     <article class="cv-preview" aria-label="CV preview" data-cv-preview>
@@ -48,15 +47,37 @@
         <h2 data-cv-name>Your Name</h2>
         <p data-cv-contact>Add your contact details in the form</p>
       </header>
-      <section data-cv-section="profile"><h3>Professional Profile</h3><p data-cv-profile>Your profile will appear here.</p></section>
-      <section data-cv-section="skills"><h3>Key Skills</h3><ul data-cv-skills><li>Your skills will appear here.</li></ul></section>
-      <section data-cv-section="experience"><h3>Work Experience</h3><div data-cv-experience><p>Your experience will appear here.</p></div></section>
-      <section data-cv-section="education"><h3>Education and Training</h3><ul data-cv-education><li>Your education will appear here.</li></ul></section>
-      <section data-cv-section="additional"><h3>Additional Information</h3><ul data-cv-additional><li>Your additional information will appear here.</li></ul></section>
+      <section data-cv-section="profile" hidden><h3>Professional Profile</h3><p data-cv-profile></p></section>
+      <section data-cv-section="skills" hidden><h3>Key Skills</h3><ul data-cv-skills></ul></section>
+      <section data-cv-section="experience" hidden><h3>Work Experience</h3><div data-cv-experience></div></section>
+      <section data-cv-section="education" hidden><h3>Education and Training</h3><div data-cv-education></div></section>
+      <section data-cv-section="additional" hidden><h3>Additional Information</h3><ul data-cv-additional></ul></section>
     </article>
   </div>
-  <p class="cv-builder-note">Tip: tailor your profile and skills to each vacancy, use the same clear terms as the job description when they truthfully describe you, and check every date and claim before applying. If an employer asks for a Word file, copy the text into a document and save it as .docx. Follow the employer’s requested format; no CV layout can guarantee how every applicant system will parse a file.</p>
+  <p class="cv-builder-note">Use simple headings and accurate details. Tailor the profile and skills to each vacancy. If an employer requests a Word file, copy the CV text into a document and save it as .docx. Always follow the employer’s file instructions; no layout can guarantee how every applicant system will parse a file.</p>
 </section>
+
+<template data-entry-template="experience">
+  <div class="cv-entry" data-entry role="group" aria-label="Work experience entry">
+    <h3 class="cv-entry-title">Role</h3>
+    <button class="cv-remove-entry" type="button" data-remove-entry aria-label="Remove this role">Remove</button>
+    <label>Job title<input data-entry-field="title" placeholder="Sales Assistant" /></label>
+    <label>Employer<input data-entry-field="organization" placeholder="Example Stores" /></label>
+    <label>Location <span class="cv-optional">(optional)</span><input data-entry-field="location" placeholder="Kampala" /></label>
+    <div class="cv-date-fields"><label>Start date<input data-entry-field="start" placeholder="Jan 2023" /></label><label>End date<input data-entry-field="end" placeholder="Present" /></label></div>
+    <label>Responsibilities and achievements <span class="cv-optional">(one per line)</span><textarea data-entry-field="details" rows="4" placeholder="Helped customers find products and resolve queries&#10;Recorded daily sales and supported stock counts"></textarea></label>
+  </div>
+</template>
+<template data-entry-template="education">
+  <div class="cv-entry" data-entry role="group" aria-label="Education entry">
+    <h3 class="cv-entry-title">Qualification</h3>
+    <button class="cv-remove-entry" type="button" data-remove-entry aria-label="Remove this qualification">Remove</button>
+    <label>Qualification or course<input data-entry-field="title" placeholder="Diploma in Business Administration" /></label>
+    <label>Institution<input data-entry-field="organization" placeholder="Example Institute" /></label>
+    <div class="cv-date-fields"><label>Start date <span class="cv-optional">(optional)</span><input data-entry-field="start" placeholder="2021" /></label><label>End date or completion year<input data-entry-field="end" placeholder="2023" /></label></div>
+    <label>Relevant details <span class="cv-optional">(optional)</span><textarea data-entry-field="details" rows="2" placeholder="Relevant subjects, honours or project"></textarea></label>
+  </div>
+</template>
 
 <script>
   const form = document.querySelector<HTMLFormElement>('[data-cv-form]');
@@ -64,41 +85,90 @@
 
   if (form && preview) {
     const value = (name: string) => String(new FormData(form).get(name) ?? '').trim();
-    const lines = (name: string) => value(name).split('\n').map((line) => line.trim()).filter(Boolean);
-    const setList = (selector: string, entries: string[], fallback: string) => {
-      const list = preview.querySelector<HTMLElement>(selector);
-      if (!list) return;
-      list.replaceChildren(...(entries.length ? entries : [fallback]).map((entry) => {
-        const item = document.createElement('li');
-        item.textContent = entry;
-        return item;
+    const lines = (input: string) => input.split('\n').map((line) => line.trim()).filter(Boolean);
+    const entryValues = (type: string) => Array.from(form.querySelectorAll<HTMLElement>(`[data-entry-list="${type}"] [data-entry]`)).map((entry) => {
+      const get = (field: string) => entry.querySelector<HTMLInputElement | HTMLTextAreaElement>(`[data-entry-field="${field}"]`)?.value.trim() ?? '';
+      return { title: get('title'), organization: get('organization'), location: get('location'), start: get('start'), end: get('end'), details: lines(get('details')) };
+    }).filter((entry) => entry.title || entry.organization || entry.details.length);
+    const textElement = (tag: string, text: string, className = '') => {
+      const element = document.createElement(tag);
+      element.textContent = text;
+      if (className) element.className = className;
+      return element;
+    };
+    const renderEntries = (type: string, selector: string) => {
+      const target = preview.querySelector<HTMLElement>(selector)!;
+      const entries = entryValues(type);
+      target.replaceChildren(...entries.map((entry) => {
+        const block = document.createElement('div');
+        block.className = 'cv-preview-entry';
+        if (entry.title) block.append(textElement('h4', entry.title));
+        const meta = [entry.organization, entry.location, [entry.start, entry.end].filter(Boolean).join(' – ')].filter(Boolean).join(' | ');
+        if (meta) block.append(textElement('p', meta, 'cv-preview-meta'));
+        if (entry.details.length) {
+          const list = document.createElement('ul');
+          for (const detail of entry.details) list.append(textElement('li', detail));
+          block.append(list);
+        }
+        return block;
       }));
-      const section = list.closest<HTMLElement>('[data-cv-section]');
-      if (section) section.hidden = entries.length === 0;
+      preview.querySelector(`[data-cv-section="${type}"]`)!.toggleAttribute('hidden', entries.length === 0);
+    };
+    const renderList = (type: string, selector: string) => {
+      const target = preview.querySelector<HTMLElement>(selector)!;
+      const entries = lines(value(type));
+      target.replaceChildren(...entries.map((entry) => textElement('li', entry)));
+      preview.querySelector(`[data-cv-section="${type}"]`)!.toggleAttribute('hidden', entries.length === 0);
     };
     const render = () => {
       preview.querySelector('[data-cv-name]')!.textContent = value('name') || 'Your Name';
       const contact = [value('email'), value('phone'), value('location'), value('website')].filter(Boolean);
       preview.querySelector('[data-cv-contact]')!.textContent = contact.join(' · ') || 'Add your contact details in the form';
       const profile = value('profile');
-      preview.querySelector('[data-cv-profile]')!.textContent = profile || 'Your profile will appear here.';
+      preview.querySelector('[data-cv-profile]')!.textContent = profile;
       preview.querySelector('[data-cv-section="profile"]')!.toggleAttribute('hidden', !profile);
-      setList('[data-cv-skills]', lines('skills'), 'Your skills will appear here.');
-      setList('[data-cv-education]', lines('education'), 'Your education will appear here.');
-      setList('[data-cv-additional]', lines('additional'), 'Your additional information will appear here.');
-      const roles = preview.querySelector<HTMLElement>('[data-cv-experience]')!;
-      const experience = lines('experience');
-      roles.replaceChildren(...(experience.length ? experience : ['Your experience will appear here.']).map((entry) => {
-        const paragraph = document.createElement('p');
-        paragraph.textContent = entry;
-        return paragraph;
-      }));
-      preview.querySelector('[data-cv-section="experience"]')!.toggleAttribute('hidden', experience.length === 0);
+      renderList('skills', '[data-cv-skills]');
+      renderEntries('experience', '[data-cv-experience]');
+      renderEntries('education', '[data-cv-education]');
+      renderList('additional', '[data-cv-additional]');
     };
-
+    const addEntry = (type: string) => {
+      const template = document.querySelector<HTMLTemplateElement>(`[data-entry-template="${type}"]`);
+      const list = form.querySelector<HTMLElement>(`[data-entry-list="${type}"]`);
+      if (!template || !list) return;
+      list.append(template.content.cloneNode(true));
+      render();
+    };
+    addEntry('experience');
+    addEntry('education');
+    form.addEventListener('click', (event) => {
+      const target = event.target as HTMLElement;
+      const add = target.closest<HTMLButtonElement>('[data-add-entry]');
+      if (add) addEntry(add.dataset.addEntry!);
+      const remove = target.closest<HTMLButtonElement>('[data-remove-entry]');
+      if (remove) {
+        remove.closest('[data-entry]')?.remove();
+        render();
+      }
+    });
+    const printStyles = `body{margin:0;color:#182433;font:10.5pt Arial,Helvetica,sans-serif;line-height:1.45} .cv-preview{max-width:190mm;margin:0 auto} .cv-preview-header{padding-bottom:10pt;border-bottom:2px solid #183b68} .cv-preview-header h2{margin:0 0 5pt;color:#122e50;font-size:23pt} .cv-preview-header p{margin:0;font-size:9.5pt} .cv-preview section{margin-top:15pt;break-inside:avoid} .cv-preview section h3{margin:0 0 6pt;padding-bottom:3pt;border-bottom:1px solid #aebdce;color:#183b68;font-size:11pt;text-transform:uppercase;letter-spacing:.03em} .cv-preview-entry{margin:0 0 10pt;break-inside:avoid} .cv-preview-entry h4{margin:0;font-size:10.5pt} .cv-preview p,.cv-preview li{margin:2pt 0;font-size:10pt;overflow-wrap:anywhere} .cv-preview ul{margin:3pt 0 0;padding-left:18pt} .cv-preview-meta{color:#384b61} @page{size:A4;margin:16mm}`;
+    const printCv = () => {
+      const printWindow = window.open('', '_blank');
+      if (!printWindow) {
+        document.querySelector<HTMLElement>('.cv-copy-status')!.textContent = 'Allow pop-ups for this site to print or save your CV.';
+        return;
+      }
+      const clone = preview.cloneNode(true) as HTMLElement;
+      clone.removeAttribute('data-cv-preview');
+      const title = value('name') ? `${value('name')} - CV` : 'CV';
+      printWindow.onload = () => { printWindow.focus(); printWindow.print(); };
+      printWindow.document.open();
+      printWindow.document.write(`<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${title.replace(/[<>&"']/g, '')}</title><style>${printStyles}</style></head><body>${clone.outerHTML}</body></html>`);
+      printWindow.document.close();
+    };
     form.addEventListener('input', render);
     render();
-    document.querySelector('[data-cv-print]')?.addEventListener('click', () => window.print());
+    document.querySelector('[data-cv-print]')?.addEventListener('click', printCv);
     document.querySelector('[data-cv-copy]')?.addEventListener('click', async () => {
       const text = preview.innerText.replace(/\n{3,}/g, '\n\n').trim();
       const status = document.querySelector<HTMLElement>('.cv-copy-status');
@@ -128,22 +198,22 @@
   .cv-form textarea { resize: vertical; }
   .cv-optional, .cv-field-help { color: #53657b; font-size: .82rem; font-weight: 400; }
   .cv-field-help { margin: -.3rem 0 0; }
-  .cv-preview { padding: clamp(1.1rem, 3vw, 2rem); background: white; border: 1px solid var(--work-line); box-shadow: 0 4px 18px rgb(8 47 120 / 8%); color: #182433; font-family: Arial, Helvetica, sans-serif; }
+  .cv-entry { position: relative; display: grid; gap: .7rem; margin: 0; padding: 1rem; border: 1px solid #d7e0eb; border-radius: 8px; }
+  .cv-entry-title { margin: 0; color: var(--work-navy); font-size: .9rem; }
+  .cv-entry .cv-remove-entry { position: absolute; top: .35rem; right: .5rem; padding: .25rem .4rem; border: 0; background: transparent; color: #8b2932; cursor: pointer; }
+  .cv-date-fields { display: grid; grid-template-columns: 1fr 1fr; gap: .7rem; }
+  .cv-add-entry { justify-self: start; padding: .45rem .7rem; border: 1px solid var(--work-blue); border-radius: 5px; background: white; color: var(--work-blue); font: inherit; font-weight: 700; cursor: pointer; }
+  .cv-preview { min-height: 430px; padding: clamp(1.1rem, 3vw, 2rem); background: white; border: 1px solid var(--work-line); box-shadow: 0 4px 18px rgb(8 47 120 / 8%); color: #182433; font-family: Arial, Helvetica, sans-serif; }
   .cv-preview-header { padding-bottom: .8rem; border-bottom: 2px solid #183b68; }
   .cv-preview-header h2 { margin: 0 0 .4rem; color: #122e50; font-size: 1.7rem; }
   .cv-preview-header p { margin: 0; overflow-wrap: anywhere; font-size: .88rem; }
   .cv-preview section { margin-top: 1.1rem; }
   .cv-preview section h3 { margin: 0 0 .45rem; padding-bottom: .25rem; border-bottom: 1px solid #aebdce; color: #183b68; font-size: 1rem; text-transform: uppercase; letter-spacing: .035em; }
+  .cv-preview h4 { margin: .6rem 0 .15rem; color: #182433; font-size: .95rem; }
   .cv-preview p, .cv-preview li { font-size: .9rem; line-height: 1.5; overflow-wrap: anywhere; }
   .cv-preview p { margin: .25rem 0; white-space: pre-wrap; }
+  .cv-preview-meta { color: #53657b; }
   .cv-preview ul { margin: .3rem 0 0; padding-left: 1.2rem; }
   .cv-builder-note { margin: 1rem 0 0; color: #53657b; font-size: .9rem; }
   @media (max-width: 850px) { .cv-builder-heading { align-items: start; flex-direction: column; } .cv-builder-layout { grid-template-columns: 1fr; } }
-  @media print {
-    body * { visibility: hidden !important; }
-    .cv-preview, .cv-preview * { visibility: visible !important; }
-    .cv-preview { position: absolute; inset: 0; width: 100%; padding: 0; border: 0; box-shadow: none; }
-    .cv-preview section[hidden] { display: none !important; }
-    @page { margin: 16mm; }
-  }
 </style>

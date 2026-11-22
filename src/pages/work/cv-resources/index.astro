@@ -1,7 +1,17 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import CvBuilder from '../../../components/work/CvBuilder.astro';
-import { cvResources } from '../../../lib/work';
+import CvApplicationTools from '../../../components/work/CvApplicationTools.astro';
+import { formatWorkDate, getPublishedWorkArticles } from '../../../lib/work';
+const recommendedSlugs = [
+  'how-to-write-cv-in-uganda-that-gets',
+  'how-to-tailor-your-cv-for-different',
+  '12-common-cv-mistakes-that-could-cost',
+  'how-to-write-winning-cv-your-ultimate',
+];
+const recommendedArticles = (await getPublishedWorkArticles('career-advice'))
+  .filter((article) => recommendedSlugs.includes(article.slug))
+  .sort((a, b) => recommendedSlugs.indexOf(a.slug) - recommendedSlugs.indexOf(b.slug));
 ---
 
 <WorkLayout
@@ -18,44 +28,39 @@ import { cvResources } from '../../../lib/work';
       </p>
     </div>
     <CvBuilder />
-    <section aria-labelledby="cv-guides-title">
+    <section class="cv-recommendations" aria-labelledby="cv-guides-title">
       <div class="work-page-intro">
-        <p class="work-eyebrow">Guides and checklists</p>
-        <h2 id="cv-guides-title">Make your application stronger</h2>
-        <p>Practical advice for writing, tailoring and checking your CV before you apply.</p>
+        <p class="work-eyebrow">Read while you build</p>
+        <h2 id="cv-guides-title">CV advice from SSEGU</h2>
+        <p>Open a guide alongside the builder for practical examples on CV writing, tailoring and reviewing.</p>
       </div>
-    <div class="work-resource-grid">
-      {cvResources.map((resource) => (
-        <article class="work-resource-card">
-          <span class="work-resource-icon" aria-hidden="true">
-            {resource.title.slice(0, 1)}
-          </span>
-          <h2>
-            <a href={`/work/cv-resources/${resource.slug}/`}>{resource.title}</a>
-          </h2>
-          <p>{resource.description}</p>
-          <a class="work-text-link" href={`/work/cv-resources/${resource.slug}/`}>
-            Open resource →
-          </a>
-        </article>
-      ))}
-    </div>
-    <div class="cv-related-guides">
-      <h2>More CV advice</h2>
-      <ul>
-        <li><a href="/work/career-advice/how-to-write-cv-in-uganda-that-gets/">How to write a CV in Uganda that gets noticed</a></li>
-        <li><a href="/work/career-advice/how-to-tailor-your-cv-for-different/">How to tailor your CV for different roles</a></li>
-        <li><a href="/work/career-advice/12-common-cv-mistakes-that-could-cost/">12 common CV mistakes to avoid</a></li>
-        <li><a href="/work/career-advice/how-to-write-winning-cv-your-ultimate/">A complete guide to writing a winning CV</a></li>
-      </ul>
-    </div>
+      <div class="work-article-grid cv-article-grid">
+        {recommendedArticles.map((article) => (
+          <article class="work-advice-card">
+            <a href={`/work/career-advice/${article.slug}/`}>
+              <img src={article.image} alt={article.imageAlt ?? ''} width="1200" height="675" loading="lazy" />
+              <div>
+                <p class="work-card-kicker">{article.category}</p>
+                <h3>{article.title}</h3>
+                <p>{article.description}</p>
+                <small>By {article.author} · {formatWorkDate(article.publishedAt)}</small>
+                <span class="cv-article-link">Read this guide →</span>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
     </section>
+    <CvApplicationTools />
   </div>
 </WorkLayout>
 
 <style>
-  .cv-related-guides { margin-top: 2rem; padding: 1.5rem; border-radius: var(--work-radius); background: #f4f7fc; }
-  .cv-related-guides h2 { margin-top: 0; color: var(--work-navy); }
-  .cv-related-guides ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem 1.5rem; margin-bottom: 0; padding-left: 1.2rem; }
-  @media (max-width: 640px) { .cv-related-guides ul { grid-template-columns: 1fr; } }
+  .cv-recommendations { margin: 2.5rem 0; scroll-margin-top: 1rem; }
+  .cv-article-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cv-article-grid h3 { margin: .4rem 0; color: var(--work-navy-deep); font-size: 1.2rem; }
+  .cv-article-grid > article { transition: transform 160ms ease, box-shadow 160ms ease; }
+  .cv-article-grid > article:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgb(22 59 124 / 13%); }
+  .cv-article-link { display: inline-block; margin-top: .5rem; color: var(--work-blue); font-weight: 800; }
+  @media (max-width: 640px) { .cv-article-grid { grid-template-columns: 1fr; } }
 </style>
