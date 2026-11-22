@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import { getCourseDirectory } from '../../../lib/work';
+
+export async function getStaticPaths() {
+  const pathways = await getCollection('pathways');
+  return pathways.map((pathway) => ({ params: { slug: pathway.data.slug }, props: { pathway } }));
+}
+
+const { pathway } = Astro.props;
+const { data } = pathway;
+const courseDirectory = await getCourseDirectory();
+const courseBySlug = new Map(courseDirectory.map((course) => [course.slug, course]));
+---
+
+<WorkLayout title={`${data.title} | Career pathways | SSEGU Work`} description={data.description} noindex={data.status !== 'published'}>
+  <main class="work-page-shell">
+    <nav class="work-breadcrumbs" aria-label="Breadcrumb">
+      <a href="/work/">Work</a><span>/</span><a href="/work/career-pathways/">Career pathways</a><span>/</span><span aria-current="page">{data.title}</span>
+    </nav>
+    <p class="work-eyebrow">Career pathway · Research draft</p>
+    <h1>{data.title}</h1>
+    <p>{data.description}</p>
+    <p class="work-course-attribution">This sequence is an editorial starting point. Employer requirements, course availability, Uganda access and job evidence are not fully verified. Completion does not guarantee employment or professional eligibility.</p>
+
+    <section class="work-detail-body">
+      <h2>Who this route may suit</h2><p>{data.intendedLearner}</p>
+      <h2>Possible roles</h2><ul>{data.roles.map((role) => <li>{role}</li>)}</ul>
+      <h2>Foundations</h2><ul>{data.foundations.map((item) => <li>{item}</li>)}</ul>
+      <h2>Skills map</h2><ul>{data.skills.map((skill) => <li>{skill}</li>)}</ul>
+      <h2>Learning stages and practice</h2>
+      {data.stages.map((stage, index) => <article class="work-resource-card">
+        <h3>{index + 1}. {stage.title}</h3><p>{stage.description}</p>
+        <p><strong>Suggested courses:</strong> {stage.courses.length ? stage.courses.map((slug, courseIndex) => <>{courseIndex > 0 && ', '}{courseBySlug.has(slug) ? <a href={`/work/courses/${slug}/`}>{courseBySlug.get(slug)?.title}</a> : slug}</>) : 'No course linked yet.'}</p>
+        {stage.project && <p><strong>Practice milestone:</strong> {stage.project}</p>}
+      </article>)}
+      <h2>Free-first study</h2><ul>{data.freeFirst.map((item) => <li>{item}</li>)}</ul>
+      <h2>Optional paid credentials</h2><ul>{data.paidCredentials.map((item) => <li>{item}</li>)}</ul>
+      <h2>Further specialisation</h2><ul>{data.furtherSpecialisation.map((item) => <li>{item}</li>)}</ul>
+      <h2>Uganda and international context</h2><p>{data.regionalContext}</p>
+      {data.sources.length > 0 && <><h2>Evidence</h2><ul>{data.sources.map((source) => <li><a href={source.url} target="_blank" rel="noreferrer">{source.label}</a> · {source.evidence}{source.checkedAt ? ` · checked ${source.checkedAt}` : ''}</li>)}</ul></>}
+    </section>
+    <p><a class="work-text-link" href="/work/courses/">Browse the course catalogue →</a></p>
+  </main>
+</WorkLayout>

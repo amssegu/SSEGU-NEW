@@ -10,6 +10,8 @@ interface Props {
   allCourses: WorkCourse[];
   options: {
     providers: string[];
+    categories: string[];
+    credentials: string[];
     subjects: string[];
     levels: string[];
     coursePrices: string[];
@@ -35,7 +37,7 @@ const clientCourses = allCourses.map((course) => ({
 
 <WorkLayout
   title="Courses | SSEGU Work"
-  description="Browse factual, link-only course listings from selected learning providers."
+  description="Browse 50 editorially approved courses and check access, evidence and outstanding provider details before enrolling."
   noindex={Astro.url.search.length > 0}
 >
   <div class="work-page-shell">
@@ -46,6 +48,13 @@ const clientCourses = allCourses.map((course) => ({
         Compare practical learning options, then continue to the original provider to study. SSEGU
         does not host the courses or claim affiliation with the providers listed.
       </p>
+      <p class="work-course-attribution"><strong>Editorial review:</strong> these courses are approved for publication. Provider availability, Uganda access, payment terms and job-market evidence can still need checking; see each profile and confirm current terms with the provider.</p>
+      <nav class="work-filter-actions" aria-label="Course catalogue sections">
+        <a class="work-button work-button-secondary" href="/work/courses/categories/">Browse categories</a>
+        <a class="work-button work-button-secondary" href="/work/courses/free/">Free courses</a>
+        <a class="work-button work-button-secondary" href="/work/career-pathways/">Career pathways</a>
+        <a class="work-button work-button-secondary" href="/work/courses/how-we-evaluate/">How we evaluate</a>
+      </nav>
     </div>
     <form id="work-course-filters" class="work-filter-panel" data-testid="work-course-filters">
       <div class="work-filter-grid">
@@ -69,12 +78,19 @@ const clientCourses = allCourses.map((course) => ({
           </select>
         </div>
         <div>
-          <label for="course-subject">Subject</label>
-          <select id="course-subject" name="subject">
-            <option value="">All subjects</option>
-            {filterOptions(options.subjects).map((value) => (
+          <label for="course-category">Category</label>
+          <select id="course-category" name="category">
+            <option value="">All categories</option>
+            {filterOptions(options.categories).map((value) => (
               <option value={value}>{value}</option>
             ))}
+          </select>
+        </div>
+        <div>
+          <label for="course-credential">Credential type</label>
+          <select id="course-credential" name="credential">
+            <option value="">Any credential</option>
+            {filterOptions(options.credentials).map((value) => <option value={value}>{value}</option>)}
           </select>
         </div>
         <div>
@@ -166,7 +182,7 @@ const clientCourses = allCourses.map((course) => ({
   const empty = document.querySelector('[data-course-empty]');
   const pagination = document.querySelector('#course-pagination');
   const params = new URLSearchParams(window.location.search);
-  const fields = ['q', 'provider', 'subject', 'level', 'price', 'certificatePrice', 'delivery'];
+  const fields = ['q', 'provider', 'category', 'credential', 'level', 'price', 'certificatePrice', 'delivery'];
   const pageSize = 48;
   let currentPage = Number(params.get('page')) || initialPage || 1;
   fields.forEach((name) => {
@@ -205,6 +221,7 @@ const clientCourses = allCourses.map((course) => ({
         <span><strong>Certificate</strong>${escapeHtml(label(course.certificatePriceStatus))}</span>
         ${course.deliveryMode ? `<span><strong>Delivery</strong>${escapeHtml(label(course.deliveryMode))}</span>` : ''}
       </div>
+      ${course.approvalStatus === 'approved' && course.publicationStatus === 'published' ? '<p class="work-resource-meta">Approved · Published</p>' : '<p class="work-course-attribution"><strong>Research draft:</strong> Not yet approved and published.</p>'}
       <div class="work-resource-card-actions">
         <a class="work-text-link" href="/work/courses/${escapeHtml(course.slug)}/">Course details →</a>
         ${course.providerUrl ? `<a class="work-text-link" href="${escapeHtml(course.providerUrl)}" target="_blank" rel="noopener noreferrer">Visit provider ↗</a>` : ''}
@@ -222,6 +239,9 @@ const clientCourses = allCourses.map((course) => ({
         course.provider,
         course.description,
         course.subject,
+        course.category,
+        ...(course.skills || []),
+        ...(course.careerRoles || []),
         course.level,
         course.format,
       ]
@@ -230,7 +250,8 @@ const clientCourses = allCourses.map((course) => ({
       return (
         (!query || text.includes(query)) &&
         (!data.get('provider') || course.provider === data.get('provider')) &&
-        (!data.get('subject') || course.subject === data.get('subject')) &&
+        (!data.get('category') || (course.category || course.subject) === data.get('category')) &&
+        (!data.get('credential') || course.credentialType === data.get('credential')) &&
         (!data.get('level') || course.level === data.get('level')) &&
         (!data.get('price') || course.coursePriceStatus === data.get('price')) &&
         (!data.get('certificatePrice') ||

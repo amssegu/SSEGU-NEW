@@ -7,9 +7,11 @@ interface Props {
 }
 
 const { course } = Astro.props;
-const providerUrl = isSafeCourseUrl(course.sourceUrl) ? course.sourceUrl : undefined;
-const details = [course.subject, course.level, course.duration, course.language].filter(Boolean);
-const delivery = course.deliveryMode?.replace(/_/g, ' ');
+const providerUrl =
+  course.researchStatus !== 'needs-recheck' && isSafeCourseUrl(course.sourceUrl)
+    ? course.sourceUrl
+    : undefined;
+const details = [course.category ?? course.subject, course.level, course.duration].filter(Boolean);
 ---
 
 <article
@@ -30,13 +32,14 @@ const delivery = course.deliveryMode?.replace(/_/g, ' ');
     <a href={`/work/courses/${course.slug}/`}>{course.title}</a>
   </h2>
   <p class="work-resource-provider">{course.provider}</p>
+  {course.approvalStatus === 'approved' && course.publicationStatus === 'published' ? <p class="work-resource-meta">Approved · Published</p> : <p class="work-course-attribution"><strong>Research draft:</strong> not approved and published.</p>}
   <p>{course.description}</p>
   {details.length > 0 && <p class="work-resource-meta">{details.join(' · ')}</p>}
-  <p class="work-resource-meta">
-    {delivery && `Delivery: ${delivery} · `}Course: {courseStatusLabel(course.coursePriceStatus)} ·
-    Certificate: {courseStatusLabel(course.certificatePriceStatus)}
-  </p>
-  <p class="work-resource-meta">Availability: {courseStatusLabel(course.availabilityStatus)}</p>
+  <div class="work-course-facts">
+    <span><strong>Access</strong>{courseStatusLabel(course.coursePriceStatus)}</span>
+    <span><strong>Credential</strong>{course.credentialType ?? courseStatusLabel(course.certificatePriceStatus)}</span>
+  </div>
+  {course.researchStatus && <p class="work-resource-meta">Research status: {courseStatusLabel(course.researchStatus)}</p>}
   <div class="work-resource-card-actions">
     <a class="work-text-link" href={`/work/courses/${course.slug}/`}>
       View course →

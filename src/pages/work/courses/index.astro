@@ -1,9 +1,9 @@
 ---
 import WorkCourseCatalog from '../../../components/work/WorkCourseCatalog.astro';
-import { getCourseFilterOptions, getPublishedWorkCourses } from '../../../lib/work';
+import { getCourseFilterOptions, getCourseDirectory } from '../../../lib/work';
 
 const pageSize = 48;
-const allCourses = await getPublishedWorkCourses();
+const allCourses = await getCourseDirectory();
 const pageCount = Math.max(1, Math.ceil(allCourses.length / pageSize));
 ---
 

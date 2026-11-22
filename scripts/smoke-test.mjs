@@ -37,6 +37,11 @@ for (const route of [
   'work/career-advice/index.html',
   'work/career-advice/how-to-write-a-winning-cv-in-uganda/index.html',
   'work/courses/index.html',
+  'work/courses/page/2/index.html',
+  'work/courses/categories/index.html',
+  'work/courses/free/index.html',
+  'work/courses/how-we-evaluate/index.html',
+  'work/career-pathways/index.html',
   ...(importedCourses.length > 48 ? ['work/courses/page/2/index.html'] : []),
   ...(importedCourse ? [`work/courses/${importedCourse.slug}/index.html`] : []),
   'work/cv-resources/index.html',
@@ -60,9 +65,17 @@ assert.match(readFileSync('dist/work/index.html', 'utf8'), /Your Career/);
 assert.match(readFileSync('dist/work/jobs/index.html', 'utf8'), /Search jobs/);
 assert.match(readFileSync('dist/work/jobs/index.html', 'utf8'), /Active opportunities/);
 const courseIndex = readFileSync('dist/work/courses/index.html', 'utf8');
-assert.match(courseIndex, /Search this page/);
+assert.match(courseIndex, /Search courses/);
+assert.match(courseIndex, /Research status/);
 if (importedCourses.length > 48) assert.match(courseIndex, /Next page/);
 assert.ok(Buffer.byteLength(courseIndex) < 500_000, 'course index should stay reasonably small');
+for (const slug of [
+  'excel-skills-for-business-essentials',
+  'google-data-analytics-professional-certificate',
+  'who-academy-course-catalogue',
+]) {
+  assert.match(courseIndex, new RegExp(`/work/courses/${slug}/`));
+}
 const importedJobPage = readFileSync(`dist/work/jobs/${importedJob.slug}/index.html`, 'utf8');
 assert.match(importedJobPage, new RegExp(importedJob.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
 if (importedCourse) {

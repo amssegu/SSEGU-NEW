@@ -1,0 +1,2308 @@
+{
+  "title": "Employability Course Catalogue Research Ledger",
+  "source": "docs/course-catalogue-50-research.md",
+  "updatedAt": "2026-11-22",
+  "counts": {
+    "researchRequired": 0,
+    "inResearch": 50,
+    "reviewRequired": 0,
+    "verified": 0,
+    "needsRecheck": 0,
+    "total": 50,
+    "researchPublished": 0
+  },
+  "courses": [
+    {
+      "number": 1,
+      "title": "Excel Skills for Business: Essentials",
+      "url": "https://www.coursera.org/learn/excel-essentials",
+      "category": "Digital productivity and AI at work",
+      "providerSummary": "Macquarie University / Coursera. Practical spreadsheets for office, finance, operations, and small-business roles.",
+      "shortlistFreeOption": "Audit/free access may be offered; verify the current enrollment choices.",
+      "shortlistPaidOption": "Paid access adds graded work and a shareable course certificate. Coursera price is shown at checkout; subscription may be more economical if taking several courses.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify Uganda enrollment and payment options",
+        "Complete portfolio, progression and editorial assessment",
+        "Editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Coursera course page",
+          "url": "https://www.coursera.org/learn/excel-essentials",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "enjuba Data Analyst vacancy (Kampala)",
+          "url": "https://ug.linkedin.com/jobs/view/data-analyst-at-enjuba-4485828352",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The free route and required exercise access are not verified. Confirm what remains available without payment before deciding whether the certificate is worth a local checkout price."
+    },
+    {
+      "number": 2,
+      "title": "Google AI Essentials",
+      "url": "https://www.coursera.org/learn/google-ai-essentials",
+      "category": "Digital productivity and AI at work",
+      "providerSummary": "Google / Coursera. Practical generative-AI use, prompting, and responsible use for non-specialists in many occupations.",
+      "shortlistFreeOption": "Preview or financial aid may be available; don’t assume full free access.",
+      "shortlistPaidOption": "Paid enrollment provides the complete course and certificate. Coursera local price varies.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "verified",
+        "duration": "supported",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Confirm whether shortlist title refers to a single course or the five-course specialization",
+        "Verify free and paid enrollment terms and Uganda checkout",
+        "Collect dated job-posting evidence and complementary skill gaps",
+        "Complete portfolio, progression and editorial assessment",
+        "Editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Coursera Google AI Essentials specialization",
+          "url": "https://www.coursera.org/specializations/ai-essentials-google",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The full free-access and certificate terms are unverified. Confirm course scope and Uganda checkout before paying."
+    },
+    {
+      "number": 3,
+      "title": "AI Fundamentals",
+      "url": "https://skillsbuild.org/adult-learners/explore-learning",
+      "category": "Digital productivity and AI at work",
+      "providerSummary": "IBM SkillsBuild. A short introduction to AI concepts, uses, and responsible AI; useful as a baseline for office and technical workers.",
+      "shortlistFreeOption": "IBM SkillsBuild is free and offers digital credentials on eligible learning paths.",
+      "shortlistPaidOption": "No paid tier is needed for this entry-level learning path; learners wanting deeper technical practice can progress to paid vendor certifications separately.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "supported",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "supported",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Resolve exact IBM SkillsBuild course/path matching the shortlist URL",
+        "Verify curriculum, enrollment and credential requirements",
+        "Verify Uganda access and connectivity/payment considerations",
+        "Collect dated job-posting evidence",
+        "Complete portfolio, progression and editorial assessment",
+        "Editorial review"
+      ],
+      "sources": [
+        {
+          "label": "IBM SkillsBuild digital credentials",
+          "url": "https://skillsbuild.org/digital-credentials",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The exact shortlist-to-course match is unresolved, so a paid route cannot yet be recommended. Verify the course identity and free/paid terms first."
+    },
+    {
+      "number": 4,
+      "title": "Microsoft Productivity Accreditation 2026",
+      "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-productivity-accreditation-2026/",
+      "category": "Digital productivity and AI at work",
+      "providerSummary": "Microsoft Learn. A beginner four-module path about choosing Office/Microsoft 365 options and using Copilot-supported productivity workflows; it is not comprehensive Office-app training.",
+      "shortlistFreeOption": "Microsoft Learn content is free; some Copilot feature practice may require a separate eligible license.",
+      "shortlistPaidOption": "Software purchase or subscription is separate from the learning path; Uganda costs and access need checking.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "not-verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Check Uganda enrollment, software pricing and Copilot feature access",
+        "Confirm whether any achievement code is issued and distinguish it from professional certification",
+        "Collect dated office-productivity vacancy evidence and skill gaps",
+        "Editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Microsoft Productivity Accreditation 2026 learning path",
+          "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-productivity-accreditation-2026/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "Microsoft Learn training is free and is enough to study the listed productivity path. Check which Copilot features need a separate eligible license; do not buy software just to complete the lessons."
+    },
+    {
+      "number": 5,
+      "title": "Learning How to Learn",
+      "url": "https://www.coursera.org/learn/learning-how-to-learn",
+      "category": "Digital productivity and AI at work",
+      "providerSummary": "McMaster University and UC San Diego / Coursera. Study strategies for learners changing careers or building skills alongside work.",
+      "shortlistFreeOption": "Audit/free access may be available.",
+      "shortlistPaidOption": "Payment adds graded assessment and a shareable certificate; value is mainly structured practice, not a job-specific license.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "supported",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify Uganda checkout/free route",
+        "Collect dated job evidence only if roles are associated; course is general learning-skills study",
+        "Complete access and editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://www.coursera.org/learn/learning-how-to-learn",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The full-course free route is not confirmed. Check enrollment terms first; pay only if graded work or the certificate fits a specific learning goal."
+    },
+    {
+      "number": 6,
+      "title": "Google Data Analytics Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "category": "Data, analytics, and business intelligence",
+      "providerSummary": "Google / Coursera. A structured entry route into spreadsheets, SQL, data cleaning, visualization, and analysis projects.",
+      "shortlistFreeOption": "Preview/free access or financial aid may be available; check the exact enrollment page.",
+      "shortlistPaidOption": "Paid program includes graded work, projects, and a Google shareable certificate. Google quotes US$49/month in the US/Canada; elsewhere check local Coursera price.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "verified",
+        "duration": "supported",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "supported",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified",
+        "sources": [
+          [
+            "Google Data Analytics Certificate",
+            "https://grow.google/certificates/data-analytics/",
+            "verified"
+          ],
+          [
+            "Google Data Analytics on Coursera",
+            "https://www.coursera.org/professional-certificates/google-data-analytics",
+            "verified"
+          ]
+        ],
+        "outstandingWork": [
+          "Verify exact current Coursera access and checkout terms for Uganda",
+          "Research Uganda and international job postings, date evidence, and map skill gaps",
+          "Complete original learner guidance, portfolio, progression, and editorial review"
+        ]
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify exact current Coursera access and checkout terms for Uganda",
+        "Complete original learner guidance, portfolio, progression, and editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Google Data Analytics Certificate",
+          "url": "https://grow.google/certificates/data-analytics/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "Google Data Analytics on Coursera",
+          "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "enjuba Data Analyst vacancy (Kampala)",
+          "url": "https://ug.linkedin.com/jobs/view/data-analyst-at-enjuba-4485828352",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "Graded work, projects and the Google certificate may add structure for learners who need assessed practice. Free access and Uganda pricing are unverified, so check the checkout total before subscribing."
+    },
+    {
+      "number": 7,
+      "title": "IBM Data Analyst Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst",
+      "category": "Data, analytics, and business intelligence",
+      "providerSummary": "IBM / Coursera. Excel, SQL, Python, visualization, dashboards, and portfolio projects. A strong alternative to #6 with a more tool-heavy route.",
+      "shortlistFreeOption": "Some previews may be free; financial aid may be available.",
+      "shortlistPaidOption": "Paid enrollment unlocks graded assignments, hands-on labs/projects, and the IBM credential. Coursera subscription price varies by country.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified",
+        "sources": [
+          [
+            "IBM Data Analyst Professional Certificate",
+            "https://www.coursera.org/professional-certificates/ibm-data-analyst",
+            "verified"
+          ]
+        ],
+        "outstandingWork": [
+          "Verify free/paid enrollment and Uganda checkout terms",
+          "Research job postings and identify complementary requirements beyond the curriculum",
+          "Complete portfolio, progression, and editorial review"
+        ]
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify free/paid enrollment and Uganda checkout terms",
+        "Complete portfolio, progression, and editorial review"
+      ],
+      "sources": [
+        {
+          "label": "IBM Data Analyst Professional Certificate",
+          "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "enjuba Data Analyst vacancy (Kampala)",
+          "url": "https://ug.linkedin.com/jobs/view/data-analyst-at-enjuba-4485828352",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "Hands-on labs, graded work and the IBM credential may justify payment for a learner seeking structured practice. Confirm free access and the Uganda subscription price before enrolling."
+    },
+    {
+      "number": 8,
+      "title": "Power BI learning paths",
+      "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+      "category": "Data, analytics, and business intelligence",
+      "providerSummary": "Microsoft Learn. Build data models and reports using Power BI; useful for analyst, finance, and operations roles.",
+      "shortlistFreeOption": "Microsoft Learn training is free, self-paced, and some paths include interactive labs.",
+      "shortlistPaidOption": "Optional PL-300 certification exam is paid; the exam page shows the country-specific amount. The exam validates skills beyond completing lessons.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "supported",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified",
+        "sources": [
+          [
+            "Microsoft Learn Power BI training",
+            "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+            "verified"
+          ],
+          [
+            "Prepare data for analysis with Power BI",
+            "https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi",
+            "verified"
+          ]
+        ],
+        "outstandingWork": [
+          "Select a defined set of learning paths/modules instead of the broad catalogue",
+          "Verify exam price and local availability if mentioning PL-300",
+          "Check Uganda software/access context",
+          "Research dated job postings; complete editorial review"
+        ]
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Select a defined set of learning paths/modules instead of the broad catalogue",
+        "Verify exam price and local availability if mentioning PL-300",
+        "Check Uganda software/access context"
+      ],
+      "sources": [
+        {
+          "label": "Microsoft Learn Power BI training",
+          "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "Prepare data for analysis with Power BI",
+          "url": "https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "enjuba Data Analyst vacancy (Kampala)",
+          "url": "https://ug.linkedin.com/jobs/view/data-analyst-at-enjuba-4485828352",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "Microsoft Learn paths and modules are free for building Power BI skills. The PL-300 exam is separate and optional; pay for it only when the credential is relevant to a target role."
+    },
+    {
+      "number": 9,
+      "title": "Intro to SQL",
+      "url": "https://www.kaggle.com/learn/intro-to-sql",
+      "category": "Data, analytics, and business intelligence",
+      "providerSummary": "Kaggle. Short, exercise-based SQL practice for querying datasets; useful for analysts and developers.",
+      "shortlistFreeOption": "Free lessons and practice exercises; Kaggle completion certificates are available.",
+      "shortlistPaidOption": "No paid tier required for the course. Learners can add a portfolio project using public data to show applied skills.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "supported",
+        "duration": "verified",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified",
+        "sources": [
+          [
+            "Kaggle Learn: Intro to SQL",
+            "https://www.kaggle.com/learn/intro-to-sql",
+            "verified"
+          ]
+        ],
+        "outstandingWork": [
+          "Verify whether Kaggle currently issues a course completion certificate; page states free course and estimated 3 hours but not credential terms",
+          "Check account, bandwidth and Uganda access practicalities",
+          "Research dated job evidence and skill gaps",
+          "Complete profile and editorial review"
+        ]
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify whether Kaggle currently issues a course completion certificate; page states free course and estimated 3 hours but not credential terms",
+        "Check account, bandwidth and Uganda access practicalities",
+        "Complete profile and editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Kaggle Learn: Intro to SQL",
+          "url": "https://www.kaggle.com/learn/intro-to-sql",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "enjuba Data Analyst vacancy (Kampala)",
+          "url": "https://ug.linkedin.com/jobs/view/data-analyst-at-enjuba-4485828352",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "Kaggle’s free exercises are enough to practise introductory SQL queries. Build a small query-based project before considering any paid training."
+    },
+    {
+      "number": 10,
+      "title": "Google Business Intelligence Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-business-intelligence",
+      "category": "Data, analytics, and business intelligence",
+      "providerSummary": "Google / Coursera. Builds on analytics with data modeling, dashboards, and BI workflows.",
+      "shortlistFreeOption": "Preview/free access or aid may be available; verify current terms.",
+      "shortlistPaidOption": "Paid program adds assessed work, projects, and the shareable Google credential. Local Coursera subscription price applies.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "verified",
+        "duration": "supported",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "supported",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified",
+        "sources": [
+          [
+            "Google Business Intelligence Certificate",
+            "https://grow.google/certificates/business-intelligence/",
+            "verified"
+          ],
+          [
+            "Google Business Intelligence on Coursera",
+            "https://www.coursera.org/professional-certificates/google-business-intelligence",
+            "verified"
+          ]
+        ],
+        "outstandingWork": [
+          "Verify current Coursera free/paid enrollment terms and local checkout in Uganda",
+          "Research job postings and local/international skill requirements",
+          "Complete portfolio, progression, and editorial review"
+        ]
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify current Coursera free/paid enrollment terms and local checkout in Uganda",
+        "Research job postings and local/international skill requirements",
+        "Complete portfolio, progression, and editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Google Business Intelligence Certificate",
+          "url": "https://grow.google/certificates/business-intelligence/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "Google Business Intelligence on Coursera",
+          "url": "https://www.coursera.org/professional-certificates/google-business-intelligence",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "Assessed work, projects and the Google credential may help learners who need a structured BI sequence. Confirm free access and the local Coursera price before paying."
+    },
+    {
+      "number": 11,
+      "title": "Google IT Support Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "category": "IT support, networking, cybersecurity, and cloud",
+      "providerSummary": "Google / Coursera. Troubleshooting, operating systems, networking, system administration, and customer support for entry-level IT roles.",
+      "shortlistFreeOption": "Preview/free access or financial aid may be offered; verify before listing.",
+      "shortlistPaidOption": "Paid program includes graded labs/assessments and a Google certificate. In Uganda, confirm local monthly price at checkout.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "verified",
+        "duration": "supported",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify Coursera free/paid access, Uganda checkout and credential conditions",
+        "Complete portfolio, progression and editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Google IT Support Professional Certificate",
+          "url": "https://www.coursera.org/professional-certificates/google-it-support",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "StrongMinds Uganda IT Officer vacancy (Kampala)",
+          "url": "https://strongminds.bamboohr.com/careers/46",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "Graded labs and a structured support curriculum can add practical value. Confirm the full free route, Uganda price and whether the course labs run on devices available to you."
+    },
+    {
+      "number": 12,
+      "title": "Networking Basics",
+      "url": "https://skillsforall.com/course/networking-basics",
+      "category": "IT support, networking, cybersecurity, and cloud",
+      "providerSummary": "Cisco Networking Academy Skills for All. Introductory networking knowledge and practical foundation for IT support.",
+      "shortlistFreeOption": "Cisco offers free self-paced training; check whether current course completion includes a badge.",
+      "shortlistPaidOption": "No paid course tier is required. A Cisco certification exam is separate and paid if the learner continues to a professional credential.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "supported",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Confirm exact current Networking Basics enrollment page and course duration/curriculum",
+        "Check completion badge/credential conditions",
+        "Check access from Uganda and gather dated job evidence",
+        "Complete editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Cisco Networking Academy catalog",
+          "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html",
+          "evidence": "supported",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The exact Cisco course and badge requirements are unresolved. Confirm the course mapping and hands-on access before paying for any related exam or credential."
+    },
+    {
+      "number": 13,
+      "title": "Introduction to Cybersecurity",
+      "url": "https://skillsforall.com/course/introduction-to-cybersecurity",
+      "category": "IT support, networking, cybersecurity, and cloud",
+      "providerSummary": "Cisco Networking Academy Skills for All. Security concepts and career exploration for beginners.",
+      "shortlistFreeOption": "Free self-paced course and digital badge where offered.",
+      "shortlistPaidOption": "No paid tier required for the course; Cisco certification exams are separate and optional.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "supported",
+        "duration": "verified",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Confirm badge completion conditions on the current enrollment flow",
+        "Check Uganda access and connectivity",
+        "Collect dated job-market evidence and realistic skill gaps",
+        "Complete editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Cisco Introduction to Cybersecurity",
+          "url": "https://www.netacad.com/courses/introduction-to-cybersecurity",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "Cisco Networking Academy",
+          "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html",
+          "evidence": "supported",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "Cisco lists the course as free, which is sufficient for introductory security concepts. Confirm badge requirements; a course badge is not a professional security certification."
+    },
+    {
+      "number": 14,
+      "title": "AWS Cloud Practitioner Essentials",
+      "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials",
+      "category": "IT support, networking, cybersecurity, and cloud",
+      "providerSummary": "Amazon Web Services. Cloud fundamentals for technical and non-technical staff; useful for IT, sales, and business operations.",
+      "shortlistFreeOption": "AWS says self-paced digital training is free.",
+      "shortlistPaidOption": "AWS Certified Cloud Practitioner exam is optional and paid. The certification provides a proctored vendor credential; exam cost and availability should be checked for the learner’s location.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "supported",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify account/signup and course experience for Uganda",
+        "Verify current certification exam fee and separate credential requirements",
+        "Collect dated role evidence and course-to-role gaps",
+        "Complete progression, portfolio and review"
+      ],
+      "sources": [
+        {
+          "label": "AWS Cloud Practitioner training",
+          "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "AWS Training FAQ",
+          "url": "https://aws.amazon.com/training/faqs/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "AWS digital training is free for learning cloud fundamentals. The certification exam is optional and separate; consider its fee only after practice and a clear credential goal."
+    },
+    {
+      "number": 15,
+      "title": "Azure Fundamentals (AZ-900) learning path",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+      "category": "IT support, networking, cybersecurity, and cloud",
+      "providerSummary": "Microsoft Learn. Cloud concepts, Azure services, security, governance, and pricing; useful for IT and cloud-adjacent roles.",
+      "shortlistFreeOption": "Training modules are free.",
+      "shortlistPaidOption": "The AZ-900 exam is optional and paid, with price based on country/region. Passing the exam earns the Microsoft certification.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "verified",
+        "duration": "not-applicable",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "supported",
+        "credential": "verified",
+        "ugandaAccess": "supported",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify accessible free learning path content and Uganda exam scheduling/payment",
+        "Do not treat course completion as certification; capture exam cost from regional checkout",
+        "Collect dated job evidence and skill gaps",
+        "Complete editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Microsoft Azure Fundamentals certification",
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "Microsoft Learn content is free and sufficient for exam preparation. AZ-900 is a separate paid exam; take it only if the credential supports a concrete next step and regional price is confirmed."
+    },
+    {
+      "number": 16,
+      "title": "CS50x: Introduction to Computer Science",
+      "url": "https://cs50.harvard.edu/x/",
+      "category": "Programming, web, and software development",
+      "providerSummary": "Harvard University. Rigorous computer science foundations with problem sets and a final project; good for testing interest before committing to a coding path.",
+      "shortlistFreeOption": "Free course materials and problem sets; a free CS50 certificate is available if course requirements are met.",
+      "shortlistPaidOption": "Optional edX verified certificate costs extra and adds identity-verified proof of completion; current fee appears on the edX enrollment page.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "supported",
+        "duration": "not-verified",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "supported",
+        "credential": "verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; this single Kampala role is not evidence of broad demand",
+        "Confirm current time workload and exact assessed requirements",
+        "Check Uganda account/access and availability",
+        "Complete profile and review"
+      ],
+      "sources": [
+        {
+          "label": "CS50x course page",
+          "url": "https://cs50.harvard.edu/x/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "CS50x syllabus",
+          "url": "https://cs50.harvard.edu/x/syllabus/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "CS50x certificate rules",
+          "url": "https://cs50.harvard.edu/x/certificate/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "CS50x FAQs",
+          "url": "https://cs50.harvard.edu/x/faqs/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "Bamudda Frontend Engineer vacancy (Kampala)",
+          "url": "https://www.bamudda.com/careers/frontend-engineer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "optional",
+      "freePaidRationale": "The free materials, problem sets and qualifying CS50 certificate support the main learning goal. An edX verified certificate is optional paid proof, not Harvard credit; pay only if identity-verified evidence matters to you."
+    },
+    {
+      "number": 17,
+      "title": "Programming for Everybody (Getting Started with Python)",
+      "url": "https://www.coursera.org/learn/python",
+      "category": "Programming, web, and software development",
+      "providerSummary": "University of Michigan / Coursera. Beginner-friendly Python fundamentals for automation, data, and software pathways.",
+      "shortlistFreeOption": "Audit/free access may be available; check current course options.",
+      "shortlistPaidOption": "Paid enrollment adds graded assessments and a shareable university certificate. Local Coursera price applies.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "supported",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify Coursera audit/full free-access and Uganda checkout terms",
+        "Collect dated job evidence and skills gaps",
+        "Complete practical project, progression, and editorial review"
+      ],
+      "sources": [
+        {
+          "label": "University of Michigan Python course on Coursera",
+          "url": "https://www.coursera.org/learn/python",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The full free course route is not verified. Check whether exercises and graded work are included at no cost before deciding whether the paid certificate is worthwhile."
+    },
+    {
+      "number": 18,
+      "title": "Responsive Web Design",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+      "category": "Programming, web, and software development",
+      "providerSummary": "freeCodeCamp. HTML and CSS with a project-based path to build responsive webpages.",
+      "shortlistFreeOption": "Free curriculum and free completion certification after required projects.",
+      "shortlistPaidOption": "No payment required. Learners should publish the projects to a public portfolio/GitHub to show work.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-applicable",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; this single Kampala role is not evidence of broad demand",
+        "Update listing to current certification; note legacy route remains available but content is no longer updated",
+        "Verify current certification exam and free credential conditions",
+        "Check Uganda access/device requirements"
+      ],
+      "sources": [
+        {
+          "label": "freeCodeCamp legacy course from shortlist",
+          "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "freeCodeCamp current Responsive Web Design certification",
+          "url": "https://www.freecodecamp.org/learn/responsive-web-design-v9",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "Bamudda Frontend Engineer vacancy (Kampala)",
+          "url": "https://www.bamudda.com/careers/frontend-engineer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "The freeCodeCamp curriculum, projects and certification provide a complete free learning route. Spend time publishing and explaining the projects rather than paying for a duplicate course."
+    },
+    {
+      "number": 19,
+      "title": "Meta Front-End Developer Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+      "category": "Programming, web, and software development",
+      "providerSummary": "Meta / Coursera. HTML, CSS, JavaScript, React, and portfolio projects for aspiring front-end developers.",
+      "shortlistFreeOption": "Preview or financial aid may be available; confirm current details.",
+      "shortlistPaidOption": "Paid program adds graded projects and a Meta shareable credential; local Coursera subscription applies.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; this single Kampala role is not evidence of broad demand",
+        "Verify full course sequence, price, certificate and audit/aid terms",
+        "Check Uganda access/payment and relevant language/device requirements",
+        "Complete portfolio and editorial review"
+      ],
+      "sources": [
+        {
+          "label": "Meta Front-End Developer Professional Certificate",
+          "url": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "Bamudda Frontend Engineer vacancy (Kampala)",
+          "url": "https://www.bamudda.com/careers/frontend-engineer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "Structured projects and the Meta certificate may be useful when a learner needs guided practice and a credential. Confirm the free route and Uganda subscription price first; the certificate does not replace portfolio work."
+    },
+    {
+      "number": 20,
+      "title": "CS50’s Introduction to Programming with Python",
+      "url": "https://cs50.harvard.edu/python/",
+      "category": "Programming, web, and software development",
+      "providerSummary": "Harvard University. Python-focused course for learners ready to build programming fluency and solve problems through code.",
+      "shortlistFreeOption": "Free course and problem sets; CS50’s free completion certificate is available after requirements are met.",
+      "shortlistPaidOption": "Optional verified edX credential costs extra; price varies by course and checkout region.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "not-verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Review current syllabus topics, assignment requirements and workload",
+        "Verify edX audit/verified track availability and Uganda access",
+        "Collect dated role evidence and skill gaps",
+        "Complete portfolio, progression, and review"
+      ],
+      "sources": [
+        {
+          "label": "CS50P course page",
+          "url": "https://cs50.harvard.edu/python/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "CS50P certificate rules",
+          "url": "https://cs50.harvard.edu/python/certificate/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "CS50P FAQs",
+          "url": "https://cs50.harvard.edu/python/faqs/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "optional",
+      "freePaidRationale": "CS50P learning and its course certificate can be completed free when requirements are met. The paid edX verified certificate is optional and does not add Harvard academic credit."
+    },
+    {
+      "number": 21,
+      "title": "Google Project Management Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-project-management",
+      "category": "Project management, operations, and delivery",
+      "providerSummary": "Google / Coursera. Planning, schedules, budgets, risk, Agile, stakeholder communication, and applied projects.",
+      "shortlistFreeOption": "Preview/free access or aid may be offered; confirm on the current page.",
+      "shortlistPaidOption": "Paid program includes assessments/projects and a Google credential; monthly local Coursera charge continues until completion/cancellation.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked associate-level example does not establish broad demand",
+        "Verify Uganda checkout/free terms"
+      ],
+      "sources": [
+        {
+          "label": "Google Project Management Certificate",
+          "url": "https://www.coursera.org/professional-certificates/google-project-management",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "UNOPS Project Management Office Analyst vacancy, job ID 5120 (Kampala)",
+          "url": "https://careers.unops.org/careersmarketplace/JobDetail/Project-Management-Office-Analyst/5120",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "The structured assignments and Google certificate may be useful for learners who need guided project practice. Confirm aid/free options and Uganda subscription terms before paying."
+    },
+    {
+      "number": 22,
+      "title": "Kickoff: Project Management for All",
+      "url": "https://www.pmi.org/kickoff",
+      "category": "Project management, operations, and delivery",
+      "providerSummary": "Project Management Institute. Short, practical introduction to project planning and delivery, useful for early-career staff and small organizations.",
+      "shortlistFreeOption": "PMI provides this introductory resource free.",
+      "shortlistPaidOption": "No paid tier needed for the introductory course. A separate PMI certification path requires additional experience, preparation, and paid exam fees.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked associate-level example does not establish broad demand",
+        "Check Uganda account/access conditions"
+      ],
+      "sources": [
+        {
+          "label": "PMI Kickoff",
+          "url": "https://www.pmi.org/kickoff/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "PMI free online project courses",
+          "url": "https://www.pmi.org/learning/free-online-courses",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "UNOPS Project Management Office Analyst vacancy, job ID 5120 (Kampala)",
+          "url": "https://careers.unops.org/careersmarketplace/JobDetail/Project-Management-Office-Analyst/5120",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "PMI provides this introductory course free with templates and a badge. That is sufficient for a first project-planning overview; it is not a professional project-management certification."
+    },
+    {
+      "number": 23,
+      "title": "IBM Project Manager Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/ibm-project-manager",
+      "category": "Project management, operations, and delivery",
+      "providerSummary": "IBM / Coursera. Project planning, Agile approaches, risk, communication, and tools for entry-level project roles.",
+      "shortlistFreeOption": "Preview/free access and financial aid may be available; verify.",
+      "shortlistPaidOption": "Paid program unlocks graded work and IBM certificate; local Coursera subscription applies.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked associate-level example does not establish broad demand",
+        "Confirm local pricing and free access in Uganda",
+        "Add dated employer evidence and skill gaps; complete portfolio/review"
+      ],
+      "sources": [
+        {
+          "label": "IBM Project Manager Certificate",
+          "url": "https://www.coursera.org/professional-certificates/ibm-project-manager",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "UNOPS Project Management Office Analyst vacancy, job ID 5120 (Kampala)",
+          "url": "https://careers.unops.org/careersmarketplace/JobDetail/Project-Management-Office-Analyst/5120",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "A structured program and assessed projects may help learners who need guided project-management practice. Verify free access, certificate value and Uganda checkout before subscribing."
+    },
+    {
+      "number": 24,
+      "title": "Agile with Atlassian Jira",
+      "url": "https://www.coursera.org/learn/agile-atlassian-jira",
+      "category": "Project management, operations, and delivery",
+      "providerSummary": "Atlassian / Coursera. Agile concepts and Jira workflows for software teams, project coordinators, and operations teams.",
+      "shortlistFreeOption": "Audit/free access may be offered; verify current enrollment options.",
+      "shortlistPaidOption": "Paid enrollment adds graded activities and completion credential; local Coursera pricing applies.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify Coursera free/audit access and Uganda enrollment/payment",
+        "Add dated job evidence; review"
+      ],
+      "sources": [
+        {
+          "label": "Agile with Atlassian Jira",
+          "url": "https://www.coursera.org/learn/agile-atlassian-jira",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "Jira practice can be done on a free site, but course audit and certificate terms are not confirmed. Verify what the course itself includes before paying."
+    },
+    {
+      "number": 25,
+      "title": "Project management: the start of the project journey",
+      "url": "https://www.open.edu/openlearn/money-business/project-management-the-start-the-project-journey/content-section-overview",
+      "category": "Project management, operations, and delivery",
+      "providerSummary": "The Open University OpenLearn. Introductory project planning and management for learners who want a no-cost overview.",
+      "shortlistFreeOption": "Free course; OpenLearn offers a statement of participation on eligible courses.",
+      "shortlistPaidOption": "No paid tier needed for this course. The OpenLearn statement is not a professional project-management certification.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Check Uganda accessibility and digital access",
+        "Collect role evidence and identify advanced audience limitations; complete review"
+      ],
+      "sources": [
+        {
+          "label": "OpenLearn Project management: the start of the project journey",
+          "url": "https://www.open.edu/openlearn/money-business/leadership-management/project-management-the-start-the-project-journey",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "OpenLearn makes the course content freely available and offers a free participation statement. The paid route adds no verified benefit for the introductory learning goal."
+    },
+    {
+      "number": 26,
+      "title": "Google Digital Marketing & E-commerce Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce",
+      "category": "Marketing, content, and communications",
+      "providerSummary": "Google / Coursera. Search, social, email, analytics, e-commerce, and campaign tools for marketing and small-business roles.",
+      "shortlistFreeOption": "Preview/free access or financial aid may be available; check current terms.",
+      "shortlistPaidOption": "Paid program adds graded exercises, projects, and Google certificate. Local subscription pricing applies.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify Coursera free/full access and Uganda checkout/payment",
+        "Complete profile, portfolio guidance and review"
+      ],
+      "sources": [
+        {
+          "label": "Google Digital Marketing & E-commerce Certificate",
+          "url": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "HCBS Digital Marketing Officer vacancy (Namanve; experience range inconsistent in posting)",
+          "url": "https://hcbsltd.com/careers/jobs/marketing/digital-marketing-officer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "Graded projects and the Google certificate may add structure for a learner targeting digital marketing or e-commerce work. Confirm financial-aid options and local subscription price first."
+    },
+    {
+      "number": 27,
+      "title": "Digital Marketing Certification",
+      "url": "https://academy.hubspot.com/courses/digital-marketing",
+      "category": "Marketing, content, and communications",
+      "providerSummary": "HubSpot Academy. Strategy, SEO, social, email, content, and reporting. Useful for small businesses and junior marketing roles.",
+      "shortlistFreeOption": "Free course and certification.",
+      "shortlistPaidOption": "No paid tier necessary. The course teaches broad methods; it does not certify proficiency in every ad platform.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Confirm current lesson/certificate requirements and region/account conditions",
+        "Complete portfolio and editorial review"
+      ],
+      "sources": [
+        {
+          "label": "HubSpot Academy Digital Marketing Certification",
+          "url": "https://academy.hubspot.com/courses/digital-marketing",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "HCBS Digital Marketing Officer vacancy (Namanve; experience range inconsistent in posting)",
+          "url": "https://hcbsltd.com/careers/jobs/marketing/digital-marketing-officer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "HubSpot lists the course and certification as free. Complete the lessons and assessment before considering any separate paid marketing tools or advertising spend."
+    },
+    {
+      "number": 28,
+      "title": "AEO Fundamentals (SEO and answer engine optimization)",
+      "url": "https://academy.hubspot.com/courses/aeo-fundamentals-certification-en",
+      "category": "Marketing, content, and communications",
+      "providerSummary": "HubSpot Academy. Active AEO Fundamentals course replaces the retired SEO Certification in this catalogue; it covers search strategy across traditional search and AI answer engines.",
+      "shortlistFreeOption": "The original SEO Certification is retired. HubSpot lists AEO Fundamentals as a free replacement course and certification; it is not the same credential.",
+      "shortlistPaidOption": "No paid course tier is listed. Learners can build a separate website audit project; confirm current terms.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "not-verified",
+        "duration": "verified",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Confirm account/enrollment and Uganda access",
+        "Collect dated SEO/AEO vacancy evidence and complementary skill gaps",
+        "Review fast-changing AEO tools and the distinction from the retired SEO credential",
+        "Editorial review"
+      ],
+      "sources": [
+        {
+          "label": "HubSpot AEO Fundamentals",
+          "url": "https://academy.hubspot.com/courses/aeo-fundamentals-certification-en",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "HubSpot SEO Certification retirement notice",
+          "url": "https://academy.hubspot.com/courses/seo-training",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "HCBS Digital Marketing Officer vacancy (Namanve; experience range inconsistent in posting)",
+          "url": "https://hcbsltd.com/careers/jobs/marketing/digital-marketing-officer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "HubSpot lists this AEO course as free, so the learning and certificate route does not require course payment. Verify current account and award conditions at enrollment."
+    },
+    {
+      "number": 29,
+      "title": "Google Ads Search Certification",
+      "url": "https://skillshop.withgoogle.com/",
+      "category": "Marketing, content, and communications",
+      "providerSummary": "Google Skillshop. Search campaign setup and optimization for digital marketing and agency roles.",
+      "shortlistFreeOption": "Google Skillshop training and certification assessment are free.",
+      "shortlistPaidOption": "No paid course tier. Running real campaigns requires an ad budget, but it is not a course fee and should be stated separately.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify exact Search certification assessment, current free/account requirements and Uganda availability",
+        "Clarify advertising spend is separate from course cost"
+      ],
+      "sources": [
+        {
+          "label": "Google Ads Skillshop",
+          "url": "https://skillshop.withgoogle.com/googleads/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "HCBS Digital Marketing Officer vacancy (Namanve; experience range inconsistent in posting)",
+          "url": "https://hcbsltd.com/careers/jobs/marketing/digital-marketing-officer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "Skillshop training and the listed certification route are free. Campaign advertising spend is separate; practise with a sample plan before using a paid ad budget."
+    },
+    {
+      "number": 30,
+      "title": "Content Marketing Certification",
+      "url": "https://academy.hubspot.com/courses/content-marketing",
+      "category": "Marketing, content, and communications",
+      "providerSummary": "HubSpot Academy. Content strategy, planning, storytelling, and measurement for marketing, communications, and small-business work.",
+      "shortlistFreeOption": "Free course and certification.",
+      "shortlistPaidOption": "No paid tier needed; practical portfolio samples (brief, calendar, article) strengthen the credential.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify account and certification exam requirements in practice",
+        "Complete portfolio and editorial assessment"
+      ],
+      "sources": [
+        {
+          "label": "HubSpot Academy Content Marketing Certification",
+          "url": "https://academy.hubspot.com/courses/content-marketing",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "HCBS Digital Marketing Officer vacancy (Namanve; experience range inconsistent in posting)",
+          "url": "https://hcbsltd.com/careers/jobs/marketing/digital-marketing-officer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "HubSpot lists its course and certification as free. Use that route to build a content plan and portfolio before paying for additional tools."
+    },
+    {
+      "number": 31,
+      "title": "Inbound Sales Certification",
+      "url": "https://academy.hubspot.com/courses/inbound-sales",
+      "category": "Sales, customer experience, and CRM",
+      "providerSummary": "HubSpot Academy. Prospecting, discovery, qualification, and customer-centered selling for sales roles and entrepreneurs.",
+      "shortlistFreeOption": "Free course and certification.",
+      "shortlistPaidOption": "No paid tier required.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "verified",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "verified",
+        "credential": "verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify course enrollment and assessment in Uganda",
+        "Collect dated job evidence and skill gaps",
+        "Complete profile review"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://academy.hubspot.com/courses/inbound-sales",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "HubSpot lists the course as free and includes an assessment route. The free course is sufficient for introductory sales practice; paid CRM access is a separate product decision."
+    },
+    {
+      "number": 32,
+      "title": "HubSpot Sales Hub Software Certification",
+      "url": "https://academy.hubspot.com/courses/hubspot-sales-software",
+      "category": "Sales, customer experience, and CRM",
+      "providerSummary": "HubSpot Academy. CRM pipeline and sales software workflows relevant to sales operations and customer success.",
+      "shortlistFreeOption": "Free learning and certification.",
+      "shortlistPaidOption": "No paid tier required for the course; access to some live HubSpot product functions may depend on account plan.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "supported",
+        "duration": "verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "supported",
+        "credential": "verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Confirm feature access and license needs in Uganda",
+        "Collect dated role evidence",
+        "Complete profile review"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://academy.hubspot.com/courses/hubspot-sales-hub-software",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The course is free, but it is designed for Sales Hub Professional or Enterprise users. Confirm you can access the required features through an employer, trial or eligible account before investing time; do not buy a CRM plan solely for this certificate."
+    },
+    {
+      "number": 33,
+      "title": "Salesforce CRM basics and Admin beginner trails",
+      "url": "https://trailhead.salesforce.com/content/learn/trails/learn-to-work-with-customers-in-salesforce",
+      "category": "Sales, customer experience, and CRM",
+      "providerSummary": "Salesforce Trailhead. Free, interactive CRM learning that can help learners explore sales operations and CRM administration.",
+      "shortlistFreeOption": "Trailhead modules and badges are free.",
+      "shortlistPaidOption": "Official Salesforce certification exams are paid; a credential such as Salesforce Administrator requires exam preparation and passing a proctored assessment.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "supported",
+        "curriculum": "not-verified",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Resolve exact trail scope and badge award conditions",
+        "Verify hands-on org, Uganda access and certification exam price",
+        "Collect dated role evidence and review"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-to-work-with-customers-in-salesforce",
+          "evidence": "supported",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "Trailhead lessons and badges are free for introductory CRM learning. Confirm the exact trail and practice-org access; do not pay for a proctored Administrator exam until that credential matches your goal."
+    },
+    {
+      "number": 34,
+      "title": "Customer Service Fundamentals",
+      "url": "https://www.coursera.org/learn/customer-service-fundamentals",
+      "category": "Sales, customer experience, and CRM",
+      "providerSummary": "Knowledge Accelerators / Coursera. Beginner course on customer communication, issue resolution, service standards, and support scenarios; useful for customer support and help-desk roles.",
+      "shortlistFreeOption": "Check current enrollment choices; free previews or trials may be offered, but the complete course should be treated as paid unless checkout explicitly offers a free route.",
+      "shortlistPaidOption": "Paid enrollment includes course assessments and a shareable certificate. Coursera price varies by country and may be subscription-based.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "supported",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Check Uganda enrollment and current checkout price",
+        "Collect dated support-job evidence and skill gaps",
+        "Complete profile review"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://www.coursera.org/learn/customer-service-fundamentals",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "Graded assessments and a shareable certificate may add value for learners who want structured customer-support practice. Confirm whether full-course no-certificate access is available and check local pricing before paying."
+    },
+    {
+      "number": 35,
+      "title": "English for Career Development",
+      "url": "https://www.coursera.org/learn/careerdevelopment",
+      "category": "Sales, customer experience, and CRM",
+      "providerSummary": "University of Pennsylvania / Coursera. English-language job search, resume, interview, and workplace communication for international learners.",
+      "shortlistFreeOption": "Audit/free access may be offered; verify current availability.",
+      "shortlistPaidOption": "Paid enrollment adds graded work and a shareable university certificate. Local Coursera price applies.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "verified",
+        "freeAccess": "verified",
+        "paidAccessAndPrice": "supported",
+        "credential": "verified",
+        "ugandaAccess": "supported",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify Uganda certificate checkout and local pricing",
+        "Collect dated role evidence and skill gaps",
+        "Complete profile review"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://www.coursera.org/learn/careerdevelopment",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "optional",
+      "freePaidRationale": "The full course can be taken free without a certificate. Pay only if the University of Pennsylvania verified certificate and graded work matter for your goal and the local checkout price is affordable."
+    },
+    {
+      "number": 36,
+      "title": "BUS103: Introduction to Financial Accounting",
+      "url": "https://learn.saylor.org/course/bus103",
+      "category": "Business, finance, entrepreneurship, and employability",
+      "providerSummary": "Saylor Academy. Accounting fundamentals for small business, administration, finance support, and further study.",
+      "shortlistFreeOption": "Free course and a free certificate, according to the current course page.",
+      "shortlistPaidOption": "No paid tier required for the course. Saylor’s separate college-credit options, where available, involve additional paid exams and are not the same as a certificate.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify bounded course identity, course facts and credential terms",
+        "Verify Uganda access and payment options",
+        "Add practical project guidance and editorial assessment",
+        "Complete review before publication"
+      ],
+      "sources": [
+        {
+          "label": "Official provider source for shortlist item 36",
+          "url": "https://learn.saylor.org/course/bus103",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "God Helps Uganda Accountant & Administrative Assistant vacancy (location eligibility is inconsistent in posting)",
+          "url": "https://usepraxis.site/job/accountant-administrative-assistant-god-helps-uganda-1793377332",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "Saylor lists free course access and a free certificate, which are enough for introductory accounting learning. A paid proctored exam is only relevant if you specifically need its separate credit option."
+    },
+    {
+      "number": 37,
+      "title": "Bookkeeping Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/intuit-bookkeeping",
+      "category": "Business, finance, entrepreneurship, and employability",
+      "providerSummary": "Intuit / Coursera. Bookkeeping, accounting software workflows, and financial records for entry-level bookkeeping or small-business work.",
+      "shortlistFreeOption": "Preview/free access or financial aid may be available; check current enrollment details.",
+      "shortlistPaidOption": "Paid program adds assessed coursework and Intuit credential; local Coursera subscription applies.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "supported",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify bounded course identity, course facts and credential terms",
+        "Verify Uganda access and payment options",
+        "Add practical project guidance and editorial assessment",
+        "Complete review before publication"
+      ],
+      "sources": [
+        {
+          "label": "Official provider source for shortlist item 37",
+          "url": "https://www.coursera.org/professional-certificates/intuit-bookkeeping",
+          "evidence": "supported",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "God Helps Uganda Accountant & Administrative Assistant vacancy (location eligibility is inconsistent in posting)",
+          "url": "https://usepraxis.site/job/accountant-administrative-assistant-god-helps-uganda-1793377332",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "The structured bookkeeping sequence and Intuit credential may be useful for learners targeting bookkeeping work, but QuickBooks access and subscription costs are separate. Confirm Uganda enrollment and total cost before paying."
+    },
+    {
+      "number": 38,
+      "title": "Managing My Money",
+      "url": "https://www.open.edu/openlearn/money-business/managing-my-money/content-section-overview",
+      "category": "Business, finance, entrepreneurship, and employability",
+      "providerSummary": "The Open University OpenLearn. Budgeting, borrowing, saving, and financial decision-making; useful for personal finance and community-facing work.",
+      "shortlistFreeOption": "Free course; participation statement may be available.",
+      "shortlistPaidOption": "No paid tier needed. It is personal-finance learning, not a regulated financial-adviser qualification.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "supported",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify bounded course identity, course facts and credential terms",
+        "Verify Uganda access and payment options",
+        "Collect dated role evidence and map remaining skill gaps",
+        "Add practical project guidance and editorial assessment",
+        "Complete review before publication"
+      ],
+      "sources": [
+        {
+          "label": "Official provider source for shortlist item 38",
+          "url": "https://www.open.edu/openlearn/money-business/managing-my-money/content-section-overview",
+          "evidence": "supported",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "OpenLearn provides free personal-finance learning and a participation statement. The course is not a professional finance qualification, so a paid credential is not needed for its stated learning goal."
+    },
+    {
+      "number": 39,
+      "title": "Innovation: From Creativity to Entrepreneurship Specialization",
+      "url": "https://www.coursera.org/specializations/innovation-creativity-entrepreneurship",
+      "category": "Business, finance, entrepreneurship, and employability",
+      "providerSummary": "University of Illinois Urbana-Champaign / Coursera. Active six-course innovation and entrepreneurship specialization used as a documented replacement for the unavailable Wharton listing; not the same program or credential.",
+      "shortlistFreeOption": "The original Wharton URL is unavailable. The active Illinois replacement has an enrollment entry point; audit/preview terms need checking.",
+      "shortlistPaidOption": "The Illinois six-course specialization lists graded and peer-reviewed work and a shareable certificate; local Coursera price is unverified.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "verified",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify Uganda checkout, price and free preview/audit terms",
+        "Collect dated venture, business and innovation role evidence",
+        "Complete portfolio and progression assessment",
+        "Editorial review; replacement is not the unavailable Wharton program"
+      ],
+      "sources": [
+        {
+          "label": "University of Illinois specialization on Coursera",
+          "url": "https://www.coursera.org/specializations/innovation-creativity-entrepreneurship",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The free preview, audit and graded-work conditions are unresolved. Confirm the full route and Uganda price before deciding whether the specialization’s certificate is worth the subscription."
+    },
+    {
+      "number": 40,
+      "title": "Successful Negotiation: Essential Strategies and Skills",
+      "url": "https://www.coursera.org/learn/negotiation-skills",
+      "category": "Business, finance, entrepreneurship, and employability",
+      "providerSummary": "University of Michigan / Coursera. Practical negotiation preparation and communication for business, procurement, management, and everyday work.",
+      "shortlistFreeOption": "Audit/free access may be offered; verify.",
+      "shortlistPaidOption": "Paid access adds graded work and a certificate.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify bounded course identity, course facts and credential terms",
+        "Verify Uganda access and payment options",
+        "Collect dated role evidence and map remaining skill gaps",
+        "Add practical project guidance and editorial assessment",
+        "Complete review before publication"
+      ],
+      "sources": [
+        {
+          "label": "Official provider source for shortlist item 40",
+          "url": "https://www.coursera.org/learn/negotiation-skills",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "Audit and certificate access vary by enrollment and are not confirmed here. Check the free learning route and local price before paying for graded work."
+    },
+    {
+      "number": 41,
+      "title": "Google UX Design Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "category": "Design, user experience, and visual communication",
+      "providerSummary": "Google / Coursera. UX research, wireframes, prototypes, usability testing, and case-study projects for design roles.",
+      "shortlistFreeOption": "Preview/free access or aid may be available; confirm.",
+      "shortlistPaidOption": "Paid program adds graded projects and a Google certificate. A portfolio is essential alongside the credential.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify bounded course identity, course facts and credential terms",
+        "Verify Uganda access and payment options",
+        "Collect dated role evidence and map remaining skill gaps",
+        "Add practical project guidance and editorial assessment",
+        "Complete review before publication"
+      ],
+      "sources": [
+        {
+          "label": "Official provider source for shortlist item 41",
+          "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "The structured UX projects and Google certificate may help learners who want guided portfolio work. Confirm free access, aid and Uganda subscription terms; the portfolio matters more than the certificate alone."
+    },
+    {
+      "number": 42,
+      "title": "Figma Learn",
+      "url": "https://help.figma.com/hc/en-us/categories/360002051613-Learn-design",
+      "category": "Design, user experience, and visual communication",
+      "providerSummary": "Figma. Interface-design and prototyping tutorials useful for product, web, and marketing designers.",
+      "shortlistFreeOption": "Free learning resources; Figma’s free plan may be sufficient for an individual learner.",
+      "shortlistPaidOption": "Paid Figma plan unlocks additional product/team features, not a stronger course certificate. The course resources themselves are free.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify bounded course identity, course facts and credential terms",
+        "Verify Uganda access and payment options",
+        "Collect dated role evidence and map remaining skill gaps",
+        "Add practical project guidance and editorial assessment",
+        "Complete review before publication"
+      ],
+      "sources": [
+        {
+          "label": "Official provider source for shortlist item 42",
+          "url": "https://help.figma.com/hc/en-us/sections/30880632542743-Figma-Design-for-beginners",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "Figma’s free learning resources and individual free plan appear sufficient for the listed beginner exercises. Verify current feature limits before building a project that depends on paid team features."
+    },
+    {
+      "number": 43,
+      "title": "Canva Design School",
+      "url": "https://www.canva.com/designschool/",
+      "category": "Design, user experience, and visual communication",
+      "providerSummary": "Canva. Visual communication, presentation, social media, and brand-content learning for small-business and communications work.",
+      "shortlistFreeOption": "Free learning resources; Canva’s free tier supports practice.",
+      "shortlistPaidOption": "Canva Pro adds premium templates/assets and collaboration features, but does not itself confer a professional design qualification.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "verified",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify signup, full course access and certificate conditions",
+        "Check Uganda access and account feature requirements"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://www.canva.com/design-school/courses/graphic-design-essentials/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "HCBS Digital Marketing Officer vacancy (Namanve; experience range inconsistent in posting)",
+          "url": "https://hcbsltd.com/careers/jobs/marketing/digital-marketing-officer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "Taha Properties Graphic Designer vacancy (Kampala)",
+          "url": "https://www.africareers.net/jobs/graphic-designer-job-at-taha-properties",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The course is listed as available to start, but account access and certificate conditions have not been tested. Confirm the free learning route and award terms before paying for any separate Canva plan."
+    },
+    {
+      "number": 44,
+      "title": "Graphic Design Specialization",
+      "url": "https://www.coursera.org/specializations/graphic-design",
+      "category": "Design, user experience, and visual communication",
+      "providerSummary": "California Institute of the Arts / Coursera. Design principles, typography, image making, and portfolio pieces for visual communication.",
+      "shortlistFreeOption": "Audit/free access may be offered for some component courses; verify.",
+      "shortlistPaidOption": "Paid specialization provides graded project feedback/assessment and shareable credential. Software and materials may incur separate costs.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify bounded course identity, course facts and credential terms",
+        "Verify Uganda access and payment options",
+        "Add practical project guidance and editorial assessment",
+        "Complete review before publication"
+      ],
+      "sources": [
+        {
+          "label": "Official provider source for shortlist item 44",
+          "url": "https://www.coursera.org/specializations/graphic-design",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "Taha Properties Graphic Designer vacancy (Kampala)",
+          "url": "https://www.africareers.net/jobs/graphic-designer-job-at-taha-properties",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "Audit access and the five-course paid route are not verified for Uganda. Compare the available free lessons with graded projects and local pricing before enrolling."
+    },
+    {
+      "number": 45,
+      "title": "Meta Social Media Marketing Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/facebook-social-media-marketing",
+      "category": "Design, user experience, and visual communication",
+      "providerSummary": "Meta / Coursera. Social media strategy, advertising, analytics, and campaign planning for digital marketing work.",
+      "shortlistFreeOption": "Preview/free access or financial aid may be available; check.",
+      "shortlistPaidOption": "Paid program adds assessments, projects, and Meta credential. Advertising spend is separate from course tuition.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "not-verified",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Collect additional relevant Uganda and international vacancies; one checked example does not establish broad demand",
+        "Verify bounded course identity, course facts and credential terms",
+        "Verify Uganda access and payment options",
+        "Add practical project guidance and editorial assessment",
+        "Complete review before publication"
+      ],
+      "sources": [
+        {
+          "label": "Official provider source for shortlist item 45",
+          "url": "https://www.coursera.org/professional-certificates/facebook-social-media-marketing",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        },
+        {
+          "label": "HCBS Digital Marketing Officer vacancy (Namanve; experience range inconsistent in posting)",
+          "url": "https://hcbsltd.com/careers/jobs/marketing/digital-marketing-officer/",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "consider-paying",
+      "freePaidRationale": "The structured projects and Meta certificate may add value for learners targeting social-media marketing. Confirm course pricing, exam eligibility and regional access first; advertising spend is separate."
+    },
+    {
+      "number": 46,
+      "title": "Climate-Smart Agriculture learning resources",
+      "url": "https://elearning.fao.org/",
+      "category": "Health, agriculture, education, and sustainability",
+      "providerSummary": "FAO eLearning Academy. Search the official catalogue for current climate-smart agriculture courses; relevant to agriculture, extension, food systems, and development work.",
+      "shortlistFreeOption": "FAO offers many free, self-paced courses and digital certificates/badges on eligible courses. Confirm terms for the specific course.",
+      "shortlistPaidOption": "Most learning is free; any paid facilitated program or external credential must be clearly distinguished from the free course.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "verified",
+        "prerequisites": "supported",
+        "duration": "supported",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "supported",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Confirm course badge eligibility and assessment",
+        "Check Uganda signup/mobile/offline access",
+        "Collect dated agriculture/extension role evidence and review"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://elearning.fao.org/course/view.php?id=439&lang=en",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "FAO states these self-paced courses are free, which is sufficient for introductory climate-smart agriculture learning. Confirm whether this specific course awards a badge before treating it as a credential."
+    },
+    {
+      "number": 47,
+      "title": "Food safety and food systems courses",
+      "url": "https://elearning.fao.org/",
+      "category": "Health, agriculture, education, and sustainability",
+      "providerSummary": "FAO eLearning Academy. Select a current course on food safety, nutrition, food systems, or food loss; useful to food businesses, public health, and agriculture.",
+      "shortlistFreeOption": "Many courses are free and some issue free digital certificates. The exact course and certificate terms vary.",
+      "shortlistPaidOption": "No paid tier for many self-paced modules; specialized or facilitated training can have separate charges if stated on the course page.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "supported",
+        "duration": "not-verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify audience, duration, enrollment and award terms",
+        "Check Uganda access/connectivity",
+        "Collect dated agriculture/food-systems role evidence and review"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://elearning.fao.org/course/view.php?id=783&lang=en",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "FAO states its self-paced courses are free. Use the course for learning; confirm specific assessment and badge requirements before describing it as a credential."
+    },
+    {
+      "number": 48,
+      "title": "WHO Academy course catalogue",
+      "url": "https://whoacademy.org/",
+      "category": "Health, agriculture, education, and sustainability",
+      "providerSummary": "World Health Organization. Search current public-health, health-worker, emergency-response, and health-systems learning.",
+      "shortlistFreeOption": "Many WHO Academy learning resources are free; enrollment and certificate options depend on the course.",
+      "shortlistPaidOption": "Paid options, if any, are course-specific. Do not present an online course as a license to practice a regulated health profession.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "supported",
+        "curriculum": "verified",
+        "prerequisites": "verified",
+        "duration": "verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify WHO Academy enrollment and completion award from course page",
+        "Check Uganda access and whether intended learner group can enroll",
+        "Collect dated public-health programme-role evidence and review"
+      ],
+      "sources": [
+        {
+          "label": "Official provider course page",
+          "url": "https://www.who.int/news/item/22-09-2026-who-launches-new-e-learning-course-on-behavioural-sciences-for-better-health",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "WHO describes the course as free and awards completion after assessment. Confirm account access in Uganda; no paid credential is listed for the stated learning goal."
+    },
+    {
+      "number": 49,
+      "title": "Safeguarding Children and Safeguarding Vulnerable Adults (OpenLearn Create)",
+      "url": "https://www.open.edu/openlearncreate/mod/book/view.php?chapterid=32297&id=215002",
+      "category": "Health, agriculture, education, and sustainability",
+      "providerSummary": "Open University OpenLearn Create. Child-safeguarding section in a broader Aiming Higher course collection; related replacement source, not confirmed equivalent to the original standalone shortlist entry.",
+      "shortlistFreeOption": "Related safeguarding content is available in an OpenLearn Create course collection; account and completion terms need checking.",
+      "shortlistPaidOption": "No paid option identified. The replacement is not confirmed equivalent and is not statutory safeguarding clearance.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "supported",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-applicable",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Confirm enrollment and completion terms and Uganda access",
+        "Complete safeguarding editorial review and clarify this is not statutory clearance or a professional qualification",
+        "Keep replacement equivalence to original shortlist item explicitly unconfirmed"
+      ],
+      "sources": [
+        {
+          "label": "OpenLearn Create safeguarding section",
+          "url": "https://www.open.edu/openlearncreate/mod/book/view.php?chapterid=32297&id=215002",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "not-recommended-yet",
+      "freePaidRationale": "The safeguarding section’s enrollment and completion terms are not confirmed, and its scope is narrower than the broader course labels. Check the current page and do not pay for or rely on it as professional clearance."
+    },
+    {
+      "number": 50,
+      "title": "OpenLearn: Working in teams",
+      "url": "https://www.open.edu/openlearn/money-business/working-teams/content-section-overview",
+      "category": "Health, agriculture, education, and sustainability",
+      "providerSummary": "The Open University. Teamwork and collaboration skills transferable across office, project, service, and community roles.",
+      "shortlistFreeOption": "Free course; statement of participation and an Open University badge are available.",
+      "shortlistPaidOption": "No paid tier needed. Learners should pair it with practical examples in their CV or interview.",
+      "researchStatus": "in-research",
+      "sourceCompleteness": {
+        "officialCoursePage": "verified",
+        "curriculum": "supported",
+        "prerequisites": "not-verified",
+        "duration": "not-verified",
+        "freeAccess": "supported",
+        "paidAccessAndPrice": "not-verified",
+        "credential": "not-verified",
+        "ugandaAccess": "not-verified",
+        "careerEvidence": "not-verified"
+      },
+      "lastVerified": "2026-11-22",
+      "outstandingWork": [
+        "Verify bounded course identity, course facts and credential terms",
+        "Verify Uganda access and payment options",
+        "Collect dated role evidence and map remaining skill gaps",
+        "Add practical project guidance and editorial assessment",
+        "Complete review before publication"
+      ],
+      "sources": [
+        {
+          "label": "Official provider source for shortlist item 50",
+          "url": "https://www.open.edu/openlearn/money-business/working-teams/content-section-overview",
+          "evidence": "verified",
+          "checkedAt": "2026-11-22"
+        }
+      ],
+      "approvalStatus": "approved",
+      "publicationStatus": "published",
+      "freePaidRecommendation": "free-sufficient",
+      "freePaidRationale": "OpenLearn provides the course and a free Statement of Participation. The free route is sufficient for teamwork learning; build practical examples for a CV or interview."
+    }
+  ],
+  "publication": {
+    "approvalStatus": "approved",
+    "published": 50,
+    "approvedAt": "2026-11-22",
+    "note": "Editorial approval follows the user review direction. It does not imply unresolved provider, access, pricing, or job-market details are verified."
+  },
+  "courseProfileCoverage": {
+    "freePaidRecommendations": 50,
+    "recommendationCounts": {
+      "free-sufficient": 22,
+      "consider-paying": 12,
+      "optional": 3,
+      "not-recommended-yet": 13
+    }
+  }
+}

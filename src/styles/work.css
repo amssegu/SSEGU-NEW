@@ -1277,12 +1277,12 @@
 }
 
 .work-button-secondary {
-  color: var(--work-navy);
+  color: var(--work-navy) !important;
   background: #fff;
 }
 
 .work-button-secondary:hover {
-  color: #fff;
+  color: #fff !important;
   background: var(--work-blue);
 }
 
@@ -1712,6 +1712,7 @@
 .work-status-large {
   margin-top: 0.4rem;
   font-size: 0.8rem;
+  white-space: nowrap;
 }
 
 .work-detail-meta {

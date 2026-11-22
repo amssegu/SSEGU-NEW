@@ -1,0 +1,13 @@
+---
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import WorkCourseCard from '../../../components/work/WorkCourseCard.astro';
+import { getCourseDirectory } from '../../../lib/work';
+const courses = (await getCourseDirectory()).filter((course) => ['free', 'free_course', 'free learning'].includes((course.coursePriceStatus ?? '').toLowerCase()));
+---
+<WorkLayout title="Free courses | SSEGU Work" description="Courses with free learning access, with access and credential terms shown separately.">
+  <main class="work-page-shell">
+    <p class="work-eyebrow">Free-first learning</p><h1>Free courses</h1>
+    <p>“Free” refers to learning access, not necessarily a certificate or exam. These course profiles are approved for publication, but current provider terms and regional availability can still require checking. Confirm the conditions with the provider before enrolling.</p>
+    {courses.length ? <div class="work-resource-grid">{courses.map((course) => <WorkCourseCard course={course} />)}</div> : <p>No course currently has a confirmed fully free learning-access model. Courses with free previews or conditional audit access are not counted as fully free.</p>}
+  </main>
+</WorkLayout>

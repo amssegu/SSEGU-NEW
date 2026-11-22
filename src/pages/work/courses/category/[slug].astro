@@ -1,0 +1,18 @@
+---
+import WorkLayout from '../../../../layouts/WorkLayout.astro';
+import WorkCourseCard from '../../../../components/work/WorkCourseCard.astro';
+import { getCollection } from 'astro:content';
+import { getCourseDirectory } from '../../../../lib/work';
+export async function getStaticPaths() {
+  return (await getCollection('course-categories')).map(({ data }) => ({ params: { slug: data.slug }, props: { category: data } }));
+}
+const { category } = Astro.props;
+const courses = (await getCourseDirectory()).filter((course) => course.category === category.name || course.subject === category.name);
+---
+<WorkLayout title={`${category.name} courses | SSEGU Work`} description={category.description}>
+  <main class="work-page-shell">
+    <nav class="work-breadcrumbs" aria-label="Breadcrumb"><a href="/work/courses/">Courses</a><span>/</span><span>{category.name}</span></nav>
+    <p class="work-eyebrow">Course category</p><h1>{category.name}</h1><p>{category.description}</p>
+    {courses.length ? <div class="work-resource-grid">{courses.map((course) => <WorkCourseCard course={course} />)}</div> : <p>No course records are currently mapped to this category. Research status and publication standards are described in <a href="/work/courses/how-we-evaluate/">How we evaluate courses</a>.</p>}
+  </main>
+</WorkLayout>

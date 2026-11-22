@@ -4,17 +4,35 @@ import WorkAside from '../../../components/work/WorkAside.astro';
 import { breadcrumbJsonLd } from '../../../lib/seo';
 import {
   courseStatusLabel,
-  getPublishedWorkCourses,
+  getCourseDirectory,
   isSafeCourseUrl,
   toCourseJsonLd,
 } from '../../../lib/work';
 
 export async function getStaticPaths() {
-  const courses = await getPublishedWorkCourses();
+  const courses = await getCourseDirectory();
   return courses.map((course) => ({ params: { slug: course.slug }, props: { course } }));
 }
 const { course } = Astro.props;
-const providerUrl = isSafeCourseUrl(course.sourceUrl) ? course.sourceUrl : undefined;
+const prerequisites = course.prerequisites ?? [];
+const skills = course.skills ?? [];
+const tools = course.tools ?? [];
+const careerRoles = course.careerRoles ?? [];
+const portfolioProjects = course.portfolioProjects ?? [];
+const nextSteps = course.nextSteps ?? [];
+const sources = course.sources ?? [];
+const jobEvidence = course.jobEvidence ?? [];
+const curriculum = course.curriculum ?? [];
+const learningOutcomes = course.learningOutcomes ?? [];
+const practicalSkills = course.practicalSkills ?? [];
+const transferableSkills = course.transferableSkills ?? [];
+const equipment = course.equipment ?? [];
+const industries = course.industries ?? [];
+const freelanceApplications = course.freelanceApplications ?? [];
+const providerUrl =
+  course.researchStatus !== 'needs-recheck' && isSafeCourseUrl(course.sourceUrl)
+    ? course.sourceUrl
+    : undefined;
 const courseJsonLd = toCourseJsonLd(course);
 const structuredData = [
   breadcrumbJsonLd([
@@ -29,6 +47,7 @@ const structuredData = [
 <WorkLayout
   title={`${course.title} | SSEGU Work`}
   description={course.description}
+  noindex={course.approvalStatus !== 'approved' || course.publicationStatus !== 'published'}
   structuredData={structuredData}
 >
   <div class="work-page-shell work-detail-shell">
@@ -48,7 +67,7 @@ const structuredData = [
               <h1>{course.title}</h1>
               <p class="work-detail-employer">{course.provider}</p>
             </div>
-            <p class="work-status-large">{courseStatusLabel(course.availabilityStatus)}</p>
+            <p class="work-status-large">{course.approvalStatus === 'approved' && course.publicationStatus === 'published' ? 'Approved · Published' : 'Pending publication'}</p>
           </div>
           <div class="work-detail-meta">
             <span>
@@ -59,16 +78,11 @@ const structuredData = [
               <strong>Level</strong>
               {course.level ?? 'Unknown'}
             </span>
-            <span>
-              <strong>Course access</strong>
-              {courseStatusLabel(course.coursePriceStatus)}
-            </span>
-            <span>
-              <strong>Certificate</strong>
-              {courseStatusLabel(course.certificatePriceStatus)}
-            </span>
           </div>
           <div class="work-detail-body">
+            <p class="work-eyebrow">{course.category ?? course.subject ?? 'Skills course'}</p>
+            {(course.approvalStatus !== 'approved' || course.publicationStatus !== 'published') && <p class="work-course-attribution"><strong>Research draft — not approved for publication.</strong> Important details, Uganda access, payment terms or job-market fit may still be unverified. Check the linked provider for current information.</p>}
+            {course.approvalStatus === 'approved' && course.publicationStatus === 'published' && course.researchStatus !== 'verified' && <p class="work-course-attribution">Editorially approved for publication. Some provider details, Uganda access, payment terms or job-market evidence may still need checking; confirm current terms with the provider.</p>}
             <h2>About this course</h2>
             <p>{course.description}</p>
             <p>
@@ -89,6 +103,24 @@ const structuredData = [
               Course access and certificate pricing are separate. Check the provider page for
               current terms and availability.
             </p>
+            {prerequisites.length > 0 && <><h2>Who should take it</h2><ul>{prerequisites.map((item) => <li>{item}</li>)}</ul></>}
+            {equipment.length > 0 && <><h2>What you need</h2><ul>{equipment.map((item) => <li>{item}</li>)}</ul></>}
+            {curriculum.length > 0 && <><h2>What you will study</h2><ul>{curriculum.map((item) => <li>{item}</li>)}</ul></>}
+            {learningOutcomes.length > 0 && <><h2>Learning outcomes</h2><ul>{learningOutcomes.map((item) => <li>{item}</li>)}</ul></>}
+            {skills.length > 0 && <><h2>Skills you can build</h2><ul>{skills.map((item) => <li>{item}</li>)}</ul></>}
+            {tools.length > 0 && <><h3>Tools</h3><ul>{tools.map((item) => <li>{item}</li>)}</ul></>}
+            {practicalSkills.length > 0 && <><h3>Practical skills</h3><ul>{practicalSkills.map((item) => <li>{item}</li>)}</ul></>}
+            {transferableSkills.length > 0 && <><h3>Transferable skills</h3><ul>{transferableSkills.map((item) => <li>{item}</li>)}</ul></>}
+            {careerRoles.length > 0 && <><h2>Possible career uses</h2><p>These are possible pathways, not job outcomes. Course completion alone does not guarantee employment.</p><ul>{careerRoles.map((item) => <li>{item}</li>)}</ul></>}
+            {industries.length > 0 && <><h3>Industries</h3><ul>{industries.map((item) => <li>{item}</li>)}</ul></>}
+            {freelanceApplications.length > 0 && <><h3>Freelance and self-employment uses</h3><ul>{freelanceApplications.map((item) => <li>{item}</li>)}</ul></>}
+            {course.ugandaNotes && <><h2>Uganda and international access</h2><p>{course.ugandaNotes}</p></>}
+            {(course.freeAccess || course.paidAccess) && <><h2>Free and paid options</h2><div class="work-course-facts"><span><strong>Free option · what you get</strong>{course.freeAccess ?? 'Not verified'}</span><span><strong>Paid option · what you get</strong>{course.paidAccess ?? 'Not verified'}</span></div>{course.freePaidRecommendation && <p class="work-course-attribution"><strong>Free vs paid recommendation:</strong> {courseStatusLabel(course.freePaidRecommendation)}. {course.freePaidRationale}</p>}</>}
+            {portfolioProjects.length > 0 && <><h2>Practice and portfolio ideas</h2><ul>{portfolioProjects.map((item) => <li>{item}</li>)}</ul></>}
+            {nextSteps.length > 0 && <><h2>What to learn next</h2><ul>{nextSteps.map((item) => <li>{item}</li>)}</ul></>}
+            {course.editorialAssessment && <><h2>Editorial assessment</h2><p>{course.editorialAssessment}</p></>}
+            {jobEvidence.length > 0 && <><h2>Dated job-market evidence</h2><p>These examples show individual vacancy requirements, not broad market demand.</p><ul>{jobEvidence.map((evidence) => <li><a href={evidence.url} target="_blank" rel="noreferrer">{evidence.title} — {evidence.employer}</a> ({evidence.location}; checked {evidence.checkedAt}). {evidence.courseCoverage} Remaining gaps: {evidence.remainingGaps.join(', ') || 'None recorded'}.</li>)}</ul></>}
+            {sources.length > 0 && <><h2>Sources and evidence</h2><ul>{sources.map((source) => <li><a href={source.url} target="_blank" rel="noreferrer">{source.label}</a> · {courseStatusLabel(source.evidence)}{source.checkedAt ? ` · checked ${source.checkedAt}` : ''}</li>)}</ul></>}
           </div>
           <div class="work-detail-actions">
             {providerUrl && (

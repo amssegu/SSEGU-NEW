@@ -1,0 +1,13 @@
+---
+import WorkLayout from '../../../layouts/WorkLayout.astro';
+import { getCollection } from 'astro:content';
+const categories = (await getCollection('course-categories')).sort((a, b) => a.data.displayOrder - b.data.displayOrder);
+---
+<WorkLayout title="Course categories | SSEGU Work" description="Browse the course catalogue by subject area.">
+  <main class="work-page-shell">
+    <p class="work-eyebrow">Browse by subject</p><h1>Course categories</h1>
+    <div class="work-resource-grid">
+      {categories.map(({ data }) => <article class="work-resource-card"><h2><a href={`/work/courses/category/${data.slug}/`}>{data.name}</a></h2><p>{data.description}</p></article>)}
+    </div>
+  </main>
+</WorkLayout>

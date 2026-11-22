@@ -211,6 +211,7 @@ export function workPageItems<T>(items: T[], page: number, pageSize = WORK_PAGE_
 
 export interface WorkCourse {
   slug: string;
+  catalogueNumber?: number;
   title: string;
   provider: string;
   format: string;
@@ -230,6 +231,38 @@ export interface WorkCourse {
   sourceAttribution?: string;
   lastCheckedAt?: string;
   sourcePermission?: string;
+  category?: string;
+  platform?: string;
+  approvalStatus?: string;
+  publicationStatus?: string;
+  researchStatus?: string;
+  skills?: string[];
+  tools?: string[];
+  careerRoles?: string[];
+  prerequisites?: string[];
+  credentialType?: string;
+  freeAccess?: string;
+  paidAccess?: string;
+  freePaidRecommendation?: string;
+  freePaidRationale?: string;
+  ugandaNotes?: string;
+  portfolioProjects?: string[];
+  nextSteps?: string[];
+  relatedCourses?: string[];
+  body?: string;
+  sources?: { label: string; url: string; checkedAt?: string; evidence: string }[];
+  curriculum?: string[];
+  learningOutcomes?: string[];
+  practicalSkills?: string[];
+  transferableSkills?: string[];
+  equipment?: string[];
+  industries?: string[];
+  freelanceApplications?: string[];
+  regions?: string[];
+  paidPrice?: string;
+  billingModel?: string;
+  jobEvidence?: { title: string; employer: string; location: string; url: string; checkedAt: string; requestedSkills: string[]; requirements: string[]; courseCoverage: string; remainingGaps: string[] }[];
+  editorialAssessment?: string;
 }
 
 type GeneratedJobRecord = {
@@ -545,6 +578,7 @@ function fromEditorialCourseEntry(entry: CollectionEntry<'courses'>): WorkCourse
   const data = entry.data;
   return {
     slug: data.slug,
+    catalogueNumber: data.catalogueNumber,
     title: data.title,
     provider: data.provider,
     format: data.deliveryMode.replace(/-/g, ' '),
@@ -558,18 +592,54 @@ function fromEditorialCourseEntry(entry: CollectionEntry<'courses'>): WorkCourse
     duration: data.duration,
     coursePriceStatus: data.coursePriceStatus ?? data.cost,
     certificatePriceStatus: data.certificatePriceStatus,
-    availabilityStatus: data.status === 'expired' ? 'unavailable' : 'available',
+    availabilityStatus: data.status === 'expired' ? 'unavailable' : 'not verified',
     termsUrl: data.termsUrl,
     lastCheckedAt:
       data.lastCheckedAt?.toISOString().slice(0, 10) ?? data.updatedAt?.toISOString().slice(0, 10),
     sourceAttribution:
       data.sourceAttribution ??
       `Course details supplied by ${data.provider}. SSEGU is not affiliated with the provider.`,
+    category: data.category,
+    platform: data.platform,
+    approvalStatus: data.approvalStatus,
+    publicationStatus: data.status,
+    researchStatus: data.researchStatus,
+    skills: data.skills,
+    tools: data.tools,
+    careerRoles: data.careerRoles,
+    prerequisites: data.prerequisites,
+    credentialType: data.credentialType,
+    freeAccess: data.freeAccess,
+    paidAccess: data.paidAccess,
+    freePaidRecommendation: data.freePaidRecommendation,
+    freePaidRationale: data.freePaidRationale,
+    ugandaNotes: data.ugandaNotes,
+    portfolioProjects: data.portfolioProjects,
+    nextSteps: data.nextSteps,
+    relatedCourses: data.relatedCourses,
+    body: entry.body,
+    sources: data.sources?.map((source: { label: string; url: string; checkedAt?: Date; evidence: string }) => ({ ...source, checkedAt: source.checkedAt?.toISOString().slice(0, 10) })),
+    curriculum: data.curriculum,
+    learningOutcomes: data.learningOutcomes,
+    practicalSkills: data.practicalSkills,
+    transferableSkills: data.transferableSkills,
+    equipment: data.equipment,
+    industries: data.industries,
+    freelanceApplications: data.freelanceApplications,
+    regions: data.regions,
+    paidPrice: data.paidPrice,
+    billingModel: data.billingModel,
+    jobEvidence: data.jobEvidence?.map((evidence) => ({
+      ...evidence,
+      checkedAt: evidence.checkedAt.toISOString().slice(0, 10),
+    })),
+    editorialAssessment: data.editorialAssessment,
   };
 }
 
 let cachedPublishedWorkJobs: WorkJob[] | undefined;
 let cachedPublishedWorkCourses: WorkCourse[] | undefined;
+let cachedCourseDirectory: WorkCourse[] | undefined;
 
 export async function getPublishedWorkJobs(options: { status?: WorkStatus | 'all' } = {}) {
   if (cachedPublishedWorkJobs) {
@@ -597,12 +667,24 @@ export async function getPublishedWorkJobs(options: { status?: WorkStatus | 'all
 export async function getPublishedWorkCourses() {
   if (cachedPublishedWorkCourses) return cachedPublishedWorkCourses;
   const editorial = (await getCollection('courses'))
-    .filter(({ data }) => data.status === 'published' || data.status === 'expired')
+    .filter(({ data }) => data.status === 'published' && data.approvalStatus === 'approved')
     .map(fromEditorialCourseEntry);
   cachedPublishedWorkCourses = mergeBySlug(generatedWorkCourses, editorial).filter(
     isPublishableWorkCourse,
   );
   return cachedPublishedWorkCourses;
+}
+
+/** Full editorial inventory for the research catalogue. Drafts remain visibly labelled. */
+export async function getCourseDirectory() {
+  if (cachedCourseDirectory) return cachedCourseDirectory;
+  const editorial = (await getCollection('courses'))
+    .filter(({ data }) => data.catalogueNumber !== undefined)
+    .map(fromEditorialCourseEntry);
+  cachedCourseDirectory = mergeBySlug(generatedWorkCourses, editorial).sort((a, b) =>
+    a.title.localeCompare(b.title),
+  );
+  return cachedCourseDirectory;
 }
 
 export async function getWorkJobBySlug(slug: string) {
@@ -652,6 +734,8 @@ export function getCourseFilterOptions(courses: WorkCourse[] = workCourses) {
     [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
   return {
     providers: unique(courses.map((course) => course.provider)),
+    categories: unique(courses.map((course) => course.category ?? course.subject ?? '')),
+    credentials: unique(courses.map((course) => course.credentialType ?? '')),
     formats: unique(courses.map((course) => course.format)),
     subjects: unique(courses.map((course) => course.subject ?? '')),
     levels: unique(courses.map((course) => course.level ?? '')),
