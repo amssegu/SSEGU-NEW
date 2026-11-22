@@ -11,11 +11,12 @@ const providerUrl =
   course.researchStatus !== 'needs-recheck' && isSafeCourseUrl(course.sourceUrl)
     ? course.sourceUrl
     : undefined;
-const details = [course.category ?? course.subject, course.level, course.duration].filter(Boolean);
+const category = course.category ?? course.subject ?? course.format;
+const details = [course.level, course.duration, course.deliveryMode].filter(Boolean);
 ---
 
 <article
-  class="work-resource-card"
+  class="work-resource-card work-course-card"
   data-course-card
   data-subject={course.subject ?? ''}
   data-provider={course.provider}
@@ -24,27 +25,27 @@ const details = [course.category ?? course.subject, course.level, course.duratio
   data-price={course.coursePriceStatus ?? 'unknown'}
   data-certificate={course.certificatePriceStatus ?? 'unknown'}
 >
-  <span class="work-resource-icon" aria-hidden="true">
-    ◆
-  </span>
-  <p class="work-card-kicker">{course.format}</p>
-  <h2>
+  <div class="work-course-card-topline">
+    <p class="work-card-kicker">{category}</p>
+    <span class="work-course-format">{course.format}</span>
+  </div>
+  <h2 class="work-course-title">
     <a href={`/work/courses/${course.slug}/`}>{course.title}</a>
   </h2>
   <p class="work-resource-provider">{course.provider}</p>
-  <p>{course.description}</p>
-  {details.length > 0 && <p class="work-resource-meta">{details.join(' · ')}</p>}
+  <p class="work-course-description">{course.description}</p>
+  {details.length > 0 && <p class="work-course-details">{details.join(' · ')}</p>}
   <div class="work-course-facts">
     <span><strong>Access</strong>{courseStatusLabel(course.coursePriceStatus)}</span>
     <span><strong>Credential</strong>{course.credentialType ?? courseStatusLabel(course.certificatePriceStatus)}</span>
   </div>
   <div class="work-resource-card-actions">
-    <a class="work-text-link" href={`/work/courses/${course.slug}/`}>
-      View course →
+    <a class="work-course-primary-action" href={`/work/courses/${course.slug}/`}>
+      View course details <span aria-hidden="true">→</span>
     </a>
     {providerUrl && (
-      <a class="work-text-link" href={providerUrl} target="_blank" rel="noreferrer">
-        Start at provider ↗
+      <a class="work-course-provider-link" href={providerUrl} target="_blank" rel="noreferrer">
+        Visit provider <span aria-hidden="true">↗</span>
       </a>
     )}
   </div>

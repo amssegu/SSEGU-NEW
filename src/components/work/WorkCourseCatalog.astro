@@ -242,24 +242,21 @@ const clientCourses = allCourses.map((course) => ({
       .replace(/_/g, ' ')
       .replace(/\b\w/g, (letter) => letter.toUpperCase());
   const renderCourse = (course) => {
-    const metadata = [course.subject, course.level, course.duration, course.language].filter(
-      Boolean,
-    );
-    return `<article class="work-resource-card" data-course-card>
-      <span class="work-resource-icon" aria-hidden="true">◆</span>
-      <p class="work-card-kicker">${escapeHtml(course.format)}</p>
-      <h2><a href="/work/courses/${escapeHtml(course.slug)}/">${escapeHtml(course.title)}</a></h2>
+    const metadata = [course.level, course.duration, course.deliveryMode].filter(Boolean);
+    const category = course.category || course.subject || course.format;
+    return `<article class="work-resource-card work-course-card" data-course-card>
+      <div class="work-course-card-topline"><p class="work-card-kicker">${escapeHtml(category)}</p><span class="work-course-format">${escapeHtml(course.format)}</span></div>
+      <h2 class="work-course-title"><a href="/work/courses/${escapeHtml(course.slug)}/">${escapeHtml(course.title)}</a></h2>
       <p class="work-resource-provider">${escapeHtml(course.provider)}</p>
-      <p class="work-course-summary">${escapeHtml(course.description)}</p>
-      ${metadata.length ? `<p class="work-resource-meta">${metadata.map(escapeHtml).join(' · ')}</p>` : ''}
+      <p class="work-course-description">${escapeHtml(course.description)}</p>
+      ${metadata.length ? `<p class="work-course-details">${metadata.map(escapeHtml).join(' · ')}</p>` : ''}
       <div class="work-course-facts">
         <span><strong>Course</strong>${escapeHtml(label(course.coursePriceStatus))}</span>
-        <span><strong>Certificate</strong>${escapeHtml(label(course.certificatePriceStatus))}</span>
-        ${course.deliveryMode ? `<span><strong>Delivery</strong>${escapeHtml(label(course.deliveryMode))}</span>` : ''}
+        <span><strong>Credential</strong>${escapeHtml(course.credentialType || label(course.certificatePriceStatus))}</span>
       </div>
       <div class="work-resource-card-actions">
-        <a class="work-text-link" href="/work/courses/${escapeHtml(course.slug)}/">Course details →</a>
-        ${course.providerUrl ? `<a class="work-text-link" href="${escapeHtml(course.providerUrl)}" target="_blank" rel="noopener noreferrer">Visit provider ↗</a>` : ''}
+        <a class="work-course-primary-action" href="/work/courses/${escapeHtml(course.slug)}/">View course details <span aria-hidden="true">→</span></a>
+        ${course.providerUrl ? `<a class="work-course-provider-link" href="${escapeHtml(course.providerUrl)}" target="_blank" rel="noopener noreferrer">Visit provider <span aria-hidden="true">↗</span></a>` : ''}
       </div>
     </article>`;
   };

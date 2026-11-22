@@ -1603,6 +1603,143 @@
 
 .work-course-results-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.work-resource-card.work-course-card {
+  min-width: 0;
+  min-height: 330px;
+  gap: 0.45rem;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 14px rgb(22 59 124 / 6%);
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.work-course-card:hover {
+  transform: translateY(-2px);
+  border-color: #b7c9e8;
+  box-shadow: 0 9px 22px rgb(22 59 124 / 10%);
+}
+
+.work-course-card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  min-height: 1.45rem;
+}
+
+.work-course-card-topline .work-card-kicker {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.work-course-format {
+  flex: 0 0 auto;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  color: var(--work-navy);
+  background: var(--work-blue-soft);
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+.work-course-title {
+  display: -webkit-box;
+  overflow: hidden;
+  min-height: 2.7em;
+  margin: 0.1rem 0 0 !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 1.08rem !important;
+  line-height: 1.28;
+}
+
+.work-course-card .work-resource-provider {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0 !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 0.78rem;
+}
+
+.work-course-description {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0.1rem 0 0;
+  color: var(--work-muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.work-course-details {
+  overflow: hidden;
+  margin: 0;
+  color: var(--work-muted);
+  font-size: 0.73rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.work-course-card .work-course-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+  margin-top: auto;
+}
+
+.work-course-card .work-course-facts span {
+  min-width: 0;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1.25;
+}
+
+.work-course-card .work-course-facts strong {
+  font-size: 0.62rem;
+}
+
+.work-course-card .work-resource-card-actions {
+  display: grid;
+  gap: 0.3rem;
+  padding-top: 0.2rem;
+}
+
+.work-course-primary-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  min-height: 40px;
+  padding: 0.55rem 0.7rem;
+  border-radius: 7px;
+  color: #fff !important;
+  background: var(--work-navy);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.work-course-primary-action:hover {
+  background: var(--work-blue);
+}
+
+.work-course-provider-link {
+  justify-self: center;
+  color: var(--work-blue);
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.work-course-provider-link:hover {
+  text-decoration: underline;
 }
 
 .work-course-filter-toolbar {
