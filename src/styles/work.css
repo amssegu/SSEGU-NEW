@@ -1157,24 +1157,61 @@
 }
 
 .work-filter-panel {
-  padding: 1.1rem;
+  padding: 0.7rem;
   border: 1px solid var(--work-line);
   border-radius: var(--work-radius);
   background: var(--work-surface);
 }
 
-.work-jobs-main .work-filter-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.9rem 1rem;
+.work-filter-quick-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 0.55rem;
 }
 
-.work-jobs-main .work-job-keyword-filter {
-  grid-column: 1 / -1;
+.work-filter-quick-row .work-job-keyword-filter {
+  min-width: 0;
+}
+
+.work-filter-quick-row input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--work-line);
+  border-radius: 7px;
+  color: var(--work-ink);
+  background: #fff;
+  font: inherit;
+}
+
+.work-filter-quick-row .work-button {
+  min-height: 44px;
+  padding-block: 0.5rem;
+}
+
+.work-filter-toggle {
+  white-space: nowrap;
+}
+
+.work-filter-advanced[hidden] {
+  display: none;
+}
+
+.work-filter-advanced:not([hidden]) {
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--work-line);
+}
+
+.work-jobs-main .work-filter-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem 0.8rem;
 }
 
 .work-jobs-main .work-filter-grid input,
 .work-jobs-main .work-filter-grid select {
-  min-height: 46px;
+  min-height: 42px;
   border-radius: 7px;
 }
 
@@ -1206,9 +1243,9 @@
 
 .work-filter-actions {
   display: flex;
-  align-items: end;
+  align-items: center;
   gap: 0.55rem;
-  margin-top: 1rem;
+  margin-top: 0.7rem;
 }
 
 .work-sort-control {
@@ -1285,6 +1322,57 @@
 .work-job-results {
   display: grid;
   gap: 0.8rem;
+}
+
+.work-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 1.1rem;
+}
+
+.work-pagination[hidden] {
+  display: none;
+}
+
+.work-pagination-pages {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.work-pagination-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--work-line);
+  border-radius: 6px;
+  color: var(--work-navy);
+  background: #fff;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.work-pagination-button:hover:not(:disabled),
+.work-pagination-button.is-current {
+  border-color: var(--work-blue);
+  color: #fff;
+  background: var(--work-blue);
+}
+
+.work-pagination-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.work-pagination-ellipsis {
+  padding-inline: 0.1rem;
+  color: var(--work-muted);
 }
 
 .work-job-results .work-job-card {
@@ -2233,8 +2321,31 @@
     grid-template-columns: 1fr;
   }
 
-  .work-jobs-main .work-job-keyword-filter {
-    grid-column: auto;
+  .work-filter-quick-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .work-filter-quick-row .work-job-keyword-filter {
+    grid-column: 1 / -1;
+  }
+
+  .work-filter-quick-row .work-button {
+    padding-inline: 0.75rem;
+  }
+
+  .work-pagination {
+    gap: 0.2rem;
+  }
+
+  .work-pagination-pages {
+    gap: 0.15rem;
+  }
+
+  .work-pagination-button {
+    min-width: 32px;
+    min-height: 38px;
+    padding-inline: 0.4rem;
+    font-size: 0.8rem;
   }
 
   .work-job-results-heading {

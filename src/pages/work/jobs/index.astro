@@ -36,66 +36,74 @@ const initialJobs = activeJobs.filter(
           <a href="/work/jobs/?location=&q=intern">Internships</a>
         </nav>
         <form id="work-job-filters" class="work-filter-panel" data-testid="work-job-filters">
-          <div class="work-filter-grid">
+          <div class="work-filter-quick-row">
             <div class="work-job-keyword-filter">
-              <label for="job-keyword">What are you looking for?</label>
-              <input
-                id="job-keyword"
-                name="q"
-                type="search"
-                placeholder="Job title, employer or skill"
-              />
+              <label class="sr-only" for="job-keyword">Search jobs</label>
+              <input id="job-keyword" name="q" type="search" placeholder="Job title, employer or skill" />
             </div>
-            <div>
-              <label for="job-location">Location</label>
-              <select id="job-location" name="location">
-                <option value="">All locations</option>
-                <option value="Uganda">Uganda, including remote jobs open to Ugandan applicants</option>
-                {jobFilters.locations.filter((option) => option.toLowerCase() !== 'uganda').map((option) => (
-                  <option value={option}>{option}</option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label for="job-type">Employment type</label>
-              <select id="job-type" name="type">
-                <option value="">All types</option>
-                {jobFilters.employmentTypes.map((option) => (
-                  <option value={option}>{option}</option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label for="job-arrangement">Work arrangement</label>
-              <select id="job-arrangement" name="arrangement">
-                <option value="">All arrangements</option>
-                {jobFilters.arrangements.map((option) => (
-                  <option value={option}>{option}</option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label for="job-status">Listing status</label>
-              <select id="job-status" name="status">
-                <option value="active">Active opportunities</option>
-                <option value="all">All listings</option>
-                <option value="expired">Expired opportunities</option>
-              </select>
-            </div>
-          </div>
-          <div class="work-filter-actions">
             <button class="work-button" type="submit">Search jobs</button>
-            <button class="work-button work-button-secondary" id="clear-job-filters" type="button">
-              Reset filters
+            <button
+              class="work-button work-button-secondary work-filter-toggle"
+              id="toggle-job-filters"
+              type="button"
+              aria-expanded="false"
+              aria-controls="job-advanced-filters"
+            >
+              More filters <span aria-hidden="true">⌄</span>
             </button>
-            <label class="work-sort-control" for="job-sort">
-              <span>Sort results</span>
-              <select id="job-sort" name="sort">
-                <option value="relevance">Relevance</option>
-                <option value="newest">Newest</option>
-                <option value="deadline">Deadline soonest</option>
-              </select>
-            </label>
+          </div>
+          <div class="work-filter-advanced" id="job-advanced-filters" hidden>
+            <div class="work-filter-grid">
+              <div>
+                <label for="job-location">Location</label>
+                <select id="job-location" name="location">
+                  <option value="">All locations</option>
+                  <option value="Uganda">Uganda, including remote jobs open to Ugandan applicants</option>
+                  {jobFilters.locations.filter((option) => option.toLowerCase() !== 'uganda').map((option) => (
+                    <option value={option}>{option}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label for="job-type">Employment type</label>
+                <select id="job-type" name="type">
+                  <option value="">All types</option>
+                  {jobFilters.employmentTypes.map((option) => (
+                    <option value={option}>{option}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label for="job-arrangement">Work arrangement</label>
+                <select id="job-arrangement" name="arrangement">
+                  <option value="">All arrangements</option>
+                  {jobFilters.arrangements.map((option) => (
+                    <option value={option}>{option}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label for="job-status">Listing status</label>
+                <select id="job-status" name="status">
+                  <option value="active">Active opportunities</option>
+                  <option value="all">All listings</option>
+                  <option value="expired">Expired opportunities</option>
+                </select>
+              </div>
+            </div>
+            <div class="work-filter-actions">
+              <button class="work-button work-button-secondary" id="clear-job-filters" type="button">
+                Reset filters
+              </button>
+              <label class="work-sort-control" for="job-sort">
+                <span>Sort results</span>
+                <select id="job-sort" name="sort">
+                  <option value="relevance">Relevance</option>
+                  <option value="newest">Newest</option>
+                  <option value="deadline">Deadline soonest</option>
+                </select>
+              </label>
+            </div>
           </div>
         </form>
         <div class="work-job-results-heading">
@@ -117,6 +125,11 @@ const initialJobs = activeJobs.filter(
             ? 'No Uganda-eligible opportunities are currently listed. Choose All locations to broaden your search.'
             : 'We’re connecting verified job sources. New opportunities will appear here as they are checked.'}
         </p>
+        <nav class="work-pagination" id="job-pagination" aria-label="Job result pages" hidden>
+          <button class="work-pagination-button" type="button" data-page-action="previous">Previous</button>
+          <div class="work-pagination-pages" id="job-pagination-pages"></div>
+          <button class="work-pagination-button" type="button" data-page-action="next">Next</button>
+        </nav>
         <AdSlot placement="section" format="horizontal" minHeight={90} />
       </section>
       <aside class="work-jobs-aside" aria-label="Job search resources and advertisement">
@@ -147,14 +160,31 @@ const initialJobs = activeJobs.filter(
     const listingStatus = document.querySelector('#job-status');
     const sort = document.querySelector('#job-sort');
     const clearButton = document.querySelector('#clear-job-filters');
+    const filterToggle = document.querySelector('#toggle-job-filters');
+    const advancedFilters = document.querySelector('#job-advanced-filters');
+    const pagination = document.querySelector('#job-pagination');
+    const paginationPages = document.querySelector('#job-pagination-pages');
+    const pageSize = 10;
     const dateFormatter = new Intl.DateTimeFormat('en-UG', { dateStyle: 'medium' });
     const params = new URLSearchParams(window.location.search);
+    let currentPage = Math.max(1, Number.parseInt(params.get('page') || '1', 10) || 1);
     keyword.value = params.get('q') || '';
     location.value = params.has('location') ? params.get('location') || '' : 'Uganda';
     type.value = params.get('type') || '';
     arrangement.value = params.get('arrangement') || '';
     listingStatus.value = params.get('status') || 'active';
     sort.value = params.get('sort') || 'relevance';
+    if (
+      (params.has('location') && location.value !== 'Uganda') ||
+      type.value ||
+      arrangement.value ||
+      listingStatus.value !== 'active' ||
+      sort.value !== 'relevance'
+    ) {
+      advancedFilters.hidden = false;
+      filterToggle.setAttribute('aria-expanded', 'true');
+      filterToggle.innerHTML = 'Fewer filters <span aria-hidden="true">⌃</span>';
+    }
 
     const escapeHtml = (value) =>
       String(value).replace(
@@ -184,7 +214,8 @@ const initialJobs = activeJobs.filter(
         </div>
         <a class="work-job-arrow" href="/work/jobs/${escapeHtml(job.slug)}/" aria-label="View ${escapeHtml(job.title)}"><span aria-hidden="true">→</span></a>
       </article>`;
-    const applyFilters = (updateUrl = true) => {
+    const applyFilters = (updateUrl = true, resetPage = true) => {
+      if (resetPage) currentPage = 1;
       const query = keyword.value.trim().toLowerCase();
       const selectedStatus = listingStatus.value;
       const matches = jobs.filter((job) => {
@@ -213,12 +244,34 @@ const initialJobs = activeJobs.filter(
           return a.deadline.localeCompare(b.deadline);
         });
       }
-      results.innerHTML = matches.map(renderJob).join('');
+      const pageCount = Math.ceil(matches.length / pageSize);
+      currentPage = Math.min(currentPage, Math.max(pageCount, 1));
+      const startIndex = (currentPage - 1) * pageSize;
+      const pageJobs = matches.slice(startIndex, startIndex + pageSize);
+      results.innerHTML = pageJobs.map(renderJob).join('');
       emptyState.hidden = matches.length !== 0;
       emptyState.textContent = jobs.length
         ? 'No opportunities match those filters. Try a wider search.'
         : 'We’re connecting verified job sources. New opportunities will appear here as they are checked.';
-      status.textContent = `${matches.length} ${matches.length === 1 ? 'opportunity' : 'opportunities'} shown.`;
+      status.textContent = matches.length
+        ? `Showing ${startIndex + 1}–${Math.min(startIndex + pageSize, matches.length)} of ${matches.length} ${matches.length === 1 ? 'opportunity' : 'opportunities'}.`
+        : '0 opportunities shown.';
+      pagination.hidden = pageCount <= 1;
+      pagination.querySelector('[data-page-action="previous"]').disabled = currentPage <= 1;
+      pagination.querySelector('[data-page-action="next"]').disabled = currentPage >= pageCount;
+      const visiblePages = pageCount ? new Set([1, pageCount]) : new Set();
+      for (let page = Math.max(1, currentPage - 1); page <= Math.min(pageCount, currentPage + 1); page += 1) {
+        visiblePages.add(page);
+      }
+      let previousPage = 0;
+      paginationPages.innerHTML = [...visiblePages]
+        .sort((a, b) => a - b)
+        .map((page) => {
+          const gap = page - previousPage > 1 ? '<span class="work-pagination-ellipsis" aria-hidden="true">…</span>' : '';
+          previousPage = page;
+          return `${gap}<button class="work-pagination-button${page === currentPage ? ' is-current' : ''}" type="button" data-page="${page}"${page === currentPage ? ' aria-current="page"' : ''}>${page}</button>`;
+        })
+        .join('');
       if (updateUrl) {
         const next = new URLSearchParams();
         if (keyword.value.trim()) next.set('q', keyword.value.trim());
@@ -227,6 +280,7 @@ const initialJobs = activeJobs.filter(
         if (arrangement.value) next.set('arrangement', arrangement.value);
         if (listingStatus.value !== 'active') next.set('status', listingStatus.value);
         if (sort.value !== 'relevance') next.set('sort', sort.value);
+        if (currentPage > 1) next.set('page', String(currentPage));
         const queryString = next.toString();
         history.replaceState(
           null,
@@ -238,6 +292,23 @@ const initialJobs = activeJobs.filter(
     form?.addEventListener('submit', (event) => {
       event.preventDefault();
       applyFilters();
+    });
+    filterToggle?.addEventListener('click', () => {
+      const expanded = filterToggle.getAttribute('aria-expanded') === 'true';
+      filterToggle.setAttribute('aria-expanded', String(!expanded));
+      advancedFilters.hidden = expanded;
+      filterToggle.innerHTML = expanded
+        ? 'More filters <span aria-hidden="true">⌄</span>'
+        : 'Fewer filters <span aria-hidden="true">⌃</span>';
+    });
+    pagination?.addEventListener('click', (event) => {
+      const button = event.target.closest('button');
+      if (!button || button.disabled) return;
+      if (button.dataset.page) currentPage = Number(button.dataset.page);
+      else if (button.dataset.pageAction === 'previous') currentPage -= 1;
+      else if (button.dataset.pageAction === 'next') currentPage += 1;
+      else return;
+      applyFilters(true, false);
     });
     clearButton?.addEventListener('click', () => {
       form.reset();
