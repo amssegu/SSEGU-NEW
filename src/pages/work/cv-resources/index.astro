@@ -36,7 +36,7 @@ const recommendedArticles = (await getPublishedWorkArticles('career-advice'))
       </div>
       <div class="work-article-grid cv-article-grid">
         {recommendedArticles.map((article) => (
-          <article class="work-advice-card">
+          <article class="work-advice-card cv-article-card">
             <a href={`/work/career-advice/${article.slug}/`}>
               <img src={article.image} alt={article.imageAlt ?? ''} width="1200" height="675" loading="lazy" />
               <div>
@@ -57,10 +57,22 @@ const recommendedArticles = (await getPublishedWorkArticles('career-advice'))
 
 <style>
   .cv-recommendations { margin: 2.5rem 0; scroll-margin-top: 1rem; }
-  .cv-article-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .cv-article-grid h3 { margin: .4rem 0; color: var(--work-navy-deep); font-size: 1.2rem; }
-  .cv-article-grid > article { transition: transform 160ms ease, box-shadow 160ms ease; }
-  .cv-article-grid > article:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgb(22 59 124 / 13%); }
-  .cv-article-link { display: inline-block; margin-top: .5rem; color: var(--work-blue); font-weight: 800; }
-  @media (max-width: 640px) { .cv-article-grid { grid-template-columns: 1fr; } }
+  .cv-article-grid { grid-template-columns: minmax(0, 1fr); gap: .7rem; max-width: 880px; }
+  .cv-article-card { min-height: 0; transition: border-color 160ms ease, box-shadow 160ms ease; }
+  .cv-article-card:hover { border-color: var(--work-blue); box-shadow: 0 5px 16px rgb(22 59 124 / 10%); }
+  .cv-article-card > a { display: flex; align-items: center; gap: .8rem; }
+  .cv-article-card img { flex: 0 0 112px; width: 112px; height: 76px; aspect-ratio: auto; border-radius: 5px; }
+  .cv-article-card > a > div { min-width: 0; padding: .65rem .8rem .65rem 0; }
+  .cv-article-card h3 { margin: .15rem 0; color: var(--work-navy-deep); font-size: 1rem; line-height: 1.25; }
+  .cv-article-card p:not(.work-card-kicker) { display: -webkit-box; overflow: hidden; margin: .2rem 0; font-size: .85rem; line-height: 1.35; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+  .cv-article-card .work-card-kicker { margin: 0; font-size: .65rem; }
+  .cv-article-card small { display: none; }
+  .cv-article-link { display: inline-block; margin-top: .2rem; color: var(--work-blue); font-size: .85rem; font-weight: 800; }
+  @media (max-width: 520px) {
+    .cv-article-card > a { gap: .6rem; }
+    .cv-article-card img { flex-basis: 78px; width: 78px; height: 68px; }
+    .cv-article-card > a > div { padding: .55rem .55rem .55rem 0; }
+    .cv-article-card p:not(.work-card-kicker) { -webkit-line-clamp: 1; }
+    .cv-article-link { font-size: .8rem; }
+  }
 </style>
