@@ -783,23 +783,23 @@ export const cvResources = [
   {
     slug: 'cv-checklist',
     title: 'CV Checklist',
-    description: 'A clear checklist for reviewing your CV before you send it.',
+    description: 'Check your details, evidence, formatting and application instructions before you send your CV.',
     detail:
-      'Review your contact details, profile, experience, skills and references before sharing your CV.',
+      'Start with the vacancy and check that your CV makes the relevant qualifications and experience easy to find. Confirm your name, phone number, professional email address and location. Use clear headings, consistent dates and simple formatting. Check spelling, open the final file to make sure it displays correctly, and follow the employer’s requested file type and naming instructions. Include referees only when requested or when you have their permission.',
   },
   {
     slug: 'cover-letter-guide',
     title: 'Cover Letter Guide',
-    description: 'A simple structure for connecting your experience to the opportunity.',
+    description: 'Write a concise, tailored letter that connects your evidence to the role.',
     detail:
-      'Connect your experience to the specific role, show what you understand and finish with a clear next step.',
+      'Address the letter to the named contact when one is provided. In the opening, state the role and where you saw it. Choose one or two requirements from the advert and explain, with a specific example, how your experience meets them. Keep the letter focused, use a professional tone, and finish by thanking the reader and inviting them to review your application. Do not repeat your whole CV.',
   },
   {
     slug: 'interview-preparation',
     title: 'Interview Preparation',
-    description: 'Prompts to help you prepare examples and thoughtful questions.',
+    description: 'Prepare honest examples, role-specific questions and a confident introduction.',
     detail:
-      'Prepare short examples that show your actions, decisions and results, then practise saying them naturally.',
+      'Review the job description and learn what the organisation does. Prepare a few examples that explain the situation, the action you took and the result. Use real details, including what you learned when an outcome was difficult. Practise a short introduction, plan questions about the role, and check the interview time, location or joining link in advance.',
   },
 ];
 

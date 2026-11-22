@@ -1,20 +1,29 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
+import CvBuilder from '../../../components/work/CvBuilder.astro';
 import { cvResources } from '../../../lib/work';
 ---
 
 <WorkLayout
   title="CV Resources | SSEGU Work"
-  description="Practical fixture CV and application resources from SSEGU Work."
+  description="Create a clear, ATS-readable CV and find practical CV, cover letter and interview advice from SSEGU Work."
 >
   <div class="work-page-shell">
     <div class="work-page-intro">
-      <p class="work-eyebrow">Present your strengths</p>
-      <h1>CV Resources</h1>
+      <p class="work-eyebrow">Make your next application count</p>
+      <h1>CV Resources and Free CV Builder</h1>
       <p>
-        Use these fixture resources to make your application clearer and more useful to employers.
+        Build a CV that is easy for applicant tracking systems to read and easy for a person to scan.
+        Start with the free builder, then use the guides below to improve each part of your application.
       </p>
     </div>
+    <CvBuilder />
+    <section aria-labelledby="cv-guides-title">
+      <div class="work-page-intro">
+        <p class="work-eyebrow">Guides and checklists</p>
+        <h2 id="cv-guides-title">Make your application stronger</h2>
+        <p>Practical advice for writing, tailoring and checking your CV before you apply.</p>
+      </div>
     <div class="work-resource-grid">
       {cvResources.map((resource) => (
         <article class="work-resource-card">
@@ -31,5 +40,22 @@ import { cvResources } from '../../../lib/work';
         </article>
       ))}
     </div>
+    <div class="cv-related-guides">
+      <h2>More CV advice</h2>
+      <ul>
+        <li><a href="/work/career-advice/how-to-write-cv-in-uganda-that-gets/">How to write a CV in Uganda that gets noticed</a></li>
+        <li><a href="/work/career-advice/how-to-tailor-your-cv-for-different/">How to tailor your CV for different roles</a></li>
+        <li><a href="/work/career-advice/12-common-cv-mistakes-that-could-cost/">12 common CV mistakes to avoid</a></li>
+        <li><a href="/work/career-advice/how-to-write-winning-cv-your-ultimate/">A complete guide to writing a winning CV</a></li>
+      </ul>
+    </div>
+    </section>
   </div>
 </WorkLayout>
+
+<style>
+  .cv-related-guides { margin-top: 2rem; padding: 1.5rem; border-radius: var(--work-radius); background: #f4f7fc; }
+  .cv-related-guides h2 { margin-top: 0; color: var(--work-navy); }
+  .cv-related-guides ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem 1.5rem; margin-bottom: 0; padding-left: 1.2rem; }
+  @media (max-width: 640px) { .cv-related-guides ul { grid-template-columns: 1fr; } }
+</style>

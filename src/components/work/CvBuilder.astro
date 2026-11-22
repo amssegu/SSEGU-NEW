@@ -1,0 +1,149 @@
+<section class="cv-builder" aria-labelledby="cv-builder-title">
+  <div class="cv-builder-heading">
+    <div>
+      <p class="work-eyebrow">Free · private · no account</p>
+      <h2 id="cv-builder-title">Build a clear, job-ready CV</h2>
+      <p>
+        Add the details that matter for your next role. Your information stays in this browser;
+        nothing is uploaded. Print or save the finished CV as a text-based PDF.
+      </p>
+    </div>
+    <div class="cv-builder-actions">
+      <button class="work-button" type="button" data-cv-print>Print / save as PDF</button>
+      <button class="work-button work-button-secondary" type="button" data-cv-copy>Copy as text</button>
+      <span class="cv-copy-status" role="status" aria-live="polite"></span>
+    </div>
+  </div>
+  <div class="cv-builder-layout">
+    <form class="cv-form" data-cv-form>
+      <fieldset>
+        <legend>Contact details</legend>
+        <label>Full name<input name="name" autocomplete="name" placeholder="e.g. Amina Nakato" /></label>
+        <label>Email<input name="email" type="email" autocomplete="email" placeholder="amina@example.com" /></label>
+        <label>Phone<input name="phone" type="tel" autocomplete="tel" placeholder="+256 700 000 000" /></label>
+        <label>Location<input name="location" autocomplete="address-level2" placeholder="Kampala, Uganda" /></label>
+        <label>LinkedIn or portfolio <span class="cv-optional">(optional)</span><input name="website" type="url" placeholder="linkedin.com/in/yourname" /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Professional profile</legend>
+        <label>A short introduction<textarea name="profile" rows="4" placeholder="Summarise your experience, strongest skills and the value you bring to the role."></textarea></label>
+        <label>Key skills <span class="cv-optional">(one per line)</span><textarea name="skills" rows="4" placeholder="Customer service&#10;Stock management&#10;Microsoft Excel"></textarea></label>
+      </fieldset>
+      <fieldset>
+        <legend>Work experience</legend>
+        <p class="cv-field-help">Add one role per block. Start each achievement with an action and include a real result or scale where you can.</p>
+        <label>Job title, employer and dates <span class="cv-optional">(one role per line)</span><textarea name="experience" rows="5" placeholder="Sales Assistant | Example Stores, Kampala | Jan 2023–Present&#10;Helped customers find products and resolved queries&#10;Recorded daily sales and supported stock counts"></textarea></label>
+      </fieldset>
+      <fieldset>
+        <legend>Education and training</legend>
+        <label>Qualification, institution and dates <span class="cv-optional">(one per line)</span><textarea name="education" rows="4" placeholder="Diploma in Business Administration | Example Institute | 2021–2023"></textarea></label>
+      </fieldset>
+      <fieldset>
+        <legend>Additional information</legend>
+        <label>Certifications, languages or relevant volunteering <span class="cv-optional">(optional, one per line)</span><textarea name="additional" rows="3" placeholder="First Aid Certificate | 2024&#10;Languages: English, Luganda"></textarea></label>
+      </fieldset>
+    </form>
+    <article class="cv-preview" aria-label="CV preview" data-cv-preview>
+      <header class="cv-preview-header">
+        <h2 data-cv-name>Your Name</h2>
+        <p data-cv-contact>Add your contact details in the form</p>
+      </header>
+      <section data-cv-section="profile"><h3>Professional Profile</h3><p data-cv-profile>Your profile will appear here.</p></section>
+      <section data-cv-section="skills"><h3>Key Skills</h3><ul data-cv-skills><li>Your skills will appear here.</li></ul></section>
+      <section data-cv-section="experience"><h3>Work Experience</h3><div data-cv-experience><p>Your experience will appear here.</p></div></section>
+      <section data-cv-section="education"><h3>Education and Training</h3><ul data-cv-education><li>Your education will appear here.</li></ul></section>
+      <section data-cv-section="additional"><h3>Additional Information</h3><ul data-cv-additional><li>Your additional information will appear here.</li></ul></section>
+    </article>
+  </div>
+  <p class="cv-builder-note">Tip: tailor your profile and skills to each vacancy, use the same clear terms as the job description when they truthfully describe you, and check every date and claim before applying. If an employer asks for a Word file, copy the text into a document and save it as .docx. Follow the employer’s requested format; no CV layout can guarantee how every applicant system will parse a file.</p>
+</section>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('[data-cv-form]');
+  const preview = document.querySelector<HTMLElement>('[data-cv-preview]');
+
+  if (form && preview) {
+    const value = (name: string) => String(new FormData(form).get(name) ?? '').trim();
+    const lines = (name: string) => value(name).split('\n').map((line) => line.trim()).filter(Boolean);
+    const setList = (selector: string, entries: string[], fallback: string) => {
+      const list = preview.querySelector<HTMLElement>(selector);
+      if (!list) return;
+      list.replaceChildren(...(entries.length ? entries : [fallback]).map((entry) => {
+        const item = document.createElement('li');
+        item.textContent = entry;
+        return item;
+      }));
+      const section = list.closest<HTMLElement>('[data-cv-section]');
+      if (section) section.hidden = entries.length === 0;
+    };
+    const render = () => {
+      preview.querySelector('[data-cv-name]')!.textContent = value('name') || 'Your Name';
+      const contact = [value('email'), value('phone'), value('location'), value('website')].filter(Boolean);
+      preview.querySelector('[data-cv-contact]')!.textContent = contact.join(' · ') || 'Add your contact details in the form';
+      const profile = value('profile');
+      preview.querySelector('[data-cv-profile]')!.textContent = profile || 'Your profile will appear here.';
+      preview.querySelector('[data-cv-section="profile"]')!.toggleAttribute('hidden', !profile);
+      setList('[data-cv-skills]', lines('skills'), 'Your skills will appear here.');
+      setList('[data-cv-education]', lines('education'), 'Your education will appear here.');
+      setList('[data-cv-additional]', lines('additional'), 'Your additional information will appear here.');
+      const roles = preview.querySelector<HTMLElement>('[data-cv-experience]')!;
+      const experience = lines('experience');
+      roles.replaceChildren(...(experience.length ? experience : ['Your experience will appear here.']).map((entry) => {
+        const paragraph = document.createElement('p');
+        paragraph.textContent = entry;
+        return paragraph;
+      }));
+      preview.querySelector('[data-cv-section="experience"]')!.toggleAttribute('hidden', experience.length === 0);
+    };
+
+    form.addEventListener('input', render);
+    render();
+    document.querySelector('[data-cv-print]')?.addEventListener('click', () => window.print());
+    document.querySelector('[data-cv-copy]')?.addEventListener('click', async () => {
+      const text = preview.innerText.replace(/\n{3,}/g, '\n\n').trim();
+      const status = document.querySelector<HTMLElement>('.cv-copy-status');
+      try {
+        await navigator.clipboard.writeText(text);
+        if (status) status.textContent = 'CV text copied.';
+      } catch {
+        if (status) status.textContent = 'Copy is unavailable here. Select the preview text and copy it.';
+      }
+    });
+  }
+</script>
+
+<style>
+  .cv-builder { margin: 2rem 0; padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--work-line); border-radius: var(--work-radius); background: #f8fbff; }
+  .cv-builder-heading { display: flex; justify-content: space-between; align-items: end; gap: 1.5rem; margin-bottom: 1.5rem; }
+  .cv-builder-heading h2 { margin: 0 0 .5rem; color: var(--work-navy); }
+  .cv-builder-heading p:not(.work-eyebrow) { max-width: 650px; margin: 0; }
+  .cv-builder-actions { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+  .cv-copy-status { flex-basis: 100%; font-size: .85rem; }
+  .cv-builder-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, .9fr); align-items: start; gap: 1.25rem; }
+  .cv-form { display: grid; gap: 1rem; }
+  .cv-form fieldset { min-width: 0; display: grid; gap: .8rem; margin: 0; padding: 1rem; border: 1px solid var(--work-line); border-radius: 10px; background: white; }
+  .cv-form legend { padding: 0 .35rem; color: var(--work-navy); font-weight: 800; }
+  .cv-form label { display: grid; gap: .35rem; font-size: .9rem; font-weight: 700; }
+  .cv-form input, .cv-form textarea { width: 100%; padding: .7rem .75rem; border: 1px solid #b8c6d9; border-radius: 6px; color: #14243a; font: inherit; font-weight: 400; }
+  .cv-form textarea { resize: vertical; }
+  .cv-optional, .cv-field-help { color: #53657b; font-size: .82rem; font-weight: 400; }
+  .cv-field-help { margin: -.3rem 0 0; }
+  .cv-preview { padding: clamp(1.1rem, 3vw, 2rem); background: white; border: 1px solid var(--work-line); box-shadow: 0 4px 18px rgb(8 47 120 / 8%); color: #182433; font-family: Arial, Helvetica, sans-serif; }
+  .cv-preview-header { padding-bottom: .8rem; border-bottom: 2px solid #183b68; }
+  .cv-preview-header h2 { margin: 0 0 .4rem; color: #122e50; font-size: 1.7rem; }
+  .cv-preview-header p { margin: 0; overflow-wrap: anywhere; font-size: .88rem; }
+  .cv-preview section { margin-top: 1.1rem; }
+  .cv-preview section h3 { margin: 0 0 .45rem; padding-bottom: .25rem; border-bottom: 1px solid #aebdce; color: #183b68; font-size: 1rem; text-transform: uppercase; letter-spacing: .035em; }
+  .cv-preview p, .cv-preview li { font-size: .9rem; line-height: 1.5; overflow-wrap: anywhere; }
+  .cv-preview p { margin: .25rem 0; white-space: pre-wrap; }
+  .cv-preview ul { margin: .3rem 0 0; padding-left: 1.2rem; }
+  .cv-builder-note { margin: 1rem 0 0; color: #53657b; font-size: .9rem; }
+  @media (max-width: 850px) { .cv-builder-heading { align-items: start; flex-direction: column; } .cv-builder-layout { grid-template-columns: 1fr; } }
+  @media print {
+    body * { visibility: hidden !important; }
+    .cv-preview, .cv-preview * { visibility: visible !important; }
+    .cv-preview { position: absolute; inset: 0; width: 100%; padding: 0; border: 0; box-shadow: none; }
+    .cv-preview section[hidden] { display: none !important; }
+    @page { margin: 16mm; }
+  }
+</style>
