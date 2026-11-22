@@ -221,7 +221,6 @@ const clientCourses = allCourses.map((course) => ({
         <span><strong>Certificate</strong>${escapeHtml(label(course.certificatePriceStatus))}</span>
         ${course.deliveryMode ? `<span><strong>Delivery</strong>${escapeHtml(label(course.deliveryMode))}</span>` : ''}
       </div>
-      ${course.approvalStatus === 'approved' && course.publicationStatus === 'published' ? '<p class="work-resource-meta">Approved · Published</p>' : '<p class="work-course-attribution"><strong>Research draft:</strong> Not yet approved and published.</p>'}
       <div class="work-resource-card-actions">
         <a class="work-text-link" href="/work/courses/${escapeHtml(course.slug)}/">Course details →</a>
         ${course.providerUrl ? `<a class="work-text-link" href="${escapeHtml(course.providerUrl)}" target="_blank" rel="noopener noreferrer">Visit provider ↗</a>` : ''}

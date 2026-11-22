@@ -346,9 +346,9 @@
 .work-home-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.25fr) minmax(260px, 0.8fr);
-  grid-template-rows: minmax(0, 1fr);
+  grid-template-rows: auto;
   gap: 1.4rem;
-  height: 450px;
+  min-height: 450px;
   width: var(--work-shell);
   margin: 1.5rem auto;
 }
@@ -409,8 +409,7 @@
 
 .work-job-list {
   display: grid;
-  min-height: 0;
-  grid-template-rows: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(120px, auto));
 }
 
 .work-job-card {
@@ -1219,6 +1218,45 @@
   color: #fff;
   border-color: var(--work-blue);
   background: var(--work-blue);
+}
+
+.work-active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.65rem;
+}
+
+.work-active-filters[hidden] {
+  display: none;
+}
+
+.work-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 34px;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid #bfd0ef;
+  border-radius: 999px;
+  color: var(--work-navy-deep);
+  background: var(--work-blue-soft);
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.work-filter-chip span {
+  color: var(--work-blue);
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.work-empty-state a {
+  display: inline-block;
+  margin-left: 0.35rem;
+  color: var(--work-blue);
+  font-weight: 800;
 }
 
 .work-filter-panel {
@@ -2332,6 +2370,10 @@
     padding: 2.2rem 16px;
   }
 
+  .work-hero-image {
+    display: none;
+  }
+
   .work-hero-paths {
     grid-template-columns: 1fr;
   }
@@ -2352,16 +2394,6 @@
 
   .work-hero-search button {
     min-height: 44px;
-  }
-
-  .work-hero-image {
-    min-height: 240px;
-  }
-
-  .work-hero-image p {
-    top: 1.3rem;
-    right: 5%;
-    font-size: 1.6rem;
   }
 
   .work-home-grid,

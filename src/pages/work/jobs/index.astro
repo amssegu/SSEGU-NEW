@@ -106,6 +106,7 @@ const initialJobs = activeJobs.filter(
             </div>
           </div>
         </form>
+        <div id="job-active-filters" class="work-active-filters" aria-label="Active filters" hidden></div>
         <div class="work-job-results-heading">
           <div>
             <p class="work-eyebrow">Opportunities</p>
@@ -126,7 +127,7 @@ const initialJobs = activeJobs.filter(
         <p id="job-empty-state" class="work-empty-state" hidden={initialJobs.length > 0}>
           {allJobs.length
             ? 'No Uganda-eligible opportunities are currently listed. Choose All locations to broaden your search.'
-            : 'We’re connecting verified job sources. New opportunities will appear here as they are checked.'}
+            : 'We’re connecting job sources. New opportunities will appear here as listing details are checked.'}
         </p>
         <nav class="work-pagination" id="job-pagination" aria-label="Job result pages" hidden>
           <button class="work-pagination-button" type="button" data-page-action="previous">Previous</button>
@@ -163,6 +164,7 @@ const initialJobs = activeJobs.filter(
     const sort = document.querySelector('#job-sort');
     const clearButton = document.querySelector('#clear-job-filters');
     const filterToggle = document.querySelector('#toggle-job-filters');
+    const activeFilters = document.querySelector('#job-active-filters');
     const advancedFilters = document.querySelector('#job-advanced-filters');
     const pagination = document.querySelector('#job-pagination');
     const paginationPages = document.querySelector('#job-pagination-pages');
@@ -274,12 +276,23 @@ const initialJobs = activeJobs.filter(
         });
       }
       emptyState.hidden = matches.length !== 0;
-      emptyState.textContent = jobs.length
-        ? 'No opportunities match those filters. Try a wider search.'
-        : 'We’re connecting verified job sources. New opportunities will appear here as they are checked.';
+      emptyState.innerHTML = jobs.length
+        ? 'No opportunities match those filters. Try removing a filter or broadening your search. <a href="/work/jobs/">Clear filters</a>'
+        : 'We’re connecting job sources. New opportunities will appear here as listing details are checked.';
       status.textContent = matches.length
         ? `Showing ${startIndex + 1}–${Math.min(startIndex + pageSize, matches.length)} of ${matches.length} ${matches.length === 1 ? 'opportunity' : 'opportunities'}.`
         : '0 opportunities shown.';
+      const chips = [
+        query ? ['q', `Search: ${keyword.value.trim()}`] : null,
+        location.value ? ['location', `Location: ${location.value}`] : null,
+        type.value ? ['type', `Type: ${type.value}`] : null,
+        arrangement.value ? ['arrangement', `Work mode: ${arrangement.value}`] : null,
+        selectedStatus !== 'active' ? ['status', `Status: ${selectedStatus}`] : null,
+      ].filter(Boolean);
+      activeFilters.hidden = chips.length === 0;
+      activeFilters.innerHTML = chips
+        .map(([key, label]) => `<button type="button" class="work-filter-chip" data-filter="${key}" aria-label="Remove ${escapeHtml(label)} filter">${escapeHtml(label)} <span aria-hidden="true">×</span></button>`)
+        .join('');
       pagination.hidden = pageCount <= 1;
       pagination.querySelector('[data-page-action="previous"]').disabled = currentPage <= 1;
       pagination.querySelector('[data-page-action="next"]').disabled = currentPage >= pageCount;
@@ -324,6 +337,15 @@ const initialJobs = activeJobs.filter(
       filterToggle.innerHTML = expanded
         ? 'More filters <span aria-hidden="true">⌄</span>'
         : 'Fewer filters <span aria-hidden="true">⌃</span>';
+    });
+    activeFilters?.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-filter]');
+      if (!button) return;
+      const inputs = { q: keyword, location, type, arrangement, status: listingStatus };
+      const input = inputs[button.dataset.filter];
+      if (!input) return;
+      input.value = button.dataset.filter === 'status' ? 'active' : '';
+      applyFilters();
     });
     pagination?.addEventListener('click', (event) => {
       const button = event.target.closest('button');
