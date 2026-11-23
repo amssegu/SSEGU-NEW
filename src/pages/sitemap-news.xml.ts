@@ -30,6 +30,7 @@ export const GET: APIRoute = async () => {
     '/contact/',
     '/privacy/',
     '/terms/',
+    '/sitemap/',
     ...articles.map((article) => `/${article.slug}/`),
   ];
   return new Response(sitemapXml(paths), {

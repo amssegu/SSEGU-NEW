@@ -2,9 +2,7 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import TopStories from '../components/main/TopStories.astro';
 import {
-  articles,
   formatDate,
-  fromContentEntry,
   getPublishedArticles,
   label,
 } from '../lib/articles';
@@ -12,14 +10,14 @@ import AdSlot from '../components/main/AdSlot.astro';
 import { absoluteUrl, articleJsonLd, breadcrumbJsonLd } from '../lib/seo';
 import { estimateReadingTime, normalizeArticleBody, stripLegacyArticleLead } from '../lib/content';
 import { selectRecommendations } from '../lib/recommendations';
+import type { Article } from '../lib/articles';
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 export async function getStaticPaths() {
   const entries = (await getCollection('articles')).filter(
     ({ data }) => data.status === 'published',
   );
-  const contentSlugs = new Set(entries.map((entry) => entry.data.slug));
   const allArticles = await getPublishedArticles();
-  const relatedFor = (article: (typeof articles)[number]) =>
+  const relatedFor = (article: Article) =>
     selectRecommendations(
       allArticles.filter(
         (item) =>
@@ -29,34 +27,25 @@ export async function getStaticPaths() {
       article.slug,
       10,
     );
-  return [
-    ...articles
-      .filter((article) => !contentSlugs.has(article.slug))
-      .map((article) => ({
-        params: { slug: article.slug },
-        props: { article, related: relatedFor(article), topStories: allArticles.slice(0, 6) },
-      })),
-    ...entries.map((entry) => {
-      const article = allArticles.find((item) => item.slug === entry.data.slug)!;
-      return {
-        params: { slug: entry.data.slug },
-        props: {
-          entry,
-          article,
-          related: relatedFor(article),
-          topStories: allArticles.slice(0, 6),
-        },
-      };
-    }),
-  ];
+  return entries.map((entry) => {
+    const article = allArticles.find((item) => item.slug === entry.data.slug)!;
+    return {
+      params: { slug: entry.data.slug },
+      props: {
+        entry,
+        article,
+        related: relatedFor(article),
+        topStories: allArticles.slice(0, 6),
+      },
+    };
+  });
 }
-const { article: fixtureArticle, entry } = Astro.props as {
-  article?: (typeof articles)[number];
-  related?: (typeof articles)[number][];
-  topStories?: (typeof articles)[number][];
+const { article, entry } = Astro.props as {
+  article: Article;
+  related?: Article[];
+  topStories?: Article[];
   entry?: CollectionEntry<'articles'>;
 };
-const article = fixtureArticle ?? fromContentEntry(entry!);
 const related = Astro.props.related ?? [];
 const topStories = Astro.props.topStories ?? [];
 const topStorySlugs = new Set(topStories.map((item) => item.slug));
@@ -67,7 +56,7 @@ const truncateRelatedTitle = (title: string, maxLength = 58) => {
   const wordBoundary = shortened.lastIndexOf(' ');
   return `${shortened.slice(0, wordBoundary > 40 ? wordBoundary : maxLength)}…`;
 };
-const { Content } = entry ? await render(entry) : { Content: undefined };
+const { Content } = await render(entry!);
 const rawBody = entry?.body ?? '';
 const cleanedBody = entry
   ? normalizeArticleBody(stripLegacyArticleLead(rawBody) ?? rawBody)

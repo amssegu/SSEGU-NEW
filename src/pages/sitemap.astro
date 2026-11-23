@@ -1,0 +1,57 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { categories, getPublishedArticles } from '../lib/articles';
+import {
+  getPublishedWorkArticles,
+  getPublishedWorkCourses,
+  getPublishedWorkJobs,
+  isEligibleWorkJob,
+} from '../lib/work';
+
+const articles = await getPublishedArticles();
+const workArticles = await getPublishedWorkArticles();
+const jobs = (await getPublishedWorkJobs()).filter((job) => isEligibleWorkJob(job));
+const courses = await getPublishedWorkCourses();
+const pages = [
+  { label: 'Home', href: '/' },
+  { label: 'Latest news', href: '/news/' },
+  ...categories.filter((category) => category !== 'news').map((category) => ({
+    label: `${category.charAt(0).toUpperCase()}${category.slice(1)} news`,
+    href: `/category/${category}/`,
+  })),
+  { label: 'About SSEGU', href: '/about/' },
+  { label: 'Contact', href: '/contact/' },
+  { label: 'Privacy policy', href: '/privacy/' },
+  { label: 'Terms', href: '/terms/' },
+  { label: 'SSEGU Work', href: '/work/' },
+  { label: 'Jobs', href: '/work/jobs/' },
+  { label: 'Career advice', href: '/work/career-advice/' },
+  { label: 'Courses', href: '/work/courses/' },
+  { label: 'CV resources', href: '/work/cv-resources/' },
+];
+---
+
+<MainLayout title="Sitemap | SSEGU" description="Browse SSEGU pages, news articles and career resources.">
+  <div class="shell prose-page">
+    <p class="eyebrow">Explore SSEGU</p>
+    <h1>Sitemap</h1>
+    <p>Browse the pages and published content available across SSEGU.</p>
+
+    <h2>Pages</h2>
+    <ul>{pages.map((page) => <li><a href={page.href}>{page.label}</a></li>)}</ul>
+
+    <h2>News articles</h2>
+    <ul>{articles.map((article) => <li><a href={`/${article.slug}/`}>{article.title}</a></li>)}</ul>
+
+    <h2>Career advice</h2>
+    <ul>{workArticles.map((article) => <li><a href={`/work/career-advice/${article.slug}/`}>{article.title}</a></li>)}</ul>
+
+    <h2>Current job listings</h2>
+    <ul>{jobs.map((job) => <li><a href={`/work/jobs/${job.slug}/`}>{job.title}</a></li>)}</ul>
+
+    <h2>Courses</h2>
+    <ul>{courses.map((course) => <li><a href={`/work/courses/${course.slug}/`}>{course.title}</a></li>)}</ul>
+
+    <p><a href="/sitemap-index.xml">XML sitemap for search engines</a></p>
+  </div>
+</MainLayout>
