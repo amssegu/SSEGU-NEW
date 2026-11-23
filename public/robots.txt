@@ -5,3 +5,4 @@ Disallow: /search
 Disallow: /api/
 
 Sitemap: https://ssegu.com/sitemap-index.xml
+Sitemap: https://ssegu.com/sitemap.xml
