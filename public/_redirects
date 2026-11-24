@@ -1578,3 +1578,7 @@
 /posts/jobs-in-zanzibar-tanzania.html /work/career-advice/jobs-in-zanzibar-tanzania/ 301
 /posts/jobs-in-ziguinchor-senegal.html /work/career-advice/jobs-in-ziguinchor-senegal/ 301
 /posts/jobs-in-zimbabwe.html /work/career-advice/jobs-in-zimbabwe/ 301
+
+# Firimu React SPA routes (scoped to /firimu only)
+/firimu /firimu/ 301
+/firimu/* /firimu/index.html 200
