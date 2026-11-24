@@ -35,7 +35,7 @@ jobs:
           else
             RANGE="${GITHUB_EVENT_BEFORE}..HEAD"
           fi
-          FILES=$(git diff --name-only --diff-filter=ACMR "${RANGE}" | grep -E '\\.(astro|css|html|js|jsx|json|md|mjs|ts|tsx|yaml|yml)$' || true)
+          FILES=$(git diff --name-only --diff-filter=ACMR "${RANGE}" | grep -E '\.(astro|css|html|js|jsx|json|md|mjs|ts|tsx|yaml|yml)$' || true)
           if [[ -z "${FILES}" ]]; then
             echo "No changed files require formatting checks."
           else
