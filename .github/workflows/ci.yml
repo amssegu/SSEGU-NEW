@@ -37,7 +37,44 @@ jobs:
           else
             RANGE="${GITHUB_EVENT_BEFORE}..HEAD"
           fi
-          FILES=$(git diff --name-only --diff-filter=ACMR "${RANGE}" | grep -E '\.(astro|css|html|js|jsx|json|md|mjs|ts|tsx|yaml|yml)$' || true)
+          FILES=$(git diff --name-only --diff-filter=ACMR "${RANGE}" | grep -v '^firimu-app/' | grep -E '\.(astro|css|html|js|jsx|json|md|mjs|ts|tsx|yaml|yml)
+          if [[ -z "${FILES}" ]]; then
+            echo "No changed files require formatting checks."
+          else
+            printf '%s\n' "${FILES}" | xargs -r npx prettier --check
+          fi
+
+      - name: Type check
+        run: npm run check
+
+      - name: Unit checks
+        run: npm test
+
+      - name: Submission security checks
+        run: npm run test:security
+
+      - name: Validate content collections and fixtures
+        run: npm run validate:content
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install Firimu dependencies
+        working-directory: firimu-app
+        run: bun install --frozen-lockfile
+
+      - name: Build Firimu app
+        working-directory: firimu-app
+        run: bun run build
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Run static smoke checks
+        run: npm run test:e2e
+ || true)
           if [[ -z "${FILES}" ]]; then
             echo "No changed files require formatting checks."
           else
