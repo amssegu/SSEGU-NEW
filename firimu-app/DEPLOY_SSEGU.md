@@ -31,3 +31,8 @@ main site's root `public/robots.txt` or `public/sitemap.xml`.
 Cloudflare Pages serves `/firimu/` from the static files in `dist/firimu/`.
 The `/firimu/*` SPA fallback is scoped to Firimu in `public/_redirects`.
 The rest of the SSEGU site remains the existing Astro application.
+
+## Deployment verification
+
+The Firimu release is published as part of the existing SSEGU Pages build;
+the app output and SPA fallback remain scoped to `/firimu/`.
