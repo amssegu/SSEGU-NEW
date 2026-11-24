@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /firimu/
+
+  # Do not rewrite existing files, directories, API proxy routes, or SEO files
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # SPA fallback within /firimu/ only (does not affect main ssegu.com site)
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Ensure Service Worker and Web App Manifest always revalidate
+  <FilesMatch "^(sw\.js|registerSW\.js|manifest\.webmanifest)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </FilesMatch>
+
+  # Proper MIME type for Web App Manifest
+  <FilesMatch "\.webmanifest$">
+    ForceType application/manifest+json
+  </FilesMatch>
+</IfModule>
