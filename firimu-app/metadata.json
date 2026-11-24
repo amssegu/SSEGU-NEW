@@ -1,0 +1,6 @@
+{
+  "name": "Ssegu Movies (Firimu)",
+  "description": "Watch Luganda translated movies and series by top VJs with the FIRIMU video player, instant catalogue search, and installable PWA support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

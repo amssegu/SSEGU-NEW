@@ -1,0 +1,133 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    font-family: var(--font-sans);
+    background-color: #0a0a0d;
+    color: #f4f4f7;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* FIRIMU Video Player Styles (Ad-Free Direct Unlock) */
+.firimu-video-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 260px;
+  max-height: 76vh;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65);
+}
+
+.firimu-video-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.firimu-video-inner video,
+.firimu-video-inner iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: contain;
+  background: #000000;
+}
+
+.firimu-video-box:not(.player-unlocked) video {
+  pointer-events: none;
+}
+
+.firimu-video-box.player-unlocked video {
+  pointer-events: auto;
+}
+
+/* Signature FIRIMU Red Play Button */
+.ready-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background: #e50914;
+  border: none;
+  cursor: pointer;
+  z-index: 20;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 10px 36px rgba(229, 9, 20, 0.55);
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.ready-play-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-38%, -50%);
+  border-style: solid;
+  border-width: 17px 0 17px 27px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.ready-play-btn:hover {
+  transform: translate(-50%, -50%) scale(1.08);
+  background: #ff121f;
+  box-shadow: 0 14px 42px rgba(229, 9, 20, 0.72);
+}
+
+.ready-play-btn:active {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+.ready-play-btn:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}
+
+/* Hide scrollbar for horizontal ticker strip while preserving scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 640px) {
+  .ready-play-btn {
+    width: 72px;
+    height: 72px;
+  }
+  .ready-play-btn::before {
+    border-width: 14px 0 14px 22px;
+  }
+}

@@ -226,3 +226,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated nested Firimu Vite output (copied into Cloudflare Pages build)
+/public/firimu/

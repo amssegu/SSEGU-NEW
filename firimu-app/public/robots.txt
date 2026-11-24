@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /firimu/
+Disallow: /firimu/api/
+
+Sitemap: https://ssegu.com/firimu/sitemap.xml

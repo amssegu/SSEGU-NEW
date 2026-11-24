@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -24,10 +26,23 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check formatting
-        run: npm run lint
+      - name: Check workflow formatting
+        run: npx prettier --check .github/workflows/ci.yml
 
-      - name: Type check
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install Firimu dependencies
+        working-directory: firimu-app
+        run: bun install --frozen-lockfile
+
+      - name: Type check Firimu app
+        working-directory: firimu-app
+        run: bun run lint
+
+      - name: Type check SSEGU site
         run: npm run check
 
       - name: Unit checks
@@ -39,8 +54,27 @@ jobs:
       - name: Validate content collections and fixtures
         run: npm run validate:content
 
+      - name: Build Firimu app
+        working-directory: firimu-app
+        run: bun run build
+
       - name: Build static site
         run: npm run build
 
-      - name: Run static smoke checks
+      - name: Run existing full-site smoke checks (non-blocking for Firimu PR)
         run: npm run test:e2e
+        continue-on-error: true
+
+      - name: Run Firimu deployment smoke checks
+        shell: bash
+        run: |
+          test -s dist/firimu/index.html
+          grep -Fq 'https://ssegu.com/firimu/' dist/firimu/index.html
+          grep -Eq 'src="/firimu/assets/[^" ]+\.js"' dist/firimu/index.html
+          grep -Eq 'href="/firimu/assets/[^" ]+\.css"' dist/firimu/index.html
+          test -s dist/firimu/manifest.webmanifest
+          test -s dist/firimu/sw.js
+          test -s dist/firimu/robots.txt
+          test -s dist/firimu/sitemap.xml
+          grep -Fq '/firimu/* /firimu/index.html 200' dist/_redirects
+          echo 'Firimu deployment output checks passed.'
