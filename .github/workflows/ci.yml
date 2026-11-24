@@ -54,6 +54,10 @@ jobs:
       - name: Validate content collections and fixtures
         run: npm run validate:content
 
+      - name: Type check Firimu app
+        working-directory: firimu-app
+        run: bun run lint
+
       - name: Build Firimu app
         working-directory: firimu-app
         run: bun run build
