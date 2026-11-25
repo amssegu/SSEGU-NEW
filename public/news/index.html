@@ -606,7 +606,7 @@
           ins.getAttribute("data-ssegu-ad-requested") === "true") return;
 
       var box = ins.closest(".ad-box");
-      if (!box || box.getClientRects().length === 0 || box.getBoundingClientRect().width <  wast) return;
+      if (!box || box.getClientRects().length === 0 || box.getBoundingClientRect().width < 80) return;
 
       ins.setAttribute("data-ssegu-ad-requested", "true");
       try {
