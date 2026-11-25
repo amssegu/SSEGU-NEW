@@ -99,13 +99,9 @@ img{max-width:100%;display:block}
 .gyn-ad-card-body{flex:1;padding:8px 12px 14px;display:flex;align-items:center;justify-content:center;min-height:180px}
 .gyn-ad-card-body ins.adsbygoogle{display:block!important;width:100%!important;min-height:160px}
 
-.gyn-sticky-ad{display:none;position:fixed;left:0;right:0;bottom:0;z-index:998;background:rgba(7,7,9,.95);backdrop-filter:blur(12px);border-top:1px solid var(--border);padding:6px 8px max(6px,var(--safe-bottom));text-align:center}
-.gyn-sticky-ad .gyn-ad-label{margin-bottom:4px;font-size:9px}
-.gyn-sticky-ad .gyn-ad-box{min-height:50px;border-radius:10px;padding:4px;background:transparent;border:none}
 @media(max-width:899px){
-  .gyn-sticky-ad{display:block}
-  body{padding-bottom:calc(150px + var(--safe-bottom))}
-  .gyn-app-bar{bottom:calc(60px + var(--safe-bottom))}
+  body{padding-bottom:calc(80px + var(--safe-bottom))}
+  .gyn-app-bar{bottom:0}
 }
 
 .gyn-filters{max-width:1440px;margin:0 auto;padding:28px 16px 0;display:flex;align-items:center;gap:8px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
@@ -313,13 +309,6 @@ img{max-width:100%;display:block}
   <button class="gyn-bar-item" data-filter="Arcade/Puzzle" type="button"><span class="gyn-bar-ico">◎</span><span class="gyn-bar-label">Arcade</span></button>
   <button class="gyn-bar-item" data-filter="Music/Piano" type="button"><span class="gyn-bar-ico">♪</span><span class="gyn-bar-label">Piano</span></button>
 </nav>
-
-<div class="gyn-sticky-ad" id="stickyAd">
-  <div class="gyn-ad-label">Ad</div>
-  <div class="gyn-ad-box">
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7777536386845474" data-ad-slot="9970802556" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
-  </div>
-</div>
 
 <div class="gyn-ad-interstitial" id="adInterstitial">
   <div class="gyn-ad-inter-card">
