@@ -1,60 +1,464 @@
-<section class="cv-tool-page" aria-labelledby="cover-letter-title">
-  <p>Enter a few details to create a first draft. The draft stays editable: replace prompts, check every claim and make it sound like you before sending.</p>
-  <div class="cv-letter-fields">
-    <label>Role title<input data-letter-role placeholder="e.g. Accounts Assistant" /></label>
-    <label>Employer<input data-letter-employer placeholder="e.g. Example Company" /></label>
-    <label>Why this role interests you<textarea data-letter-interest rows="2" placeholder="A specific reason you want this role or want to work with this employer."></textarea></label>
-    <label>Relevant experience or achievement<textarea data-letter-evidence rows="3" placeholder="Describe a real example that shows how you meet an important requirement."></textarea></label>
-    <label>Your name<input data-letter-name placeholder="Your full name" /></label>
+<section class="cv-tool-page" aria-labelledby="cover-letter-title" data-cover-letter-tool>
+  <p class="cv-letter-intro">
+    Add the details that make your application specific. The draft updates as you type; changing a
+    field rebuilds it, and you can make final edits directly in the draft.
+  </p>
+
+  <div class="cv-letter-fields" data-letter-fields>
+    <fieldset>
+      <legend>Your contact details</legend>
+      <label>
+        Full name
+        <input data-letter-field="name" autocomplete="name" placeholder="e.g. Enoch Namara" />
+      </label>
+      <label>
+        Email address
+        <input
+          data-letter-field="email"
+          type="email"
+          autocomplete="email"
+          placeholder="you@example.com"
+        />
+      </label>
+      <label>
+        Phone number
+        <input
+          data-letter-field="phone"
+          type="tel"
+          autocomplete="tel"
+          placeholder="e.g. +256 700 000000"
+        />
+      </label>
+      <label>
+        Town or city and country
+        <input
+          data-letter-field="location"
+          autocomplete="address-level2"
+          placeholder="e.g. Kampala, Uganda"
+        />
+      </label>
+      <label class="cv-letter-wide">
+        LinkedIn or portfolio (optional)
+        <input data-letter-field="profile" type="url" placeholder="https://..." />
+      </label>
+      <label>
+        Date
+        <input data-letter-field="date" type="date" />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Who and what you’re applying for</legend>
+      <label>
+        Hiring contact name (optional)
+        <input
+          data-letter-field="contactName"
+          autocomplete="off"
+          placeholder="Use a name from the vacancy or company site"
+        />
+      </label>
+      <label>
+        Contact’s job title (optional)
+        <input data-letter-field="contactTitle" placeholder="e.g. Human Resources Manager" />
+      </label>
+      <label>
+        Employer or organisation
+        <input
+          data-letter-field="employer"
+          autocomplete="organization"
+          placeholder="e.g. Example Company"
+        />
+      </label>
+      <label>
+        Employer location (optional)
+        <input data-letter-field="employerLocation" placeholder="Town or office address" />
+      </label>
+      <label>
+        Position title
+        <input data-letter-field="role" placeholder="e.g. Accounts Assistant" />
+      </label>
+      <label>
+        Vacancy reference (optional)
+        <input data-letter-field="reference" placeholder="e.g. AA-024" />
+      </label>
+      <label class="cv-letter-wide">
+        Where you found the vacancy or who referred you (optional)
+        <input data-letter-field="source" placeholder="e.g. SSEGU Jobs or a referral from Sarah" />
+      </label>
+      <label class="cv-letter-wide">
+        Why this role and organisation interest you
+        <textarea
+          data-letter-field="interest"
+          rows="3"
+          placeholder="Mention a specific responsibility, service, project, value or reason this role fits your goals."
+        ></textarea>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Show evidence that you fit</legend>
+      <label class="cv-letter-wide">
+        A key skill or requirement from the vacancy
+        <input data-letter-field="skill" placeholder="e.g. accurate financial record keeping" />
+      </label>
+      <label class="cv-letter-wide">
+        Context: where and when did you use this skill?
+        <textarea
+          data-letter-field="context"
+          rows="2"
+          placeholder="e.g. my current role as an accounts assistant"
+        ></textarea>
+      </label>
+      <label class="cv-letter-wide">
+        Action: what did you personally do?
+        <textarea
+          data-letter-field="action"
+          rows="2"
+          placeholder="Describe your own contribution, tools or approach."
+        ></textarea>
+      </label>
+      <label class="cv-letter-wide">
+        Result: what changed or was achieved?
+        <textarea
+          data-letter-field="result"
+          rows="2"
+          placeholder="e.g. 20% fewer errors, a deadline met, or positive customer feedback"
+        ></textarea>
+      </label>
+      <label class="cv-letter-wide">
+        Another relevant qualification or strength (optional)
+        <textarea
+          data-letter-field="additionalEvidence"
+          rows="2"
+          placeholder="e.g. A bookkeeping certificate and experience using Xero."
+        ></textarea>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Finish your message</legend>
+      <label class="cv-letter-wide">
+        What would you bring to this team?
+        <textarea
+          data-letter-field="contribution"
+          rows="2"
+          placeholder="e.g. Accurate record keeping, dependable follow-through and clear communication."
+        ></textarea>
+      </label>
+      <label class="cv-letter-wide">
+        Interview availability or a useful next step (optional)
+        <input
+          data-letter-field="availability"
+          placeholder="e.g. I am available for interview at your convenience."
+        />
+      </label>
+    </fieldset>
   </div>
-  <label class="cv-letter-label">Editable cover letter draft<textarea class="cv-letter-output" data-letter-output rows="15"></textarea></label>
+
+  <label class="cv-letter-label" for="cover-letter-output">
+    Editable cover letter draft
+  </label>
+  <textarea
+    class="cv-letter-output"
+    id="cover-letter-output"
+    data-letter-output
+    rows="24"
+    spellcheck="true"
+  ></textarea>
   <div class="cv-letter-actions">
-    <button class="cv-tool-button" type="button" data-letter-copy>Copy draft</button>
+    <button class="cv-tool-button" type="button" data-letter-copy>
+      Copy draft
+    </button>
+    <button class="cv-tool-button cv-tool-button-primary" type="button" data-letter-pdf>
+      Download PDF
+    </button>
     <span class="cv-tool-status" data-letter-status role="status" aria-live="polite"></span>
   </div>
+  <p class="cv-letter-reminder">
+    Before sending, check every name and detail, keep all claims accurate, remove any unused
+    prompts, and attach the documents requested in the vacancy.
+  </p>
 </section>
 
 <script>
-  const letterRole = document.querySelector<HTMLInputElement>('[data-letter-role]');
-  const letterEmployer = document.querySelector<HTMLInputElement>('[data-letter-employer]');
-  const letterInterest = document.querySelector<HTMLTextAreaElement>('[data-letter-interest]');
-  const letterEvidence = document.querySelector<HTMLTextAreaElement>('[data-letter-evidence]');
-  const letterName = document.querySelector<HTMLInputElement>('[data-letter-name]');
-  const letterOutput = document.querySelector<HTMLTextAreaElement>('[data-letter-output]');
-  const updateLetter = () => {
-    if (!letterOutput) return;
-    const role = letterRole?.value.trim() || '[role title]';
-    const employer = letterEmployer?.value.trim() || '[employer]';
-    const interest = letterInterest?.value.trim() || '[explain briefly why this role or organisation interests you]';
-    const evidence = letterEvidence?.value.trim() || '[give a specific example that shows how your experience meets a requirement]';
-    const name = letterName?.value.trim() || '[Your name]';
-    const previous = letterOutput.value;
-    const generated = `Dear Hiring Manager,\n\nI am applying for the ${role} position at ${employer}. ${interest}\n\nMy experience has prepared me to contribute to this role. For example, ${evidence}\n\nI would welcome the opportunity to discuss how my experience and skills could support your team. Thank you for considering my application.\n\nYours sincerely,\n${name}`;
-    if (!previous || previous === letterOutput.dataset.generated) letterOutput.value = generated;
-    letterOutput.dataset.generated = generated;
+  const root = document.querySelector<HTMLElement>('[data-cover-letter-tool]');
+  const output = root?.querySelector<HTMLTextAreaElement>('[data-letter-output]');
+  const status = root?.querySelector<HTMLElement>('[data-letter-status]');
+  const formFields = Array.from(
+    root?.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[data-letter-field]') ?? [],
+  );
+  const fields = new Map(formFields.map((field) => [field.dataset.letterField ?? '', field]));
+  const value = (name: string) => fields.get(name)?.value.trim() ?? '';
+  const sentence = (text: string) => text.trim().replace(/[.!?]+$/, '');
+
+  const localDate = (date: Date) => {
+    const offsetDate = new Date(date.getTime() - date.getTimezoneOffset() * 60_000);
+    return offsetDate.toISOString().slice(0, 10);
   };
-  [letterRole, letterEmployer, letterInterest, letterEvidence, letterName].forEach((field) => field?.addEventListener('input', updateLetter));
+
+  const dateField = fields.get('date');
+  if (dateField instanceof HTMLInputElement && !dateField.value) {
+    dateField.value = localDate(new Date());
+  }
+
+  const formatDate = (date: string) => {
+    if (!date) return '[Date]';
+    return new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(
+      new Date(`${date}T12:00:00`),
+    );
+  };
+
+  const generateLetter = () => {
+    const name = value('name') || '[Your full name]';
+    const role = value('role') || '[position title]';
+    const employer = value('employer') || '[organisation name]';
+    const contactDetails = [value('location'), value('email'), value('phone'), value('profile')]
+      .filter(Boolean)
+      .join(' | ');
+    const header = [name, contactDetails || '[Town/city] | [Email] | [Phone]'];
+    const recipient = [
+      value('contactName'),
+      value('contactTitle'),
+      value('employer'),
+      value('employerLocation'),
+    ].filter(Boolean);
+    const reference = value('reference');
+    const source = value('source');
+    const interest = value('interest');
+    const skill = value('skill') || '[key skill or requirement from the vacancy]';
+    const context = value('context') || '[a relevant work, study or volunteer experience]';
+    const action = value('action') || '[what you personally did]';
+    const result = value('result') || '[the outcome or result]';
+    const additionalEvidence = value('additionalEvidence');
+    const contribution = value('contribution');
+    const availability = value('availability');
+    const contributionSentence = contribution
+      ? ` I would bring ${sentence(contribution)} to the team.`
+      : '';
+    const availabilitySentence = availability ? ` ${sentence(availability)}.` : '';
+
+    const paragraphs = [
+      header.join('\n'),
+      formatDate(value('date')),
+      ...(recipient.length ? [recipient.join('\n')] : []),
+      `Re: Application for ${role}${reference ? ` — Reference ${reference}` : ''}`,
+      `Dear ${value('contactName') || 'Hiring Manager'},`,
+      `I am writing to apply for the ${role} position at ${employer}.${source ? ` I learned about this opportunity through ${sentence(source)}.` : ''} I am particularly interested in this role because ${sentence(interest || '[a specific reason this role and organisation interest you]')}.`,
+      `The position calls for ${sentence(skill)}. In ${sentence(context)}, I ${sentence(action)}, which resulted in ${sentence(result)}.`,
+      ...(additionalEvidence ? [`I also offer ${sentence(additionalEvidence)}.`] : []),
+      `I would welcome the opportunity to discuss how my experience could support ${value('employer') ? `${value('employer')}’s team` : 'your team'}.${contributionSentence}${availabilitySentence} Thank you for considering my application.`,
+      `${value('contactName') ? 'Yours sincerely' : 'Yours faithfully'},\n${name}`,
+    ];
+
+    return paragraphs.join('\n\n');
+  };
+
+  const updateLetter = () => {
+    if (!output) return;
+    output.value = generateLetter();
+  };
+
+  formFields.forEach((field) => {
+    field.addEventListener('input', updateLetter);
+    field.addEventListener('change', updateLetter);
+  });
   updateLetter();
-  document.querySelector('[data-letter-copy]')?.addEventListener('click', async () => {
-    const status = document.querySelector<HTMLElement>('[data-letter-status]');
+
+  root?.querySelector('[data-letter-copy]')?.addEventListener('click', async () => {
+    if (!output) return;
     try {
-      await navigator.clipboard.writeText(letterOutput?.value ?? '');
-      if (status) status.textContent = 'Draft copied. Review and personalise it before sending.';
+      await navigator.clipboard.writeText(output.value);
+      if (status) status.textContent = 'Draft copied. Review it before sending.';
     } catch {
-      if (status) status.textContent = 'Copy is unavailable here. Select the draft text and copy it.';
+      if (status)
+        status.textContent = 'Copy is unavailable here. Select the draft text and copy it.';
+    }
+  });
+
+  root?.querySelector('[data-letter-pdf]')?.addEventListener('click', async () => {
+    if (!output) return;
+    if (status) status.textContent = 'Preparing your PDF…';
+    try {
+      const { jsPDF } = await import('jspdf');
+      const pdf = new jsPDF({ unit: 'pt', format: 'a4', compress: true });
+      const pageWidth = pdf.internal.pageSize.getWidth();
+      const pageHeight = pdf.internal.pageSize.getHeight();
+      const margin = 54;
+      const contentWidth = pageWidth - margin * 2;
+      let y = margin;
+      const lineHeight = 15;
+      const bottom = pageHeight - margin;
+      const safeText = (text: string) =>
+        text
+          .replace(/[‘’]/g, "'")
+          .replace(/[“”]/g, '"')
+          .replace(/[–—]/g, '-')
+          .replace(/…/g, '...')
+          .replace(/\u00a0/g, ' ')
+          .replace(/[^\x20-\xFF]/g, '?');
+      const paragraphs = output.value.trim().split(/\n\s*\n/);
+
+      paragraphs.forEach((paragraph, paragraphIndex) => {
+        const lines = paragraph.split('\n');
+        lines.forEach((line, lineIndex) => {
+          const isName = paragraphIndex === 0 && lineIndex === 0;
+          const isSubject = line.startsWith('Re: ');
+          const isContact = paragraphIndex === 0 && lineIndex > 0;
+          pdf.setFont('helvetica', isName || isSubject ? 'bold' : 'normal');
+          pdf.setFontSize(isName ? 15 : isContact ? 9.5 : 10.5);
+          pdf.setTextColor(isContact ? 83 : 24, isContact ? 101 : 36, isContact ? 123 : 51);
+          const wrappedLines = pdf.splitTextToSize(safeText(line), contentWidth) as string[];
+          wrappedLines.forEach((wrappedLine) => {
+            if (y + lineHeight > bottom) {
+              pdf.addPage();
+              y = margin;
+            }
+            pdf.text(wrappedLine, margin, y);
+            y += lineHeight;
+          });
+        });
+        y += 7;
+      });
+
+      const filename =
+        [value('role'), value('employer')]
+          .filter(Boolean)
+          .join('-')
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-|-$/g, '') || 'cover-letter';
+      pdf.save(`${filename}-cover-letter.pdf`);
+      if (status) status.textContent = 'Your cover letter PDF has downloaded.';
+    } catch {
+      if (status)
+        status.textContent = 'Could not create a PDF. Copy the draft and use Print to PDF.';
     }
   });
 </script>
 
 <style>
-  .cv-tool-page { max-width: 900px; padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--work-line); border-radius: var(--work-radius); background: #fff; box-shadow: 0 4px 18px rgb(22 59 124 / 7%); }
-  .cv-letter-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.25rem 0; }
-  .cv-letter-fields label, .cv-letter-label { display: grid; gap: .35rem; color: #26394f; font-size: .9rem; font-weight: 700; }
-  .cv-letter-fields label:nth-child(n + 3) { grid-column: 1 / -1; }
-  .cv-letter-fields input, .cv-letter-fields textarea, .cv-letter-output { width: 100%; padding: .7rem; border: 1px solid #b8c6d9; border-radius: 5px; color: #14243a; font: inherit; font-weight: 400; }
-  .cv-letter-output { margin-top: .4rem; background: #f8fbff; line-height: 1.55; }
-  .cv-letter-actions { display: flex; align-items: center; gap: 1rem; margin-top: .8rem; }
-  .cv-tool-button { padding: .6rem .9rem; border: 1px solid var(--work-blue); border-radius: 5px; background: white; color: var(--work-blue); font: inherit; font-weight: 700; cursor: pointer; }
-  .cv-tool-status { color: var(--work-blue); font-size: .88rem; }
-  @media (max-width: 640px) { .cv-letter-fields { grid-template-columns: 1fr; } .cv-letter-fields label:nth-child(n + 3) { grid-column: auto; } }
+  .cv-tool-page {
+    max-width: none;
+    padding: clamp(1rem, 3vw, 2rem);
+    border: 1px solid var(--work-line);
+    border-radius: var(--work-radius);
+    background: #fff;
+    box-shadow: 0 4px 18px rgb(22 59 124 / 7%);
+  }
+  .cv-letter-intro {
+    margin: 0;
+    color: var(--work-muted);
+    line-height: 1.55;
+  }
+  .cv-letter-fields {
+    display: grid;
+    gap: 1rem;
+    margin: 1.25rem 0 1.5rem;
+  }
+  .cv-letter-fields fieldset {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem 1rem;
+    min-width: 0;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid var(--work-line);
+    border-radius: 7px;
+  }
+  .cv-letter-fields legend {
+    padding: 0 0.35rem;
+    color: var(--work-navy-deep);
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .cv-letter-fields label,
+  .cv-letter-label {
+    display: grid;
+    align-content: start;
+    gap: 0.35rem;
+    min-width: 0;
+    color: #26394f;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .cv-letter-wide {
+    grid-column: 1 / -1;
+  }
+  .cv-letter-fields input,
+  .cv-letter-fields textarea,
+  .cv-letter-output {
+    width: 100%;
+    min-width: 0;
+    padding: 0.7rem;
+    border: 1px solid #b8c6d9;
+    border-radius: 5px;
+    color: #14243a;
+    font: inherit;
+    font-weight: 400;
+  }
+  .cv-letter-fields input:focus,
+  .cv-letter-fields textarea:focus,
+  .cv-letter-output:focus {
+    outline: 2px solid var(--work-blue);
+    outline-offset: 1px;
+  }
+  .cv-letter-fields textarea {
+    resize: vertical;
+    line-height: 1.5;
+  }
+  .cv-letter-output {
+    min-height: 500px;
+    margin-top: 0.4rem;
+    background: #f8fbff;
+    line-height: 1.55;
+    white-space: pre-wrap;
+  }
+  .cv-letter-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 0.8rem;
+  }
+  .cv-tool-button {
+    min-height: 44px;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid var(--work-blue);
+    border-radius: 5px;
+    background: white;
+    color: var(--work-blue);
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .cv-tool-button-primary {
+    background: var(--work-blue);
+    color: #fff;
+  }
+  .cv-tool-button:hover,
+  .cv-tool-button:focus-visible {
+    filter: brightness(0.94);
+  }
+  .cv-tool-status {
+    color: var(--work-blue);
+    font-size: 0.88rem;
+  }
+  .cv-letter-reminder {
+    margin: 1rem 0 0;
+    color: var(--work-muted);
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+  @media (max-width: 640px) {
+    .cv-letter-fields fieldset {
+      grid-template-columns: minmax(0, 1fr);
+      padding: 0.85rem;
+    }
+    .cv-letter-wide {
+      grid-column: auto;
+    }
+    .cv-letter-output {
+      min-height: 420px;
+    }
+  }
 </style>

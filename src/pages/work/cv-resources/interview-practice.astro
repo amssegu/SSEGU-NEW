@@ -1,6 +1,7 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import InterviewPracticeTool from '../../../components/work/InterviewPracticeTool.astro';
+import AdSlot from '../../../components/main/AdSlot.astro';
 ---
 
 <WorkLayout
@@ -17,7 +18,9 @@ import InterviewPracticeTool from '../../../components/work/InterviewPracticeToo
       <h1 id="interview-practice-title">Interview practice</h1>
       <p>Build clear answers from your own experience, then practise saying them naturally.</p>
     </div>
+    <AdSlot placement="section" format="horizontal" minHeight={90} />
     <InterviewPracticeTool />
+    <AdSlot placement="section" format="horizontal" minHeight={90} />
     <p class="cv-tool-back"><a href="/work/cv-resources/">← Back to CV resources</a></p>
   </main>
 </WorkLayout>

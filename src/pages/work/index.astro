@@ -2,6 +2,7 @@
 import WorkLayout from '../../layouts/WorkLayout.astro';
 import WorkJobCard from '../../components/work/WorkJobCard.astro';
 import WorkQuickLinks from '../../components/work/WorkQuickLinks.astro';
+import WorkArticleSidebar from '../../components/work/WorkArticleSidebar.astro';
 import AdSlot from '../../components/main/AdSlot.astro';
 import {
   formatWorkDate,
@@ -15,7 +16,8 @@ const latestJobs = allJobs.filter((job) => job.status === 'active').slice(0, 3);
 const jobFilters = getJobFilterOptions(allJobs);
 const workArticles = await getPublishedWorkArticles();
 const featuredArticle = workArticles[0];
-const latestWorkArticles = workArticles.slice(0, 6);
+const latestWorkArticles = workArticles.slice(0, 9);
+const recommendedWorkArticles = workArticles.slice(9, 11);
 ---
 
 <WorkLayout
@@ -131,33 +133,39 @@ const latestWorkArticles = workArticles.slice(0, 6);
 
   <AdSlot placement="section" format="horizontal" />
 
-  <section class="work-articles-section">
+  <section class="work-articles-section" aria-labelledby="latest-career-advice-title">
     <div class="work-articles-heading">
+      <h2 id="latest-career-advice-title">Latest Career Advice</h2>
       <a class="work-text-link" href="/work/career-advice/">
         View all advice <span aria-hidden="true">→</span>
       </a>
     </div>
-    <div class="work-home-article-grid">
-      {latestWorkArticles.map((article) => (
-        <article class="work-home-article-card">
-          <a href={`/work/career-advice/${article.slug}/`}>
-            <div class="work-home-article-image">
-              <img src={article.image} alt="" width="1200" height="675" loading="lazy" />
-              <span>{article.category}</span>
-            </div>
-            <div class="work-home-article-content">
-              <h3>{article.title}</h3>
-              <p>{article.description}</p>
-              <div class="work-home-article-meta">
-                <small>{formatWorkDate(article.publishedAt)}</small>
-                <strong>
-                  Read article <span aria-hidden="true">↗</span>
-                </strong>
+    <div class="work-articles-layout">
+      <div class="work-home-article-grid">
+        {latestWorkArticles.map((article) => (
+          <article class="work-home-article-card">
+            <a href={`/work/career-advice/${article.slug}/`}>
+              <div class="work-home-article-image">
+                <img src={article.image} alt="" width="1200" height="675" loading="lazy" />
+                <span>{article.category}</span>
               </div>
-            </div>
-          </a>
-        </article>
-      ))}
+              <div class="work-home-article-content">
+                <h3>{article.title}</h3>
+                <p>{article.description}</p>
+                <div class="work-home-article-meta">
+                  <small>{formatWorkDate(article.publishedAt)}</small>
+                  <strong>
+                    Read article <span aria-hidden="true">↗</span>
+                  </strong>
+                </div>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+      <aside class="work-home-articles-aside" aria-label="Career tools and recommendations">
+        <WorkArticleSidebar articles={recommendedWorkArticles} />
+      </aside>
     </div>
   </section>
 

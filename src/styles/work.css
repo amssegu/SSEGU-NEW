@@ -793,8 +793,17 @@
 
 .work-articles-heading {
   display: flex;
-  justify-content: end;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   margin-bottom: 1.15rem;
+}
+
+.work-articles-heading h2 {
+  margin: 0;
+  color: var(--work-navy-deep);
+  font-family: var(--font-article-heading);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
 }
 
 .work-articles-heading .work-text-link {
@@ -802,9 +811,76 @@
   margin: 0 0 0.15rem;
 }
 
+.work-articles-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+  align-items: start;
+  gap: 1.25rem;
+}
+
+.work-home-articles-aside {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.work-home-articles-aside > .ad-sidebar {
+  width: 100%;
+  margin: 0;
+  padding: 0.25rem 0;
+}
+
+.work-home-resource-panel {
+  padding: 1.1rem;
+  border: 1px solid var(--work-line);
+  border-radius: var(--work-radius);
+  background: var(--work-surface);
+}
+
+.work-home-resource-panel .work-eyebrow {
+  margin: 0 0 0.25rem;
+}
+
+.work-home-resource-panel h3 {
+  margin: 0 0 0.75rem;
+  color: var(--work-navy-deep);
+  font-family: var(--font-article-heading);
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.work-home-resource-panel nav {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.work-home-resource-panel nav a {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.65rem 0.7rem;
+  border: 1px solid var(--work-line);
+  border-radius: 5px;
+  color: var(--work-navy);
+  background: #fff;
+  font-size: 0.85rem;
+  font-weight: 750;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.work-home-resource-panel nav a:hover,
+.work-home-resource-panel nav a:focus-visible {
+  color: var(--work-blue);
+  border-color: var(--work-blue);
+}
+
 .work-home-article-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -1536,7 +1612,10 @@
   border: 1px solid var(--work-line);
   border-radius: var(--work-radius);
   box-shadow: 0 3px 12px rgb(22 59 124 / 4%);
-  transition: border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+  transition:
+    border-color 140ms ease,
+    box-shadow 140ms ease,
+    transform 140ms ease;
 }
 
 .work-job-results .work-job-icon,
@@ -1625,7 +1704,10 @@
   padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 3px 14px rgb(22 59 124 / 6%);
-  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
 }
 
 .work-course-card:hover {
@@ -2475,6 +2557,14 @@
   .work-filter-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .work-articles-layout {
+    grid-template-columns: minmax(0, 1fr) 270px;
+  }
+
+  .work-home-article-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 900px) {
@@ -2671,6 +2761,14 @@
     position: static;
     max-height: none;
     overflow: visible;
+  }
+
+  .work-articles-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .cv-letter-sidebar > .ad-sidebar {
+    display: none;
   }
 
   .work-detail-information {

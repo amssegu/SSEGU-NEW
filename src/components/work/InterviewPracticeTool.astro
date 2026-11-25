@@ -1,38 +1,526 @@
-<section class="cv-tool-page" aria-labelledby="interview-practice-title">
-  <p>Choose a question and prepare notes from your own experience. Practise your answer aloud; these notes stay in your browser and are not saved or sent.</p>
+<section
+  class="cv-tool-page cv-interview-tool"
+  aria-labelledby="interview-practice-title"
+  data-interview-tool
+>
+  <p class="cv-interview-intro">
+    Choose a question, make a few notes from your own experience, then practise answering aloud.
+    Your notes stay in this page and are not saved or sent.
+  </p>
+
   <div class="cv-interview-layout">
     <div class="cv-interview-prompt">
-      <label for="practice-question">Practice question</label>
-      <select id="practice-question" data-interview-question>
-        <option>Tell me about yourself and the experience you would bring to this role.</option>
-        <option>Describe a time you solved a problem at work or during your studies.</option>
-        <option>Tell me about a time you worked with a team to reach a goal.</option>
-        <option>What is one achievement you are proud of, and how did you make it happen?</option>
-        <option>How would you handle a difficult customer or colleague?</option>
-        <option>What would you like to learn or achieve in this role?</option>
-        <option>Tell me about a time something did not go to plan. What did you do?</option>
-      </select>
-      <p class="cv-tool-hint"><strong>Structure your example:</strong> explain the situation, the action you personally took, and the result or lesson. Keep it specific and honest.</p>
+      <label>
+        Question category
+        <select data-interview-category>
+          <option value="general">General</option>
+          <option value="experience">Experience</option>
+          <option value="problem-solving">Problem-solving</option>
+          <option value="closing">Closing</option>
+        </select>
+      </label>
+      <label>
+        Practice question
+        <select data-interview-question>
+          <option>Tell me about yourself and the experience you would bring to this role.</option>
+        </select>
+      </label>
+      <div class="cv-tool-hint" data-interview-guidance>
+        Keep your answer focused on experience and strengths that matter for this role.
+      </div>
+
+      <section class="cv-interview-timer" aria-labelledby="interview-timer-title">
+        <h3 id="interview-timer-title">Practise aloud</h3>
+        <label>
+          Practice time
+          <select data-interview-duration>
+            <option value="60">60 seconds</option>
+            <option value="90">90 seconds</option>
+          </select>
+        </label>
+        <div class="cv-interview-timer-controls">
+          <span
+            class="cv-interview-timer-display"
+            role="timer"
+            aria-label="Time remaining"
+            data-interview-timer
+          >
+            1:00
+          </span>
+          <button class="cv-tool-button cv-tool-button-primary" type="button" data-interview-toggle>
+            Start practice
+          </button>
+          <button class="cv-tool-button" type="button" data-interview-reset>
+            Reset timer
+          </button>
+        </div>
+      </section>
     </div>
-    <label class="cv-interview-notes">Your answer notes<textarea rows="12" data-interview-notes placeholder="Situation: what was happening?&#10;&#10;Action: what did you do?&#10;&#10;Result: what changed or what did you learn?"></textarea></label>
+
+    <div class="cv-interview-workspace">
+      <fieldset class="cv-interview-notes">
+        <legend>Your answer notes</legend>
+        <div class="cv-interview-notes-grid">
+          <label>
+            Situation
+            <textarea
+              data-interview-note="situation"
+              rows="3"
+              placeholder="What was happening? Give just enough context."
+            ></textarea>
+          </label>
+          <label>
+            Action
+            <textarea
+              data-interview-note="action"
+              rows="3"
+              placeholder="What did you personally do? Be specific."
+            ></textarea>
+          </label>
+          <label>
+            Result
+            <textarea
+              data-interview-note="result"
+              rows="3"
+              placeholder="What changed or was achieved? Use a real result."
+            ></textarea>
+          </label>
+          <label>
+            What I learned <span>(optional)</span>
+            <textarea
+              data-interview-note="learning"
+              rows="3"
+              placeholder="What would you repeat or do differently next time?"
+            ></textarea>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="cv-interview-review">
+        <legend>Quick self-review</legend>
+        <label>
+          <input type="checkbox" data-interview-review /> I answered the question directly.
+        </label>
+        <label>
+          <input type="checkbox" data-interview-review /> I used a specific, truthful example.
+        </label>
+        <label>
+          <input type="checkbox" data-interview-review /> I explained my own actions and the result.
+        </label>
+        <label>
+          <input type="checkbox" data-interview-review /> My answer was clear and concise.
+        </label>
+      </fieldset>
+    </div>
   </div>
-  <button class="cv-tool-button" type="button" data-interview-clear>Clear notes</button>
+
+  <div class="cv-interview-actions">
+    <button class="cv-tool-button cv-tool-button-primary" type="button" data-interview-copy>
+      Copy practice notes
+    </button>
+    <button class="cv-tool-button" type="button" data-interview-clear>
+      Clear notes
+    </button>
+    <span class="cv-tool-status" data-interview-status role="status" aria-live="polite"></span>
+  </div>
 </section>
 
 <script>
-  document.querySelector('[data-interview-clear]')?.addEventListener('click', () => {
-    const notes = document.querySelector<HTMLTextAreaElement>('[data-interview-notes]');
-    if (notes) notes.value = '';
+  const root = document.querySelector<HTMLElement>('[data-interview-tool]');
+  const category = root?.querySelector<HTMLSelectElement>('[data-interview-category]');
+  const question = root?.querySelector<HTMLSelectElement>('[data-interview-question]');
+  const guidance = root?.querySelector<HTMLElement>('[data-interview-guidance]');
+  const duration = root?.querySelector<HTMLSelectElement>('[data-interview-duration]');
+  const timerDisplay = root?.querySelector<HTMLElement>('[data-interview-timer]');
+  const timerToggle = root?.querySelector<HTMLButtonElement>('[data-interview-toggle]');
+  const timerReset = root?.querySelector<HTMLButtonElement>('[data-interview-reset]');
+  const status = root?.querySelector<HTMLElement>('[data-interview-status]');
+  const noteFields = Array.from(
+    root?.querySelectorAll<HTMLTextAreaElement>('[data-interview-note]') ?? [],
+  );
+  const questions = {
+    general: [
+      {
+        prompt: 'Tell me about yourself and the experience you would bring to this role.',
+        guidance: 'Give a brief introduction, then connect one or two strengths to this role.',
+      },
+      {
+        prompt: 'Why are you interested in this role and this organisation?',
+        guidance: 'Mention a specific part of the work or organisation, and why it matters to you.',
+      },
+      {
+        prompt: 'What is one strength you would bring to this role?',
+        guidance: 'Name a role-relevant strength and support it with a short real example.',
+      },
+      {
+        prompt: 'What is a skill you are working to improve, and how are you developing it?',
+        guidance: 'Choose a genuine development area and describe practical steps you are taking.',
+      },
+    ],
+    experience: [
+      {
+        prompt: 'Tell me about an achievement you are proud of. What did you do?',
+        guidance: 'Focus on your contribution and the result, not only what the group achieved.',
+      },
+      {
+        prompt: 'Describe a time you worked with others to reach a goal.',
+        guidance: 'Show how you communicated, contributed and helped the team make progress.',
+      },
+      {
+        prompt: 'Tell me about a time you received feedback and acted on it.',
+        guidance: 'Explain what you changed and how that affected your work afterward.',
+      },
+      {
+        prompt: 'Describe a time something did not go to plan. What did you learn?',
+        guidance:
+          'Be honest about the situation, take responsibility for your actions and share the lesson.',
+      },
+    ],
+    'problem-solving': [
+      {
+        prompt: 'Describe a problem you solved at work, during your studies or in your community.',
+        guidance:
+          'Explain how you understood the problem, chose an approach and checked the outcome.',
+      },
+      {
+        prompt: 'How do you handle competing priorities or a tight deadline?',
+        guidance:
+          'Give a real example and explain how you organised the work and communicated changes.',
+      },
+      {
+        prompt: 'How would you respond to a difficult customer or disagreement with a colleague?',
+        guidance:
+          'Describe how you would listen, stay respectful, clarify the issue and agree a next step.',
+      },
+      {
+        prompt: 'Tell me about a time you had to learn something quickly to complete a task.',
+        guidance:
+          'Say how you learned, where you checked your understanding and what the task achieved.',
+      },
+    ],
+    closing: [
+      {
+        prompt: 'What would you aim to contribute in your first few months in this role?',
+        guidance:
+          'Keep your answer practical: listen, learn the work and identify where your strengths fit.',
+      },
+      {
+        prompt: 'What would you like to learn or achieve in this role?',
+        guidance: 'Connect your goals to the responsibilities and opportunities in the vacancy.',
+      },
+      {
+        prompt: 'What questions would you ask the interviewer about the role or team?',
+        guidance:
+          'Prepare one or two useful questions about priorities, expectations or the team’s work.',
+      },
+    ],
+  };
+
+  const updateQuestionList = () => {
+    if (!category || !question) return;
+    const selectedQuestions = questions[category.value as keyof typeof questions];
+    question.replaceChildren(
+      ...selectedQuestions.map((item, index) => {
+        const option = document.createElement('option');
+        option.value = String(index);
+        option.textContent = item.prompt;
+        return option;
+      }),
+    );
+    updateGuidance();
+  };
+
+  const updateGuidance = () => {
+    if (!category || !question || !guidance) return;
+    const selectedQuestions = questions[category.value as keyof typeof questions];
+    guidance.textContent =
+      selectedQuestions[Number(question.value)]?.guidance ??
+      'Keep your answer focused, specific and truthful.';
+  };
+
+  category?.addEventListener('change', updateQuestionList);
+  question?.addEventListener('change', updateGuidance);
+  updateQuestionList();
+
+  let remainingSeconds = Number(duration?.value) || 60;
+  let timerInterval: number | undefined;
+  let isRunning = false;
+
+  const updateTimerDisplay = () => {
+    if (!timerDisplay || !duration || !timerToggle) return;
+    const minutes = Math.floor(remainingSeconds / 60);
+    const seconds = String(remainingSeconds % 60).padStart(2, '0');
+    timerDisplay.textContent = `${minutes}:${seconds}`;
+    timerToggle.textContent = isRunning
+      ? 'Pause practice'
+      : remainingSeconds === 0
+        ? 'Start again'
+        : remainingSeconds === Number(duration.value)
+          ? 'Start practice'
+          : 'Resume practice';
+    duration.disabled = isRunning;
+  };
+
+  const stopTimer = () => {
+    if (timerInterval !== undefined) window.clearInterval(timerInterval);
+    timerInterval = undefined;
+    isRunning = false;
+    updateTimerDisplay();
+  };
+
+  const resetTimer = () => {
+    stopTimer();
+    remainingSeconds = Number(duration?.value) || 60;
+    updateTimerDisplay();
+  };
+
+  duration?.addEventListener('change', resetTimer);
+  timerReset?.addEventListener('click', () => {
+    resetTimer();
+    if (status) status.textContent = 'Timer reset.';
+  });
+
+  timerToggle?.addEventListener('click', () => {
+    if (isRunning) {
+      stopTimer();
+      if (status) status.textContent = 'Timer paused. Resume when you are ready.';
+      return;
+    }
+
+    if (remainingSeconds === 0) remainingSeconds = Number(duration?.value) || 60;
+    isRunning = true;
+    updateTimerDisplay();
+    if (status) status.textContent = 'Practice started. Speak your answer aloud.';
+    timerInterval = window.setInterval(() => {
+      remainingSeconds = Math.max(0, remainingSeconds - 1);
+      if (remainingSeconds === 0) {
+        stopTimer();
+        if (status) status.textContent = 'Time is up. Review your answer or start again.';
+      } else {
+        updateTimerDisplay();
+      }
+    }, 1000);
+  });
+
+  const buildPracticeNotes = () => {
+    const selectedQuestions = questions[category?.value as keyof typeof questions];
+    const selectedQuestion = selectedQuestions?.[Number(question?.value)]?.prompt ?? '';
+    const sections = noteFields
+      .map((field) => ({
+        label: field.dataset.interviewNote,
+        value: field.value.trim(),
+      }))
+      .filter((item) => item.value)
+      .map(
+        (item) => `${item.label?.replace(/^./, (letter) => letter.toUpperCase())}:\n${item.value}`,
+      );
+    if (!sections.length) return '';
+    return [`Question: ${selectedQuestion}`, ...sections].join('\n\n');
+  };
+
+  root?.querySelector('[data-interview-copy]')?.addEventListener('click', async () => {
+    const notes = buildPracticeNotes();
+    if (!notes) {
+      if (status) status.textContent = 'Add a few answer notes before copying.';
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(notes);
+      if (status)
+        status.textContent = 'Practice notes copied. Use them to rehearse your answer aloud.';
+    } catch {
+      if (status) status.textContent = 'Copy is unavailable here. Select your notes and copy them.';
+    }
+  });
+
+  root?.querySelector('[data-interview-clear]')?.addEventListener('click', () => {
+    noteFields.forEach((field) => {
+      field.value = '';
+    });
+    root.querySelectorAll<HTMLInputElement>('[data-interview-review]').forEach((checkbox) => {
+      checkbox.checked = false;
+    });
+    resetTimer();
+    if (status) status.textContent = 'Notes and self-review cleared. Timer reset.';
   });
 </script>
 
 <style>
-  .cv-tool-page { max-width: 1000px; padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--work-line); border-radius: var(--work-radius); background: #fff; box-shadow: 0 4px 18px rgb(22 59 124 / 7%); }
-  .cv-interview-layout { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 1.25rem; margin: 1.25rem 0; }
-  .cv-interview-prompt label, .cv-interview-notes { display: grid; gap: .45rem; color: #26394f; font-size: .9rem; font-weight: 700; }
-  .cv-interview-prompt select, .cv-interview-notes textarea { width: 100%; padding: .7rem; border: 1px solid #b8c6d9; border-radius: 5px; color: #14243a; font: inherit; font-weight: 400; }
-  .cv-interview-notes textarea { line-height: 1.55; }
-  .cv-tool-hint { margin-top: 1rem; padding: .9rem; border-left: 3px solid var(--work-yellow); background: #fffaf0; color: #384b61; font-size: .9rem; line-height: 1.55; }
-  .cv-tool-button { padding: .6rem .9rem; border: 1px solid var(--work-blue); border-radius: 5px; background: white; color: var(--work-blue); font: inherit; font-weight: 700; cursor: pointer; }
-  @media (max-width: 700px) { .cv-interview-layout { grid-template-columns: 1fr; } }
+  .cv-tool-page {
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: clamp(1rem, 3vw, 2rem);
+    border: 1px solid var(--work-line);
+    border-radius: var(--work-radius);
+    background: #fff;
+    box-shadow: 0 4px 18px rgb(22 59 124 / 7%);
+  }
+  .cv-interview-intro {
+    margin: 0;
+    color: var(--work-muted);
+    line-height: 1.55;
+  }
+  .cv-interview-layout {
+    display: grid;
+    grid-template-columns: minmax(250px, 0.8fr) minmax(0, 1.2fr);
+    gap: 1.25rem;
+    margin: 1.25rem 0;
+  }
+  .cv-interview-prompt,
+  .cv-interview-workspace {
+    display: grid;
+    align-content: start;
+    gap: 1rem;
+    min-width: 0;
+  }
+  .cv-interview-prompt label,
+  .cv-interview-notes label {
+    display: grid;
+    gap: 0.45rem;
+    color: #26394f;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .cv-interview-prompt select,
+  .cv-interview-notes textarea {
+    width: 100%;
+    min-width: 0;
+    padding: 0.7rem;
+    border: 1px solid #b8c6d9;
+    border-radius: 5px;
+    color: #14243a;
+    background: #fff;
+    font: inherit;
+    font-weight: 400;
+  }
+  .cv-interview-notes textarea {
+    resize: vertical;
+    line-height: 1.5;
+  }
+  .cv-tool-hint {
+    margin: 0;
+    padding: 0.9rem;
+    border-left: 3px solid var(--work-yellow);
+    color: #384b61;
+    background: #fffaf0;
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+  .cv-interview-timer {
+    padding: 1rem;
+    border: 1px solid var(--work-line);
+    border-radius: 7px;
+    background: var(--work-surface);
+  }
+  .cv-interview-timer h3 {
+    margin: 0 0 0.8rem;
+    color: var(--work-navy-deep);
+    font-size: 1rem;
+  }
+  .cv-interview-timer label {
+    margin-bottom: 0.75rem;
+  }
+  .cv-interview-timer-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .cv-interview-timer-display {
+    min-width: 4.5rem;
+    margin-right: auto;
+    color: var(--work-navy-deep);
+    font-size: 1.65rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 800;
+  }
+  .cv-interview-notes,
+  .cv-interview-review {
+    min-width: 0;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid var(--work-line);
+    border-radius: 7px;
+  }
+  .cv-interview-notes legend,
+  .cv-interview-review legend {
+    padding: 0 0.35rem;
+    color: var(--work-navy-deep);
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .cv-interview-notes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+  .cv-interview-notes label span {
+    color: var(--work-muted);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .cv-interview-review {
+    display: grid;
+    gap: 0.6rem;
+  }
+  .cv-interview-review label {
+    display: flex;
+    align-items: start;
+    gap: 0.55rem;
+    color: #26394f;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  .cv-interview-review input {
+    flex: 0 0 auto;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.12rem 0 0;
+    accent-color: var(--work-blue);
+  }
+  .cv-interview-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.65rem;
+  }
+  .cv-tool-button {
+    min-height: 42px;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid var(--work-blue);
+    border-radius: 5px;
+    background: white;
+    color: var(--work-blue);
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .cv-tool-button-primary {
+    background: var(--work-blue);
+    color: #fff;
+  }
+  .cv-tool-button:hover,
+  .cv-tool-button:focus-visible {
+    filter: brightness(0.94);
+  }
+  .cv-tool-status {
+    color: var(--work-blue);
+    font-size: 0.88rem;
+  }
+  @media (max-width: 760px) {
+    .cv-interview-layout {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+  @media (max-width: 520px) {
+    .cv-interview-notes-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .cv-interview-timer-controls {
+      align-items: stretch;
+    }
+    .cv-interview-timer-display {
+      width: 100%;
+    }
+  }
 </style>

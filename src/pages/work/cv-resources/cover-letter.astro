@@ -1,6 +1,11 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
 import CoverLetterTool from '../../../components/work/CoverLetterTool.astro';
+import WorkArticleSidebar from '../../../components/work/WorkArticleSidebar.astro';
+import AdSlot from '../../../components/main/AdSlot.astro';
+import { getPublishedWorkArticles } from '../../../lib/work';
+
+const recommendedArticles = await getPublishedWorkArticles('career-advice');
 ---
 
 <WorkLayout
@@ -10,18 +15,64 @@ import CoverLetterTool from '../../../components/work/CoverLetterTool.astro';
 >
   <main class="work-page-shell">
     <nav class="work-breadcrumbs" aria-label="Breadcrumb">
-      <a href="/work/">Work</a><span>/</span><a href="/work/cv-resources/">CV Resources</a><span>/</span><span aria-current="page">Cover Letter Starter</span>
+      <a href="/work/">Work</a>
+      <span>/</span>
+      <a href="/work/cv-resources/">CV Resources</a>
+      <span>/</span>
+      <span aria-current="page">Cover Letter Starter</span>
     </nav>
     <div class="work-page-intro">
       <p class="work-eyebrow">Free application tool</p>
       <h1 id="cover-letter-title">Cover letter starter</h1>
       <p>Make a role-specific first draft, then review and personalise it before you send it.</p>
     </div>
-    <CoverLetterTool />
-    <p class="cv-tool-back"><a href="/work/cv-resources/">← Back to CV resources</a></p>
+    <div class="cv-letter-layout">
+      <div class="cv-letter-main">
+        <div class="cv-letter-mobile-ad">
+          <AdSlot placement="section" format="horizontal" minHeight={90} />
+        </div>
+        <CoverLetterTool />
+        <div class="cv-letter-mobile-ad">
+          <AdSlot placement="section" format="horizontal" minHeight={90} />
+        </div>
+      </div>
+      <aside
+        class="work-home-articles-aside cv-letter-sidebar"
+        aria-label="Career tools and recommendations"
+      >
+        <WorkArticleSidebar articles={recommendedArticles.slice(0, 2)} />
+      </aside>
+    </div>
+    <p class="cv-tool-back">
+      <a href="/work/cv-resources/">← Back to CV resources</a>
+    </p>
   </main>
 </WorkLayout>
 
 <style>
-  .cv-tool-back { margin-top: 1.5rem; font-weight: 700; }
+  .cv-letter-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+    align-items: start;
+    gap: 1.25rem;
+  }
+  .cv-letter-main {
+    min-width: 0;
+  }
+  .cv-letter-mobile-ad {
+    display: none;
+  }
+  .cv-tool-back {
+    margin-top: 1.5rem;
+    font-weight: 700;
+  }
+  @media (max-width: 900px) {
+    .cv-letter-layout {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .cv-letter-mobile-ad {
+      display: block;
+      margin: 1rem 0;
+    }
+  }
 </style>

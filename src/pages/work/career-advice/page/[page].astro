@@ -2,6 +2,7 @@
 import WorkLayout from '../../../../layouts/WorkLayout.astro';
 import Pagination from '../../../../components/main/Pagination.astro';
 import AdSlot from '../../../../components/main/AdSlot.astro';
+import WorkArticleSidebar from '../../../../components/work/WorkArticleSidebar.astro';
 import {
   formatWorkDate,
   getPublishedWorkArticles,
@@ -14,14 +15,25 @@ export async function getStaticPaths() {
   const totalPages = workPageCount(allWorkArticles.length);
   return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
     const currentPage = index + 2;
+    const pageArticles = workPageItems(allWorkArticles, currentPage);
     return {
       params: { page: String(currentPage) },
-      props: { currentPage, totalPages, workArticles: workPageItems(allWorkArticles, currentPage) },
+      props: {
+        currentPage,
+        totalPages,
+        workArticles: pageArticles,
+        recommendedArticles: allWorkArticles
+          .filter(
+            (article) =>
+              !pageArticles.some((visibleArticle) => visibleArticle.slug === article.slug),
+          )
+          .slice(0, 2),
+      },
     };
   });
 }
 
-const { currentPage, totalPages, workArticles } = Astro.props;
+const { currentPage, totalPages, workArticles, recommendedArticles } = Astro.props;
 ---
 
 <WorkLayout
@@ -45,7 +57,9 @@ const { currentPage, totalPages, workArticles } = Astro.props;
                   <p class="work-card-kicker">{article.category}</p>
                   <h2>{article.title}</h2>
                   <p>{article.description}</p>
-                  <small>By {article.author} · {formatWorkDate(article.publishedAt)}</small>
+                  <small>
+                    By {article.author} · {formatWorkDate(article.publishedAt)}
+                  </small>
                 </div>
               </a>
             </article>
@@ -59,16 +73,25 @@ const { currentPage, totalPages, workArticles } = Astro.props;
                   <p class="work-card-kicker">{article.category}</p>
                   <h2>{article.title}</h2>
                   <p>{article.description}</p>
-                  <small>By {article.author} · {formatWorkDate(article.publishedAt)}</small>
+                  <small>
+                    By {article.author} · {formatWorkDate(article.publishedAt)}
+                  </small>
                 </div>
               </a>
             </article>
           ))}
         </div>
-        <Pagination currentPage={currentPage} totalPages={totalPages} basePath="/work/career-advice/" />
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          basePath="/work/career-advice/"
+        />
       </section>
-      <aside class="category-sidebar" aria-label="Advertisement">
-        <AdSlot placement="sidebar" format="rectangle" minHeight={250} />
+      <aside
+        class="category-sidebar work-home-articles-aside"
+        aria-label="Career tools and recommendations"
+      >
+        <WorkArticleSidebar articles={recommendedArticles} />
       </aside>
     </div>
   </div>

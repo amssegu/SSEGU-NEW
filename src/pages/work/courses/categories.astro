@@ -1,13 +1,41 @@
 ---
 import WorkLayout from '../../../layouts/WorkLayout.astro';
+import WorkArticleSidebar from '../../../components/work/WorkArticleSidebar.astro';
 import { getCollection } from 'astro:content';
+import { getPublishedWorkArticles } from '../../../lib/work';
 const categories = (await getCollection('course-categories')).sort((a, b) => a.data.displayOrder - b.data.displayOrder);
+const recommendedArticles = (await getPublishedWorkArticles('career-advice')).slice(0, 2);
 ---
 <WorkLayout title="Course categories | SSEGU Work" description="Browse the course catalogue by subject area.">
   <main class="work-page-shell">
     <p class="work-eyebrow">Browse by subject</p><h1>Course categories</h1>
-    <div class="work-resource-grid">
-      {categories.map(({ data }) => <article class="work-resource-card"><h2><a href={`/work/courses/category/${data.slug}/`}>{data.name}</a></h2><p>{data.description}</p></article>)}
+    <div class="work-resource-layout">
+      <div class="work-resource-grid">
+        {categories.map(({ data }) => <article class="work-resource-card"><h2><a href={`/work/courses/category/${data.slug}/`}>{data.name}</a></h2><p>{data.description}</p></article>)}
+      </div>
+      <aside class="work-home-articles-aside" aria-label="Learning and career recommendations">
+        <WorkArticleSidebar articles={recommendedArticles} />
+      </aside>
     </div>
   </main>
 </WorkLayout>
+
+<style>
+  .work-resource-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
+    align-items: start;
+    gap: 1.25rem;
+  }
+  .work-resource-layout > .work-resource-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  @media (max-width: 900px) {
+    .work-resource-layout { grid-template-columns: minmax(0, 1fr); }
+    .work-resource-layout > .work-resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 640px) {
+    .work-resource-layout > .work-resource-grid { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>

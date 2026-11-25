@@ -1,0 +1,44 @@
+---
+import AdSlot from '../main/AdSlot.astro';
+import type { WorkArticle } from '../../lib/work';
+
+interface Props {
+  articles: WorkArticle[];
+}
+
+const { articles } = Astro.props;
+---
+
+<AdSlot placement="sidebar" format="rectangle" minHeight={250} />
+<section class="work-home-resource-panel" aria-labelledby="work-home-tools-title">
+  <p class="work-eyebrow">Keep progressing</p>
+  <h3 id="work-home-tools-title">Tools for your next step</h3>
+  <nav aria-label="Career tools">
+    <a href="/work/cv-resources/">
+      CV builder and final checklist <span aria-hidden="true">→</span>
+    </a>
+    <a href="/work/career-pathways/">
+      Explore career pathways <span aria-hidden="true">→</span>
+    </a>
+    <a href="/work/cv-resources/interview-practice/">
+      Interview practice <span aria-hidden="true">→</span>
+    </a>
+    <a href="/work/courses/">
+      Browse courses <span aria-hidden="true">→</span>
+    </a>
+  </nav>
+</section>
+{articles.length > 0 && (
+  <section class="work-home-resource-panel" aria-labelledby="work-home-reading-title">
+    <p class="work-eyebrow">Recommended reading</p>
+    <h3 id="work-home-reading-title">More career advice</h3>
+    <nav aria-label="Recommended career articles">
+      {articles.map((article) => (
+        <a href={`/work/career-advice/${article.slug}/`}>
+          {article.title} <span aria-hidden="true">→</span>
+        </a>
+      ))}
+    </nav>
+  </section>
+)}
+<AdSlot placement="sidebar" format="rectangle" minHeight={250} />
