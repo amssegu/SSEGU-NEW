@@ -87,7 +87,7 @@ export const SSEGU_NAVIGATION: NavItem[] = [
     ],
   },
   { label: 'Series', to: '/search/label/series' },
-  { label: 'Live TV', href: 'https://www.ssegu.com/?tv=1', external: true },
+  { label: 'Live TV', href: 'https://www.ssegu.com/tv/', external: true },
   { label: 'About', to: '/p/about-us.html' },
 ];
 
