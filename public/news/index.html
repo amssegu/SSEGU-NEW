@@ -595,12 +595,26 @@
     weekday: "long", year: "numeric", month: "long", day: "numeric"
   });
 
-  function pushAds() {
-    try {
-      document.querySelectorAll("ins.adsbygoogle:not([data-adsbygoogle-status])").forEach(function () {
+  // Request ads only after their page is visible. AdSense can reject or
+  // collapse placements initialized inside the hidden article preview.
+  function pushAds(page) {
+    var activePage = page || document.querySelector(".page.active");
+    if (!activePage || !activePage.classList.contains("active")) return;
+
+    activePage.querySelectorAll("ins.adsbygoogle").forEach(function (ins) {
+      if (ins.getAttribute("data-adsbygoogle-status") ||
+          ins.getAttribute("data-ssegu-ad-requested") === "true") return;
+
+      var box = ins.closest(".ad-box");
+      if (!box || box.getClientRects().length === 0 || box.getBoundingClientRect().width <  wast) return;
+
+      ins.setAttribute("data-ssegu-ad-requested", "true");
+      try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
-      });
-    } catch (e) {}
+      } catch (e) {
+        ins.removeAttribute("data-ssegu-ad-requested");
+      }
+    });
   }
 
   function showPage(id) {
@@ -616,7 +630,12 @@
     });
     window.scrollTo(0, 0);
     if (id === "x") loadXWidgets();
-    if (id === "home" || id === "article") setTimeout(pushAds, 100);
+    if (id === "home" || id === "article") {
+      // Wait for the selected page to become visible before measuring/requesting ads.
+      requestAnimationFrame(function () {
+        setTimeout(function () { pushAds(el); }, 250);
+      });
+    }
   }
 
   function loadXWidgets() {
@@ -652,14 +671,6 @@
     btn.textContent = "Continue to " + story.sourceName + " →";
 
     showPage("article");
-    // Fresh ad request on article view
-    setTimeout(function () {
-      document.querySelectorAll("#page-article ins.adsbygoogle").forEach(function (ins) {
-        if (!ins.getAttribute("data-adsbygoogle-status")) {
-          try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
-        }
-      });
-    }, 150);
   }
 
   document.getElementById("articleBack").onclick = function () {
@@ -838,7 +849,7 @@
         items.length + " stories · updated " + new Date().toLocaleTimeString();
       renderFilters();
       render();
-      pushAds();
+      pushAds(document.getElementById("page-home"));
       if (!items.length) {
         document.getElementById("grid").innerHTML =
           '<div class="empty">Unable to load feeds. Visit <a href="https://edition.cnn.com/" target="_blank" rel="noopener">CNN</a> or <a href="https://www.bbc.com/news" target="_blank" rel="noopener">BBC</a>.</div>';
@@ -848,7 +859,7 @@
 
   document.getElementById("searchInput").addEventListener("input", render);
   loadFeeds();
-  setTimeout(pushAds, 600);
+  setTimeout(function () { pushAds(document.getElementById("page-home")); }, 600);
   setInterval(loadFeeds, 10 * 60 * 1000);
 })();
 </script>
