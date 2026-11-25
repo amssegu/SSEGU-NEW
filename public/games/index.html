@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover"/>
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-title" content="SSEGU Arcade"/>
+  <meta name="theme-color" content="#04ff00"/>
+  <meta name="description" content="Play free online games: GTA action, racing, bike, piano, puzzle and more. Instant play in browser — mobile friendly."/>
+  <title>SSEGU Arcade — Free HTML5 Games</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com"/>
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net"/>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;800;900&family=Geist+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7777536386845474" crossorigin="anonymous"></script>
+  <style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#070709;--surface:rgba(20,20,23,.72);--surface-2:#141417;--surface-3:#1c1c20;
+  --text:#f5f5f6;--text-muted:#9a9aa3;--border:rgba(255,255,255,.08);--neon:#04ff00;
+  --font-sans:"Geist",Inter,system-ui,sans-serif;--font-mono:"Geist Mono",monospace;
+  --safe-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased;padding-bottom:calc(72px + var(--safe-bottom));max-width:100vw;min-height:100vh}
+a{color:var(--neon);text-decoration:none}
+img{max-width:100%;display:block}
+@media(min-width:900px){body{padding-bottom:0}}
+:focus-visible{outline:2px solid var(--neon);outline-offset:2px}
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--neon);border-radius:3px}
+
+.gyn-header{position:sticky;top:0;z-index:1000;background:rgba(7,7,9,.85);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);padding:0 16px}
+.gyn-header-inner{max-width:1440px;margin:0 auto;height:64px;display:flex;align-items:center;gap:16px}
+.gyn-logo{display:flex;align-items:center;gap:10px;flex-shrink:0;color:inherit;text-decoration:none;cursor:pointer}
+.gyn-logo-mark{width:36px;height:36px;border-radius:12px;background:var(--neon);color:#000;display:grid;place-items:center;font-weight:900;font-size:18px;letter-spacing:-1px}
+.gyn-logo-text{line-height:1}
+.gyn-logo-title{font-weight:900;letter-spacing:-.04em;font-size:18px}
+.gyn-logo-sub{font-family:var(--font-mono);font-size:10px;letter-spacing:.2em;color:var(--text-muted);margin-top:-2px}
+.gyn-search{flex:1;max-width:560px;position:relative}
+.gyn-search input{width:100%;height:40px;border-radius:999px;background:var(--surface-3);border:1px solid var(--border);color:var(--text);padding:0 16px 0 44px;font-size:14px;outline:none;font-family:inherit}
+.gyn-search input:focus{border-color:rgba(4,255,0,.5);box-shadow:0 0 0 4px rgba(4,255,0,.1)}
+.gyn-search-ico{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--text-muted);pointer-events:none}
+.gyn-status{display:none;align-items:center;gap:8px;font-family:var(--font-mono);font-size:11px;color:var(--text-muted)}
+@media(min-width:640px){.gyn-status{display:flex}}
+.gyn-status-dot{width:8px;height:8px;border-radius:50%;background:var(--neon);box-shadow:0 0 10px var(--neon);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+@media(max-width:768px){
+  .gyn-search{display:none}
+  .gyn-header-inner{height:auto;padding:12px 0;flex-wrap:wrap}
+  .gyn-search-mobile{display:block;width:100%;padding-bottom:12px}
+  .gyn-search-mobile input{height:44px;border-radius:16px;padding-left:44px}
+}
+@media(min-width:769px){.gyn-search-mobile{display:none}}
+
+.gyn-hero{max-width:1440px;margin:0 auto;padding:24px 16px 0}
+.gyn-hero-card{position:relative;border-radius:32px;overflow:hidden;border:1px solid var(--border);background:var(--surface-2)}
+.gyn-hero-bg{position:absolute;inset:0;background:linear-gradient(to bottom right,rgba(4,255,0,.2),transparent,rgba(0,209,255,.2))}
+.gyn-hero-glow1{position:absolute;top:-80px;right:-80px;width:320px;height:320px;border-radius:50%;background:rgba(4,255,0,.2);filter:blur(60px)}
+.gyn-hero-glow2{position:absolute;bottom:-80px;left:-80px;width:320px;height:320px;border-radius:50%;background:rgba(0,209,255,.15);filter:blur(60px)}
+.gyn-hero-inner{position:relative;padding:32px 24px;display:flex;flex-direction:column;gap:32px}
+@media(min-width:1024px){.gyn-hero-inner{flex-direction:row;align-items:center;justify-content:space-between;padding:48px}}
+.gyn-badge{display:inline-flex;align-items:center;gap:8px;padding:4px 12px;border-radius:999px;background:rgba(4,255,0,.1);border:1px solid rgba(4,255,0,.2);color:var(--neon);font-family:var(--font-mono);font-size:11px;letter-spacing:.15em;margin-bottom:16px}
+.gyn-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--neon);animation:pulse 2s infinite}
+.gyn-hero h1{font-weight:900;letter-spacing:-.06em;line-height:.9;font-size:40px}
+@media(min-width:640px){.gyn-hero h1{font-size:54px}}
+@media(min-width:1024px){.gyn-hero h1{font-size:64px}}
+.gyn-hero h1 span{color:var(--neon)}
+.gyn-hero-desc{margin-top:16px;font-size:15px;line-height:1.6;color:var(--text-muted);max-width:48ch}
+.gyn-hero-btns{margin-top:24px;display:flex;flex-wrap:wrap;gap:12px}
+.gyn-btn{height:44px;padding:0 24px;border-radius:999px;border:none;font-weight:700;font-size:14px;cursor:pointer;font-family:inherit;transition:all .15s;display:inline-flex;align-items:center;gap:6px;text-decoration:none}
+.gyn-btn-primary{background:#fff;color:#000}
+.gyn-btn-primary:hover{background:var(--neon)}
+.gyn-btn-ghost{background:var(--surface-3);color:var(--text);border:1px solid var(--border)}
+.gyn-btn-ghost:hover{border-color:rgba(255,255,255,.2)}
+.gyn-hero-stats{margin-top:32px;display:flex;align-items:center;gap:24px;font-family:var(--font-mono);font-size:12px;color:var(--text-muted)}
+.gyn-hero-stats strong{color:#fff;font-weight:700}
+.gyn-hero-mini{width:100%;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media(min-width:1024px){.gyn-hero-mini{width:420px;flex-shrink:0}}
+.gyn-mini-card{aspect-ratio:4/3;border-radius:16px;background:var(--surface-3);border:1px solid var(--border);padding:12px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;transition:border-color .2s;color:inherit}
+.gyn-mini-card:hover{border-color:rgba(255,255,255,.2)}
+.gyn-mini-icon{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:900;color:#000}
+.gyn-mini-name{font-size:11px;font-weight:700;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.gyn-mini-cta{grid-column:1/-1;border-radius:16px;background:var(--neon);color:#000;padding:16px;display:flex;align-items:center;justify-content:space-between;font-weight:900;letter-spacing:-.02em;cursor:pointer}
+.gyn-mini-cta-ico{width:32px;height:32px;border-radius:50%;background:#000;color:var(--neon);display:grid;place-items:center;font-size:14px}
+
+.gyn-ad{max-width:1440px;margin:20px auto 0;padding:0 16px;text-align:center}
+.gyn-ad-label{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#666;margin-bottom:8px;font-weight:700}
+.gyn-ad-box{min-height:100px;background:var(--surface-2);border:1px solid var(--border);border-radius:16px;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:10px}
+.gyn-ad-box.gyn-ad-rect{min-height:280px}
+.gyn-ad-box.gyn-ad-banner{min-height:90px}
+.gyn-ad-box ins.adsbygoogle{display:block!important;width:100%!important}
+.gyn-ad-card{border-radius:24px;background:var(--surface-2);border:1px dashed rgba(255,255,255,.12);overflow:hidden;display:flex;flex-direction:column;min-height:220px}
+.gyn-ad-card-label{padding:10px 14px 0;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:#555;font-weight:700}
+.gyn-ad-card-body{flex:1;padding:8px 12px 14px;display:flex;align-items:center;justify-content:center;min-height:180px}
+.gyn-ad-card-body ins.adsbygoogle{display:block!important;width:100%!important;min-height:160px}
+
+.gyn-sticky-ad{display:none;position:fixed;left:0;right:0;bottom:0;z-index:998;background:rgba(7,7,9,.95);backdrop-filter:blur(12px);border-top:1px solid var(--border);padding:6px 8px max(6px,var(--safe-bottom));text-align:center}
+.gyn-sticky-ad .gyn-ad-label{margin-bottom:4px;font-size:9px}
+.gyn-sticky-ad .gyn-ad-box{min-height:50px;border-radius:10px;padding:4px;background:transparent;border:none}
+@media(max-width:899px){
+  .gyn-sticky-ad{display:block}
+  body{padding-bottom:calc(120px + var(--safe-bottom))}
+  .gyn-app-bar{bottom:calc(60px + var(--safe-bottom))}
+}
+
+.gyn-filters{max-width:1440px;margin:0 auto;padding:28px 16px 0;display:flex;align-items:center;gap:8px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.gyn-filters::-webkit-scrollbar{display:none}
+.gyn-filter{flex-shrink:0;height:36px;padding:0 16px;border-radius:999px;border:1px solid var(--border);background:var(--surface-3);color:var(--text-muted);font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s;white-space:nowrap}
+.gyn-filter:hover{color:#fff;border-color:rgba(255,255,255,.15)}
+.gyn-filter.active{background:var(--neon);color:#000;border-color:var(--neon)}
+.gyn-filter span{opacity:.6;font-size:11px;margin-left:4px}
+
+.gyn-section{max-width:1440px;margin:0 auto;padding:24px 16px 40px}
+.gyn-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media(min-width:768px){.gyn-grid{grid-template-columns:repeat(3,1fr);gap:20px}}
+@media(min-width:1024px){.gyn-grid{grid-template-columns:repeat(4,1fr)}}
+.gyn-card{position:relative;border-radius:24px;background:var(--surface);backdrop-filter:blur(12px);border:1px solid var(--border);overflow:hidden;cursor:pointer;transition:transform .3s,border-color .3s,box-shadow .3s;display:flex;flex-direction:column;color:inherit}
+.gyn-card:hover{transform:translateY(-4px);border-color:rgba(255,255,255,.15);box-shadow:0 12px 40px rgba(0,0,0,.5),0 0 0 1px rgba(4,255,0,.08)}
+.gyn-card.active{border-color:var(--neon);box-shadow:0 0 0 2px rgba(4,255,0,.3)}
+.gyn-card-thumb{position:relative;aspect-ratio:4/3;background:#0f0f10;overflow:hidden}
+.gyn-card-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.gyn-card:hover .gyn-card-thumb img{transform:scale(1.03)}
+.gyn-card-cat{position:absolute;top:12px;left:12px;padding:4px 10px;border-radius:999px;background:rgba(0,0,0,.7);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.1);font-family:var(--font-mono);font-size:10px;letter-spacing:.1em;color:#fff}
+.gyn-card-play{position:absolute;bottom:12px;right:12px;width:36px;height:36px;border-radius:50%;background:#fff;color:#000;border:none;display:grid;place-items:center;font-size:14px;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.3);transition:background .15s,transform .15s}
+.gyn-card-play:hover{background:var(--neon);transform:scale(1.05)}
+.gyn-card-info{padding:16px;flex:1;display:flex;flex-direction:column;gap:8px}
+.gyn-card-title{font-weight:700;font-size:15px;letter-spacing:-.02em;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.gyn-card-meta{display:flex;align-items:center;gap:8px;margin-top:auto}
+.gyn-card-btn{flex:1;height:36px;border-radius:999px;border:none;background:#fff;color:#000;font-weight:700;font-size:13px;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center;gap:6px;transition:background .15s}
+.gyn-card-btn:hover{background:var(--neon)}
+.gyn-card-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.gyn-card-footer{font-family:var(--font-mono);font-size:10px;color:var(--text-muted);display:flex;gap:6px}
+.gyn-empty{grid-column:1/-1;text-align:center;padding:60px 0;color:var(--text-muted);font-family:var(--font-mono);font-size:13px}
+
+.gyn-player-wrap{display:none}
+.gyn-player-wrap.show{display:block}
+.gyn-player-overlay{position:fixed;inset:0;z-index:2000;background:rgba(0,0,0,.85);backdrop-filter:blur(12px);display:flex;flex-direction:column;padding:12px}
+@media(min-width:640px){.gyn-player-overlay{padding:24px}}
+.gyn-player-shell{flex:1;max-width:1280px;width:100%;margin:0 auto;border-radius:24px;overflow:hidden;background:#0a0a0a;border:1px solid var(--border);display:flex;flex-direction:column}
+.gyn-player-bar{height:56px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding:0 16px;background:var(--surface-3);border-bottom:1px solid var(--border)}
+.gyn-player-info{display:flex;align-items:center;gap:12px}
+.gyn-player-avatar{width:32px;height:32px;border-radius:50%;background:var(--neon);color:#000;display:grid;place-items:center;font-weight:900;font-size:14px}
+.gyn-player-name{font-weight:700;font-size:14px;line-height:1}
+.gyn-player-cat{font-family:var(--font-mono);font-size:10px;color:var(--text-muted);letter-spacing:.1em}
+.gyn-player-actions{display:flex;align-items:center;gap:8px}
+.gyn-player-close{width:36px;height:36px;border-radius:50%;border:none;background:rgba(255,255,255,.1);color:#fff;cursor:pointer;display:grid;place-items:center;font-size:16px}
+.gyn-player-close:hover{background:rgba(255,255,255,.2)}
+.gyn-player-frame-wrap{flex:1;position:relative;background:#070709;min-height:0}
+.gyn-player-frame-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.gyn-player-hint{position:absolute;bottom:16px;left:16px;padding:6px 12px;border-radius:999px;background:rgba(0,0,0,.7);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.1);font-family:var(--font-mono);font-size:11px;color:rgba(255,255,255,.7);pointer-events:none}
+
+.gyn-ad-interstitial{display:none;position:fixed;inset:0;z-index:3000;background:rgba(0,0,0,.94);backdrop-filter:blur(16px);align-items:center;justify-content:center;padding:16px}
+.gyn-ad-interstitial.show{display:flex}
+.gyn-ad-inter-card{width:100%;max-width:480px;background:var(--surface-2);border:1px solid var(--border);border-radius:24px;overflow:hidden;display:flex;flex-direction:column;align-items:center;box-shadow:0 24px 80px rgba(0,0,0,.7)}
+.gyn-ad-inter-header{width:100%;padding:20px 20px 8px;text-align:center}
+.gyn-ad-inter-header .label{font-family:var(--font-mono);font-size:11px;letter-spacing:.15em;color:var(--text-muted);margin-bottom:8px}
+.gyn-ad-inter-header h3{font-size:18px;font-weight:800;letter-spacing:-.02em}
+.gyn-ad-inter-header .game-name{color:var(--neon)}
+.gyn-ad-inter-body{width:100%;padding:8px 16px 12px;min-height:300px;display:flex;align-items:center;justify-content:center}
+.gyn-ad-inter-body .gyn-ad-box{width:100%;min-height:280px;border-radius:12px}
+.gyn-ad-inter-footer{width:100%;padding:8px 20px 24px;text-align:center}
+.gyn-ad-skip{height:52px;padding:0 36px;border-radius:999px;border:none;background:var(--neon);color:#000;font-weight:800;font-size:16px;cursor:pointer;font-family:inherit;transition:transform .15s,opacity .15s,box-shadow .15s;min-width:220px;box-shadow:0 0 24px rgba(4,255,0,.35)}
+.gyn-ad-skip:hover:not(:disabled){transform:scale(1.04);box-shadow:0 0 32px rgba(4,255,0,.5)}
+.gyn-ad-skip:disabled{background:var(--surface-3);color:var(--text-muted);cursor:not-allowed;transform:none;box-shadow:none}
+.gyn-ad-countdown{font-family:var(--font-mono);font-size:12px;color:var(--text-muted);margin-bottom:12px}
+
+.gyn-footer{border-top:1px solid var(--border);background:rgba(20,20,23,.5);backdrop-filter:blur(12px);margin-top:40px}
+.gyn-footer-inner{max-width:1440px;margin:0 auto;padding:40px 16px}
+.gyn-footer-grid{display:grid;gap:32px}
+@media(min-width:768px){.gyn-footer-grid{grid-template-columns:repeat(4,1fr)}}
+.gyn-footer h4{font-family:var(--font-mono);font-size:12px;letter-spacing:.15em;color:var(--text-muted);margin-bottom:12px}
+.gyn-footer p{font-size:13px;line-height:1.6;color:var(--text-muted);max-width:28ch}
+.gyn-footer ul{list-style:none}
+.gyn-footer li{margin-bottom:8px}
+.gyn-footer a,.gyn-footer button{font-size:13px;color:var(--text-muted);background:none;border:none;cursor:pointer;font-family:inherit;padding:0}
+.gyn-footer a:hover,.gyn-footer button:hover{color:var(--neon)}
+.gyn-footer-bottom{margin-top:40px;padding-top:24px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:12px;align-items:center;font-family:var(--font-mono);font-size:11px;color:var(--text-muted)}
+@media(min-width:768px){.gyn-footer-bottom{flex-direction:row;justify-content:space-between}}
+
+.gyn-app-bar{position:fixed;left:0;right:0;bottom:0;z-index:999;border-top:1px solid var(--border);background:rgba(7,7,9,.9);backdrop-filter:blur(18px);padding:8px 8px max(6px,var(--safe-bottom));display:flex;justify-content:space-around}
+.gyn-bar-item{display:flex;flex-direction:column;align-items:center;gap:4px;padding:4px 12px;border-radius:12px;border:none;background:none;color:var(--text-muted);cursor:pointer;font-family:inherit;text-decoration:none}
+.gyn-bar-item.active{color:var(--neon)}
+.gyn-bar-ico{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:16px}
+.gyn-bar-item.active .gyn-bar-ico{background:rgba(4,255,0,.15);border:1px solid rgba(4,255,0,.3)}
+.gyn-bar-label{font-family:var(--font-mono);font-size:10px;letter-spacing:.05em}
+@media(min-width:900px){.gyn-app-bar{display:none}}
+  </style>
+</head>
+<body>
+
+<header class="gyn-header">
+  <div class="gyn-header-inner">
+    <a class="gyn-logo" href="#" id="logoHome">
+      <div class="gyn-logo-mark">G</div>
+      <div class="gyn-logo-text">
+        <div class="gyn-logo-title">SSEGU ARCADE</div>
+        <div class="gyn-logo-sub">GAME HUB • <span data-game-count>00</span> HITS</div>
+      </div>
+    </a>
+    <div class="gyn-search">
+      <span class="gyn-search-ico">⌕</span>
+      <input autocomplete="off" id="gynSearch" placeholder="Search titles, e.g. Rally, Piano..." type="search"/>
+    </div>
+    <div class="gyn-status">
+      <span class="gyn-status-dot"></span>
+      <span id="gynStatusText">LIVE • 00 GAMES</span>
+    </div>
+  </div>
+  <div class="gyn-search-mobile">
+    <div style="position:relative">
+      <span class="gyn-search-ico">⌕</span>
+      <input autocomplete="off" id="gynSearchMobile" placeholder="Search games..." type="search"/>
+    </div>
+  </div>
+</header>
+
+<section class="gyn-hero">
+  <div class="gyn-hero-card">
+    <div class="gyn-hero-bg"></div>
+    <div class="gyn-hero-glow1"></div>
+    <div class="gyn-hero-glow2"></div>
+    <div class="gyn-hero-inner">
+      <div>
+        <div class="gyn-badge"><span class="gyn-badge-dot"></span> NEW DROP • <span data-game-count>00</span> GAMES</div>
+        <h1>Play <span data-game-count>00</span> <span>New Hits</span><br/>Instant. Free.</h1>
+        <p class="gyn-hero-desc">SSEGU Game Hub — glassmorphic, neon, instant play. GTA streets, bike rallies, piano labs and arcade puzzles. Tap play, go fullscreen.</p>
+        <div class="gyn-hero-btns">
+          <button class="gyn-btn gyn-btn-primary" id="btnExplore" type="button">Explore Catalog</button>
+          <button class="gyn-btn gyn-btn-ghost" id="btnLaunch" type="button">Launch: Subway</button>
+        </div>
+        <div class="gyn-hero-stats">
+          <div><strong>4.9</strong> rating / 2.3k plays</div>
+          <div style="width:1px;height:12px;background:var(--border)"></div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="width:8px;height:8px;background:var(--neon);border-radius:50%"></span> HTML5 Instant</div>
+        </div>
+      </div>
+      <div class="gyn-hero-mini" id="heroMini"></div>
+    </div>
+  </div>
+</section>
+
+<div class="gyn-ad" id="adTop">
+  <div class="gyn-ad-label">Advertisement</div>
+  <div class="gyn-ad-box gyn-ad-banner">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7777536386845474" data-ad-slot="9970802556" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+</div>
+
+<div class="gyn-filters" id="gynFilters"></div>
+
+<section class="gyn-section" id="gamesSection">
+  <div class="gyn-grid" id="gameGrid"></div>
+</section>
+
+<div class="gyn-ad" id="adMid">
+  <div class="gyn-ad-label">Advertisement</div>
+  <div class="gyn-ad-box gyn-ad-rect">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7777536386845474" data-ad-slot="9970802556" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+</div>
+
+
+<footer class="gyn-footer">
+  <div class="gyn-footer-inner">
+    <div class="gyn-footer-grid">
+      <div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+          <div class="gyn-logo-mark" style="width:32px;height:32px;font-size:14px">G</div>
+          <span style="font-weight:900;letter-spacing:-.02em">SSEGU ARCADE</span>
+        </div>
+        <p>Minimal game portal. Neon green, glassmorphism. Instant browser play.</p>
+      </div>
+      <div>
+        <h4>EXPLORE</h4>
+        <ul id="footerCats"></ul>
+      </div>
+      <div>
+        <h4>LEGAL</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>SYSTEM</h4>
+        <div style="border-radius:16px;background:var(--surface-3);border:1px solid var(--border);padding:16px">
+          <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-muted)">BUILD</div>
+          <div style="font-weight:700;font-size:13px;margin-top:4px">ssegu_arcade • v2.2</div>
+          <div style="margin-top:12px;height:1px;background:var(--border)"></div>
+          <div style="margin-top:12px;display:flex;align-items:center;gap:8px;font-family:var(--font-mono);font-size:11px">
+            <span style="width:8px;height:8px;border-radius:50%;background:var(--neon)"></span> Neon • Glass • Instant
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gyn-footer-bottom">
+      <span>© SSEGU Arcade • All games hosted externally via 8games.</span>
+      <span style="display:flex;align-items:center;gap:6px"><span style="width:6px;height:6px;border-radius:50%;background:var(--neon)"></span> <span data-game-count>00</span> GAMES ONLY</span>
+    </div>
+  </div>
+</footer>
+
+<nav class="gyn-app-bar">
+  <a class="gyn-bar-item active" href="#gamesSection"><span class="gyn-bar-ico">⌂</span><span class="gyn-bar-label">Home</span></a>
+  <button class="gyn-bar-item" data-filter="Racing/Bike" type="button"><span class="gyn-bar-ico">◯</span><span class="gyn-bar-label">Racing</span></button>
+  <button class="gyn-bar-item" id="barSearch" type="button"><span class="gyn-bar-ico">⌕</span><span class="gyn-bar-label">Search</span></button>
+  <button class="gyn-bar-item" data-filter="Arcade/Puzzle" type="button"><span class="gyn-bar-ico">◎</span><span class="gyn-bar-label">Arcade</span></button>
+  <button class="gyn-bar-item" data-filter="Music/Piano" type="button"><span class="gyn-bar-ico">♪</span><span class="gyn-bar-label">Piano</span></button>
+</nav>
+
+<div class="gyn-sticky-ad" id="stickyAd">
+  <div class="gyn-ad-label">Ad</div>
+  <div class="gyn-ad-box">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7777536386845474" data-ad-slot="9970802556" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+  </div>
+</div>
+
+<div class="gyn-ad-interstitial" id="adInterstitial">
+  <div class="gyn-ad-inter-card">
+    <div class="gyn-ad-inter-header">
+      <div class="label">SPONSORED • BEFORE YOU PLAY</div>
+      <h3>Loading <span class="game-name" id="interGameName">Game</span></h3>
+    </div>
+    <div class="gyn-ad-inter-body">
+      <div class="gyn-ad-box gyn-ad-rect">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7777536386845474" data-ad-slot="9970802556" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+    <div class="gyn-ad-inter-footer">
+      <div class="gyn-ad-countdown" id="adCountdown">Please wait…</div>
+      <button class="gyn-ad-skip" id="adSkipBtn" type="button" disabled>Play in 5s</button>
+    </div>
+  </div>
+</div>
+
+<div class="gyn-player-wrap" id="playerWrap">
+  <div class="gyn-player-overlay">
+    <div class="gyn-player-shell">
+      <div class="gyn-player-bar">
+        <div class="gyn-player-info">
+          <div class="gyn-player-avatar" id="playerAvatar">G</div>
+          <div>
+            <div class="gyn-player-name" id="playerName">Game</div>
+            <div class="gyn-player-cat" id="playerCat">Category</div>
+          </div>
+        </div>
+        <div class="gyn-player-actions">
+          <button aria-label="Close" class="gyn-player-close" id="playerClose" type="button">✕</button>
+        </div>
+      </div>
+      <div class="gyn-player-frame-wrap">
+        <iframe allow="autoplay; gamepad; fullscreen; encrypted-media" id="gameFrame" referrerpolicy="no-referrer" sandbox="allow-scripts allow-forms allow-pointer-lock allow-same-origin allow-modals allow-orientation-lock" title="Game"></iframe>
+        <div class="gyn-player-hint">ESC to close • Instant play</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var GAMES = [
+    {id:"beat-em-up",name:"Beat Em Up",url:"https://st.8games.net/7/8g/igra-gta-6-pobedi-ikh-vsekh",cat:"GTA/Action",accent:"#ff3b3b",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfRKTR5m7pXXE82fjBh4qnPCHPDWd2wjW1-OqcftCmQLe0o8GTXniBtPnBYyNoWAKh1Z8NAwJ8hsNkG9ltjlIalBXFSa91LvVp5WIzh57f7PmhKu1PRi6xnHyfLsEGDPurzOnJp_R_A5gvggy7m_x10aabk7rybGYy1NwwgIeP5o3eT30fh9rrLYkRk0dN/w320-h170/images.png"},
+    {id:"subway-surfers",name:"Subway Surfers",url:"https://st.8games.net/11/igra-subway-surfers-new-orleans-novyj-orlean",cat:"GTA/Action",accent:"#ffcc00",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEFHvow_KvkfLrrhS4nrNouws5j1GFAPjNLevnss-yOsp3a-vHaoh-HTLGUJ8zhQ_Qn8qVX6tboeSHB-Sgc7LR2Zk6rzuHRmS_aqYp8Jk4ETN0SLoc97LOFxVVBTXF9TNiXYUN8pqhQKIS_TqOgsSD8-czHGmA2q2Zrh9gY-N3ZMni0tlmMW-rUoNkQoax/s1600/images.png"},
+    {id:"need-for-race",name:"Need For Race",url:"https://st.8games.net/10/igra-zhazhda-gonok/",cat:"Racing/Bike",accent:"#00d1ff",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqesaXtlixTsX7H1eDIJcHs1juHQlCqGQFmcWaej4BvEjG0g53a0svDL8TKTkkfbq5h8jRj3Gf9kydIbauqiOfv86mbbUAFZZlViIzaSamfOfhtD93IBlz1HDcuCYppMpjZgdVhjpeuqsQThAoVbqIMlJ4S8xo_z3AJ-k9w32-mJXsYUB3vE5thGdCMswf/s1600/images.png"},
+    {id:"off-road-rally",name:"Off-Road Rally",url:"https://st.8games.net/14/igra-vnedorozhnoe-ralli-gonki-na-krutykh-tachkakh",cat:"Racing/Bike",accent:"#04ff00",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGZqnkfQWVqJPb38WmKjRpWy2vMpmnaYZTgtOFSa8Lc8tZ6KeIdbpogtL9EfQjVJmIdEnSfUjp1Kihgjm-cUVa7KxZj3M5Ul_WlSEd4FH0BFKbMN_j1mL8Qrje6g7PhnqL32GeOBntU0ETWxLzohfqB4OeXvtDV5yKhFITWX5yYNEdcoC7yyn8poMs-i-7/s1600/images.png"},
+    {id:"speed-master",name:"Speed Master",url:"https://st.8games.net/10/igra-mastera-skorosti",cat:"Racing/Bike",accent:"#00d1ff",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR7kpaoe8yRYTKlpWTntQYMBPkcVrde9zcRrXsxuCKxxnzEVrZXt6Pb9JnRYbmRbjdst6rI2NTmrUnMWlss9lI2CAZPCWG637hMyqnug2S-5HsJ70Eyls6LsFR-mc2Z5LxS4TVeCRE4CdPCiPD_F9eaSwUNoQAP8PZ9Ccku2YdxDXpoQxusu1dS3GxEime/s1600/images.png"},
+    {id:"turbo-trails",name:"Turbo Trails",url:"https://st.8games.net/10/igra-turbo-trassy",cat:"Racing/Bike",accent:"#04ff00",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYG120C2QTgDj8bDv-FrPGhQysUfJY-e-MG8A4vmBj94USq6lVsleyv3ldwgDcQEA50GVma14bXxKtkAQ0eT2vGFoMdXXeAcVN4lfS6I6GRGx6ISqIvuKJxrVNv1HK6vBEnAiqpmDVWysv5Qpg3o4wGp1yvNvuehyphenhyphenbQNTdyGwc-ckiZM5xGHrs9svxIIYr/s1600/images.png"},
+    {id:"death-rally",name:"Death Rally",url:"https://st.8games.net/14/igra-smertelnoe-ralli/",cat:"Racing/Bike",accent:"#ff3b3b",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNRBfX7ROS2wPCNuL4bC5fYJVOD8_lvwnLSHOVfxh2vbajR5Z0hlBX6NjdlRpt-mDOpA3wyVeZb-M-Xz_6hvJK6tfuEbrlvjmwacJv_yz8YmFFrG7pVG098wX2GRLhtCV8V2GScbCGjqjJ_ZdPrA2y6a0fMRdzJ_mUjk0eLfvBo8OeZ9WIhzsQoP2GDs1_/s1600/images.png"},
+    {id:"e-bike-rally",name:"E Bike Rally",url:"https://st.8games.net/10/igra-epicheskoe-velosipednoe-ralli/",cat:"Racing/Bike",accent:"#00d1ff",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyI5lAAhkQ22LobJmIIlCUwMA6IV7tWqbjh6sRKvoAHB1ZEiqtueg8GjbungvMLq375c2_ksWYMntuizyba5thc9cBH2sR6d3UmTLSuZKepZTQyrihH7jrJTOiCSHp_O-iIV8SpzQJWd4JbUGD3Ro8AYvP5sJyzaJqzq-NtCEGeiU73-eSCgwptSvYB11H/s1600/images.png"},
+    {id:"r-downhill",name:"R Downhill Racing",url:"https://st.8games.net/10/igra-gonki-po-skorostnomu-spusku/",cat:"Racing/Bike",accent:"#a78bfa",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJzQQZ_rq37qnzm6r_kHrMkygMkvaBpXeU1PFQBJhBQN6PA06qijxUr8fI3KLKSSvnnOtQIo7MDz9dsc6CdjpRz-p32Qhof3SaH6VBNWRFOiD236XWRJyLBps3GA_seE9jsgPKbh2VSFhndxFsMG-klJuobbuw_uaiBjuIPwHLHr9uKvuKddWLxz8LhNE3/s1600/images.png"},
+    {id:"bike-blast",name:"Bike Blast",url:"https://st.8games.net/igry-novye/igra-velosipednaya-gonka/",cat:"Racing/Bike",accent:"#ffcc00",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPeLVb5AgtRJer_-N4L7qpeTFUK3vw64SpSw_CmBa4f3B8WI4wZu3u1CjHdTWmKqNttUiOhPrwfrJL_0hOSxfPqgKVNrWvATdOse69su3HJDz_MYp3fxVhp_xANpNTYzjAoYXa6QrF1hbhduf9-hmTQUEbs1hk0igI6JvhXe_eSFB8lqfvG3ixhJWuatGr/s1600/images.png"},
+    {id:"racing-11",name:"Racing: 11 Modes",url:"https://st.8games.net/14/igra-gonki-11-rezhimov/",cat:"Racing/Bike",accent:"#04ff00",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguft7uJfq5JkOEarFZT8yiJ6k4jlWIEsc-tGzxjMk-a8gzTxqb2cbC9E1H1rI-6jGlUlvm97I-6K_6N1yaA7zineYQP7_jrUOBpUAYpvbc-rKvS1lhIvWDTsol5vrLv8rdHHp5w_CgBRcFlmr5gLvTABgUsafqTmhW-fTuk8d_NRAoNHjl4uja5vABCKAu/s1600/images.png"},
+    {id:"bike-mania-3",name:"Bike Mania 3",url:"https://st.8games.net/15/igra-bajk-maniya-3-na-ldu/",cat:"Racing/Bike",accent:"#a78bfa",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMQwBYaIXtVTmsFLoUcsaZChtmvcZXizTJ-3VE2U6Wa3Mvo9yDwRrllvOgL6y_emJMHl37A2lgsarz5joPNhfRp2sI3vsB_-K_XhKYTzzaCyNFdbof9zHCHKLPt1hN0tGoOAL_xRAm_9E9BtCZymjaeW8ooB_hMqh5VjzK5HvMWmJTveglPOWbILdV__Ad/s1600/images.png"},
+    {id:"piano-keyboard",name:"Piano On The Keyboard",url:"https://st.8games.net/6/igra-pianino-na-klaviature/en/",cat:"Music/Piano",accent:"#ff8de1",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLnNKQZYR7rVEySYU-BE9WRRCk7nLP9wqgy1k2iwe31gaIoTythmSKenXI4awQX_WZDX-a-_2GV-H4fT0TVE8hucc7b-VcNoED7CXu-56ue6krlr-qg-ueoEuRE01sAcJxATForaA1r4smthAXyKA5htyykiE4pyFbtYR1RFD2P2jemQMKc6dZhnf8cAoH/s1600/images.png"},
+    {id:"piano-ukulele",name:"Piano: Ukulele",url:"https://st.8games.net/12/igra-pianino-gavajskaya-gitara",cat:"Music/Piano",accent:"#ff8de1",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDnxuh8b-lPEX6SUlUSRoquAG6xzjUBw1Nx8zqQjYfbL8xbVhNg4rqVtH-CeuUzv0JJMOEg4-OHCZ9_b49acsM3i-KZ8AOsTrqqWRMTQwdh7a6SEYPTtOTvwwqOTpljll0aECFCts7M5ky_2agPhUOc0mrgjMNbaRnIvWalpmO5disAADNLVezLlcoyFCN/s1600/images.png"},
+    {id:"angry-birds",name:"Angry Birds",url:"https://st.8games.net/11/igra-engri-berds",cat:"Arcade/Puzzle",accent:"#ff3b3b",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-BRQEFdGOwZS-z3fI5uwAZcK6i0WR2qccOy4xJN3D8SDl4aJY41fZVajzdhXfeduE6v8KhivHFfHU-hMsjYBW560TDnm5dU8hY2jecXbxBtQGgoSLjeFCDyU9rcOtVkvPG77Dzv0gwVBoyec8x7ngR0_D51K2E7K3_hzqGEASxuhMj6SqryB9COxPT8r-/s1600/images.png"},
+    {id:"russian-billiards",name:"Best Russian Billiards",url:"https://st.8games.net/10/igra-luchshij-russkij-bilyard/",cat:"Arcade/Puzzle",accent:"#04ff00",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKk_YF4ICBEr-Pn0btdtmkEmjaqYjjzhFwYm0zTBWPq5vOcZNS8RfJpivAIORR3bWwacVm1XVztoeOj6pLVXbvNW4pFPK018tyrsNwFpDB4GliQxehb69EIAdBDvjnhP_poJKTsld9AmxX1AFPPzupwenmbF9gyKb6BspG3WPNWRfrPnUwBKx2X7fqdOfN/s1600/images.png"},
+    {id:"totemia",name:"Totemia: Cursed Marbles",url:"https://st.8games.net/9/igra-shariki-zuma/",cat:"Arcade/Puzzle",accent:"#a78bfa",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXruCAaf_SBU8gCUpdrnmySNhhSQ49ElViNJdHnRZPg5bUxpckozCmZntH3e_2gC-jF4-IbexcsLQYzpFSffrzh-IPj0REyrHWKxt9vsrb4R8JHacG3mQkonrqR8TOTWOqlOvcsv7mzUDMf3fdL-noalD66nlPp0Tq9y5VD4WtqCcVrsxsbNavvcEYneCY/s1600/images.png"},
+    {id:"hero-rescue",name:"Hero Rescue",url:"https://st.8games.net/7/igra-spasti-geroya/",cat:"Arcade/Puzzle",accent:"#ffcc00",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4VLs2PBbFYwJXw-Mr2rLNFhqPTTCaB8Ydn6ORbXYJ0nPAbUvb31ksDPAQIO_WYKPt_2mCoOIHrIPt2FizsO0RPV43cCVYdZi9LOg0AzKMhOfrfKzvceKxuCw764yFxe5WVxk7hJhKaOLGZf4rZ53XCcLSQ-p-HBMCuaRcEM-xs8Q4o3GkJ-KvP5oDLiIz/s1600/images.png"},
+    {id:"coach-hill",name:"Coach Hill Drive Simulator",url:"https://st.8games.net/10/igra-vozhdenie-avtobusa-gornaya-mestnost",cat:"Simulation/Sports",accent:"#00d1ff",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_iYMxS2XR14n_aq40PYBhFohZzeFA42ZjmkF7X_qsJ1Uv1bcUZe8vmeWCDRPw70_R3HOeogfMbcjn0Zn6qCXGqdv03hAyIQIVNddWHdC2cMqLFi-NeKdzzGZhTN7Yod1BNWuVb1VLqmH6x2oXsWYP1cIhnTnj4xrwsoTNVcu_RmFANf_FxwnC4ki3TwVc/s1600/images.png"},
+    {id:"diamond-dungeon",name:"Diamond Dungeon Match",url:"https://st.8games.net/9/igra-almaznoe-podzemele-match-3/",cat:"Arcade/Puzzle",accent:"#00d1ff",img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOTbTEdTk6jecCGEv2HN90tQ7Crjd6mmhYZvWGvDFHfDZTRGOvtAd4DvEYq0SfVAHKjvCKMX3vo1T-10ZAuSrWdCEHgKZduTFfj6hGzr9_y8OFu9bJrC6jwwjNogY3dAbsNsM_XTIZ4GSEepFR6gj807CSYnzwGDVV0q0NUUEm7CLvpGTo7gWlP-aP6Bo7/s1600/images.png"}
+  ];
+
+  var CATS = ["All","GTA/Action","Racing/Bike","Music/Piano","Arcade/Puzzle","Simulation/Sports"];
+  var grid = document.getElementById("gameGrid");
+  var filtersEl = document.getElementById("gynFilters");
+  var statusText = document.getElementById("gynStatusText");
+  var frame = document.getElementById("gameFrame");
+  var playerWrap = document.getElementById("playerWrap");
+  var adInter = document.getElementById("adInterstitial");
+  var skipBtn = document.getElementById("adSkipBtn");
+  var countdownEl = document.getElementById("adCountdown");
+  var interGameName = document.getElementById("interGameName");
+  var currentCat = "All";
+  var activeGame = null;
+  var pendingGame = null;
+  var countdownTimer = null;
+  var gameCount = GAMES.length;
+  var INTER_SECONDS = 5;
+  var AD_EVERY = 6;
+
+  document.querySelectorAll("[data-game-count]").forEach(function (el) { el.textContent = gameCount; });
+  if (statusText) statusText.textContent = "LIVE • " + gameCount + " GAMES";
+
+  function pushAds(root) {
+    var scope = root || document;
+    scope.querySelectorAll("ins.adsbygoogle:not([data-adsbygoogle-status])").forEach(function () {
+      try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+    });
+  }
+
+  function makeAdCard() {
+    var card = document.createElement("div");
+    card.className = "gyn-ad-card";
+    card.setAttribute("data-ad-card", "1");
+    card.innerHTML =
+      '<div class="gyn-ad-card-label">Sponsored</div>' +
+      '<div class="gyn-ad-card-body">' +
+        '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7777536386845474" data-ad-slot="9970802556" data-ad-format="fluid" data-full-width-responsive="true"></ins>' +
+      "</div>";
+    return card;
+  }
+
+  function showAdThenPlay(g) {
+    pendingGame = g;
+    if (interGameName) interGameName.textContent = g.name;
+    adInter.classList.add("show");
+    document.body.style.overflow = "hidden";
+    setTimeout(function () { pushAds(adInter); }, 80);
+    var secs = INTER_SECONDS;
+    skipBtn.disabled = true;
+    skipBtn.textContent = "Play in " + secs + "s";
+    if (countdownEl) countdownEl.textContent = "Please wait " + secs + "s while game loads";
+    clearInterval(countdownTimer);
+    countdownTimer = setInterval(function () {
+      secs--;
+      if (secs <= 0) {
+        clearInterval(countdownTimer);
+        skipBtn.disabled = false;
+        skipBtn.textContent = "▶ Play " + g.name;
+        if (countdownEl) countdownEl.textContent = "Ready — tap to start";
+      } else {
+        skipBtn.textContent = "Play in " + secs + "s";
+        if (countdownEl) countdownEl.textContent = "Please wait " + secs + "s while game loads";
+      }
+    }, 1000);
+  }
+
+  function startGame() {
+    if (!pendingGame) return;
+    var g = pendingGame;
+    pendingGame = null;
+    clearInterval(countdownTimer);
+    adInter.classList.remove("show");
+    activeGame = g;
+    document.getElementById("playerName").textContent = g.name;
+    document.getElementById("playerCat").textContent = g.cat + " • 8games";
+    document.getElementById("playerAvatar").textContent = g.name[0];
+    document.getElementById("playerAvatar").style.background = g.accent;
+    frame.src = g.url;
+    playerWrap.classList.add("show");
+    document.body.style.overflow = "hidden";
+    highlightActive();
+    if (statusText) statusText.textContent = "Playing: " + g.name;
+  }
+
+  function closeGame() {
+    playerWrap.classList.remove("show");
+    frame.src = "about:blank";
+    document.body.style.overflow = "";
+    activeGame = null;
+    highlightActive();
+    if (statusText) statusText.textContent = "LIVE • " + gameCount + " GAMES";
+  }
+
+  skipBtn.addEventListener("click", function () { if (!skipBtn.disabled) startGame(); });
+  document.getElementById("playerClose").onclick = closeGame;
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+      if (adInter.classList.contains("show")) {
+        adInter.classList.remove("show");
+        pendingGame = null;
+        clearInterval(countdownTimer);
+        document.body.style.overflow = "";
+      } else closeGame();
+    }
+  });
+  playerWrap.querySelector(".gyn-player-overlay").addEventListener("click", function (e) {
+    if (e.target === this) closeGame();
+  });
+
+  function highlightActive() {
+    grid.querySelectorAll(".gyn-card").forEach(function (c) {
+      c.classList.toggle("active", activeGame && c.getAttribute("data-id") === activeGame.id);
+    });
+  }
+
+  function renderFilters() {
+    filtersEl.innerHTML = "";
+    CATS.forEach(function (cat) {
+      var btn = document.createElement("button");
+      btn.className = "gyn-filter" + (cat === currentCat ? " active" : "");
+      btn.type = "button";
+      var count = cat === "All" ? GAMES.length : GAMES.filter(function (g) { return g.cat === cat; }).length;
+      btn.innerHTML = cat + (cat !== "All" ? " <span>" + count + "</span>" : "");
+      btn.onclick = function () {
+        currentCat = cat;
+        renderFilters();
+        applyFilters();
+        if (statusText) statusText.textContent = "Filter: " + cat + " • " + (cat === "All" ? GAMES.length : count) + " titles";
+        document.getElementById("gamesSection").scrollIntoView({ behavior: "smooth" });
+      };
+      filtersEl.appendChild(btn);
+    });
+    var fc = document.getElementById("footerCats");
+    if (fc && !fc.children.length) {
+      CATS.forEach(function (cat) {
+        var li = document.createElement("li");
+        var b = document.createElement("button");
+        b.textContent = cat;
+        b.onclick = function () {
+          currentCat = cat;
+          renderFilters();
+          applyFilters();
+          window.scrollTo({ top: 600, behavior: "smooth" });
+        };
+        li.appendChild(b);
+        fc.appendChild(li);
+      });
+    }
+  }
+
+  function applyFilters() {
+    var q = ((document.getElementById("gynSearch") && document.getElementById("gynSearch").value) ||
+             (document.getElementById("gynSearchMobile") && document.getElementById("gynSearchMobile").value) ||
+             "").toLowerCase().trim();
+    var n = 0;
+    grid.querySelectorAll(".gyn-card").forEach(function (card) {
+      var id = card.getAttribute("data-id");
+      var g = GAMES.find(function (x) { return x.id === id; });
+      var hay = g ? (g.name + " " + g.cat).toLowerCase() : "";
+      var ok = (!q || hay.indexOf(q) > -1) && (currentCat === "All" || (g && g.cat === currentCat));
+      card.style.display = ok ? "" : "none";
+      if (ok) n++;
+    });
+    var empty = grid.querySelector(".gyn-empty");
+    if (!n && !empty) {
+      var d = document.createElement("div");
+      d.className = "gyn-empty";
+      d.textContent = 'No games found for "' + q + '" in ' + currentCat + ".";
+      grid.appendChild(d);
+    } else if (n && empty) empty.remove();
+  }
+
+  function buildGrid() {
+    grid.innerHTML = "";
+    var shown = 0;
+    GAMES.forEach(function (g, idx) {
+      var art = document.createElement("article");
+      art.className = "gyn-card";
+      art.setAttribute("data-id", g.id);
+      art.setAttribute("data-cat", g.cat);
+      art.innerHTML =
+        '<div class="gyn-card-thumb">' +
+          '<img src="' + g.img + '" alt="' + g.name + '" loading="lazy"/>' +
+          '<span class="gyn-card-cat">' + g.cat.split("/")[0].toUpperCase() + "</span>" +
+          '<button class="gyn-card-play" type="button" aria-label="Play ' + g.name + '">▶</button>' +
+        "</div>" +
+        '<div class="gyn-card-info">' +
+          '<div style="display:flex;align-items:start;justify-content:space-between;gap:8px">' +
+            '<div class="gyn-card-title">' + g.name + "</div>" +
+            '<span class="gyn-card-dot" style="background:' + g.accent + ";box-shadow:0 0 8px " + g.accent + '"></span>' +
+          "</div>" +
+          '<div class="gyn-card-meta"><button class="gyn-card-btn" type="button">Play</button></div>' +
+          '<div class="gyn-card-footer"><span>HTML5 • Instant</span><span>•</span><span>8games</span></div>' +
+        "</div>";
+      art.querySelector(".gyn-card-play").onclick = function (e) { e.stopPropagation(); showAdThenPlay(g); };
+      art.querySelector(".gyn-card-btn").onclick = function (e) { e.stopPropagation(); showAdThenPlay(g); };
+      art.onclick = function () { showAdThenPlay(g); };
+      grid.appendChild(art);
+      shown++;
+      if (shown % AD_EVERY === 0 && idx < GAMES.length - 1) grid.appendChild(makeAdCard());
+    });
+  }
+
+  var mini = document.getElementById("heroMini");
+  if (mini) {
+    GAMES.slice(0, 6).forEach(function (g) {
+      var d = document.createElement("div");
+      d.className = "gyn-mini-card";
+      d.innerHTML = '<div class="gyn-mini-icon" style="background:' + g.accent + '">' + g.name[0] + '</div><div class="gyn-mini-name">' + g.name + "</div>";
+      d.onclick = function () { showAdThenPlay(g); };
+      mini.appendChild(d);
+    });
+    var cta = document.createElement("div");
+    cta.className = "gyn-mini-cta";
+    cta.innerHTML = "<div>" + gameCount + " GAMES • ONE TAP PLAY</div><div class=\"gyn-mini-cta-ico\">↗</div>";
+    cta.onclick = function () { document.getElementById("gamesSection").scrollIntoView({ behavior: "smooth" }); };
+    mini.appendChild(cta);
+  }
+
+  document.getElementById("btnExplore").onclick = function () {
+    currentCat = "All";
+    renderFilters();
+    applyFilters();
+    document.getElementById("gamesSection").scrollIntoView({ behavior: "smooth" });
+  };
+  document.getElementById("btnLaunch").onclick = function () {
+    var target = GAMES.find(function (g) { return g.id === "subway-surfers"; }) || GAMES[0];
+    if (target) showAdThenPlay(target);
+  };
+
+  var search = document.getElementById("gynSearch");
+  var searchMobile = document.getElementById("gynSearchMobile");
+  if (search) search.oninput = applyFilters;
+  if (searchMobile) {
+    searchMobile.oninput = function () {
+      if (search) search.value = this.value;
+      applyFilters();
+    };
+  }
+  var barSearch = document.getElementById("barSearch");
+  if (barSearch) barSearch.onclick = function () { if (searchMobile) searchMobile.focus(); };
+  document.querySelectorAll(".gyn-app-bar [data-filter]").forEach(function (btn) {
+    btn.onclick = function () {
+      currentCat = btn.getAttribute("data-filter");
+      renderFilters();
+      applyFilters();
+      document.getElementById("gamesSection").scrollIntoView({ behavior: "smooth" });
+    };
+  });
+
+  buildGrid();
+  renderFilters();
+
+  function initPageAds() {
+    pushAds();
+    setTimeout(pushAds, 500);
+    setTimeout(pushAds, 2000);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initPageAds);
+  else initPageAds();
+})();
+</script>
+</body>
+</html>
